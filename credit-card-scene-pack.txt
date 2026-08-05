@@ -1,459 +1,405 @@
 ===============================================================================
-CREDIT CARD SCENE PACK — "THE RECORD"
-Sequel short to your Klarna / BNPL video
-Built on a transcript-level analysis of @MuhammadNuzulDzikri
+CREDIT CARD SCENE PACK — "YOU'VE ALREADY PAID VISA"
+Direct sequel to "You've Already Paid Klarna."
+Channel: Finance % Decoded (@financeundoubtlydecoded) — script format
+Visual grammar: @MuhammadNuzulDzikri — reference only
 Video gen: HIGGSFIELD  |  Voice gen: ELEVENLABS v3
 ===============================================================================
 
 CONTENTS
-  PART 1 — Source analysis (what the data actually shows)
-  PART 2 — The formula, extracted
-  PART 3 — Video spec + visual bible
-  PART 4 — THE SCENE PACK (14 scenes: Higgsfield prompt + VO + on-screen text)
-  PART 5 — ElevenLabs production notes
-  PART 6 — Alternate hooks for A/B testing
-  PART 7 — Title, description, hashtags, pinned comment
-  PART 8 — Accuracy, citations, and things that will get you in trouble
+  PART 1 — Your channel, measured
+  PART 2 — Your format DNA + the strategic read
+  PART 3 — The angle, and why it doesn't cannibalise your existing CC video
+  PART 4 — Visual grammar borrowed from the reference channel
+  PART 5 — THE SCENE PACK (11 scenes)
+  PART 6 — ElevenLabs production
+  PART 7 — Packaging
+  PART 8 — Fact-check: every number in this script
+  PART 9 — What I could not verify, and the 60-second fix
 
 
 ===============================================================================
-PART 1 — SOURCE ANALYSIS
+PART 1 — YOUR CHANNEL, MEASURED
 ===============================================================================
 
-WHAT THE CHANNEL ACTUALLY IS
-Channel: Muhammad Nuzul Dzikri (@MuhammadNuzulDzikri)
-An Indonesian Islamic dakwah channel. Shorts are clipped from live lectures
-(kajian) — single speaker, seated/podium, addressing a room. Spoken Indonesian.
-Titles are bilingual/English-facing. Descriptions are EMPTY and tags are EMPTY
-on every short checked — their reach is purely retention-driven, not SEO.
+Channel display name: "Finance % Decoded". 21 most recent shorts pulled with
+view counts. Listed newest first:
 
-This matters: you are not copying a finance channel. You are copying a
-PREACHING channel's rhetorical engine and pointing it at credit cards.
+     2   You've Already Paid Klarna.                          <- PREDECESSOR
+    31   Is Paper Gold Halal? (Most People Own a Promise)
+    17   How to Tell If Your "Islamic" Mortgage Is Actually Fake
+    35   10 years of payments. You still owe more than you paid.
+    50   How Banks Take Your Money Without Touching It (Inflation Explained)
+   257   £1,461 a month. Only £420 buys your house.
+    39   What Happens If Everyone Asks For Their Money At Once
+  1200   Why You're Born Into Debt 💸
+   715   How to Buy a Car Without Interest (Ijara Explained)
+   125   Your Insurance Keeps Every Dollar You Don't Claim (Takaful Explained)
+   260   Is Your Insurance Even Halal? (Gharar Explained)
+   929   How to Protect Your Savings From Inflation (Sound Money Explained)
+   966   How Banks Quietly Trap Your Savings (And the Halal Way Out)
+  1000   How to Earn Passive Income Without Interest (Sukuk Explained)
+  1000   Why Everything Costs More (The Tax You Never Voted For)
+  1200   How to Buy a House Without Interest (Halal Mortgage Explained)
+   215   How to Buy Anything Without Interest (Murabaha Explained)
+   106   How Your Mortgage Costs You Two Houses (Riba Explained)
+   198   How to Escape the Credit Card Trap (Minimum Payments Explained)  <- !!
+   105   How Banks Create Money Out of Thin Air (Riba Explained)
+   112   How Banks Secretly Profit From Your Savings (Riba Explained)
 
-THE FOUR VIDEOS YOU SENT (verified metadata, not guesses)
+TWO THINGS THIS DATA SAYS, AND YOU SHOULD ACT ON BOTH.
 
-  1. "WUJUDKANLAH CITA-CITA NABIMU ﷺ" — s4IOq2Q-eTY
-     83s | 17,350 views | 1,707 likes | 19 comments | 2 Jul 2025
-     Like rate 9.8%
-     Beat map: village-house renovation anecdote -> "my late mother's dream"
-     -> PIVOT: "if that's between a child and parent, aren't you moved to
-     fulfil the dream of your Prophet ﷺ?" -> hadith of the intended 9th
-     Muharram fast the Prophet ﷺ died before keeping -> landing: "this is
-     very personal, audience. This is about an ummah and its Prophet."
+(1) YOUR TOP TIER IS ALL "HOW TO GET THE THING YOU WANT, WITHOUT INTEREST."
+    Ranked: House 1200 · Born Into Debt 1200 · Sukuk 1000 · Inflation 1000 ·
+    Savings 966 · Sound Money 929 · Car 715. Then a cliff to ~260 and below.
+    Six of your top seven are either a major life purchase (house, car),
+    income, or protecting savings. Those are high-intent, high-search topics.
+    Your "how the bank is scamming you" videos — Create Money Out of Thin Air
+    105, Secretly Profit 112, Two Houses 106 — sit at the bottom.
+    Problem-only videos underperform solution videos on your channel by ~10x.
 
-  2. "DIA MAHA TAHU PERBUATANMU" — qABTFlaIjzU
-     87s | 22,866 views | 2,397 likes | 13 comments | 11 Jul 2025
-     Like rate 10.5%  <- highest engagement of the four
-     Beat map: "Who among us knows how many leaves fell in his yard today,
-     and at what time?" -> escalating forensic detail (hour, minute, second;
-     blown by wind or straight down; the exact point it landed) -> a seed in
-     the darkness of the earth -> a seed dropped in the ocean at night in a
-     storm, under seabed sand -> PIVOT: "so do you think Allah doesn't know
-     which hotel the zina happened in? Which room number? Which floor? Your
-     chats, your video calls, the photos you sent?" -> landing on the divine
-     names.
-     >> THIS IS THE MOST IMPORTANT VIDEO IN THE SET. The pack below is a
-        structural clone of it.
+(2) CREDIT CARDS ALREADY UNDERPERFORMED FOR YOU.
+    "How to Escape the Credit Card Trap (Minimum Payments Explained)" = 198.
+    That is bottom-quartile. So this new video cannot just be "credit cards
+    are bad" again — that has been tested on your audience and it lost.
+    It has to attach to the thing your top tier has: a mechanism nobody has
+    told them about, plus a thing to actually do.
 
-  3. "FAKTA DIBALIK KEKUATAN" — It5F5CFquLg
-     44s | 29,103 views | 2,724 likes | 12 comments | 16 Oct 2025
-     Like rate 9.4% | shortest and most-viewed of the four
-     Beat map: people with wrecked lifestyles who consume haram and stay
-     physically strong -> they become ujub (self-satisfied) -> PIVOT: "THAT
-     is the danger. Be careful of strength." -> the stronger/more beautiful,
-     the greater the risk -> resolution: every advantage carries a test,
-     every hardship carries ease (innama'al-'usri yusra).
-
-  4. Same as #1 (you sent s4IOq2Q-eTY twice with different tracking params).
-
-WIDER CATALOGUE — 60 most recent shorts pulled. Outliers:
-     465,000  Why People Stay Calm During a Crisis
-     230,000  The Emotional Power of Prayer in Arafah
-      89,000  Saving for Hajj Until the Currency Is No Longer Valid
-      87,000  Important Advice for Women Falling in Love
-      81,000  Learning the Meaning of Patience from a Serving of Bitter Melon
-Channel median sits around 13k–25k. So the outliers are 4x–20x the median.
-
-WHAT THE OUTLIERS SHARE (this is the actual lesson)
-Every single breakout opens on a CONCRETE PHYSICAL OBJECT OR SCENE, not an
-idea. A crisis in a Hajj group. A coin tin buried in the ground. A plate of
-bitter melon. A falling leaf. The spiritual point is the payload; the mundane
-object is the delivery vehicle. The channel's low performers open on abstract
-categories ("The Muslim Work Mentality", 26k).
-
-MONEY/DEBT SHORTS ALREADY ON THE CHANNEL — your direct competitive set:
-  qbClcckNvIg  Allah's Solution for Financial Problems       18k
-  BSR7t5Sovck  The Real Consequences Behind Abundant Wealth  23k
-  e4IIzx9TaFs  Peace of Heart In This Economy                23k
-  yC7O3mITIs4  The Unwritten Etiquette of Borrowing Things   13k
-  8DwcI8ENZGg  Sweet in the Mouth, Poison in the Soul        25k
-  l2XOyyjnSgE  Saving for Hajj Until Currency Is No Longer Valid  89k
-Note what's missing: NOTHING on riba, credit, or BNPL directly. That gap is
-your opening.
+That is what the script below is engineered around.
 
 
 ===============================================================================
-PART 2 — THE FORMULA, EXTRACTED
+PART 2 — YOUR FORMAT DNA
 ===============================================================================
 
-Derived from 8 full transcripts. Five beats, in this order, every time:
+TITLE GRAMMAR (from 21 titles, four patterns):
+  A. "How [mechanism] ([Concept] Explained) #tags"     — 11 of 21, dominant
+  B. "Why [counterintuitive fact]"                     — your #1 and #4
+  C. "Is [thing] Halal? / Is Your X Even Halal?"       — mid
+  D. Bare declarative, number-led                      — your newest direction
+     ("£1,461 a month. Only £420 buys your house." / "You've Already Paid
+     Klarna.")
 
-  BEAT 1 — COLD OPEN ON THE MUNDANE (0–8s)
-    Two permitted forms only:
-      (A) ANECDOTE: "Ada..." / "There was a man in his 30s..." — always with
-          a useless-sounding specific detail (his age, the year, the coin
-          denomination). The uselessness is what makes it feel true.
-      (B) DIRECT QUESTION: "Siapa di antara kita tahu...?" / "Who among us
-          knows...?" — a question the viewer CANNOT answer. Never rhetorical
-          in the lazy sense; it must genuinely stump them.
-    Never opens with "Islam says", a statistic, or a definition.
+  Your parenthetical is either an Islamic concept (Riba, Gharar, Takaful,
+  Murabaha, Ijara, Sukuk) or a plain mechanism name (Minimum Payments,
+  Inflation, Sound Money). Both are established in your own catalogue.
 
-  BEAT 2 — FORENSIC ESCALATION (8–35s)
-    The engine of the whole format. Take the mundane thing and narrow into
-    it with increasing, almost obsessive specificity. The leaf video does
-    six escalating steps. Each step must be MORE specific than the last, not
-    merely another example. Specificity, not volume.
+SCRIPT SPINE (reconstructed from title DNA + topic vocabulary — see PART 9):
+  1. HOOK        counterintuitive claim, ideally carrying one hard number
+  2. MECHANISM   how the money actually moves, step by step, in £
+  3. THE NAME    "this is called X" — name the concept the title promised
+  4. THE RULING  brief Islamic framing, no long tafsir
+  5. THE WAY OUT the halal alternative, named and concrete
+  6. SERIES CTA  point at the next/related video
 
-  BEAT 3 — THE PIVOT (35–50s)
-    One sentence turns the camera onto the viewer. Signature constructions:
-      "Lalu apakah Anda berpikir...?"  -> "So do you really think...?"
-      "Tidakkah Anda tergerak...?"     -> "Aren't you moved to...?"
-      "Nah, itu bahaya."               -> "Now THAT is the danger."
-      "Hati-hati dengan..."            -> "Be careful with..."
-    This is where the like-rate is won. 9–10.5% likes on this channel is
-    conviction, not entertainment.
+  Your signature move, visible in "£1,461 a month. Only £420 buys your house."
+  and "10 years of payments. You still owe more than you paid.", is TWO
+  NUMBERS IN COLLISION. One number the viewer thinks they know, one number
+  that guts it. The script below is built on exactly that device.
 
-  BEAT 4 — THE NAMED AUTHORITY (50–70s)
-    Quran cited by surah AND verse number, or a hadith, or a named scholar
-    (Ibnul Qayyim appears by name). Arabic first, then translation. Exactly
-    one to two anchors — the channel never stacks a pile of evidences.
-
-  BEAT 5 — THE LANDING (70–end)
-    Short. Absolute. Quotable. Often a triplet or a flat negation:
-      "There is no alternative. Not wealth, not facilities, not popularity,
-       not power. Only dhikr."
-      "Allah is All-Seeing, All-Hearing, All-Knowing."
-      "Never underestimate Allah's power to help us."
-    Never a call to action. Never "like and subscribe". The landing IS the CTA.
-
-TONAL RULES OBSERVED
-  - Direct address to the room ("hadirin", "jemaah") — creates in-the-room
-    intimacy. Your English equivalent: "listen", "look", or nothing at all.
-  - Self-deprecating humour as a pressure valve mid-video ("Gubrak. If anyone
-    was floored, it was me.") — keeps a heavy topic watchable.
-  - Frequently ends on a soft laugh or exhale. Do not end clean and hard.
-  - Runtime 44–90s. Shortest performed best per-view.
+VOCABULARY YOU ALREADY OWN: riba, gharar, takaful, murabaha, ijara, sukuk,
+halal mortgage, sound money. Currency is £. Audience reads as UK.
 
 
 ===============================================================================
-PART 3 — VIDEO SPEC + VISUAL BIBLE
+PART 3 — THE ANGLE
 ===============================================================================
 
-RUNTIME     84 seconds (14 scenes @ ~6s)
-RATIO       9:16 vertical, 1080x1920
-FPS         24 (cinematic judder; do not use 30)
-STRUCTURE   Beat 1 sc.1-2 | Beat 2 sc.3-5 | Beat 3 sc.6-8 | Beat 4 sc.9-12 |
-            Beat 5 sc.13-14
+CONSTRAINT: "How to Escape the Credit Card Trap (Minimum Payments Explained)"
+already exists. Minimum payments, APR spirals and compounding are BURNED. Do
+not re-run them.
 
-VISUAL BIBLE — keep these constant across every Higgsfield generation or the
-short will look like 14 different videos stitched together:
-  GRADE        Desaturated teal shadows, warm amber practicals, deep blacks,
-               slight film grain, subtle halation on highlights
-  LENS         35mm anamorphic look, T1.8, shallow depth of field, gentle
-               lens breathing
-  LIGHT        Single hard key + heavy negative fill. Hard shadows. Night or
-               interior. Never bright daylight, never flat lighting.
-  MOTION       Slow and deliberate. One camera move per shot, no whip cuts
-               except where specified in scene 8.
-  FACES        Hands, torsos, backs of heads, silhouettes, over-shoulder.
-               AVOID clear frontal faces — AI faces break the spell and
-               invite "this is AI slop" comments.
-  BRANDING     ZERO real logos. No Visa, Mastercard, Klarna, Amex, no real
-               bank marks. Always "unbranded matte black card, blank surface".
-               This is both a Higgsfield quality issue and a trademark issue.
+THE ANGLE THAT CONTINUES KLARNA INSTEAD:
+Your Klarna video's thesis is in its title — "You've Already Paid Klarna."
+The point being that the merchant fee is baked into the shelf price, so the
+cost reaches you whether or not you ever open the app.
 
-Prompts below are fully self-contained — Higgsfield does not carry context
-between generations, so every prompt restates the grade, lens and lighting.
-Paste one prompt per generation. Append your motion preset where indicated.
+Credit cards are the same mechanism, one layer deeper, and almost nobody in
+this niche has covered it:
+
+  • Every card sale costs the merchant a fee (interchange + scheme fee +
+    acquirer margin = the merchant service charge).
+  • Merchants do not run two price lists. They price the fee into the shelf
+    price for everybody.
+  • Therefore the cash payer and the debit payer fund the credit card system
+    too — they simply collect none of the rewards.
+  • Those rewards — cashback, air miles, lounge access — are funded out of
+    that same fee. So the reward flows to the person with the premium card,
+    paid for by the person who has none.
+  • That is a regressive transfer, and it is documented (see PART 8).
+  • Only THEN the riba point: the interest term sits in the contract from the
+    day you sign, whether or not you ever trigger it.
+
+Why this works for your channel specifically:
+  - It is a genuine mechanism reveal, which is your top-tier pattern.
+  - It has the two-numbers-in-collision hook you already use.
+  - It does not repeat the 198-view video.
+  - It sequels your newest upload directly, so it builds a series.
+  - The way out is murabaha/debit — and you already have a murabaha video to
+    point at, which is free retention for an older upload.
 
 
 ===============================================================================
-PART 4 — THE SCENE PACK
+PART 4 — VISUAL GRAMMAR (from the reference channel)
 ===============================================================================
 
--------------------------------------------------------------------------------
-SCENE 01  |  0:00–0:06  |  BEAT 1 — COLD OPEN (callback to the Klarna video)
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Extreme close-up macro shot of a single unbranded matte black plastic card
-lying face down on a dark wet asphalt surface at night, blank surface with no
-logos or text, tiny water droplets beading on it, amber streetlight reflecting
-off one edge, 35mm anamorphic lens at T1.8, extremely shallow depth of field,
-hard single key light from upper left with heavy negative fill, desaturated
-teal shadows and warm amber highlight, deep crushed blacks, fine 35mm film
-grain, subtle halation. Camera slowly dollies in and tilts down toward the
-card. Cinematic, moody, 9:16 vertical, 24fps.
-[Higgsfield motion: Slow Dolly In]
+What is actually distinctive about the @MuhammadNuzulDzikri shorts, observed:
+  - Warm interior light. Tungsten/amber practicals, soft falloff, never cold,
+    never clinical. Lecture-hall warmth.
+  - Single subject, centred, mid-to-close framing. Nothing busy.
+  - LONG takes. Very few cuts. Motion is slow or absent. The camera does not
+    perform.
+  - Caption-forward composition: the middle-lower third is left visually
+    quiet so big burned-in text sits over it cleanly.
+  - Shallow, unfussy depth. Background present but soft.
+  - No transitions, no whips, no flashy graphics.
 
-VO (ElevenLabs):
-[curious] Quick question. [short pause] What did you buy on your credit card
-four months ago?
+Translated to Higgsfield b-roll, every prompt below carries:
+  GRADE   warm amber/tungsten key, soft shadow falloff, gentle contrast,
+          slight film grain, NOT teal-orange, NOT clinical blue
+  LENS    50mm, T2.0, shallow but not extreme, natural
+  MOTION  one slow move per shot, or none. Never fast.
+  COMP    subject upper-third or off-centre, lower-middle left quiet for
+          captions
+  RATIO   9:16, 24fps
 
-ON-SCREEN TEXT:  four months ago.
+BRANDING RULE: name Visa/Klarna in the TITLE and the VO — you already do this
+and it is fine. But never prompt a real logo into a generation. Higgsfield
+renders them as mangled garbage and it is a trademark exposure. Always
+"unbranded", "blank", "no logos".
 
--------------------------------------------------------------------------------
-SCENE 02  |  0:06–0:12  |  BEAT 1 — the unanswerable question lands
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Close-up of a young man's hands only, resting motionless on a dark kitchen
-table at night, a phone face-down beside them, one hand slowly curling into a
-loose fist, no face visible, single warm amber practical lamp off-frame right
-creating a hard rim on the knuckles, deep teal shadows filling the rest of the
-frame, 35mm anamorphic lens T1.8, very shallow depth of field, crushed blacks,
-fine film grain. Camera holds almost static with a barely perceptible push in.
-Cinematic, contemplative, 9:16 vertical, 24fps.
-[Higgsfield motion: Static / Slow Push In]
+PRESENTER NOTE: these are written as pure b-roll. If you cut yourself in on
+camera, use scenes 1, 6 and 11 as your on-camera beats and keep the rest as
+b-roll — that mirrors the reference channel's rhythm of holding on a person
+for the emotional turns.
 
-VO (ElevenLabs):
-[thoughtful] You don't remember. [pause] I don't remember either.
 
-ON-SCREEN TEXT:  You don't remember.
-
--------------------------------------------------------------------------------
-SCENE 03  |  0:12–0:18  |  BEAT 2 — FORENSIC ESCALATION begins
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Macro close-up of a long paper bank statement unspooling from a thermal
-printer in a dark room, dense rows of small printed transaction lines scrolling
-past, no readable brand names or logos, paper curling as it feeds, cold blue
-monitor glow from the left mixing with a single warm amber desk lamp from the
-right, 35mm anamorphic lens T1.8, razor-thin depth of field with only three
-lines of text in focus, desaturated teal shadows, deep blacks, fine film grain,
-subtle halation on the paper edge. Camera tracks sideways along the paper as it
-feeds. Cinematic, clinical, 9:16 vertical, 24fps.
-[Higgsfield motion: Lateral Tracking / Slider Left]
-
-VO (ElevenLabs):
-[serious] But the bank remembers.
-
-ON-SCREEN TEXT:  The bank remembers.
+===============================================================================
+PART 5 — THE SCENE PACK
+===============================================================================
+Target runtime 68s. 11 scenes. Paste one prompt per Higgsfield generation —
+each is fully self-contained because Higgsfield carries no context between
+generations.
 
 -------------------------------------------------------------------------------
-SCENE 04  |  0:18–0:24  |  BEAT 2 — narrowing specificity
+SCENE 01  |  0:00–0:06  |  HOOK — sequel callback
 -------------------------------------------------------------------------------
 HIGGSFIELD PROMPT:
-Extreme macro shot of a single line of small printed text on a paper receipt,
-showing a timestamp and numbers, the rest of the receipt falling out of focus
-into darkness, no brand names or logos anywhere, dust motes drifting through a
-hard shaft of amber light, 35mm anamorphic lens T1.8, extreme shallow depth of
-field, desaturated teal shadow tones, deep crushed blacks, heavy film grain,
-subtle halation. Camera performs a very slow creeping push into the line of
-text until it fills the frame. Cinematic, forensic, tense, 9:16 vertical, 24fps.
-[Higgsfield motion: Crash Zoom In, slow]
-
-VO (ElevenLabs):
-[serious] The item. The store. The time — [short pause] to the second. The
-terminal you tapped. Which hand you held the phone in when you tapped it.
-
-ON-SCREEN TEXT:  To the second.
-
--------------------------------------------------------------------------------
-SCENE 05  |  0:24–0:30  |  BEAT 2 — the escalation peaks
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Wide low-angle shot inside a vast dark server hall, endless rows of black
-server racks stretching into the distance, thousands of tiny blue and amber
-status LEDs blinking, thin haze in the air catching the light, cold blue key
-light with scattered warm amber accents, floor faintly reflective, no logos or
-readable text anywhere, 35mm anamorphic lens T1.8, shallow depth of field,
-desaturated teal grade, deep blacks, fine film grain, strong lens halation on
-the LEDs. Camera glides slowly forward down the centre aisle. Cinematic, cold,
-vast, ominous, 9:16 vertical, 24fps.
-[Higgsfield motion: Dolly In / Steadicam Forward]
-
-VO (ElevenLabs):
-[serious] Four months. Four years. [pause] Every coffee. Every "one time only".
-It is all still sitting there.
-
-ON-SCREEN TEXT:  Every "one time only."
-
--------------------------------------------------------------------------------
-SCENE 06  |  0:30–0:38  |  BEAT 3 — THE PIVOT  *** the money moment ***
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Slow upward tilt from a dark empty city street at night to a vast clear night
-sky dense with stars, the city lights falling away at the bottom of frame, a
-few thin clouds moving slowly, overwhelming sense of scale, cool teal and deep
-indigo sky with faint warm amber glow on the horizon, 35mm anamorphic lens
-T1.8, deep blacks, fine film grain, gentle halation on the brightest stars.
-Camera tilts up smoothly and continuously from street level to zenith.
-Cinematic, awe-struck, reverent, 9:16 vertical, 24fps.
-[Higgsfield motion: Tilt Up]
-
-VO (ElevenLabs):
-[thoughtful] So think carefully. [pause] If a bank — [slowly] run by men who
-will die — [pause] keeps a record that perfect... [serious] do you really think
-Allah keeps a lesser one?
-
-ON-SCREEN TEXT:  Do you really think
-                 Allah keeps a lesser one?
-
--------------------------------------------------------------------------------
-SCENE 07  |  0:38–0:44  |  BEAT 3 — the turn of the knife
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Close-up of an empty upturned human palm in near total darkness, nothing in the
-hand, fingers slowly opening, a single narrow shaft of pale cold light falling
-across the palm from directly above, everything else swallowed by black, 35mm
-anamorphic lens T1.8, extreme shallow depth of field, desaturated teal grade,
-deep crushed blacks, fine film grain. Camera holds static as the light slowly
-intensifies. Cinematic, stark, solemn, 9:16 vertical, 24fps.
-[Higgsfield motion: Static Hold]
-
-VO (ElevenLabs):
-[serious] And here is the difference. The bank's record, you settle with money.
-[pause] [slowly] Allah's record is opened on a Day when nobody has any.
-
-ON-SCREEN TEXT:  A Day when nobody has any.
-
--------------------------------------------------------------------------------
-SCENE 08  |  0:44–0:50  |  BEAT 3 — mechanism reveal (the only fast cut)
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Extreme macro shot of the bottom corner of a printed billing statement, focus
-landing hard on a small boxed number labelled as a minimum amount, the
-surrounding text blurred into illegibility, no brand names or logos, hard
-raking amber light from the right casting long shadows across the paper
-texture, 35mm anamorphic lens T1.8, extreme shallow depth of field,
-desaturated teal shadows, deep blacks, heavy film grain. Camera executes a
-sharp fast snap zoom onto the boxed number, then settles. Cinematic, sudden,
-accusatory, 9:16 vertical, 24fps.
-[Higgsfield motion: Crash Zoom In, fast]
-
-VO (ElevenLabs):
-[serious] Look at your statement. That small number in the corner. [pause] The
-minimum payment. [sharply] That number is not mercy. It is engineering.
-
-ON-SCREEN TEXT:  That number is not mercy.
-
--------------------------------------------------------------------------------
-SCENE 09  |  0:50–0:56  |  BEAT 4 — the trap made concrete
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Slow orbit around a small unbranded matte black plastic card standing upright
-and alone on a dark reflective surface, blank with no logos or text, a long
-hard shadow stretching away from it across the surface, thin haze in the air,
-single hard amber key light from low left, deep teal fill, 35mm anamorphic lens
-T1.8, shallow depth of field, deep crushed blacks, fine film grain, subtle
-halation. Camera orbits slowly around the card through roughly ninety degrees.
-Cinematic, ominous, isolated, 9:16 vertical, 24fps.
-[Higgsfield motion: Orbit / Arc Right]
-
-VO (ElevenLabs):
-[serious] Pay only the minimum, and something you could not even remember
-buying four months ago... [pause] you are still paying for four years from now.
-
-ON-SCREEN TEXT:  Still paying. Four years later.
-
--------------------------------------------------------------------------------
-SCENE 10  |  0:56–1:03  |  BEAT 4 — QURANIC ANCHOR (Ali 'Imran 3:130)
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Close-up of an open antique book with aged cream pages resting on a dark wooden
-surface, pages softly turning by themselves in still air, text not legible,
-single warm amber shaft of light falling across the page from upper left, fine
-dust motes suspended in the beam, deep teal shadows surrounding, 35mm
-anamorphic lens T1.8, shallow depth of field, deep blacks, fine film grain,
-gentle halation. Camera pushes in slowly and steadily on the page. Cinematic,
-reverent, warm, 9:16 vertical, 24fps.
+Close-up of a hand placing a single unbranded matte black plastic card down
+onto a warm wooden café table, blank card surface with no logos or text, a
+half-finished cup of tea beside it, warm amber tungsten light from a window
+off-frame right, soft shadow falloff, gentle contrast, 50mm lens at T2.0,
+shallow natural depth of field, subtle film grain, subject framed in the upper
+third with the lower area of frame left visually quiet and uncluttered. Camera
+holds still with a very slow push in. Warm, intimate, unhurried, cinematic,
+9:16 vertical, 24fps.
 [Higgsfield motion: Slow Push In]
 
-VO (ElevenLabs):
-[serious] Allah said: [slowly] do not consume riba, doubled and multiplied.
-[pause] Surah Ali 'Imran, verse one hundred and thirty.
+VO:
+[serious] Last video, you'd already paid Klarna. [short pause] Even if you
+never used it. [pause] Today it's worse. [slowly] You've already paid Visa too.
 
-ON-SCREEN TEXT:  "...doubled and multiplied."
-                 Qur'an 3:130
-
--------------------------------------------------------------------------------
-SCENE 11  |  1:03–1:09  |  BEAT 4 — the line that makes people screenshot
--------------------------------------------------------------------------------
-HIGGSFIELD PROMPT:
-Macro shot of a stack of coins on a dark surface growing taller and taller in
-smooth stop-motion style, the stack rising past the top of frame, casting an
-increasingly long hard shadow, unbranded generic coins with no readable
-markings, single hard amber key from the left, deep teal shadow fill, 35mm
-anamorphic lens T1.8, shallow depth of field, deep crushed blacks, fine film
-grain. Camera tilts upward following the growing stack. Cinematic, mounting
-dread, 9:16 vertical, 24fps.
-[Higgsfield motion: Tilt Up / Vertical Follow]
-
-VO (ElevenLabs):
-[thoughtful] Doubled. [short pause] And multiplied. [serious] That is not
-poetry. [slowly] That is a compound interest table.
-
-ON-SCREEN TEXT:  That's not poetry.
-                 That's a compound interest table.
+ON-SCREEN TEXT:  You've already paid Visa.
 
 -------------------------------------------------------------------------------
-SCENE 12  |  1:09–1:16  |  BEAT 4 — HADITH ANCHOR (Sahih Muslim 1598)
+SCENE 02  |  0:06–0:12  |  THE COLLISION SET-UP
 -------------------------------------------------------------------------------
 HIGGSFIELD PROMPT:
-Wide symmetrical shot of five empty wooden chairs arranged in a straight row in
-a dark empty hall, all identical, all unoccupied, a single hard shaft of cold
-pale light falling across all five equally from above, dust suspended in the
-air, deep teal shadows swallowing the walls, 35mm anamorphic lens T1.8, shallow
-depth of field, deep crushed blacks, fine film grain, subtle halation. Camera
-dollies slowly backward away from the row of chairs. Cinematic, solemn, formal,
-judicial, 9:16 vertical, 24fps.
-[Higgsfield motion: Dolly Out]
+Close-up of a person's hands counting out paper banknotes and coins on a warm
+wooden shop counter, generic unbranded currency with no readable markings or
+faces, warm amber tungsten light from above left, soft shadows, gentle
+contrast, 50mm lens at T2.0, shallow natural depth of field, subtle film grain,
+hands framed in the upper two-thirds with clear quiet space in the lower frame.
+Camera static, no movement. Warm, tactile, ordinary, cinematic, 9:16 vertical,
+24fps.
+[Higgsfield motion: Static]
 
-VO (ElevenLabs):
-[serious] The Prophet ﷺ cursed the one who consumes riba... [short pause] the
-one who PAYS it... the one who records it... and the two who witness it.
-[pause] [slowly] And he said: they are all the same.
+VO:
+[curious] You don't own a credit card? [short pause] Doesn't matter. [serious]
+You still paid for someone else's.
 
-ON-SCREEN TEXT:  "...they are all the same."
-                 Sahih Muslim 1598
+ON-SCREEN TEXT:  No card? You still paid.
 
 -------------------------------------------------------------------------------
-SCENE 13  |  1:16–1:23  |  BEAT 5 — THE LANDING (Sahih Muslim 1886)
+SCENE 03  |  0:12–0:18  |  MECHANISM — step 1
 -------------------------------------------------------------------------------
 HIGGSFIELD PROMPT:
-Slow motion close-up of fine grey dust and sand pouring downward through still
-air and settling into a small mound in near darkness, individual grains
-catching a single hard shaft of pale cold light from the upper right,
-everything else deep black, thin haze, 35mm anamorphic lens T1.8, extreme
-shallow depth of field, desaturated teal grade, deep crushed blacks, fine film
-grain. Camera holds nearly static with an almost imperceptible drift downward.
-Cinematic, funereal, quiet, final, 9:16 vertical, 24fps.
-[Higgsfield motion: Static / Micro Drift Down]
+Macro close-up of a card payment terminal on a shop counter as a thumb presses
+a button, terminal screen glowing warm with no readable text or logos,
+completely unbranded device, warm amber tungsten light from the left, soft
+shadow falloff, gentle contrast, 50mm lens at T2.0, shallow natural depth of
+field, subtle film grain, terminal positioned upper-centre with quiet dark
+counter space filling the lower frame. Camera holds with an almost
+imperceptible drift in. Warm, ordinary, cinematic, 9:16 vertical, 24fps.
+[Higgsfield motion: Static / Micro Push]
 
-VO (ElevenLabs):
-[sad] Every sin of the martyr is forgiven. [long pause] [whispers] Except debt.
+VO:
+[serious] You spend a hundred pounds. [pause] The shop does not get a hundred
+pounds.
 
-ON-SCREEN TEXT:  Every sin of the martyr
-                 is forgiven — except debt.
-                 Sahih Muslim 1886
+ON-SCREEN TEXT:  £100 spent.
 
 -------------------------------------------------------------------------------
-SCENE 14  |  1:23–1:30  |  BEAT 5 — final line, soft exhale close
+SCENE 04  |  0:18–0:25  |  MECHANISM — the three cuts
 -------------------------------------------------------------------------------
 HIGGSFIELD PROMPT:
-Close-up of a human thumb hovering motionless just above an unbranded dark card
-payment terminal in a dimly lit room, never quite touching it, the terminal
-screen glowing faint amber with no readable text or logos, everything else
-falling into deep shadow, 35mm anamorphic lens T1.8, extreme shallow depth of
-field, desaturated teal shadows, deep crushed blacks, fine film grain, subtle
-halation on the terminal glow. Camera holds static as the hand slowly withdraws
-out of frame. Cinematic, restrained, decisive, 9:16 vertical, 24fps.
-[Higgsfield motion: Static Hold]
+Overhead top-down shot of a stack of unbranded paper banknotes on a warm
+wooden table being separated by two hands into one large pile and three small
+piles, generic currency with no readable markings, warm amber tungsten light
+from upper left, soft shadows, gentle contrast, 50mm lens at T2.0, shallow
+natural depth of field, subtle film grain, action centred in the upper frame
+with quiet table surface below. Camera locked overhead, no movement. Warm,
+methodical, clear, cinematic, 9:16 vertical, 24fps.
+[Higgsfield motion: Static Overhead]
 
-VO (ElevenLabs):
-[thoughtful] So before the next tap, [short pause] ask one question. [whispers]
-Is this worth being asked about? [pause] [exhales] Cut it. [pause] Today.
+VO:
+[serious] The card network takes a cut. The bank that issued the card takes a
+cut. The processor takes a cut. [pause] The shop keeps about ninety-eight.
 
-ON-SCREEN TEXT:  Cut it. Today.
+ON-SCREEN TEXT:  £100 in.
+                 ~£98 to the shop.
+
+-------------------------------------------------------------------------------
+SCENE 05  |  0:25–0:31  |  MECHANISM — the merchant's move
+-------------------------------------------------------------------------------
+HIGGSFIELD PROMPT:
+Close-up of a shopkeeper's hands writing a new price onto a small paper price
+tag with a pen, then propping it up beside goods on a warm wooden shelf,
+handwriting not legible, no brand names anywhere, warm amber tungsten light
+from the right, soft shadow falloff, gentle contrast, 50mm lens at T2.0,
+shallow natural depth of field, subtle film grain, hands and tag in the upper
+frame with quiet shelf space below. Camera performs one slow lateral drift
+right. Warm, quiet, matter-of-fact, cinematic, 9:16 vertical, 24fps.
+[Higgsfield motion: Slow Slider Right]
+
+VO:
+[curious] So what does the shop do? [short pause] It doesn't absorb it.
+[serious] It puts it in the price. [pause] One price. For everyone.
+
+ON-SCREEN TEXT:  One price. For everyone.
+
+-------------------------------------------------------------------------------
+SCENE 06  |  0:31–0:38  |  THE PIVOT  *** the moment of the video ***
+-------------------------------------------------------------------------------
+HIGGSFIELD PROMPT:
+Medium shot from behind and slightly above of an ordinary older man in a plain
+jacket standing at a shop counter paying with paper cash, only his back and
+hands visible, no face shown, warm amber tungsten light from the shop window
+ahead of him casting a soft rim on his shoulders, soft shadow falloff, gentle
+contrast, 50mm lens at T2.0, shallow natural depth of field, subtle film grain,
+figure framed slightly off-centre in the upper two-thirds with quiet floor
+space below. Camera holds still, no movement. Warm, human, quietly sad,
+cinematic, 9:16 vertical, 24fps.
+[Higgsfield motion: Static]
+
+VO:
+[thoughtful] Which means the man paying in cash... [pause] is paying the card
+fee too. [serious] He just doesn't get the points.
+
+ON-SCREEN TEXT:  He pays the fee.
+                 He gets no points.
+
+-------------------------------------------------------------------------------
+SCENE 07  |  0:38–0:45  |  WHO THE MONEY ACTUALLY GOES TO
+-------------------------------------------------------------------------------
+HIGGSFIELD PROMPT:
+Close-up of an airport lounge interior at golden hour, an empty leather
+armchair beside a small table with a glass of orange juice, floor-to-ceiling
+window with soft warm light flooding in, aircraft tail visible far outside
+completely blurred and unbranded, no logos or readable signage anywhere, warm
+amber tungsten and golden daylight mix, soft shadows, gentle contrast, 50mm
+lens at T2.0, shallow natural depth of field, subtle film grain, chair in the
+upper two-thirds with quiet carpet space below. Camera performs one slow push
+in. Warm, comfortable, faintly obscene, cinematic, 9:16 vertical, 24fps.
+[Higgsfield motion: Slow Push In]
+
+VO:
+[serious] That fee funds the cashback. The air miles. [short pause] The airport
+lounge. [pause] [slowly] Paid for by everybody who doesn't have them.
+
+ON-SCREEN TEXT:  Rewards aren't free.
+                 They're transferred.
+
+-------------------------------------------------------------------------------
+SCENE 08  |  0:45–0:52  |  THE EVIDENCE
+-------------------------------------------------------------------------------
+HIGGSFIELD PROMPT:
+Close-up of an open printed research report on a warm wooden desk, dense body
+text and a simple bar chart on the page, text not legible, a pair of reading
+glasses resting on the corner, warm amber desk lamp light from upper left, soft
+shadow falloff, gentle contrast, 50mm lens at T2.0, shallow natural depth of
+field, subtle film grain, page filling the upper frame with quiet desk surface
+below. Camera holds with a slow drift down the page. Warm, studious, credible,
+cinematic, 9:16 vertical, 24fps.
+[Higgsfield motion: Slow Tilt Down]
+
+VO:
+[serious] The Federal Reserve Bank of Boston ran the numbers on this. [pause]
+Their finding: cash payers subsidise card rewards. And the money moves from
+lower income households [short pause] to higher income ones.
+
+ON-SCREEN TEXT:  Boston Fed, 2010
+                 (US data)
+
+-------------------------------------------------------------------------------
+SCENE 09  |  0:52–0:58  |  THE RULING — kept short, deliberately
+-------------------------------------------------------------------------------
+HIGGSFIELD PROMPT:
+Close-up of a printed credit agreement document on a warm wooden table with a
+pen resting on the signature line, dense small print not legible, no brand
+names or logos anywhere, warm amber tungsten light raking from the right
+casting long soft shadows across the paper texture, gentle contrast, 50mm lens
+at T2.0, shallow natural depth of field, subtle film grain, document in the
+upper two-thirds with quiet table space below. Camera performs one slow push
+toward the signature line. Warm, weighty, serious, cinematic, 9:16 vertical,
+24fps.
+[Higgsfield motion: Slow Push In]
+
+VO:
+[serious] And that's before the riba. [pause] The interest term is in the
+contract from the day you sign it — [slowly] whether you ever trigger it or
+not.
+
+ON-SCREEN TEXT:  The clause is signed on day one.
+
+-------------------------------------------------------------------------------
+SCENE 10  |  0:58–1:04  |  THE WAY OUT
+-------------------------------------------------------------------------------
+HIGGSFIELD PROMPT:
+Close-up of a hand sliding a plain unbranded debit-style card back into a worn
+brown leather wallet and closing it, blank card with no logos or text, warm
+amber tungsten light from above left, soft shadow falloff, gentle contrast,
+50mm lens at T2.0, shallow natural depth of field, subtle film grain, wallet
+and hands in the upper two-thirds with quiet surface below. Camera static as
+the wallet closes. Warm, decisive, calm, cinematic, 9:16 vertical, 24fps.
+[Higgsfield motion: Static]
+
+VO:
+[thoughtful] So — debit over credit. Cash where it's practical. [short pause]
+And if you genuinely need to spread a purchase, [serious] use murabaha. A real
+sale. Fixed price. No interest clause.
+
+ON-SCREEN TEXT:  Debit. Cash. Murabaha.
+
+-------------------------------------------------------------------------------
+SCENE 11  |  1:04–1:08  |  SERIES CTA
+-------------------------------------------------------------------------------
+HIGGSFIELD PROMPT:
+Wide shot of a quiet warm café interior at golden hour, an empty wooden table
+in the foreground with a closed leather wallet on it, soft window light
+flooding from the right, out-of-focus warm interior behind, no signage or logos
+anywhere, warm amber tungsten grade, soft shadows, gentle contrast, 50mm lens
+at T2.0, shallow natural depth of field, subtle film grain, table in the lower
+third with open quiet space above for text. Camera holds still. Warm, settled,
+resolved, cinematic, 9:16 vertical, 24fps.
+[Higgsfield motion: Static]
+
+VO:
+[serious] Murabaha's already on the channel. [short pause] Go watch that one
+next.
+
+ON-SCREEN TEXT:  Murabaha explained →
+                 on the channel
 
 ===============================================================================
 END OF SCENE PACK
@@ -461,219 +407,181 @@ END OF SCENE PACK
 
 
 ===============================================================================
-PART 5 — ELEVENLABS PRODUCTION NOTES
+PART 6 — ELEVENLABS PRODUCTION
 ===============================================================================
 
-MODEL       Eleven v3 (audio tags in square brackets only work on v3; v2 will
-            read them aloud as literal text — this is the single most common
-            mistake, check your model selector before you generate).
+MODEL: Eleven v3. Square-bracket audio tags only work on v3 — on v2 the voice
+reads them aloud as words. Check the model selector before you generate.
 
-CRITICAL — DO NOT GENERATE SCENE BY SCENE
-v3 is unstable on very short inputs. Several VO lines above are under 100
-characters and will come out with random emotion drift if generated alone.
-Generate in the four BLOCKS below (each is comfortably over 250 characters),
-then cut the audio to picture in your editor. This is the difference between a
-professional read and an AI read.
+GENERATE IN THESE THREE BLOCKS, NOT SCENE BY SCENE. v3 destabilises on very
+short inputs and half the lines above are under 100 characters. Generate the
+blocks, then cut to picture in your editor.
 
   BLOCK A (scenes 1–5):
-  [curious] Quick question. [short pause] What did you buy on your credit card
-  four months ago? [thoughtful] You don't remember. [pause] I don't remember
-  either. [serious] But the bank remembers. The item. The store. The time — [short
-  pause] to the second. The terminal you tapped. Which hand you held the phone in
-  when you tapped it. [pause] Four months. Four years. [pause] Every coffee. Every
-  "one time only". It is all still sitting there.
+  [serious] Last video, you'd already paid Klarna. [short pause] Even if you
+  never used it. [pause] Today it's worse. [slowly] You've already paid Visa
+  too. [curious] You don't own a credit card? [short pause] Doesn't matter.
+  [serious] You still paid for someone else's. You spend a hundred pounds.
+  [pause] The shop does not get a hundred pounds. The card network takes a cut.
+  The bank that issued the card takes a cut. The processor takes a cut. [pause]
+  The shop keeps about ninety-eight. [curious] So what does the shop do? [short
+  pause] It doesn't absorb it. [serious] It puts it in the price. [pause] One
+  price. For everyone.
 
-  BLOCK B (scenes 6–9):
-  [thoughtful] So think carefully. [pause] If a bank — [slowly] run by men who
-  will die — [pause] keeps a record that perfect... [serious] do you really think
-  Allah keeps a lesser one? [pause] And here is the difference. The bank's record,
-  you settle with money. [pause] [slowly] Allah's record is opened on a Day when
-  nobody has any. [serious] Look at your statement. That small number in the
-  corner. [pause] The minimum payment. [sharply] That number is not mercy. It is
-  engineering. Pay only the minimum, and something you could not even remember
-  buying four months ago... [pause] you are still paying for four years from now.
+  BLOCK B (scenes 6–8):
+  [thoughtful] Which means the man paying in cash... [pause] is paying the card
+  fee too. [serious] He just doesn't get the points. That fee funds the
+  cashback. The air miles. [short pause] The airport lounge. [pause] [slowly]
+  Paid for by everybody who doesn't have them. [serious] The Federal Reserve
+  Bank of Boston ran the numbers on this. [pause] Their finding: cash payers
+  subsidise card rewards. And the money moves from lower income households
+  [short pause] to higher income ones.
 
-  BLOCK C (scenes 10–12):
-  [serious] Allah said: [slowly] do not consume riba, doubled and multiplied.
-  [pause] Surah Ali 'Imran, verse one hundred and thirty. [thoughtful] Doubled.
-  [short pause] And multiplied. [serious] That is not poetry. [slowly] That is a
-  compound interest table. [pause] The Prophet, peace be upon him, cursed the one
-  who consumes riba... [short pause] the one who PAYS it... the one who records
-  it... and the two who witness it. [pause] [slowly] And he said: they are all the
-  same.
-
-  BLOCK D (scenes 13–14):
-  [sad] Every sin of the martyr is forgiven. [long pause] [whispers] Except debt.
-  [thoughtful] So before the next tap, [short pause] ask one question. [whispers]
-  Is this worth being asked about? [pause] [exhales] Cut it. [pause] Today.
+  BLOCK C (scenes 9–11):
+  [serious] And that's before the riba. [pause] The interest term is in the
+  contract from the day you sign it — [slowly] whether you ever trigger it or
+  not. [thoughtful] So — debit over credit. Cash where it's practical. [short
+  pause] And if you genuinely need to spread a purchase, [serious] use
+  murabaha. A real sale. Fixed price. No interest clause. Murabaha's already on
+  the channel. [short pause] Go watch that one next.
 
 VOICE SETTINGS
-  Stability      Natural (~50). Do NOT use Robust — it flattens the tags.
-                 Creative drifts and will invent emotion you didn't ask for.
-  Similarity     ~75
-  Speed          0.92–0.95. The gravitas in this format comes from pace.
-  Style exagg.   Low. The tags are doing the work already.
+  Stability     Natural (~50). Robust flattens the tags; Creative invents
+                emotion you didn't write.
+  Similarity    ~75
+  Speed         0.95. Your format is number-led — the listener needs the beat
+                after each figure to actually register it.
+  Style exagg.  Low.
 
-VOICE CASTING
-  Male, 30s–40s, warm low-mid chest register, unhurried, slight rasp. You want
-  "someone who has been through this", not "narrator". Avoid the bright
-  American podcast voices — they kill the reverence.
+CASTING: male, 30s, UK or neutral-transatlantic, mid-chest register, calm and
+unhurried. You are explaining, not selling. Avoid the bright US
+finance-bro read — it undercuts the credibility the Boston Fed line buys you.
 
 TAG DISCIPLINE
-  - "ﷺ" will NOT be pronounced. In BLOCK C it is written out as "peace be upon
-    him" deliberately. Keep it that way in the audio, keep the ﷺ glyph in the
-    on-screen text.
-  - Tags shape delivery probabilistically, not deterministically. Expect to
-    re-roll 2–4 times per block. Keep the seed of the take you like.
-  - CAPS on "PAYS" in BLOCK C is intentional — v3 reads capitalisation as
-    emphasis. Don't lowercase it.
-  - Ellipses "..." create natural hesitation. They are load-bearing here.
-  - Don't stack more than two tags in a row; v3 starts ignoring them.
+  - "£100" reads unreliably. It is written "a hundred pounds" in the blocks
+    above deliberately. Keep the numerals in the ON-SCREEN TEXT only.
+  - Ellipses create real hesitation and are load-bearing in scene 6.
+  - Don't stack more than two tags consecutively — v3 starts dropping them.
+  - Expect 2–4 re-rolls per block. Keep the seed of the take you like.
 
 
 ===============================================================================
-PART 6 — ALTERNATE HOOKS FOR A/B TESTING
+PART 7 — PACKAGING
 ===============================================================================
 
-The first 3 seconds decide the video. Cut three versions of scene 1–2 only,
-keep everything from scene 3 onward identical, and post the winner.
+TITLES — in your own grammar, best first:
+  1. You've Already Paid Visa. (Interchange Explained)
+       -> pattern D + your parenthetical. Directly sequels the Klarna upload.
+  2. How Your Card Charges People Who Don't Own One (Interchange Explained)
+       -> pattern A, your dominant and top-performing shape.
+  3. Why Cash Payers Fund Your Air Miles (Interchange Explained)
+       -> pattern B, which produced two of your top four.
+  4. £100 spent. £98 to the shop. You paid either way.
+       -> pure pattern D, mirrors your £1,461/£420 title exactly.
 
-HOOK B — "the anecdote open" (channel's other permitted form; mirrors the
-Hajj-savings video that did 89k):
-  [thoughtful] There was a brother, twenty-nine years old. [short pause] He
-  told me he had one credit card. [pause] For emergencies. [serious] That was
-  eleven thousand in debt ago.
-  Visual: macro of a card being slid into a wallet, hard amber key, slow push in.
+  My call: title 2. Your data says "How [mechanism] ([Concept] Explained)" is
+  your highest-ceiling shape, and "people who don't own one" is the curiosity
+  gap. Use title 1 as the pinned-comment framing so the Klarna sequel link is
+  still explicit.
 
-HOOK C — "the direct callback" (strongest if the Klarna video performed):
-  [serious] Last week we talked about Klarna. [pause] A lot of you commented
-  that you don't use it. [short pause] [curious] Fine. [pause] Open your
-  banking app. Look at the second card.
-  Visual: phone screen glow lighting a face from below in a dark room, no
-  readable UI, slow push in.
+DESCRIPTION:
+  Part 2 of the payments series. Part 1 was Klarna.
+  Every card sale costs the shop a fee. The shop doesn't run two price lists —
+  it puts the fee in the price. So the cash payer funds the rewards programme
+  they'll never collect.
 
-HOOK D — "the weight" (most scroll-stopping, least on-formula):
-  [curious] A credit card weighs five grams. [pause] Five grams of plastic.
-  [serious] It has no engine. No voice. It cannot follow you anywhere. [pause]
-  [slowly] So explain how it got into your marriage.
-  Visual: macro of a card on a jeweller's brass scale, hard raking light.
+  The halal way out: debit, cash, or murabaha for genuine deferred purchases.
 
-My call: run HOOK C first. It converts your existing Klarna audience and the
-"look at the second card" line is a physical instruction, which spikes
-retention because people actually do it.
+  Interchange caps: UK/EU consumer credit cards are capped at 0.3% by
+  regulation — but the merchant's all-in cost (scheme fees + acquirer margin)
+  lands nearer 1.5–2% for a small business. Rewards research: Schuh, Shy &
+  Stavins, Federal Reserve Bank of Boston, 2010 (US data).
 
+  Not financial advice. For your own situation ask someone qualified.
 
-===============================================================================
-PART 7 — TITLE, DESCRIPTION, HASHTAGS, PINNED COMMENT
-===============================================================================
+HASHTAGS  #creditcard #interchange #riba #islamicfinance #murabaha #halalmoney
+          #shorts
 
-TITLES (the source channel's own format is TOPIC | Name -Hafizhahullah- #shorts.
-Yours is a different channel, so use benefit + curiosity gap):
-  1. The Bank Remembers Everything You Forgot #shorts
-  2. Your Credit Card Keeps a Record. So Does Allah. #shorts
-  3. That "Minimum Payment" Is Not Mercy #shorts
-  4. Every Sin of the Martyr Is Forgiven — Except This #shorts
-Pick 1 or 2. Number 4 is the highest CTR but borders on bait; only use it if
-you are comfortable that the video fully delivers on it (it does, at 1:16).
+PINNED COMMENT — pre-empts the one comment you will definitely get:
+  "I pay my balance in full every month so this doesn't apply to me."
+  The interchange fee applies on every transaction whether or not you ever pay
+  a penny of interest — that's the whole point of this video. On the riba
+  question specifically, scholars differ on a card where interest is never
+  triggered because the dispute is about the CONTRACT, not the outcome. Take
+  that one to someone qualified. 👇
 
-DESCRIPTION (the source channel leaves these EMPTY — that is a mistake you
-should not copy; it costs them search and suggested traffic):
-  Part 2 of the debt series. Part 1 was Klarna and buy-now-pay-later.
-  Everything the bank records, and the record that actually matters.
-
-  References in this video:
-  • Qur'an, Surah Ali 'Imran 3:130
-  • Qur'an, Surah Al-Baqarah 2:275–281
-  • Sahih Muslim 1598 — the curse on riba includes the one who pays it
-  • Sahih Muslim 1886 — the martyr's debt
-  • Sahih al-Bukhari 2397 — the Prophet's ﷺ refuge from debt
-
-  This is a reminder, not a fatwa. For your own situation, ask a qualified
-  scholar.
-
-HASHTAGS  #riba #debtfree #islamicfinance #creditcard #muslim #shorts #dawah
-
-PINNED COMMENT (post this yourself immediately — it pre-empts the single most
-predictable argument in your comments and converts it into engagement):
-  "But I pay my balance in full every month so I never pay interest."
-  Understood — and that is genuinely better than the alternative. The scholarly
-  discussion there is about whether the CONTRACT you signed stipulates interest,
-  even in the months you never trigger it. Positions differ. Bring it to someone
-  qualified. What isn't disputed is Sahih Muslim 1598, and what the minimum
-  payment does to everyone who doesn't pay in full. 👇
-
-DEEP-DIVE HOOK: end your caption with "Part 3 is on car finance." Series
-framing is the cheapest retention mechanism you have and this channel's
-competitor isn't using it.
+SERIES HOOK: end the caption with "Part 3: your overdraft." You have zero
+series framing across 21 uploads and it is the cheapest retention mechanism
+available to you.
 
 
 ===============================================================================
-PART 8 — ACCURACY, CITATIONS, AND THINGS THAT WILL GET YOU IN TROUBLE
+PART 8 — FACT-CHECK: EVERY NUMBER IN THIS SCRIPT
 ===============================================================================
 
-CITATIONS — every reference in this pack was checked. Use these exact wordings.
+"The shop keeps about ninety-eight" (~2% merchant service charge)
+  Defensible for a SMALL UK merchant on a blended rate. Typical UK small-
+  business all-in card cost runs roughly 1.5–2% once scheme fees and acquirer
+  margin sit on top of interchange. Blended providers advertise around 1.75%.
+  CAVEATS YOU SHOULD KNOW BEFORE SOMEONE POSTS THEM:
+    - UK/EU consumer credit card INTERCHANGE alone is capped at 0.3% (0.2%
+      debit). The ~2% is the merchant's TOTAL cost, not interchange. The
+      script says "the shop keeps about ninety-eight" and never says the word
+      interchange in the VO — keep it that way, it is the accurate framing.
+    - Large retailers negotiate materially lower rates.
+    - Amex typically costs the merchant more.
+    - Commercial cards and non-UK-issued cards are not capped.
+  If you want to be bulletproof, say "about ninety-eight" not "exactly
+  ninety-eight". The script already does.
 
-  Qur'an, Ali 'Imran 3:130
-    "yā ayyuhal-ladhīna āmanū lā ta'kulur-ribā aḍ'āfam muḍā'afah"
-    "O you who believe, do not consume riba, doubled and multiplied."
-    -> "aḍ'āfam muḍā'afah" genuinely does mean doubled and multiplied. The
-       compound-interest line in scene 11 is a fair reading, not a stretch.
+"Federal Reserve Bank of Boston... cash payers subsidise card rewards, money
+moves from lower income to higher income households"
+  Real. Schuh, Shy & Stavins, "Who Gains and Who Loses from Credit Card
+  Payments? Theory and Calibrations", FRB Boston Public Policy Discussion
+  Paper No. 10-03, 2010. Its headline calibration is that the average cash-
+  paying household transfers ~$151/year to card-paying households, and the
+  average card-paying household receives ~$1,482/year, with a regressive
+  income gradient.
+  IT IS US DATA AND IT IS FROM 2010. The on-screen text labels it as such.
+  Do not present it as UK or as current. If you want to quote the dollar
+  figures on screen, label them "US, 2010" too.
 
-  Qur'an, Al-Baqarah 2:275–281
-    The riba passage. Note for your own confidence: it CLOSES at 2:281 with
-    "and fear a Day when you will be returned to Allah, then every soul will
-    be paid in full for what it earned" — "paid in full", tuwaffā, is
-    settlement vocabulary. The record/settlement spine of this whole script is
-    built on that real Qur'anic sequence. That is why the structure holds.
+"The interest term is in the contract from the day you sign it"
+  Accurate as a description of a conventional credit card agreement — the
+  interest provision exists in the agreement regardless of whether a balance
+  is ever carried. Note the script states this as a FACT ABOUT THE CONTRACT
+  and does not issue a ruling. That is deliberate: contemporary scholars
+  genuinely differ on cards where interest is never incurred, and the pinned
+  comment handles it honestly rather than pretending the difference away.
+  Don't "strengthen" this line into a verdict.
 
-  Sahih Muslim 1598 (Jabir ibn Abdullah)
-    The Messenger ﷺ cursed the one who consumes riba, the one who pays it,
-    the one who records it, and its two witnesses, and said: "They are all
-    the same." — Authentic, Sahih Muslim.
+WHAT THIS SCRIPT DELIBERATELY DOES NOT DO
+  It does not repeat minimum payments, APR, or compounding. That is your
+  198-view video. Every second here is spent on the mechanism you have not
+  covered.
 
-  Sahih Muslim 1886 (Abdullah ibn 'Amr)
-    "Every sin of the martyr is forgiven except debt." — Authentic, Sahih
-    Muslim.
 
-  Sahih al-Bukhari 2397 ('Aisha)
-    The Prophet ﷺ sought refuge from sin and debt. Asked why so often, he
-    said: "When a man falls into debt, he speaks and lies, and he promises
-    and breaks it." — Authentic, Sahih al-Bukhari. Not used in the 84s cut;
-    it is your best material if you extend to 2 minutes or make a Part 2b.
+===============================================================================
+PART 9 — WHAT I COULD NOT VERIFY, AND THE 60-SECOND FIX
+===============================================================================
 
-  OPTIONAL — Jami' at-Tirmidhi 1078 (Abu Hurairah)
-    "The soul of the believer is suspended by his debt until it is paid."
-    Graded HASAN, not sahih. If you use it, say "reported by at-Tirmidhi"
-    rather than implying Bukhari/Muslim grading. Comment sections check this.
+VERIFIED: all 21 titles, all view counts, your channel display name, your
+topic vocabulary, your title grammar, your predecessor upload, and the fact
+that a credit card video already exists at 198 views.
 
-TWO THINGS TO GET RIGHT
+NOT VERIFIED: your verbatim narration. YouTube hard-blocked transcript
+extraction from this environment partway through the job ("Sign in to confirm
+you're not a bot"), and it did not clear across multiple clients, a JS runtime
+install, and mirror instances. So the SCRIPT SPINE in PART 2 is reconstructed
+from your title grammar, your topic vocabulary and your view distribution —
+not from hearing you speak.
 
-  1. DON'T IMPERSONATE THE SOURCE SPEAKER.
-     Ustadz Muhammad Nuzul Dzikri is a living scholar. Copy the STRUCTURE —
-     the mundane open, the forensic escalation, the pivot — which is what this
-     pack does. Do not clone his voice, do not use his likeness, and do not
-     put religious rulings into an AI voice presented as his. Beyond the
-     obvious ethics, it is a fast route to a copyright/likeness strike and it
-     would misattribute a fatwa to a real person. Your narration here is
-     original and unattributed to any individual — keep it that way.
+What that means practically: the STRUCTURE and the ANGLE are built on hard
+data and I'd stand behind them. The SENTENCE RHYTHM is my best reconstruction.
 
-  2. THE SCRIPT DELIBERATELY ISSUES NO RULING IN YOUR OWN VOICE.
-     Read it back: the narrator never says "credit cards are haram." The
-     Qur'an and the two authentic hadith carry the weight, plus the observable
-     mechanics of minimum payments. This is exactly what the source channel
-     does, and it is also what keeps you out of trouble you are not qualified
-     to be in. The contemporary fiqh on conventional cards where interest is
-     never actually incurred is a genuinely differed matter — the pinned
-     comment in Part 7 handles that honestly rather than pretending it away.
-     Resist the urge to "strengthen" the script by adding a verdict.
-
-PRODUCTION SANITY CHECKS BEFORE YOU PUBLISH
-  □ No real card-network or bank logos survived into any generation
-  □ No clear frontal AI faces
-  □ Captions burned in (85%+ of Shorts play muted at first)
-  □ Loop check: scene 14's last frame against scene 1's first frame — both are
-    dark macro shots, so this loops almost seamlessly. Exploit it.
-  □ Verse and hadith numbers on screen match the audio
-  □ Total runtime under 90s
+THE FIX — paste me the VO of "You've Already Paid Klarna." (or any one of your
+scripts) and I'll rewrite every VO line in this pack to your exact cadence,
+sentence length and vocabulary in one pass. The Higgsfield prompts, the angle,
+the fact-check and the packaging all stay as they are — only the words change.
 
 ===============================================================================
