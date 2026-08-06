@@ -1,69 +1,91 @@
 # Track A — Higgsfield generation notes
 
-Status: **not generated.** Blocked on the unlimited requirement. Zero credits spent.
+Status: **not generated via API.** Generate in the Higgsfield app instead, where Unlimited
+mode works. Zero credits spent.
 
-## The blocker
+## The finding
 
-The brief was "generate on Seedance 2 unlimited, don't use any credits." That combination
-does not exist on Higgsfield.
+Unlimited mode **is** live on this account for Seedance 2.0 — confirmed by screenshot of the
+app's Create Video panel: Seedance 2.0, 5s, 9:16, 1080p, Bitrate High, Unlimited mode toggled
+on, and a `Generate Unlimited` button.
 
-Checked against the live API, not assumed:
+It is not reachable through the MCP API. Those are both true at once, and the split is the
+whole story:
 
-| Check | Result |
+| Surface | Unlimited on Seedance 2.0 |
 |---|---|
-| `models_explore(seedance_2_0)` | `supports_unlim: true`, but account allowance `unlim: {available: false, remaining: null}` |
-| Submitted A03 with `use_unlim: true` | Rejected: `"Unlimited generations aren't supported for seedance_2_0."` |
-| Account | Plus plan, 238.05 credits |
-| `unlim_trial_in_mcp_active` | `false` |
-| `trial_status.eligible` | `false` |
+| Higgsfield app (web / mobile) | **Works** — `Generate Unlimited` |
+| MCP API (`generate_video` / `generate_video_batch`) | **Refused** |
 
-Plan config shows Seedance 2.0 / Seedance 2.0 Fast as **`FULL ACCESS`** on both Plus and
-Ultra — the model is unlocked, not free. The `UNLIMITED` badges apply only to image models
-(Nano Banana, Nano Banana 2, Nano Banana Pro, Seedream 4.5, Seedream 5.0 Lite, Flux.2 Pro,
-Kling O1 Image, GPT Image) and to **Kling 3.0** video at 720p/5s for 7 days on annual plans.
-Every unlimited tooltip reads "Available on web" — those allowances do not apply to MCP
-generations regardless.
+API evidence, four submission attempts:
 
-**Upgrading raises the credit allowance; it does not make Seedance 2.0 free.**
+- `models_explore(seedance_2_0)` → `supports_unlim: true`, account allowance
+  `unlim: {available: false, remaining: null}`
+- Every `use_unlim: true` submit → `"Unlimited generations aren't supported for seedance_2_0."`
+- Retried after `select_workspace` (the sole workspace showed `is_selected: false`, a plausible
+  cause) — same refusal, so that was not it
+- Retried at the exact app settings including `bitrate_mode: "high"` — same refusal
+- `unlim_trial_in_mcp_active: false`
 
-## Cost, if paying in credits
+Consistent with the plan config, where every unlimited tooltip reads **"Available on web"** and
+Seedance 2.0 is listed as `FULL ACCESS` rather than `UNLIMITED`.
 
-Preflighted with `get_cost` (no charge):
+**Correction to an earlier version of this file:** it stated that no plan tier makes Seedance 2.0
+unlimited, and recommended a credit top-up. That was wrong. The entitlement exists on this plan;
+it is the API surface that lacks it. Do not buy credits for this.
 
-| Config | 10s | 5s | Full pack (6x10s + 5x5s) |
+## Do not pay for this
+
+Generating the pack through the API would cost **765 credits** (6x10s @ 90, 5x5s @ 45, 1080p std)
+against a balance of 238.05. Irrelevant now — the app path is free. Recorded only so the number
+isn't re-derived later.
+
+## Run it in the app
+
+Paste-ready sheet with per-clip settings and tap-to-copy prompts:
+`higgsfield-seedance2-batch.json` holds the same 11 prompts as structured data.
+
+App settings — set once:
+
+| Setting | Value |
+|---|---|
+| Model | Seedance 2.0 |
+| Aspect ratio | 9:16 |
+| Resolution | 1080p |
+| Bitrate | High |
+| Unlimited mode | On |
+| Audio | **Off** |
+
+Audio defaults to On in the app and must be turned off — these are silent plates, VO and BURN-IN
+text are added in the edit per the brief.
+
+Duration changes per clip; use the GEN column, not LEN:
+
+| Clip | GEN | Clip | GEN |
 |---|---|---|---|
-| Seedance 2.0 · 1080p · std | 90 | 45 | **765** |
-| Seedance 2.0 · 720p · fast | 35 | ~18 | ~298 |
-| Seedance 2.0 Mini · 720p | 25 | ~13 | ~213 |
+| A01 | 10s | A07 | 10s |
+| A02 | 10s | A08 | 5s |
+| A03 | 5s | A09 | 10s |
+| A04 | 5s | A10 | 5s |
+| A05 | 10s | A11 | 10s |
+| A06 | 5s | | |
 
-Balance is 238.05, so the 1080p pack the brief specifies is short by ~527 credits.
+Order: **A03 first** — it is the clerk reference frame. Regenerate until the head is completely
+blank, save that frame, then attach it through **@ Elements** on A03 / A05 / A11 to lock AMIR.
 
-## When you're ready to run
+## One thing the pack assumes that Seedance 2.0 does not do
 
-`higgsfield-seedance2-batch.json` holds all 11 requests with locked params, ready to paste
-into `generate_video_batch`.
+**No negative prompt.** The model exposes no negative parameter on either surface. The pack's
+NEGATIVE block is folded into every prompt as a trailing avoid-clause instead. That is weaker
+than a true negative, which is why A03 is likely to need several passes before the head reads
+genuinely blank.
 
-1. Submit **index 3 (A03) alone** first — it is the clerk reference frame. Regenerate until
-   the head is completely blank.
-2. Save that frame, `media_upload` it, then attach to A03 / A05 / A11 as
-   `medias: [{role: "image_references", value: "<media_id>"}]` to lock AMIR.
-3. Submit the remaining 10 in one `generate_video_batch` call.
-4. `jobs_wait` in groups of <=12, then a single `show_generation_by_ids`.
-
-## Two things the pack assumes that the API does not do
-
-- **No negative prompt.** Seedance 2.0 exposes no negative parameter. The pack's NEGATIVE
-  block is folded into every prompt as a trailing avoid-clause instead.
-- **A preset interceptor sits in front of submission.** The first A03 submit returned a
-  "3D RENDER" preset recommendation rather than a job. Clear it by passing
-  `declined_preset_id` on the retry.
-
-`generate_audio` is `false` on all 11 — these are silent plates. VO and BURN-IN text are
-added in the edit, never generated, per the brief.
+(An API-only wrinkle, noted in case the API path is ever used: a "3D RENDER" preset recommendation
+intercepts the first submit and must be cleared with `declined_preset_id`.)
 
 ## Still outstanding from the brief
 
-Record the VO first and re-derive real IN/OUT into `video/src/creditcard/beats.ts`. That
-file does not exist in this repo yet, and the timings in the pack are ~150wpm estimates,
-not the cut. The `duration` values in the JSON are the GEN lengths (what the model outputs);
-trim to the LEN column at the OUT point in the edit.
+Record the VO first and re-derive real IN/OUT into `video/src/creditcard/beats.ts`. That file does
+not exist in this repo yet, and the pack's timings are ~150wpm estimates, not the cut. GEN is what
+the model outputs; trim to LEN at the OUT point in the edit — never stretch a short clip to cover
+a long scene.
