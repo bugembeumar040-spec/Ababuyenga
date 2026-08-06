@@ -501,28 +501,90 @@ CAP 2 until the beat has landed. It is the whole hook.
 ================================================================================
 VOICEOVER — to record: media/creditcard-vo.mp3 (target ~55.6s)
 ================================================================================
-ElevenLabs v3, stability 45–55, similarity 75, speed 1.0. Same as Klarna. Tags
-sparse, full stops between the numbers doing the pacing.
+ElevenLabs v3, stability NATURAL (Creative only if the tags under-express),
+similarity 75, speed 1.0. Tags carry the emotion, punctuation carries the pace,
+break tags carry the silence. Paste the block below verbatim, blank lines and
+all — v3 reads paragraph breaks as breathing.
 
-[serious] The card industry has a word for people who pay in full every month.
+--- COPY FROM HERE ---------------------------------------------------------
+
+[serious] The card industry has a word for people who pay in full.
+
 [whispers] Deadbeats.
-That's the actual term. Not an insult. A category.
-If you never carry a balance, you were never the customer.
-The profitable one has a name too. A revolver. Someone who never quite clears it.
-[serious] So the card isn't the product. The balance is.
-Which is why the limit goes up on its own. You didn't ask. It arrived.
-Why the cashback exists. One percent back. Twenty-four point nine percent owed.
-And why the minimum payment gets its own box. The smallest number on the page.
-[emphatic] None of that is an accident. That's the design.
-[serious] Riba isn't a fee you might trigger. It's the revenue model.
-[calm] A real sale takes its profit once. At the moment of sale. It never grows again.
-Riba grows while you sleep. Time is the ingredient.
-[warmly] Pay it to zero and you become worthless to them.
+
+<break time="1.0s" />
+
+[dry] That's the actual term. Not an insult. A category.
+
+[curious] The profitable one is a revolver. [dry] Someone who never quite clears it.
+
+[emphatic] So the card isn't the product. The balance is.
+
+[serious] Why the limit goes up. You didn't ask... it arrived.
+
+Why there's cashback. One percent back... [emphatic] twenty-four point nine percent owed.
+
+[serious] Why the minimum payment gets its own box.
+
+<break time="0.5s" />
+
+[emphatic] That's the design.
+
+[firm] Riba isn't a fee you might trigger. It's the revenue model.
+
+[calm] A real sale takes its profit once. At the moment of sale... and never again.
+
+[quietly] Riba grows while you sleep. Time is the ingredient.
+
+[exhales] [warmly] Pay it to zero and you become worthless to them.
+
+<break time="0.5s" />
+
 [warmly] Be worthless. Follow — the fix is next.
 
-PACING NOTE. "Deadbeats" is the whole video. Give it a full beat of silence
-either side in the edit — do not let the next line ride in on it. If v3 rushes
-it, generate scene 01–02 as its own pass with the line isolated and cut it in.
+--- COPY TO HERE -----------------------------------------------------------
+
+LENGTH MATH. 127 spoken words. At the pack's own ~150wpm that is 50.8s of
+speech, plus 2.0s of break tags and ~1.5s of ellipsis hesitation = ~54.3s.
+That lands inside the 55.60s slate with roughly a second spare. The previous
+draft ran 163 words — 65s of speech before a single pause — which is ~10s
+longer than the film it has to sit under. Everything cut below is cut because
+the burn-in caption already says it on screen.
+
+  01  "every month" dropped — CAP 1 burns PAY IN FULL EVERY MONTH
+  02  unchanged
+  --  "If you never carry a balance, you were never the customer" cut whole.
+      It restates scene 04 in advance and there is no scene holding it.
+  03  "has a name too. A revolver." → "is a revolver", matching CAP 1 exactly
+  05  "on its own" dropped — CAP 1 burns THE LIMIT WENT UP ON ITS OWN
+  06  "Why the cashback exists" → "Why there's cashback", keeps the
+      Why / Why / Why anaphora across 05–07 and buys back 0.6s for the numbers
+  07  "The smallest number on the page" dropped — it is CAP 1 on that scene;
+      "None of that is an accident. That's the design." → "That's the design."
+  09  "It never grows again" → "and never again" (CAP 2 carries the full form)
+
+PER-SCENE BUDGET (words / scene length, ~150wpm)
+  01 12w/5.00s   02 10w/5.20s   03 12w/4.80s   04  9w/3.60s
+  05 10w/5.30s   06 11w/4.50s   07 11w/5.20s   08 11w/4.30s
+  09 15w/6.40s   10  9w/2.90s   11 17w/8.40s
+Scene 10 runs ~0.7s long on its own; 09 and 11 both come in short and absorb it.
+Re-derive the real IN/OUT into video/src/creditcard/beats.ts from the recording,
+not from this table.
+
+PACING NOTE. "Deadbeats" is the whole video. The 1.0s break tag after it is a
+floor, not the finished beat — still give it silence either side in the edit,
+and do not let the next line ride in on it. If v3 rushes it, generate scenes
+01–02 as their own pass with the line isolated and cut it in.
+
+TAG NOTE. Do not add more tags than are here. v3 degrades when tags stack, and
+on Robust stability an unrecognised tag can get read aloud — that is the whole
+reason this list stays inside [serious] [whispers] [dry] [curious] [emphatic]
+[firm] [calm] [quietly] [warmly] [exhales]. If a tag ever surfaces in the audio,
+drop that one tag and let the punctuation do the work.
+
+PRONUNCIATION. "Riba" should read REE-bah. If v3 gives you RYE-buh, replace
+both instances with "Ree-bah" in the input text only — never in the captions or
+the description.
 
 
 ================================================================================
