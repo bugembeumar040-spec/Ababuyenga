@@ -1,0 +1,169 @@
+{
+  "_comment": "Ready-to-fire payload for the Higgsfield MCP tool generate_video_batch. Track A, 11 clips. Seedance 2.0 has NO negative-prompt parameter, so the pack's NEGATIVE block is folded into each prompt as a trailing avoid-clause. Submit in two batches (max 12 per call, but A03 must land and be reviewed first).",
+  "_run_order": [
+    "1. Submit index 3 (A03) alone. Regenerate until the clerk head is COMPLETELY blank.",
+    "2. Save that frame, upload via media_upload, then add it to A03/A05/A11 as medias[{role:'image_references'}] for AMIR/character lock.",
+    "3. Submit the remaining 10 indices in one generate_video_batch call.",
+    "4. jobs_wait in groups of <=12, then one show_generation_by_ids for the full set."
+  ],
+  "_common_params": {
+    "model": "seedance_2_0",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "mode": "std",
+    "generate_audio": false,
+    "note": "generate_audio false = silent plates; VO and BURN-IN text are added in the edit, never generated. mode std is required for 1080p."
+  },
+  "_cost": {
+    "credits_10s_1080p_std": 90,
+    "credits_5s_1080p_std": 45,
+    "clips_10s": 6,
+    "clips_5s": 5,
+    "total_credits": 765
+  },
+  "requests": [
+    {
+      "index": 1,
+      "_scene": "A01 THE HOOK | 0:00.0-0:05.0 | trim 10s gen to 5.00s | MOVE locked off",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 10,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Macro close-up of a single blank cream payment card lying flat on a dark matte charcoal desk beside a closed manila folder, no text or markings on the card at all. A simplified geometric hand in a deep navy #1E3A5F sleeve enters from the right, sets one fingertip on the card, and slides it a short distance to the left, away from camera, then withdraws. The card settles and holds. Stylised low-poly 3D, matte clay shading, near-photorealistic card stock and paper texture. Camera locked off, no movement at all — the only motion in frame is the hand. Single hard key light from camera-left, one long real shadow thrown right, deep near-black surround, one warm amber glint on the card edge. Shallow cinematic depth of field. 9:16 vertical, subject in the lower two-thirds, clean headroom above for captions. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 2,
+      "_scene": "A02 THE TERM | 0:05.0-0:10.2 | trim 10s gen to 5.20s | MOVE slow lift + tilt back 12deg",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 10,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Top-down macro shot of a dark matte charcoal desk. Two blank cream index cards lie side by side, both completely unprinted. The left card is nudged forward slightly toward camera by an unseen force and stops; the right card stays exactly where it is. Nothing else moves. Stylised low-poly 3D, matte clay materials, near-photorealistic paper grain and deckled edges. Camera lifts slowly and tilts back 12 degrees to widen on both cards. Single hard overhead key slightly off-axis so both shadows fall the same way, deep near-black background, one warm amber accent. Slow deliberate motion, no camera shake. 9:16 vertical, cards in the lower two-thirds. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 3,
+      "_scene": "A03 THE REVOLVER | 0:10.2-0:15.0 | trim 5s gen to 4.80s | MOVE orbit left 12deg | GENERATE FIRST — clerk reference frame",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 5,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Stylised low-poly 3D render of a bank counter seen from the customer's side. Behind it stands a bank clerk with a COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte tan block — wearing a deep navy #1E3A5F apron over a cream shirt and a navy bucket hat, both forearms resting on the counter. In front of him a short stack of blank cream cards sits on the counter; he slides one card forward toward camera with two fingers and leaves it there, then stills completely. Camera orbits slowly 12 degrees to the left, holding him centre-frame. Near-photorealistic bank interior behind, shelving and glass in soft focus, warm overhead light. Matte clay-like shading, soft subsurface material, real cast shadows. Shallow depth of field. 9:16 vertical, subject lower two-thirds, clean headroom above. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 4,
+      "_scene": "A04 THE PRODUCT | 0:15.0-0:18.6 | trim 5s gen to 3.60s | MOVE push in 8%",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 5,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Extreme macro of a single blank cream payment card standing upright on a dark matte surface. The card is lit from behind so it reads as a silhouette with a warm amber rim, and it slowly rotates in place through 20 degrees, catching the key light across its face as it turns, then stops square to camera. Stylised low-poly 3D, matte clay shading, near-photorealistic card stock texture with fine surface fibre. Camera pushes in 8% over the shot, locked and steady. Deep near-black background, single hard raking light from camera-left, cool neutral grade with one warm amber accent. Very shallow depth of field. 9:16 vertical, card low-centre, dark space above. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 5,
+      "_scene": "A05 THE LIMIT | 0:18.6-0:23.9 | trim 10s gen to 5.30s | MOVE push in 6% then hold | REF: AMIR",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 10,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Medium shot of AMIR seated at a small table in a quiet flat at night, seen from a low three-quarter angle, holding a phone in two simplified geometric hands and looking down at it. He has a COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte tan block. He wears a terracotta #E85F42 t-shirt and a cream beanie. The phone screen is a clean blank pale grey panel with no text, which brightens once, softly, on its own. He does not react. Stylised low-poly 3D, simplified geometric anatomy, matte clay-like shading, soft subsurface material. Camera pushes in 6% and holds. Near-photorealistic room behind him dissolved into deep bokeh, one warm amber practical lamp off-frame right, cool blue ambient fill from the left. Shallow cinematic depth of field. 9:16 vertical, subject lower two-thirds, generous headroom above. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 6,
+      "_scene": "A06 THE REWARDS | 0:23.9-0:28.4 | trim 5s gen to 4.50s | MOVE locked off",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 5,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Macro close-up of a small brass balance scale on a dark matte surface. On the left pan sits one tiny cream token; on the right pan, a stack of identical tokens many times taller. The scale tips slowly and heavily to the right and settles, the left pan rising high. Stylised low-poly 3D, matte clay tokens, near-photorealistic brass with real specular hits and fine patina, real cast shadows. Camera holds still, no movement. Deep near-black background, single hard key light from upper left, one warm amber rim along the brass beam. Shallow depth of field. 9:16 vertical, scale in the lower two-thirds, clean dark headroom above. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 7,
+      "_scene": "A07 THE BOX | 0:28.4-0:33.6 | trim 10s gen to 5.20s | MOVE push in 10% on the box",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 10,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Macro close-up of a blank printed statement page on a dark walnut desk, the paper completely unprinted except for a single empty ruled rectangle in the lower right corner. A simplified geometric hand in a terracotta #E85F42 sleeve enters from the right and taps one fingertip twice, lightly, on the empty box, then withdraws. The page settles. Stylised low-poly 3D, matte clay shading, near-photorealistic paper texture with a visible fold crease. Camera pushes in 10% on the box over the shot, locked and steady. Hard low raking key from camera-left throwing a long angular shadow across the page, deep near-black surround, one warm amber accent. Very shallow depth of field. 9:16 vertical, page filling the lower two-thirds. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 8,
+      "_scene": "A08 THE RULE | 0:33.6-0:37.9 | trim 5s gen to 4.30s | MOVE locked off",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 5,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Tabletop shot, dark walnut surface. A single blank cream card lies flat and square in the centre. A heavy brass stamp descends slowly from above, presses onto the card once with visible weight, and lifts away. The card does not move. Everything then holds completely still. Stylised low-poly 3D, matte clay shading, near-photorealistic brass and paper texture. Camera locked off, no movement at all — the only motion in frame is the stamp. Single hard key light from the left, long real shadow to the right, deep near-black surround, warm amber glint on the brass. 9:16 vertical, lower two-thirds, clean headroom. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 9,
+      "_scene": "A09 THE REAL SALE | 0:37.9-0:44.3 | trim 10s gen to 6.40s | MOVE arc right 15deg then stop dead",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 10,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Stylised low-poly 3D still-life on a dark matte plinth. A folded wool jacket sits on the left; a single heavy brass bar rests on the right. A pair of simplified geometric hands enters, sets a second brass bar down beside the first, and withdraws cleanly from frame. Both bars then sit completely motionless — nothing grows, nothing is added. Camera arcs slowly 15 degrees right during the placement, then stops dead and holds. Matte clay materials, near-photorealistic brass and wool texture, real contact shadows anchoring each object. Deep near-black background, one hard key light from upper left, warm amber rim on the brass. Deliberate, weighted, no shake. 9:16 vertical composition, objects in the lower two-thirds. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 10,
+      "_scene": "A10 TIME | 0:44.3-0:47.2 | trim 5s gen to 2.90s | MOVE push in 10% on the neck",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 5,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Macro close-up of an antique brass hourglass on a dark matte surface, fine pale sand running steadily from the upper chamber to the lower. As the sand falls, the lower chamber fills higher than the upper chamber ever held — visibly more sand than went in. Stylised low-poly 3D, matte clay base, near-photorealistic brass and glass with real refraction and specular hits. Camera pushes in 10% on the neck of the hourglass, locked and steady. Deep near-black background, single hard raking light from camera-left picking out the falling grains, cool neutral grade with one warm amber accent on the brass. 9:16 vertical, hourglass low-centre, dark space above. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    },
+    {
+      "index": 11,
+      "_scene": "A11 THE CLOSE | 0:47.2-0:55.6 | trim 10s gen to 8.40s | MOVE track backward then settle | REF: AMIR",
+      "params": {
+        "model": "seedance_2_0",
+        "duration": 10,
+        "resolution": "1080p",
+        "mode": "std",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "prompt": "Stylised low-poly 3D character AMIR walking away from a bank doorway into warm low evening sun, hands empty at his sides, seen from a low three-quarter angle. He has a COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte tan block. He wears a terracotta #E85F42 t-shirt, cream #E8DCC8 trousers, white sneakers and a cream beanie. Simplified geometric anatomy, matte clay-like shading, soft subsurface material. He walks three unhurried steps toward camera and stops, weight settled. Camera tracks backward with him at the same speed, then settles. Near-photorealistic street behind, quiet and empty, long golden hour shadows, warm amber key from behind him, cool fill from the front. Shallow cinematic depth of field. 9:16 vertical, subject lower two-thirds, generous headroom above for the closing captions. Absolutely no text, lettering, numbers, logos or watermarks anywhere. No facial features of any kind. No cel shading, no 2D illustration, no camera shake, no morphing or warping."
+      }
+    }
+  ]
+}
