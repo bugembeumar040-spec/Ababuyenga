@@ -162,32 +162,61 @@ is the fix, paying off Klarna's "the fix is next", and nothing was cut from
 
 ---
 
-## Packaging
+## Packaging — CONFIRMED
 
-**Title:** They Call You a Deadbeat for Paying in Full
-(follows the Klarna retitle — declarative, not "Is X Halal?")
+**Title:** They Call You a Deadbeat for Paying in Full  (43 chars)
+
+Chosen over four alternates. Declarative, per the Klarna retitle at publish;
+leads with the jargon; carries "paying in full", which is the behaviour the
+target viewer recognises in themselves. An "Is Your Credit Card Halal?" title
+was rejected on purpose — it promises a ruling the script deliberately never
+issues in your own voice.
 
 **Thumbnail:** `out/thumb_deadbeat.jpg` (the word on the two-card frame) or
 `out/thumb_card.jpg` (the isolated backlit card, for setting DEADBEAT beside it).
 
-**Description** (630 chars, no "riba" in the title per the RIBA/architects SERP
-rule):
+**Description** (839 chars — clears the 600 floor, nothing like the 197-char
+boilerplate. No "riba" above the fold, per the RIBA/architects SERP rule):
 
 > The card industry really does have a word for customers who pay in full every
-> month: deadbeats. It's not an insult, it's a category — and it tells you who
+> month: deadbeats. It isn't an insult — it's a category, and it tells you who
 > the product is actually built for.
 >
 > The profitable customer is a "revolver": someone who never quite clears the
-> balance. UK regulators use the same split — the FCA's credit card market work
-> calls them transactors and revolvers. Once you see that, the rest of the
-> design stops looking accidental: the limit that rises on its own, the cashback
-> that costs a fraction of the interest it earns, the minimum payment in its own
-> box.
+> balance. UK regulators use the same split — the FCA's credit card market study
+> calls them transactors and revolvers. Once you can see that line, the rest of
+> the design stops looking accidental: the limit that rises without being asked
+> for, the cashback that costs a fraction of the interest it earns, the minimum
+> payment sitting in its own box.
 >
-> Figures are illustrative of mainstream UK cards, not one product.
+> A real sale takes its profit once, at the moment of sale. It never grows
+> again. The difference is time.
+>
+> Figures shown are illustrative of mainstream UK cards, not any one product.
 >
 > Part 3: the halal card that actually exists.
 
-**Tags** (198 chars): `credit card, credit card debt, deadbeat, revolver,
-transactor, minimum payment, apr, cashback, halal finance, islamic finance,
-riba, personal finance uk, money tips, debt free`
+VERIFY BEFORE PUBLISH: the FCA transactors/revolvers attribution. It is the
+line doing the corroboration work in the comments, and it names a regulator.
+
+**Tags** (17 tags, 231 chars — hard limit is 500, which YouTube rejects
+silently):
+
+```
+credit card, credit card debt, deadbeat, revolver, transactor, minimum payment,
+apr, cashback, credit limit, halal finance, islamic finance, riba, personal
+finance uk, money tips, debt free, credit card interest, financial literacy
+```
+
+**Pinned comment** (post at publish; it pre-empts the one argument you can't
+win in a reply):
+
+> "Deadbeat" is US card-industry slang — the UK regulator's word for the same
+> customer is "transactor". Either way you're the one they don't make money on.
+> This video is about how the product earns, not a ruling on whether any
+> specific card is permissible. Part 3 is the fix.
+
+**Publishing note.** No YouTube connector is attached to this session — the
+upload is manual. The relevant clock for this video is not time of day but how
+much momentum the Klarna upload still has, since this is what pays off its
+"the fix is next" promise.
