@@ -1,0 +1,13 @@
+# generated video + intermediates: too large for git (masters are ~91MB each)
+out/*.mp4
+build/clips/
+build/cut/
+build/media/
+build/base.mp4
+build/concat.txt
+build/fr/
+build/qc/
+build/chk/
+build/sheets/
+build/__pycache__/
+build/fonts/*.ttf
