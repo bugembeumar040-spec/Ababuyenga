@@ -67,6 +67,46 @@ which would have been obvious, the A10→A11 cut was moved earlier into the
 1.3s before "Pay it to zero" arrives, which reads as a resolve rather than a
 compromise.
 
+## Source audit vs the Track A run sheet
+
+The run sheet specifies Seedance 2.0 / 9:16 / **1080p** / High bitrate / audio
+off, with the A03 clerk frame attached via `@ Elements` on A03, A05 and A11.
+Checked against the generation params of all eleven:
+
+| clip | gen | delivered | `@ Elements` | verdict |
+|------|-----|-----------|--------------|---------|
+| A01  | 10s | **720p**  | —            | under spec |
+| A02  | 10s | **720p**  | —            | under spec |
+| A03  | 5s  | 1080p     | is the ref   | to spec |
+| A04  | 5s  | 1080p     | —            | to spec |
+| A05  | 10s | **720p**  | A03 ✓        | under spec |
+| A06  | 5s  | 1080p     | A03 (stray)  | too short for its scene |
+| A07  | 10s | **720p**  | —            | under spec |
+| A08  | 5s  | 1080p     | —            | to spec |
+| A09  | 10s | **720p**  | —            | under spec |
+| A10  | 5s  | 1080p     | —            | to spec |
+| A11  | 10s | **720p**  | **none**     | under spec |
+
+Model, ratio, bitrate and `generate_audio: false` are correct on all eleven —
+the run sheet's audio warning landed.
+
+**Every 10s clip came out 720p and every 5s clip came out 1080p**, with no
+exceptions. The split falls exactly along duration, which reads as the
+resolution resetting when duration changed rather than eleven separate slips.
+It is **not** a model limit: `seedance_2_0` accepts 4–15s, and 1080p requires
+only `mode=std`, which all eleven already used. The long clips are re-generable
+at 1080p as they stand.
+
+**A11 was generated with no reference**, against the spec. Comparing AMIR in
+A05 (which does carry the A03 reference) against A11 frame to frame, the build
+holds — same blank tan head, same beanie, no meaningful drift — so this did not
+need a reshoot. Worth attaching on any regeneration anyway.
+
+Regeneration priority, if you go back: the six 10s clips at 1080p (removes the
+upscale from six of eleven shots, including both AMIR scenes and the close);
+then A06 at 10s (removes the freeze below); then A11 with the reference.
+A05 will still cap around 4.5s whatever you do — the head drift is inherent.
+
 ## Conform
 
 Six clips generated at 720×1280 (A01, A02, A05, A07, A09, A11) and five at
