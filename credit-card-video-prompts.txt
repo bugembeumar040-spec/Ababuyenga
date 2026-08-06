@@ -1,0 +1,208 @@
+================================================================================
+CREDIT CARD — "THEY CALL YOU A DEADBEAT" — VIDEO PROMPTS (TRACK A, CONSOLIDATED)
+Higgsfield · text-to-video · 9:16 · 1080p · 11 clips · 55.60s total
+Source: credit-card-prompt-pack.txt (Track A only — Track B stills omitted)
+================================================================================
+
+HOW TO USE
+  1. Record the VO first. Re-derive real IN/OUT points into
+     video/src/creditcard/beats.ts before generating anything. Timings below are
+     ~150wpm estimates, not the cut.
+  2. Paste the NEGATIVE PROMPT block below once into the negative field — it
+     applies to all 11 clips, unchanged.
+  3. Generate A03 FIRST. It is the cleanest full view of the clerk. Regenerate
+     until the head is completely blank, save that frame, and feed it as the
+     reference image on A03, A05 and A11. (Or reuse the locked AMIR / shopkeeper
+     reference frames from the Klarna shoot.)
+  4. Clips marked [10s] must go on a model that outputs 10s, then trim to the
+     OUT point. Everything else generates at 5s and trims. Never stretch a short
+     clip to cover a long scene.
+  5. Where a prompt names a camera move, set it with Higgsfield's motion control
+     rather than trusting the prompt text. Every move stays slow — this house
+     style has no fast camera anywhere in it.
+  6. All cards, screens and statements are BLANK on purpose. Every number is
+     burned in during the edit, never generated.
+
+--------------------------------------------------------------------------------
+NEGATIVE PROMPT — paste once, applies to all 11 clips
+--------------------------------------------------------------------------------
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon outlines,
+cel shading, flat vector, anime, 2D illustration, distorted hands, extra fingers,
+extra limbs, morphing objects, warping architecture, camera shake, whip pans,
+blurry, low resolution, oversaturated, plastic sheen, uncanny, stock-photo smiles
+
+--------------------------------------------------------------------------------
+GENERATION ORDER & CLIP SPEC
+--------------------------------------------------------------------------------
+ #   | IN     | OUT    | LEN   | GEN | SCENE         | BURN-IN (edit, not generated)
+-----|--------|--------|-------|-----|---------------|------------------------------
+ A03 | 0:10.2 | 0:15.0 | 4.80s |  5s | the revolver  | REVOLVER            << FIRST
+ A01 | 0:00.0 | 0:05.0 | 5.00s | 10s | hook          | (none — caption only)
+ A02 | 0:05.0 | 0:10.2 | 5.20s | 10s | the term      | (none)
+ A04 | 0:15.0 | 0:18.6 | 3.60s |  5s | the product   | THE BALANCE IS THE PRODUCT
+ A05 | 0:18.6 | 0:23.9 | 5.30s | 10s | the limit     | LIMIT £2,000 → £3,500 ("you didn't ask")
+ A06 | 0:23.9 | 0:28.4 | 4.50s |  5s | the rewards   | 1% BACK vs 24.9% APR (1% small, APR large)
+ A07 | 0:28.4 | 0:33.6 | 5.20s | 10s | the box       | MINIMUM PAYMENT £25
+ A08 | 0:33.6 | 0:37.9 | 4.30s |  5s | the rule      | (none)
+ A09 | 0:37.9 | 0:44.3 | 6.40s | 10s | the real sale | PROFIT: FIXED AT THE SALE
+ A10 | 0:44.3 | 0:47.2 | 2.90s |  5s | time          | RIBA: PRICED IN TIME
+ A11 | 0:47.2 | 0:55.6 | 8.40s | 10s | the close     | BALANCE £0.00
+
+Scene 06 is the two-numbers-in-collision beat. Give it the most typographic
+weight in the film.
+
+
+================================================================================
+A03 · 0:10.2–0:15.0 · THE REVOLVER   [5s]   ** GENERATE FIRST — clerk reference **
+================================================================================
+Stylised low-poly 3D render of a bank counter seen from the customer's side.
+Behind it stands a bank clerk with a COMPLETELY BLANK featureless head — no
+eyes, no nose, no mouth, a smooth matte tan block — wearing a deep navy #1E3A5F
+apron over a cream shirt and a navy bucket hat, both forearms resting on the
+counter. In front of him a short stack of blank cream cards sits on the counter;
+he slides one card forward toward camera with two fingers and leaves it there,
+then stills completely. Camera orbits slowly 12 degrees to the left, holding him
+centre-frame. Near-photorealistic bank interior behind, shelving and glass in
+soft focus, warm overhead light. Matte clay-like shading, soft subsurface
+material, real cast shadows. Shallow depth of field. 9:16 vertical, subject
+lower two-thirds, clean headroom above.
+
+================================================================================
+A01 · 0:00.0–0:05.0 · THE HOOK   [generate 10s]
+================================================================================
+Macro close-up of a single blank cream payment card lying flat on a dark matte
+charcoal desk beside a closed manila folder, no text or markings on the card at
+all. A simplified geometric hand in a deep navy #1E3A5F sleeve enters from the
+right, sets one fingertip on the card, and slides it a short distance to the
+left, away from camera, then withdraws. The card settles and holds. Stylised
+low-poly 3D, matte clay shading, near-photorealistic card stock and paper
+texture. Camera locked off, no movement at all — the only motion in frame is the
+hand. Single hard key light from camera-left, one long real shadow thrown right,
+deep near-black surround, one warm amber glint on the card edge. Shallow
+cinematic depth of field. 9:16 vertical, subject in the lower two-thirds, clean
+headroom above for captions.
+
+================================================================================
+A02 · 0:05.0–0:10.2 · THE TERM   [generate 10s]
+================================================================================
+Top-down macro shot of a dark matte charcoal desk. Two blank cream index cards
+lie side by side, both completely unprinted. The left card is nudged forward
+slightly toward camera by an unseen force and stops; the right card stays
+exactly where it is. Nothing else moves. Stylised low-poly 3D, matte clay
+materials, near-photorealistic paper grain and deckled edges. Camera lifts
+slowly and tilts back 12 degrees to widen on both cards. Single hard overhead
+key slightly off-axis so both shadows fall the same way, deep near-black
+background, one warm amber accent. Slow deliberate motion, no camera shake. 9:16
+vertical, cards in the lower two-thirds.
+
+================================================================================
+A04 · 0:15.0–0:18.6 · THE PRODUCT   [5s]
+================================================================================
+Extreme macro of a single blank cream payment card standing upright on a dark
+matte surface. The card is lit from behind so it reads as a silhouette with a
+warm amber rim, and it slowly rotates in place through 20 degrees, catching the
+key light across its face as it turns, then stops square to camera. Stylised
+low-poly 3D, matte clay shading, near-photorealistic card stock texture with
+fine surface fibre. Camera pushes in 8% over the shot, locked and steady. Deep
+near-black background, single hard raking light from camera-left, cool neutral
+grade with one warm amber accent. Very shallow depth of field. 9:16 vertical,
+card low-centre, dark space above.
+
+================================================================================
+A05 · 0:18.6–0:23.9 · THE LIMIT   [generate 10s]   (AMIR reference)
+================================================================================
+Medium shot of AMIR seated at a small table in a quiet flat at night, seen from
+a low three-quarter angle, holding a phone in two simplified geometric hands and
+looking down at it. He has a COMPLETELY BLANK featureless head — no eyes, no
+nose, no mouth, a smooth matte tan block. He wears a terracotta #E85F42 t-shirt
+and a cream beanie. The phone screen is a clean blank pale grey panel with no
+text, which brightens once, softly, on its own. He does not react. Stylised
+low-poly 3D, simplified geometric anatomy, matte clay-like shading, soft
+subsurface material. Camera pushes in 6% and holds. Near-photorealistic room
+behind him dissolved into deep bokeh, one warm amber practical lamp off-frame
+right, cool blue ambient fill from the left. Shallow cinematic depth of field.
+9:16 vertical, subject lower two-thirds, generous headroom above.
+
+================================================================================
+A06 · 0:23.9–0:28.4 · THE REWARDS   [5s]
+================================================================================
+Macro close-up of a small brass balance scale on a dark matte surface. On the
+left pan sits one tiny cream token; on the right pan, a stack of identical
+tokens many times taller. The scale tips slowly and heavily to the right and
+settles, the left pan rising high. Stylised low-poly 3D, matte clay tokens,
+near-photorealistic brass with real specular hits and fine patina, real cast
+shadows. Camera holds still, no movement. Deep near-black background, single
+hard key light from upper left, one warm amber rim along the brass beam.
+Shallow depth of field. 9:16 vertical, scale in the lower two-thirds, clean dark
+headroom above.
+
+================================================================================
+A07 · 0:28.4–0:33.6 · THE BOX   [generate 10s]
+================================================================================
+Macro close-up of a blank printed statement page on a dark walnut desk, the
+paper completely unprinted except for a single empty ruled rectangle in the
+lower right corner. A simplified geometric hand in a terracotta #E85F42 sleeve
+enters from the right and taps one fingertip twice, lightly, on the empty box,
+then withdraws. The page settles. Stylised low-poly 3D, matte clay shading,
+near-photorealistic paper texture with a visible fold crease. Camera pushes in
+10% on the box over the shot, locked and steady. Hard low raking key from
+camera-left throwing a long angular shadow across the page, deep near-black
+surround, one warm amber accent. Very shallow depth of field. 9:16 vertical,
+page filling the lower two-thirds.
+
+================================================================================
+A08 · 0:33.6–0:37.9 · THE RULE   [5s]
+================================================================================
+Tabletop shot, dark walnut surface. A single blank cream card lies flat and
+square in the centre. A heavy brass stamp descends slowly from above, presses
+onto the card once with visible weight, and lifts away. The card does not move.
+Everything then holds completely still. Stylised low-poly 3D, matte clay
+shading, near-photorealistic brass and paper texture. Camera locked off, no
+movement at all — the only motion in frame is the stamp. Single hard key light
+from the left, long real shadow to the right, deep near-black surround, warm
+amber glint on the brass. 9:16 vertical, lower two-thirds, clean headroom.
+
+================================================================================
+A09 · 0:37.9–0:44.3 · THE REAL SALE   [generate 10s]
+================================================================================
+Stylised low-poly 3D still-life on a dark matte plinth. A folded wool jacket
+sits on the left; a single heavy brass bar rests on the right. A pair of
+simplified geometric hands enters, sets a second brass bar down beside the
+first, and withdraws cleanly from frame. Both bars then sit completely
+motionless — nothing grows, nothing is added. Camera arcs slowly 15 degrees
+right during the placement, then stops dead and holds. Matte clay materials,
+near-photorealistic brass and wool texture, real contact shadows anchoring each
+object. Deep near-black background, one hard key light from upper left, warm
+amber rim on the brass. Deliberate, weighted, no shake. 9:16 vertical
+composition, objects in the lower two-thirds.
+
+================================================================================
+A10 · 0:44.3–0:47.2 · TIME   [5s]
+================================================================================
+Macro close-up of an antique brass hourglass on a dark matte surface, fine pale
+sand running steadily from the upper chamber to the lower. As the sand falls,
+the lower chamber fills higher than the upper chamber ever held — visibly more
+sand than went in. Stylised low-poly 3D, matte clay base, near-photorealistic
+brass and glass with real refraction and specular hits. Camera pushes in 10% on
+the neck of the hourglass, locked and steady. Deep near-black background, single
+hard raking light from camera-left picking out the falling grains, cool neutral
+grade with one warm amber accent on the brass. 9:16 vertical, hourglass
+low-centre, dark space above.
+
+================================================================================
+A11 · 0:47.2–0:55.6 · THE CLOSE   [generate 10s]   (AMIR reference)
+================================================================================
+Stylised low-poly 3D character AMIR walking away from a bank doorway into warm
+low evening sun, hands empty at his sides, seen from a low three-quarter angle.
+He has a COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a
+smooth matte tan block. He wears a terracotta #E85F42 t-shirt, cream #E8DCC8
+trousers, white sneakers and a cream beanie. Simplified geometric anatomy, matte
+clay-like shading, soft subsurface material. He walks three unhurried steps
+toward camera and stops, weight settled. Camera tracks backward with him at the
+same speed, then settles. Near-photorealistic street behind, quiet and empty,
+long golden hour shadows, warm amber key from behind him, cool fill from the
+front. Shallow cinematic depth of field. 9:16 vertical, subject lower
+two-thirds, generous headroom above for the closing captions.
+
+================================================================================
