@@ -208,6 +208,32 @@ apr, cashback, credit limit, halal finance, islamic finance, riba, personal
 finance uk, money tips, debt free, credit card interest, financial literacy
 ```
 
+**Hashtags** (12 — YouTube ignores *every* hashtag on a video that carries
+more than 15, so this stays well under. Paste as the last line of the
+description):
+
+```
+#creditcard #debtfree #islamicfinance #halalmoney #creditcarddebt #personalfinanceuk #minimumpayment #apr #cashback #moneytips #financialliteracy #ukfinance
+```
+
+Order matters: only the **first three** render above the title, so
+`#creditcard #debtfree #islamicfinance` are deliberately first — reach, the
+video's own resolution (BALANCE £0.00), and the channel's niche.
+
+`#shorts` is left out on purpose: YouTube classifies vertical short-form
+automatically, so it spends a slot and buys nothing.
+
+`#riba` is also left out. It is fine in the tags and description prose, but a
+hashtag is a shared public feed, and that one is contested with the Royal
+Institute of British Architects — the same reason it is kept out of the title.
+`#islamicfinance` and `#halalmoney` reach the same audience unambiguously.
+
+TikTok variant, if cross-posting:
+
+```
+#creditcard #debtfree #islamicfinance #halalmoney #moneytok #personalfinance #ukmoney #financialliteracy #debtfreejourney #fyp
+```
+
 **Pinned comment** (post at publish; it pre-empts the one argument you can't
 win in a reply):
 
