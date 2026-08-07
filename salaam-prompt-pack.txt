@@ -53,7 +53,7 @@ SCENE MAP — derived from the rendered VO, not estimated
  03 | 0:07.6 | 0:11.4 | 3.73s | pout | dome interior, single light shaft
  04 | 0:11.4 | 0:14.8 | 3.45s | pin  | white-robed rows toward the light
  05 | 0:14.8 | 0:18.5 | 3.65s | pl   | empty prayer hall, golden haze
- 06 | 0:18.5 | 0:22.8 | 4.30s | pout | two silhouettes meeting in light
+ 06 | 0:18.5 | 0:22.8 | 4.30s | pout | light breaking through cloud, birds
  07 | 0:22.8 | 0:26.1 | 3.30s | pr   | hand resting on a closed book
  08 | 0:26.1 | 0:30.3 | 4.20s | pin  | garden, water running beneath trees
  09 | 0:30.3 | 0:34.7 | 4.40s | pd   | Madinah green dome at dawn
@@ -109,6 +109,21 @@ RESHOOTS — what failed first time, and why
   15  The man's face was visible and the offered hand was anatomically loose.
       Refixed with "only the back of his head visible and never his face" and
       "anatomically correct hand with exactly five natural fingers".
+
+  06  RESHOT AFTER REVIEW. The original was two backlit silhouettes meeting and
+      embracing. In silhouette the two shapes merged and the beat read as an
+      intimate embrace between a man and a woman — not befitting the subject.
+      Replaced with light breaking through towering cloud, volumetric shafts
+      fanning down, birds rising far off, and NO people, figures or silhouettes
+      of any kind. The retired frame is kept as work/img/s06_retired_embrace.png.
+
+      RULE THIS ADDS, APPLIES TO EVERY FUTURE FRAME IN THIS CHANNEL: two human
+      figures in contact must never be rendered in silhouette or heavy backlight.
+      Silhouette strips the cues — dress, beard, build, gesture — that tell a
+      viewer these are two men greeting. Where an embrace or handshake is the
+      point, light it so both figures are legibly male (scenes 01, 02, 11, 17,
+      21). Where the beat is transcendent rather than interpersonal, use no
+      figures at all.
 
 Borders showed up on several frames. The Ken Burns push starts at ≥1.00 zoom on
 a 2x-upscaled source, so any residual edge is cropped out in the move.
