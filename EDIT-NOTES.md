@@ -246,3 +246,52 @@ win in a reply):
 upload is manual. The relevant clock for this video is not time of day but how
 much momentum the Klarna upload still has, since this is what pays off its
 "the fix is next" promise.
+
+---
+
+## Virality predictor — opening 14.3s
+
+Run on `out/deadbeat_hook16.mp4` (frames 0–342, the first three complete
+scenes). The tool caps at **16 seconds**, so the 58.5s cut cannot be analysed
+whole; the opening was chosen because it is what decides a Short.
+
+Model is Higgsfield `brain_activity` — predicted cortical activation mapped to
+fsaverage, carrying its own disclaimer: *"Predictive proxy metrics, not
+guaranteed performance or clinical measures."* It is not a view forecast.
+
+| metric | value |
+|---|---|
+| overall | 49 |
+| viral potential | 50 |
+| brain engagement | 40 |
+| **hook (0–3s window)** | **33** |
+| sustain | 100 |
+
+`sustain: 100` and `peak_second: 14` are artefacts of the 14.3s window — the
+curve is still rising when the clip is cut off. Treat them as "did not decay
+inside the window", not as a finding about the film.
+
+Global activation by second — starts high, troughs at 5s, recovers:
+
+```
+ 0s 0.442  1s 0.424  2s 0.400  3s 0.365  4s 0.344  <- DEADBEAT lands 4.12
+ 5s 0.335 (trough)   6s 0.357  7s 0.377  8s 0.404  9s 0.418
+10s 0.421 11s 0.437 12s 0.423 13s 0.417 14s 0.445
+```
+
+Regions: Visual peaks 9s (0.447). Auditory/temporal and language both climb
+steadily and peak at 11s (0.608 / 0.548) — the VO and captions carrying load.
+Default Mode is the highest-mean region (0.673) and peaks at 5s, exactly on
+the global trough.
+
+**The finding that matters:** the hook window scores lowest, and the trough
+sits on the DEADBEAT beat. A01 is a dark, near-static macro and A02 is two
+motionless cards — deliberate, on-style, and the least visually arresting
+three seconds available. The model cannot tell absorption from disengagement
+at the trough, so read it as a flag, not a verdict.
+
+The cheapest lever is the 1.26s of silence between "…pay in full" (ends 2.86)
+and "Deadbeats" (4.12). Tightening it to ~0.7s pulls the hero word to ~3.5s
+and shortens the quiet opening. **This is in direct tension with the pack's
+pacing note** — "give it a full beat of silence either side, do not let the
+next line ride in on it" — so it is not changed unilaterally.
