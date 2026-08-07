@@ -1,0 +1,131 @@
+================================================================================
+THE MUSLIM NARRATIVE — "THE GREETING OF PARADISE"
+1-minute VO script · English · ElevenLabs v3 emotion tags
+Derived from parent VO: 2b_Street.m4a + 2b_Street_2.m4a
+================================================================================
+
+
+SOURCE ANALYSIS — MAJOR THEME OF THE PARENT SPEECH
+================================================================================
+
+The attached voice notes are an Arabic khutbah/dars. Whisper large-v3 transcript
+of the first 166 seconds is coherent and the thesis is unambiguous:
+
+    إفشاء السلام — SPREADING THE GREETING OF PEACE.
+
+The speaker builds one argument in four moves:
+
+  1. HONOUR.    Allah honoured the human being. And the greatest honour named
+                is that Allah Himself greets him — "وأي إكرام أعظم أن يحيي الله
+                عز وجل الإنسان."
+  2. THE ANGELS. The angels enter upon them saying "سلام عليكم" —
+                "فتستقبلهم الملائكة... يقولون سلام عليكم."
+  3. JANNAH.    The people of Paradise greet one another with it —
+                "ويتلقى أهل الجنة بعضهم بعضاً بالسلام / وتحيتهم فيها سلام."
+  4. THE COMMAND. Therefore it is not etiquette, it is a door. The Prophet ﷺ:
+                "لا تدخلوا الجنة حتى تؤمنوا... أفشوا السلام بينكم."
+
+So salaam is presented as the greeting of Allah, the greeting of the angels and
+the native language of Jannah — and the Prophetic instruction is to spread it
+here, to those you know and those you do not.
+
+The script below carries exactly that spine. Nothing is added to the argument.
+
+
+SCRIPTURE USED — VERIFIED
+================================================================================
+  Q 33:44  Al-Ahzab      — تحيتهم يوم يلقونه سلام
+  Q 39:73  Az-Zumar      — سلام عليكم طبتم فادخلوها خالدين  (spoken by خَزَنَتُهَا,
+                            the angel-keepers of Paradise)
+  Sahih Muslim 54        — Abu Hurayrah رضي الله عنه, the "أفشوا السلام" hadith
+
+All three appear in, or directly underpin, the parent speech.
+
+
+================================================================================
+THE SCRIPT
+================================================================================
+
+[00:00–00:07]  HOOK
+--------------------------------------------------------------------------------
+[curious] Two words. [pause] You say them every day without thinking about them.
+
+[whispers] As-salamu alaykum.
+
+[warm] But do you know Who says them to you first?
+
+
+[00:07–00:19]  MOVE 1 — ALLAH'S GREETING
+--------------------------------------------------------------------------------
+[reverent] Allah describes the believers on the Day they meet Him:
+
+[slowly] تَحِيَّتُهُمْ يَوْمَ يَلْقَوْنَهُ سَلَامٌ
+
+[softly] "Their greeting, the Day they meet Him, will be — Peace."
+[pause] Surah Al-Ahzab, forty-four.
+
+
+[00:19–00:31]  MOVE 2 — THE ANGELS AT THE GATE
+--------------------------------------------------------------------------------
+[awe] And when the gates open, the angels who keep them say:
+
+[slowly] سَلَامٌ عَلَيْكُمْ طِبْتُمْ فَادْخُلُوهَا خَالِدِينَ
+
+[softly] "Peace be upon you. You have done well — so enter it, to stay forever."
+[pause] Surah Az-Zumar, seventy-three.
+
+
+[00:31–00:38]  THE TURN
+--------------------------------------------------------------------------------
+[serious] The greeting of Allah. The greeting of the angels.
+[emphatic] Paradise doesn't just contain peace — [pause] it speaks it.
+
+
+[00:38–00:53]  MOVE 3 — THE COMMAND
+--------------------------------------------------------------------------------
+[serious] So the Prophet ﷺ told us what to do with it here:
+
+[slowly] لَا تَدْخُلُونَ الْجَنَّةَ حَتَّى تُؤْمِنُوا، وَلَا تُؤْمِنُوا حَتَّى تَحَابُّوا
+
+[emphatic] "You will not enter Paradise until you believe. And you will not
+believe until you love one another."
+
+[curious] Then he said — shall I show you something that will make you love
+each other?
+
+[whispers] أَفْشُوا السَّلَامَ بَيْنَكُمْ
+
+[emphatic] "Spread the salaam between you." [pause] Sahih Muslim.
+
+
+[00:53–01:00]  CLOSE
+--------------------------------------------------------------------------------
+[hopeful] The road to Jannah starts with a sentence you already know.
+
+[gently] So say it. [pause] To the one you know —
+[warm] and to the one you don't.
+
+
+================================================================================
+DELIVERY NOTES FOR ELEVENLABS
+================================================================================
+
+VOICE.     Male, warm mid-low register, unhurried. Stability ~45, similarity ~75,
+           style exaggeration LOW (~15) — v3 over-acts religious text if pushed.
+
+ARABIC.    Do NOT run the Arabic lines through the same generation as the
+           English. v3 mispronounces Qur'anic Arabic and will not observe
+           tajweed. Record the three Arabic pulls as human VO and drop them in
+           on their own track. If they must be synthetic, generate them in a
+           separate Arabic-locale pass and hand-check every ayah before use.
+
+TAGS.      Tags are direction, not dialogue — they are consumed, never spoken.
+           [pause] is a beat of roughly 0.4s; do not stack it with commas.
+           Keep [whispers] on the two lines marked and nowhere else — it loses
+           its effect the third time.
+
+PACING.    Target 60s flat. English body runs ~150 wpm. If the read comes in
+           long, the trim is the two surah citations, not the ayat.
+
+MUSIC.     Bed under the English only. Duck to silence for each Arabic pull —
+           the drop to dry voice is what makes them land.
