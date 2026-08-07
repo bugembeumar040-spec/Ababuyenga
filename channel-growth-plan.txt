@@ -1,0 +1,362 @@
+================================================================================
+FINANCE % DECODED — CHANNEL GROWTH PLAN
+The two doors to monetisation, and which one your channel is standing at
+21 uploads · all 9:16 · no series framing · written against the Klarna and
+Deadbeat packs
+================================================================================
+
+WHAT THIS FILE IS
+
+The prompt packs solve production. Production is not your problem — the house
+style is locked, the character builds are locked, the accuracy posture is
+better than most newsrooms. This file is about the other half: what happens to
+a video after it renders.
+
+It exists because of one line you wrote yourself in the Deadbeat pack:
+
+  "you have no series framing across 21 uploads and it is the cheapest
+   retention you have available."
+
+That is the correct diagnosis. This file is the fix, plus the larger thing that
+sits behind it, which is that the channel is currently pointed at the harder
+and worse-paying of the two available monetisation doors.
+
+Nothing in here asks you to change the house style. The style is the asset.
+
+
+================================================================================
+THE HONEST MATH — READ THIS BEFORE THE REST
+================================================================================
+
+There is no mechanism, paid or otherwise, that produces two million real
+subscribers on request. Purchased subscribers are worse than useless: they are
+an explicit Terms of Service violation, they arrive with zero watch time, and
+they drag your engagement ratios down in exactly the signal YouTube uses to
+decide whether to show a video to anyone. Channels that buy them do not get
+monetised faster. They get monetised never. Do not let anyone sell you this.
+
+What is real is that YouTube has exactly two doors into the Partner Programme,
+and they are not equally hard:
+
+  DOOR A — SHORTS.     1,000 subscribers + 10,000,000 valid public Shorts
+                       views in a rolling 90 days.
+  DOOR B — LONG-FORM.  1,000 subscribers + 4,000 valid public watch hours in
+                       a rolling 12 months.
+
+Every upload you have is 9:16 and 30–60s. You are queued at Door A.
+
+Now the part that matters. Watch hours accrued in the Shorts Feed do not count
+toward the 4,000. The doors are sealed off from each other. A channel that
+publishes only Shorts is not making slow progress toward Door B — it is making
+no progress toward Door B at all.
+
+Put the two thresholds in the same units. Assume an 8-minute long-form video
+holding 40% average view duration, which is an ordinary, unremarkable result
+for explainer content:
+
+  DOOR A     10,000,000 views          in 90 days
+  DOOR B        ~75,000 views          in 365 days
+
+That is the whole argument. Roughly a hundred and thirty times less traffic,
+over four times the window. You do not need to get better at anything to walk
+through Door B. You need to be standing at it.
+
+And then the second blade. Once through, the two doors do not pay the same:
+
+  SHORTS RPM, finance, UK/US audience     ~$0.07 – $0.17 per 1,000 views
+  LONG-FORM RPM, finance, UK/US audience     ~$10 – $25 per 1,000 views
+
+Two orders of magnitude. Your niche — UK personal finance, credit, mortgages —
+is one of the highest-CPM categories on the platform, and Shorts is the single
+format that throws that advantage away. Finance Shorts pay roughly double
+gaming Shorts, which sounds good until you notice that double a rounding error
+is a rounding error.
+
+The uncomfortable summary: hitting your dream figure on Shorts alone would
+earn less than a mid-sized long-form finance channel with 30,000 subscribers.
+Two million is the wrong target. It is a vanity number that the Shorts format
+makes simultaneously harder to reach and less valuable on arrival.
+
+The right target is 1,000 subscribers and 4,000 long-form watch hours, and
+then a real business behind it. That is a twelve-month goal, not a fantasy,
+and everything below is built to get you there.
+
+
+================================================================================
+WHAT YOU ALREADY HAVE — the part most channels never get
+================================================================================
+
+Be clear-eyed about the asset base, because it is genuinely unusual:
+
+  A LOCKED VISUAL IDENTITY. Low-poly matte clay, #1E3A5F navy, #F5F0E6 cream,
+  #E85F42 terracotta on #0A0C10. Faceless by design, which means no on-camera
+  performance ceiling and no burnout from being the talent. Most channels
+  spend two years and never arrive at a look this specific.
+
+  A REPEATABLE PRODUCTION SYSTEM. Two tracks, a negative prompt that applies
+  across all clips, a burn-the-numbers-in-post rule, locked character
+  references. This is a pipeline, not a hobby.
+
+  A GENUINELY UNDERSERVED NICHE. UK personal finance through an Islamic
+  finance lens. The UK Muslim population is large, young, financially active,
+  and catastrophically underserved by finance YouTube. The English-language
+  competition is thin and mostly low production value.
+
+  EDITORIAL DISCIPLINE. The ACCURACY section in the Deadbeat pack — separating
+  US card jargon from FCA "transactors vs revolvers" vocabulary, refusing to
+  issue a fatwa in your own voice, declining to name an issuer on screen — is
+  a standard of care most finance channels do not meet. In this niche it is
+  also your moat: it is what makes you citable rather than merely watchable.
+
+  ONE PROVEN PACKAGING FINDING. You retitled Klarna from "Is Klarna Halal?" to
+  "You've Already Paid Klarna." and the declarative won. That is real data
+  from your own channel. Section on this below.
+
+None of that needs fixing. The plan below changes format and structure only.
+
+
+================================================================================
+THE BOTTLENECK — stated plainly
+================================================================================
+
+  1. FORMAT.    100% Shorts. Queued at the hard door, paid at the low rate.
+  2. STRUCTURE. 21 standalone uploads. No series, no playlists doing work, no
+                reason for a viewer of video 14 to watch video 15.
+  3. PACKAGING. One learned finding, not yet applied as a rule across the
+                back catalogue.
+  4. TOPIC SPREAD. The two strongest videos you have are consecutive parts of
+                an argument. That was an accident. Make it the method.
+
+Note what is not on that list: production quality, visual consistency, script
+craft, factual rigour. Those are solved. Do not spend another cycle on them.
+
+
+================================================================================
+THE SERIES ARCHITECTURE — fixing the 21-upload problem
+================================================================================
+
+You already built a series without naming one. Klarna closes on "Follow — the
+fix is next." Deadbeat lands on that promise and closes on "the halal card
+fix is next." That is a three-part arc with a spine.
+
+Name it. Number it. Put the number in the title.
+
+  THE DEBT SERIES
+    Part 1  You've Already Paid Klarna              [published]
+    Part 2  They Call You a Deadbeat                [in production]
+    Part 3  The Halal Card That Actually Exists     [promised, unmade]
+
+Rules for every series from here:
+
+  NUMBER IN THE TITLE. "Part 2" or "#2" visible before the click. It converts
+  a browse impression into a sequence obligation.
+
+  ONE PINNED PLAYLIST PER SERIES. Set it as the channel's featured playlist
+  while the series is running. Playlist autoplay is the only mechanism on the
+  platform that delivers consecutive watch time without the viewer choosing.
+
+  EVERY PART ENDS ON THE NEXT PART'S PROMISE. You already do this instinctively.
+  Make it non-negotiable.
+
+  THE LAST PART ENDS ON THE LONG-FORM. See below. This is the whole hinge.
+
+The three-part Short arc is not the product. It is the trailer for the product.
+
+
+================================================================================
+THE LONG-FORM PIVOT — the actual move
+================================================================================
+
+Here is the thing your own documentation already half-discovered. The Deadbeat
+pack says of Track B stills:
+
+  "frames reusable as thumbnails and as b-roll later"
+
+You built for reuse without naming what the reuse was for. It is this.
+
+A Deadbeat pack is 11 scenes, a full VO script, a caption table, a numbers
+list and 11 rendered assets, for 55.6 seconds of finished video. Three packs
+is 33 scenes and roughly three minutes of finished footage. An 8–10 minute
+long-form video is those three packs, in order, with connective tissue — a
+cold open, three chapter transitions, and a close — plus the material you were
+already forced to cut for the 60-second slate rule.
+
+You are not adding a new production line. You are stopping throwing away 80%
+of what each pack generates.
+
+THE PATTERN, per series:
+
+  1. Ship the three Shorts on the existing cadence. They are the top of funnel
+     and they are what the Shorts Feed is for.
+  2. Cut the long-form from the same assets plus the offcuts. Target 8–12
+     minutes. This is where the watch hours and the $10–25 RPM live.
+  3. Each Short's pinned comment and end frame points at the long-form.
+  4. The long-form's description points back at the playlist.
+
+WHAT LONG-FORM LETS YOU SAY THAT 55 SECONDS CANNOT. This matters more than the
+mechanics. The Deadbeat pack's ACCURACY section is three careful paragraphs of
+qualification that the Short has no room to voice — the US/UK jargon split, the
+"representative not universal" caveat on the APR figures, the deliberate refusal
+to rule on cards where interest is never incurred. In a Short that nuance lives
+in a text file and dies there. In a 10-minute video it is the content, and it is
+exactly the content nobody else in this niche is making. Your caution is not a
+constraint on the long-form. It is the long-form's entire differentiator.
+
+FORMAT NOTE. Long-form is 16:9. The house style survives the transition intact
+— same palette, same clay render, same faceless framing, same burn-numbers rule.
+Regenerate at 1920x1080 rather than reframing the 9:16 masters; the compositions
+in the packs are built for a vertical subject in the lower two-thirds and will
+not crop out to widescreen cleanly. Budget for that. It is the one real cost of
+the pivot.
+
+
+================================================================================
+PACKAGING — rules derived from your own channel data
+================================================================================
+
+THE DECLARATIVE RULE. "Is Klarna Halal?" lost to "You've Already Paid Klarna."
+Question titles invite a yes/no the viewer answers in their own head, and then
+they scroll. Declaratives assert something the viewer cannot verify without
+clicking. Apply this to the back catalogue: any of the 21 with a question-mark
+title is a free retitle experiment, and retitling costs nothing and does not
+reset a video's standing.
+
+Keep the "Is X Halal?" phrasing where it earns its place — in the description
+and in spoken script, where it is doing search-intent work rather than
+click work.
+
+THE RIBA SERP RULE. Already established in the packs and correct: keep "riba"
+out of titles, English search results are dominated by the Royal Institute of
+British Architects. Description and voiceover only. Extend the same test to any
+term before it goes in a title — search it in a logged-out window first and
+look at what is already ranking.
+
+THUMBNAIL DISCIPLINE. The Deadbeat spec — single object, isolated, one word in
+terracotta, nothing else — is right, and it should become the template rather
+than a per-video decision. One object, one word, house palette. Thumbnails that
+are visibly siblings do compounding work on a channel page that individually
+clever thumbnails do not.
+
+DESCRIPTIONS. The pack already flags this: 600+ characters, do not ship the
+197-char boilerplate. On the long-form this matters considerably more than it
+does on a Short — it is a genuine ranking surface. Put the FCA "transactors vs
+revolvers" corroboration in there. Citations in the description are cheap
+credibility in a niche where the comment section will test you.
+
+TAGS. Under 500 characters total. YouTube silently rejects the overflow rather
+than warning you.
+
+
+================================================================================
+THE 90-DAY SLATE
+================================================================================
+
+Cadence assumption: two Shorts a week, one long-form a month. If that is more
+than you can sustain, cut the Shorts to one a week before you cut the long-form.
+The long-form is the only thing moving you toward Door B.
+
+MONTH 1 — CLOSE THE DEBT SERIES
+  Short   Deadbeat (Part 2)                    [pack written, produce it]
+  Short   The Halal Card That Actually Exists  (Part 3 — pays off two promises)
+  LONG    "The Truth About Credit in the UK"   — Parts 1–3 recut, 10 min,
+          carrying the full ACCURACY section as spoken content
+  Admin   Build the playlist. Retitle every question-mark title in the 21.
+
+MONTH 2 — THE HOUSE SERIES
+  The highest-intent, worst-served question in UK Islamic finance. Real
+  products exist and almost nobody explains them on video in English.
+  Short   Why You Were Told to Rent Forever
+  Short   What a Halal Mortgage Actually Is    (ijara vs diminishing musharaka)
+  Short   The Deposit Nobody Talks About
+  LONG    "Buying a House in the UK Without a Conventional Mortgage" — 12 min
+
+MONTH 3 — THE INVISIBLE MONEY SERIES
+  Pensions and workplace auto-enrolment. Enormous audience, near-zero coverage,
+  and the default fund question affects every employed person in the country.
+  Short   You Were Auto-Enrolled Into Something
+  Short   The Fund You Never Chose
+  Short   How to Actually Check
+  LONG    "Your Pension, Screened" — 10 min
+
+Reserve bench, in rough order of search intent: student loans (Plan 2 and Plan
+5, and the genuinely contested question of whether the uplift is riba at all),
+Lifetime ISA, cash savings and interest, takaful vs conventional insurance,
+gold. Each is a three-Short series plus a long-form on the same pattern.
+
+POSTURE, CARRIED FORWARD UNCHANGED. Everything above holds the Deadbeat pack's
+line: explain the economics, name the mechanism, never issue a ruling in your
+own voice. On mortgages and pensions this matters more than it did on cards,
+because the fiqh is more differed and the sums are larger. Describe how the
+products work, cite the scholars and bodies who have ruled, and let the viewer
+take it to their own. That is also, not incidentally, the difference between a
+channel that can take sponsorship from an Islamic bank and one that cannot.
+
+
+================================================================================
+WHERE THE MONEY ACTUALLY IS
+================================================================================
+
+AdSense is the floor, not the ceiling, and in this niche it is not even the
+main event. Ranked by realistic value per subscriber:
+
+  1. AFFILIATE AND REFERRAL. UK Islamic finance has real products with real
+     referral programmes — Islamic banks, halal investment platforms, Sharia
+     screened funds. A finance audience of 20,000 engaged UK subscribers is
+     worth considerably more here than the same audience is worth in AdSense.
+     Disclose every one of them, on screen and in the description. Non-negotiable.
+
+  2. SPONSORSHIP. Directly negotiated, priced on your audience's value rather
+     than on raw view count. This is where your accuracy discipline converts
+     into money: an Islamic bank's compliance team will clear a channel that
+     refuses to issue rulings, and will not clear one that does.
+
+  3. A PRODUCT. The obvious one already exists in outline — the halal mortgage
+     and pension research you will do for Months 2 and 3 is a paid guide.
+
+  4. ADSENSE. Long-form, £10–25 per 1,000. Real, but fourth.
+
+This is why 2,000,000 is the wrong number to be chasing. Twenty thousand
+subscribers who trust you on a £300,000 mortgage decision are worth more than
+two million who watched a 40-second clip in a feed and scrolled on.
+
+
+================================================================================
+WHAT TO MEASURE
+================================================================================
+
+Weekly, in Studio. Four numbers, and only four:
+
+  LONG-FORM WATCH HOURS, TRAILING 12 MONTHS.  The only number on the path to
+    Door B. Everything else is diagnostic.
+  AVERAGE VIEW DURATION AS A % ON LONG-FORM.  Below 30%, the problem is the
+    first 30 seconds. Above 50%, make them longer.
+  SUBSCRIBERS PER VIDEO.  Which topics convert a viewer into a subscriber.
+    This is your slate-planning signal, not raw views.
+  IMPRESSION CLICK-THROUGH.  Title and thumbnail only. Test retitles against it.
+
+Ignore: total subscriber count, total views, and every third-party "estimated
+earnings" figure. None of the three changes a decision you will make.
+
+REVIEW POINT — DAY 90. If long-form average view duration is holding above 35%
+and the trailing watch-hour figure is climbing, keep the cadence and do nothing
+clever. If it is flat, the problem is the first thirty seconds of the long-form
+cuts, not the topics — the topics above are correct.
+
+
+================================================================================
+SOURCES
+================================================================================
+YouTube Partner Programme thresholds, and the rule that Shorts Feed watch time
+does not count toward the 4,000-hour requirement:
+  https://support.google.com/youtube/answer/72851
+  https://www.youtube.com/creators/earn/youtube-partner-program/
+
+RPM ranges, Shorts vs long-form, finance niche, UK/US audience:
+  https://mediacube.io/en-US/blog/youtube-shorts-rpm
+  https://outlierkit.com/blog/youtube-rpm-finance-niche
+  https://ytmoneycalculator.com/blog/how-much-youtube-pay-per-1000-views/
+
+RPM figures are third-party aggregates and move with season and audience mix.
+Treat them as ranges for deciding format, which is all they are used for here,
+and never as a forecast.
+================================================================================
