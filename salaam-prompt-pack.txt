@@ -1,0 +1,167 @@
+================================================================================
+THE MUSLIM NARRATIVE — "TWO WORDS" (SALAAM) — PROMPT PACK
+Track B (STILLS) only — 22 generated images, moved in the edit
+9:16 · 1080x1920 · 22 scenes · 88.20s
+================================================================================
+
+WHAT THIS FILE IS
+
+The shipped build of the salaam Short. Unlike the credit-card pack, the VO was
+already recorded when this was made, so NOTHING here is estimated — every IN/OUT
+below was derived from word-level STT alignment of the delivered ElevenLabs
+track (86.67s of speech, 88.20s of picture).
+
+The written script says [00:00–01:00]. The delivered read is 86.67s. The
+performance pauses are much longer than the script's estimate, so the script's
+own timestamps were discarded and the cut was built against the real audio.
+
+Track A (video clips) was not shot. Stills were the right idiom here: the tone
+is reverent and unhurried, generated motion adds drift risk on architecture and
+hands, and every frame doubles as a thumbnail or as b-roll later.
+
+MODEL: nano_banana_pro, 9:16, 2k, 2 credits/frame. 25 generations total
+(22 keepers + 3 reshoots). Everything else is ffmpeg.
+
+
+================================================================================
+CONTENT RULES — NON-NEGOTIABLE, THEY SHAPED EVERY PROMPT
+================================================================================
+
+  1. NO depiction of Allah. No anthropomorphic divine imagery of any kind.
+  2. NO depiction of the Prophet ﷺ — not a figure, not a silhouette, not a
+     back-turned stand-in. Scene 09 carries him by PLACE (the green dome at
+     Madinah), never by person.
+  3. NO AI-generated Arabic. Every image prompt ends with an explicit ban on
+     text, letters, numbers, calligraphy and signage. Image models garble Arabic
+     script, and garbled Qur'anic text is not a cosmetic defect.
+     All three Arabic texts on screen are set in real type (see TYPE below).
+  4. FACELESS by default. Hands, backs, silhouettes, over-shoulder, crops.
+     Where a face crept in, the frame was reshot (see RESHOOTS).
+  5. NO music bed. The audience splits on music; the pauses in this read are
+     dramatic and carry themselves. A brown-noise air bed sits at ~-35 dB purely
+     so the long gaps do not read as a dead file.
+
+
+================================================================================
+SCENE MAP — derived from the rendered VO, not estimated
+================================================================================
+
+ #  | IN     | OUT    | LEN   | MOVE | SCENE
+----|--------|--------|-------|------|--------------------------------------
+ 01 | 0:00.0 | 0:04.9 | 4.85s | pin  | hands clasped, mosque doorway
+ 02 | 0:04.9 | 0:07.6 | 2.77s | pu   | two men embracing, dim corridor
+ 03 | 0:07.6 | 0:11.4 | 3.73s | pout | dome interior, single light shaft
+ 04 | 0:11.4 | 0:14.8 | 3.45s | pin  | white-robed rows toward the light
+ 05 | 0:14.8 | 0:18.5 | 3.65s | pl   | empty prayer hall, golden haze
+ 06 | 0:18.5 | 0:22.8 | 4.30s | pout | two silhouettes meeting in light
+ 07 | 0:22.8 | 0:26.1 | 3.30s | pr   | hand resting on a closed book
+ 08 | 0:26.1 | 0:30.3 | 4.20s | pin  | garden, water running beneath trees
+ 09 | 0:30.3 | 0:34.7 | 4.40s | pd   | Madinah green dome at dawn
+ 10 | 0:34.7 | 0:38.5 | 3.80s | pin  | closed door, light under the threshold
+ 11 | 0:38.5 | 0:42.7 | 4.25s | pout | two elders side by side on the carpet
+ 12 | 0:42.7 | 0:47.5 | 4.75s | pin  | open palm in a beam of light
+ 13 | 0:47.5 | 0:50.3 | 2.80s | pout | sunrise rays over the minarets
+ 14 | 0:50.3 | 0:55.2 | 4.90s | pl   | market street, men greeting
+ 15 | 0:55.2 | 0:59.6 | 4.40s | pin  | hand offered, unmet
+ 16 | 0:59.6 | 1:06.0 | 6.45s | pin  | colonnade, one-point perspective
+ 17 | 1:06.0 | 1:10.1 | 4.05s | pout | one hand clasped by two
+ 18 | 1:10.1 | 1:16.5 | 6.40s | pr   | embrace at dusk, distant
+ 19 | 1:16.5 | 1:20.1 | 3.60s | pin  | circle seated in the mosque
+ 20 | 1:20.1 | 1:22.6 | 2.55s | pout | overhead, hands passing food
+ 21 | 1:22.6 | 1:25.1 | 2.45s | pin  | two friends greeting, sunlit
+ 22 | 1:25.1 | 1:28.2 | 3.15s | pout | stranger greeted on a desert road
+
+MOVE = the Ken Burns push. pin/pout are centred; pl/pr/pu/pd start at 1.10 zoom
+so there is margin to drift into. Scenes join on a 0.45s dissolve.
+
+
+================================================================================
+HOUSE STYLE — appended verbatim to all 22 prompts
+================================================================================
+
+  Shot on 35mm film, cinematic documentary still, vertical 9:16 composition.
+  Warm golden natural light, dust in the air, soft volumetric light shafts.
+  Muted earthy palette of sand, terracotta, olive green, deep teal shadows and
+  warm gold highlights. Shallow depth of field, gentle halation on highlights,
+  fine organic film grain, slight vignette. Reverent, quiet, unhurried mood.
+  Absolutely no text, no writing, no letters, no numbers, no calligraphy, no
+  signage anywhere in the frame. Nobody looks at the camera.
+
+The palette is bound further in the grade so the 22 frames read as one shoot:
+contrast 1.05, saturation 1.03, shadows lifted warm and the blue channel pulled
+down slightly, vignette PI/4.6, temporal grain.
+
+
+================================================================================
+RESHOOTS — what failed first time, and why
+================================================================================
+
+  04  Rows of worshippers came back as a rotated top-down plane of tiny
+      featureless white figures — uncanny, and it read as a glitch. Refixed by
+      naming the camera ("eye-level ground-view"), the ground plane, normal
+      human proportions, and atmospheric perspective.
+
+  09  Madinah read as a game render, and carried a white polaroid border.
+      Refixed with "real documentary photograph", "true optical depth",
+      "authentic stone and tile texture", "not a render and not an
+      illustration", plus an explicit "full bleed, no border, no frame".
+
+  15  The man's face was visible and the offered hand was anatomically loose.
+      Refixed with "only the back of his head visible and never his face" and
+      "anatomically correct hand with exactly five natural fingers".
+
+Borders showed up on several frames. The Ken Burns push starts at ≥1.00 zoom on
+a 2x-upscaled source, so any residual edge is cropped out in the move.
+
+
+================================================================================
+TYPE — captions and the Arabic
+================================================================================
+
+Latin      Montserrat 800.
+Arabic     Amiri Quran (aliftype/amiri 1.001), shaped by PIL's raqm/HarfBuzz
+           layout engine with direction='rtl'. Harakat survive intact.
+ﷺ          Montserrat has no U+FDFA, so the renderer detects any glyph outside
+           Montserrat's cmap and falls back to Amiri mid-line at 1.25x size.
+           Without this it renders as a tofu box — it did, on the first pass.
+
+  kind       size  colour    y      used for
+  ---------- ----- --------- ------ ---------------------------------------
+  hook        118  white     1320   the four hard beats
+  en           84  white     1335   narration
+  scripture    80  cream     1335   anything inside quotation marks
+  ref          46  dim gold  1370   AL-AHZAB · 44, SAHIH MUSLIM, AN-NISA · 86
+  ar          190  gold       880   the ayat, centre frame
+  ar_small    170  gold      1300   السلام عليكم over the embrace
+
+Every cue auto-shrinks to fit 980px and sits on a 4x-stacked 24px-blurred black
+plate, so it holds over the bright colonnade frames as well as the dark ones.
+All captions sit between y=880 and y=1400 — clear of the TikTok/Reels chrome.
+
+THE ARABIC IS THE USER'S OWN SCRIPT TEXT, PASTED, NOT RE-DERIVED:
+  Al-Ahzab 44   تَحِيَّتُهُمْ يَوْمَ يَلْقَوْنَهُ سَلَامٌ
+  Sahih Muslim  أَفْشُوا السَّلَامَ بَيْنَكُمْ
+  An-Nisa 86    وَإِذَا حُيِّيتُم بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا
+
+
+================================================================================
+DELIVERY
+================================================================================
+
+  1080x1920 · 30fps · h264 high@4.1 · AAC 160k mono
+  88.20s · -14.5 LUFS integrated · -1.4 dBTP
+
+Loudness is on the social target, so no platform will re-gain it.
+
+REBUILD:  python3 render_caps.py && python3 build.py
+  beats.py       scene map + 38 caption cues (the timing source of truth)
+  render_caps.py cues -> 38 transparent 1080x1920 PNGs
+  build.py       Ken Burns -> dissolves -> captions -> grade -> VO mix
+
+build.py runs in four stages and writes an intermediate at each one, so a
+caption change only costs the caption pass, not the Ken Burns pass.
+
+ONE TRAP WORTH KEEPING: a caption starting at t=0 must not be given a negative
+-itsoffset. ffmpeg silently drops the input and the cue never appears. The hook
+went missing on the first render for exactly that reason; the pad is now
+clamped to min(0.35, start).
