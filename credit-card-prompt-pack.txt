@@ -771,7 +771,16 @@ THREE FIXES, all free in the edit, none require regeneration:
   third instead.
 
   GEN 6 — CAPTION COLLISION. The blank card sits at about 23% height, exactly
-  where CAP2 lands. Move CAP2 to y=21%, or scale the image down 8%.
+  where CAP2 lands, and the 9% push lifts it further into the type. Fixed by
+  moving the whole caption stack up (CAP1 top 110 at 88px, CAP2 top 300)
+  rather than nudging CAP2 alone.
+
+  CAPTION CLEARANCE IS A PER-FRAME CHECK, NOT A PER-SHOT ONE. Every push moves
+  the subject during the hold, so a caption that clears at the IN point can be
+  buried by the OUT point. Check both ends of every cue. render/collide.py
+  automates the sweep; its global-background heuristic over-reports on frames
+  with several flat regions, so treat its output as a shortlist to look at
+  rather than a verdict.
 
   GEN 1 — THUMBNAIL FRAMING. He came back framed wider than "chest-up", so the
   face is small at feed scale. Fine in the video; for the thumbnail export, punch
@@ -808,6 +817,20 @@ POSITION
   EXCEPTIONS: cuts 03 and 13 go in the BOTTOM third until those images are
   repositioned. Cut 06's CAP2 moves to y=21%.
 
+ANCHORING — the rule that was missing
+  A burn-in tied to a feature IN the image (£25 in its printed box, a card
+  sitting on a table) must ride the camera move, or it drifts off its mark as
+  the push runs. Those cues are marked ANCHORED in the cue sheet and are
+  transformed by the live zoom each frame:
+
+      screen = (design - centre) * z + centre - offset
+
+  Captions that sit on the frame rather than on the picture — every CAP1 and
+  CAP2 — stay locked to the frame and do NOT anchor.
+
+  This is why £25 was outside its box in the first render: the 11% push moved
+  the box roughly 56px down over the hold while the number stayed put.
+
 MOTION
   CAP1        cuts on hard. No fade, no movement — the house style is locked-off
               and the type should match.
@@ -837,10 +860,14 @@ Times are for the UNTRIMMED 70.27s file. If you apply the trim rule, lay these
 to the words instead.
 
 CUT 01
-  0.40  CAP1  THE CARD INDUSTRY / CALLS YOU
-  1.90  +     A DEADBEAT              at 27%, brick red, 150px
-  2.86  clear all → CAP1  FOR PAYING IN FULL
+  0.40  CAP1  THE CARD INDUSTRY / CALLS YOU    top 126, 84px
+  1.90  +     A DEADBEAT                       top 316, brick red, 122px
+  2.86  clear all → CAP1  FOR PAYING IN FULL   top 270
   4.30  out
+        NOTE Setup line is smaller than spec and the stack sits higher than
+        14%. At 96px with the payload at 27% the word landed on KAREEM's
+        hairline, and the 6% push closed the gap further. Lifting the stack
+        also fixes the hierarchy — the setup should not compete with the word.
 
 CUT 02  — all type cream #F5EFDC
   4.60  DEADBEAT                      on the card face, 150px
@@ -853,24 +880,33 @@ CUT 03  — captions BOTTOM third
   9.45  out
 
 CUT 04
- 10.00  CAP1  YOU EARNED THEM NOTHING
- 11.00  CARD A  INTEREST EARNED / £0.00     in the gap between the two figures
+ 10.00  CAP1  YOU EARNED / THEM NOTHING
+ 11.00  CARD A  INTEREST EARNED / £0.00     cy 1520, ANCHORED
  12.45  out
+        NOTE The gap between the figures is too narrow for the card. At hip
+        height it covered ADAM's hand and the blank card he is holding, which
+        is the meaningful content of the frame. Dropped to leg height.
 
 CUT 05
  13.25  CAP1  YOU WERE NEVER / THE CUSTOMER
  15.40  out
 
 CUT 06
- 16.35  CAP1  THE CARD ISN'T THE PRODUCT
- 17.40  CAP2  the balance is                y=21%, not 23%
+ 16.35  CAP1  THE CARD ISN'T / THE PRODUCT   top 110, 88px
+ 17.40  CAP2  the balance is                 top 300
  18.80  out
+        NOTE Moving CAP2 to 21% was not enough. The 9% push lifts the blank
+        card to ~20.5% by the OUT point, so the caption printed onto it.
+        Whole stack moved up instead.
 
 CUT 07
  19.50  CAP1  THE LIMIT WENT UP / ON ITS OWN
- 20.30  CARD A  LIMIT / £2,000 → £3,500     on the phone screen
+ 20.30  CARD A  LIMIT / £2,000 → £3,500     cy 1690, ANCHORED
  21.60  CAP2  you didn't ask. it arrived.
  23.20  out
+        NOTE The phone screen is too small to carry the figure legibly, and a
+        card sized to be readable there covered both of ADAM's hands. Moved
+        to the empty table front, which is the only clean plate in the frame.
 
 CUT 08
  24.20  CAP1  THE CASHBACK IS BAIT
@@ -878,14 +914,17 @@ CUT 08
  26.40  out
 
 CUT 09
- 28.60  CARD B  CASHBACK 1%  |  APR 24%     right cell 190px brick red
- 29.80  CAP2  bait, not a gift              beneath the card
+ 28.60  CARD B  CASHBACK 1%  |  APR 24%     right cell 150px brick red
  30.80  out
+        NOTE "bait, not a gift" is CUT. It fell between the card's lower edge
+        and the top of the stack and was unreadable at every point in the
+        hold. It was also diluting the film's key frame — the collision card
+        is the statement and does not need a caption arguing alongside it.
 
 CUT 10
- 31.60  CAP1  ITS OWN LITTLE BOX
- 32.30  £25                                 inside the small rectangle
-        MINIMUM PAYMENT                     label to its left
+ 31.60  CAP1  ITS OWN / LITTLE BOX
+ 32.30  £25                                 inside the rectangle, ANCHORED
+        MINIMUM PAYMENT                     label to its left, ANCHORED
  34.20  out
 
 CUT 11
@@ -923,9 +962,12 @@ CUT 18
  57.20  out
 
 CUT 19
- 58.10  CARD C  BALANCE £0.00
- 59.40  CAP1  YOU'RE WORTHLESS TO THEM
+ 58.10  CARD C  BALANCE £0.00               cy 300
+ 59.40  CAP1  YOU'RE WORTHLESS / TO THEM    top 300, 78px
  61.30  out
+        NOTE These two were overlapping each other and CARD C's heavy rule was
+        cutting across KAREEM's hair. Staggered so the stamp clears before the
+        caption arrives, and both moved into the empty upper third.
 
 CUT 20
  62.30  CAP1  BE WORTHLESS                  full brick red, 150px

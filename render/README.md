@@ -44,3 +44,33 @@ locked to its word.
 
 Paths at the top of render_1080.py point at the upload directory the stills
 and VO arrived in. Repoint GEN{} and VO before running elsewhere.
+
+## collide.py — caption clearance sweep
+
+    python collide.py
+
+Renders each cue's layer alone to get its exact bbox, then samples the
+caption-free frame underneath at BOTH ends of the cue and reports how much
+of that box is non-background.
+
+Checking both ends matters: every push moves the subject during the hold, so
+a caption that clears at the IN point can be buried by the OUT point. That is
+how "A DEADBEAT" ended up on KAREEM's hairline and "the balance is" ended up
+printed on the blank card.
+
+Its background test picks one dominant colour per frame, so it over-reports
+on frames with several flat regions (a caption on the cream wall above a sand
+desk reads as "not background"). Treat the output as a shortlist to look at,
+not a verdict — confirm by eye before moving anything.
+
+## Anchored burn-ins
+
+Cues marked `anchor=True` are tied to a feature IN the picture rather than to
+the frame — £25 inside its printed box, a card resting on a table. They are
+transformed by the live zoom each frame:
+
+    screen = (design - centre) * z + centre - offset
+
+Without this they drift off their mark as the push runs; the 11% push on cut
+10 moved the box about 56px down over its hold while the number stayed put.
+Captions that belong to the frame (every CAP1/CAP2) must NOT anchor.

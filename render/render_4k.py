@@ -99,6 +99,10 @@ def base(gen, scale, dy):
 
 def ease(p): return 1 - (1 - p) ** 3
 
+def anchor_xy(x, y, z, dx, dy):
+    """Design-space point on the image -> where it actually lands after the push."""
+    return ((x - 540) * z + 540 - dx / S, (y - 960) * z + 960 - dy / S)
+
 def frame_at(t_old):
     cut = next((c for c in R.CUTS if c[2] <= t_old < c[3]), R.CUTS[-1])
     _, gen, ti, to, bs, bdy, z0, z1, dx0, dx1, dy0, dy1 = cut
@@ -121,14 +125,20 @@ def frame_at(t_old):
         elif kind == "cap2":
             cap2(im, kw["text"], kw.get("top", 400), kw.get("color", CHARCOAL))
         elif kind == "acc":
-            put(im, kw["text"], F_BOLD, 150 * S, BRICK, W // 2, kw["top"] * S, track=-0.02 * 150 * S)
+            sz = kw.get("size", 150)
+            put(im, kw["text"], F_BOLD, sz * S, BRICK, W // 2, kw["top"] * S, track=-0.02 * sz * S)
         elif kind == "onc":
             put(im, kw["text"], F_BOLD, 112 * S, CHARCOAL, W // 2, kw["top"] * S, track=-0.015 * 112 * S)
         elif kind == "sml":
             sz = kw.get("size", 56)
-            put(im, kw["text"], F_BOLD, sz * S, CHARCOAL, kw["cx"] * S, kw["top"] * S, track=0.02 * sz * S)
+            ax, ay = (anchor_xy(kw["cx"], kw["top"], z, dx, dy) if kw.get("anchor")
+                      else (kw["cx"], kw["top"]))
+            put(im, kw["text"], F_BOLD, int(sz * S * (z if kw.get("anchor") else 1)),
+                CHARCOAL, ax * S, ay * S, track=0.02 * sz * S)
         elif kind == "cA":
-            card_a(im, kw["label"], kw["value"], kw["cx"], kw["cy"], kw.get("w", 560))
+            ax, ay = (anchor_xy(kw["cx"], kw["cy"], z, dx, dy) if kw.get("anchor")
+                      else (kw["cx"], kw["cy"]))
+            card_a(im, kw["label"], kw["value"], ax, ay, kw.get("w", 560))
         elif kind == "cB":
             card_b(im, kw["l_lab"], kw["l_val"], kw["r_lab"], kw["r_val"], kw.get("cy", 470))
         elif kind == "cC":
