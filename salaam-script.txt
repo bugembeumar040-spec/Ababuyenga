@@ -1,96 +1,93 @@
 ================================================================================
 THE MUSLIM NARRATIVE — "THE GREETING OF PARADISE"
 1-minute VO script · English · ElevenLabs v3 emotion tags
-Derived from parent VO: 2b_Street.m4a + 2b_Street_2.m4a
+Derived from parent VO: 2b_Street.m4a (4:30) + 2b_Street_2.m4a (1:45)
+Rev 2 — revised against the FULL transcript of both files
 ================================================================================
 
 
 SOURCE ANALYSIS — MAJOR THEME OF THE PARENT SPEECH
 ================================================================================
 
-The attached voice notes are an Arabic khutbah/dars. Whisper large-v3 transcript
-of the first 166 seconds is coherent and the thesis is unambiguous:
+Both voice notes are an Arabic dars/khutbah. Transcribed with Whisper large-v3.
+The theme is unambiguous:
 
     إفشاء السلام — SPREADING THE GREETING OF PEACE.
 
-The speaker builds one argument in four moves:
+The speaker builds it in two halves, and a script has to carry both.
 
-  1. HONOUR.    Allah honoured the human being. And the greatest honour named
-                is that Allah Himself greets him — "وأي إكرام أعظم أن يحيي الله
-                عز وجل الإنسان."
-  2. THE ANGELS. The angels enter upon them saying "سلام عليكم" —
-                "فتستقبلهم الملائكة... يقولون سلام عليكم."
-  3. JANNAH.    The people of Paradise greet one another with it —
-                "ويتلقى أهل الجنة بعضهم بعضاً بالسلام / وتحيتهم فيها سلام."
-  4. THE COMMAND. Therefore it is not etiquette, it is a door. The Prophet ﷺ:
-                "لا تدخلوا الجنة حتى تؤمنوا... أفشوا السلام بينكم."
+HALF ONE — THE CASE (file 1, 0:00–2:45). Why salaam is not small.
+  · Allah honoured the human being, and the greatest honour named is that
+    Allah Himself greets him.
+  · The angel-keepers greet them at the gates of Jannah.
+  · The people of Jannah greet one another with it — تحيتهم فيها سلام.
+  · Therefore the Prophetic command: "لا تدخلوا الجنة حتى تؤمنوا... أفشوا
+    السلام بينكم."
 
-So salaam is presented as the greeting of Allah, the greeting of the angels and
-the native language of Jannah — and the Prophetic instruction is to spread it
-here, to those you know and those you do not.
+HALF TWO — THE PRACTICE (file 1, 2:45–4:30 + all of file 2). What you do.
+  · Salaam on arriving at a gathering AND on leaving it — "إذا جاء أحدكم
+    المجلس فليسلم... وإذا قام فليسلم."
+  · آداب السلام — who greets whom: the young greets the old, the passer-by
+    the seated, the few the many.
+  · Say it loud enough to be heard; don't single one person out; greeting a
+    group covers all of them.
+  · "تطعم الطعام وتقرأ السلام على من عرفت ومن لم تعرف."
+  · File 2 anchors the duty side: وإذا حييتم بتحية فحيوا بأحسن منها أو ردوها.
 
-The script below carries exactly that spine. Nothing is added to the argument.
+Rev 1 of this script was built only from Half One and therefore read as pure
+theology with no instruction. Rev 2 keeps the divine framing as the hook and
+spends its back half on the practice, which is where the speaker spends his.
 
 
 SCRIPTURE USED — VERIFIED
 ================================================================================
-  Q 33:44  Al-Ahzab      — تحيتهم يوم يلقونه سلام
-  Q 39:73  Az-Zumar      — سلام عليكم طبتم فادخلوها خالدين  (spoken by خَزَنَتُهَا,
-                            the angel-keepers of Paradise)
-  Sahih Muslim 54        — Abu Hurayrah رضي الله عنه, the "أفشوا السلام" hadith
+  Q 33:44   Al-Ahzab   — تحيتهم يوم يلقونه سلام
+  Sahih Muslim 54      — Abu Hurayrah رضي الله عنه — أفشوا السلام بينكم
+  Q 4:86    An-Nisa    — فحيوا بأحسن منها أو ردوها
 
-All three appear in, or directly underpin, the parent speech.
+  Carried in English only (no Arabic pull, to hold the 3-quote brief):
+  Bukhari 12 / Muslim 39 — تطعم الطعام وتقرأ السلام على من عرفت ومن لم تعرف
+
+Three Arabic pulls — two Qur'an, one hadith. All four texts appear in the
+parent speech; none is imported from outside it.
 
 
 ================================================================================
 THE SCRIPT
 ================================================================================
 
-[00:00–00:07]  HOOK
+[00:00–00:08]  HOOK
 --------------------------------------------------------------------------------
-[curious] Two words. [pause] You say them every day without thinking about them.
+[curious] Two words. [pause] You say them every day without thinking.
 
 [whispers] As-salamu alaykum.
 
-[warm] But do you know Who says them to you first?
+[building] But do you know Who says them to you first?
 
 
-[00:07–00:19]  MOVE 1 — ALLAH'S GREETING
+[00:08–00:20]  THE DIVINE FRAME
 --------------------------------------------------------------------------------
 [reverent] Allah describes the believers on the Day they meet Him:
 
-[slowly] تَحِيَّتُهُمْ يَوْمَ يَلْقَوْنَهُ سَلَامٌ
+[slowly] [reverent] تَحِيَّتُهُمْ يَوْمَ يَلْقَوْنَهُ سَلَامٌ
 
-[softly] "Their greeting, the Day they meet Him, will be — Peace."
-[pause] Surah Al-Ahzab, forty-four.
+[awe] [softly] "Their greeting, the Day they meet Him — is Peace."
+[pause] Al-Ahzab, forty-four.
 
 
-[00:19–00:31]  MOVE 2 — THE ANGELS AT THE GATE
+[00:20–00:27]  THE TURN
 --------------------------------------------------------------------------------
-[awe] And when the gates open, the angels who keep them say:
+[serious] This isn't a habit. [pause] It's the language of Paradise.
 
-[slowly] سَلَامٌ عَلَيْكُمْ طِبْتُمْ فَادْخُلُوهَا خَالِدِينَ
-
-[softly] "Peace be upon you. You have done well — so enter it, to stay forever."
-[pause] Surah Az-Zumar, seventy-three.
+[emphatic] And the Prophet ﷺ told us what to do with it *here*.
 
 
-[00:31–00:38]  THE TURN
+[00:27–00:40]  THE COMMAND
 --------------------------------------------------------------------------------
-[serious] The greeting of Allah. The greeting of the angels.
-[emphatic] Paradise doesn't just contain peace — [pause] it speaks it.
+[dramatic tone] "You will not enter Paradise until you believe. And you will
+not believe until you love one another."
 
-
-[00:38–00:53]  MOVE 3 — THE COMMAND
---------------------------------------------------------------------------------
-[serious] So the Prophet ﷺ told us what to do with it here:
-
-[slowly] لَا تَدْخُلُونَ الْجَنَّةَ حَتَّى تُؤْمِنُوا، وَلَا تُؤْمِنُوا حَتَّى تَحَابُّوا
-
-[emphatic] "You will not enter Paradise until you believe. And you will not
-believe until you love one another."
-
-[curious] Then he said — shall I show you something that will make you love
+[curious] Then he said — [pause] shall I show you what will make you love
 each other?
 
 [whispers] أَفْشُوا السَّلَامَ بَيْنَكُمْ
@@ -98,34 +95,57 @@ each other?
 [emphatic] "Spread the salaam between you." [pause] Sahih Muslim.
 
 
-[00:53–01:00]  CLOSE
+[00:40–00:52]  THE DUTY
 --------------------------------------------------------------------------------
-[hopeful] The road to Jannah starts with a sentence you already know.
+[serious] And when it comes to you — [pause] it is not optional.
 
-[gently] So say it. [pause] To the one you know —
-[warm] and to the one you don't.
+[slowly] [resolute] وَإِذَا حُيِّيتُم بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا
+
+[firm] "When you are greeted — answer with better than it. [pause] Or at the
+very least, return it."
+[pause] An-Nisa, eighty-six.
+
+
+[00:52–01:00]  THE CLOSE
+--------------------------------------------------------------------------------
+[warm] They asked him which Islam is best. He said: [pause] feed people —
+
+[gently] and give salaam to the one you know...
+
+[tender] [whispers] and the one you don't.
 
 
 ================================================================================
 DELIVERY NOTES FOR ELEVENLABS
 ================================================================================
 
-VOICE.     Male, warm mid-low register, unhurried. Stability ~45, similarity ~75,
-           style exaggeration LOW (~15) — v3 over-acts religious text if pushed.
+VOICE.     Male, warm mid-low register, unhurried. Stability ~45, similarity ~75.
+           Style exaggeration LOW (~15) — v3 over-acts religious text when pushed,
+           and the tags below are already doing the work.
 
-ARABIC.    Do NOT run the Arabic lines through the same generation as the
-           English. v3 mispronounces Qur'anic Arabic and will not observe
-           tajweed. Record the three Arabic pulls as human VO and drop them in
-           on their own track. If they must be synthetic, generate them in a
-           separate Arabic-locale pass and hand-check every ayah before use.
+TAG STACKING. Where two tags are bracketed together — [slowly] [reverent] — v3
+           reads them as one combined instruction. Keep the pacing tag first.
+           Tags are direction, never spoken aloud.
 
-TAGS.      Tags are direction, not dialogue — they are consumed, never spoken.
-           [pause] is a beat of roughly 0.4s; do not stack it with commas.
-           Keep [whispers] on the two lines marked and nowhere else — it loses
-           its effect the third time.
+THE ARC.   The tags are sequenced deliberately and shouldn't be shuffled:
+           curious → whispers → building  (pull them in)
+           reverent → awe                 (lift to the divine)
+           serious → dramatic → emphatic  (land the command)
+           resolute → firm                (the obligation, no softness here)
+           warm → gently → tender/whisper (release)
+           The close whispers because the open whispered. That rhyme is the
+           reason the last line lands — don't replace it with [emphatic].
+
+ARABIC.    Do NOT generate the Arabic in the same pass as the English. v3
+           mispronounces Qur'anic Arabic and will not observe tajweed. Record
+           the three Arabic pulls as human VO on their own track. If they must
+           be synthetic, run a separate Arabic-locale pass and hand-check every
+           ayah before publishing.
 
 PACING.    Target 60s flat. English body runs ~150 wpm. If the read comes in
-           long, the trim is the two surah citations, not the ayat.
+           long, cut the two surah citations ("Al-Ahzab, forty-four" /
+           "An-Nisa, eighty-six") and burn them as on-screen text instead —
+           never trim the ayat themselves.
 
 MUSIC.     Bed under the English only. Duck to silence for each Arabic pull —
            the drop to dry voice is what makes them land.
