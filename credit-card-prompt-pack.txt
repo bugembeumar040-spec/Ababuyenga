@@ -1,127 +1,112 @@
 ================================================================================
-FINANCE % DECODED — "THEY CALL YOU A DEADBEAT" — PROMPT PACK
-REVERTED TO THE DEEN & MONEY HOUSE STYLE (flat 2D vector, faces on)
-9:16 · 1080x1920 · 13 scenes · ~59s
-Follows klarnapromptpack.txt
+FINANCE % DECODED — "THEY CALL YOU A DEADBEAT"
+PRODUCTION PACK — FINAL. Cut to the recorded VO.
+9:16 · 1080x1920 · 22 cuts · 18 generated stills · 70.27s untrimmed / ~58s trimmed
+Follows klarnapromptpack.txt · Pays off Klarna's "the fix is next"
 ================================================================================
 
-WHAT CHANGED AND WHY
+STATUS
 
-The previous version of this file shot this Short in stylised low-poly 3D:
-matte clay, near-photorealistic texture, deep near-black backgrounds, and
-COMPLETELY BLANK featureless heads on every character. That pack is still in
-git history at commit cebb512 if you want to compare.
+  DONE   Visual reverted to the Deen & Money flat-2D-vector house style
+  DONE   4 reference sheets locked in refs/
+  DONE   Script rewritten, hook rebuilt, audited
+  DONE   VO recorded — media/creditcard-vo.mp3, 70.27s
+  DONE   Cut map derived from the real silence map, not estimates
+  DONE   All 18 stills generated and QC'd
+  DONE   Caption + card system specced
 
-This version reverts to the visual system used in the early uploads and in the
-Deen & Money series bible: flat 2D vector, thick dark-brown outlines, warm cream
-ground, muted editorial palette — and characters with faces.
+  TO DO  Trim the VO silences (see TRIM RULE)
+         Reposition images 03 and 13 (see QC)
+         Lay stills to the cut map, apply the 4 punch-ins
+         Burn captions and numbers per the cue sheet
+         Export thumbnail from image 01, punched in ~35%
 
-The single most important change: FACES ARE BACK, AND FACELESSNESS IS NOW
-RESERVED FOR THE INSTITUTION.
 
-  The old bible already had a faceless device. EP01 shot 7 puts "one featureless
-  grey silhouette figure" behind the bank counter. Facelessness meant the
-  institution — the thing with no eyes to meet.
+================================================================================
+WHY THE VISUAL WAS REVERTED
+================================================================================
+
+The previous version of this pack shot the Short in stylised low-poly 3D: matte
+clay, near-photorealistic texture, deep near-black backgrounds, and COMPLETELY
+BLANK featureless heads on every character. That pack is in git history at
+commit cebb512.
+
+This one reverts to the system used in the early uploads and in the Deen & Money
+series bible: flat 2D vector, thick dark-brown outlines, warm cream ground, muted
+editorial palette — and characters with faces.
+
+THE CENTRAL CHANGE: FACES ARE BACK, AND FACELESSNESS BELONGS TO THE INSTITUTION.
+
+  The bible already had a faceless device. EP01 shot 7 puts "one featureless grey
+  silhouette figure" behind the bank counter. Facelessness meant the institution
+  — the thing with no eyes to meet.
 
   The 3D pack made everyone blank: the cardholder, the clerk, all of them, with
   `eyes, mouth, nose, face, portrait` in the negative prompt on all 11 shots.
-  That did two things. It removed the strongest retention and thumbnail asset
-  short-form has. And it collapsed a contrast that was doing argumentative work
-  — when only the bank is faceless that reads as a point being made; when
-  everyone is faceless it reads as a limitation of the renderer.
+  That removed the strongest retention and thumbnail asset short-form has, and it
+  collapsed a contrast that was doing argumentative work. When only the bank is
+  faceless, that reads as a point being made. When everyone is faceless, it reads
+  as a limitation of the renderer.
 
 Four supporting reasons the flat-vector system suits this channel better:
 
   BRIGHTNESS. Full-frame cream #F5EFDC is high-luminance. It holds up in a dark
-  feed, at low phone brightness, and at thumbnail scale. Near-black with one
-  hard key and shallow depth of field turns to mud at 2cm.
+  feed, at low phone brightness, and at thumbnail scale. Near-black with one hard
+  key and shallow depth of field turns to mud at 2cm.
 
-  CAPTION CONTRAST. This format burns numbers and captions over the image. Flat
-  cream is a clean, predictable bed for type. Near-black with amber accents and
-  bokeh is not, and it forces heavy outlines that read as amateur.
+  CAPTION CONTRAST. This format burns numbers over the image. Flat cream is a
+  clean, predictable bed for type. Near-black with amber accents and bokeh is
+  not, and it forces heavy outlines that read as amateur.
 
-  DRIFT. Thick-outline flat vector is the most forgiving style there is for
-  character consistency across many frames. Low-poly 3D plus photoreal texture
-  plus blank heads is the highest-drift combination available — the 3D pack said
-  so itself: "Character drift between clips is what kills this format."
+  DRIFT. Thick-outline flat vector is the most forgiving style for character
+  consistency across many frames. Low-poly 3D plus photoreal texture plus blank
+  heads is the highest-drift combination available — the 3D pack said so itself.
 
   VELOCITY. At 21 uploads, cadence moves the needle more than per-frame polish.
-  Flat stills are a fraction of the cost and time of 11 generated cinematic clips.
 
-HONEST CAVEAT ON THE PERFORMANCE READ. The decision to revert came from channel
-analytics that are not in this repo — it is taken on the channel owner's read of
-the numbers, not independently verified here. Note also that the weakest recent
-upload ("Minimum Payments Explained", 198 views) was also a topic problem:
-already-covered ground, bottom-quartile subject. Style is very unlikely to be
-the only variable. Revert the visual, but keep testing the topic slate too.
-
-TRACK. One track only: STILLS, moved in the edit. The reverted style is a
-flat-vector explainer idiom — it was authored as image prompts and animated in
-post, and that is what performed. Do not text-to-video flat vector art; the
-outlines boil and the faces drift. An optional image-to-video motion pass for
-three specific shots is at the end of this file.
-
-TIMINGS BELOW ARE TARGETS, NOT THE CUT. Record the VO first, then derive the
-real IN/OUT points into video/src/creditcard/beats.ts before generating.
-If the recorded VO runs past 60s, cut from scenes 06–08 (the list section).
-Never cut from 10–13.
+HONEST CAVEAT. The decision came from channel analytics not in this repo — it is
+taken on the channel owner's read, not independently verified here. The weakest
+recent upload ("Minimum Payments Explained", 198 views) was also a topic problem.
+Style is unlikely to be the only variable. Revert the visual, keep testing the
+slate.
 
 
 ================================================================================
-CONTINUITY — READ THIS BEFORE ANYTHING ELSE
+CONTINUITY — TWO ARGUMENTS ARE SPENT
 ================================================================================
 
-Two arguments are already spent. Neither may appear in this video.
-
-  BURNED #1 — MERCHANT FEE PASS-THROUGH. The Klarna video's entire spine.
-  Card interchange is the same argument one layer down. It is the obvious
-  follow-up and it is the one thing you cannot do — you just published it.
+  BURNED #1 — MERCHANT FEE PASS-THROUGH. The Klarna video's entire spine. Card
+  interchange is the same argument one layer down. Do not use it.
 
   BURNED #2 — MINIMUM PAYMENTS AND COMPOUNDING. Already live, 198 views,
   bottom-quartile. Do not re-explain the mechanism.
 
-So this video takes the one big credit card argument neither covers: the
-BUSINESS MODEL. Not what the card charges — who the card is built for. The
-minimum payment appears exactly once, as evidence of the model, and is never
-explained.
-
-CTA INHERITANCE. The Klarna VO closed "Follow — the fix is next." This video
-lands on that promise, so its back third must be the fix, not more diagnosis.
-Scenes 10–13 carry it.
+This video takes the argument neither covers: the BUSINESS MODEL. Not what the
+card charges — who the card is built for. The minimum payment appears once, as
+evidence, and is never explained.
 
 
 ================================================================================
-HOUSE STYLE BLOCK — paste at the end of every prompt, unchanged
+HOUSE STYLE BLOCK — already written into every prompt below
 ================================================================================
 
   Flat 2D vector illustration, thick uniform dark-brown outlines, flat colour
   fill with soft cel shading, no gradients, no photographic texture. Warm cream
   background (#F5EFDC). Muted editorial palette: olive green, rust terracotta,
   deep teal, warm sand, charcoal grey, brick red accent. Clean modern
-  explainer-video aesthetic. 9:16 vertical, characters centred, generous empty
-  space in the upper third for on-screen text. Consistent character design
-  across all frames.
+  explainer-video aesthetic. 9:16 vertical, subject centred, generous empty
+  space in the upper third for on-screen text.
 
-That vertical clause is the bible's own Shorts substitution: it replaces
-"16:9 horizontal, cinematic composition with generous negative space in the
-upper third". Nothing else in the block changes between formats.
+That vertical clause is the bible's own Shorts substitution for "16:9
+horizontal, cinematic composition with generous negative space in the upper
+third". Nothing else changes between formats.
 
-NOTE ON THE UPPER THIRD. This is the opposite of the 3D pack, which put
-captions at 62% and 76% height over dark space. The reverted system reserves
-the UPPER third for type and centres the subject below it. Compose accordingly.
+UPPER THIRD IS FOR TYPE. This is the opposite of the 3D pack, which put captions
+at 62% and 76% over dark space. The reverted system reserves the UPPER third for
+type and centres the subject below it.
 
-NEGATIVE PROMPT — paste once, applies to all 13 stills:
-
-  photographic rendering, 3D render, clay shading, matte clay, low-poly,
-  blank or featureless faces on the human characters, gradients, drop shadows,
-  glow, bloom, dark or black background, cinematic depth of field, bokeh,
-  text, lettering, numbers, logos, brand names, watermark, signature,
-  distorted hands, extra fingers, extra limbs, stock-photo smiles, anime,
-  photorealism, clutter, busy background, tilted horizon, low resolution
-
-PALETTE HEXES. The bible specifies only the cream. The rest are derived from
-the locked reference sheets and are given here so the burn-in graphics and
-captions match the art rather than approximating it:
+PALETTE. The bible specifies only the cream. The rest are derived from the locked
+reference sheets so burn-ins match the art rather than approximating it:
 
   warm cream ground   #F5EFDC      dark-brown outline  #3E2B23
   olive green         #7A8B5A      rust terracotta     #B5563C
@@ -130,174 +115,303 @@ captions match the art rather than approximating it:
 
 
 ================================================================================
-CAST — and the one rule that carries the argument
+CAST — and the rule that carries the argument
 ================================================================================
 
-KAREEM — THE HOST. New to this Short and the biggest single change. He opens
-and closes to camera. A face on frame 1 is the strongest hook asset this style
-has, and the 3D pack threw it away by opening on a card on a desk.
+KAREEM — THE HOST. Opens and closes to camera. A face on frame 1 is the
+strongest hook asset this style has; the 3D pack threw it away by opening on a
+card on a desk.
 
   adult man, mid-30s, warm medium skin tone, short black hair brushed back,
   short neatly trimmed dark beard, friendly rounded face, average build,
   olive-green collarless henley with sleeves rolled to mid-forearm,
   charcoal-grey trousers, dark brown shoes
 
-ADAM — THE CARDHOLDER. The everyman. Maps directly onto AMIR from the 3D pack
-(same terracotta, same role), so the series reads continuous.
+ADAM — THE CARDHOLDER. Maps onto AMIR from the 3D pack (same terracotta, same
+role), so the series reads continuous.
 
   adult man, late 20s, warm medium skin tone, short dark brown hair with a side
   part, clean-shaven, friendly rounded face, average build, rust-terracotta
   crew-neck t-shirt, warm tan trousers, dark brown shoes
 
-THE ISSUER — THE FACELESS SILHOUETTE. Never named, never given features.
+THE ISSUER — never named, never given features.
 
   one completely featureless flat charcoal-grey human silhouette, no face and no
   features at all, plain flat grey shape
 
-THE RULE, STATED ONCE SO IT IS NOT LOST AGAIN:
+THE RULE:
 
   KAREEM AND ADAM ALWAYS HAVE VISIBLE EYES, EYEBROWS, NOSE AND MOUTH.
   THE ISSUER NEVER HAS A FACE.
   NO OTHER CHARACTER IS FACELESS. THAT CONTRAST IS THE ARGUMENT.
 
-GEOGRAPHY. Where both appear in one frame, ADAM is on the left, the ISSUER on
-the right. Never swap. (Same discipline as the bible's Adam-left/Sami-right.)
-
-CONSISTENCY. Pass the locked reference sheets as an image reference on EVERY
-shot. Text-only prompts drift on the beard, the collar and the shirt colour
-within about six frames — that is the most common way a series like this falls
-apart, and it is called out on page 1 of the bible for a reason.
-
-  refs/kareem-host.png         KAREEM turnaround + 4 expressions
-  refs/adam-cardholder.png     ADAM turnaround + 4 expressions
-  refs/cast-lineup.png         all four series characters, locked
-  refs/institution.png         counter, clerk silhouette, blank card + statement
+GEOGRAPHY. Where both appear, ADAM is left, the ISSUER is right. Never swap.
+(Same discipline as the bible's Adam-left/Sami-right.)
 
 
 ================================================================================
-GENERATION LINE — the order to actually run this
+REFERENCE SHEETS — refs/
 ================================================================================
 
-STEP 0   Record the VO first. Derive real IN/OUT points. Everything below
-         generates against the real cut, not the estimates.
+  refs/kareem-host.png       KAREEM turnaround + 4 expressions
+  refs/adam-cardholder.png   ADAM turnaround + 4 expressions
+  refs/institution.png       teller counter, clerk silhouette, blank card + statement
+  refs/cast-lineup.png       all four series characters — NOT used in this short
 
-STEP 1   LOCK THE CAST. Already done — the four reference sheets above are
-         generated and approved. Do not regenerate them per-shot. If you ever
-         need to rebuild them, generate the cast line-up first, approve it,
-         and lock the seed before anything else.
+ATTACH ON EVERY GENERATION. Text-only prompts drift on the beard, the collar and
+the shirt colour within about six frames. Called out on page 1 of the bible.
 
-STEP 2   GENERATE BY DEVICE, NOT IN STORY ORDER. Switching device type
-         mid-batch increases drift. Run these four batches:
-
-           BATCH A — piece-to-camera (KAREEM):     01, 13
-           BATCH B — ADAM scenes:                  03, 04, 06, 09
-           BATCH C — counter / issuer scenes:      02, 05
-           BATCH D — object & diagram scenes:      07, 08, 10, 11, 12
-
-STEP 3   Approve BATCH A before running B–D. Scene 01 is the hook frame and
-         doubles as the thumbnail; if KAREEM is off-model there, everything
-         downstream inherits it.
-
-STEP 4   Drop approved files in video/public/broll/. Drive them the way
-         src/inflation/ drives its stills.
-
-STEP 5   Burn the numbers in the edit. Never generate them. See below.
-
-STEP 6   Optional motion pass on 01, 06, 13 only. See the end of this file.
+  kareem-host.png       →  generations 1, 17
+  adam-cardholder.png   →  generations 3, 4, 7, 11
+  institution.png       →  generations 2, 5, 6, 10, 12, 18
+  no reference          →  generations 8, 9, 13, 14, 15, 16
 
 
 ================================================================================
-SCENE MAP — 13 scenes
+VOICEOVER — media/creditcard-vo.mp3  ·  RECORDED
 ================================================================================
 
- #  | IN     | OUT    | LEN   | SCENE            | VO
-----|--------|--------|-------|------------------|----------------------------
- 01 | 0:00.0 | 0:04.4 | 4.4s  | hook             | Deadbeat. / That's their word.
- 02 | 0:04.4 | 0:10.0 | 5.6s  | the term         | what the card industry calls you
- 03 | 0:10.0 | 0:14.6 | 4.6s  | the category     | Not an insult. A category.
- 04 | 0:14.6 | 0:18.4 | 3.8s  | not the customer | You were never the customer.
- 05 | 0:18.4 | 0:22.6 | 4.2s  | the product      | The card was never the product
- 06 | 0:22.6 | 0:27.4 | 4.8s  | the limit        | The limit rises on its own
- 07 | 0:27.4 | 0:32.0 | 4.6s  | the collision    | 1% back. 24% charged.
- 08 | 0:32.0 | 0:37.0 | 5.0s  | the box          | its own box
- 09 | 0:37.0 | 0:41.2 | 4.2s  | the design       | That is the design.
- 10 | 0:41.2 | 0:46.2 | 5.0s  | the model        | It's the revenue model
- 11 | 0:46.2 | 0:51.4 | 5.2s  | the real sale    | takes its profit once
- 12 | 0:51.4 | 0:55.0 | 3.6s  | time             | Time is the ingredient
- 13 | 0:55.0 | 0:59.4 | 4.4s  | the close        | Be worthless.
+ElevenLabs v3 · voice Ahmed · speed 1.00 · stability 50 · similarity 86.
+Duration 70.27s. Speech 41.1s. Silence 29.2s (41.5%).
+Measured speaking rate 178 wpm.
 
-Thirteen cuts in ~59s averages 4.5s a scene. That is deliberately faster than
-the 3D pack's 11 scenes and it suits the format: on Shorts, a cut is a free
-retention event.
+SCRIPT AS RECORDED — 122 words:
+
+  [serious] The card industry calls you a deadbeat.
+
+  [whispers] For paying in full.
+
+  [serious] Their word, not mine. [curious] And not an insult — a category.
+
+  You cleared it. You earned them nothing.
+
+  [serious] You were never the customer.
+
+  [exhales] The card was never the product. [emphatic] The balance is.
+
+  The limit rises on its own. You didn't ask.
+
+  Cashback appears. One percent back. [deadpan] Twenty-four percent charged.
+
+  The minimum payment gets its own box.
+
+  [emphatic] None of it is an accident. [slowly] That is the design.
+
+  [serious] Riba isn't a fee you might trigger. It's the model.
+
+  [calm] A real sale profits once. At the till. Then it stops.
+
+  [dramatic tone] Riba grows while you sleep.
+
+  [slowly] Time is the ingredient.
+
+  [warmly] Clear it to zero. You're worthless to them.
+
+  [emphatic] Be worthless.
+
+  [warmly] Part three: the card that passes. Follow.
+
+TRIM RULE — APPLY BEFORE EDITING.
+
+  Cap every silence at 0.5s, EXCEPT keep ~1.0s after "for paying in full" and
+  ~1.0s after "Be worthless."
+
+  Recovers 12.4s → lands at ~57.9s, inside the 30–60s slate rule. It also fixes
+  pacing: the raw file has fourteen gaps over a full second, which reads as drag.
+
+  CAUSE OF THE OVERRUN, for next time. The script was written with a blank line
+  between every beat for pacing. v3 reads blank lines as paragraph breaks and
+  adds roughly a second at each — 18 breaks pushed the air from 30% to 41.5%.
+  Keep the blank lines for delivery, but budget ~1s per break when estimating
+  runtime, or join beats into paragraphs and let punctuation do the pacing.
+
+MIX NOTE. "For paying in full" is the most important line in the video and the
+quietest. Normalise that segment up so it survives a phone speaker in a noisy
+room.
 
 
 ================================================================================
-NUMBERS — burn these in during the edit, never generate them
+HOOK — what changed and why it matters
 ================================================================================
 
-Every prompt below asks for blank cards, blank screens, blank statements on
-purpose. Set all burn-ins in the caption typeface, charcoal #3E2B23, with the
-accent figure in brick red #B34A32.
+  RECORDED (v1, old script)   self-ID 2.8s · payload 4.2s
+  FIRST REWRITE               self-ID 4.5s · payload 0.3s   ← wrong variable
+  SHIPPING                    self-ID 1.6s · payload 1.9s
 
-  01  (none — DEADBEAT is the caption and it lands harder alone)
-  02  (none)
-  03  (none)
-  04  £0.00 INTEREST EARNED     (annotate: "from you")
-  05  THE BALANCE IS THE PRODUCT
-  06  LIMIT  £2,000 → £3,500    (annotate: "you didn't ask")
-  07  1% BACK   vs   24% APR    (set 1% small, APR large — the collision)
-  08  MINIMUM PAYMENT £25
-  09  (none)
-  10  (none)
-  11  PROFIT: FIXED AT THE SALE
-  12  RIBA: PRICED IN TIME
-  13  BALANCE  £0.00
+The first rewrite moved the payload word to 0.3s but pushed self-identification
+out to 4.5s — later than the original. Self-ID is what stops the scroll, not
+vocabulary. Cold-opening on "deadbeat" also fails because its everyday meaning
+(someone who doesn't pay) is the opposite of the video's meaning (someone who
+does, in full) — so a cold open resolves against the interesting reading.
 
-Scene 07 is your two-numbers-in-collision beat — the device that carried
-"£1,461 a month. Only £420 buys your house." Give it the most typographic
-weight in the film.
+"The card industry calls you a deadbeat" fires self-ID and attribution in one
+move: about the viewer, and clearly not the creator's judgment of them. The
+whisper sits on "for paying in full" because the surprise is the reason, not the
+word.
 
-APR NOTE. The 3D pack used 24.9%. This one uses a round 24% because the VO now
-says "twenty-four percent charged" — two syllables shorter, and it keeps the
-claim safely inside the representative range rather than looking like a quoted
-product. Keep screen and VO in agreement whichever you pick.
+OTHER AUDIT FINDINGS APPLIED
+  · "Revolver" cut — 4.9s spent on a synonym that never paid off later.
+  · Middle no longer runs three identical "which is why…" clauses; the thesis
+    line moved onto a bare face at the 37s mark, where a 60s Short sheds.
+  · CTA no longer repeats Klarna's "Follow — the fix is next" verbatim.
+  · "Twenty-four point nine percent owed" → "twenty-four percent charged." APR
+    is charged on a carried balance, not flatly owed.
+
+LEFT ALONE ON PURPOSE. "Be worthless to them" is the best line in the script.
+The riba framing still makes a claim about economics and never issues a ruling
+in your own voice.
 
 
 ================================================================================
-THE 13 STILLS
+CUT MAP — 22 cuts, derived from the real silence map
 ================================================================================
 
-SETTINGS: 9:16 · 1080x1920, or 2048x3640 and downscale if you want headroom for
-the pushes. One image per scene. Reference sheet attached on every single one.
+Times are for the UNTRIMMED 70.27s file. Every cut lands inside a silence, so
+the map holds whether or not you trim — trimming shortens holds, it never moves
+a cut relative to the speech.
 
-Framed 10–15% wider than the move needs, because every push crops in.
+ #  | IN    | OUT   | HOLD | VO                                  | IMAGE
+----|-------|-------|------|-------------------------------------|-------------
+ 01 | 0.00  | 4.50  | 4.50 | …calls you a deadbeat, for paying…  | GEN 1
+ 02 | 4.50  | 6.55  | 2.05 | Their word, not mine.               | GEN 2
+ 03 | 6.55  | 9.65  | 3.10 | not an insult, a category           | GEN 3
+ 04 | 9.65  | 12.65 | 3.00 | You cleared it, you earned nothing  | GEN 4
+ 05 | 12.65 | 15.60 | 2.95 | You were never the customer.        | GEN 5
+ 06 | 15.60 | 19.00 | 3.40 | The card was never the product.     | GEN 6
+ 07 | 19.00 | 23.40 | 4.40 | The balance is. The limit rises…    | GEN 7
+ 08 | 23.40 | 26.60 | 3.20 | Cashback appears. One percent back  | GEN 8
+ 09 | 26.60 | 31.00 | 4.40 | 24 percent charged.                 | GEN 9
+ 10 | 31.00 | 34.40 | 3.40 | The minimum payment gets its own box| GEN 10
+ 11 | 34.40 | 37.00 | 2.60 | None of it is an accident.          | GEN 11
+ 12 | 37.00 | 40.50 | 3.50 | That is the design.                 | GEN 12
+ 13 | 40.50 | 44.10 | 3.60 | Riba isn't a fee you might trigger. | GEN 13
+ 14 | 44.10 | 46.00 | 1.90 | It's the model.                     | GEN 13 punch 40%
+ 15 | 46.00 | 49.35 | 3.35 | A real sale profits once, at the till| GEN 14
+ 16 | 49.35 | 51.20 | 1.85 | then it stops.                      | GEN 15
+ 17 | 51.20 | 54.40 | 3.20 | Riba grows while you sleep.         | GEN 16
+ 18 | 54.40 | 57.40 | 3.00 | Time is the ingredient.             | GEN 16 punch 25%
+ 19 | 57.40 | 61.50 | 4.10 | Clear it to zero, worthless to them | GEN 17
+ 20 | 61.50 | 64.20 | 2.70 | Be worthless.                       | GEN 17 punch 20%
+ 21 | 64.20 | 68.40 | 4.20 | Part 3, the card that passes.       | GEN 18
+ 22 | 68.40 | 70.27 | 1.87 | Follow.                             | GEN 18 punch 30%
 
+Longest hold 4.50s. Four slots are hard punch-ins on stills already generated —
+they read as cuts and cost nothing.
+
+GENERATION ORDER USED: GEN 1 first and approved before the rest, since it is the
+hook frame and the thumbnail and everything downstream inherits it.
+
+
+================================================================================
+THE 18 PROMPTS
+================================================================================
+Each is complete and self-contained. Reference sheet named per prompt.
 
 --------------------------------------------------------------------------------
-01 · 0:00.0–0:04.4 · THE HOOK        ** GENERATE FIRST — also the thumbnail **
-MOVE: push in 6%, centred on his face. Start the push on the first frame.
+GEN 1 · cut 01 · THE HOOK  ** generate first · also the thumbnail **
+REF: kareem-host.png
 --------------------------------------------------------------------------------
-Medium chest-up shot of KAREEM standing centred and facing the viewer directly,
+Medium chest-up shot of a man standing centred and facing the viewer directly,
 looking straight down the lens with a level, serious, unsmiling expression, chin
-slightly lowered, arms relaxed out of frame. He holds a single plain blank cream
-payment card up at chest height between finger and thumb, turned face-on to the
-viewer, completely unprinted with no numbers, no lettering and no logos. Plain
-flat warm cream background behind him with nothing else in frame at all.
-KAREEM: adult man, mid-30s, warm medium skin tone, short black hair brushed
-back, short neatly trimmed dark beard, friendly rounded face, average build,
-olive-green collarless henley with sleeves rolled to mid-forearm, charcoal-grey
-trousers, dark brown shoes. Clearly visible eyes, eyebrows, nose and mouth.
-[HOUSE STYLE BLOCK]
-
-  Why this shot: a face, eye contact, and one unexplained object, with the
-  caption DEADBEAT sitting alone in the empty upper third. The 3D pack opened on
-  a card on a desk with no person in frame — on a face-driven format that is the
-  most expensive second in the video to spend on an object.
-
+slightly lowered. He holds a single plain blank cream payment card up at chest
+height between finger and thumb, turned face-on to the viewer, completely
+unprinted with no numbers, no lettering and no logos. Plain flat warm cream
+background behind him with nothing else in frame at all. KAREEM: adult man,
+mid-30s, warm medium skin tone, short black hair brushed back, short neatly
+trimmed dark beard, friendly rounded face, average build, olive-green collarless
+henley with sleeves rolled to mid-forearm, charcoal-grey trousers, dark brown
+shoes, with clearly visible eyes, eyebrows, nose and mouth. Flat 2D vector
+illustration, thick uniform dark-brown outlines, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Warm cream background (#F5EFDC).
+Muted editorial palette: olive green, rust terracotta, deep teal, warm sand,
+charcoal grey, brick red accent. Clean modern explainer-video aesthetic. 9:16
+vertical, character centred, generous empty space in the upper third for
+on-screen text. Negative: photographic rendering, 3D render, clay shading,
+low-poly, blank or featureless face, gradients, drop shadows, glow, bloom, dark
+or black background, cinematic depth of field, bokeh, text, lettering, numbers,
+logos, brand names, watermark, distorted hands, extra fingers, stock-photo
+smile, anime, clutter, busy background, low resolution.
 
 --------------------------------------------------------------------------------
-02 · 0:04.4–0:10.0 · THE TERM
-MOVE: push in 5% toward the silhouette behind the glass.
+GEN 2 · cut 02 · THE LABEL
+REF: institution.png
+--------------------------------------------------------------------------------
+Flat overhead view looking straight down at a smooth charcoal-grey countertop. A
+single plain blank cream index card lies square-on and alone in the exact centre
+of the frame, completely unprinted with no text, no lettering and no numbers of
+any kind. One completely featureless flat charcoal-grey silhouette hand and
+forearm, a plain flat grey shape with no detail, enters from the right edge of
+frame and rests one fingertip on the corner of the card. Nothing else in frame at
+all. Generous empty charcoal countertop above the card. Flat 2D vector
+illustration, thick uniform dark-brown outlines, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Muted editorial palette: olive
+green, rust terracotta, deep teal, warm sand, charcoal grey, brick red accent.
+Clean modern explainer-video aesthetic. 9:16 vertical, card centred low, generous
+empty space in the upper third for one word of large text. Negative: faces,
+characters, people, detailed hands, fingernails, skin tone on the hand,
+photographic rendering, 3D render, clay shading, low-poly, gradients, drop
+shadows, glow, bloom, dark or black background, cinematic depth of field, bokeh,
+text, lettering, numbers, logos, brand names, watermark, clutter, busy
+background, tilted horizon, low resolution.
+
+NOTE. This is the only frame in the video not on cream. Kept deliberately — one
+darker frame landing on the one word the film is built on reads as punctuation.
+Its type must be cream #F5EFDC, not charcoal. See CAPTION SYSTEM.
+
+--------------------------------------------------------------------------------
+GEN 3 · cut 03 · THE CATEGORY
+REF: adam-cardholder.png
+--------------------------------------------------------------------------------
+Flat diagram composition on warm cream. In the upper area, one plain empty
+charcoal-outlined rectangular tray on the left and a second identical tray on the
+right, both drawn square-on and clearly separate, with a thin vertical charcoal
+rule between them. In the left tray sits a small simple figure of a man drawn at
+icon scale, standing neutrally. The right tray holds a tall stack of identical
+small blank cream cards. The left tray is outlined in brick red; the right tray
+is outlined in charcoal. ADAM: adult man, late 20s, warm medium skin tone, short
+dark brown hair with a side part, clean-shaven, friendly rounded face, average
+build, rust-terracotta crew-neck t-shirt, warm tan trousers, dark brown shoes,
+with clearly visible eyes, eyebrows, nose and mouth. No text, no labels, no
+numbers anywhere in the image. Flat 2D vector illustration, thick uniform
+dark-brown outlines, flat colour fill with soft cel shading, no gradients, no
+photographic texture. Warm cream background (#F5EFDC). Muted editorial palette:
+olive green, rust terracotta, deep teal, warm sand, charcoal grey, brick red
+accent. Clean modern explainer-video aesthetic. 9:16 vertical, subject centred
+low, generous empty space in the upper third for on-screen text. Negative:
+photographic rendering, 3D render, clay shading, low-poly, blank or featureless
+face on the man, beard, stubble, gradients, drop shadows, glow, dark or black
+background, bokeh, text, lettering, numbers, logos, watermark, distorted hands,
+extra fingers, anime, clutter, busy background, low resolution.
+
+--------------------------------------------------------------------------------
+GEN 4 · cut 04 · YOU EARNED THEM NOTHING
+REF: adam-cardholder.png (+ institution.png if the model takes two)
+--------------------------------------------------------------------------------
+Two-shot on warm cream. A man stands on the left in three-quarter view, turned
+slightly toward the right of frame, holding a plain blank cream payment card down
+at his side in one hand, with a mild neutral expression. On the right, at the
+same scale and the same eye level, stands one completely featureless flat
+charcoal-grey human silhouette with no face and no features at all, a plain flat
+grey shape, turned very slightly away from him. A generous empty gap of plain
+cream between the two figures. Soft elliptical ground shadow beneath each. ADAM:
+adult man, late 20s, warm medium skin tone, short dark brown hair with a side
+part, clean-shaven, friendly rounded face, average build, rust-terracotta
+crew-neck t-shirt, warm tan trousers, dark brown shoes, with clearly visible
+eyes, eyebrows, nose and mouth. Flat 2D vector illustration, thick uniform
+dark-brown outlines, flat colour fill with soft cel shading, no gradients, no
+photographic texture. Warm cream background (#F5EFDC). Muted editorial palette:
+olive green, rust terracotta, deep teal, warm sand, charcoal grey, brick red
+accent. Clean modern explainer-video aesthetic. 9:16 vertical, characters
+centred, generous empty space in the upper third for on-screen text. Negative:
+facial features on the grey silhouette, blank or featureless face on the man,
+beard, stubble, photographic rendering, 3D render, clay shading, low-poly,
+gradients, drop shadows, glow, dark or black background, bokeh, text, lettering,
+numbers, logos, brand names, watermark, distorted hands, extra fingers,
+stock-photo smiles, anime, clutter, busy background, low resolution.
+
+--------------------------------------------------------------------------------
+GEN 5 · cut 05 · NEVER THE CUSTOMER
+REF: institution.png
 --------------------------------------------------------------------------------
 Wide shot of a modern retail bank service desk seen from the customer's side: a
 long low warm-sand desk running horizontally across the lower half of frame with
@@ -307,129 +421,188 @@ Behind the glass stands one completely featureless flat charcoal-grey human
 silhouette, no face and no features at all, both arms relaxed at its sides. On
 the countertop in front of the cut-out sits one plain blank cream index card,
 completely unprinted. Plain cream wall behind, no signage, no branding, no
-lettering anywhere. No other characters in frame.
-[HOUSE STYLE BLOCK]
-
-
---------------------------------------------------------------------------------
-03 · 0:10.0–0:14.6 · THE CATEGORY
-MOVE: none. Hold dead still — a category is a thing that does not move.
---------------------------------------------------------------------------------
-Flat diagram composition on warm cream. In the upper area, one plain empty
-charcoal-outlined rectangular tray on the left and a second identical tray on
-the right, both drawn square-on and clearly separate, with a thin vertical
-charcoal rule between them. In the left tray sits a small simple figure of ADAM
-drawn at icon scale, standing neutrally. The right tray holds a tall stack of
-identical small blank cream cards. ADAM's tray is outlined in brick red; the
-other is outlined in charcoal. ADAM: adult man, late 20s, warm medium skin tone,
-short dark brown hair with a side part, clean-shaven, friendly rounded face,
-average build, rust-terracotta crew-neck t-shirt, warm tan trousers, dark brown
-shoes, with clearly visible eyes, eyebrows, nose and mouth. No text, no labels,
-no numbers anywhere in the image.
-[HOUSE STYLE BLOCK]
-
+lettering anywhere. No other characters in frame. Flat 2D vector illustration,
+thick uniform dark-brown outlines, flat colour fill with soft cel shading, no
+gradients, no photographic texture. Warm cream background (#F5EFDC). Muted
+editorial palette: olive green, rust terracotta, deep teal, warm sand, charcoal
+grey, brick red accent. Clean modern explainer-video aesthetic. 9:16 vertical,
+subject centred, generous empty space in the upper third for on-screen text.
+Negative: prison bars, jail cell, vertical metal bars or rods, railings, cage,
+fence, grille, teller cage, bank vault, facial features on the silhouette,
+photographic rendering, 3D render, clay shading, gradients, drop shadows, glow,
+dark or black background, bokeh, text, lettering, numbers, logos, brand names,
+watermark, clutter, busy background, low resolution.
 
 --------------------------------------------------------------------------------
-04 · 0:14.6–0:18.4 · NOT THE CUSTOMER
-MOVE: pull back 7%, opening the gap between them.
+GEN 6 · cut 06 · THE PRODUCT
+REF: institution.png
 --------------------------------------------------------------------------------
-Two-shot on warm cream. ADAM stands on the left in three-quarter view, turned
-slightly toward the right of frame, holding a plain blank cream payment card
-down at his side in one hand, with a mild neutral expression, clearly visible
-eyes, eyebrows, nose and mouth. On the right, at the same scale and the same eye
-level, stands one completely featureless flat charcoal-grey human silhouette
-with no face and no features, turned very slightly away from ADAM. A generous
-empty gap of plain cream between the two figures. Soft elliptical ground shadow
-beneath each. ADAM: adult man, late 20s, warm medium skin tone, short dark brown
-hair with a side part, clean-shaven, friendly rounded face, average build,
-rust-terracotta crew-neck t-shirt, warm tan trousers, dark brown shoes.
-[HOUSE STYLE BLOCK]
-
-  The geography rule lands here: person on the left has a face, institution on
-  the right does not. Every frame that pairs them repeats it.
-
-
---------------------------------------------------------------------------------
-05 · 0:18.4–0:22.6 · THE PRODUCT
-MOVE: push in 9% onto the ledger, decisive — short scene.
---------------------------------------------------------------------------------
-Flat diagram composition on warm cream, no characters in frame. Centred, a
-single plain blank cream payment card drawn square-on and small, with a thin
-charcoal arrow leading from it downward to a much larger plain charcoal-outlined
-open ledger book below, drawn wide and heavy, its two facing pages completely
-blank and unruled. The ledger is filled solid deep teal and is visibly several
-times the card's size. A soft elliptical ground shadow beneath the ledger only.
-Nothing else in frame. No text, no lettering, no numbers anywhere.
-[HOUSE STYLE BLOCK]
-
+Flat diagram composition on warm cream, no characters in frame. Centred, a single
+plain blank cream payment card drawn square-on and small, with a thin charcoal
+arrow leading from it downward to a much larger plain charcoal-outlined open
+ledger book below, drawn wide and heavy, its two facing pages completely blank
+and unruled. The ledger is filled solid deep teal and is visibly several times
+the card's size. A soft elliptical ground shadow beneath the ledger only. Nothing
+else in frame. No text, no lettering, no numbers anywhere. Flat 2D vector
+illustration, thick uniform dark-brown outlines, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Warm cream background (#F5EFDC).
+Muted editorial palette: olive green, rust terracotta, deep teal, warm sand,
+charcoal grey, brick red accent. Clean modern explainer-video aesthetic. 9:16
+vertical, subject centred, generous empty space in the upper third for on-screen
+text. Negative: characters, people, hands, photographic rendering, 3D render,
+clay shading, low-poly, gradients, drop shadows, glow, bloom, dark or black
+background, cinematic depth of field, bokeh, text, lettering, numbers, currency
+symbols, logos, brand names, watermark, clutter, busy background, tilted horizon,
+low resolution.
 
 --------------------------------------------------------------------------------
-06 · 0:22.6–0:27.4 · THE LIMIT
-MOVE: push in 6% and drift down 20px, settling onto the phone screen.
+GEN 7 · cut 07 · THE LIMIT
+REF: adam-cardholder.png
 --------------------------------------------------------------------------------
-Three-quarter view of ADAM seated at a plain wooden table in a simply drawn
+Three-quarter view of a man seated at a plain wooden table in a simply drawn
 domestic room, holding a smartphone up at chest height in both hands and looking
 down at the screen with a faintly puzzled expression, one eyebrow slightly
 raised. The phone screen is a clean blank pale panel with no text, no numbers and
 no interface elements of any kind. Behind him a plain cream wall, one simple
-lamp, nothing else — no clutter. ADAM: adult man, late 20s, warm medium skin
-tone, short dark brown hair with a side part, clean-shaven, friendly rounded
-face, average build, rust-terracotta crew-neck t-shirt, warm tan trousers, dark
-brown shoes, with clearly visible eyes, eyebrows, nose and mouth.
-[HOUSE STYLE BLOCK]
-
+lamp, nothing else, no clutter. ADAM: adult man, late 20s, warm medium skin tone,
+short dark brown hair with a side part, clean-shaven, friendly rounded face,
+average build, rust-terracotta crew-neck t-shirt, warm tan trousers, dark brown
+shoes, with clearly visible eyes, eyebrows, nose and mouth. Flat 2D vector
+illustration, thick uniform dark-brown outlines, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Warm cream background (#F5EFDC).
+Muted editorial palette: olive green, rust terracotta, deep teal, warm sand,
+charcoal grey, brick red accent. Clean modern explainer-video aesthetic. 9:16
+vertical, character centred, generous empty space in the upper third for
+on-screen text. Negative: blank or featureless face, beard, stubble,
+photographic rendering, 3D render, clay shading, low-poly, gradients, drop
+shadows, glow, screen glow, bloom, dark or black background, bokeh, text,
+lettering, numbers, app icons, user interface elements, logos, brand names,
+watermark, distorted hands, extra fingers, stock-photo smiles, anime, clutter,
+busy background, low resolution.
 
 --------------------------------------------------------------------------------
-07 · 0:27.4–0:32.0 · THE COLLISION   ** most typographic weight in the film **
-MOVE: none. Hold dead still. The imbalance should sit there and be looked at.
+GEN 8 · cut 08 · THE SCALE
+REF: none
 --------------------------------------------------------------------------------
 Flat diagram composition on warm cream, no characters in frame, composed
 square-on and symmetrical. A simple charcoal-outlined balance scale centred in
 the lower two-thirds, fully tipped and settled: one very small olive-green disc
 alone on the raised left pan, and a tall heavy stack of brick-red discs weighing
 the right pan all the way down. The size difference between the two sides is
-extreme and unmistakable. Firm flat contact shadows. Nothing else in frame at
-all. No text, no lettering, no numbers, no percentage signs anywhere.
-[HOUSE STYLE BLOCK]
-
-  Leave the top third completely clear. The two burned-in figures are the
-  subject of this shot; the art is only the armature they hang on.
-
+extreme and unmistakable at a glance. Firm flat contact shadows. The entire upper
+third of the frame is left completely empty. Nothing else in frame at all. No
+text, no lettering, no numbers, no percentage signs anywhere. Flat 2D vector
+illustration, thick uniform dark-brown outlines, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Warm cream background (#F5EFDC).
+Muted editorial palette: olive green, rust terracotta, deep teal, warm sand,
+charcoal grey, brick red accent. Clean modern explainer-video aesthetic. 9:16
+vertical, subject centred low, generous empty space in the upper third for
+on-screen text. Negative: characters, people, hands, photographic rendering, 3D
+render, clay shading, low-poly, brass, metallic sheen, gradients, drop shadows,
+glow, bloom, dark or black background, cinematic depth of field, bokeh, text,
+lettering, numbers, percentage signs, currency symbols, logos, watermark,
+clutter, busy background, tilted horizon, low resolution.
 
 --------------------------------------------------------------------------------
-08 · 0:32.0–0:37.0 · THE BOX
-MOVE: push in 11% onto the small empty rectangle in the corner.
+GEN 9 · cut 09 · THE APR
+REF: none
+--------------------------------------------------------------------------------
+Flat diagram composition on warm cream, no characters in frame, composed
+square-on. A single tall heavy stack of many identical brick-red discs stands
+centred in the lower two-thirds of the frame, drawn simply and stacked flat one
+on top of another, rising well above the midline. The stack is dense, solid and
+visibly heavy. A firm flat contact shadow anchors it to a thin charcoal baseline.
+Nothing else in frame at all, no scale, no pans, no second stack. No text, no
+lettering, no numbers, no percentage signs anywhere. Flat 2D vector illustration,
+thick uniform dark-brown outlines, flat colour fill with soft cel shading, no
+gradients, no photographic texture. Warm cream background (#F5EFDC). Muted
+editorial palette: olive green, rust terracotta, deep teal, warm sand, charcoal
+grey, brick red accent. Clean modern explainer-video aesthetic. 9:16 vertical,
+stack centred low, generous empty space in the upper third for large on-screen
+text. Negative: characters, people, hands, faces, balance scale, second stack,
+coins with detail, metallic sheen, photographic rendering, 3D render, clay
+shading, low-poly, gradients, drop shadows, glow, bloom, dark or black
+background, bokeh, text, lettering, numbers, percentage signs, currency symbols,
+logos, watermark, clutter, busy background, tilted horizon, low resolution.
+
+--------------------------------------------------------------------------------
+GEN 10 · cut 10 · THE BOX
+REF: institution.png
 --------------------------------------------------------------------------------
 Flat overhead view of a single blank printed statement page lying square-on
 against a warm sand desk surface, the paper entirely unprinted and unruled except
 for one small empty charcoal-outlined rectangle set low and to the right, drawn
 noticeably smaller than everything around it. One soft fold crease runs across
-the page. No characters in frame. No text, no lettering, no numbers, no currency
-symbols anywhere on the page. Nothing else in frame.
-[HOUSE STYLE BLOCK]
-
+the page. No characters in frame. Nothing else in frame. No text, no lettering,
+no numbers, no currency symbols anywhere on the page. Flat 2D vector
+illustration, thick uniform dark-brown outlines, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Warm cream background (#F5EFDC).
+Muted editorial palette: olive green, rust terracotta, deep teal, warm sand,
+charcoal grey, brick red accent. Clean modern explainer-video aesthetic. 9:16
+vertical, subject centred low, generous empty space in the upper third for
+on-screen text. Negative: characters, people, hands, photographic rendering, 3D
+render, clay shading, paper texture photography, gradients, drop shadows, glow,
+bloom, dark or black background, cinematic depth of field, bokeh, raking light,
+text, lettering, numbers, currency symbols, tables, ruled lines, logos, brand
+names, watermark, clutter, busy background, tilted horizon, low resolution.
 
 --------------------------------------------------------------------------------
-09 · 0:37.0–0:41.2 · THE DESIGN
-MOVE: push in 8%, tightening onto ADAM's face as the thesis lands.
+GEN 11 · cut 11 · NOT AN ACCIDENT
+REF: adam-cardholder.png
 --------------------------------------------------------------------------------
-Chest-up shot of ADAM facing the viewer directly, looking straight down the lens,
-mouth closed, brows drawn very slightly together in dawning recognition — not
-shock, not anger, the expression of someone who has just seen how a thing fits
-together. Plain flat warm cream background with nothing else in frame at all.
+Chest-up shot of a man facing the viewer directly, looking straight down the
+lens, mouth closed, brows drawn very slightly together in dawning recognition,
+the expression of someone who has just seen how a thing fits together. Not shock,
+not anger. Plain flat warm cream background with nothing else in frame at all.
 ADAM: adult man, late 20s, warm medium skin tone, short dark brown hair with a
 side part, clean-shaven, friendly rounded face, average build, rust-terracotta
 crew-neck t-shirt, warm tan trousers, dark brown shoes, with clearly visible
-eyes, eyebrows, nose and mouth.
-[HOUSE STYLE BLOCK]
+eyes, eyebrows, nose and mouth. Flat 2D vector illustration, thick uniform
+dark-brown outlines, flat colour fill with soft cel shading, no gradients, no
+photographic texture. Warm cream background (#F5EFDC). Muted editorial palette:
+olive green, rust terracotta, deep teal, warm sand, charcoal grey, brick red
+accent. Clean modern explainer-video aesthetic. 9:16 vertical, character centred,
+generous empty space in the upper third for on-screen text. Negative: blank or
+featureless face, beard, stubble, photographic rendering, 3D render, clay
+shading, low-poly, gradients, drop shadows, glow, bloom, dark or black
+background, cinematic depth of field, bokeh, text, lettering, numbers, logos,
+brand names, watermark, stock-photo smiles, exaggerated shock expression, anime,
+clutter, busy background, low resolution.
 
-  This is the thesis line and the only mid-video return to a bare face. It is
-  the retention save at the ~37s mark, where a 60s Short typically sheds.
-
+  This is the retention save at the ~37s mark, where a 60s Short typically sheds.
 
 --------------------------------------------------------------------------------
-10 · 0:41.2–0:46.2 · THE MODEL
-MOVE: drift right 30px, no scale — lateral, following the flow.
+GEN 12 · cut 12 · THE DESIGN
+REF: institution.png
+--------------------------------------------------------------------------------
+Flat diagram composition on warm cream, no characters in frame. A clean technical
+blueprint drawing of a single plain payment card seen face-on, centred in the
+lower two-thirds and drawn in thin precise charcoal outline only, with no fill.
+Around it, thin charcoal dimension lines with small arrowheads at each end extend
+outward to the edges of the card, and four short leader lines run diagonally away
+from the card's corners, each ending in a small empty circle. A faint regular
+grid of very thin charcoal lines sits behind the whole drawing like graph paper.
+Everything is drawn with the precision of an engineering schematic, deliberate
+and measured. Nothing else in frame. No text, no lettering, no numbers, no
+dimension values, no annotations anywhere. Flat 2D vector illustration, thick
+uniform dark-brown outlines on the card itself, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Warm cream background (#F5EFDC).
+Muted editorial palette: olive green, rust terracotta, deep teal, warm sand,
+charcoal grey, brick red accent. Clean modern explainer-video aesthetic. 9:16
+vertical, subject centred low, generous empty space in the upper third for
+on-screen text. Negative: characters, people, hands, faces, photographic
+rendering, 3D render, clay shading, low-poly, blueprint blue background, white on
+blue, gradients, drop shadows, glow, bloom, dark or black background, bokeh,
+text, lettering, numbers, dimension values, measurements, annotations, logos,
+brand names, watermark, clutter, busy background, tilted horizon, low resolution.
+
+  The delivered frame came back with a chip and stripes rather than an
+  outline-only card. KEPT — the line is "that is the design", and a card drawn as
+  an engineered object with components argues it better than an empty rectangle.
+
+--------------------------------------------------------------------------------
+GEN 13 · cuts 13 + 14 · THE MODEL
+REF: none · used twice, cut 14 is this image punched 40% on the spout
 --------------------------------------------------------------------------------
 Flat diagram composition on warm cream, no characters in frame. A plain
 charcoal-outlined machine drawn square-on and simply: a wide rectangular housing
@@ -437,30 +610,71 @@ with a single funnel opening on its left side and one plain spout on its right,
 mounted on two short legs. A steady even line of small identical brick-red discs
 flows in a continuous unbroken stream from the funnel, through the housing, and
 out of the spout into a deep-teal container on the right that is already full.
-The stream is unbroken along its whole length. Firm flat contact shadows.
-Nothing else in frame. No text, no lettering, no numbers anywhere.
-[HOUSE STYLE BLOCK]
-
+The stream is unbroken along its whole length. Firm flat contact shadows. Nothing
+else in frame. No text, no lettering, no numbers anywhere. Flat 2D vector
+illustration, thick uniform dark-brown outlines, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Warm cream background (#F5EFDC).
+Muted editorial palette: olive green, rust terracotta, deep teal, warm sand,
+charcoal grey, brick red accent. Clean modern explainer-video aesthetic. 9:16
+vertical, subject centred, generous empty space in the upper third for on-screen
+text. Negative: characters, people, hands, faces, photographic rendering, 3D
+render, clay shading, low-poly, mechanical detail, gears, pipes, rivets,
+gradients, drop shadows, glow, bloom, dark or black background, cinematic depth
+of field, bokeh, text, lettering, numbers, currency symbols, logos, brand names,
+watermark, clutter, busy background, tilted horizon, low resolution.
 
 --------------------------------------------------------------------------------
-11 · 0:46.2–0:51.4 · THE REAL SALE
-MOVE: none. Hold dead still — the scene is about a price that stops moving.
+GEN 14 · cut 15 · THE REAL SALE
+REF: none
 --------------------------------------------------------------------------------
 Flat still-life composition on warm cream, no characters in frame, composed
 square-on. A plain shop counter drawn simply across the lower third in warm sand.
 On the counter, a neatly folded olive-green wool jacket on the left, and on the
 right a single small stack of three identical warm-sand coins lying flat and
 settled. A thin charcoal rule separates them. The coin stack is small, finite and
-clearly complete — nothing above it, nothing growing from it, plenty of empty
-cream above. Firm flat contact shadows anchoring both objects. Nothing else in
-frame. No text, no lettering, no numbers anywhere.
-[HOUSE STYLE BLOCK]
-
+clearly complete, with nothing above it and nothing growing from it, and plenty
+of empty cream above. Firm flat contact shadows anchoring both objects. Nothing
+else in frame. No text, no lettering, no numbers anywhere. Flat 2D vector
+illustration, thick uniform dark-brown outlines, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Warm cream background (#F5EFDC).
+Muted editorial palette: olive green, rust terracotta, deep teal, warm sand,
+charcoal grey, brick red accent. Clean modern explainer-video aesthetic. 9:16
+vertical, subject centred low, generous empty space in the upper third for
+on-screen text. Negative: characters, people, hands, faces, tall coin stacks,
+growing piles, arrows, photographic rendering, 3D render, clay shading, low-poly,
+brass, metallic sheen, gradients, drop shadows, glow, bloom, dark or black
+background, cinematic depth of field, bokeh, text, lettering, numbers, currency
+symbols, price tags, logos, brand names, watermark, clutter, busy background,
+tilted horizon, low resolution.
 
 --------------------------------------------------------------------------------
-12 · 0:51.4–0:55.0 · TIME
-MOVE: push in 13%. Fastest move in the film — shortest scene, and the imbalance
-has to become unmissable inside three and a half seconds.
+GEN 15 · cut 16 · THEN IT STOPS
+REF: none
+--------------------------------------------------------------------------------
+Flat diagram composition on warm cream, no characters in frame, composed
+square-on. A single small stack of three identical warm-sand coins lies flat and
+settled in the lower third of the frame, small and clearly finite. Directly above
+the stack, with a short gap, runs one heavy solid charcoal horizontal line
+spanning most of the frame width, drawn thick and absolute like a ceiling or a
+lid. The space between the top of the coin stack and the charcoal line is empty
+warm cream, and the entire area above the line is empty warm cream. Nothing rises
+through the line and nothing sits above it. A firm flat contact shadow beneath
+the coin stack. Nothing else in frame. No text, no lettering, no numbers
+anywhere. Flat 2D vector illustration, thick uniform dark-brown outlines, flat
+colour fill with soft cel shading, no gradients, no photographic texture. Warm
+cream background (#F5EFDC). Muted editorial palette: olive green, rust
+terracotta, deep teal, warm sand, charcoal grey, brick red accent. Clean modern
+explainer-video aesthetic. 9:16 vertical, subject centred low, generous empty
+space in the upper third for on-screen text. Negative: characters, people, hands,
+faces, growing stacks, tall stacks, arrows, upward motion, photographic
+rendering, 3D render, clay shading, low-poly, metallic sheen, gradients, drop
+shadows, glow, bloom, dark or black background, bokeh, text, lettering, numbers,
+currency symbols, logos, watermark, clutter, busy background, tilted horizon, low
+resolution.
+
+--------------------------------------------------------------------------------
+GEN 16 · cuts 17 + 18 · TIME
+REF: none · used twice, cut 18 is this image punched 25% on the neck
 --------------------------------------------------------------------------------
 Flat diagram composition on warm cream, no characters in frame. A simple
 charcoal-outlined hourglass centred and drawn square-on, caught mid-run: the
@@ -469,241 +683,285 @@ filled with brick-red sand to a level visibly and impossibly higher than the
 upper chamber could ever have held. A thin unbroken thread of sand connects the
 two through the neck. The disparity between the two chambers is the entire
 subject and must be obvious at a glance. Firm flat contact shadow. Nothing else
-in frame. No text, no lettering, no numbers anywhere.
-[HOUSE STYLE BLOCK]
-
+in frame. No text, no lettering, no numbers anywhere. Flat 2D vector
+illustration, thick uniform dark-brown outlines, flat colour fill with soft cel
+shading, no gradients, no photographic texture. Warm cream background (#F5EFDC).
+Muted editorial palette: olive green, rust terracotta, deep teal, warm sand,
+charcoal grey, brick red accent. Clean modern explainer-video aesthetic. 9:16
+vertical, subject centred low, generous empty space in the upper third for
+on-screen text. Negative: characters, people, hands, faces, photographic
+rendering, 3D render, clay shading, low-poly, brass, glass refraction, metallic
+sheen, realistic glass, gradients, drop shadows, glow, bloom, dark or black
+background, cinematic depth of field, bokeh, raking light, text, lettering,
+numbers, clock faces, logos, watermark, clutter, busy background, tilted horizon,
+low resolution.
 
 --------------------------------------------------------------------------------
-13 · 0:55.0–0:59.4 · THE CLOSE
-MOVE: push in 4%, the gentlest in the film. Let it come to rest.
+GEN 17 · cuts 19 + 20 · THE CLOSE
+REF: kareem-host.png · used twice, cut 20 is this image punched 20% on his face
 --------------------------------------------------------------------------------
-Medium chest-up shot of KAREEM standing centred and facing the viewer directly,
+Medium chest-up shot of a man standing centred and facing the viewer directly,
 looking straight down the lens with a calm, settled, faintly warm expression,
 mouth closed in a small closed-mouth almost-smile, shoulders relaxed. Both hands
-are open and empty, held loosely at waist height, palms visible — he is holding
-nothing at all. Plain flat warm cream background with nothing else in frame.
-KAREEM: adult man, mid-30s, warm medium skin tone, short black hair brushed
-back, short neatly trimmed dark beard, friendly rounded face, average build,
-olive-green collarless henley with sleeves rolled to mid-forearm, charcoal-grey
-trousers, dark brown shoes. Clearly visible eyes, eyebrows, nose and mouth.
-[HOUSE STYLE BLOCK]
+are open and empty, held loosely at waist height, palms visible, holding nothing
+at all. Plain flat warm cream background with nothing else in frame. KAREEM:
+adult man, mid-30s, warm medium skin tone, short black hair brushed back, short
+neatly trimmed dark beard, friendly rounded face, average build, olive-green
+collarless henley with sleeves rolled to mid-forearm, charcoal-grey trousers,
+dark brown shoes, with clearly visible eyes, eyebrows, nose and mouth. Flat 2D
+vector illustration, thick uniform dark-brown outlines, flat colour fill with
+soft cel shading, no gradients, no photographic texture. Warm cream background
+(#F5EFDC). Muted editorial palette: olive green, rust terracotta, deep teal, warm
+sand, charcoal grey, brick red accent. Clean modern explainer-video aesthetic.
+9:16 vertical, character centred, generous empty space in the upper third for
+on-screen text. Negative: photographic rendering, 3D render, clay shading,
+low-poly, blank or featureless face, gradients, drop shadows, glow, bloom, dark
+or black background, cinematic depth of field, bokeh, text, lettering, numbers,
+logos, brand names, watermark, objects in hands, distorted hands, extra fingers,
+broad grin, stock-photo smiles, anime, clutter, busy background, low resolution.
 
-  Bookends scene 01: same framing, same background, same man — card in hand at
-  the open, empty hands at the close. The visual rhyme carries "balance £0.00"
-  without the VO having to say it twice.
-
-
-================================================================================
-CAPTIONS
-================================================================================
- #  | CAP 1                          | CAP 2
-----|--------------------------------|-------------------------------------------
- 01 | DEADBEAT                       | (none — let it sit alone)
- 02 | THAT'S THE INDUSTRY TERM       | for people who pay in full
- 03 | NOT AN INSULT                  | a category
- 04 | YOU EARNED THEM NOTHING        | so you were never the customer
- 05 | THE CARD ISN'T THE PRODUCT     | the balance is
- 06 | THE LIMIT WENT UP ON ITS OWN   | you didn't ask. it arrived.
- 07 | 1% BACK. 24% APR.              | the cashback is bait, not a gift
- 08 | ITS OWN LITTLE BOX             | the smallest number on the page
- 09 | THAT IS THE DESIGN             | none of it is an accident
- 10 | RIBA IS THE REVENUE MODEL      | not a fee you might trip over
- 11 | A REAL SALE PROFITS ONCE       | at the till. then it stops.
- 12 | TIME IS THE INGREDIENT         | that's the whole difference
- 13 | BE WORTHLESS TO THEM           | part 3: the card that passes
-
-CAPTION SPEC — REVISED FOR THE CREAM GROUND. The 3D pack's spec (#F5F0E6 text
-with a 2px #0A0C10 outline) was designed to survive a near-black frame. On flat
-cream it would be invisible. Use:
-
-  CAP 1   heavy condensed sans, uppercase, charcoal #3E2B23,
-          accent word in brick red #B34A32, no outline
-  CAP 2   same family, sentence case, charcoal #3E2B23 at 80% opacity
-
-  Where a caption crosses a mid-tone shape (the teal ledger in 05, the sand desk
-  in 08), add a 3px warm cream #F5EFDC halo — not a dark outline.
-
-  CAP 1 sits at 14% height, CAP 2 at 23%. Both live in the upper third the
-  compositions deliberately leave empty. This is inverted from the 3D pack,
-  which sat them at 62% and 76%.
-
-  CAP 1 lands on the first stressed syllable of the line, CAP 2 one beat later,
-  both clearing 200ms before the cut.
-
-CAP 1 on scene 01 is a single word on a held frame with a face behind it. Give
-it the full box and no CAP 2. It is the whole hook.
-
-
-================================================================================
-VOICEOVER — media/creditcard-vo.mp3 (target ~59s)
-================================================================================
-ElevenLabs v3. Stability 45–55 (Natural/Creative — v3 tag adherence degrades on
-Robust). Similarity 75. Speed 1.0.
-
-TAG DISCIPLINE. v3 gets erratic when every line is tagged; delivery starts
-lurching between states instead of flowing. The tags below sit only at genuine
-emotional turns — roughly one per one-or-two lines. That is deliberately more
-than the previous draft carried, and deliberately less than tagging every line.
-If a take comes back over-acted, thin the tags before you touch the settings.
+  Bookends GEN 1: same framing, same background, same man — card in hand at the
+  open, empty hands at the close. The rhyme carries "balance £0.00" without the
+  VO saying it twice.
 
 --------------------------------------------------------------------------------
-
-[whispers] Deadbeat.
-
-[serious] That's their word. Not mine.
-
-It's what the card industry calls you for clearing your balance in full.
-
-[curious] Not an insult. A category.
-
-You paid it off. So you earned them nothing.
-
-[serious] You were never the customer.
-
-The card was never the product. [emphatic] The balance is.
-
-The limit rises on its own. You didn't ask. It arrived.
-
-Cashback appears. One percent back. [deadpan] Twenty-four percent charged.
-
-And the minimum payment gets its own little box. The smallest number on the page.
-
-[emphatic] None of it is an accident. That is the design.
-
-[serious] Riba isn't a fee you might trip over. It's the revenue model.
-
-[calm] A real sale takes its profit once. At the till. Then it stops.
-
-Riba grows while you sleep. [slowly] Time is the ingredient.
-
-[warmly] Clear it to zero, and you're worthless to them.
-
-[emphatic] Be worthless.
-
-[warmly] Part three: the card that actually passes. Follow.
+GEN 18 · cuts 21 + 22 · END CARD
+REF: institution.png · used twice, cut 22 is this image punched 30% on the arrow
+--------------------------------------------------------------------------------
+Flat composition on warm cream, no characters in frame. A single plain blank
+cream payment card stands upright and square-on in the lower third of the frame,
+completely unprinted with no numbers, no lettering and no logos, with a firm flat
+contact shadow beneath it. A single clean brick-red arrow rises from just above
+the card and curves smoothly up toward the top right of the frame, drawn with a
+thick even stroke and a simple solid arrowhead, exiting cleanly. The entire upper
+half of the frame is empty warm cream. Nothing else in frame at all. No text, no
+lettering, no numbers anywhere. Flat 2D vector illustration, thick uniform
+dark-brown outlines, flat colour fill with soft cel shading, no gradients, no
+photographic texture. Warm cream background (#F5EFDC). Muted editorial palette:
+olive green, rust terracotta, deep teal, warm sand, charcoal grey, brick red
+accent. Clean modern explainer-video aesthetic. 9:16 vertical, card centred low,
+generous empty space across the upper half for on-screen text. Negative:
+characters, people, hands, faces, subscribe buttons, social media icons, play
+buttons, photographic rendering, 3D render, clay shading, low-poly, gradients,
+drop shadows, glow, bloom, dark or black background, bokeh, text, lettering,
+numbers, logos, brand names, watermark, clutter, busy background, tilted horizon,
+low resolution.
 
 --------------------------------------------------------------------------------
-
-PACING NOTES
-
-  "Deadbeat" is the whole video. Cold open — no run-up, no throat-clear, the
-  word is the first thing in the file. Give it a full beat of silence after it
-  and do not let the next line ride in on it. If v3 rushes it, generate scene
-  01 as its own isolated pass and cut it in.
-
-  Full stops are doing the pacing between the numbers. Do not replace them with
-  commas; v3 reads the stop as a beat.
-
-  "Twenty-four percent charged" — [deadpan] is doing real work there. The joke
-  is the flatness. Do not let it get sarcastic.
+RETIRED — DO NOT GENERATE
+--------------------------------------------------------------------------------
+THE REVOLVER. Five identical bars, each with a small brick-red residue never
+reaching zero. Written for the old script's "the profitable one is a revolver"
+line, which the rewrite cut. No slot exists for it in the current edit.
 
 
 ================================================================================
-SCRIPT AUDIT — what changed from the previous draft, and why
+QC — the delivered stills
 ================================================================================
 
-Requested before release. Five findings, all applied above.
+SHIP AS-IS   GEN 4 · 8 · 9 · 14 · 15 · 17
+GOOD         GEN 1 · 5 · 6 · 7 · 10 · 11 · 12 · 16 · 18
 
-1. THE HOOK WAS BURYING ITS OWN PAYLOAD — fixed, highest impact.
+THREE FIXES, all free in the edit, none require regeneration:
 
-   Previous: "The card industry has a word for people who pay in full every
-   month. / Deadbeats."
+  GEN 3 and GEN 13 — INVERTED COMPOSITION. Art sits in the top third with the
+  empty space at the bottom, which is backwards for a caption system that lives
+  in the upper third. Scale each to ~120–140% and push down so the subject lands
+  in the lower two-thirds. Until repositioned, put their captions in the BOTTOM
+  third instead.
 
-   That is thirteen words of setup — roughly four seconds — before the
-   interesting word arrives. On this format the swipe decision is made in about
-   the first second and a half. The old open spent that entire window on
-   throat-clearing, then delivered the payload at second five, to whoever was
-   still there.
+  GEN 6 — CAPTION COLLISION. The blank card sits at about 23% height, exactly
+  where CAP2 lands. Move CAP2 to y=21%, or scale the image down 8%.
 
-   Now: the word is the first thing in the file, naked and unexplained, over a
-   face making eye contact. It is a pattern interrupt and a small mystery, and
-   it resolves immediately in the next line. The pack's own note said
-   "'Deadbeats' is the whole video" — leading with it is just acting on that.
+  GEN 1 — THUMBNAIL FRAMING. He came back framed wider than "chest-up", so the
+  face is small at feed scale. Fine in the video; for the thumbnail export, punch
+  in ~35% on his head and the card. Eye contact is the whole reason this beats
+  the 3D pack's card-on-a-desk thumbnail.
 
-2. "REVOLVER" WAS COSTING 4.8s FOR NOTHING — cut.
-
-   The old scene 03 spent nearly five seconds teaching a second piece of
-   industry jargon that never pays off later in the script. In a sub-60s Short
-   that is close to a tenth of the runtime spent on a synonym. The argument
-   loses nothing without it. The time went to the back third, which is where
-   the video makes its promise good.
-
-   Keep "transactors vs revolvers" in the description as FCA corroboration —
-   it earns its place there, not in the VO.
-
-3. THE MIDDLE WAS A LIST OF IDENTICAL CLAUSES — restructured.
-
-   Old scenes 05/06/07 all opened on the same "Which is why…" / "Why…"
-   construction, three times running. Identical grammatical shape three times
-   flattens the rhythm exactly where a 60s Short usually sheds viewers.
-
-   The clauses are now independent declaratives with different shapes and
-   lengths, and — more importantly — the thesis line moved. "None of it is an
-   accident. That is the design." was buried at position ten in a list. It is
-   now its own scene, on a bare face, at the 37-second mark. That is the
-   retention save.
-
-4. THE CLOSE REPEATED THE PREVIOUS VIDEO'S CTA VERBATIM — changed.
-
-   The Klarna upload already closed on "Follow — the fix is next." Running the
-   same words again on the very next upload trains the audience to tune the
-   line out. "Part three: the card that actually passes" does three jobs the
-   generic line does not: it names what is coming, it makes the series framing
-   explicit, and it gives a reason to follow rather than an instruction to.
-
-   The pack already flagged that you have no series framing across 21 uploads
-   and called it "the cheapest retention you have available." This is that.
-
-5. ONE WORD WAS SLIGHTLY WRONG ON THE FACTS — changed.
-
-   "Twenty-four point nine percent owed" → "twenty-four percent charged."
-   APR is charged on a carried balance; it is not flatly "owed." "Charged" is
-   accurate, is one syllable shorter, and survives a comment section. Rounding
-   to 24% also keeps the figure reading as an illustration rather than as a
-   quoted product, which is the posture the accuracy section below depends on.
-
-WHAT WAS DELIBERATELY LEFT ALONE
-
-   "Be worthless to them" is the best line in the script and it is untouched.
-
-   The riba framing is untouched. The script still never issues a ruling in
-   your own voice — it makes a claim about the product's economics and lets the
-   contrast carry it. Hold that line; see the accuracy section.
-
-   The burn-in-the-numbers rule, the blank-everything discipline, and the
-   record-VO-before-generating rule are all sound and all carried over.
-
-HONEST NOTE ON "VITALITY". The hook, structure and CTA are materially stronger
-than the previous draft on the mechanics that are known to matter for this
-format — payload position, cut cadence, face-on-frame-one, structural variety,
-specific CTA. Nobody can tell you a script will perform before it ships. If you
-want a scored read rather than an editorial one, the Higgsfield virality
-predictor takes a finished video, not a script — run it on the assembled cut
-before publishing and it will give you hook-strength and retention-risk numbers
-against this pack's estimates.
+ONE ACCIDENTAL WIN — PRESERVE IT. The tall red stack in GEN 9 reads as a push-in
+on the heavy pan from GEN 8. The cut now plays as one continuous move from "1%
+back" into "24% charged" — exactly the collision beat this pack says should carry
+the most typographic weight. Keep them adjacent and do NOT add a push to GEN 9;
+the cut is already doing the work.
 
 
 ================================================================================
-OPTIONAL MOTION PASS — three shots only
+CAPTION AND CARD SYSTEM
 ================================================================================
 
-The reverted style is a stills idiom and the edit moves above are the intended
-motion. If you want generated movement, restrict it to these three and use
-image-to-video from the approved still — never text-to-video, which will not
-hold the outlines or the face.
+Derived from the EP01 series bible's own scoreboard card — cream panel, thin
+charcoal border, heading strip, hairline rows, label-left / value-right, heavy
+rule under the total. Nothing here is imported from another channel.
 
-  01  KAREEM: a single slow blink and the faintest settle of the shoulders.
-      Nothing else. No head turn, no hand movement, no expression change.
+TYPE
+  CAP1        Anton (Google Fonts). Uppercase. 96px, line-height 0.95,
+              tracking -1%.
+  CAP2        Inter Medium. Sentence case. 46px, 80% opacity.
+  ACCENT      Anton 150px. Used on `A DEADBEAT` and `BE WORTHLESS` only.
 
-  06  ADAM: the phone screen brightens once, softly, on its own. He does not
-      react. No other motion in frame.
+COLOUR
+  On cream    CAP1 and CAP2 charcoal #3E2B23, accent word brick red #B34A32.
+  On GEN 2    everything cream #F5EFDC — the grey frame kills charcoal type.
 
-  13  KAREEM: one slow blink and a barely perceptible nod. Nothing else.
+POSITION
+  CAP1 top at y=270px (14%). CAP2 baseline at y=440px (23%). Safe margins 90px.
+  EXCEPTIONS: cuts 03 and 13 go in the BOTTOM third until those images are
+  repositioned. Cut 06's CAP2 moves to y=21%.
 
-Rules for all three: locked-off camera, no push (the push is added in the edit,
-not generated), motion confined to the single named element, everything else
-frozen. If the outlines boil or the face drifts even slightly, throw it away and
-use the still — the still is not a fallback, it is the house style.
+MOTION
+  CAP1        cuts on hard. No fade, no movement — the house style is locked-off
+              and the type should match.
+  CAP2        fades up over 5 frames with a 10px rise.
+  NUMBERS     cut on hard. They are evidence, not decoration.
+  ALL         cut out hard, 200ms before the image cut.
+  NEVER       slides, bounces, typewriters, drop shadows, glows.
+
+THREE CARDS
+
+  CARD A — LINE ITEM. Cream panel, 2px charcoal border, square corners. Label
+  left (32px, letterspaced +8%), value right (72px). One hairline beneath.
+  For single figures.
+
+  CARD B — COLLISION. Same panel, split by a vertical hairline. Left cell small
+  label + small figure. Right cell small label + figure at 190px in brick red.
+  THE SIZE ASYMMETRY IS THE ARGUMENT — never balance the two cells.
+
+  CARD C — STAMP. No panel. Figure at 78px charcoal, with a heavy charcoal rule
+  directly beneath running 60% of frame width. For verdicts.
+
+
+================================================================================
+CUE SHEET
+================================================================================
+Times are for the UNTRIMMED 70.27s file. If you apply the trim rule, lay these
+to the words instead.
+
+CUT 01
+  0.40  CAP1  THE CARD INDUSTRY / CALLS YOU
+  1.90  +     A DEADBEAT              at 27%, brick red, 150px
+  2.86  clear all → CAP1  FOR PAYING IN FULL
+  4.30  out
+
+CUT 02  — all type cream #F5EFDC
+  4.60  DEADBEAT                      on the card face, 150px
+  5.00  CAP1  THEIR WORD. / NOT MINE.
+  6.35  out
+
+CUT 03  — captions BOTTOM third
+  6.95  CAP1  NOT AN INSULT
+  7.90  CAP2  a category
+  9.45  out
+
+CUT 04
+ 10.00  CAP1  YOU EARNED THEM NOTHING
+ 11.00  CARD A  INTEREST EARNED / £0.00     in the gap between the two figures
+ 12.45  out
+
+CUT 05
+ 13.25  CAP1  YOU WERE NEVER / THE CUSTOMER
+ 15.40  out
+
+CUT 06
+ 16.35  CAP1  THE CARD ISN'T THE PRODUCT
+ 17.40  CAP2  the balance is                y=21%, not 23%
+ 18.80  out
+
+CUT 07
+ 19.50  CAP1  THE LIMIT WENT UP / ON ITS OWN
+ 20.30  CARD A  LIMIT / £2,000 → £3,500     on the phone screen
+ 21.60  CAP2  you didn't ask. it arrived.
+ 23.20  out
+
+CUT 08
+ 24.20  CAP1  THE CASHBACK IS BAIT
+ 25.60  1% BACK                             56px charcoal, beside the LEFT pan
+ 26.40  out
+
+CUT 09
+ 28.60  CARD B  CASHBACK 1%  |  APR 24%     right cell 190px brick red
+ 29.80  CAP2  bait, not a gift              beneath the card
+ 30.80  out
+
+CUT 10
+ 31.60  CAP1  ITS OWN LITTLE BOX
+ 32.30  £25                                 inside the small rectangle
+        MINIMUM PAYMENT                     label to its left
+ 34.20  out
+
+CUT 11
+ 34.60  CAP1  NONE OF IT / IS AN ACCIDENT
+ 36.80  out
+
+CUT 12
+ 37.90  CAP1  THAT IS THE DESIGN            DESIGN in brick red
+ 40.30  out
+
+CUT 13  — captions BOTTOM third until repositioned
+ 41.10  CAP1  RIBA ISN'T A FEE / YOU TRIGGER
+ 43.90  out
+
+CUT 14
+ 44.60  CAP1  IT'S THE REVENUE MODEL        REVENUE MODEL in brick red
+ 45.80  out
+
+CUT 15
+ 46.60  CAP1  A REAL SALE PROFITS ONCE
+ 47.90  CARD C  PROFIT: FIXED AT THE SALE
+ 49.15  out
+
+CUT 16
+ 49.60  CAP1  THEN IT STOPS
+ 51.00  out
+
+CUT 17
+ 51.90  CAP1  RIBA GROWS / WHILE YOU SLEEP
+ 54.20  out
+
+CUT 18
+ 54.80  CAP1  TIME IS THE INGREDIENT
+ 55.90  CARD C  RIBA: PRICED IN TIME
+ 57.20  out
+
+CUT 19
+ 58.10  CARD C  BALANCE £0.00
+ 59.40  CAP1  YOU'RE WORTHLESS TO THEM
+ 61.30  out
+
+CUT 20
+ 62.30  CAP1  BE WORTHLESS                  full brick red, 150px
+ 64.00  out
+
+CUT 21
+ 65.00  CAP1  PART 3 / THE CARD THAT PASSES
+ 68.20  out
+
+CUT 22
+ 69.00  CAP1  FOLLOW  + follow graphic
+ 70.10  out
+
+THREE THINGS CARRYING WEIGHT
+
+  THE HOOK IS THREE STAGED CUES ON ONE FRAME — setup, the word in brick red at
+  150px, then the whisper line alone. Do not collapse it to a single caption; the
+  staging is what stops 4.5 seconds on one image from feeling static.
+
+  CARD B AT CUT 09 IS THE CENTREPIECE. It descends from the Klarna-era
+  "£1,461 a month. Only £420 buys your house" device. The small cell carries 1%
+  over from the previous shot and the big cell lands 24% — the card completes
+  across a cut. Never let the two cells balance.
+
+  BE WORTHLESS IS THE BIGGEST TYPE IN THE FILM and the only full-brick-red line.
+  Everything builds to it.
+
+
+================================================================================
+RENDER ORDER
+================================================================================
+  1  Trim the VO silences (cap 0.5s, keep the two protected beats) → ~58s
+  2  Reposition GEN 3 and GEN 13; fix CUT 06's CAP2 to y=21%
+  3  Lay the 18 stills to the cut map; apply the 4 punch-ins
+  4  Burn captions, cards and numbers per the cue sheet
+  5  Export the thumbnail separately from GEN 1, punched in ~35%
 
 
 ================================================================================
@@ -712,48 +970,44 @@ PACKAGING
 TITLE        They Call You a Deadbeat for Paying in Full
              alt 1: The Bank Doesn't Want You Debt-Free
              alt 2: Is Your Credit Card Halal?
-             The Klarna upload was retitled from "Is Klarna Halal?" to
-             "You've Already Paid Klarna." at publish — the declarative won.
-             This slate follows that.
-THUMBNAIL    Scene 01 frame: KAREEM's face, level stare, blank card held up,
-             DEADBEAT set in brick red in the empty upper third. Nothing else.
-             The face is the whole reason this beats the 3D pack's card-on-desk.
-LENGTH       ~59s (slate rule: 30–60s — this is tight to the ceiling, so
-             re-check after the VO is recorded and trim 06–08 if needed)
-DESCRIPTION  600+ characters. Do not ship the 197-char boilerplate.
-             Put "transactors vs revolvers" here as FCA corroboration.
-TAGS         total under 500 characters — hard YouTube limit, silently rejects.
+             The Klarna upload was retitled from "Is Klarna Halal?" to "You've
+             Already Paid Klarna." at publish — the declarative won. Follow that.
+THUMBNAIL    GEN 1 punched in ~35%: KAREEM's face, level stare, blank card,
+             DEADBEAT in brick red in the empty upper third. Nothing else.
+LENGTH       ~58s after the trim (slate rule 30–60s). Untrimmed 70.27s is still
+             inside YouTube's 3-minute Shorts limit but breaks the slate rule.
+DESCRIPTION  600+ characters. Do not ship the 197-char boilerplate. Put
+             "transactors vs revolvers" here as FCA corroboration.
+TAGS         under 500 characters total — hard YouTube limit, silently rejects.
 KEYWORDS     do NOT put "riba" in the title — English SERP is polluted by the
-             Royal Institute of British Architects. Description and spoken
-             script only. Same rule as the Klarna slate.
+             Royal Institute of British Architects. Description and spoken script
+             only. Same rule as the Klarna slate.
 
-SERIES. This is the video that pays off Klarna's "the fix is next." Scenes
-10–13 carry the fix. The close now names part three explicitly, so make it.
+SERIES. This pays off Klarna's "the fix is next." Cuts 15–22 carry the fix, and
+the close now names part three explicitly — so make it.
 
 
 ================================================================================
 ACCURACY — the three claims that need to survive a comment section
 ================================================================================
 
-"DEADBEAT" — real industry jargon for a cardholder who pays in full and
-generates no interest revenue, contrasted with "revolver". It is primarily US
-card-industry slang. The VO says "the card industry calls you", which is
-accurate and does not claim it is a UK term. Keep that phrasing. UK regulatory
-language for the same split is "transactors" vs "revolvers" — that is the FCA's
-own vocabulary in its credit card market work, and it belongs in the
-description as corroboration.
+"DEADBEAT" — real industry jargon for a cardholder who pays in full and generates
+no interest revenue, contrasted with "revolver". Primarily US card-industry
+slang. The VO says "the card industry calls you", which is accurate and does not
+claim it is a UK term. Keep that phrasing. UK regulatory language for the same
+split is "transactors" vs "revolvers" — the FCA's own vocabulary in its credit
+card market work, and it belongs in the description as corroboration.
 
-"1% BACK vs 24% APR" — representative, not universal. UK cashback on mass
-market cards typically sits well under 1%, and representative purchase APRs on
-mainstream UK cards commonly land in the low-to-mid twenties. Both figures are
-in range and the caption presents them as an illustration, not as one specific
-product. Do not name an issuer on screen.
+"1% BACK vs 24% APR" — representative, not universal. UK cashback on mass market
+cards typically sits well under 1%, and representative purchase APRs on
+mainstream UK cards commonly land in the low-to-mid twenties. Both are in range
+and the card presents them as illustration, not as one specific product. Do not
+name an issuer on screen. Screen and VO must agree — both say 24%.
 
-"Riba isn't a fee you might trip over. It's the revenue model." — this is a
-claim about the product's economics, not a fatwa, and the script deliberately
-never issues a ruling in your own voice. That is the same posture as the Klarna
-pack, which let murabaha carry the contrast rather than declaring a verdict.
-Hold that line — the fiqh on cards where interest is never actually incurred is
-genuinely differed, and a verdict in the VO invites the one argument you cannot
-win in a comment reply.
+"Riba isn't a fee you might trigger. It's the model." — a claim about the
+product's economics, not a fatwa. The script deliberately never issues a ruling
+in your own voice. Same posture as the Klarna pack, which let murabaha carry the
+contrast rather than declaring a verdict. Hold that line — the fiqh on cards
+where interest is never actually incurred is genuinely differed, and a verdict in
+the VO invites the one argument you cannot win in a comment reply.
 ================================================================================
