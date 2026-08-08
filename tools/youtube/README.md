@@ -61,13 +61,33 @@ Needs the Tier 1 project.
 ```bash
 export YT_CLIENT_ID=....apps.googleusercontent.com
 export YT_CLIENT_SECRET=GOCSPX-...
-python3 tools/youtube/yt.py auth
+python3 tools/youtube/yt.py auth            # add --readonly for a stats-only token
 ```
 
 `auth` prints a URL. Approve it in the browser signed into the channel's
 account. The browser then lands on a `localhost` page that **fails to load —
 that is expected**. Copy that failed page's full address bar and paste it back.
 You get a refresh token.
+
+### Scope choice
+
+`--readonly` mints a token that can read stats, analytics and retention but
+**cannot upload, edit or delete**. Without it you also get upload and
+`force-ssl`, and `force-ssl` can delete videos. If a token is going anywhere
+you would not trust with the channel — including into a chat transcript — mint
+it `--readonly` and re-run without the flag later if you want publishing.
+
+### No terminal? Split the flow
+
+`auth --url` prints the authorization URL and exits. `auth --code "<pasted
+redirect URL>"` does the exchange non-interactively. That lets the browser half
+happen anywhere, with no interactive prompt:
+
+```bash
+python3 tools/youtube/yt.py auth --url --readonly
+# ...approve in a browser, copy the failed localhost address bar...
+python3 tools/youtube/yt.py auth --readonly --code "http://localhost:8765/?code=4/0A..."
+```
 
 ### Make it survive the session
 

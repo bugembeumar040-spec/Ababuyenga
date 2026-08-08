@@ -44,11 +44,18 @@ ANALYTICS_API = "https://youtubeanalytics.googleapis.com/v2"
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 AUTH_URL = "https://accounts.google.com/o/oauth2/v2/auth"
 
-SCOPES = [
+# Enough for analytics, retention and stats. Cannot upload, edit or delete -
+# so a token minted with these is safe to hand to something you don't fully
+# trust with the channel.
+READ_SCOPES = [
     "https://www.googleapis.com/auth/youtube.readonly",
+    "https://www.googleapis.com/auth/yt-analytics.readonly",
+]
+
+# Adds publishing and metadata editing. force-ssl can also DELETE videos.
+WRITE_SCOPES = READ_SCOPES + [
     "https://www.googleapis.com/auth/youtube.upload",
     "https://www.googleapis.com/auth/youtube.force-ssl",
-    "https://www.googleapis.com/auth/yt-analytics.readonly",
 ]
 
 CONFIG_PATH = os.path.expanduser("~/.config/ababuyenga/youtube.json")
@@ -171,47 +178,66 @@ def bearer(cfg):
     return {"Authorization": "Bearer " + access_token(cfg)}
 
 
-def cmd_auth(args, cfg):
-    client_id, client_secret = need(cfg, "client_id", "client_secret")
-    redirect = "http://localhost:8765"
-    url = AUTH_URL + "?" + urllib.parse.urlencode({
+REDIRECT = "http://localhost:8765"
+
+
+def auth_url(client_id, readonly=False):
+    return AUTH_URL + "?" + urllib.parse.urlencode({
         "client_id": client_id,
-        "redirect_uri": redirect,
+        "redirect_uri": REDIRECT,
         "response_type": "code",
-        "scope": " ".join(SCOPES),
+        "scope": " ".join(READ_SCOPES if readonly else WRITE_SCOPES),
         "access_type": "offline",
         "prompt": "consent",
     })
 
-    print("1. Open this URL in the browser signed into the channel's Google account:\n")
-    print(url + "\n")
-    print("2. Approve access. The browser will land on a localhost page that fails")
-    print("   to load - that is expected and fine.")
-    print("3. Copy the ENTIRE address bar URL of that failed page and paste it below.\n")
-    if not args.no_browser:
-        try:
-            webbrowser.open(url)
-        except Exception:
-            pass
 
-    pasted = input("Pasted redirect URL (or bare code): ").strip()
+def extract_code(pasted):
+    """Accept either the whole pasted redirect URL or a bare code."""
+    pasted = pasted.strip().strip('"').strip("'")
     if not pasted:
-        die("nothing pasted")
-    if pasted.startswith("http"):
-        query = urllib.parse.parse_qs(urllib.parse.urlsplit(pasted).query)
-        if "error" in query:
-            die(f"Google returned an error: {query['error'][0]}")
-        code = query.get("code", [None])[0]
-        if not code:
-            die("no ?code= parameter in that URL")
+        die("nothing supplied")
+    if not pasted.startswith("http"):
+        return pasted
+    query = urllib.parse.parse_qs(urllib.parse.urlsplit(pasted).query)
+    if "error" in query:
+        die(f"Google returned an error: {query['error'][0]}")
+    code = query.get("code", [None])[0]
+    if not code:
+        die("no ?code= parameter in that URL - paste the whole address bar")
+    return code
+
+
+def cmd_auth(args, cfg):
+    client_id, client_secret = need(cfg, "client_id", "client_secret")
+    url = auth_url(client_id, readonly=args.readonly)
+
+    # --url and --code split the flow in two so it works with no terminal:
+    # something else can show the URL, and the code comes back as an argument.
+    if args.url:
+        print(url)
+        return
+
+    if args.code:
+        code = extract_code(args.code)
     else:
-        code = pasted
+        print("1. Open this URL in the browser signed into the channel's Google account:\n")
+        print(url + "\n")
+        print("2. Approve access. The browser lands on a localhost page that fails")
+        print("   to load - that is expected and fine.")
+        print("3. Copy the ENTIRE address bar of that failed page and paste it below.\n")
+        if not args.no_browser:
+            try:
+                webbrowser.open(url)
+            except Exception:
+                pass
+        code = extract_code(input("Pasted redirect URL (or bare code): "))
 
     form = urllib.parse.urlencode({
         "code": code,
         "client_id": client_id,
         "client_secret": client_secret,
-        "redirect_uri": redirect,
+        "redirect_uri": REDIRECT,
         "grant_type": "authorization_code",
     }).encode()
     res = http(TOKEN_URL, method="POST", raw_body=form,
@@ -743,6 +769,11 @@ def main():
     add("setup", cmd_setup, "print credential status and setup steps")
 
     sp = add("auth", cmd_auth, "run the OAuth flow, print a refresh token")
+    sp.add_argument("--url", action="store_true",
+                    help="just print the authorization URL and exit")
+    sp.add_argument("--code", help="redirect URL or bare code, for a non-interactive exchange")
+    sp.add_argument("--readonly", action="store_true",
+                    help="mint a token that can read stats but not upload, edit or delete")
     sp.add_argument("--no-browser", action="store_true")
 
     sp = add("handle", cmd_handle, "resolve a @handle or URL to a UC... id")
