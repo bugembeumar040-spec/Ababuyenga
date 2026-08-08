@@ -1,0 +1,784 @@
+================================================================================
+FINANCE % DECODED — "HOW CREDIT CARDS ACTUALLY WORK IN BRITAIN" — LONG-FORM PACK
+16:9 · 1920x1080 · 6 chapters · ~11:35
+The recut of THE DEBT SERIES (Klarna · Deadbeat · Halal Card) into one film
+================================================================================
+
+WHAT THIS FILE IS
+
+The first long-form video on the channel. It is the three Shorts of the debt
+series, in order, plus every argument the 60-second slate rule forced you to
+cut, plus one chapter that has never appeared anywhere because it cannot be
+done in a Short at all.
+
+It is also the only video in this repo that moves the channel toward the
+monetisation door it can actually reach. See channel-growth-plan.txt for that
+argument; it is not repeated here.
+
+Structure of this pack:
+
+  1. THE HONEST COST — what actually transfers from the Shorts and what doesn't
+  2. THE 16:9 CONVERSION RULE — one clause that converts the whole prompt library
+  3. CHAPTER MAP — the spine, with YouTube chapter timestamps
+  4. VOICEOVER — full script, 1,732 spoken words
+  5. SHOT LIST — keyed to chapters, marked REUSE or NEW
+  6. NEW PROMPTS — full prompts for the shots that don't exist yet
+  7. TYPOGRAPHY — how numbers and captions work at 16:9 (different from Shorts)
+  8. PACKAGING
+  9. ACCURACY — including one correction to inherit carefully from Klarna
+
+
+================================================================================
+THE HONEST COST — read before you budget
+================================================================================
+
+The growth plan says the long-form is "the assets each pack already generates
+and discards." That is true of the WORK. It is only partly true of the PIXELS,
+and you should know the difference before you start.
+
+WHAT TRANSFERS INTACT — no regeneration, no cost:
+
+  · THE LOCKED CHARACTER REFERENCES. Reference images are aspect-agnostic. Your
+    AMIR and shopkeeper frames drive 16:9 generations exactly as well as they
+    drove 9:16 ones. This is the expensive thing and you already own it.
+  · THE PROMPT LIBRARY. Every prompt in the three packs is reusable with one
+    clause swapped. See the conversion rule below.
+  · THE NEGATIVE PROMPTS. Unchanged, both tracks.
+  · THE PALETTE, the caption spec, the burn-the-numbers rule, the no-faces rule.
+  · THE VO PERFORMANCE DIRECTION. Same voice, same settings, same pacing logic.
+
+WHAT DOES NOT TRANSFER — budget for it:
+
+  · THE RENDERS THEMSELVES. A 9:16 master does not become a 16:9 shot. Every
+    composition in the three packs puts its subject in the lower two-thirds with
+    headroom above, which is precisely the wrong shape for widescreen. Cropping
+    out produces a subject jammed at the bottom of frame with nothing at the
+    sides. Pillarboxing the vertical masters inside a 16:9 frame reads as a
+    reposted Short, which is the single clearest signal to a viewer that they
+    are watching filler. Regenerate.
+  · THE VO. Re-record. The long-form lines are new, and even the inherited ones
+    are re-paced for a format where you are allowed to finish a thought.
+
+So the real saving is roughly: you skip the design phase, the character
+development, the style development and the script architecture, and you pay for
+renders. On this pipeline that is most of the cost saved and the smaller part
+paid. It is a good trade, but it is not free, and a plan that assumed free would
+have run out of budget in chapter three.
+
+SHOT ECONOMY. ~11 minutes at this contemplative pace is roughly 60 placements
+drawn from a pool of about 45 unique assets. Long holds are correct for this
+house style — 8 to 14 seconds on a still with a slow push reads as confidence,
+not as padding, provided the VO underneath is dense. Returning to a hero shot
+two or three times across the film is a legitimate device and cuts the pool
+further. Do not try to generate a new asset for every beat; that way lies a
+budget that never ships.
+
+TRACK B REMAINS THE RECOMMENDATION. Stills, moved in the edit. At 11 minutes
+the arithmetic that favoured stills on the Shorts becomes overwhelming, and
+temporal artefacts that survive a 5-second clip become unwatchable across a
+14-second hold.
+
+
+================================================================================
+THE 16:9 CONVERSION RULE — one clause, whole library
+================================================================================
+
+Every prompt in the three Short packs ends with a framing clause. Delete it and
+paste the matching replacement. Nothing else in any prompt changes.
+
+FIND (or any close variant):
+  "9:16 vertical, subject in the lower two-thirds, clean headroom above"
+  "9:16 vertical, card low-centre, dark space above"
+  "Composed low in a 9:16 vertical frame with two-fifths of the frame empty above"
+
+REPLACE — for CHARACTER shots (AMIR, the shopkeeper):
+  "16:9 horizontal, 1920x1080. Subject standing on the left vertical third,
+  facing into frame, full head clearance above. The right half of frame held as
+  clean negative space falling into shadow, reserved for lower-third titles."
+
+REPLACE — for MACRO and TABLETOP shots (cards, scale, folder, hourglass):
+  "16:9 horizontal, 1920x1080. Subject centred on the lower-left third of frame
+  with the surface running out to the right edge, wide lateral falloff into
+  near-black, the upper right quadrant held empty for number cards."
+
+REPLACE — for the FULL-SCREEN NUMBER beats (see TYPOGRAPHY):
+  "16:9 horizontal, 1920x1080. Subject small and centred low in a deliberately
+  empty frame, at most a fifth of the frame height, the remainder deep near-black
+  with a single raking highlight. Composed for large type above the subject."
+
+WHY THE ASYMMETRY. Widescreen has a horizontal axis your vertical compositions
+never had to solve. Centring everything at 16:9 produces the flat, dead, stock-
+explainer look this house style has so far completely avoided. Holding the
+subject to one third and letting the other side go genuinely empty is what keeps
+it looking composed rather than merely wide. It also gives the edit somewhere to
+put type that is not on top of the subject, which at Shorts length you solved
+with headroom and at long-form length you solve laterally.
+
+ONE ADDITION TO EVERY 16:9 PROMPT. Append:
+  "Wider environmental context visible at the frame edges, still falling into
+  soft focus and shadow."
+Vertical framing hid the world outside the subject. Widescreen shows it, and an
+empty void at the sides of a 16:9 frame reads as a mistake rather than a choice.
+
+
+================================================================================
+CHAPTER MAP — paste the timestamps into the description
+================================================================================
+
+ #  | IN     | OUT    | LEN   | CHAPTER
+----|--------|--------|-------|------------------------------------------------
+ —  | 0:00   | 0:50   | 0:50  | (cold open — no chapter marker)
+ 01 | 0:50   | 3:10   | 2:20  | Who the card is actually for
+ 02 | 3:10   | 5:05   | 1:55  | Who pays when you don't
+ 03 | 5:05   | 7:30   | 2:25  | The question nobody answers cleanly
+ 04 | 7:30   | 9:05   | 1:35  | What actually exists in Britain
+ 05 | 9:05   | 10:45  | 1:40  | What you give up, and how to replace it
+ —  | 10:45  | 11:10  | 0:25  | (close)
+
+YouTube requires the first chapter to start at 0:00 and each to run at least 10
+seconds. So the description list starts with a 0:00 entry — label it "The word
+they use for you" and let it cover the cold open.
+
+TIMINGS ARE TARGETS, NOT THE CUT — same rule as all three Short packs. The map
+above totals 11:10. The VO below is 1,732 spoken words, which at ~150wpm runs
+closer to 11:35, and this voice tends to land slower than nominal on the
+[serious] and [calm] passages. Record the seven passes first, measure them, then
+re-derive the real chapter boundaries and every IN/OUT in the shot list into
+video/src/longform/beats.ts before generating anything. The proportions in the
+map are right; the absolute numbers will move by roughly half a minute and every
+downstream timing moves with them.
+
+RETENTION NOTE. The 0:00–0:50 cold open is the whole video's fate. Your growth
+plan's day-90 review says that if long-form retention is flat the problem is the
+first thirty seconds, not the topics. So: the cold open is the Deadbeat hook,
+unchanged, because it is the hardest opening the channel has ever written and it
+tested as a Short. Do not open on a channel intro, a logo, a "welcome back", or
+an explanation of what the video will cover. Open on the word.
+
+CHAPTER 3 IS THE REASON THIS VIDEO EXISTS. It is the fiqh chapter — both
+positions on conventional cards where interest is never actually incurred, laid
+out properly, attributed, and left unruled. It cannot be done in 60 seconds,
+nobody else in this niche does it at all, and it is the single strongest
+argument for the channel's existence. If you cut for length, cut chapter 2.
+Never cut 3.
+
+
+================================================================================
+VOICEOVER — to record: media/longform-credit-vo.mp3 (target ~11:10)
+================================================================================
+ElevenLabs v3, stability 45–55, similarity 75, speed 1.0. Same voice as the
+Shorts. Tags sparse. Full stops doing the pacing.
+
+RECORD IN SEVEN PASSES, one per chapter plus the cold open and close. Long
+single-take generations drift in tone by the end and you cannot fix it in the
+edit. Seven files, assembled.
+
+-------- COLD OPEN (0:00–0:50) --------
+
+[serious] The card industry has a word for people who pay their bill in full
+every month.
+[whispers] Deadbeats.
+That's the actual term. Not an insult. A category.
+And once you know that word exists, you cannot unsee what it tells you.
+It tells you that paying on time makes you the wrong customer.
+That the product was never the card.
+And it tells you why, after searching properly, you will not find a single
+Sharia-compliant credit card available anywhere in Britain.
+[serious] This is how the thing actually works. All of it. In about eleven
+minutes.
+
+-------- CHAPTER 1 — WHO THE CARD IS ACTUALLY FOR (0:50–3:10) --------
+
+Start with the vocabulary, because the industry's own words give the game away.
+If you clear your balance every month, you are a transactor. If you carry one,
+you are a revolver.
+Those aren't slurs invented by critics. Revolver and transactor are the
+regulator's own terms. The Financial Conduct Authority used them throughout its
+credit card market study, which went through the account activity of thirty-four
+million customers across five years.
+[serious] So this isn't a theory about what banks might be doing. It is the
+documented structure of the market, published by the body that supervises it.
+Here is what that structure means.
+A transactor borrows money for up to eight weeks and gives it back. The bank
+earns almost nothing from them — a small cut of what the shop pays, and that
+is it.
+A revolver pays interest every month, indefinitely, and never quite reaches zero.
+[emphatic] One of those two is the business.
+Which explains the things that otherwise make no sense.
+Your credit limit goes up without you asking. Nobody raises a limit for someone
+who pays in full — there is nothing to gain. A higher limit only produces revenue
+if some of it stays unpaid.
+The cashback exists. One percent back, against a purchase rate in the low
+twenties. That is not a gift. It is a discount on the bait.
+And the minimum payment gets its own box on the statement, printed clear and
+separate, the smallest number on the page. Not because it is the most useful
+number. Because it is the most profitable one.
+[serious] The regulator agrees, incidentally. It defines an account as being in
+persistent debt when, over eighteen months, you have paid more in interest and
+charges than you have paid off the actual balance. More to the bank than to the
+debt. Since twenty-eighteen, firms have been required to spot those customers
+and intervene.
+Read that definition again. It had to be written because the outcome it describes
+is common enough to need a rule.
+
+-------- CHAPTER 2 — WHO PAYS WHEN YOU DON'T (3:10–5:05) --------
+
+Now the part that catches people who think none of this touches them, because
+they pay cash.
+Every card payment costs the shop money. Not the shopper — the shop.
+Be precise about this, because it is where most explanations go wrong. The fee
+that goes to your bank, the interchange, is capped by law in this country. Zero
+point three percent on a consumer credit card. Zero point two on debit. That cap
+is not negotiable and it is not where the money is.
+What the shop actually pays is a bundle: that capped interchange, plus scheme
+fees to Visa or Mastercard, which are not capped and have climbed steadily since
+the cap came in, plus the acquirer's margin on top. Together, typically somewhere
+between one and a half and three percent.
+[serious] Now compare that to buy-now-pay-later.
+Because it isn't a card scheme, none of those caps touch it. Merchant rates for
+instalment products commonly land near five or six percent. Multiple times what
+a card costs the same shop on the same sale.
+And no shop absorbs that. It goes into the price on the tag.
+[emphatic] Which means the price went up for everyone. The person paying by card.
+The person paying by phone. And the person who walked in, paid cash, took no
+credit, signed nothing, and quietly covered part of the cost of everyone else's
+instalment plan.
+[calm] You do not have to use any of these products to be paying for them.
+
+-------- CHAPTER 3 — THE QUESTION NOBODY ANSWERS CLEANLY (5:05–7:30) --------
+
+Which brings us to the question this channel gets asked more than any other, and
+the one you will not get a straight answer to anywhere — including here.
+If I have a credit card, and I pay it in full every single month, and I am never
+charged a penny of interest, is that permissible?
+[serious] Understand first why the question is hard. It is not hard because
+nobody has thought about it. It is hard because two serious positions exist and
+both of them are reasoning from the same sources.
+The first position says it is permissible, with conditions. The reasoning runs
+like this. Riba is prohibited when it is taken or paid. A conditional clause that
+is never triggered has not been paid and has not been taken. If you settle in
+full within the interest-free window, no riba has occurred in fact. And in an
+economy where a card is effectively required for a deposit, a hire car, a hotel,
+or an online purchase with any protection attached to it, the need is real and is
+weighed.
+The second position says it is not permissible, and the reasoning is just as
+direct. The contract itself stipulates interest on late payment. You have signed
+an agreement to a riba transaction, and your intention not to trigger it does not
+change what you agreed to. This position leans on the prohibition extending
+beyond the two parties — to the one who writes the contract and the ones who
+witness it. On that reading, the sin attaches to the agreement, not only to the
+payment.
+[serious] Both positions are held by qualified people. Both are argued from
+Qur'an and Sunnah. They reach different conclusions.
+So this video is not going to tell you which one is correct. That is not what
+this channel is, and frankly a ruling from a finance channel on YouTube is worth
+exactly nothing — take it to a scholar who knows your madhhab and your actual
+circumstances.
+[calm] What this video can tell you is the thing that is genuinely useful, and
+that both positions agree on completely.
+Neither of them is an argument for carrying a balance. Not one scholar on either
+side of this holds that revolving credit card debt at twenty-four percent is
+fine. The disagreement is entirely about the transactor — the person who never
+pays interest at all. On the revolver, there is no disagreement to have.
+[serious] So if you are carrying a balance right now, the difficult question
+isn't yours yet. You have a simpler one in front of you first.
+
+-------- CHAPTER 4 — WHAT ACTUALLY EXISTS IN BRITAIN (7:30–9:05) --------
+
+Suppose you have decided to leave conventional cards behind. What replaces them.
+Here is the answer nobody wants to give you, so I will. There is no
+Sharia-compliant credit card available to a retail customer in this country.
+Not one. Islamic banking in Britain is real and it is regulated — current
+accounts, savings, home purchase plans — but the credit card is a gap on the
+shelf.
+Other markets did build them, mostly in Malaysia and the Gulf, using three
+structures. One charges a fixed service fee instead of interest. The other two
+route the same debt through a commodity sale.
+[serious] And those two have a problem. The majority within several of the
+classical schools rejected them, on the reasoning that they are sale contracts
+arranged specifically to arrive at interest-bearing debt by a different road. A
+mechanism to reach a prohibited outcome legally. The fee-based structure has
+wider acceptance, though it is not uncontested either.
+Which is a large part of why none of the three crossed into British retail
+banking. The demand exists. The consensus to build on does not.
+[calm] So the halal card that actually exists is a debit card, on a
+Sharia-compliant current account. Your own money, no credit line, no contract
+stipulating interest, no question to resolve.
+That is the entire product. It is unglamorous, it is available today, and it
+resolves the whole of chapter three by making the question not apply to you.
+
+-------- CHAPTER 5 — WHAT YOU GIVE UP, AND HOW TO REPLACE IT (9:05–10:45) --------
+
+But do not switch without knowing what you are handing back. Two things, and
+both are real.
+[emphatic] The first is Section seventy-five. Under the Consumer Credit Act, if
+you buy something on a credit card costing more than a hundred pounds and not
+more than thirty thousand, the card company is jointly liable with the retailer.
+Shop goes under, holiday cancelled, kitchen never fitted — you can claim from the
+bank. And the detail most people never hear: you only need to have put part of
+the price on the card. Pay a hundred and fifty pound deposit on a five thousand
+pound job, and the whole five thousand is covered.
+Debit cards do not have this. What they have is chargeback, which is a scheme
+run by Visa and Mastercard rather than a right written into law. No minimum, no
+maximum, usually a hundred and twenty days to claim — and no statutory
+obligation behind it. It is better than nothing. It is not the same thing.
+The second is your credit file. A debit card builds nothing. Spend fifty thousand
+pounds through it over ten years and a lender still sees no history. That matters
+the day you apply for home finance, including Islamic home finance, which
+underwrites you on the same credit reference data as everybody else.
+[calm] Both are fixable, without a credit card.
+Register on the electoral roll. It costs nothing and it is the single fastest
+improvement available to most people.
+Report your rent. Services exist that read the rent payment out of your bank feed
+and file it with the credit reference agencies. Check which agencies each one
+reports to free, because they differ — and know that they report missed payments
+too. It is a credit file, not a credit boost.
+Put a utility bill in your own name and pay it on time.
+None of those require borrowing anything.
+
+-------- CLOSE (10:45–11:10) --------
+
+[warmly] So — the card was never the product. You were.
+And the fix isn't a better card. It is being the customer they cannot make money
+from, which turns out to be the same thing as spending money you already have.
+[serious] The three short videos this came from are linked below, if you want any
+single piece of it on its own.
+[warmly] And if there is a part of this you want properly, at length — say so.
+That is how the last one got made.
+
+
+================================================================================
+SHOT LIST — keyed to chapters
+================================================================================
+
+REUSE = the prompt exists in a Short pack. Apply the 16:9 conversion rule and
+regenerate. NEW = full prompt in the next section.
+
+COLD OPEN
+  0:00  0:12  REUSE  deadbeat A01/B01 — the single card, hand withdrawing
+  0:12  0:22  REUSE  deadbeat A02/B02 — two cards, one nudged forward
+  0:22  0:34  NEW    L01 — the word, held
+  0:34  0:50  REUSE  halalcard B02 — the empty velvet recess
+CHAPTER 1
+  0:50  1:08  REUSE  deadbeat B03 — the clerk at the counter
+  1:08  1:26  NEW    L02 — two ledgers, one thick one thin
+  1:26  1:44  REUSE  deadbeat B04 — the card backlit, upright
+  1:44  2:04  NEW    L03 — the FCA document on the desk
+  2:04  2:22  REUSE  deadbeat B05 — AMIR, the phone brightening
+  2:22  2:40  REUSE  deadbeat B06 — the brass scale, tokens uneven
+  2:40  3:10  REUSE  deadbeat B07 — the statement, the empty box
+CHAPTER 2
+  3:10  3:30  NEW    L04 — the price tag
+  3:30  3:52  NEW    L05 — the till, coins counted out
+  3:52  4:14  NEW    L06 — three stacked chips, uneven
+  4:14  4:38  NEW    L07 — the instalment ladder
+  4:38  5:05  NEW    L08 — the cash payer at the counter
+CHAPTER 3
+  5:05  5:28  NEW    L09 — the open book, two ribbons
+  5:28  6:00  NEW    L10 — the fork in the path
+  6:00  6:30  NEW    L11 — the contract, unsigned
+  6:30  7:00  REUSE  deadbeat B08 — the brass stamp on the card
+  7:00  7:30  NEW    L12 — the two doors
+CHAPTER 4
+  7:30  7:52  REUSE  halalcard B01 — the search across scattered cards
+  7:52  8:14  REUSE  halalcard B03 — the three cards in a row
+  8:14  8:40  REUSE  halalcard B04 — the sleeve drawn off, identical beneath
+  8:40  9:05  REUSE  halalcard B06 — the single plain card, warm light
+CHAPTER 5
+  9:05  9:32  REUSE  halalcard B08 — card and receipt bound by brass
+  9:32  9:56  NEW    L13 — the deposit, part of a whole
+  9:56  10:18 REUSE  halalcard B09 — the empty manila folder
+  10:18 10:45 REUSE  halalcard B10 — three sheets placed in the folder
+CLOSE
+  10:45 11:10 REUSE  halalcard B11 — AMIR and the shopkeeper, market stall
+
+Count: 30 blocks, 17 reuse, 13 new. Average block 22 seconds.
+
+READ THAT NUMBER AGAIN — 22 seconds is too long to hold one frame, even in this
+style. The list above is deliberately not a shot list. It is a BLOCK list: each
+entry is one subject, held for that duration, and each block wants splitting into
+two or three angles on that same subject in the edit.
+
+That is how the 30 blocks become the ~60 placements and ~45 assets estimated
+under THE HONEST COST. A block splits by generating the same prompt at a second
+focal length or a 20-degree angle change — same object, same light, same seed
+family — and cutting between them. That reads as coverage. Introducing a new
+object every 8 seconds instead would read as a slideshow, and would triple the
+generation budget for a worse film.
+
+The rule: the film should feel like it contains few objects, examined closely.
+Not many objects, glanced at. Split for pace, never for novelty.
+
+
+================================================================================
+NEW PROMPTS — 13 shots, 16:9, Track B stills
+================================================================================
+
+Same negative prompt as the halal card pack. Same palette, same no-faces rule.
+All framed per the conversion rule above.
+
+--------------------------------------------------------------------------------
+L01 · hold 12s · THE WORD   MOVE: push in 4%, very slow.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. A single blank cream index card standing propped
+against a dark object on a matte charcoal desk, completely unprinted, lit as
+though it were the only thing in the room. Stylised low-poly matte clay,
+near-photorealistic paper grain and deckled edge. One hard key from camera-left
+at a low raking angle, a long defined shadow thrown right, deep near-black
+falloff. 16:9 horizontal, 1920x1080. Subject small and centred low in a
+deliberately empty frame, at most a fifth of the frame height, the remainder
+deep near-black with a single raking highlight. Composed for large type above
+the subject. Wider environmental context visible at the frame edges, still
+falling into soft focus and shadow.
+
+--------------------------------------------------------------------------------
+L02 · hold 18s · TWO LEDGERS   MOVE: pull back 6%, revealing the thickness gap.
+--------------------------------------------------------------------------------
+Still life, 50mm, f/4. Two closed cloth-bound ledgers side by side on dark
+walnut, identical in width and colour, one perhaps six times the thickness of
+the other. Both completely unmarked, no lettering anywhere. Stylised low-poly
+matte clay, near-photorealistic cloth weave, board corners softened with wear,
+visible page block edges. Single hard key from upper left, both ledgers throwing
+hard shadows of very different lengths. Deep near-black surround, one warm amber
+accent along the thick spine. 16:9 horizontal, 1920x1080. Subject centred on the
+lower-left third of frame with the surface running out to the right edge, wide
+lateral falloff into near-black, the upper right quadrant held empty for number
+cards. Wider environmental context visible at the frame edges, still falling into
+soft focus and shadow.
+
+--------------------------------------------------------------------------------
+L03 · hold 20s · THE STUDY   MOVE: push in 7% onto the document's upper edge.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/2.8. A thick stapled document lying square on a dark matte
+charcoal desk beside a pair of reading glasses, the pages completely blank and
+unprinted, one corner slightly curled. Stylised low-poly matte clay,
+near-photorealistic paper stock with visible fibre, a real staple catching the
+light, fine dust on the desk. Hard raking key from camera-left, the document
+throwing one long shadow, deep near-black falloff. Cool neutral grade, one warm
+amber highlight on the glasses' metal. 16:9 horizontal, 1920x1080. Subject
+centred on the lower-left third of frame with the surface running out to the
+right edge, wide lateral falloff into near-black, the upper right quadrant held
+empty for number cards. Wider environmental context visible at the frame edges,
+still falling into soft focus and shadow.
+
+--------------------------------------------------------------------------------
+L04 · hold 20s · THE PRICE TAG   MOVE: push in 8%.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8. A small blank cream card price tag hanging from a
+folded wool garment by a fine waxed string, the tag completely unprinted, turning
+very slightly. Stylised low-poly matte clay, near-photorealistic wool fibre and
+card stock, the string's individual twist visible. Hard key from camera-left,
+the tag throwing a shadow across the fabric behind, deep near-black surround, one
+warm amber rim along the tag's edge. Extremely shallow focus on the tag face.
+16:9 horizontal, 1920x1080. Subject centred on the lower-left third of frame with
+the garment running out to the right edge, wide lateral falloff into near-black,
+the upper right quadrant held empty for number cards. Wider environmental context
+visible at the frame edges, still falling into soft focus and shadow.
+
+--------------------------------------------------------------------------------
+L05 · hold 22s · THE TILL   MOVE: drift right 30px, push 5%.
+--------------------------------------------------------------------------------
+Still life, 50mm, f/2.8. An open wooden till drawer on a shop counter, coin
+compartments holding small stacks of plain unmarked brass and cream discs, no
+denominations or markings of any kind. A simplified geometric hand in a deep navy
+#1E3A5F sleeve rests at the drawer's edge. Stylised low-poly matte clay,
+near-photorealistic worn wood, brass with real specular hits and patina. Warm
+practical overhead light with a cooler fill from the left, deep shadows inside
+the compartments. 16:9 horizontal, 1920x1080. Subject centred on the lower-left
+third of frame with the counter running out to the right edge, wide lateral
+falloff into near-black, the upper right quadrant held empty for number cards.
+Wider environmental context visible at the frame edges, still falling into soft
+focus and shadow.
+
+--------------------------------------------------------------------------------
+L06 · hold 22s · THREE CUTS   MOVE: pull back 7%, all three in frame.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. Three small stacks of plain cream discs on dark
+matte charcoal, laid in a row, the first stack very short, the second slightly
+taller, the third markedly taller than both. All discs completely unmarked.
+Stylised low-poly matte clay, near-photorealistic surface texture with fine edge
+chipping. Single hard overhead key slightly off-axis, three hard shadows falling
+the same direction at three different lengths. Deep near-black background, one
+warm amber accent. 16:9 horizontal, 1920x1080. Subject centred on the lower-left
+third of frame with the surface running out to the right edge, wide lateral
+falloff into near-black, the upper right quadrant held empty for number cards.
+Wider environmental context visible at the frame edges, still falling into soft
+focus and shadow.
+
+--------------------------------------------------------------------------------
+L07 · hold 24s · THE LADDER   MOVE: push in 9%, climbing.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/2.8. Four identical plain cream blocks arranged as a
+descending stair on dark walnut, evenly stepped, each casting a hard shadow onto
+the one below. Nothing printed on any of them. Stylised low-poly matte clay,
+near-photorealistic surface with fine grain. Hard low raking key from
+camera-left throwing long angular shadows down the steps, deep near-black
+surround, one warm amber rim on the top block. 16:9 horizontal, 1920x1080.
+Subject centred on the lower-left third of frame with the surface running out to
+the right edge, wide lateral falloff into near-black, the upper right quadrant
+held empty for number cards. Wider environmental context visible at the frame
+edges, still falling into soft focus and shadow.
+
+--------------------------------------------------------------------------------
+L08 · hold 27s · THE CASH PAYER   MOVE: push in 4%, settling.
+--------------------------------------------------------------------------------
+Environmental shot, 35mm, f/2, at a market stall in warm low light. A customer
+stands at the counter in three-quarter profile with a COMPLETELY BLANK
+featureless head — no eyes, no nose, no mouth, a smooth matte tan block — in a
+plain cream #E8DCC8 coat, setting several small plain brass discs down on the
+counter one at a time from a simplified geometric hand. No card anywhere in
+frame. Behind the counter the shopkeeper stands with a COMPLETELY BLANK
+featureless head, deep navy #1E3A5F apron, cream shirt, navy bucket hat, forearms
+resting, still. Stylised low-poly geometric anatomy, matte clay shading with soft
+subsurface scatter. Near-photorealistic market street behind falling into soft
+focus. Warm amber key from behind, cool fill from the front. 16:9 horizontal,
+1920x1080. Subject standing on the left vertical third, facing into frame, full
+head clearance above. The right half of frame held as clean negative space
+falling into shadow, reserved for lower-third titles. Wider environmental context
+visible at the frame edges, still falling into soft focus and shadow.
+
+--------------------------------------------------------------------------------
+L09 · hold 23s · TWO RIBBONS   MOVE: push in 5%, very slow.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. A large cloth-bound book lying open on a dark
+walnut desk, both visible pages completely blank and unprinted, with two silk
+ribbon markers — one deep navy #1E3A5F, one terracotta #E85F42 — laid across
+different pages, neither one on top of the other. Stylised low-poly matte clay,
+near-photorealistic paper grain, cloth binding weave, silk sheen on both ribbons.
+Soft warm key from upper left, gentle shadow in the gutter, deep near-black
+falloff at the desk edges. 16:9 horizontal, 1920x1080. Subject centred on the
+lower-left third of frame with the desk running out to the right edge, wide
+lateral falloff into near-black, the upper right quadrant held empty for number
+cards. Wider environmental context visible at the frame edges, still falling into
+soft focus and shadow.
+
+--------------------------------------------------------------------------------
+L10 · hold 32s · THE FORK   MOVE: pull back 8%, both paths widening.
+--------------------------------------------------------------------------------
+Wide still life, 35mm, f/4. A dark matte surface on which two lines of plain
+cream stones run from a single shared origin at the lower left, diverging
+steadily toward the upper right, both lines equally straight, equally spaced and
+equally lit — neither favoured. Stylised low-poly matte clay stones,
+near-photorealistic surface texture with fine grain. Single hard key from upper
+left, each stone throwing its own small hard shadow, deep near-black falloff
+everywhere else, one warm amber accent at the shared origin. 16:9 horizontal,
+1920x1080. Composition running diagonally across the full width of frame, origin
+low left, both lines exiting the upper right, generous empty space above the fork
+for type. Wider environmental context visible at the frame edges, still falling
+into soft focus and shadow.
+
+--------------------------------------------------------------------------------
+L11 · hold 30s · THE UNSIGNED CONTRACT   MOVE: push in 7% toward the empty line.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. A multi-page document lying on dark walnut, pages
+completely blank except for a single empty ruled signature line low on the visible
+page, with a capped fountain pen resting beside it, untouched. Stylised low-poly
+matte clay, near-photorealistic paper stock with a visible fold crease, lacquer
+and brass on the pen catching one specular hit. Hard low raking key from
+camera-left throwing a long shadow across the page, deep near-black surround, one
+warm amber glint on the pen's band. Very shallow focus on the signature line.
+16:9 horizontal, 1920x1080. Subject centred on the lower-left third of frame with
+the desk running out to the right edge, wide lateral falloff into near-black, the
+upper right quadrant held empty for number cards. Wider environmental context
+visible at the frame edges, still falling into soft focus and shadow.
+
+--------------------------------------------------------------------------------
+L12 · hold 30s · THE TWO DOORS   MOVE: hold absolutely still. No move at all.
+--------------------------------------------------------------------------------
+Architectural still, 35mm, f/4. Two identical plain wooden doors set side by side
+in a dark plastered wall, both closed, both unmarked, lit identically by a single
+source so that neither is favoured and both throw the same shadow. Nothing else
+in frame. Stylised low-poly matte clay, near-photorealistic timber grain, worn
+brass handles with real specular hits, fine plaster texture. One hard key from
+camera-left, deep near-black falloff at both edges, one warm amber accent along
+the upper door frames. 16:9 horizontal, 1920x1080. Both doors centred with
+symmetrical margin, wide floor space below and wall above, composed for a single
+line of type across the upper third. Wider environmental context visible at the
+frame edges, still falling into soft focus and shadow.
+
+NOTE ON L12. This is the only locked-off, motionless, symmetrical frame in the
+film, and it lands on the line where the video refuses to rule. The stillness and
+the symmetry are the argument — neither door is lit better than the other. Do not
+add a push in the edit, and do not let the grade favour one side.
+
+--------------------------------------------------------------------------------
+L13 · hold 24s · THE DEPOSIT   MOVE: pull back 9%, revealing the disparity.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. On dark walnut, one small plain cream disc sits
+alone in the foreground, and behind it a single very large plain cream block
+occupies several times its volume, both completely unmarked, the small disc
+sharply lit and the large block lit more softly. A fine brass chain runs between
+the two, connecting them. Stylised low-poly matte clay, near-photorealistic
+surface grain, brass links with real specular hits. Hard key from camera-left,
+the small disc throwing a hard shadow, the block a softer broader one, deep
+near-black surround. 16:9 horizontal, 1920x1080. Subject centred on the
+lower-left third of frame with the surface running out to the right edge, wide
+lateral falloff into near-black, the upper right quadrant held empty for number
+cards. Wider environmental context visible at the frame edges, still falling into
+soft focus and shadow.
+
+
+================================================================================
+TYPOGRAPHY — 16:9 works differently from the Shorts
+================================================================================
+
+DO NOT PORT THE SHORTS CAPTION SYSTEM. Two-line burned captions on every beat
+are a vertical-feed device: they exist because Shorts are watched muted, at
+speed, while scrolling. Long-form is watched with sound, deliberately, often on
+a larger screen. Captioning every line at 11 minutes is exhausting to watch and
+makes the film look like a Short that got away.
+
+USE INSTEAD, in descending frequency:
+
+  NUMBER CARDS. The burn-the-numbers rule survives intact and is still the
+  house signature. Same discipline: never generate a number, always burn it.
+  Set them large in the empty quadrant the conversion rule reserved.
+      0:22   DEADBEAT
+      1:08   TRANSACTOR / REVOLVER
+      1:44   34,000,000 CUSTOMERS · 5 YEARS
+      2:22   1% BACK   vs   ~24% APR
+      2:40   MINIMUM PAYMENT
+      3:00   PERSISTENT DEBT: INTEREST > PRINCIPAL, 18 MONTHS
+      3:52   INTERCHANGE CAP  0.3% CREDIT · 0.2% DEBIT
+      4:14   WHAT THE SHOP PAYS  1.5% – 3%
+      4:30   BNPL INSTALMENTS  ~5 – 6%
+      7:00   TWO POSITIONS. NO RULING.
+      8:14   UJRAH · TAWARRUQ · BAI AL-INAH
+      9:05   SECTION 75   £100 — £30,000
+      9:32   DEPOSIT £150  →  COVERS £5,000
+      10:00  CREDIT FILE: NOTHING BUILT
+      10:18  RENT · ELECTORAL ROLL · BILLS
+
+  CHAPTER TITLE CARDS. Six of them, one per chapter, held 3 seconds on
+  near-black with the chapter name in cream. They give the viewer a sense of
+  structure and progress, which is worth real retention at this length.
+
+  LOWER-THIRD SOURCE CREDITS. New for long-form and worth the effort. When the
+  VO cites the FCA, put "FCA Credit Card Market Study, MS14/6 (2016)" in small
+  cream type in the lower third for four seconds. Same for the Consumer Credit
+  Act 1974 at 9:05. This costs nothing, and in a niche where your comment
+  section will test you it converts an assertion into a citation.
+
+BURNED SUBTITLES. Do not burn a full subtitle track in. Upload a proper caption
+file instead — it is accessible, it is indexed, and it does not fight the type.
+
+
+================================================================================
+PACKAGING
+================================================================================
+TITLE        How Credit Cards Actually Work in Britain (And Why There's No
+             Halal One)
+             alt 1: They Call You a Deadbeat for Paying in Full
+             alt 2: The Truth About Credit in the UK
+
+             RECOMMENDED: the primary. Long-form titles are allowed to be
+             longer and to carry more than one search term — this is a real
+             format difference from Shorts and you should use it. This title
+             carries "how credit cards work", "Britain" and "halal" in one
+             line, and the parenthetical is the hook. Alt 1 is the strongest
+             pure hook but leaves the halal intent entirely on the table,
+             which on a 10-minute video is the more valuable of the two.
+
+             The declarative rule from the Klarna retitle still holds. None of
+             the three is a question.
+
+THUMBNAIL    The single cream card, isolated, with DEADBEAT in terracotta —
+             the Deadbeat slate, rebuilt at 16:9. It is the strongest image
+             the series produced and the long-form is where it should do its
+             heaviest work. Regenerate at 1280x720; do not upscale the 9:16.
+LENGTH       ~11:35. Do not pad toward any threshold. Watch time comes from
+             retention, not from duration, and a padded eleven minutes retains
+             worse than a tight nine.
+DESCRIPTION  This is a genuine ranking surface at long-form and deserves real
+             work. Include: the chapter timestamp list, links to all three
+             Shorts, the FCA market study reference, the Consumer Credit Act
+             Section 75 thresholds in full, the named rent-reporting services
+             with their differing free tiers, and a plain statement that the
+             video issues no ruling and names no scholar's position as its own.
+CHAPTERS     Paste the map. First entry must be 0:00.
+END SCREEN   Point at the three Shorts and at the playlist. Not at another
+             long-form — you do not have one yet, and an end screen pointing
+             nowhere is worse than none.
+
+SERIES POSITION. This is the destination the three Shorts point at, and the
+first video on the channel that accrues watch hours toward the long-form door.
+Every one of the three Shorts should have its pinned comment and end frame
+updated to point here on the day this publishes. That retrofit is the highest
+leverage twenty minutes of admin available to you.
+
+
+================================================================================
+ACCURACY — what has to survive eleven minutes of scrutiny
+================================================================================
+
+Longer videos get read more carefully than Shorts. Everything below is checkable
+and a commenter will check it.
+
+ONE CORRECTION TO INHERIT CAREFULLY — INTERCHANGE. The Klarna video's spine was
+merchant fees, and the Deadbeat pack describes card interchange as "the exact
+same argument one layer down." At Shorts length that shorthand was harmless. At
+eleven minutes it is a trap, because the two numbers are not comparable and the
+distinction is easy to check.
+
+  · INTERCHANGE — the portion going to the card issuer — is capped in the UK at
+    0.3% on consumer credit and 0.2% on consumer debit. Not negotiable.
+  · WHAT THE SHOP ACTUALLY PAYS is the merchant service charge: that capped
+    interchange, plus uncapped scheme fees to Visa and Mastercard, plus the
+    acquirer's margin. Commonly 1.5–3% all in.
+  · BNPL INSTALMENT PRODUCTS commonly sit near 5–6% for the merchant, because
+    BNPL is not a card scheme and the interchange caps do not reach it.
+
+The VO in chapter 2 is written to that distinction and says "the fee that goes
+to your bank, the interchange, is capped" before giving the merchant total
+separately. Do not let an edit collapse those two sentences into one. The
+argument gets stronger with the precision, not weaker: the reason BNPL costs the
+shop several times what a card does is precisely that one is capped and the
+other isn't.
+
+"REVOLVER AND TRANSACTOR ARE THE REGULATOR'S OWN TERMS" — correct. The FCA used
+both throughout its Credit Card Market Study (MS14/6), whose final findings
+published in July 2016 and drew on the account activity of 34 million customers
+across five years. Cite it in the lower third and in the description. Note the
+US-slang point from the Deadbeat pack still stands separately: "deadbeat" is
+card-industry jargon, primarily American, and the VO says "the card industry has
+a word", which remains accurate and is not attributed to the FCA.
+
+"PERSISTENT DEBT" — the FCA defines an account as in persistent debt where, over
+18 months, the customer has paid more in interest, fees and charges than they
+have repaid of the principal. Rules requiring firms to identify and intervene
+took effect 1 September 2018 (PS18/4). Stated as written, this is safe. Do not
+paraphrase it as "most people" or attach a population figure to it — the rule's
+existence is the point, not its prevalence.
+
+"SECTION 75" — Consumer Credit Act 1974. Joint and several liability of the card
+issuer with the retailer, for items costing over £100 and no more than £30,000,
+on credit cards only. Part payment brings the full price within scope; the £150
+deposit on a £5,000 job is the standard illustration and it is correct. Chargeback
+is a Visa/Mastercard scheme rather than a statutory right, typically 120 days, no
+minimum or maximum. The VO's "better than nothing, not the same thing" is the
+honest characterisation.
+
+THE FIQH CHAPTER — the one that needs your sourcing, not mine. The script lays
+out two positions and their reasoning faithfully, and issues no ruling. That
+structure is sound and it is the channel's established posture. But it currently
+attributes both positions generically, to "qualified people", and before you
+publish you should replace that with specific sourced references — a named fatwa
+body or scholar for each side, cited in the description with a link.
+
+Do that sourcing yourself, from scholars you would actually follow. Do not let
+me or any other model supply the citations: a fabricated or misattributed fatwa
+in this niche is the single worst error this channel could make, and it is
+unrecoverable. The script is deliberately written so that it remains accurate if
+you attribute it properly and remains honest if you cannot — in which case say
+"positions exist on both sides" and leave the sourcing to the description.
+
+THE CENTRAL SAFEGUARD, unchanged from all three packs: the video describes
+economics and reports scholarly positions. It never rules. Chapter 3 makes that
+refusal explicit and out loud, which is stronger than the Shorts' silence on it,
+and it is the line that makes the rest of the channel defensible.
+
+"NO SHARIA-COMPLIANT CREDIT CARD IN BRITAIN" — market availability, not
+principle. Re-check Al Rayan, Gatehouse, Nomo and UBL the week you publish, same
+as the halal card pack says. Eleven minutes of authority makes a stale fact more
+embarrassing, not less.
+================================================================================
