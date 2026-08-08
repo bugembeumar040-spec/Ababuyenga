@@ -1,0 +1,291 @@
+================================================================================
+FINANCE % DECODED — SEEDREAM 4.5 GENERATION GUIDE
+Model audit, prompt conversion, pilot set and QA gate
+Applies to all three packs: credit-card · halal-card · long-form
+================================================================================
+
+STATUS AT TIME OF WRITING — NOT YET GENERATED
+
+  account plan          plus
+  credits               157.05
+  unlim available       FALSE  (remaining: null, expires_at: null)
+  seedream_v4_5         supports_unlim: true — but the allowance is not spendable
+
+The model accepts unlimited generations. The account cannot currently spend
+them. Generating in this state bills credits, so nothing has been generated.
+Re-check with models_explore before any run; when the unlim block reports
+available: true, the pilot below is one call away.
+
+Nothing in this file costs anything to prepare, and all of it improves the
+first pass whenever the run happens.
+
+
+================================================================================
+MODEL AUDIT — seedream_v4_5
+================================================================================
+
+WHAT IT TAKES
+  quality          "basic" (up to 4K) or "high" (up to ~6K).  Default basic.
+  aspect_ratio     1:1 · 4:3 · 16:9 · 3:2 · 21:9 · 3:4 · 9:16 · 2:3
+  medias           role: image_references — accepts reference images
+  prompt           positive only
+
+WHAT IT DOES NOT TAKE
+  NEGATIVE PROMPT. There is no such parameter. This is the single most
+  important finding in this file.
+
+All three packs carry a negative prompt block — "paste once, applies to all 11"
+— covering faces, text, numbers, logos, extra fingers, camera shake, plastic
+sheen and the rest. On Seedream 4.5 none of that is passed. Every exclusion
+that matters has to be rebuilt inside the positive prompt.
+
+Anything in those negative blocks that is merely a quality hedge (blurry, low
+resolution, oversaturated, HDR glow) can be dropped without replacement —
+Seedream at 4K does not need to be told not to be low-resolution. Only the
+SEMANTIC exclusions need rebuilding, and there are exactly two that matter.
+
+
+TWO RISKS, RANKED
+
+RISK 1 — TEXT ON OBJECTS.  Highest risk in the project.
+  Your house rule is burn-the-numbers-in-the-edit, so every prompt asks for a
+  blank card, a blank statement, a blank screen, a blank price tag. Bytedance
+  models render text unusually well, which means they render it unusually
+  eagerly — a payment card is a strong prior for embossed digits and a
+  statement page is a strong prior for printed rows. With no negative prompt to
+  suppress it, this WILL come back wrong on some fraction of generations.
+  Budget for rejects on every card, statement, tag and screen prompt.
+
+RISK 2 — FACES ON CHARACTERS.  Second highest, but recoverable.
+  AMIR and the shopkeeper must have completely blank heads. Models resist
+  faceless humans strongly; it is close to the least likely thing in the
+  training distribution. The packs already write this in caps, which helps.
+  The referent technique below helps more.
+
+Everything else — palette, lighting, materials, depth of field, the low-poly /
+near-photoreal hybrid — is positive description already and transfers as-is.
+
+
+MODEL CHOICE NOTE. Seedream 4.5 is a reasonable pick: 4K, strong prompt
+adherence, reference-image support for character locking, and it is on the
+unlim list. But note that its strengths in text rendering and precise control
+cut against Risk 1. If blank-surface rejects run high in the pilot, the models
+to try next are flux_2 (tagged prompt-adherence, no text-rendering emphasis)
+and kling_omni_image. Do NOT switch to nano_banana_pro or gpt_image_2 — both
+are explicitly tagged for text rendering and typography and will be worse on
+precisely the failure mode that matters most here.
+
+
+================================================================================
+THE CONVERSION TECHNIQUE — replace negation with a referent
+================================================================================
+
+The instinct is to move the negative list into the positive prompt as "no text,
+no numbers, no letters". That works poorly. Naming a thing raises its salience
+even inside a negation, which is why negative prompts existed as a separate
+channel in the first place.
+
+What works is giving the absence a REASON. Describe an object that genuinely
+has no text, or a person who genuinely has no face, and the model renders that
+object rather than fighting an instruction.
+
+FOR BLANK SURFACES — say what the object IS, not what it lacks:
+
+  weak    "a payment card with no text, no numbers, no logos"
+  strong  "a blank proof card in bare cream stock, unprinted, as it exists
+           before the printing stage — a smooth uninterrupted surface"
+
+  weak    "a statement page with no printing"
+  strong  "a sheet of blank unprinted paper stock, ruled with a single empty
+           rectangle, no type set on it"
+
+  weak    "a phone with a blank screen and no text"
+  strong  "a phone showing a plain uniform pale grey panel, a screen at rest
+           before any interface has loaded"
+
+FOR THE FACELESS HEADS — name a real object that has no face:
+
+  weak    "a person with a COMPLETELY BLANK head, no eyes, no nose, no mouth"
+  strong  "the head is a smooth featureless matte tan ovoid — the blank
+           sculptural form of an artist's wooden mannequin or a milliner's
+           head block, unpainted and unmarked, with no facial features
+           modelled into it at all"
+
+Keep the pack's original caps line as well. Belt and braces costs nothing here,
+and the caps phrasing has already proven itself on the Klarna shoot.
+
+RETAIN, verbatim, from every existing prompt: the palette hex values, the
+lighting description, the material description, the lens and aperture, the
+depth of field, and the framing clause. Those are the house style and they need
+no conversion.
+
+
+================================================================================
+PILOT SET — 4 IMAGES, GENERATE THESE FIRST
+================================================================================
+
+Do not generate 35 images and sort them afterwards. Generate these four, run
+the QA gate below, and only scale up once all four pass. Each one probes a
+different failure mode, so a pass across all four means the prompt conversion
+is sound for the whole library.
+
+  P1  baseline           — object, no text risk, no face risk
+  P2  text risk          — a payment card, the highest-risk surface
+  P3  face risk          — the shopkeeper, and the locked character reference
+  P4  16:9 conversion    — the long-form framing rule
+
+Settings for all four: quality "basic" (4K is more than enough — "high" at ~6K
+is wasted on a 1080p timeline and slower to iterate), no reference images on
+P1/P2/P4, and see the note on P3.
+
+--------------------------------------------------------------------------------
+P1 · from halal-card B02 · THE ABSENCE · aspect_ratio 9:16
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. A dark navy velvet presentation tray resting on
+matte charcoal, with a single card-shaped recess cut into the velvet, and the
+recess is empty — an unfilled slot with nothing sitting in it. Nothing else in
+frame at all. Stylised low-poly matte clay tray, near-photorealistic velvet with
+visible fibre nap and a soft directional sheen shifting across it, the recess
+interior falling into near-total shadow. Single hard raking key from upper left,
+one soft interior shadow inside the slot, deep near-black surround, one warm
+amber accent tracing the tray's outer edge. Very shallow depth of field, the
+near lip of the recess sharp, the far edge dissolving. Cool neutral grade. 9:16
+vertical, tray low in frame, empty dark space filling the upper half.
+
+--------------------------------------------------------------------------------
+P2 · from halal-card B06 · WHAT EXISTS · aspect_ratio 9:16
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. One single blank proof card in bare cream stock
+lying perfectly square and centred on a cleared dark charcoal desk — unprinted
+card stock as it exists before the printing stage, a smooth uninterrupted
+surface with nothing set on it, no embossing and no markings, the plain material
+itself the only thing to look at. Nothing else anywhere in frame. Stylised
+low-poly matte clay, near-photorealistic card stock texture with fine visible
+fibre along the edges. Noticeably warm soft light — a soft key from camera-left
+with generous warm amber fill, one gentle diffused shadow rather than a hard
+edge, the near-black surround lifted to a deep warm charcoal. Shallow depth of
+field. 9:16 vertical, card low-centre, generous clean space above.
+
+  WHY THIS ONE. It is the payoff frame of the halal card film and a thumbnail
+  candidate, so it has to be right anyway — and a lone payment card on an empty
+  desk is the strongest possible pull toward rendering embossed digits. If P2
+  comes back clean, the blank-surface conversion works everywhere.
+
+--------------------------------------------------------------------------------
+P3 · from credit-card B03 · THE CLERK · aspect_ratio 9:16
+--------------------------------------------------------------------------------
+Environmental portrait from the customer's side of a bank counter, 35mm, f/2. A
+clerk stands behind the counter, and the head is a smooth featureless matte tan
+ovoid — the blank sculptural form of an artist's wooden mannequin or a
+milliner's head block, unpainted and unmarked, with no facial features modelled
+into it at all. COMPLETELY BLANK featureless head — no eyes, no nose, no mouth,
+a smooth matte tan block. He wears a deep navy #1E3A5F apron over a cream shirt
+and a navy bucket hat, both forearms flat on the counter, weight settled, still.
+A short stack of blank unprinted cream cards sits in front of him with one card
+slid forward from the stack toward camera, isolated on the counter, all of them
+bare unmarked stock. Stylised low-poly geometric anatomy, matte clay-like
+shading with soft subsurface scatter. Near-photorealistic bank interior behind
+falling into soft focus. Warm practical overhead light plus a cooler window fill
+from the left. Shallow depth of field, counter edge sharp, background soft. 9:16
+vertical, figure in the lower two-thirds, clean headroom above.
+
+  WHY THIS ONE. Both pack files nominate B03 as the shot to generate first and
+  lock as the shopkeeper reference. Get it right once and it drives every
+  subsequent character generation through the medias / image_references role.
+  Regenerate until the head is completely blank, then save that frame.
+
+--------------------------------------------------------------------------------
+P4 · from long-form L12 · THE TWO DOORS · aspect_ratio 16:9
+--------------------------------------------------------------------------------
+Architectural still, 35mm, f/4. Two identical plain wooden doors set side by
+side in a dark plastered wall, both closed, both bare and unmarked — plain
+unpainted timber with no signage, no numbering and no plates fixed to them, lit
+identically by a single source so that neither is favoured and both throw the
+same shadow. Nothing else in frame. Stylised low-poly matte clay,
+near-photorealistic timber grain, worn brass handles with real specular hits,
+fine plaster texture. One hard key from camera-left, deep near-black falloff at
+both edges, one warm amber accent along the upper door frames. 16:9 horizontal.
+Both doors centred with symmetrical margin, wide floor space below and wall
+above, composed for a single line of type across the upper third. Wider
+environmental context visible at the frame edges, still falling into soft focus
+and shadow.
+
+  WHY THIS ONE. It is the only symmetrical locked-off frame in the long-form,
+  it lands on the line where the video refuses to rule, and the symmetry is the
+  argument. It also tests the 16:9 conversion rule end to end. Doors are a
+  strong prior for numbers and nameplates, so it doubles as a second text test.
+
+
+================================================================================
+QA GATE — audit every generation against this before accepting it
+================================================================================
+
+The brief was quality, not volume. Reject on any single failure; do not accept
+a frame intending to fix it in post, because the house style has no compositing
+stage and a flawed still gets a 14-second hold in the long-form.
+
+HARD FAILURES — reject immediately, no discussion
+
+  [ ] ANY text, digits, lettering, logo, watermark or signage anywhere in frame,
+      including in soft-focus background. This is the number one reject.
+  [ ] Any facial feature on any character — eyes, mouth, nose, brow, even faint
+      or implied. A shadow that reads as an eye socket is a reject.
+  [ ] Wrong hand anatomy: extra fingers, fused fingers, more than two hands.
+  [ ] Palette drift: navy that is not #1E3A5F, terracotta that is not #E85F42,
+      cream that has gone yellow or pink.
+
+STYLE FAILURES — reject, they will not cut together with the rest
+
+  [ ] Fully photoreal, with no low-poly / matte-clay quality. The house style is
+      a hybrid; a straight photograph breaks the film.
+  [ ] Fully stylised cartoon or 3D-render look with no material realism. The
+      other half of the same failure.
+  [ ] Flat or diffuse lighting. Every frame in this house style has ONE hard key
+      and a real, directional, visible shadow. No shadow means reject.
+  [ ] Background not falling to near-black. The deep falloff is the signature.
+  [ ] Deep focus. Everything should have a shallow-focus plane.
+
+COMPOSITION FAILURES — reject or regenerate with the framing clause emphasised
+
+  [ ] 9:16 shots: subject not in the lower two-thirds, no clean caption headroom.
+  [ ] 16:9 shots: subject centred rather than held to a third, no empty quadrant
+      for number cards. This is the most likely conversion-rule failure.
+  [ ] Horizon tilted, or the object not square to camera where the prompt says
+      square.
+
+CONSISTENCY CHECKS — only once you have more than one frame
+
+  [ ] Does it cut against the locked Klarna and Deadbeat frames? Same world,
+      same light, same materials?
+  [ ] Character builds identical across every frame they appear in — same
+      clothing, same proportions, same head form. Character drift between
+      shots is what kills this format.
+
+PASS RULE FOR THE PILOT. All four clean, on the checklist above, before
+generating anything else. If P2 fails on text, fix the conversion and re-run P2
+alone — do not proceed to the other 30 and inherit the same fault 30 times.
+
+
+================================================================================
+RUN ORDER, ONCE THE PILOT PASSES
+================================================================================
+
+  1. P3 approved and saved as the shopkeeper reference. Generate the AMIR
+     equivalent (credit-card B05) and save that too. Lock both.
+  2. All remaining CHARACTER frames, passing the two locked references through
+     medias / image_references. Never generate a character frame without them.
+  3. The halal-card pack, 9:16 — it is the next Short in production.
+  4. The credit-card pack, 9:16 — only the frames you have not already shot.
+  5. The long-form set, 16:9 — 13 new prompts plus the reuse list regenerated
+     through the conversion rule. Largest batch, do it last, by which point the
+     conversion is proven.
+
+Use generate_image_batch for each group rather than one call per image, then
+jobs_wait, then a single show_generation_by_ids. Keep batches to one aspect
+ratio and one pack so a systematic fault is caught within a group rather than
+scattered across the whole run.
+
+CREDIT DISCIPLINE. Re-check the unlim block immediately before every batch, not
+just at the start of the session — an allowance that expires mid-run silently
+converts the remainder of the run into a credit spend.
+================================================================================
