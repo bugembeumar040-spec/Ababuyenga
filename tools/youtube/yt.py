@@ -25,6 +25,7 @@ human summary. Default output is deliberately terse - it is read by an LLM.
 """
 
 import argparse
+import html
 import json
 import mimetypes
 import os
@@ -126,10 +127,10 @@ def http(url, method="GET", body=None, headers=None, raw_body=None,
         die(f"network error reaching {urllib.parse.urlsplit(url).netloc}: {exc.reason}")
 
 
-def get_text(url, attempts=4):
-    """Fetch a public page. youtube.com serves these unevenly - the same feed
-    will answer 200, then 500, then 404 within seconds - so retry before
-    believing a failure."""
+def get_text(url, attempts=8):
+    """Fetch a public page. youtube.com serves these unevenly - one measured
+    run of the same feed URL gave 404, 404, 500, 200, 404 - so a single failure
+    means nothing. Retry with a capped backoff rather than believing it."""
     delay, last = 1.0, "unknown error"
     for attempt in range(attempts):
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -144,7 +145,7 @@ def get_text(url, attempts=4):
             last = f"network error: {exc.reason}"
         if attempt < attempts - 1:
             time.sleep(delay)
-            delay *= 2
+            delay = min(delay * 2, 4.0)  # capped: this is flakiness, not overload
     die(f"{last} fetching {url} (after {attempts} attempts)")
 
 
@@ -342,7 +343,10 @@ def cmd_latest(args, cfg):
 
     def field(block, tag):
         m = re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", block, re.S)
-        return re.sub(r"<[^>]+>", "", m.group(1)).strip() if m else ""
+        if not m:
+            return ""
+        # Titles arrive escaped - &quot;Islamic&quot; must come back as quotes.
+        return html.unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip()
 
     rows, payload = [], []
     for e in entries:

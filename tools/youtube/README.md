@@ -28,8 +28,12 @@ quota at all.
 Tier 0 works right now, with no account setup:
 
 ```bash
-python3 tools/youtube/yt.py latest --channel @yourhandle
+python3 tools/youtube/yt.py latest
 ```
+
+The channel — `@financeundoubtlydecoded` / `UCVOoFJkRiOdJsWnewt8HJkw` — is set as
+`YT_CHANNEL_ID` in `.claude/settings.json`, so commands default to it. Pass
+`--channel @someoneelse` to look at another channel.
 
 ## Tier 1 — public stats
 
@@ -40,7 +44,6 @@ python3 tools/youtube/yt.py latest --channel @yourhandle
 
 ```bash
 export YT_API_KEY=AIza...
-export YT_CHANNEL_ID=@yourhandle    # or the UC... id
 ```
 
 An API key is read-only and public-data-only. It cannot touch your account.
@@ -77,8 +80,10 @@ YT_API_KEY
 YT_CLIENT_ID
 YT_CLIENT_SECRET
 YT_REFRESH_TOKEN
-YT_CHANNEL_ID
 ```
+
+(`YT_CHANNEL_ID` is already committed in `.claude/settings.json` — it is not a
+secret. These four are.)
 
 The refresh token does not expire on its own. Treat it like a password — it can
 upload to and edit your channel. Revoke at

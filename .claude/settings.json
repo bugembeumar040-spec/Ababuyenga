@@ -1,4 +1,7 @@
 {
+  "env": {
+    "YT_CHANNEL_ID": "UCVOoFJkRiOdJsWnewt8HJkw"
+  },
   "permissions": {
     "allow": [
       "Bash(python3 tools/youtube/yt.py:*)"
