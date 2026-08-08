@@ -22,10 +22,13 @@ are no numbers in this one. It DOES inherit the house architecture: scene map
 first, prompts hang off the map, VO recorded before anything is generated,
 accuracy section at the bottom.
 
-STATUS: NOTHING HAS BEEN GENERATED. See GENERATION RUNBOOK at the foot of this
-file. Seedance 2.5 is not eligible for the unlimited allowance and every clip
-would be charged to credits, which the brief forbids. The pack is written to be
-fired the moment that changes.
+STATUS: NOTHING HAS BEEN GENERATED, AND THE SHOOT HAPPENS IN THE APP.
+Unlimited mode works on Seedance 2.5 in the Higgsfield app, and does not work
+through the API at any price — use_unlim is rejected there on every model,
+including the ones the catalog flags as eligible. Generating through the API
+would bill credits, which the brief forbids. So the sixteen prompts below are
+written to be pasted into the app composer, whose defaults already match this
+pack exactly. Full detail in GENERATION RUNBOOK at the foot of this file.
 
 
 ================================================================================
@@ -704,60 +707,75 @@ moment it sounds like a true story, someone will try to find it.
 
 
 ================================================================================
-GENERATION RUNBOOK — NOT YET RUN
+GENERATION RUNBOOK — GENERATE IN THE APP, NOT THROUGH THE API
 ================================================================================
 
-WHY NOTHING WAS GENERATED
+WHERE UNLIMITED ACTUALLY WORKS — tested against the live account 2026-08-08
 
-The brief was: generate with Seedance 2.5, on the unlimited allowance, spend no
-credits. Those three cannot currently hold at the same time. Checked against the
-live Higgsfield account on 2026-08-08:
+  HIGGSFIELD APP / WEB        UNLIMITED WORKS, ON SEEDANCE 2.5.
+      The video composer carries an "Unlimited mode" toggle, and with Seedance
+      2.5 selected the Generate button reads "Generate · Unlimited". This is the
+      path to use. Its settings — 5s, 9:16, 720p — are already exactly what this
+      pack specifies, so there is nothing to change in the UI before shooting.
 
-  Seedance 2.5 unlim eligibility     NOT ELIGIBLE
-      models_explore reports seedance_2_5 with unlim.available false and no
-      supports_unlim flag. It is not on the unlimited list at all.
+  MCP / API SURFACE           UNLIMITED UNAVAILABLE, ON EVERY MODEL.
+      Passing use_unlim true is rejected outright:
+          seedance_2_5  ->  "Unlimited generations aren't supported for
+                             seedance_2_5."
+          seedance_2_0  ->  the identical error, despite the model catalog
+                             flagging it supports_unlim true.
+      The API's use_unlim maps to the free-trial unlimited pool, which this
+      account does not hold (unlim.available false, remaining null). It does not
+      reach the plan entitlement the app spends. supports_unlim in the catalog
+      means "this model can accept unlim in principle", not "you can spend it".
+      So there is no zero-credit route through the API: generating there bills
+      32.5 credits per clip, 520 for the sixteen, against a 137.05 balance.
 
-  Account unlimited allowance        NONE ACTIVE
-      The top-level unlim block reports available false, remaining null. The
-      allowance is the free-trial unlimited pool; the account is on plus, which
-      does not carry one. So the allowance is empty regardless of model.
+  CONSEQUENCE. Shoot all sixteen clips in the app. The API stays useful after the
+  edit for upscale_video on the assembled cut, which is a one-off, not per clip.
 
-  Cost if run on credits             520 credits for 16 clips
-      Preflighted at 32.5 credits per 5s 720p 9:16 clip. Account balance is
-      137.05 credits — enough for four of the sixteen, before a single retry.
+APP RUNBOOK
 
-  Models that ARE unlim-eligible     seedance_2_0, seedance_2_0_mini, kling3_0,
-                                     gemini_omni, wan2_7
-      All five carry supports_unlim. None of them can be spent right now either,
-      because the account holds no allowance — but they are the models to point
-      at if an allowance is activated.
+  Set once, then leave alone for all sixteen:
+      Model            Seedance 2.5
+      Duration         5s
+      Aspect ratio     9:16
+      Resolution       720p
+      Bitrate          High
+      Audio            OFF      <- the composer defaults this ON
+      Unlimited mode   ON       <- confirm Generate still reads "Unlimited"
 
-WHEN THE ALLOWANCE IS LIVE — the exact call
+  AUDIO IS THE ONE TO WATCH. The composer's speaker control defaults to On, and
+  it is the same trap the API has: sixteen clips of model-invented audio fighting
+  the VO in the timeline. Switch it off before the first generation, and check it
+  again after any settings change — toggling model or resolution can reset it.
 
-  generate_video_batch, 16 jobs, one per clip above, each:
+  The prompts are in company-you-keep-prompts-app.txt — one per block, unwrapped,
+  no box art, ready to paste on a phone. Paste, generate, save, next.
 
-      model            seedance_2_5
-      prompt           the clip text verbatim, style lock included
-      mode             t2v
-      aspect_ratio     9:16
-      duration         5
-      resolution       720p
-      generate_audio   false
-      use_unlim        true
+  ORDER OF OPERATIONS, unchanged from the house rule:
+      1. Record the VO first. Re-derive the scene map from the real recorded
+         audio before generating anything.
+      2. Generate CLIP 01 alone. Pick the frame with the cleanest kit and pitch
+         colour. Save it.
+      3. Attach that frame via @ Elements as a reference on clips 02, 04, 06 and
+         07 — the four that share the pitch. Leave the object clips unreferenced.
+      4. Generate the remaining twelve.
+      5. Upscale the finished cut to 1080x1920. Seedance 2.5 caps at 720p, so
+         this happens once, at the end, on the assembled edit — never per clip.
 
-  Then jobs_wait, then one show_generation_by_ids. Do not pass count above 1 —
-  unlim caps it to 1 anyway and the cap comes back as an adjustment.
+  RETRY POLICY. Object clips (05, 09, 11, 12, 13, 15) regenerate cheaply and
+  without drift — rerun them freely until the frame is clean. People clips are
+  where the budget goes even on unlimited, because the failure mode is subtle:
+  check hands, check that no player's kit has drifted into a real club's colours,
+  and check CLIP 12's pages have come back genuinely blank.
 
-  ORDER OF OPERATIONS. Record the VO first and re-derive the scene map from it.
-  Then generate CLIP 01 alone, lock the reference frame, and only then fire the
-  remaining fifteen. Generating all sixteen before the VO exists is how you end
-  up regenerating clips to fit timings you could have known in advance.
-
-FALLBACK IF SEEDANCE 2.5 NEVER BECOMES UNLIM-ELIGIBLE
-
-  seedance_2_0 is the closest substitute and it is on the unlim list. Same media
-  roles, same 9:16, and it reaches 1080p and 4k in std mode, which 2.5 cannot.
-  It caps at 15s duration rather than 30s, which does not matter here — every
-  clip in this pack is 5s. The prompts above transfer without modification.
-  If you go this route, change nothing but the model id.
+IF THE API PATH EVER OPENS
+  It only becomes free if a real unlimited allowance lands on the account, at
+  which point use_unlim true stops erroring. The call would be:
+  generate_video_batch, 16 jobs, model seedance_2_5, mode t2v, aspect_ratio 9:16,
+  duration 5, resolution 720p, generate_audio false, use_unlim true — then
+  jobs_wait, then one show_generation_by_ids. Do not raise count above 1; unlim
+  caps it to 1 regardless. Until then the app is the only unlimited route, and
+  seedance_2_0 is not a workaround — it is rejected the same way.
 ================================================================================
