@@ -1,0 +1,981 @@
+================================================================================
+FINANCE % DECODED — ALL IMAGE PROMPTS, FLOW-READY
+35 stills · negative prompt appended to each · character shots flagged
+Sources: credit-card-prompt-pack · halal-card-prompt-pack · long-form-credit-pack
+================================================================================
+
+HOW TO USE
+
+Each block below is copy-paste ready: a PROMPT and a NEGATIVE, plus the aspect
+ratio. Nothing else needs looking up.
+
+  · 9:16 shots (S01–S22) are the two Shorts. 16:9 shots (L01–L13) are the
+    long-form.
+  · 5 of the 35 contain characters. They are flagged with a full-width banner
+    and listed in the index below. Shoot those in the order given — two of them
+    are reference frames that lock everything else.
+  · 4 more contain hands but no faces. Also flagged, because hand anatomy is a
+    reject criterion.
+
+IF YOUR FLOW BUILD HAS NO NEGATIVE PROMPT FIELD. Some Google image models
+dropped the separate negative channel. If you can't find the field, don't worry
+about it — every prompt below has already been strengthened so it holds up
+without one. See the note on what changed, immediately below.
+
+WHAT I CHANGED FROM THE PACKS — two targeted edits, nothing else
+
+  1. FACELESS HEADS. Every character prompt keeps the packs' original
+     "COMPLETELY BLANK featureless head" line in caps, and now also carries a
+     real-world referent: an artist's wooden mannequin / a milliner's head
+     block. Naming an object that genuinely has no face works far better than
+     instructing a model not to render one. Both phrasings are present because
+     belt-and-braces costs nothing here.
+  2. BLANK SURFACES. On the shots where a printed surface is the subject —
+     cards, statements, screens, tags, doors — the prompt now describes
+     unprinted stock as a material state ("bare cream stock, as it exists
+     before the printing stage") rather than only asking for the absence of
+     text. Same reasoning.
+
+Palette, lighting, lens, aperture, depth of field, framing and materials are
+untouched from the packs. That's the house style and it needed no conversion.
+
+NUMBERING. S01–S11 are the Deadbeat stills, S12–S22 the halal card stills,
+L01–L13 the long-form. 35 in total, one image per ID.
+
+CHARACTER INDEX — shoot in this order
+
+  1. S03   the shopkeeper / clerk        ** SHOPKEEPER REFERENCE — shoot first **
+  2. S10   AMIR, seated with phone       ** AMIR REFERENCE — shoot second **
+  3. S11   AMIR outside the bank
+  4. S22   AMIR + the shopkeeper, market stall   (both, hardest consistency shot)
+  5. L08   the cash payer + shopkeeper   (16:9)
+
+  Approve 1 and 2, save those frames, and feed them as reference images on 3,
+  4 and 5. Character drift between shots is what kills this format.
+
+HANDS-ONLY SHOTS (no face, but hand anatomy applies): S01, S12, S15, L05
+
+--------------------------------------------------------------------------------
+THE NEGATIVE PROMPT — appended to all 35 below, reproduced once here
+--------------------------------------------------------------------------------
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+TEXT-RISK ADDENDUM — added on the 14 shots where a printable surface is the
+subject. Flagged inline as [+TEXT-RISK] so you can see which:
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+
+================================================================================
+================  PART ONE — "DEADBEAT"  ·  11 STILLS  ·  9:16  ================
+================================================================================
+
+--------------------------------------------------------------------------------
+S01 · Deadbeat B01 · THE HOOK · 9:16          [HANDS]  [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Overhead flat-lay, 50mm, f/4, perpendicular to the surface. A single blank
+payment card in bare cream stock lies flat and slightly askew on a dark
+brushed-charcoal desk beside a closed manila folder — unprinted card stock as it
+exists before the printing stage, a smooth uninterrupted surface with no
+embossing and no markings. A simplified geometric hand in a deep navy #1E3A5F
+sleeve rests at the frame edge, one fingertip just touching the desk, stylised
+low-poly matte clay. Single hard key from camera-left at a low raking angle, one
+long defined shadow thrown right, deep near-black falloff. Fine dust and
+micro-scratches on the desk surface. Cool neutral grade, one warm amber
+highlight along the card's edge. Composed low in a 9:16 vertical frame with
+two-fifths of the frame empty above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+--------------------------------------------------------------------------------
+S02 · Deadbeat B02 · THE TERM · 9:16          [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Overhead flat-lay, 50mm, f/4, shot perpendicular to the surface. Two identical
+blank index cards in bare cream stock on dark matte charcoal, laid a hand's
+width apart, both unprinted stock with nothing set on them, each casting an
+identical hard shadow. The left card sits very slightly proud of the right,
+catching a touch more light. Stylised low-poly matte clay materials,
+near-photorealistic paper grain and deckled edges. Single hard overhead key
+slightly off-axis so both shadows fall the same way. Deep near-black background,
+restrained palette, one warm amber accent. Square-on composition, generous
+margin all round, 9:16 vertical.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+████████████████████████████████████████████████████████████████████████████████
+█  S03 · Deadbeat B03 · THE REVOLVER · 9:16                                    █
+█  ►► CHARACTER: THE SHOPKEEPER / CLERK ◄◄                                     █
+█  ** SHOOT THIS FIRST. Regenerate until the head is completely blank, then    █
+█     save the frame — it is the reference for every shopkeeper shot after. ** █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+Environmental portrait from the customer's side of a bank counter, 35mm, f/2. A
+clerk stands behind it, and his head is a smooth featureless matte tan ovoid —
+the blank sculptural form of an artist's wooden mannequin or a milliner's head
+block, unpainted and unmarked, with no facial features modelled into it at all.
+COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte
+tan block. He wears a deep navy #1E3A5F apron over a cream shirt and a navy
+bucket hat, both forearms flat on the counter, weight settled, still. A short
+stack of blank unprinted cream cards sits in front of him with one card slid
+forward from the stack toward camera, isolated on the counter, all of them bare
+unmarked stock. Stylised low-poly geometric anatomy, matte clay-like shading
+with soft subsurface scatter. Near-photorealistic bank interior behind falling
+into soft focus. Warm practical overhead light plus a cooler window fill from
+the left. Shallow depth of field, counter edge sharp, background soft. 9:16
+vertical, figure in the lower two-thirds, clean headroom above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, printed type, typography, signage,
+nameplates, labels
+
+--------------------------------------------------------------------------------
+S04 · Deadbeat B04 · THE PRODUCT · 9:16       [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Extreme macro, 100mm, f/2.8, of a single blank payment card in bare cream stock
+standing upright on a dark matte surface, backlit so it reads as a clean
+silhouette with a warm amber rim tracing its top edge — unprinted stock, a
+smooth uninterrupted face with no embossing and nothing set on it. Visible
+card-stock fibre along the lit edge. Nothing else in frame. Stylised low-poly
+matte clay, near-photorealistic surface texture. Hard raking light from
+camera-left, deep near-black surround, cool neutral grade with one warm amber
+accent. Extremely shallow focus: the card face sharp, the surface dissolving
+within centimetres. 9:16 vertical, card low-centre, empty dark space filling the
+upper half.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+--------------------------------------------------------------------------------
+S05 · Deadbeat B06 · THE REWARDS · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+Locked-off tabletop still life, 60mm, f/5.6, dark matte surface. A small brass
+balance scale sits square to frame, fully tipped and settled: one tiny cream
+token alone on the raised left pan, a tall stack of identical tokens weighing
+the right pan all the way down. All tokens plain and unmarked. Nothing else in
+frame. Stylised low-poly matte clay tokens, near-photorealistic brass with real
+specular hits and fine patina, firm contact shadows. One hard key from
+camera-left, a single long unbroken shadow to the right, deep near-black
+surround. Absolute stillness — the composition should feel settled and final.
+9:16 vertical, scale centred low, wide dark margin above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+S06 · Deadbeat B07 · THE BOX · 9:16           [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Tight macro, 100mm, f/2.8, of a sheet of blank unprinted paper stock on a dark
+walnut desk — a statement page before any type has been set on it — entirely
+bare except for a single empty ruled rectangle in the lower right corner, that
+rectangle drawn as plain ruled lines enclosing nothing. Heavy stock, one soft
+fold crease running across the page, visible fibre at the edge. Hard low raking
+key from camera-left throwing a long angular shadow across the paper and picking
+out the ruled box. Deep near-black surround, warm amber rim along the page's
+near edge. Extremely shallow focus: the box sharp, the far edge of the page
+dissolving. 9:16 vertical, page filling the lower two-thirds, dark space above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+--------------------------------------------------------------------------------
+S07 · Deadbeat B08 · THE RULE · 9:16          [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Locked-off tabletop still life, 60mm, f/5.6, dark walnut surface with visible
+grain. A single blank card in bare cream stock lies flat and perfectly square to
+frame in the centre, unprinted and unmarked. A heavy brass stamp rests beside
+it, face down, weight evident. Nothing else in frame. Stylised low-poly matte
+clay card, near-photorealistic brass with real specular hits and fine patina.
+One hard key from camera-left, a single long unbroken shadow to the right, deep
+near-black surround. Absolute symmetry and stillness — settled, final. 9:16
+vertical, objects centred low, wide dark margin above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, printed type, typography, signage,
+nameplates, labels
+
+--------------------------------------------------------------------------------
+S08 · Deadbeat B09 · THE REAL SALE · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+Museum-style still life on a dark matte plinth, 50mm, f/5.6, shot square-on. A
+folded wool jacket sits on the left of the plinth; two heavy brass bars rest
+together on the right, side by side and clearly separate from the jacket, with
+empty plinth between them. Both bars plain and unmarked. Stylised low-poly
+forms, matte clay shading, near-photorealistic brass and wool texture, real
+contact shadows anchoring every object. Single hard key from upper left, deep
+near-black background, one warm amber rim along the brass. Deliberate, weighted,
+almost reverent staging. 9:16 vertical, objects in the lower two-thirds, clean
+dark space above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+S09 · Deadbeat B10 · TIME · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+Extreme macro, 100mm, f/4, of an antique brass hourglass on a dark matte
+surface, caught mid-run: the upper chamber nearly empty, the lower chamber
+filled visibly past the volume the upper one could ever have held. A thin
+unbroken thread of pale sand connects the two through the neck. Stylised
+low-poly matte clay base, near-photorealistic brass and glass with real
+refraction, specular hits and fine patina. Hard raking light from camera-left
+striking through the glass so the falling thread of sand is picked out sharply.
+Deep near-black background, cool neutral grade, one warm amber accent on the
+brass frame. 9:16 vertical, hourglass low-centre, dark above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+████████████████████████████████████████████████████████████████████████████████
+█  S10 · Deadbeat B05 · THE LIMIT · 9:16                                       █
+█  ►► CHARACTER: AMIR ◄◄                                                       █
+█  ** SHOOT THIS SECOND. Approve and save — it is the AMIR reference for all  █
+█     subsequent AMIR shots. **                                    [+TEXT-RISK] █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+Low three-quarter environmental shot, 35mm, f/2, of AMIR seated at a small table
+in a quiet flat at night, holding a phone in two simplified geometric hands,
+head angled down toward it. His head is a smooth featureless matte tan ovoid —
+the blank sculptural form of an artist's wooden mannequin or a milliner's head
+block, unpainted and unmarked, with no facial features modelled into it at all.
+COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte
+tan block. He wears a terracotta #E85F42 t-shirt and a cream beanie. The phone
+shows a plain uniform pale grey panel, softly lit — a screen at rest before any
+interface has loaded, nothing set on it. Stylised low-poly geometric anatomy,
+matte clay-like shading, soft subsurface material. Near-photorealistic room
+behind dissolved into deep bokeh, one warm amber practical lamp off-frame right,
+cool blue ambient fill from the left, the screen throwing a soft glow up onto
+his hands. Shallow cinematic depth of field. Quiet, still, faintly lonely. 9:16
+vertical, figure in the lower two-thirds, generous headroom above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+user interface, app icons, status bar, printed type, typography, labels
+
+████████████████████████████████████████████████████████████████████████████████
+█  S11 · Deadbeat B11 · THE CLOSE · 9:16                                       █
+█  ►► CHARACTER: AMIR ◄◄   (feed the S11 reference frame)                      █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+Low three-quarter environmental shot, 35mm, f/2.8, of AMIR standing in the
+street just outside a bank doorway in warm low evening sun, both hands empty at
+his sides, mid-stride but weight settled. His head is a smooth featureless matte
+tan ovoid — the blank sculptural form of an artist's wooden mannequin or a
+milliner's head block, unpainted and unmarked, with no facial features modelled
+into it at all. COMPLETELY BLANK featureless head — no eyes, no nose, no mouth,
+a smooth matte tan block. He wears a terracotta #E85F42 t-shirt, cream #E8DCC8
+trousers, white sneakers and a cream beanie. Simplified geometric anatomy, matte
+clay-like shading, soft subsurface material. Near-photorealistic street behind
+him, quiet and empty, long golden-hour shadows stretching toward camera. Warm
+amber backlight rimming his shoulders, cool ambient fill on the front. Shallow
+depth of field, street soft behind. Calm, resolved, unhurried. 9:16 vertical,
+figure in the lower two-thirds, generous open sky above for the closing captions.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+shop signage, street signs, nameplates, printed type, typography, labels
+
+
+================================================================================
+============  PART TWO — "NO HALAL CREDIT CARD"  ·  11 STILLS  ·  9:16  ========
+================================================================================
+
+--------------------------------------------------------------------------------
+S12 · Halal B01 · THE SEARCH · 9:16           [HANDS]  [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Overhead flat-lay, 50mm, f/4, perpendicular to the surface. Eight blank payment
+cards in bare cream stock scattered in a loose disordered fan across a dark
+brushed-charcoal desk, several overlapping, two lying face down — unprinted
+stock as it exists before the printing stage, every one a smooth uninterrupted
+surface with no embossing and nothing set on it. Two simplified geometric hands
+in deep navy #1E3A5F sleeves rest among them mid-search, one fingertip pinning a
+card at an angle. Stylised low-poly matte clay, near-photorealistic card stock
+grain. Single hard key from camera-left at a low raking angle, every card
+throwing its own hard defined shadow, deep near-black falloff at the frame
+edges. Fine dust and micro-scratches across the desk. Cool neutral grade, one
+warm amber highlight along the topmost card edge. Composed low in a 9:16
+vertical frame, two-fifths empty above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+--------------------------------------------------------------------------------
+S13 · Halal B02 · THE ABSENCE · 9:16          ** THUMBNAIL CANDIDATE **
+--------------------------------------------------------------------------------
+PROMPT:
+Macro still life, 85mm, f/2.8. A dark navy velvet presentation tray on matte
+charcoal, a single card-shaped recess cut into the velvet, and the recess is
+empty — an unfilled slot with nothing sitting in it. Nothing else in frame at
+all. Stylised low-poly matte clay tray, near-photorealistic velvet with visible
+fibre nap and a soft directional sheen across it, the recess interior falling
+into near-total shadow. Single hard raking key from upper left, one soft interior
+shadow in the slot, deep near-black surround, one warm amber accent tracing the
+tray's outer edge. Very shallow depth of field, the near lip of the recess
+sharp, the far edge dissolving. 9:16 vertical, tray low in frame, empty dark
+space filling the upper half.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+S14 · Halal B03 · THE THREE · 9:16            [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Overhead flat-lay, 50mm, f/4, shot square to the surface. Three identical blank
+payment cards in bare cream stock on dark matte charcoal, laid in a precise
+evenly spaced row with equal gaps, all unprinted stock with nothing set on them,
+each casting an identical hard shadow of the same length and direction. Stylised
+low-poly matte clay materials, near-photorealistic card stock fibre. Single hard
+overhead key slightly off-axis. Deep near-black background, restrained palette,
+one warm amber accent along the row. Rigorously symmetrical composition,
+generous margin all round, 9:16 vertical, the row sitting in the lower
+two-thirds.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+--------------------------------------------------------------------------------
+S15 · Halal B04 · THE COSTUME · 9:16          [HANDS]  [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Extreme macro, 100mm, f/2.8. A blank payment card in bare cream stock on dark
+matte charcoal, a loose cream paper sleeve drawn half off it, the exposed
+portion of the card beneath visibly identical to the sleeve covering it — same
+tone, same unprinted blankness, no distinction whatsoever, both bare stock with
+nothing set on them. A simplified geometric hand in a deep navy #1E3A5F sleeve
+holds one corner of the paper at the frame edge. Stylised low-poly matte clay,
+near-photorealistic paper grain with a sharp fold crease and card stock fibre.
+Hard low raking light from camera-left, one long angular shadow thrown right,
+deep near-black surround, one warm amber edge accent. Extremely shallow focus on
+the seam. 9:16 vertical, objects low-centre, dark space above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+--------------------------------------------------------------------------------
+S16 · Halal B05 · THE PIVOT · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+Overhead flat-lay, 50mm, f/4, of a bare dark brushed-charcoal desk, completely
+empty, with a scatter of blank unprinted cream cards pushed hard to the extreme
+left edge of frame and mostly out of it, only two corners still visible. The
+cleared surface dominates. Stylised low-poly matte clay, near-photorealistic
+wood grain, fine dust and micro-scratches now the only detail on the surface.
+Single hard key from camera-left, the empty desk reading largely in shadow with
+one warm amber highlight raking across the grain, deep near-black falloff. 9:16
+vertical, the bare surface filling the frame, the displaced cards clinging to
+the left margin.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+S17 · Halal B06 · WHAT EXISTS · 9:16   ** PAYOFF FRAME / THUMBNAIL ** [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Macro still life, 85mm, f/2.8. One single blank proof card in bare cream stock
+lying perfectly square and centred on a cleared dark charcoal desk — unprinted
+card stock as it exists before the printing stage, a smooth uninterrupted
+surface with nothing set on it, no embossing and no markings, the plain material
+itself the only thing to look at. Nothing else anywhere in frame. Stylised
+low-poly matte clay, near-photorealistic card stock texture with fine visible
+fibre. Noticeably warmer and softer light than a hard-key setup — a soft key
+from camera-left with generous warm amber fill, one gentle diffused shadow
+rather than a hard edge, the near-black surround lifted to a deep warm charcoal.
+Shallow depth of field. 9:16 vertical, card low-centre, generous clean space
+above for captions.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+--------------------------------------------------------------------------------
+S18 · Halal B07 · THE TWO COSTS · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+Macro still life, 85mm, f/2.8. A small brass balance scale on a dark matte
+surface, beam settled perfectly level, both pans completely empty. Two small
+plain cream tokens lie discarded on the surface beside the base, out of the
+pans, both unmarked. Stylised low-poly matte clay tokens, near-photorealistic
+brass with real specular hits, fine patina and visible casting texture, real
+contact shadows anchoring the base. Deep near-black background, single hard key
+from upper left, one warm amber rim running the length of the brass beam.
+Shallow depth of field, the beam sharp, background dissolving. 9:16 vertical,
+scale in the lower two-thirds, clean dark headroom above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+S19 · Halal B08 · SECTION 75 · 9:16           [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Extreme macro, 100mm, f/2.8, on dark walnut. A blank payment card in bare cream
+stock and a blank paper receipt overlapping, bound together through one corner
+by a heavy brass ring clip, the two objects visibly joined and inseparable. Both
+unprinted stock with nothing set on either — no embossing on the card, no rows
+on the receipt. Stylised low-poly matte clay, near-photorealistic brass with
+specular hits and patina, paper grain, card stock fibre, one soft curl in the
+receipt. Hard raking key from camera-left throwing two long overlapping shadows,
+deep near-black surround, warm amber glint along the clip. Very shallow focus on
+the bound corner. 9:16 vertical, objects in the lower third, unusually generous
+empty space above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text, labels
+
+--------------------------------------------------------------------------------
+S20 · Halal B09 · THE EMPTY FILE · 9:16       [+TEXT-RISK]
+--------------------------------------------------------------------------------
+Shoot S20 and S21 back to back — same folder, same light. They are a matched
+pair and any drift between them is visible on the cut.
+
+PROMPT:
+Macro still life, 85mm, f/2.8. An open manila folder on a dark matte charcoal
+desk, both leaves spread, the interior completely empty — no paper, nothing
+inside it at all. A worn crease runs down the spine. Stylised low-poly matte
+clay, near-photorealistic manila board texture with softened corners and fibre
+showing at the edges. Single hard key from camera-left, one deep shadow pooling
+along the inner fold, near-black surround, one warm amber accent along the outer
+edge. Shallow depth of field, the near leaf sharp, the far leaf softening. 9:16
+vertical, folder in the lower two-thirds, headroom above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+printed rows, printed type, typography, labels, file tabs, index tabs
+
+--------------------------------------------------------------------------------
+S21 · Halal B10 · THE REPLACEMENTS · 9:16     [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Macro still life, 85mm, f/2.8. The same open manila folder, now holding a small
+neat stack of exactly three blank sheets in bare cream stock, squared to the
+fold, all unprinted with nothing set on them. Stylised low-poly matte clay,
+near-photorealistic paper grain and manila board. Single hard key from
+camera-left picking out three distinct layered shadow edges along the stack,
+deep near-black surround, one warm amber accent. Shallow depth of field, the top
+sheet sharp. 9:16 vertical, folder in the lower two-thirds, clean space above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+printed rows, printed type, typography, labels, file tabs, index tabs
+
+████████████████████████████████████████████████████████████████████████████████
+█  S22 · Halal B11 · THE CLOSE · 9:16                                          █
+█  ►► CHARACTERS: AMIR + THE SHOPKEEPER ◄◄                                     █
+█  ** Feed BOTH locked reference frames. Hardest consistency shot in the set. **█
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+Environmental two-shot at a market stall, 35mm, f/2, warm low evening sun. AMIR
+stands at the counter in three-quarter profile; his head is a smooth featureless
+matte tan ovoid — the blank sculptural form of an artist's wooden mannequin,
+unpainted and unmarked, with no facial features modelled into it at all.
+COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte
+tan block. He wears a terracotta #E85F42 t-shirt, cream #E8DCC8 trousers, white
+sneakers and a cream beanie, a paper bag of goods held in one simplified
+geometric hand, the other hand empty at his side. Behind the stall stands the
+shopkeeper, whose head is the same smooth featureless matte tan ovoid, equally
+blank and unmarked — COMPLETELY BLANK featureless head, no eyes, no nose, no
+mouth — in a deep navy #1E3A5F apron over a cream shirt and a navy bucket hat,
+forearms resting on the counter, weight settled, still. Stylised low-poly
+geometric anatomy, matte clay-like shading with soft subsurface scatter.
+Near-photorealistic market street behind falling into soft focus, quiet and
+nearly empty, long golden hour shadows across the ground. Warm amber key from
+behind the figures, cool fill from the front. Shallow depth of field. 9:16
+vertical, both figures in the lower two-thirds, generous headroom above.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+shop signage, market signs, price boards, nameplates, printed type, typography,
+labels
+
+
+================================================================================
+==============  PART THREE — LONG-FORM  ·  13 STILLS  ·  16:9  =================
+================================================================================
+
+All 16:9. Subject held to one third with deliberate negative space for type —
+do not let these centre up, it is what makes explainer video look dead.
+
+--------------------------------------------------------------------------------
+L01 · THE WORD · 16:9                         [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Macro still life, 85mm, f/2.8. A single blank index card in bare cream stock
+standing propped against a dark object on a matte charcoal desk — unprinted
+stock with nothing set on it — lit as though it were the only thing in the room.
+Stylised low-poly matte clay, near-photorealistic paper grain and deckled edge.
+One hard key from camera-left at a low raking angle, a long defined shadow
+thrown right, deep near-black falloff. 16:9 horizontal. Subject small and
+centred low in a deliberately empty frame, at most a fifth of the frame height,
+the remainder deep near-black with a single raking highlight. Composed for large
+type above the subject. Wider environmental context visible at the frame edges,
+still falling into soft focus and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+printed type, typography, printed rows, labels
+
+--------------------------------------------------------------------------------
+L02 · TWO LEDGERS · 16:9                      [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Still life, 50mm, f/4. Two closed cloth-bound ledgers side by side on dark
+walnut, identical in width and colour, one perhaps six times the thickness of
+the other. Both plain unmarked cloth with no lettering on the covers or spines.
+Stylised low-poly matte clay, near-photorealistic cloth weave, board corners
+softened with wear, visible page block edges. Single hard key from upper left,
+both ledgers throwing hard shadows of very different lengths. Deep near-black
+surround, one warm amber accent along the thick spine. 16:9 horizontal. Subject
+centred on the lower-left third of frame with the surface running out to the
+right edge, wide lateral falloff into near-black, the upper right quadrant held
+empty for number cards. Wider environmental context visible at the frame edges,
+still falling into soft focus and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+spine lettering, book titles, printed type, typography, labels
+
+--------------------------------------------------------------------------------
+L03 · THE STUDY · 16:9                        [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Still life, 85mm, f/2.8. A thick stapled document lying square on a dark matte
+charcoal desk beside a pair of reading glasses, the pages blank unprinted stock
+with nothing set on them, one corner slightly curled. Stylised low-poly matte
+clay, near-photorealistic paper stock with visible fibre, a real staple catching
+the light, fine dust on the desk. Hard raking key from camera-left, the document
+throwing one long shadow, deep near-black falloff. Cool neutral grade, one warm
+amber highlight on the glasses' metal. 16:9 horizontal. Subject centred on the
+lower-left third of frame with the surface running out to the right edge, wide
+lateral falloff into near-black, the upper right quadrant held empty for number
+cards. Wider environmental context visible at the frame edges, still falling
+into soft focus and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+printed rows, printed type, typography, charts, tables, labels
+
+--------------------------------------------------------------------------------
+L04 · THE PRICE TAG · 16:9                    [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Extreme macro, 100mm, f/2.8. A small blank price tag in bare cream card stock
+hanging from a folded wool garment by a fine waxed string — unprinted stock with
+no price and nothing written on it — turning very slightly. Stylised low-poly
+matte clay, near-photorealistic wool fibre and card stock, the string's
+individual twist visible. Hard key from camera-left, the tag throwing a shadow
+across the fabric behind, deep near-black surround, one warm amber rim along the
+tag's edge. Extremely shallow focus on the tag face. 16:9 horizontal. Subject
+centred on the lower-left third of frame with the garment running out to the
+right edge, wide lateral falloff into near-black, the upper right quadrant held
+empty for number cards. Wider environmental context visible at the frame edges,
+still falling into soft focus and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+price text, currency symbols, barcodes, printed type, typography, labels
+
+--------------------------------------------------------------------------------
+L05 · THE TILL · 16:9                         [HANDS]
+--------------------------------------------------------------------------------
+PROMPT:
+Still life, 50mm, f/2.8. An open wooden till drawer on a shop counter, coin
+compartments holding small stacks of plain unmarked brass and cream discs — blank
+metal blanks with no denominations, faces or inscriptions struck into them. A
+simplified geometric hand in a deep navy #1E3A5F sleeve rests at the drawer's
+edge. Stylised low-poly matte clay, near-photorealistic worn wood, brass with
+real specular hits and patina. Warm practical overhead light with a cooler fill
+from the left, deep shadows inside the compartments. 16:9 horizontal. Subject
+centred on the lower-left third of frame with the counter running out to the
+right edge, wide lateral falloff into near-black, the upper right quadrant held
+empty for number cards. Wider environmental context visible at the frame edges,
+still falling into soft focus and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+coin denominations, minted faces, currency symbols, printed type, typography,
+labels
+
+--------------------------------------------------------------------------------
+L06 · THREE CUTS · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+Macro still life, 85mm, f/2.8. Three small stacks of plain cream discs on dark
+matte charcoal, laid in a row, the first stack very short, the second slightly
+taller, the third markedly taller than both. All discs blank and unmarked.
+Stylised low-poly matte clay, near-photorealistic surface texture with fine edge
+chipping. Single hard overhead key slightly off-axis, three hard shadows falling
+the same direction at three different lengths. Deep near-black background, one
+warm amber accent. 16:9 horizontal. Subject centred on the lower-left third of
+frame with the surface running out to the right edge, wide lateral falloff into
+near-black, the upper right quadrant held empty for number cards. Wider
+environmental context visible at the frame edges, still falling into soft focus
+and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+L07 · THE LADDER · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+Still life, 85mm, f/2.8. Four identical plain cream blocks arranged as a
+descending stair on dark walnut, evenly stepped, each casting a hard shadow onto
+the one below. All four blank and unmarked. Stylised low-poly matte clay,
+near-photorealistic surface with fine grain. Hard low raking key from
+camera-left throwing long angular shadows down the steps, deep near-black
+surround, one warm amber rim on the top block. 16:9 horizontal. Subject centred
+on the lower-left third of frame with the surface running out to the right edge,
+wide lateral falloff into near-black, the upper right quadrant held empty for
+number cards. Wider environmental context visible at the frame edges, still
+falling into soft focus and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+████████████████████████████████████████████████████████████████████████████████
+█  L08 · THE CASH PAYER · 16:9                                                 █
+█  ►► CHARACTERS: THE CASH PAYER + THE SHOPKEEPER ◄◄                           █
+█  ** Feed the shopkeeper reference. The customer is a NEW build — cream coat, █
+█     not AMIR. Keep them visually distinct. **                                █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+Environmental shot, 35mm, f/2, at a market stall in warm low light. A customer
+stands at the counter in three-quarter profile; his head is a smooth featureless
+matte tan ovoid — the blank sculptural form of an artist's wooden mannequin,
+unpainted and unmarked, with no facial features modelled into it at all.
+COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte
+tan block. He wears a plain cream #E8DCC8 coat, setting several small plain
+brass discs down on the counter one at a time from a simplified geometric hand,
+the discs blank and unmarked. No card anywhere in frame. Behind the counter the
+shopkeeper stands with the same smooth featureless matte tan ovoid head, equally
+blank — COMPLETELY BLANK featureless head, no eyes, no nose, no mouth — in a
+deep navy #1E3A5F apron, cream shirt, navy bucket hat, forearms resting, still.
+Stylised low-poly geometric anatomy, matte clay shading with soft subsurface
+scatter. Near-photorealistic market street behind falling into soft focus. Warm
+amber key from behind, cool fill from the front. 16:9 horizontal. Subjects
+standing on the left vertical third, facing into frame, full head clearance
+above. The right half of frame held as clean negative space falling into shadow,
+reserved for lower-third titles. Wider environmental context visible at the
+frame edges, still falling into soft focus and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+shop signage, market signs, price boards, coin denominations, printed type,
+typography, labels
+
+--------------------------------------------------------------------------------
+L09 · TWO RIBBONS · 16:9                      [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Macro still life, 85mm, f/2.8. A large cloth-bound book lying open on a dark
+walnut desk, both visible pages blank unprinted stock with no type set on them,
+with two silk ribbon markers — one deep navy #1E3A5F, one terracotta #E85F42 —
+laid across different pages, neither one on top of the other. Stylised low-poly
+matte clay, near-photorealistic paper grain, cloth binding weave, silk sheen on
+both ribbons. Soft warm key from upper left, gentle shadow in the gutter, deep
+near-black falloff at the desk edges. 16:9 horizontal. Subject centred on the
+lower-left third of frame with the desk running out to the right edge, wide
+lateral falloff into near-black, the upper right quadrant held empty for number
+cards. Wider environmental context visible at the frame edges, still falling
+into soft focus and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+printed rows, printed type, typography, script, calligraphy, manuscript, labels
+
+--------------------------------------------------------------------------------
+L10 · THE FORK · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+Wide still life, 35mm, f/4. A dark matte surface on which two lines of plain
+cream stones run from a single shared origin at the lower left, diverging
+steadily toward the upper right, both lines equally straight, equally spaced and
+equally lit — neither favoured. All stones blank and unmarked. Stylised low-poly
+matte clay stones, near-photorealistic surface texture with fine grain. Single
+hard key from upper left, each stone throwing its own small hard shadow, deep
+near-black falloff everywhere else, one warm amber accent at the shared origin.
+16:9 horizontal. Composition running diagonally across the full width of frame,
+origin low left, both lines exiting the upper right, generous empty space above
+the fork for type. Wider environmental context visible at the frame edges, still
+falling into soft focus and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+L11 · THE UNSIGNED CONTRACT · 16:9            [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Macro still life, 85mm, f/2.8. A multi-page document lying on dark walnut, the
+pages blank unprinted stock with no type set on them, except for a single empty
+ruled signature line low on the visible page — a plain ruled line with nothing
+written on it — with a capped fountain pen resting beside it, untouched.
+Stylised low-poly matte clay, near-photorealistic paper stock with a visible
+fold crease, lacquer and brass on the pen catching one specular hit. Hard low
+raking key from camera-left throwing a long shadow across the page, deep
+near-black surround, one warm amber glint on the pen's band. Very shallow focus
+on the signature line. 16:9 horizontal. Subject centred on the lower-left third
+of frame with the desk running out to the right edge, wide lateral falloff into
+near-black, the upper right quadrant held empty for number cards. Wider
+environmental context visible at the frame edges, still falling into soft focus
+and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+printed rows, printed type, typography, clauses, paragraphs, handwriting, labels
+
+--------------------------------------------------------------------------------
+L12 · THE TWO DOORS · 16:9                    [+TEXT-RISK]
+--------------------------------------------------------------------------------
+PROMPT:
+Architectural still, 35mm, f/4. Two identical plain wooden doors set side by
+side in a dark plastered wall, both closed, both bare and unmarked — plain
+unpainted timber with no signage, no numbering and no plates fixed to them — lit
+identically by a single source so that neither is favoured and both throw the
+same shadow. Nothing else in frame. Stylised low-poly matte clay,
+near-photorealistic timber grain, worn brass handles with real specular hits,
+fine plaster texture. One hard key from camera-left, deep near-black falloff at
+both edges, one warm amber accent along the upper door frames. 16:9 horizontal.
+Both doors centred with symmetrical margin, wide floor space below and wall
+above, composed for a single line of type across the upper third. Wider
+environmental context visible at the frame edges, still falling into soft focus
+and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution,
+house numbers, door numbers, nameplates, signage, printed type, typography,
+labels
+
+  NOTE. This is the only symmetrical, dead-still frame in the long-form and it
+  lands on the line where the video refuses to rule. Neither door may be better
+  lit than the other — if one side reads as favoured, regenerate.
+
+--------------------------------------------------------------------------------
+L13 · THE DEPOSIT · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+Macro still life, 85mm, f/2.8. On dark walnut, one small plain cream disc sits
+alone in the foreground, and behind it a single very large plain cream block
+occupies several times its volume, both blank and unmarked, the small disc
+sharply lit and the large block lit more softly. A fine brass chain runs between
+the two, connecting them. Stylised low-poly matte clay, near-photorealistic
+surface grain, brass links with real specular hits. Hard key from camera-left,
+the small disc throwing a hard shadow, the block a softer broader one, deep
+near-black surround. 16:9 horizontal. Subject centred on the lower-left third of
+frame with the surface running out to the right edge, wide lateral falloff into
+near-black, the upper right quadrant held empty for number cards. Wider
+environmental context visible at the frame edges, still falling into soft focus
+and shadow.
+
+NEGATIVE:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+
+================================================================================
+REJECT CHECKLIST — run on every frame before you accept it
+================================================================================
+
+HARD FAILURES — reject immediately
+  [ ] Any text, digits, lettering, logo or signage anywhere, including in
+      soft-focus background. Number one reject.
+  [ ] Any facial feature on any character — even faint, even implied. A shadow
+      that reads as an eye socket is a reject.
+  [ ] Extra fingers, fused fingers, more than two hands.
+  [ ] Palette drift — navy not #1E3A5F, terracotta not #E85F42, cream gone
+      yellow or pink.
+
+STYLE FAILURES — these will not cut against the Klarna footage
+  [ ] Fully photoreal with no matte-clay quality, OR fully cartoon with no
+      material realism. The house style is the hybrid.
+  [ ] Flat or diffuse lighting. Every frame has ONE hard key and a real
+      directional shadow. No visible shadow means reject.
+  [ ] Background not falling to near-black.
+  [ ] Deep focus — everything should have a shallow-focus plane.
+
+FRAMING
+  [ ] 9:16: subject in the lower two-thirds, clean caption headroom above.
+  [ ] 16:9: subject on a third, empty quadrant preserved. Centred = reject.
+
+CONSISTENCY
+  [ ] Characters identical across every frame — same clothing, proportions,
+      head form. Drift between shots is what kills this format.
+
+ONE LAST RULE. Shoot S03 and S10 first and get them perfect before anything
+else. Every other character frame depends on them, and a mediocre reference
+propagates into all five.
+================================================================================
