@@ -1,0 +1,1064 @@
+================================================================================
+FINANCE % DECODED — ALL PROMPTS, FLAT VECTOR v2, FLOW-READY
+38 images · style + negative appended to every block · copy-paste, no lookups
+SUPERSEDES flow-image-prompts.txt
+================================================================================
+
+S01–S11  Deadbeat stills          9:16
+S12–S22  Halal card stills        9:16
+L01–L13  Long-form stills         16:9
+L14–L16  Kareem host plates       16:9   ** NEW — you had a host and no shots **
+
+CHARACTER SHOTS: S03 · S10 · S11 · S22 · L08 · L14 · L15 · L16
+  S03 is the CLERK (grey, faceless — institution).
+  S10 is ADAM's reference frame. Shoot it first and feed it into S11 and S22.
+  L14 is KAREEM's reference frame. Shoot it first and feed it into L15, L16.
+
+Every block below is self-contained. Nothing to look up.
+
+
+================================================================================
+==================  PART ONE — "DEADBEAT" · 11 STILLS · 9:16  ==================
+================================================================================
+
+--------------------------------------------------------------------------------
+S01 · THE HOOK · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A single blank white payment card lying flat and slightly askew on a plain desk
+surface beside a closed folder, the card completely bare with nothing printed on
+it. One hand enters from the right edge of frame, fingertip resting near the
+card. Simple flat desk, no clutter. Flat 2D vector cartoon illustration, clean
+uniform dark brown #3D2B24 outlines of even weight, flat solid fill colours, no
+gradients, no texture, no grain, simple cel shading in a single darker tone,
+warm cream #F7F0DF background, soft pale elliptical shadow beneath, friendly
+rounded shapes, modern explainer illustration style. 9:16 vertical, subject in
+the lower two-thirds, clean empty space above for captions.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, wood grain, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, extra limbs, cluttered background, busy composition,
+low resolution, embossed digits, card numbers, serial numbers, expiry dates,
+printed rows, printed type, typography, labels, barcodes
+
+--------------------------------------------------------------------------------
+S02 · THE TERM · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+Top-down flat view of two identical blank white index cards lying side by side
+on a plain desk surface, a hand's width apart, both completely bare with nothing
+printed on them. The left card sits very slightly forward of the right. Nothing
+else in frame. Flat 2D vector cartoon illustration, clean uniform dark brown
+#3D2B24 outlines of even weight, flat solid fill colours, no gradients, no
+texture, no grain, simple cel shading in a single darker tone, warm cream
+#F7F0DF background, soft pale shadow beneath each card, friendly rounded shapes,
+modern explainer illustration style. 9:16 vertical, cards in the lower
+two-thirds, generous clean space above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, wood grain, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, extra limbs, cluttered background, busy composition,
+low resolution, embossed digits, card numbers, serial numbers, expiry dates,
+printed rows, printed type, typography, labels, barcodes
+
+████████████████████████████████████████████████████████████████████████████████
+█  S03 · THE REVOLVER · 9:16   ►► THE CLERK — GREY, FACELESS, INSTITUTION ◄◄   █
+█  Faces are FORBIDDEN on this character. That contrast is the whole design.   █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+A bank teller window seen from the customer's side: a counter with a row of
+vertical dark bars above it, an olive green lower wall panel and a terracotta
+counter surface. Behind the bars stands a plain mid-grey humanoid silhouette
+figure with a completely smooth blank head — no face, no features, no clothing
+detail, just a flat grey shape with a dark brown outline. On the counter in
+front of it sits a small stack of blank white cards with one card pushed
+forward, all of them bare and unprinted. Flat 2D vector cartoon illustration,
+clean uniform dark brown #3D2B24 outlines of even weight, flat solid fill
+colours, no gradients, no texture, no grain, simple cel shading in a single
+darker tone, warm cream #F7F0DF background, friendly rounded shapes, modern
+explainer illustration style. 9:16 vertical, counter and figure in the lower
+two-thirds, clean space above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+film grain, noise, gradients, glossy highlights, specular reflections,
+volumetric lighting, dramatic shadows, dark background, black background,
+cinematic lighting, depth of field, bokeh, blurry, sketchy lines, uneven line
+weight, watercolour, oil painting, anime, manga, text, lettering, numbers,
+logos, brand names, watermark, signature, extra fingers, distorted hands,
+cluttered background, busy composition, low resolution, facial features, eyes,
+mouth, nose, eyebrows, face, portrait, skin tone, clothing detail, patterned
+clothing, friendly expression, smile, embossed digits, card numbers, signage,
+nameplates, printed type, typography, labels
+
+--------------------------------------------------------------------------------
+S04 · THE PRODUCT · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A single blank white payment card standing upright on its long edge, centred
+alone on a plain surface, completely bare with nothing printed on it and no
+embossing. Nothing else in frame at all. Flat 2D vector cartoon illustration,
+clean uniform dark brown #3D2B24 outlines of even weight, flat solid fill
+colours, no gradients, no texture, no grain, simple cel shading in a single
+darker tone, warm cream #F7F0DF background, soft pale elliptical shadow beneath
+the card, friendly rounded shapes, modern explainer illustration style. 9:16
+vertical, card low-centre, large clean empty space filling the upper half.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, wood grain, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, extra limbs, cluttered background, busy composition,
+low resolution, embossed digits, card numbers, serial numbers, expiry dates,
+printed rows, printed type, typography, labels, barcodes
+
+--------------------------------------------------------------------------------
+S05 · THE REWARDS · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A simple two-pan balance scale seen straight on, tipped fully and settled: one
+small round token alone on the raised left pan, a tall stack of identical tokens
+weighing the right pan all the way down. All tokens plain and unmarked. Nothing
+else in frame. Flat 2D vector cartoon illustration, clean uniform dark brown
+#3D2B24 outlines of even weight, flat solid fill colours, no gradients, no
+texture, no grain, simple cel shading in a single darker tone, warm cream
+#F7F0DF background, soft pale elliptical shadow beneath the base, friendly
+rounded shapes, modern explainer illustration style. 9:16 vertical, scale
+centred low, wide clean margin above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+metal patina, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, extra limbs, cluttered background, busy composition, low resolution
+
+--------------------------------------------------------------------------------
+S06 · THE BOX · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A single sheet of blank white statement paper lying flat on a plain surface,
+completely unprinted except for one empty rectangular box outlined in the lower
+right corner and two or three plain horizontal ruled lines across the upper
+area, all of them enclosing and containing nothing. Flat 2D vector cartoon
+illustration, clean uniform dark brown #3D2B24 outlines of even weight, flat
+solid fill colours, no gradients, no texture, no grain, simple cel shading in a
+single darker tone, warm cream #F7F0DF background, soft pale drop shadow under
+the page, friendly rounded shapes, modern explainer illustration style. 9:16
+vertical, page filling the lower two-thirds, clean space above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+paper fibre, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution, printed rows,
+printed type, typography, tables, charts, labels, barcodes
+
+--------------------------------------------------------------------------------
+S07 · THE RULE · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A single blank white card lying flat and perfectly square in the centre of a
+plain surface, completely bare and unprinted, with a simple heavy stamp resting
+beside it, face down. Symmetrical, settled, nothing else in frame. Flat 2D
+vector cartoon illustration, clean uniform dark brown #3D2B24 outlines of even
+weight, flat solid fill colours, no gradients, no texture, no grain, simple cel
+shading in a single darker tone, warm cream #F7F0DF background, soft pale
+shadow beneath both objects, friendly rounded shapes, modern explainer
+illustration style. 9:16 vertical, objects centred low, wide clean margin above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+wood grain, metal patina, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, cluttered background, busy composition, low resolution,
+embossed digits, card numbers, printed type, typography, labels
+
+--------------------------------------------------------------------------------
+S08 · THE REAL SALE · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A simple still life on a low plinth: a neatly folded jacket sitting on the left,
+and two plain rectangular gold bars resting together on the right, clearly
+separate from the jacket with empty space between them. Both bars unmarked.
+Calm, deliberate, evenly spaced. Flat 2D vector cartoon illustration, clean
+uniform dark brown #3D2B24 outlines of even weight, flat solid fill colours, no
+gradients, no texture, no grain, simple cel shading in a single darker tone,
+warm cream #F7F0DF background, soft pale shadow beneath each object, friendly
+rounded shapes, modern explainer illustration style. 9:16 vertical, objects in
+the lower two-thirds, clean space above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, wool texture, metal patina, film grain, noise, gradients, glossy
+highlights, specular reflections, volumetric lighting, dramatic shadows, dark
+background, black background, cinematic lighting, depth of field, bokeh, blurry,
+sketchy lines, uneven line weight, watercolour, oil painting, anime, manga,
+text, lettering, numbers, logos, brand names, watermark, signature, extra
+fingers, distorted hands, cluttered background, busy composition, low resolution
+
+--------------------------------------------------------------------------------
+S09 · TIME · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A simple hourglass seen straight on, caught mid-run: the upper chamber nearly
+empty, the lower chamber filled visibly fuller than the upper one could ever
+have held, with a thin unbroken line of sand connecting the two through the
+narrow neck. Nothing else in frame. Flat 2D vector cartoon illustration, clean
+uniform dark brown #3D2B24 outlines of even weight, flat solid fill colours, no
+gradients, no texture, no grain, simple cel shading in a single darker tone,
+warm cream #F7F0DF background, soft pale elliptical shadow beneath the base,
+friendly rounded shapes, modern explainer illustration style. 9:16 vertical,
+hourglass low-centre, clean space above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+glass refraction, metal patina, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, cluttered background, busy composition, low resolution
+
+████████████████████████████████████████████████████████████████████████████████
+█  S10 · THE LIMIT · 9:16   ►► ADAM — THE CARDHOLDER ◄◄                        █
+█  ** SHOOT FIRST. This is ADAM's reference frame — approve it, save it, and   █
+█     feed it into S11 and S22. Expression: WORRIED. **                        █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+ADAM sits at a small table in a quiet room, holding a phone in both hands and
+looking down at it with a worried expression — brows drawn slightly up and
+together, mouth a small flat line. He is a friendly cartoon man with short neat
+brown hair, clean-shaven, light peach skin, wearing a rust-red #A94E38
+short-sleeve t-shirt, camel #B8842F trousers and dark brown shoes. The phone
+screen is a plain flat pale grey panel with nothing on it. Simple sparse room
+behind him, one or two plain shapes only. Flat 2D vector cartoon illustration,
+clean uniform dark brown #3D2B24 outlines of even weight, flat solid fill
+colours, no gradients, no texture, no grain, simple cel shading in a single
+darker tone, warm cream #F7F0DF background, soft pale elliptical shadow beneath,
+friendly rounded shapes, modern explainer illustration style. 9:16 vertical,
+figure in the lower two-thirds, generous clean headroom above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, extra limbs, cluttered background, busy composition, low resolution,
+beard, moustache, glasses, user interface, app icons, status bar, printed type,
+typography, labels
+
+████████████████████████████████████████████████████████████████████████████████
+█  S11 · THE CLOSE · 9:16   ►► ADAM — THE CARDHOLDER ◄◄                        █
+█  Feed the S10 reference frame. Expression: RESOLVED.                         █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+ADAM stands in a quiet empty street just outside a plain building doorway, both
+hands empty at his sides, weight settled, with a calm resolved expression — level
+brows, mouth a steady straight line, chin slightly lifted. He is a friendly
+cartoon man with short neat brown hair, clean-shaven, light peach skin, wearing
+a rust-red #A94E38 short-sleeve t-shirt, camel #B8842F trousers and dark brown
+shoes. Simple flat street behind him, one plain doorway and a plain wall, no
+detail. Flat 2D vector cartoon illustration, clean uniform dark brown #3D2B24
+outlines of even weight, flat solid fill colours, no gradients, no texture, no
+grain, simple cel shading in a single darker tone, warm cream #F7F0DF
+background, soft pale elliptical shadow beneath his feet, friendly rounded
+shapes, modern explainer illustration style. 9:16 vertical, figure in the lower
+two-thirds, generous clean sky above for the closing captions.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, brick texture, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, golden hour, depth of field, bokeh,
+blurry, sketchy lines, uneven line weight, watercolour, oil painting, anime,
+manga, text, lettering, numbers, logos, brand names, watermark, signature, extra
+fingers, distorted hands, extra limbs, cluttered background, busy composition,
+low resolution, beard, moustache, glasses, shop signage, street signs,
+nameplates, printed type, typography, labels
+
+
+================================================================================
+=============  PART TWO — "NO HALAL CREDIT CARD" · 11 STILLS · 9:16  ===========
+================================================================================
+
+--------------------------------------------------------------------------------
+S12 · THE SEARCH · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+Top-down flat view of eight blank white payment cards scattered in a loose
+disordered fan across a plain desk surface, several overlapping, all of them
+completely bare with nothing printed on them. Two hands rest among them
+mid-search, one fingertip pinning a card at an angle. Flat 2D vector cartoon
+illustration, clean uniform dark brown #3D2B24 outlines of even weight, flat
+solid fill colours, no gradients, no texture, no grain, simple cel shading in a
+single darker tone, warm cream #F7F0DF background, soft pale shadow under each
+card, friendly rounded shapes, modern explainer illustration style. 9:16
+vertical, cards in the lower two-thirds, clean space above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+wood grain, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, extra limbs, cluttered background, busy composition, low resolution,
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, labels, barcodes
+
+--------------------------------------------------------------------------------
+S13 · THE ABSENCE · 9:16     ** THUMBNAIL CANDIDATE **
+--------------------------------------------------------------------------------
+PROMPT:
+A simple flat presentation tray in deep navy, seen straight on, with a single
+card-shaped rectangular recess cut into it, and the recess is completely empty —
+an unfilled slot with nothing sitting in it. Nothing else anywhere in frame.
+Flat 2D vector cartoon illustration, clean uniform dark brown #3D2B24 outlines
+of even weight, flat solid fill colours, no gradients, no texture, no grain,
+simple cel shading in a single darker tone inside the empty recess, warm cream
+#F7F0DF background, soft pale shadow under the tray, friendly rounded shapes,
+modern explainer illustration style. 9:16 vertical, tray low in frame, large
+clean empty space filling the upper half.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+velvet, fabric nap, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution
+
+--------------------------------------------------------------------------------
+S14 · THE THREE · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+Top-down flat view of three identical blank white payment cards laid in a
+precise evenly spaced row with equal gaps between them, all completely bare with
+nothing printed on them. Rigorously symmetrical. Nothing else in frame. Flat 2D
+vector cartoon illustration, clean uniform dark brown #3D2B24 outlines of even
+weight, flat solid fill colours, no gradients, no texture, no grain, simple cel
+shading in a single darker tone, warm cream #F7F0DF background, an identical
+soft pale shadow under each card, friendly rounded shapes, modern explainer
+illustration style. 9:16 vertical, the row sitting in the lower two-thirds,
+generous clean margin all round.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+film grain, noise, gradients, glossy highlights, specular reflections,
+volumetric lighting, dramatic shadows, dark background, black background,
+cinematic lighting, depth of field, bokeh, blurry, sketchy lines, uneven line
+weight, watercolour, oil painting, anime, manga, text, lettering, numbers,
+logos, brand names, watermark, signature, extra fingers, distorted hands,
+cluttered background, busy composition, low resolution, embossed digits, card
+numbers, serial numbers, expiry dates, printed type, typography, labels, barcodes
+
+--------------------------------------------------------------------------------
+S15 · THE COSTUME · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A blank white payment card lying flat on a plain surface with a plain paper
+sleeve drawn half off it, and the portion of the card revealed beneath is
+visibly identical to the sleeve covering it — same colour, same blankness, no
+difference at all, both completely bare and unprinted. One hand holds the corner
+of the sleeve at the frame edge. Flat 2D vector cartoon illustration, clean
+uniform dark brown #3D2B24 outlines of even weight, flat solid fill colours, no
+gradients, no texture, no grain, simple cel shading in a single darker tone,
+warm cream #F7F0DF background, soft pale shadow beneath, friendly rounded
+shapes, modern explainer illustration style. 9:16 vertical, objects low-centre,
+clean space above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+paper fibre, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, extra limbs, cluttered background, busy composition, low resolution,
+embossed digits, card numbers, printed type, typography, labels, barcodes
+
+--------------------------------------------------------------------------------
+S16 · THE PIVOT · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+Top-down flat view of a bare empty desk surface, completely cleared, with a
+scatter of blank white cards pushed hard to the extreme left edge of frame and
+mostly out of it, only two corners still visible. The empty cleared surface
+dominates the composition. Flat 2D vector cartoon illustration, clean uniform
+dark brown #3D2B24 outlines of even weight, flat solid fill colours, no
+gradients, no texture, no grain, simple cel shading in a single darker tone,
+warm cream #F7F0DF background, friendly rounded shapes, modern explainer
+illustration style. 9:16 vertical, the bare surface filling the frame, displaced
+cards clinging to the left margin.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+wood grain, dust, scratches, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, cluttered background, busy composition, low resolution
+
+--------------------------------------------------------------------------------
+S17 · WHAT EXISTS · 9:16     ** PAYOFF FRAME / THUMBNAIL CANDIDATE **
+--------------------------------------------------------------------------------
+PROMPT:
+One single plain white debit card lying perfectly square and centred alone on a
+cleared plain surface, completely bare with nothing printed on it and no
+embossing. Nothing else anywhere in frame. The composition should feel calm,
+open and resolved rather than stark. Flat 2D vector cartoon illustration, clean
+uniform dark brown #3D2B24 outlines of even weight, flat solid fill colours, no
+gradients, no texture, no grain, simple cel shading in a single darker tone,
+warm cream #F7F0DF background, one soft pale elliptical shadow beneath the card,
+friendly rounded shapes, modern explainer illustration style. 9:16 vertical,
+card low-centre, generous clean space above for captions.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+film grain, noise, gradients, glossy highlights, specular reflections,
+volumetric lighting, dramatic shadows, dark background, black background,
+cinematic lighting, depth of field, bokeh, blurry, sketchy lines, uneven line
+weight, watercolour, oil painting, anime, manga, text, lettering, numbers,
+logos, brand names, watermark, signature, extra fingers, distorted hands,
+cluttered background, busy composition, low resolution, embossed digits, card
+numbers, serial numbers, expiry dates, chip, magnetic stripe, printed type,
+typography, labels, barcodes
+
+--------------------------------------------------------------------------------
+S18 · THE TWO COSTS · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A simple two-pan balance scale seen straight on, beam settled perfectly level,
+both pans completely empty. Two small plain round tokens lie discarded on the
+surface beside the base, out of the pans, both unmarked. Nothing else in frame.
+Flat 2D vector cartoon illustration, clean uniform dark brown #3D2B24 outlines
+of even weight, flat solid fill colours, no gradients, no texture, no grain,
+simple cel shading in a single darker tone, warm cream #F7F0DF background, soft
+pale shadow beneath the base and each token, friendly rounded shapes, modern
+explainer illustration style. 9:16 vertical, scale in the lower two-thirds,
+clean space above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+metal patina, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution
+
+--------------------------------------------------------------------------------
+S19 · SECTION 75 · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+A blank white payment card and a blank paper receipt overlapping on a plain
+surface, bound firmly together through one corner by a simple metal ring clip so
+the two are visibly joined and inseparable. Both completely bare and unprinted,
+no rows on the receipt and no embossing on the card. Flat 2D vector cartoon
+illustration, clean uniform dark brown #3D2B24 outlines of even weight, flat
+solid fill colours, no gradients, no texture, no grain, simple cel shading in a
+single darker tone, warm cream #F7F0DF background, soft pale shadow beneath,
+friendly rounded shapes, modern explainer illustration style. 9:16 vertical,
+objects in the lower third, unusually generous clean empty space above — this
+frame carries the largest caption in the film.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+paper fibre, metal patina, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, cluttered background, busy composition, low resolution,
+embossed digits, card numbers, printed rows, printed type, typography, labels,
+barcodes
+
+--------------------------------------------------------------------------------
+S20 · THE EMPTY FILE · 9:16
+--------------------------------------------------------------------------------
+Shoot S20 and S21 back to back — same folder, same angle. They are a matched
+pair and any drift between them shows on the cut.
+
+PROMPT:
+An open manila folder lying flat on a plain surface, both leaves spread, the
+interior completely empty — no paper, nothing inside it at all. A simple crease
+runs down the spine. Nothing else in frame. Flat 2D vector cartoon illustration,
+clean uniform dark brown #3D2B24 outlines of even weight, flat solid fill
+colours, no gradients, no texture, no grain, simple cel shading in a single
+darker tone inside the fold, warm cream #F7F0DF background, soft pale drop
+shadow beneath the folder, friendly rounded shapes, modern explainer
+illustration style. 9:16 vertical, folder in the lower two-thirds, clean space
+above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+card fibre, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution, printed rows,
+printed type, typography, file tabs, index tabs, labels
+
+--------------------------------------------------------------------------------
+S21 · THE REPLACEMENTS · 9:16
+--------------------------------------------------------------------------------
+PROMPT:
+The same open manila folder lying flat on a plain surface, now holding a small
+neat stack of exactly three blank white sheets squared to the fold, all
+completely bare with nothing printed on them. Nothing else in frame. Flat 2D
+vector cartoon illustration, clean uniform dark brown #3D2B24 outlines of even
+weight, flat solid fill colours, no gradients, no texture, no grain, simple cel
+shading in a single darker tone showing three distinct layered sheet edges, warm
+cream #F7F0DF background, soft pale drop shadow beneath the folder, friendly
+rounded shapes, modern explainer illustration style. 9:16 vertical, folder in
+the lower two-thirds, clean space above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+paper fibre, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution, printed rows,
+printed type, typography, file tabs, index tabs, labels
+
+████████████████████████████████████████████████████████████████████████████████
+█  S22 · THE CLOSE · 9:16   ►► ADAM + BILAL ◄◄                                 █
+█  Feed the S10 (Adam) reference. Hardest consistency shot in the Shorts set.   █
+█  Adam: PLEASED / settled.  Bilal is a warm human — NOT the grey Clerk.        █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+A simple market stall scene with two friendly cartoon men. On the near side
+stands ADAM in three-quarter view with a calm pleased expression, a small smile
+and level brows — short neat brown hair, clean-shaven, light peach skin, rust-red
+#A94E38 short-sleeve t-shirt, camel #B8842F trousers, dark brown shoes — holding
+a plain paper bag of goods in one hand, the other hand empty at his side. Behind
+the stall counter stands BILAL, a warm friendly cartoon shopkeeper with dark
+brown hair and a full thick dark beard, tan skin, wearing a khaki #C9B583
+button-up shirt with the sleeves rolled to the forearm and espresso #3E2E24
+trousers, both forearms resting on the counter, a small friendly smile. Simple
+flat market stall with plain empty shelves behind, no detail. Flat 2D vector
+cartoon illustration, clean uniform dark brown #3D2B24 outlines of even weight,
+flat solid fill colours, no gradients, no texture, no grain, simple cel shading
+in a single darker tone, warm cream #F7F0DF background, soft pale elliptical
+shadows beneath both figures, friendly rounded shapes, modern explainer
+illustration style. 9:16 vertical, both figures in the lower two-thirds,
+generous clean headroom above.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, golden hour, depth of field, bokeh, blurry,
+sketchy lines, uneven line weight, watercolour, oil painting, anime, manga,
+text, lettering, numbers, logos, brand names, watermark, signature, extra
+fingers, distorted hands, extra limbs, cluttered background, busy composition,
+low resolution, beard on Adam, grey skin, faceless figure, shop signage, market
+signs, price boards, printed type, typography, labels
+
+
+================================================================================
+================  PART THREE — LONG-FORM · 13 STILLS · 16:9  ===================
+================================================================================
+
+16:9 rule: hold the subject to one vertical third and let the other side stay
+genuinely empty. Centring everything is what makes explainer video look dead.
+
+--------------------------------------------------------------------------------
+L01 · THE WORD · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+A single blank white index card standing propped upright on a plain surface,
+completely bare with nothing printed on it, small and alone in a deliberately
+empty composition. Nothing else in frame. Flat 2D vector cartoon illustration,
+clean uniform dark brown #3D2B24 outlines of even weight, flat solid fill
+colours, no gradients, no texture, no grain, simple cel shading in a single
+darker tone, warm cream #F7F0DF background, soft pale elliptical shadow beneath
+the card, friendly rounded shapes, modern explainer illustration style. 16:9
+horizontal, the card small and low in frame at no more than a fifth of the frame
+height, the whole upper area left clean and empty for large type.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+paper fibre, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution, printed type,
+typography, printed rows, labels
+
+--------------------------------------------------------------------------------
+L02 · TWO LEDGERS · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+Two closed cloth-bound ledger books standing side by side on a plain surface,
+identical in width and colour, one roughly six times the thickness of the other.
+Both covers and spines completely plain with no lettering on them. Nothing else
+in frame. Flat 2D vector cartoon illustration, clean uniform dark brown #3D2B24
+outlines of even weight, flat solid fill colours, no gradients, no texture, no
+grain, simple cel shading in a single darker tone, warm cream #F7F0DF
+background, soft pale shadow beneath each book, friendly rounded shapes, modern
+explainer illustration style. 16:9 horizontal, both books held to the left third
+of frame, the right half left clean and empty for number cards.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+cloth weave, leather, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution, spine lettering,
+book titles, printed type, typography, labels
+
+--------------------------------------------------------------------------------
+L03 · THE STUDY · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+A thick stapled document lying flat on a plain surface beside a simple pair of
+reading glasses, the visible page completely blank with nothing printed on it,
+one corner slightly curled, a single staple in the top corner. Nothing else in
+frame. Flat 2D vector cartoon illustration, clean uniform dark brown #3D2B24
+outlines of even weight, flat solid fill colours, no gradients, no texture, no
+grain, simple cel shading in a single darker tone, warm cream #F7F0DF
+background, soft pale drop shadow beneath both objects, friendly rounded shapes,
+modern explainer illustration style. 16:9 horizontal, document and glasses held
+to the left third of frame, the right half left clean and empty for number cards.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+paper fibre, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution, printed rows,
+printed type, typography, charts, tables, labels
+
+--------------------------------------------------------------------------------
+L04 · THE PRICE TAG · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+A small blank white price tag hanging from a folded garment by a fine string,
+the tag completely bare with no price and nothing written on it, turning very
+slightly. Simple folded garment, no pattern. Nothing else in frame. Flat 2D
+vector cartoon illustration, clean uniform dark brown #3D2B24 outlines of even
+weight, flat solid fill colours, no gradients, no texture, no grain, simple cel
+shading in a single darker tone, warm cream #F7F0DF background, soft pale
+shadow, friendly rounded shapes, modern explainer illustration style. 16:9
+horizontal, garment and tag held to the left third of frame, the right half left
+clean and empty for number cards.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, wool texture, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, cluttered background, busy composition, low resolution, price
+text, currency symbols, barcodes, printed type, typography, labels
+
+--------------------------------------------------------------------------------
+L05 · THE TILL · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+An open wooden till drawer on a shop counter, its compartments holding small
+neat stacks of plain round coins with completely blank faces — no denominations,
+no heads, no inscriptions, just smooth unmarked discs. One hand rests at the
+edge of the drawer. Simple flat counter, no detail. Flat 2D vector cartoon
+illustration, clean uniform dark brown #3D2B24 outlines of even weight, flat
+solid fill colours, no gradients, no texture, no grain, simple cel shading in a
+single darker tone inside the compartments, warm cream #F7F0DF background, soft
+pale shadow, friendly rounded shapes, modern explainer illustration style. 16:9
+horizontal, till held to the left third of frame, the right half left clean and
+empty for number cards.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+wood grain, metal patina, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, extra limbs, cluttered background, busy composition,
+low resolution, coin denominations, minted faces, currency symbols, printed
+type, typography, labels
+
+--------------------------------------------------------------------------------
+L06 · THREE CUTS · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+Three small stacks of plain round discs standing in a row on a plain surface,
+the first stack very short, the second slightly taller, the third markedly
+taller than both. All discs completely blank and unmarked. Nothing else in
+frame. Flat 2D vector cartoon illustration, clean uniform dark brown #3D2B24
+outlines of even weight, flat solid fill colours, no gradients, no texture, no
+grain, simple cel shading in a single darker tone, warm cream #F7F0DF
+background, soft pale shadow beneath each stack, friendly rounded shapes, modern
+explainer illustration style. 16:9 horizontal, the three stacks held to the left
+third of frame, the right half left clean and empty for number cards.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+metal patina, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution, coin
+denominations, currency symbols, printed type, typography, labels
+
+--------------------------------------------------------------------------------
+L07 · THE LADDER · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+Four identical plain blocks arranged as a descending staircase on a plain
+surface, evenly stepped, each sitting neatly on the one below. All four
+completely blank and unmarked. Nothing else in frame. Flat 2D vector cartoon
+illustration, clean uniform dark brown #3D2B24 outlines of even weight, flat
+solid fill colours, no gradients, no texture, no grain, simple cel shading in a
+single darker tone on the step faces, warm cream #F7F0DF background, soft pale
+shadow beneath, friendly rounded shapes, modern explainer illustration style.
+16:9 horizontal, the stair held to the left third of frame, the right half left
+clean and empty for number cards.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+wood grain, stone texture, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, cluttered background, busy composition, low resolution
+
+████████████████████████████████████████████████████████████████████████████████
+█  L08 · THE CASH PAYER · 16:9   ►► SAMI + THE CLERK ◄◄                        █
+█  Sami is a warm human WITH a face. The Clerk is grey and faceless.            █
+█  Both in one frame — that contrast IS this shot's argument.                   █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+A counter scene with two figures deliberately drawn in different registers. On
+the near side stands SAMI, a friendly cartoon man in three-quarter view with a
+calm neutral expression — dark hair, short speckled stubble beard, medium tan
+skin, wearing a teal #2E6B70 t-shirt and slate #59636B trousers — setting several
+small plain blank coins down on the counter one at a time from one hand. No card
+anywhere in frame. Behind the counter stands THE CLERK: a plain mid-grey
+humanoid silhouette with a completely smooth blank head, no face, no features
+and no clothing detail, just a flat grey shape with a dark brown outline. Simple
+flat counter, no detail behind. Flat 2D vector cartoon illustration, clean
+uniform dark brown #3D2B24 outlines of even weight, flat solid fill colours, no
+gradients, no texture, no grain, simple cel shading in a single darker tone,
+warm cream #F7F0DF background, soft pale elliptical shadows beneath both
+figures, friendly rounded shapes, modern explainer illustration style. 16:9
+horizontal, both figures held to the left third of frame, the right half left
+clean and empty for lower-third titles.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, extra limbs, cluttered background, busy composition, low resolution, face
+on the grey figure, eyes on the grey figure, facial features on the grey figure,
+skin tone on the grey figure, clothing detail on the grey figure, faceless Sami,
+grey skin on Sami, coin denominations, currency symbols, shop signage, printed
+type, typography, labels
+
+--------------------------------------------------------------------------------
+L09 · TWO RIBBONS · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+A large cloth-bound book lying open on a plain surface, both visible pages
+completely blank with nothing printed on them, and two silk ribbon markers — one
+deep navy, one terracotta — laid across different pages, neither one on top of
+the other and neither favoured. Nothing else in frame. Flat 2D vector cartoon
+illustration, clean uniform dark brown #3D2B24 outlines of even weight, flat
+solid fill colours, no gradients, no texture, no grain, simple cel shading in a
+single darker tone in the gutter, warm cream #F7F0DF background, soft pale drop
+shadow beneath the book, friendly rounded shapes, modern explainer illustration
+style. 16:9 horizontal, book held to the left third of frame, the right half
+left clean and empty for number cards.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+paper fibre, cloth weave, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, cluttered background, busy composition, low resolution, printed
+rows, printed type, typography, script, calligraphy, manuscript, labels
+
+--------------------------------------------------------------------------------
+L10 · THE FORK · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+A plain surface on which two lines of small round stones run from a single
+shared origin at the lower left, diverging steadily toward the upper right, both
+lines equally straight, equally spaced and drawn identically — neither favoured
+over the other. All stones plain and unmarked. Nothing else in frame. Flat 2D
+vector cartoon illustration, clean uniform dark brown #3D2B24 outlines of even
+weight, flat solid fill colours, no gradients, no texture, no grain, simple cel
+shading in a single darker tone, warm cream #F7F0DF background, a small soft
+shadow under each stone, friendly rounded shapes, modern explainer illustration
+style. 16:9 horizontal, the diverging lines running across the full width from
+lower left to upper right, generous clean empty space above the fork for type.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+stone texture, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution
+
+--------------------------------------------------------------------------------
+L11 · THE UNSIGNED CONTRACT · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+A multi-page document lying flat on a plain surface, the visible page completely
+blank with nothing printed on it except a single empty ruled signature line low
+on the page — a plain horizontal line with nothing written on it — and a capped
+fountain pen resting beside it, untouched. Nothing else in frame. Flat 2D vector
+cartoon illustration, clean uniform dark brown #3D2B24 outlines of even weight,
+flat solid fill colours, no gradients, no texture, no grain, simple cel shading
+in a single darker tone, warm cream #F7F0DF background, soft pale drop shadow
+beneath the page and pen, friendly rounded shapes, modern explainer illustration
+style. 16:9 horizontal, document and pen held to the left third of frame, the
+right half left clean and empty for number cards.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+paper fibre, lacquer, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution, printed rows,
+printed type, typography, clauses, paragraphs, handwriting, labels
+
+--------------------------------------------------------------------------------
+L12 · THE TWO DOORS · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+Two identical plain wooden doors set side by side in a plain wall, both closed,
+both completely bare with no signage, no numbers and no plates fixed to them,
+drawn identically and symmetrically so that neither is favoured over the other.
+Simple round handles. Nothing else in frame. Flat 2D vector cartoon
+illustration, clean uniform dark brown #3D2B24 outlines of even weight, flat
+solid fill colours, no gradients, no texture, no grain, simple cel shading in a
+single darker tone applied equally to both doors, warm cream #F7F0DF background,
+soft pale shadow along the floor line, friendly rounded shapes, modern explainer
+illustration style. 16:9 horizontal, both doors centred with symmetrical margin,
+clean wall space above for a single line of type.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture, wood
+grain, plaster texture, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, cluttered background, busy composition, low resolution, house
+numbers, door numbers, nameplates, signage, printed type, typography, labels
+
+  NOTE. This is the frame that lands on the line where the video refuses to
+  rule. Neither door may read as favoured — same fill, same shading, same
+  shadow. If one side looks preferred, regenerate.
+
+--------------------------------------------------------------------------------
+L13 · THE DEPOSIT · 16:9
+--------------------------------------------------------------------------------
+PROMPT:
+On a plain surface, one small plain round disc sits alone in the foreground, and
+behind it a single much larger plain block occupies several times its volume,
+both completely blank and unmarked. A fine chain runs between the two, visibly
+connecting them. Nothing else in frame. Flat 2D vector cartoon illustration,
+clean uniform dark brown #3D2B24 outlines of even weight, flat solid fill
+colours, no gradients, no texture, no grain, simple cel shading in a single
+darker tone, warm cream #F7F0DF background, soft pale shadow beneath both,
+friendly rounded shapes, modern explainer illustration style. 16:9 horizontal,
+disc and block held to the left third of frame, the right half left clean and
+empty for number cards.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+metal patina, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, cluttered background, busy composition, low resolution
+
+
+================================================================================
+=========  PART FOUR — KAREEM, THE HOST · 3 PLATES · 16:9 · NEW  ==============
+================================================================================
+
+You built a host and had no shots for him. These three cover the long-form: a
+cold open, a chapter-transition plate, and the fiqh chapter where the video
+refuses to rule. All three leave the right half of frame clean so he can share
+the screen with type and with the number cards.
+
+████████████████████████████████████████████████████████████████████████████████
+█  L14 · HOST — COLD OPEN · 16:9   ►► KAREEM ◄◄                                █
+█  ** SHOOT FIRST. This is KAREEM's reference frame — approve, save, and feed  █
+█     it into L15 and L16. Expression: SERIOUS. **                             █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+KAREEM stands facing camera in a calm, sparse room, addressing the viewer
+directly with a serious expression — level brows drawn slightly down, mouth a
+firm straight line, steady gaze. He is a friendly cartoon man with short black
+hair, slightly tousled with a raised front, a full dark beard with a little grey
+through it, light peach skin, wearing an olive #6E7A4F henley shirt with three
+small buttons at the placket and the sleeves rolled to the forearm, grey #6E6E6E
+trousers and dark brown shoes. Hands relaxed at his sides. Simple flat room
+behind him, one or two plain shapes only, no clutter. Flat 2D vector cartoon
+illustration, clean uniform dark brown #3D2B24 outlines of even weight, flat
+solid fill colours, no gradients, no texture, no grain, simple cel shading in a
+single darker tone, warm cream #F7F0DF background, soft pale elliptical shadow
+beneath his feet, friendly rounded shapes, modern explainer illustration style.
+16:9 horizontal, KAREEM standing on the left vertical third facing into frame
+with full head clearance above, the right half of frame left clean and empty for
+titles.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, extra limbs, cluttered background, busy composition, low resolution,
+clean-shaven, moustache only, glasses, hat, blonde hair, grey skin, faceless
+figure, printed type, typography, labels
+
+████████████████████████████████████████████████████████████████████████████████
+█  L15 · HOST — CHAPTER TRANSITION · 16:9   ►► KAREEM ◄◄                       █
+█  Feed the L14 reference. Expression: WARM. 3/4 view.                         █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+KAREEM stands in three-quarter view, body turned slightly and head toward
+camera, with a warm open expression — a genuine small smile, brows relaxed and
+slightly raised, one hand lifted a little from his side in an easy explanatory
+gesture. He is a friendly cartoon man with short black hair, slightly tousled
+with a raised front, a full dark beard with a little grey through it, light
+peach skin, wearing an olive #6E7A4F henley shirt with three small buttons at
+the placket and the sleeves rolled to the forearm, grey #6E6E6E trousers and
+dark brown shoes. Simple flat room behind him, almost empty. Flat 2D vector
+cartoon illustration, clean uniform dark brown #3D2B24 outlines of even weight,
+flat solid fill colours, no gradients, no texture, no grain, simple cel shading
+in a single darker tone, warm cream #F7F0DF background, soft pale elliptical
+shadow beneath his feet, friendly rounded shapes, modern explainer illustration
+style. 16:9 horizontal, KAREEM standing on the left vertical third facing into
+frame with full head clearance above, the right half of frame left clean and
+empty for chapter titles.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, extra limbs, cluttered background, busy composition, low resolution,
+clean-shaven, moustache only, glasses, hat, blonde hair, grey skin, faceless
+figure, printed type, typography, labels
+
+████████████████████████████████████████████████████████████████████████████████
+█  L16 · HOST — THE QUESTION · 16:9   ►► KAREEM ◄◄                             █
+█  Feed the L14 reference. Expression: QUESTIONING. This lands on the fiqh     █
+█  chapter — he asks, he does not answer. Keep the posture open, not certain.  █
+████████████████████████████████████████████████████████████████████████████████
+PROMPT:
+KAREEM stands facing camera with a questioning expression — one eyebrow raised
+higher than the other, mouth set slightly to one side, head tilted a few degrees,
+both palms turned faintly upward in an open unresolved gesture. Curious and
+even-handed rather than doubtful or disapproving. He is a friendly cartoon man
+with short black hair, slightly tousled with a raised front, a full dark beard
+with a little grey through it, light peach skin, wearing an olive #6E7A4F henley
+shirt with three small buttons at the placket and the sleeves rolled to the
+forearm, grey #6E6E6E trousers and dark brown shoes. Simple flat room behind
+him, almost empty. Flat 2D vector cartoon illustration, clean uniform dark brown
+#3D2B24 outlines of even weight, flat solid fill colours, no gradients, no
+texture, no grain, simple cel shading in a single darker tone, warm cream
+#F7F0DF background, soft pale elliptical shadow beneath his feet, friendly
+rounded shapes, modern explainer illustration style. 16:9 horizontal, KAREEM
+standing on the left vertical third facing into frame with full head clearance
+above, the right half of frame left clean and empty for titles.
+
+NEGATIVE:
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, film grain, noise, gradients, glossy highlights, specular
+reflections, volumetric lighting, dramatic shadows, dark background, black
+background, cinematic lighting, depth of field, bokeh, blurry, sketchy lines,
+uneven line weight, watercolour, oil painting, anime, manga, text, lettering,
+numbers, logos, brand names, watermark, signature, extra fingers, distorted
+hands, extra limbs, cluttered background, busy composition, low resolution,
+angry expression, disapproving, frowning, smirking, clean-shaven, moustache
+only, glasses, hat, blonde hair, grey skin, faceless figure, printed type,
+typography, labels
+
+
+================================================================================
+REJECT CHECKLIST — v2
+================================================================================
+
+HARD FAILURES
+  [ ] Any text, digits, lettering, logo or signage anywhere in frame.
+  [ ] A face on THE CLERK, or any grey institution figure. Breaks the design.
+  [ ] A missing face on Kareem, Adam, Sami or Bilal. Same failure, inverted.
+  [ ] Wrong facial hair — Adam is clean-shaven, Kareem and Bilal are bearded,
+      Sami is stubbled. This is the fastest way to lose character identity.
+  [ ] Extra fingers, fused fingers, more than two hands.
+  [ ] Palette drift from the bible hexes.
+
+STYLE FAILURES
+  [ ] Any photorealism, 3D shading, gradient fills or visible texture.
+  [ ] Uneven or sketchy outline weight — every line is the same width.
+  [ ] Dark or black background. The ground is always warm cream.
+  [ ] Depth of field or blur. Everything is in flat focus.
+
+FRAMING
+  [ ] 9:16 — subject in the lower two-thirds, clean caption headroom.
+  [ ] 16:9 — subject on a vertical third, opposite half genuinely empty.
+      Centred is a reject on every 16:9 frame except L12, which is symmetrical
+      on purpose.
+
+CONSISTENCY
+  [ ] Shirt, trousers, hair and beard identical across every appearance.
+  [ ] Adam identical in S10, S11, S22. Kareem identical in L14, L15, L16.
+================================================================================

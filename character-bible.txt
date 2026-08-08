@@ -1,0 +1,153 @@
+================================================================================
+FINANCE % DECODED — CHARACTER BIBLE & HOUSE STYLE  (v2 — FLAT VECTOR)
+SUPERSEDES the low-poly / matte-clay style used in all earlier packs
+================================================================================
+
+STYLE CHANGED. Everything below replaces the previous house style. The old
+packs (credit-card, halal-card, long-form) describe stylised low-poly 3D, matte
+clay shading, near-photorealistic texture, deep near-black backgrounds, hard
+raking key light, shallow depth of field and COMPLETELY BLANK featureless heads.
+None of that is current. Do not generate from those prompt files — use
+flow-image-prompts-v2.txt.
+
+WHAT CARRIED OVER, unchanged:
+  · Burn the numbers in the edit. Never generate text, digits or logos.
+  · 9:16 for Shorts, 16:9 for long-form.
+  · Subject in the lower two-thirds (9:16) / on a vertical third (16:9).
+  · The editorial posture. Nothing about the scripts changes.
+
+
+================================================================================
+HOUSE STYLE v2
+================================================================================
+
+Flat 2D vector cartoon illustration. Clean uniform dark brown outlines of even
+weight. Flat solid fills, no gradients, no texture, no grain. Simple cel shading
+in a single darker tone of the base colour. Warm cream background. Soft pale
+elliptical shadow under figures and objects. Friendly rounded shapes. Modern
+explainer-illustration look.
+
+PALETTE
+  background        #F7F0DF   warm cream
+  outline           #3D2B24   dark brown, every line
+  shadow ellipse    #E8DCC0   pale warm grey-cream
+  institution grey  #8A8A8A   the Clerk, the counter figure
+  paper / card      #FBF6EA   near-white warm
+
+  Kareem   shirt #6E7A4F olive   · trousers #6E6E6E grey
+  Adam     tee   #A94E38 rust    · trousers #B8842F camel
+  Sami     tee   #2E6B70 teal    · trousers #59636B slate
+  Bilal    shirt #C9B583 khaki   · trousers #3E2E24 espresso
+  shoes    #4A342A dark brown (all four)
+
+  skin     #F5C9A8 light peach (Kareem, Adam)
+           #C68B62 medium tan  (Sami)
+           #D19B72 tan         (Bilal)
+
+
+================================================================================
+THE CAST
+================================================================================
+
+KAREEM — THE HOST
+  Black hair, short and slightly tousled with a raised front. Full dark beard
+  with a little grey through it. Olive henley shirt, three buttons at the
+  placket, sleeves rolled to the forearm. Grey trousers, dark brown shoes.
+  Expressions on sheet: neutral, warm, serious, questioning.
+  ROLE. Presenter. Carries the long-form cold open, the chapter transitions
+  and the fiqh chapter. He is the only character who addresses camera.
+
+ADAM — THE CARDHOLDER
+  Brown hair, short and neat. Clean-shaven. Rust-red short-sleeve t-shirt,
+  camel trousers, dark brown shoes.
+  Expressions on sheet: neutral, pleased, worried, resolved.
+  ROLE. The protagonist. Everything happens to him. He replaces the character
+  formerly called AMIR in every earlier pack — same function, new build.
+  His four expressions map onto the arc: pleased (the limit rises) → worried
+  (the statement) → resolved (the close). Use them, they are the story.
+
+SAMI
+  Dark hair, short speckled stubble beard. Teal t-shirt, slate trousers.
+  Medium tan skin.
+  ROLE. The cash payer. He is the man in the long-form who pays cash and
+  subsidises everyone else's instalment plan. Also the second customer wherever
+  a scene needs one.
+
+BILAL
+  Dark brown hair, full thick dark beard. Khaki button-up shirt with sleeves
+  rolled, espresso trousers. Tan skin.
+  ROLE. The shopkeeper / market trader. A warm human merchant, deliberately
+  contrasted against the grey Clerk. Where the old packs had one shopkeeper
+  doing both jobs, the cast now splits them — and that split is the argument.
+
+THE CLERK — THE INSTITUTION
+  A plain mid-grey humanoid silhouette. No face, no features, no clothing
+  detail. Same outline weight as the humans. Appears behind the barred counter.
+  ROLE. The bank. Never named, never given a face, never warm.
+
+  ►► THE CENTRAL DESIGN RULE. Humans have faces. The institution does not.
+     Do not give the Clerk a face under any circumstances, and do not remove
+     faces from the four named men. The whole visual argument sits on that
+     contrast and it collapses if either side drifts.
+
+DEVICES
+  THE COUNTER — bank teller window, vertical dark bars, olive lower wall,
+    terracotta counter surface, grey figure behind it.
+  THE PAPER   — blank white card and an open blank statement with ruled lines
+    and one empty box in a corner. Flat, top-down, soft drop shadow.
+
+
+================================================================================
+UNIVERSAL BLOCKS — paste into every generation
+================================================================================
+
+STYLE (append to every prompt):
+Flat 2D vector cartoon illustration, clean uniform dark brown #3D2B24 outlines
+of even weight, flat solid fill colours, no gradients, no texture, no grain,
+simple cel shading in a single darker tone, warm cream #F7F0DF background, soft
+pale elliptical shadow beneath, friendly rounded shapes, modern explainer
+illustration style.
+
+NEGATIVE — STANDARD (objects and the four named men):
+photorealistic, photograph, 3D render, CGI, clay render, realistic texture,
+fabric weave, wood grain, film grain, noise, gradients, glossy highlights,
+specular reflections, volumetric lighting, dramatic shadows, dark background,
+black background, cinematic lighting, depth of field, bokeh, blurry, sketchy
+lines, uneven line weight, watercolour, oil painting, anime, manga, text,
+lettering, numbers, logos, brand names, watermark, signature, extra fingers,
+distorted hands, extra limbs, cluttered background, busy composition,
+low resolution
+
+NEGATIVE — INSTITUTION ADDENDUM (add ONLY on Clerk / counter shots):
+facial features, eyes, mouth, nose, eyebrows, face, portrait, skin tone,
+clothing detail, patterned clothing, friendly expression, smile
+
+NEGATIVE — TEXT-RISK ADDENDUM (add on any printable surface):
+embossed digits, card numbers, serial numbers, expiry dates, printed rows,
+printed type, typography, signage, nameplates, house numbers, price text,
+labels, barcodes
+================================================================================
+
+
+================================================================================
+FILE STATUS — what to use, what to ignore
+================================================================================
+
+USE
+  character-bible.txt        this file — cast, palette, style v2
+  flow-image-prompts-v2.txt  all 38 prompts, flat vector, copy-paste ready
+
+STALE STYLE, STILL-GOOD CONTENT
+  credit-card-prompt-pack.txt   scripts, VO, captions, timings, packaging and
+  halal-card-prompt-pack.txt    accuracy notes are all current and correct.
+  long-form-credit-pack.txt     Only their VISUAL prompts are obsolete — they
+                                describe low-poly 3D, matte clay, near-black
+                                backgrounds and faceless characters. Read them
+                                for the scripts. Do not generate from them.
+
+  seedream-generation-guide.txt  Higgsfield/Seedream-specific. Superseded for
+                                 the current Flow workflow; the referent
+                                 technique in it still applies.
+
+UNAFFECTED
+  channel-growth-plan.txt    strategy, unchanged by the restyle.
