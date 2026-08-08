@@ -178,6 +178,19 @@ def bearer(cfg):
     return {"Authorization": "Bearer " + access_token(cfg)}
 
 
+def data_auth(cfg):
+    """Authorize a Data API call, preferring the cheap API key.
+
+    An OAuth token authorizes these endpoints just as well, so once Tier 2 is
+    set up the API key becomes optional - don't make people create one twice.
+    Returns (extra query params, extra headers)."""
+    if cfg.get("api_key"):
+        return {"key": cfg["api_key"]}, {}
+    if cfg.get("client_id") and cfg.get("client_secret") and cfg.get("refresh_token"):
+        return {}, bearer(cfg)
+    die("need either YT_API_KEY, or OAuth credentials (run: yt.py setup)")
+
+
 REDIRECT = "http://localhost:8765"
 
 
@@ -336,14 +349,14 @@ def date_range(days):
     return (end - timedelta(days=days - 1)).isoformat(), end.isoformat()
 
 
-def paged(url_base, params, limit):
+def paged(url_base, params, limit, headers=None):
     """Walk nextPageToken pagination until `limit` items are collected."""
     items, token = [], None
     while len(items) < limit:
         q = dict(params, maxResults=min(50, limit - len(items)))
         if token:
             q["pageToken"] = token
-        res = http(f"{url_base}?" + urllib.parse.urlencode(q))
+        res = http(f"{url_base}?" + urllib.parse.urlencode(q), headers=headers)
         batch = res.get("items") or []
         items.extend(batch)
         token = res.get("nextPageToken")
@@ -391,10 +404,10 @@ def cmd_latest(args, cfg):
 # --------------------------------------------------------------------------
 
 def cmd_channel(args, cfg):
-    key, = need(cfg, "api_key")
+    auth, hdr = data_auth(cfg)
     cid = resolve_channel(cfg, args.channel)
     res = http(f"{DATA_API}/channels?" + urllib.parse.urlencode(
-        {"part": "snippet,statistics,contentDetails", "id": cid, "key": key}))
+        dict(auth, part="snippet,statistics,contentDetails", id=cid)), headers=hdr)
     items = res.get("items") or []
     if not items:
         die(f"no channel found for {cid}")
@@ -410,9 +423,9 @@ def cmd_channel(args, cfg):
 
 
 def uploads_playlist(cfg, cid):
-    key = cfg["api_key"]
+    auth, hdr = data_auth(cfg)
     res = http(f"{DATA_API}/channels?" + urllib.parse.urlencode(
-        {"part": "contentDetails", "id": cid, "key": key}))
+        dict(auth, part="contentDetails", id=cid)), headers=hdr)
     items = res.get("items") or []
     if not items:
         die(f"no channel found for {cid}")
@@ -420,11 +433,11 @@ def uploads_playlist(cfg, cid):
 
 
 def cmd_videos(args, cfg):
-    key, = need(cfg, "api_key")
+    auth, hdr = data_auth(cfg)
     cid = resolve_channel(cfg, args.channel)
     playlist = uploads_playlist(cfg, cid)
     entries = paged(f"{DATA_API}/playlistItems",
-                    {"part": "contentDetails", "playlistId": playlist, "key": key}, args.n)
+                    dict(auth, part="contentDetails", playlistId=playlist), args.n, hdr)
     ids = [e["contentDetails"]["videoId"] for e in entries]
     if not ids:
         out(args, [], ["no uploads"])
@@ -434,7 +447,7 @@ def cmd_videos(args, cfg):
     for i in range(0, len(ids), 50):
         batch = ids[i:i + 50]
         res = http(f"{DATA_API}/videos?" + urllib.parse.urlencode(
-            {"part": "snippet,statistics,contentDetails", "id": ",".join(batch), "key": key}))
+            dict(auth, part="snippet,statistics,contentDetails", id=",".join(batch))), headers=hdr)
         for v in res.get("items") or []:
             st = v.get("statistics", {})
             payload.append(v)
@@ -451,9 +464,9 @@ def cmd_videos(args, cfg):
 
 
 def cmd_video(args, cfg):
-    key, = need(cfg, "api_key")
+    auth, hdr = data_auth(cfg)
     res = http(f"{DATA_API}/videos?" + urllib.parse.urlencode(
-        {"part": "snippet,statistics,contentDetails,status", "id": args.video_id, "key": key}))
+        dict(auth, part="snippet,statistics,contentDetails,status", id=args.video_id)), headers=hdr)
     items = res.get("items") or []
     if not items:
         die(f"no video {args.video_id}")
@@ -471,13 +484,13 @@ def cmd_video(args, cfg):
 
 
 def cmd_comments(args, cfg):
-    key, = need(cfg, "api_key")
-    params = {"part": "snippet", "key": key, "order": args.order, "textFormat": "plainText"}
+    auth, hdr = data_auth(cfg)
+    params = dict(auth, part="snippet", order=args.order, textFormat="plainText")
     if args.video_id:
         params["videoId"] = args.video_id
     else:
         params["allThreadsRelatedToChannelId"] = resolve_channel(cfg, args.channel)
-    items = paged(f"{DATA_API}/commentThreads", params, args.n)
+    items = paged(f"{DATA_API}/commentThreads", params, args.n, hdr)
     rows, payload = [], []
     for t in items:
         c = t["snippet"]["topLevelComment"]["snippet"]
@@ -489,23 +502,21 @@ def cmd_comments(args, cfg):
 
 def cmd_search(args, cfg):
     """Competitor / topic research. Costs 100 quota units per call - use sparingly."""
-    key, = need(cfg, "api_key")
-    params = {
-        "part": "snippet", "q": args.query, "type": "video",
-        "order": args.order, "maxResults": min(args.n, 50), "key": key,
-    }
+    auth, hdr = data_auth(cfg)
+    params = dict(auth, part="snippet", q=args.query, type="video",
+                  order=args.order, maxResults=min(args.n, 50))
     if args.days:
         after = (date.today() - timedelta(days=args.days)).isoformat() + "T00:00:00Z"
         params["publishedAfter"] = after
     if args.shorts:
         params["videoDuration"] = "short"
-    res = http(f"{DATA_API}/search?" + urllib.parse.urlencode(params))
+    res = http(f"{DATA_API}/search?" + urllib.parse.urlencode(params), headers=hdr)
     hits = res.get("items") or []
     ids = [h["id"]["videoId"] for h in hits]
     stats = {}
     if ids:
         det = http(f"{DATA_API}/videos?" + urllib.parse.urlencode(
-            {"part": "statistics", "id": ",".join(ids), "key": key}))
+            dict(auth, part="statistics", id=",".join(ids))), headers=hdr)
         stats = {v["id"]: v.get("statistics", {}) for v in det.get("items") or []}
     rows = []
     for h in hits:
@@ -590,6 +601,61 @@ def cmd_retention(args, cfg):
         bar = "#" * int(round(watch * 40))
         lines.append(f"{ratio*100:5.0f}%  {watch*100:5.1f}%  {bar}")
     out(args, rows, lines)
+
+
+def cmd_rank(args, cfg):
+    """Every video's analytics side by side, in one call. avgView% is the
+    column that matters - it is what the Shorts feed rewards."""
+    hdr = bearer(cfg)
+    start, end = date_range(args.days)
+    res = http(f"{ANALYTICS_API}/reports?" + urllib.parse.urlencode({
+        "ids": "channel==MINE", "startDate": start, "endDate": end,
+        "metrics": "views,averageViewPercentage,averageViewDuration,subscribersGained",
+        "dimensions": "video", "sort": "-views", "maxResults": args.n,
+    }), headers=hdr)
+    rows = res.get("rows") or []
+
+    titles = {}
+    if rows:
+        auth, dhdr = data_auth(cfg)
+        ids = [r[0] for r in rows]
+        for i in range(0, len(ids), 50):
+            det = http(f"{DATA_API}/videos?" + urllib.parse.urlencode(
+                dict(auth, part="snippet,contentDetails", id=",".join(ids[i:i + 50]))),
+                headers=dhdr)
+            for v in det.get("items") or []:
+                titles[v["id"]] = (v["snippet"]["title"],
+                                   duration(v["contentDetails"].get("duration")))
+
+    lines = [f"{start} -> {end}    views  avgView%   avgDur  subs  len  title", ""]
+    for vid, views, avg_pct, avg_dur, subs in rows:
+        title, length = titles.get(vid, ("?", "?"))
+        lines.append(f"{vid}  {num(views):>7}  {avg_pct:6.1f}%  {avg_dur:5.0f}s  {subs:+4d}  "
+                     f"{length:>5}  {title[:58]}")
+    out(args, rows, lines)
+
+
+def cmd_sources(args, cfg):
+    """Traffic-source breakdown. Answers 'did the Shorts feed stop serving me',
+    which view counts alone cannot."""
+    hdr = bearer(cfg)
+    start, end = date_range(args.days)
+    params = {
+        "ids": "channel==MINE", "startDate": start, "endDate": end,
+        "metrics": "views,estimatedMinutesWatched",
+        "dimensions": "insightTrafficSourceType",
+        "sort": "-views",
+    }
+    if args.video:
+        params["filters"] = "video==" + args.video
+    res = http(f"{ANALYTICS_API}/reports?" + urllib.parse.urlencode(params), headers=hdr)
+    rows = res.get("rows") or []
+    total = sum(r[1] for r in rows) or 1
+    scope = f"video {args.video}" if args.video else "channel"
+    lines = [f"{scope}   {start} -> {end}", ""]
+    for source, views, mins in rows:
+        lines.append(f"{source:<26} {num(views):>7}  {100*views/total:5.1f}%   {num(mins):>6} min")
+    out(args, rows, lines or ["no data"])
 
 
 def cmd_upload(args, cfg):
@@ -814,6 +880,14 @@ def main():
     sp = add("retention", cmd_retention, "audience retention curve for a video (OAuth)")
     sp.add_argument("video")
     sp.add_argument("--days", type=int, default=90)
+
+    sp = add("rank", cmd_rank, "all videos ranked, with retention % (OAuth)")
+    sp.add_argument("--days", type=int, default=90)
+    sp.add_argument("-n", type=int, default=50)
+
+    sp = add("sources", cmd_sources, "traffic-source breakdown (OAuth)")
+    sp.add_argument("--days", type=int, default=28)
+    sp.add_argument("--video", help="scope to one video")
 
     sp = add("upload", cmd_upload, "upload a video (OAuth)")
     sp.add_argument("file")

@@ -25,8 +25,10 @@ the whole interface.
 | Uploads with views/likes/comments | `videos -n 25` | ~2 units |
 | One video in detail | `video ID` | 1 unit |
 | Comments | `comments [ID]` | 1 unit |
-| Watch time, CTR, subs gained | `analytics --days 28` | free (Analytics API) |
-| Where viewers drop off | `retention ID` | free |
+| Watch time, retention %, subs | `analytics --days 28` | free (Analytics API) |
+| Every video ranked, side by side | `rank --days 90` | free |
+| Where traffic actually comes from | `sources --days 28` | free |
+| Where viewers drop off within a video | `retention ID` | free |
 | What others are doing on a topic | `search "query" --shorts --days 30` | **100 units** |
 
 `latest` needs no API key at all, so reach for it first when the question is
@@ -44,7 +46,19 @@ it carries watch time, average view percentage and CTR — the numbers that
 actually decide whether a Short worked. View count alone is close to noise on
 this channel.
 
-For "why did X underperform", follow with `retention ID`. It prints the
+Before blaming the content for weak views, run `rank` and `sources`. On a
+Shorts channel, views and retention move independently: this channel has
+videos at 150-188% average view percentage sitting on 39 views. When retention
+is high and views are low the problem is distribution, not the script, and
+rewriting hooks will not fix it. `sources` shows whether the SHORTS feed is
+still serving the channel at all.
+
+Note that impressions and CTR are not exposed for this channel - the Analytics
+API refuses that metric combination, which is usual when traffic is
+Shorts-dominated. Do not report CTR figures; they are not available.
+
+For "why did X underperform" *once distribution is confirmed healthy*, use
+`retention ID`. It prints the
 audience-watch-ratio curve as a bar chart at 5% intervals. On a Short, the drop
 between 0% and 15% is the hook; a cliff later is a pacing or payoff problem.
 Say which it is rather than quoting the whole curve back.

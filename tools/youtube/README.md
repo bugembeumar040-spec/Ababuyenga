@@ -23,7 +23,10 @@ quota at all.
 |---|---|---|
 | 0 | none | `latest`, `handle` |
 | 1 | API key, ~2 min | `channel`, `videos`, `video`, `comments`, `search` |
-| 2 | OAuth, ~10 min | `analytics`, `retention`, `upload`, `update`, `thumbnail` |
+| 2 | OAuth, ~10 min | `analytics`, `rank`, `sources`, `retention`, `upload`, `update`, `thumbnail` |
+
+Tier 2 credentials also authorize every Tier 1 command, so once OAuth is set up
+the API key is optional.
 
 Tier 0 works right now, with no account setup:
 
@@ -119,7 +122,9 @@ yt.py videos -n 25                           # uploads with views/likes/comments
 yt.py video VIDEO_ID                         # one video, full detail
 yt.py comments [VIDEO_ID] -n 25              # recent comments
 yt.py search "credit card debt" --shorts --days 30
-yt.py analytics --days 28 [--video ID]       # watch time, CTR, subs, retention %
+yt.py analytics --days 28 [--video ID]       # watch time, subs, retention %
+yt.py rank --days 90                         # every video ranked, with avgView%
+yt.py sources --days 28 [--video ID]         # traffic-source breakdown
 yt.py retention VIDEO_ID                     # the drop-off curve, as a bar chart
 yt.py upload clip.mp4 --title "..." --desc "..." --tags "a,b" \
       --privacy private --publish-at 2026-08-12T17:00:00Z --thumbnail thumb.jpg
