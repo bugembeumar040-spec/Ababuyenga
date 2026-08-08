@@ -1,0 +1,660 @@
+================================================================================
+FINANCE % DECODED — "THERE IS NO HALAL CREDIT CARD" — PROMPT PACK
+Two independent tracks: VIDEO (Higgsfield) and STILLS (any image model)
+9:16 · 1080x1920 · 11 scenes · 59.00s
+Follows credit-card-prompt-pack.txt · THE DEBT SERIES, Part 3 of 3
+================================================================================
+
+WHAT THIS FILE IS
+
+Same architecture as the Klarna and Deadbeat packs. Two complete, separate ways
+to shoot this Short. Pick one — do not mix them, the idioms don't cut together.
+
+  TRACK A — VIDEO.  11 generated clips, Higgsfield. Highest production value,
+                    highest cost, most drift risk.
+  TRACK B — STILLS. 11 generated images, moved in the edit. A quarter of the
+                    generations, no temporal artefacts, frames reusable as
+                    thumbnails and as b-roll in the long-form cut.
+
+House style, character sheet, palette, caption spec and the burn-in-the-numbers
+rule are carried over unchanged. AMIR and the shopkeeper are the same builds —
+reuse your locked reference frames, do not regenerate them from scratch.
+
+TIMINGS BELOW ARE TARGETS, NOT THE CUT. Record the VO first, then re-derive the
+real IN/OUT points into video/src/halalcard/beats.ts before you generate
+anything on Track A. Same rule as Deadbeat.
+
+TRACK B IS THE RECOMMENDATION ON THIS ONE. See the clip-length note under the
+scene map — this script puts eight of eleven scenes past the 5s mark, which is
+the worst Track A cost profile of the three packs. The stills track gets you the
+same film for roughly a quarter of the generations, and you will want these
+frames again for the long-form.
+
+
+================================================================================
+READ THIS FIRST — THE VIDEO IS NOT THE ONE YOU PROMISED
+================================================================================
+
+Deadbeat closes on "Follow — the halal card fix is next." That caption promised
+a product. The product does not exist.
+
+There is no Sharia-compliant credit card available to a UK retail customer. Not
+from Al Rayan, not from Gatehouse, not from Nomo. The structures that exist in
+other markets — bai al-inah, tawarruq, ujrah — never crossed into UK retail
+banking, in significant part because two of the three are themselves contested.
+
+That is not a problem with the video. That IS the video.
+
+The strongest thing this script has is a genuine reversal at the midpoint: the
+viewer arrives wanting a card and leaves understanding the category was the
+mistake. You cannot fake that beat and you do not have to — it is simply true.
+The back half then does the thing no one else in this niche does, which is name
+what you actually lose by leaving credit cards behind, and how to replace it.
+
+So the promise is still paid. "The halal card that actually exists" is delivered
+in scene 06. It is just a debit card, and the honesty of that is the film.
+
+
+================================================================================
+CONTINUITY — three arguments are now spent
+================================================================================
+
+  BURNED #1 — MERCHANT FEE PASS-THROUGH.  The Klarna spine. Gone.
+
+  BURNED #2 — MINIMUM PAYMENTS AND COMPOUNDING.  The old 198-view upload. Gone.
+
+  BURNED #3 — THE BUSINESS MODEL.  Deadbeat's entire spine: deadbeat vs
+  revolver, the balance is the product, the limit that arrives unasked. You
+  published this one video ago. This script must not re-explain why the bank
+  wants you carrying a balance. It assumes the viewer knows, because the two
+  videos before it are what taught them.
+
+That constraint is what forces this into being a pure fix video, which is
+exactly what the series needs in the third slot. Diagnosis is finished. Nothing
+in scenes 01–11 diagnoses anything.
+
+SERIES CLOSE. This is the last Short in the arc. It does not promise a Part 4.
+It points at the long-form — "The Truth About Credit in the UK" — which is where
+the fiqh nuance, the product comparison and the full Section 75 detail live at
+proper length. That handoff is the whole reason the series exists.
+
+CALLBACK. Scene 11 burns BALANCE £0.00, the same figure that closed Deadbeat.
+Deliberate. Three videos ending on one number is the cheapest series signature
+available to you, and the viewer who has seen both will feel it land.
+
+
+================================================================================
+SCENE MAP — the spine both tracks hang off
+================================================================================
+
+ #  | IN     | OUT    | LEN   | SCENE            | VO LINE
+----|--------|--------|-------|------------------|----------------------------
+ 01 | 0:00.0 | 0:05.2 | 5.20s | the search       | So you went looking...
+ 02 | 0:05.2 | 0:10.0 | 4.80s | the absence      | In Britain, there isn't one
+ 03 | 0:10.0 | 0:15.4 | 5.40s | the three        | Abroad they built one
+ 04 | 0:15.4 | 0:20.6 | 5.20s | the costume      | The same debt in a costume
+ 05 | 0:20.6 | 0:24.0 | 3.40s | the pivot        | So stop hunting for a card
+ 06 | 0:24.0 | 0:29.8 | 5.80s | what exists      | It's a debit card
+ 07 | 0:29.8 | 0:36.2 | 6.40s | the two costs    | You just gave two things up
+ 08 | 0:36.2 | 0:42.0 | 5.80s | section 75       | The bank is liable alongside
+ 09 | 0:42.0 | 0:47.0 | 5.00s | the empty file   | A debit card builds nothing
+ 10 | 0:47.0 | 0:52.4 | 5.40s | the replacements | Rent. Roll. Bills.
+ 11 | 0:52.4 | 0:59.0 | 6.60s | the close        | Spend money you already have
+
+CLIP LENGTH NOTE (Track A). Scenes 01, 03, 04, 06, 07, 08, 10 and 11 run past 5s
+— eight of eleven. Put all eight on a model that outputs 10s and trim to the OUT
+point. Only 02, 05 and 09 generate at 5s. Never stretch a short clip to cover a
+long scene; the slow-down reads immediately. This ratio is the reason Track B is
+recommended above.
+
+
+================================================================================
+NUMBERS — burn these in during the edit, never generate them
+================================================================================
+
+Both tracks. Every prompt below asks for blank cards, blank screens, blank
+paper on purpose.
+
+  01  (none)
+  02  ZERO
+  03  UJRAH · TAWARRUQ · BAI AL-INAH
+  04  (none — the caption is the beat, let it stand alone)
+  05  (none)
+  06  DEBIT
+  07  2
+  08  SECTION 75   £100 — £30,000   (the collision — set £100 small, £30,000 large)
+  09  CREDIT FILE: NOTHING BUILT
+  10  RENT · ELECTORAL ROLL · BILLS
+  11  BALANCE  £0.00
+
+Scene 08 is this film's two-numbers-in-collision beat — the same device Deadbeat
+spent on "1% BACK vs 24.9% APR". Give it the most typographic weight in the cut.
+The point the numbers make: the protection has a floor and a ceiling, and almost
+everything that matters sits between them.
+
+Scene 03 sets three foreign words on screen that the VO does not read aloud.
+That is intentional — they are there to be paused on and searched, not spoken.
+Set them small, in a row, cream on near-black. Do not translate them on screen.
+
+
+================================================================================
+================================  TRACK A  =====================================
+                        VIDEO — 11 CLIPS (HIGGSFIELD)
+================================================================================
+
+SETTINGS: 9:16 · 1080p · 5s or 10s per the scene map · text-to-video.
+
+CONSISTENCY: reuse the locked AMIR and shopkeeper reference frames from the
+Klarna and Deadbeat shoots. If you no longer have them, generate CLIP 11 first —
+it holds both characters in one frame — regenerate until both heads are
+completely blank, save it, and feed it as the reference image on 01, 05 and 11.
+
+HIGGSFIELD NOTE: where a prompt names a camera move, set it with the platform's
+motion control rather than relying on prompt text. Keep every move slow. This
+house style has no fast camera anywhere in it.
+
+NEGATIVE PROMPT — paste once, applies to all 11 clips:
+
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon outlines,
+cel shading, flat vector, anime, 2D illustration, distorted hands, extra fingers,
+extra limbs, morphing objects, warping architecture, camera shake, whip pans,
+blurry, low resolution, oversaturated, plastic sheen, uncanny, stock-photo smiles
+
+--------------------------------------------------------------------------------
+A01 · 0:00.0–0:05.2 · THE SEARCH   [generate 10s]
+--------------------------------------------------------------------------------
+Top-down macro of a dark matte charcoal desk scattered with seven or eight blank
+cream payment cards laid out in a loose fan, none of them printed or marked in
+any way. Two simplified geometric hands in deep navy #1E3A5F sleeves enter from
+the bottom of frame and move the cards steadily, turning two of them over,
+sliding others aside, searching. The hands do not find anything and do not stop
+moving as the shot ends. Stylised low-poly 3D, matte clay shading,
+near-photorealistic card stock texture. Camera locked off directly overhead, no
+movement at all — the only motion in frame is the hands. Single hard key from
+camera-left, hard defined shadows under every card, deep near-black falloff, one
+warm amber glint along the card edges. Shallow cinematic depth of field. 9:16
+vertical, cards filling the lower two-thirds, clean headroom above for captions.
+
+--------------------------------------------------------------------------------
+A02 · 0:05.2–0:10.0 · THE ABSENCE
+--------------------------------------------------------------------------------
+Macro close-up of a dark navy velvet presentation tray on a matte charcoal
+surface, the kind a bank would hand a card across on. Cut into the velvet is a
+single card-shaped recess, and the recess is completely empty. Nothing enters
+frame, nothing moves, nothing is placed. The shot simply holds on the empty slot
+for its full length. Stylised low-poly 3D, matte clay tray, near-photorealistic
+velvet nap with visible fibre direction and a soft sheen shifting across it.
+Camera pushes in 6% on the empty recess, locked and steady, no other movement.
+Single hard raking key from upper left, the recess throwing one soft interior
+shadow, deep near-black surround, one warm amber accent along the tray edge.
+Very shallow depth of field. 9:16 vertical, tray in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A03 · 0:10.0–0:15.4 · THE THREE   [generate 10s]
+--------------------------------------------------------------------------------
+Overhead shot of three blank cream payment cards on dark matte charcoal, laid in
+a precise evenly spaced row, all three completely unprinted and identical. A
+simplified geometric hand in a terracotta #E85F42 sleeve enters and sets each
+card down in turn, left to right, deliberately, then withdraws fully from frame.
+The three cards hold, perfectly aligned. Stylised low-poly 3D, matte clay
+materials, near-photorealistic card stock with fine surface fibre. Camera lifts
+slowly and pulls back 8% to take in all three, no tilt. Single hard overhead key
+slightly off-axis so all three shadows fall the same direction and length, deep
+near-black background, one warm amber accent. Slow deliberate motion, no shake.
+9:16 vertical, the row of cards centred in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A04 · 0:15.4–0:20.6 · THE COSTUME   [generate 10s]
+--------------------------------------------------------------------------------
+Extreme macro of a single blank cream payment card lying on dark matte charcoal,
+half covered by a loose cream paper sleeve. A simplified geometric hand in a deep
+navy #1E3A5F sleeve enters, takes the paper sleeve by one corner and draws it
+slowly off the card, revealing the card beneath to be completely identical to the
+one already visible — same colour, same blankness, no difference at all. The hand
+withdraws and both objects hold, the sleeve discarded beside the card. Stylised
+low-poly 3D, matte clay shading, near-photorealistic paper and card stock texture
+with a visible fold crease in the sleeve. Camera locked off, no movement — the
+only motion is the hand and the sleeve. Hard low raking key from camera-left
+throwing one long angular shadow right, deep near-black surround, one warm amber
+edge accent. Very shallow depth of field. 9:16 vertical, lower two-thirds.
+
+--------------------------------------------------------------------------------
+A05 · 0:20.6–0:24.0 · THE PIVOT
+--------------------------------------------------------------------------------
+Top-down macro of the same dark charcoal desk from the opening, the loose fan of
+blank cream cards still spread across it. Two simplified geometric hands in deep
+navy #1E3A5F sleeves enter and sweep every card firmly off to the left in one
+continuous unhurried motion, clearing the surface completely, then withdraw. The
+bare desk holds, empty, for the last beat of the shot. Stylised low-poly 3D,
+matte clay shading, near-photorealistic desk surface with fine dust and
+micro-scratches now visible on the cleared wood. Camera locked off directly
+overhead, no movement. Single hard key from camera-left, the empty surface
+reading almost entirely in shadow, deep near-black falloff, one warm amber
+highlight across the cleared grain. 9:16 vertical, desk filling the frame.
+
+--------------------------------------------------------------------------------
+A06 · 0:24.0–0:29.8 · WHAT EXISTS   [generate 10s]
+--------------------------------------------------------------------------------
+Macro close-up of the cleared dark charcoal desk. A simplified geometric hand in
+a terracotta #E85F42 sleeve enters from the right and sets down one single plain
+cream payment card, squarely, in the centre of the empty surface, then withdraws
+cleanly. The card sits alone and completely still for the remainder of the shot.
+Nothing else is in frame. Stylised low-poly 3D, matte clay shading,
+near-photorealistic card stock texture. Camera pushes in 7% on the single card,
+locked and steady. The lighting warms noticeably compared to the preceding shots
+— a soft key from camera-left with a warm amber fill, gentler shadow, the
+near-black surround lifted slightly. Shallow cinematic depth of field. 9:16
+vertical, card low-centre, generous clean space above.
+
+--------------------------------------------------------------------------------
+A07 · 0:29.8–0:36.2 · THE TWO COSTS   [generate 10s]
+--------------------------------------------------------------------------------
+Macro close-up of a small brass balance scale on a dark matte surface, both pans
+level and each holding one small cream token. A pair of simplified geometric
+hands in deep navy #1E3A5F sleeves enters and lifts one token off each pan,
+removing both, then withdraws from frame entirely. Both pans are left completely
+empty and the beam settles level. Stylised low-poly 3D, matte clay tokens,
+near-photorealistic brass with real specular hits and fine patina, real cast
+shadows. Camera holds still, no movement at all. Deep near-black background,
+single hard key from upper left, one warm amber rim along the brass beam.
+Shallow depth of field. 9:16 vertical, scale in the lower two-thirds, clean dark
+headroom above.
+
+--------------------------------------------------------------------------------
+A08 · 0:36.2–0:42.0 · SECTION 75   [generate 10s]
+--------------------------------------------------------------------------------
+Extreme macro on dark walnut. A blank cream payment card and a blank paper
+receipt lie overlapping, and a heavy brass ring binder clip descends slowly from
+above and closes around both of them together, joining them, then holds. A
+simplified geometric hand in a terracotta #E85F42 sleeve lifts the card by its
+edge a short distance and the receipt rises with it, still attached, before both
+settle back down. Stylised low-poly 3D, matte clay shading, near-photorealistic
+brass, paper grain and card stock. Camera pushes in 9% over the shot, locked and
+steady. Hard raking key from camera-left throwing long defined shadows, deep
+near-black surround, warm amber glint along the brass. Very shallow depth of
+field. 9:16 vertical, objects filling the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A09 · 0:42.0–0:47.0 · THE EMPTY FILE
+--------------------------------------------------------------------------------
+Macro close-up of a closed manila folder on a dark matte charcoal desk — the same
+folder from the opening frame of the Deadbeat film. A simplified geometric hand
+in a deep navy #1E3A5F sleeve enters, opens the cover, and holds it open. The
+folder is completely empty: no paper, no printing, nothing inside at all. The
+hand withdraws and the open empty folder holds. Stylised low-poly 3D, matte clay
+shading, near-photorealistic manila board texture with a worn spine crease.
+Camera pushes in 8% into the open folder, locked and steady. Single hard key from
+camera-left, one deep shadow pooling in the empty fold, near-black surround, one
+warm amber accent on the folder edge. Shallow depth of field. 9:16 vertical,
+folder in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A10 · 0:47.0–0:52.4 · THE REPLACEMENTS   [generate 10s]
+--------------------------------------------------------------------------------
+Macro close-up of the same open manila folder, still empty. A simplified
+geometric hand in a terracotta #E85F42 sleeve enters three separate times and
+places one blank cream sheet of paper into the folder on each pass, building a
+small neat stack of three, then withdraws. The three sheets sit squared and
+still. Stylised low-poly 3D, matte clay shading, near-photorealistic paper grain
+and manila board. Camera holds steady with a slow 5% push, no other movement.
+Single hard key from camera-left, the stack throwing three distinct layered
+shadow edges, deep near-black surround, one warm amber accent. Shallow depth of
+field. 9:16 vertical, folder in the lower two-thirds, headroom above.
+
+--------------------------------------------------------------------------------
+A11 · 0:52.4–0:59.0 · THE CLOSE   [generate 10s]
+--------------------------------------------------------------------------------
+Stylised low-poly 3D scene at a small market stall in warm low evening sun. AMIR
+stands at the counter seen from a low three-quarter angle — COMPLETELY BLANK
+featureless head, no eyes, no nose, no mouth, a smooth matte tan block — wearing
+a terracotta #E85F42 t-shirt, cream #E8DCC8 trousers, white sneakers and a cream
+beanie. Facing him behind the stall is the shopkeeper, also with a COMPLETELY
+BLANK featureless head, in a deep navy #1E3A5F apron, cream shirt and navy
+bucket hat. AMIR sets one plain cream card briefly on the counter, picks it up
+again, lifts a paper bag of goods, and turns to walk out of frame to the right.
+The shopkeeper stills. Simplified geometric anatomy, matte clay-like shading,
+soft subsurface material. Camera tracks back slowly with AMIR then settles on the
+empty counter. Near-photorealistic market street behind, quiet, long golden hour
+shadows, warm amber key from behind, cool fill from the front. Shallow cinematic
+depth of field. 9:16 vertical, figures in the lower two-thirds, generous headroom
+above for the closing captions.
+
+
+================================================================================
+================================  TRACK B  =====================================
+                        STILLS — 11 IMAGES + EDIT MOVES
+================================================================================
+
+SETTINGS: 9:16 · 1080x1920 (or 2048x3640 and downscale — you want the headroom
+for the push) · one image per scene.
+
+Framed 10–15% wider than the video prompts, because every one gets a push in the
+edit and the push crops in. Traded staged action for what a frozen frame can
+carry: raking light, real surface texture, a decisive angle, one unambiguous
+subject.
+
+CONSISTENCY: reuse the locked reference images for AMIR and the shopkeeper.
+Otherwise generate B11 first — both characters in one frame — approve it, lock
+the seed.
+
+HOW TO MOVE THEM. Each still gets the move listed under it, held for the scene's
+full length from the map. Drop the files in video/public/broll/ and drive them
+the way src/inflation/ drives its stills. Push percentages are total travel
+across the scene, eased out, never linear.
+
+NEGATIVE PROMPT — paste once, applies to all 11 stills:
+
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+B01 · hold 5.20s · THE SEARCH
+MOVE: push in 6% and drift left 25px, as though still looking.
+--------------------------------------------------------------------------------
+Overhead flat-lay, 50mm, f/4, perpendicular to the surface. Eight blank cream
+payment cards scattered in a loose disordered fan across a dark brushed-charcoal
+desk, several overlapping, two lying face down, none printed or marked. Two
+simplified geometric hands in deep navy #1E3A5F sleeves rest among them
+mid-search, one fingertip pinning a card at an angle. Stylised low-poly matte
+clay, near-photorealistic card stock grain. Single hard key from camera-left at
+a low raking angle, every card throwing its own hard defined shadow, deep
+near-black falloff at the frame edges. Fine dust and micro-scratches across the
+desk. Cool neutral grade, one warm amber highlight along the topmost card edge.
+Composed low in a 9:16 vertical frame, two-fifths empty above.
+
+--------------------------------------------------------------------------------
+B02 · hold 4.80s · THE ABSENCE
+MOVE: push in 8% dead centre on the empty recess. No drift — this one is a stare.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. A dark navy velvet presentation tray on matte
+charcoal, a single card-shaped recess cut into the velvet, the recess completely
+empty. Nothing else in frame at all. Stylised low-poly matte clay tray,
+near-photorealistic velvet with visible fibre nap and a soft directional sheen
+across it, the recess interior falling into near-total shadow. Single hard raking
+key from upper left, one soft interior shadow in the slot, deep near-black
+surround, one warm amber accent tracing the tray's outer edge. Very shallow
+depth of field, the near lip of the recess sharp, the far edge dissolving. 9:16
+vertical, tray low in frame, empty dark space filling the upper half.
+
+--------------------------------------------------------------------------------
+B03 · hold 5.40s · THE THREE
+MOVE: pull back 7%, revealing all three evenly.
+--------------------------------------------------------------------------------
+Overhead flat-lay, 50mm, f/4, shot square to the surface. Three identical blank
+cream payment cards on dark matte charcoal, laid in a precise evenly spaced row
+with equal gaps, all completely unprinted, each casting an identical hard shadow
+of the same length and direction. Stylised low-poly matte clay materials,
+near-photorealistic card stock fibre. Single hard overhead key slightly off-axis.
+Deep near-black background, restrained palette, one warm amber accent along the
+row. Rigorously symmetrical composition, generous margin all round, 9:16
+vertical, the row sitting in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+B04 · hold 5.20s · THE COSTUME
+MOVE: push in 8% on the seam where sleeve meets card.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8. A blank cream payment card on dark matte charcoal,
+a loose cream paper sleeve drawn half off it, the exposed portion of the card
+beneath visibly identical to the sleeve covering it — same tone, same blankness,
+no distinction whatsoever. A simplified geometric hand in a deep navy #1E3A5F
+sleeve holds one corner of the paper at the frame edge. Stylised low-poly matte
+clay, near-photorealistic paper grain with a sharp fold crease and card stock
+fibre. Hard low raking light from camera-left, one long angular shadow thrown
+right, deep near-black surround, one warm amber edge accent. Extremely shallow
+focus on the seam. 9:16 vertical, objects low-centre, dark space above.
+
+--------------------------------------------------------------------------------
+B05 · hold 3.40s · THE PIVOT
+MOVE: push in 10% — shortest scene in the film, so the move has to be decisive.
+--------------------------------------------------------------------------------
+Overhead flat-lay, 50mm, f/4, of a bare dark brushed-charcoal desk, completely
+empty, with a scatter of blank cream cards pushed hard to the extreme left edge
+of frame and mostly out of it, only two corners still visible. The cleared
+surface dominates. Stylised low-poly matte clay, near-photorealistic wood grain,
+fine dust and micro-scratches now the only detail on the surface. Single hard key
+from camera-left, the empty desk reading largely in shadow with one warm amber
+highlight raking across the grain, deep near-black falloff. 9:16 vertical, the
+bare surface filling the frame, the displaced cards clinging to the left margin.
+
+--------------------------------------------------------------------------------
+B06 · hold 5.80s · WHAT EXISTS   ** the payoff frame — thumbnail candidate **
+MOVE: push in 5%, slow and settled. Let it breathe.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. One single plain cream payment card lying
+perfectly square and centred on a cleared dark charcoal desk, completely
+unprinted, nothing else anywhere in frame. Stylised low-poly matte clay,
+near-photorealistic card stock texture with fine visible fibre. Noticeably warmer
+and softer light than every frame before it — a soft key from camera-left with
+generous warm amber fill, one gentle diffused shadow rather than a hard edge,
+the near-black surround lifted to a deep warm charcoal. Shallow depth of field.
+9:16 vertical, card low-centre, generous clean space above for captions.
+
+--------------------------------------------------------------------------------
+B07 · hold 6.40s · THE TWO COSTS
+MOVE: pull back 6%, opening out to show both pans empty.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. A small brass balance scale on a dark matte
+surface, beam settled perfectly level, both pans completely empty. Two small
+cream tokens lie discarded on the surface beside the base, out of the pans.
+Stylised low-poly matte clay tokens, near-photorealistic brass with real specular
+hits, fine patina and visible casting texture, real contact shadows anchoring the
+base. Deep near-black background, single hard key from upper left, one warm amber
+rim running the length of the brass beam. Shallow depth of field, the beam sharp,
+background dissolving. 9:16 vertical, scale in the lower two-thirds, clean dark
+headroom above.
+
+--------------------------------------------------------------------------------
+B08 · hold 5.80s · SECTION 75   ** heaviest type in the film — leave room **
+MOVE: push in 9% on the brass clip binding the two.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, on dark walnut. A blank cream payment card and a
+blank paper receipt overlapping, bound together through one corner by a heavy
+brass ring clip, the two objects visibly joined and inseparable. Both completely
+unprinted. Stylised low-poly matte clay, near-photorealistic brass with specular
+hits and patina, paper grain, card stock fibre, one soft curl in the receipt.
+Hard raking key from camera-left throwing two long overlapping shadows, deep
+near-black surround, warm amber glint along the clip. Very shallow focus on the
+bound corner. 9:16 vertical, objects in the lower third, unusually generous empty
+space above — this frame carries the largest caption in the film.
+
+--------------------------------------------------------------------------------
+B09 · hold 5.00s · THE EMPTY FILE
+MOVE: push in 7% into the fold.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. An open manila folder on a dark matte charcoal
+desk, both leaves spread, the interior completely empty — no paper, no printing,
+nothing. A worn crease runs down the spine. Stylised low-poly matte clay,
+near-photorealistic manila board texture with softened corners and fibre showing
+at the edges. Single hard key from camera-left, one deep shadow pooling along the
+inner fold, near-black surround, one warm amber accent along the outer edge.
+Shallow depth of field, the near leaf sharp, the far leaf softening. 9:16
+vertical, folder in the lower two-thirds, headroom above.
+
+--------------------------------------------------------------------------------
+B10 · hold 5.40s · THE REPLACEMENTS
+MOVE: push in 6% and drift down 20px, settling onto the stack.
+--------------------------------------------------------------------------------
+Macro still life, 85mm, f/2.8. The same open manila folder, now holding a small
+neat stack of exactly three blank cream sheets, squared to the fold, all
+completely unprinted. Stylised low-poly matte clay, near-photorealistic paper
+grain and manila board. Single hard key from camera-left picking out three
+distinct layered shadow edges along the stack, deep near-black surround, one warm
+amber accent. Shallow depth of field, the top sheet sharp. 9:16 vertical, folder
+in the lower two-thirds, clean space above.
+
+--------------------------------------------------------------------------------
+B11 · hold 6.60s · THE CLOSE   ** GENERATE FIRST — both character references **
+MOVE: push in 4%, barely moving. The film should come to rest here.
+--------------------------------------------------------------------------------
+Environmental two-shot at a market stall, 35mm, f/2, warm low evening sun. AMIR
+stands at the counter in three-quarter profile, a COMPLETELY BLANK featureless
+head — no eyes, no nose, no mouth, a smooth matte tan block — in a terracotta
+#E85F42 t-shirt, cream #E8DCC8 trousers, white sneakers and a cream beanie, a
+paper bag of goods held in one simplified geometric hand, the other hand empty at
+his side. Behind the stall stands the shopkeeper, also COMPLETELY BLANK
+featureless head, in a deep navy #1E3A5F apron over a cream shirt and a navy
+bucket hat, forearms resting on the counter, weight settled, still. Stylised
+low-poly geometric anatomy, matte clay-like shading with soft subsurface scatter.
+Near-photorealistic market street behind falling into soft focus, quiet and
+nearly empty, long golden hour shadows across the ground. Warm amber key from
+behind the figures, cool fill from the front. Shallow depth of field. 9:16
+vertical, both figures in the lower two-thirds, generous headroom above.
+
+
+================================================================================
+CAPTIONS — identical for both tracks
+================================================================================
+ #  | CAP 1                          | CAP 2
+----|--------------------------------|-------------------------------------------
+ 01 | YOU WENT LOOKING FOR THE HALAL CARD | so did everyone. here's what's there.
+ 02 | IN BRITAIN, THERE ISN'T ONE    | not from any Islamic bank. no such product.
+ 03 | ABROAD, THEY BUILT ONE         | a fixed fee instead of interest
+ 04 | THE SAME DEBT IN A COSTUME     | what most scholars said about two of the three
+ 05 | STOP HUNTING FOR A CARD        | the fix was never a card
+ 06 | IT'S A DEBIT CARD              | on a Sharia-compliant current account. that's it.
+ 07 | YOU JUST GAVE TWO THINGS UP    | know what they are before you switch
+ 08 | SECTION 75                     | over £100, the bank is liable alongside the shop
+ 09 | A DEBIT CARD BUILDS NOTHING    | your credit file stays empty
+ 10 | RENT. ROLL. BILLS.             | all three report. none of them need credit.
+ 11 | SPEND WHAT YOU ALREADY HAVE    | full breakdown on the channel
+
+CAPTION SPEC — unchanged. Heavy condensed sans, uppercase for CAP 1, sentence
+case for CAP 2. #F5F0E6 with a 2px #0A0C10 outline, accent word in #E85F42.
+CAP 1 sits at 62% height, CAP 2 at 76%. CAP 1 lands on the first stressed
+syllable of the line, CAP 2 one beat later, both clearing 200ms before the cut.
+
+CAP 1 on scene 02 is the reversal and it is the whole hook. Give it the full box
+— hold CAP 2 back until "THERE ISN'T ONE" has had a full beat alone.
+
+Scene 08 breaks the spec deliberately: CAP 1 is two words but the burned numbers
+under it are the largest type in the film. Compose B08 for it.
+
+
+================================================================================
+VOICEOVER — to record: media/halalcard-vo.mp3 (target ~59.0s)
+================================================================================
+ElevenLabs v3, stability 45–55, similarity 75, speed 1.0. Same as Deadbeat. Tags
+sparse, full stops between the numbers doing the pacing.
+
+[serious] So you went looking for the halal credit card.
+Here's the part nobody says out loud. In Britain, there isn't one.
+Not from any of the Islamic banks. The product does not exist.
+Abroad, they built one. A fixed fee instead of interest.
+And the majority of scholars looked at two of those structures and called them
+the same debt in a costume.
+[serious] So stop hunting for a better card.
+The halal card that actually exists is a debit card. On a Sharia-compliant
+current account.
+That's the whole product. Boring. Real. Available today.
+But you just gave two things up.
+[emphatic] Section seventy-five. Spend over a hundred pounds on credit, and the
+bank is liable alongside the shop. Debit doesn't carry that.
+And your credit file. A debit card builds nothing.
+[calm] Both have fixes. Report your rent. Get on the electoral roll. Put a bill
+in your name.
+[warmly] The card was never the fix. The fix is spending money you already have.
+Full breakdown on the channel.
+
+PACING NOTE. "In Britain, there isn't one" is the whole video. Full beat of
+silence either side — do not let "Not from any of the Islamic banks" ride in on
+it. If v3 rushes it, generate scenes 01–02 as an isolated pass and cut it in,
+same remedy as the Deadbeat hook.
+
+SECOND PACING NOTE. "Boring. Real. Available today." is three separate landings.
+Three full stops, three beats. If it runs together it sounds like a product ad
+instead of the deflation it is meant to be.
+
+
+================================================================================
+PACKAGING
+================================================================================
+TITLE        There Is No Halal Credit Card in Britain
+             alt 1: The Halal Card That Actually Exists  (the promised title)
+             alt 2: You Don't Need a Credit Card. Here's What Replaces It.
+
+             RECOMMENDED: the primary. It is declarative, it is true, and the
+             absence is a stronger hook than the product would have been —
+             nobody scrolls past being told a thing they were searching for
+             does not exist. The cost is that it does not match the words
+             Deadbeat promised. Mitigate in the pinned comment: "Part 3 of the
+             debt series — this is the halal card video, it just isn't the
+             answer anyone expected." The declarative-beats-question finding
+             from the Klarna retitle holds either way.
+
+THUMBNAIL    B02 — the empty velvet recess, isolated, with ZERO set in terracotta
+             beside it. The empty slot does more work than any card could.
+             B06 also works if you want the calm version rather than the absence.
+LENGTH       59.0s (slate rule: 30–60s — this sits at the ceiling, do not add)
+DESCRIPTION  600+ characters. Name the three banks here rather than on screen,
+             put the Section 75 thresholds in full, and link the rent-reporting
+             services. This description is doing real search work — "halal credit
+             card UK" is high-intent and currently answered badly.
+TAGS         total under 500 characters — hard YouTube limit, silently rejects.
+KEYWORDS     "halal" belongs in the title and does the intent work. "riba" still
+             does NOT — English SERP is dominated by the Royal Institute of
+             British Architects. Description and spoken script only.
+
+SERIES. This closes THE DEBT SERIES. Number it "Part 3" in the title card and
+in the description, build the playlist, and set it as the channel's featured
+playlist while the series is running.
+
+DO NOT PROMISE A PART 4. The end card and pinned comment point at the long-form
+cut instead. That handoff — three Shorts feeding one long-form — is the entire
+mechanism in channel-growth-plan.txt, and this is the video where it starts.
+
+AFFILIATE NOTE. This is the first script that names sendable products. If you
+ever attach a referral link to a current account mentioned here, disclose it on
+screen and in the description, every time, without exception. The credibility
+built by the ACCURACY discipline below is worth more than any single referral,
+and it is spent the first time a viewer finds an undisclosed link.
+
+
+================================================================================
+ACCURACY — the four claims that need to survive a comment section
+================================================================================
+
+"IN BRITAIN, THERE ISN'T ONE" — the strongest claim in the film and the one to
+re-check before publishing. No UK retail Islamic bank currently offers a
+Sharia-compliant credit card; the contested structures used in Malaysia and the
+Gulf never crossed into UK retail. This is a market-availability claim, not a
+principle, and market availability changes. Check Al Rayan, Gatehouse, Nomo and
+UBL directly the week you publish. If one has launched something, the video
+still works — the line becomes "there is almost one" — but do not discover that
+in the comments.
+
+"MOST SCHOLARS CALLED TWO OF THEM A COSTUME" — bai al-inah and tawarruq are
+disapproved by the majority within the Hanbali, Maliki and Hanafi schools, on
+the reasoning that they are sale contracts structured to arrive at interest-
+bearing debt by another route. Ujrah, the fee-based structure, has the widest
+acceptance of the three and is the one most commonly defended — which is why the
+VO says "two of those structures" and not "all three". That precision matters;
+do not let it get trimmed in the edit. Note also that ujrah is not uncontested
+either, and the description should say so.
+
+The posture holds: the VO reports what scholars concluded. It does not adopt a
+position in your voice. Same line as Klarna and Deadbeat. On a question this
+differed, reporting is the only defensible register, and it is also the one that
+cannot be quoted back at you.
+
+"SECTION 75" — Consumer Credit Act 1974. The card issuer is jointly and
+severally liable with the retailer where the item costs over £100 and no more
+than £30,000. It applies to credit cards, not to debit or prepaid cards. One
+detail worth putting in the description because almost nobody knows it: you only
+need to have paid part of the price on the card — a deposit is enough to bring
+the whole purchase within it. The debit-card equivalent, chargeback, is a Visa /
+Mastercard / Amex scheme rather than a statutory right, has no minimum or
+maximum, and typically runs to 120 days. "Not law" is the honest distinction and
+the caption says exactly that.
+
+"REPORT YOUR RENT" — Canopy and CreditLadder both report rent payments to credit
+reference agencies by reading tagged payments from your bank. Their free tiers
+differ: Canopy reports to two agencies free, CreditLadder reports to one free
+with the full set paid. Do not name a specific free tier on screen, it will
+change. And carry the caveat into the description, because leaving it out would
+be the dishonest version: rent reporting records missed payments too. It is a
+credit file, not a credit boost.
+================================================================================
