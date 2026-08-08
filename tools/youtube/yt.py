@@ -66,6 +66,9 @@ CHUNK = 8 * 1024 * 1024  # 8 MiB upload chunks
 # config
 # --------------------------------------------------------------------------
 
+CRED_SOURCE = {}  # key -> "environment" | "config file", filled by load_config
+
+
 def load_config():
     cfg = {}
     if os.path.exists(CONFIG_PATH):
@@ -74,10 +77,16 @@ def load_config():
                 cfg = json.load(fh)
         except (OSError, ValueError) as exc:
             die(f"could not read {CONFIG_PATH}: {exc}")
+    for key in cfg:
+        CRED_SOURCE[key] = "config file"
+    # Environment wins, and we record which won. "Is this credential actually
+    # coming from the environment, or just from this container's config file?"
+    # is otherwise unanswerable from inside a session.
     for key in ("api_key", "client_id", "client_secret", "refresh_token", "channel_id"):
         env = os.environ.get("YT_" + key.upper())
         if env:
             cfg[key] = env
+            CRED_SOURCE[key] = "environment"
     return cfg
 
 
@@ -787,16 +796,42 @@ def cmd_update(args, cfg):
 # --------------------------------------------------------------------------
 
 def cmd_setup(args, cfg):
-    have = lambda k: "set" if cfg.get(k) else "MISSING"
+    def have(k):
+        if not cfg.get(k):
+            return "MISSING"
+        src = CRED_SOURCE.get(k, "?")
+        tail = "survives new sessions" if src == "environment" else "THIS CONTAINER ONLY"
+        return f"set  ({src} - {tail})"
+
+    oauth = ("client_id", "client_secret", "refresh_token")
+    ready = all(cfg.get(k) for k in oauth)
+    env_backed = all(CRED_SOURCE.get(k) == "environment" for k in oauth)
+    if ready and env_backed:
+        verdict = "READY - OAuth configured and environment-backed."
+    elif ready:
+        verdict = ("WORKS NOW, BUT NOT PERSISTED - these die with this session. "
+                   "Add them to the Claude environment variables.")
+    else:
+        verdict = "OAuth not configured."
+
+    live = ""
+    if ready:
+        try:
+            access_token(cfg)
+            live = "  Live check: token accepted by Google - credentials are valid.\n"
+        except SystemExit:
+            live = "  Live check: FAILED - Google rejected the refresh token.\n"
+
     print(f"""
 YouTube setup - current state
   api_key        {have('api_key')}
   client_id      {have('client_id')}
   client_secret  {have('client_secret')}
   refresh_token  {have('refresh_token')}
-  channel_id     {cfg.get('channel_id') or 'MISSING'}
+  channel_id     {have('channel_id')}
 
-  config file    {CONFIG_PATH}
+  {verdict}
+{live}  config file    {CONFIG_PATH}
 
 TIER 1 - read public stats (2 minutes)
   1. https://console.cloud.google.com/projectcreate  -> create a project
