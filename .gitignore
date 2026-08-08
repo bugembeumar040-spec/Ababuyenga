@@ -1,0 +1,8 @@
+# Never commit YouTube credentials
+youtube.json
+.env
+*.token
+client_secret*.json
+
+__pycache__/
+*.pyc
