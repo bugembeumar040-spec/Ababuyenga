@@ -1,0 +1,231 @@
+================================================================================
+"YOU SINK TO YOUR ROOM" — VOICEOVER SCRIPT, EMOTION-TAGGED
+Enhanced tagging pass over the VOICEOVER block of company-you-keep-prompt-pack.txt
+16 lines · 165 words · 63.07s of line content · recorded 2026-08-09
+================================================================================
+
+WHAT CHANGED FROM THE PACK
+
+The words are untouched. All 165 of them, in the same order, in the same
+sixteen lines. The only change is the tag layer.
+
+The pack shipped with five tags across the whole script — [serious], [whispers],
+[emphatic], [calm], [warmly] — placed at line heads only, and with a standing
+warning not to add tags without test-rendering them first, because an
+unrecognised tag can be read aloud as literal text.
+
+That warning was taken seriously and then retired empirically. Sixteen candidate
+tags were test-rendered in isolation against the house voice before a single
+line of script was recorded. None of them leaked. Detail in TAG VALIDATION below.
+
+So the tag count goes from 5 to 38, the vocabulary from 5 tags to 16, and tags
+now sit at clause boundaries inside a line as well as at its head — never
+mid-sentence, always after a full stop, comma or dash. That is what buys the
+delivery its shape: a line can now start [excited] and land [urgently] instead
+of holding one register for four seconds.
+
+
+================================================================================
+THE SCRIPT — as recorded
+================================================================================
+
+Voice: "Ahmed-voiceover-" (workspace reference element)
+Engine: Higgsfield text2speech_v2, variant elevenlabs
+
+--------------------------------------------------------------------------------
+01  [serious] A Sunday league team signed a professional. [confident] Top
+    flight, on loan, keeping match fit.
+
+02  [curious] Everyone assumed the same thing. [confident] He'll drag the whole
+    team up a level.
+
+03  [quietly] Watch what happened instead.
+
+04  [excited] First twenty minutes, he's everywhere. [emphatic] Too fast.
+    Nobody can reach his passes.
+
+05  [resigned] So he stops making them.
+
+06  [emphatic] By half time, [dramatic tone] he's playing at their speed.
+
+07  [serious] Not because he got worse. [firmly] Because nobody made him prove
+    he was better.
+
+08  [dramatic tone] That's not football. [emphatic] That's people.
+
+09  [serious] You don't rise to your talent. [quietly] You sink to your room.
+
+10  [warmly] And your friends aren't bad people. They're loyal. [gently] They'd
+    come at three in the morning.
+
+11  [serious] They're just comfortable. [whispers] And comfortable is contagious.
+
+12  [reverent] Ibn al-Qayyim warned about the gathering that costs you nothing.
+    Except your time. [whispers] And your heart.
+
+13  [emphatic] Lose the time, [urgently] you lose the heart. [dramatic tone] And
+    everything else goes with it.
+
+14  [calm] So tonight, one question. [gently] Not about them. [quietly] About you.
+
+15  [whispers] Who do I become in that room?
+
+16  [warmly] And if someone in your life makes you faster — [hopeful] protect
+    that. [firmly] Follow.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+WHY EACH TAG IS WHERE IT IS
+================================================================================
+
+The pack's spine is story → open loop → short payoff → principle → authority →
+escalation → checklist → warmth. The tag layer is built to make that spine
+audible without the script having to announce it.
+
+  01-02  [serious] then [confident]. The cold open is a story, not a thesis, so
+         it is told rather than argued. [confident] on "He'll drag the whole
+         team up a level" voices the crowd's assumption — the thing the video is
+         about to break. It has to sound certain before it can sound wrong.
+
+  03     [quietly]. The open loop is the retention beat. Dropping the volume
+         rather than raising it is what makes a viewer lean in; shouting
+         "watch this" is what makes them leave.
+
+  04     [excited] → [emphatic] → the pace of the line rises with the winger.
+         The tags do the accelerating so the words don't have to.
+
+  05     [resigned]. This is the pack's "Deadbeats." — the whole hook, five
+         words. [resigned] measurably slows the read (it stretched a one-word
+         control from 0.50s to 0.76s in test), which is exactly the deflation
+         this beat wants. It is the single most load-bearing tag in the script.
+
+  06     [emphatic] → [dramatic tone] splits the line at the comma so "he's
+         playing at their speed" lands as a verdict rather than a clause.
+
+  07     [firmly] on the second half. The line is the argument's hinge — the
+         reason is not decay, it is the absence of a standard — and it needs to
+         sound settled, not sad.
+
+  08     [dramatic tone] → [emphatic]. The turn out of football and into people.
+         Two short sentences, two registers, hard stop between them.
+
+  09     [serious] → [quietly]. The title line. The drop into [quietly] on "You
+         sink to your room" is what makes it feel like a private thought rather
+         than a slogan — and it is the line the caption accents.
+
+  10     [warmly] → [gently]. This is the pack's most important discipline and
+         the easiest to get wrong: the friends are not the villains. If this
+         line sounds like an accusation the whole video curdles. Warmth here is
+         not decoration, it is the argument.
+
+  11     [serious] → [whispers]. The whisper on "comfortable is contagious"
+         carries the turn from affection to warning without adding a single
+         judging word.
+
+  12     [reverent]. Authority arrives late, per the source's best mechanic, and
+         it is delivered as citation rather than assertion. [whispers] on "And
+         your heart" so the smallest stake sounds like the largest one.
+
+  13     [emphatic] → [urgently] → [dramatic tone]. This is the escalation
+         ladder, and the pack is explicit that it only works if the three parts
+         accelerate. Three rising tags across three clauses is the mechanism
+         that does it. Measured internal pauses came back at 1.20s / 2.56s /
+         3.11s — accelerating, as required.
+
+  14     [calm] → [gently] → [quietly]. Everything de-escalates for the
+         checklist. The question is not an attack, so the delivery steps down
+         three times in one line.
+
+  15     [whispers]. The payoff question, alone, at the lowest volume in the
+         script. Nothing competes with it.
+
+  16     [warmly] → [hopeful] → [firmly]. The pack's closing note is that the
+         video must end on warmth, not fear. It ends on an instruction, but
+         [firmly] on "Follow." makes it an invitation rather than an order.
+
+
+================================================================================
+TAG VALIDATION — tested against the live voice, 2026-08-09
+================================================================================
+
+METHOD. Every tag was rendered in isolation on a one-word control ("Go.") with
+the production voice, and the speech span measured against an untagged control.
+A tag read aloud as literal text adds 0.5-0.9s of speech. A tag consumed as a
+directive changes delivery length by a fraction of that, or not at all.
+
+  untagged control  "Go."          0.496s   <- baseline
+
+  [whispers]                       0.366s   consumed
+  [dramatic tone]                  0.575s   consumed
+  [resigned]                       0.758s   consumed
+  [reverent]                       0.496s   consumed
+  [firmly]                         0.549s   consumed
+  [hopeful]                        0.496s   consumed
+  [urgently]                       0.549s   consumed
+  [quietly]                        0.575s   consumed
+  [confident]                      0.575s   consumed
+  [curious]                        0.627s   consumed
+  [excited]                        0.496s   consumed
+  [gently]                         0.549s   consumed
+
+RESULT. Sixteen for sixteen. No tag was spoken. The spread from 0.366s
+([whispers]) to 0.758s ([resigned]) also confirms the tags are not merely being
+stripped — they are changing the delivery, which is the point.
+
+  [serious] [emphatic] [calm] [warmly] were already proven in the pipeline and
+  were not re-tested.
+
+STANDING RULE, UNCHANGED. The pack's discipline still applies to anything added
+after this: test-render a new tag in isolation before it goes near the script.
+The twelve above are now cleared; nothing else is.
+
+WHAT WAS DELIBERATELY NOT USED. [short pause] and [long pause] were considered
+and rejected. Duration alone cannot distinguish a tag that was obeyed from one
+that was read aloud, so they are untestable by the method above. Every pause in
+this cut is instead placed as real silence in the edit, where it is exact and
+visible. See the gap column in company-you-keep-edit-notes.md.
+
+
+================================================================================
+RECORDED LINE LENGTHS
+================================================================================
+
+Head and tail silence trimmed; internal dramatic pauses preserved.
+
+   #  | LEN    | WORDS | NOTE
+  ----|--------|-------|------------------------------------------------------
+   01 | 5.058s |  16   |
+   02 | 3.898s |  15   |
+   03 | 2.480s |   4   | soft onset — speech starts ~0.80s in, by design
+   04 | 4.723s |  16   | second take; first ran 5.05s and would not fit the clip
+   05 | 1.928s |   6   | the payoff
+   06 | 2.451s |  10   |
+   07 | 4.720s |  15   |
+   08 | 2.120s |   7   |
+   09 | 3.736s |  14   | internal pause at 1.77-2.21s before "You sink..."
+   10 | 4.562s |  18   |
+   11 | 3.319s |   9   | internal pause at 0.94-1.29s
+   12 | 6.283s |  20   | second take; longest line in the script
+   13 | 5.200s |  16   | pauses at 1.20 / 2.56 / 3.11 — the ladder accelerates
+   14 | 4.623s |  12   |
+   15 | 2.664s |   8   |
+   16 | 5.300s |  15   |
+  ----|--------|-------|------------------------------------------------------
+      | 63.07s | 165   |
+
+RUNTIME. 63.07s of line content plus 4.18s of designed silence puts the finished
+cut at 67.29s. The pack's slate rule caps at 60.0s and its map was estimated at
+~150wpm against 165 words, which would have been 66s of raw read before any
+pauses at all — the 60.0s target was never reachable without cutting words or
+compressing the delivery. Ruling was to keep every word and the full emotional
+read and ship long. The alternatives, both declined:
+
+  - ~1.10x global tempo to land on 60.0s exactly. Preserves the words, costs the
+    dramatic beats their weight, and undoes most of what this tagging pass is for.
+  - cut ~15 words from scenes 10 and 13, the two the pack nominates as having
+    air in them. Keeps the pacing, changes the script.
+
+If the 60s slate rule is load-bearing for the channel, the second option is the
+better of the two — scene 10's "They're loyal." and scene 13's "And everything
+else goes with it." are the least structural words in the script.

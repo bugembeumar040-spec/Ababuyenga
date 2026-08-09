@@ -1,0 +1,8 @@
+# generation + render intermediates — reproducible via build/build.py + build/captions.py
+build/raw/
+build/seg/
+build/out/
+build/vo/
+build/cap/
+build/frames/
+build/tagtest/

@@ -1,0 +1,781 @@
+================================================================================
+"YOU SINK TO YOUR ROOM" — REVERSE-ENGINEER + PROMPT PACK
+Source teardown of an Indonesian short, rebuilt in English
+9:16 · 1080x1920 · 16 scenes · 60.00s
+Track A: VIDEO (Higgsfield, Seedance 2.5)
+Follows credit-card-prompt-pack.txt
+================================================================================
+
+WHAT THIS FILE IS
+
+Three things, in order:
+
+  PART 1 — TEARDOWN.  What the source video actually does, beat by beat, and
+                      which of its mechanics are worth stealing.
+  PART 2 — TRANSLATION. The source audio, Indonesian to English, timestamped.
+  PART 3 — THE REBUILD. A new English script on the same skeleton, plus 16
+                      Seedance 2.5 prompts to shoot it.
+
+The source is not a finance video, so this pack does not inherit the Finance %
+Decoded slate, the AMIR character sheet, or the burn-the-numbers rule — there
+are no numbers in this one. It DOES inherit the house architecture: scene map
+first, prompts hang off the map, VO recorded before anything is generated,
+accuracy section at the bottom.
+
+STATUS: NOTHING HAS BEEN GENERATED, AND THE SHOOT HAPPENS IN THE APP.
+Unlimited mode works on Seedance 2.5 in the Higgsfield app, and does not work
+through the API at any price — use_unlim is rejected there on every model,
+including the ones the catalog flags as eligible. Generating through the API
+would bill credits, which the brief forbids. So the sixteen prompts below are
+written to be pasted into the app composer, whose defaults already match this
+pack exactly. Full detail in GENERATION RUNBOOK at the foot of this file.
+
+
+================================================================================
+================================  PART 1  ======================================
+                            TEARDOWN OF THE SOURCE
+================================================================================
+
+SOURCE       https://youtube.com/shorts/F1jvrNlxMPE
+TITLE        "Efek Salah Gaul Jadi Bikin Gak Produktif"
+             (= "The Effect of Bad Company Making You Unproductive")
+SPEAKER      Ustadz Muhammad Nuzul Dzikri
+LANGUAGE     Indonesian
+LENGTH       1:25 (85s)
+SCENES       24 — average 3.54s per cut
+FORMAT       Lecture audio over illustrated b-roll. No talking head, anywhere.
+
+THE SEVEN MECHANICS WORTH STEALING
+
+  1. COLD OPEN ON A STORY, NOT A THESIS.
+     First words are "There was a bicycle community." No greeting, no framing,
+     no "today I want to talk about." The viewer is inside a story before they
+     have decided whether to stay. Your Klarna and credit card hooks both open
+     on a claim; this opens on a scene. The claim can wait.
+
+  2. THE ANALOGY CARRIES THE ARGUMENT BEFORE THE ARGUMENT ARRIVES.
+     0:00–0:18 is entirely cycling. The abstract point — "you enter that group,
+     your performance will change" — does not land until 0:18, by which time
+     the viewer has already agreed to it in concrete form. You cannot argue
+     with a story you have already accepted.
+
+  3. THE REVERSAL QUESTION AS AN OPEN LOOP.
+     0:12 — "will the pace get slower, or will the champion get faster?"
+     That is the retention device. It is a binary, it is genuinely uncertain,
+     and it is asked at exactly the point where a viewer would otherwise leave.
+
+  4. A TWO-WORD PAYOFF.
+     0:15 — "He slows down." Three seconds of silence-adjacent delivery doing
+     the work of a paragraph. Same instinct as "Deadbeats." on the credit card
+     pack: the payoff line must be shorter than the setup.
+
+  5. AUTHORITY INJECTED LATE, NOT EARLY.
+     Ibn al-Qayyim does not appear until 0:44 — past the halfway mark, and only
+     after the mundane observation has already been conceded. Scripture as
+     confirmation of something you already believe, not as the premise you are
+     asked to accept. This is the single most transferable move in the video.
+
+  6. AN ESCALATION LADDER AT THE STAKES BEAT.
+     1:03 — "your life falls apart, your household falls apart, family falls
+     apart." Tricolon, widening scope, no new information in items two and
+     three. It is pure rhythm, and it works.
+
+  7. CLOSES ON A CHECKLIST, THEN ON WARMTH.
+     1:10–1:21 gives two testable questions ("are they righteous?", "are they
+     productive?"), then turns positive: protect the good ones, stay close.
+     It does not end on fear. Note this — your last two videos both close on
+     an instruction, not on a feeling.
+
+THE VISUAL SYSTEM
+
+  Flat-colour stylised illustration, high saturation, complementary orange and
+  teal carrying almost every frame. Soft directional light, long diagonal
+  shadows, geometric clouds, flat-plane foliage. No text on screen at any point.
+  No face is ever the subject of the argument — people are shown in wide or
+  from behind, and the emotional load is carried by OBJECT METAPHORS:
+
+      turtle circling a glass bowl    = motion without progress   (0:29)
+      cracked vase shedding shards    = the cascade               (1:03)
+      tangled utility wires           = "affairs become chaotic"  (0:56)
+      cluttered desk, unread stacks   = the lost month            (0:33)
+
+  This is the cheapest high-value thing in the whole video. Object b-roll has no
+  face to drift, no hands to mangle, no lip-sync to fail. Roughly half the cuts
+  are objects. Copy that ratio — it is why the video looks consistent, and it is
+  what will keep your generation retries down.
+
+WHAT THE SOURCE DOES BADLY — do not copy these
+
+  - The middle sags. 0:22–0:44 restates the same point four times (unproductive
+    friends, time consumed, the lost month, following their pace). Twenty-two
+    seconds for one idea. The rebuild below compresses that block to eleven.
+  - Scene 24 is four seconds of music over a fade. On a Short, a four-second
+    outro with no voice is a swipe. The rebuild ends on the last spoken word.
+  - The b-roll and the words drift apart in places — the skyscraper flythrough
+    at 0:44 arrives under "Ibnu Qayyim said," which is a citation, not a city.
+
+
+================================================================================
+================================  PART 2  ======================================
+                     SOURCE AUDIO — INDONESIAN TO ENGLISH
+================================================================================
+
+Timestamped, faithful to the source. This is the translation of what is actually
+said, not the rebuild — the rebuild is Part 3. Rendered into natural English;
+the speaker's Indonesian is colloquial and the literal gloss reads broken.
+
+  0:00  There was a cycling community.
+  0:02  Sunday morning, ready for a ride from Jakarta to Bandung.
+  0:05  One of the group happens to know a Tour de France champion.
+        "Hey — I'll join the ride too."
+  0:09  So when the Tour de France champion joins,
+  0:12  does the pace get slower, or does the champion get faster, all the way
+        to Bandung?
+  0:15  He slows down.
+  0:18  You enter that group, your performance changes. That is human nature.
+  0:22  Even if you have the best talent. Even if you have trained to the
+        highest level.
+  0:26  We spend time with people who aren't bad people — just unproductive,
+        taking life easy.
+  0:29  And when we join them, we lose our productivity. Our time gets eaten.
+  0:33  What should have taken one month to get through — A, B, C, D —
+  0:37  by joining them, goes nowhere.
+  0:40  We follow their speed. We follow their pace.
+  0:44  Ibn al-Qayyim said:
+  0:47  "Some of our teachers said: be careful in your keeping of company, with
+        people,
+  0:52  with a close friend — where interacting with them wastes your time,
+  0:56  and sitting with them corrupts your heart.
+  0:59  Because when the time is lost and the heart is corrupted, then all the
+        affairs of Allah's servant become chaotic."
+  1:03  Everything falls apart. Your life falls apart, your household falls
+        apart,
+  1:06  your family falls apart. Look at your environment. Be careful about the
+        company you keep.
+  1:10  Check your closest friends — are they among the righteous?
+  1:13  Then ask a second question: are they productive? Do they value their
+        time, or not?
+  1:17  Oh — yes? Then protect your relationship with friends like that. Stay
+        close to them.
+  1:21  [no speech — music to fade]
+
+TRANSLATION NOTES
+
+  - "Salah gaul" in the title has no clean English equivalent. It is closer to
+    "running with the wrong crowd" than to "bad company" — it carries social
+    drift, not moral condemnation. The whole video depends on that distinction,
+    and the speaker makes it explicit at 0:26: they aren't bad people.
+  - The Ibn al-Qayyim passage is delivered as the ustadz's own rendering, which
+    is why it is framed "some of our teachers said" — that chain belongs to the
+    speaker relaying the citation, not to the printed text. See ACCURACY.
+  - 0:17 "Ouh, Yes!" in the raw transcript is the speaker voicing the listener's
+    imagined answer, not an exclamation. Rendered above as "Oh — yes?"
+
+
+================================================================================
+================================  PART 3  ======================================
+                                 THE REBUILD
+================================================================================
+
+Same skeleton, new body. Football replaces cycling because the mechanic needs a
+sport where the audience already has an instinct about what "a professional"
+means, and for a UK-facing English audience that is a Sunday league pitch, not a
+Jakarta–Bandung ride. Everything else in the structure is the source's.
+
+THE SPINE
+  story cold open → analogy runs → open loop → short payoff → principle →
+  application → authority (late) → escalation → checklist → warmth
+
+
+================================================================================
+SCENE MAP — the spine the prompts hang off
+================================================================================
+
+ #  | IN     | OUT    | LEN   | GEN | SCENE          | VO LINE
+----|--------|--------|-------|-----|----------------|-------------------------
+ 01 | 0:00.0 | 0:04.2 | 4.20s | 5s  | cold open      | A Sunday league team signed a professional
+ 02 | 0:04.2 | 0:08.0 | 3.80s | 5s  | the assumption | Everyone assumed the same thing
+ 03 | 0:08.0 | 0:11.2 | 3.20s | 5s  | the open loop  | Watch what happened instead
+ 04 | 0:11.2 | 0:15.0 | 3.80s | 5s  | too fast       | Nobody can reach his passes
+ 05 | 0:15.0 | 0:18.2 | 3.20s | 5s  | he stops       | So he stops making them
+ 06 | 0:18.2 | 0:22.0 | 3.80s | 5s  | half time      | He's playing at their speed
+ 07 | 0:22.0 | 0:25.8 | 3.80s | 5s  | why            | Nobody made him prove he was better
+ 08 | 0:25.8 | 0:29.0 | 3.20s | 5s  | the turn       | That's not football. That's people.
+ 09 | 0:29.0 | 0:32.8 | 3.80s | 5s  | the principle  | You sink to your room
+ 10 | 0:32.8 | 0:36.8 | 4.00s | 5s  | not bad people | They'd come at 3am
+ 11 | 0:36.8 | 0:40.0 | 3.20s | 5s  | comfortable    | Comfortable is contagious
+ 12 | 0:40.0 | 0:44.6 | 4.60s | 5s  | the authority  | Ibn al-Qayyim wrote about this gathering
+ 13 | 0:44.6 | 0:48.8 | 4.20s | 5s  | the cascade    | Lose the time, you lose the heart
+ 14 | 0:48.8 | 0:52.6 | 3.80s | 5s  | the question   | One question. Not about them.
+ 15 | 0:52.6 | 0:55.8 | 3.20s | 5s  | who am i       | Who do I become in that room?
+ 16 | 0:55.8 | 1:00.0 | 4.20s | 5s  | the close      | Protect that. Follow.
+
+TOTAL 60.00s. Sixteen cuts, 3.75s average — deliberately matched to the source's
+3.54s rhythm. Do not let any clip sit longer than 5s in the cut.
+
+WHY GEN IS 5s ON EVERY ROW. Seedance 2.5's minimum duration is 4 seconds, and
+eight of these scenes are shorter than that. Generating everything at a uniform
+5s gives 0.4–1.8s of handle on every clip, keeps the runbook to one parameter
+set, and removes the per-clip duration mistake. Trim to the OUT point in the
+edit. Never stretch a clip to fill a scene — the slow-down reads instantly.
+
+TIMINGS ARE TARGETS, NOT THE CUT. House rule, unchanged: record the VO first,
+re-derive the real IN/OUT points from the recorded audio, and only then generate.
+The map above is estimated at ~150wpm against a 165-word script.
+
+
+================================================================================
+STYLE LOCK — paste verbatim into every prompt
+================================================================================
+
+Every one of the 16 prompts below already ends with this block. It is reproduced
+here on its own so that when you add a scene, you do not paraphrase it. The look
+falls apart the moment two clips describe the style in different words.
+
+  "Flat-colour stylised 3D illustration, high colour saturation, complementary
+  orange and teal palette, soft directional sunlight with long diagonal shadows,
+  flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+  film grain. No text, no lettering, no signage, no logos, no watermarks, no
+  numbers anywhere in frame."
+
+PALETTE — hex, for the edit and for any burn-in
+  terracotta   #E8622F     the accent, and the only warm-red allowed
+  teal         #1F7A8C     the cold counterweight
+  cream        #F5EFE2     caption fill, unchanged from house
+  deep navy    #142433     caption outline, night skies
+  mustard      #F2B33D     highlight only, never a full plane
+  leaf         #3E8E5A     foliage, mosque dome
+
+OBJECT-TO-PEOPLE RATIO. Seven of the sixteen clips below are objects with no
+human in them (05, 09, 11, 12, 13, 15, and the pull-out half of 16). That is the
+source's ratio and it is deliberate: object clips do not drift, do not produce
+broken hands, and regenerate cheaply when they fail. If your budget forces cuts,
+cut a people clip and extend an object clip — never the reverse.
+
+FACES. No clip below asks for a close-up of a face doing the arguing. Players are
+shot wide, from behind, at distance, or cropped at the torso. This is the source's
+discipline and it is the reason 24 generated scenes hold together without a
+character sheet. Hold the line on it.
+
+
+================================================================================
+TRACK A — 16 CLIPS, SEEDANCE 2.5
+================================================================================
+
+MODEL      seedance_2_5
+SETTINGS   mode t2v · aspect_ratio 9:16 · duration 5 · resolution 720p ·
+           generate_audio FALSE
+
+THREE PARAMETER TRAPS, ALL THREE WILL BITE YOU
+
+  1. generate_audio DEFAULTS TO TRUE on Seedance 2.5. If you do not explicitly
+     pass false, all sixteen clips come back with model-invented audio that will
+     fight the VO in the timeline. Pass it false on every single call.
+
+  2. SEEDANCE 2.5 CAPS AT 720p. There is no 1080p option — the resolution enum
+     is 480p/720p only. The credit card pack specifies 1080p for Track A; that
+     value is invalid on this model and will be silently adjusted. Generate at
+     720p and put the finished cut through upscale_video to reach 1080x1920, or
+     accept 720p upscaled in the NLE.
+
+  3. MINIMUM DURATION IS 4s, MAXIMUM 30s. Sub-4s scenes cannot be generated at
+     their true length. Hence the uniform 5s above.
+
+CONSISTENCY STRATEGY. Seedance 2.5 in t2v mode has no memory between calls.
+Generate CLIP 01 first, pick the frame with the cleanest kit and pitch colour,
+and feed that frame as image_references on clips 02, 04, 06 and 07 — the four
+that share the pitch. The remaining clips are either objects or new locations and
+do not need it. Do not try to reference-lock the object clips; it costs a media
+upload and buys nothing.
+
+--------------------------------------------------------------------------------
+CLIP 01 — cold open · 5s · pitch, wide
+--------------------------------------------------------------------------------
+Wide establishing shot of an amateur Sunday league football pitch on a bright
+weekend morning, worn grass with bare patches near the goalmouth, a sagging net,
+a low chain-link fence, terraced rooftops and a line of trees behind. Eleven
+players in mismatched kit are scattered across the half, warming up loosely. One
+player stands slightly apart in noticeably crisper kit, calm, hands on hips. The
+camera pushes in very slowly. Long morning shadows stretch across the grass.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 02 — the assumption · 5s · the huddle
+--------------------------------------------------------------------------------
+Medium shot from behind a loose huddle of amateur footballers in mismatched
+orange and teal kit, shoulders together, heads turned toward one player at the
+centre of the group. Body language is expectant and slightly deferential. Shot
+from waist height behind the huddle so no face is fully readable. Gentle handheld
+drift. Bright morning light, long shadows falling toward camera.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 03 — the open loop · 5s · the ball, held
+--------------------------------------------------------------------------------
+Extreme close-up of a worn football resting motionless on the centre spot,
+shallow depth of field, blades of grass sharp in the foreground. Everything
+behind is a soft blur of orange and teal figures at a standstill. A single
+shadow creeps slowly across the ball. The camera holds almost completely still,
+with the faintest push in. The moment feels suspended, held, about to break.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 04 — too fast · 5s · the run
+--------------------------------------------------------------------------------
+Fast tracking shot alongside a single footballer in crisp kit sprinting down the
+wing at full pace, legs blurred, turf spraying behind his boots. Orange motion
+streaks trail along the touchline. Other players in the frame are noticeably
+slower, half-turned, reacting late and falling behind him. Strong sense of a
+speed mismatch inside one frame. Camera moves with him, slight shake.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 05 — he stops · 5s · the ball rolls out
+--------------------------------------------------------------------------------
+Low static shot at grass level. A football rolls fast across an empty stretch of
+pitch, crosses the white touchline, slows, and comes to a complete stop on bare
+dirt with nobody chasing it. The pitch behind is empty and still. Dust settles.
+The camera does not move at all. A held, deflated beat.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 06 — half time · 5s · matched pace
+--------------------------------------------------------------------------------
+Wide shot of a line of footballers jogging together at an identical easy pace
+across the pitch, perfectly in step, including the player in the crisper kit who
+is now indistinguishable in tempo from the rest. Smooth lateral camera tracking
+that matches their speed exactly, so the group appears almost motionless against
+a sliding background. Flat midday light.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 07 — why · 5s · the empty touchline
+--------------------------------------------------------------------------------
+Slow dolly along a completely empty touchline beside an amateur pitch: no crowd,
+no bench, no coach, a single folded empty chair and an abandoned kit bag on the
+grass. In the far background the match continues, small and unhurried. The
+emptiness is the subject of the shot. Soft afternoon light, long shadow from the
+chair reaching into frame.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 08 — the turn · 5s · pitch dissolves to street
+--------------------------------------------------------------------------------
+A smooth match-cut transition: the green of a football pitch fills frame and
+transforms continuously into the green of a city park lawn, as the camera rises
+and pulls back to reveal an ordinary urban street with stylised low buildings,
+parked cars and pedestrians walking. The same orange and teal colour logic
+carries across the change. One continuous unbroken camera move, no hard cut.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 09 — the principle · 5s · two doors
+--------------------------------------------------------------------------------
+Static symmetrical shot of two identical closed doors side by side in a plain
+wall. Warm golden light spills from beneath the left door in a sharp wedge across
+the floor; flat grey-blue light seeps under the right one. Nothing else is in the
+room. Dust drifts slowly through the warm light. The camera holds perfectly
+still, dead centre.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 10 — not bad people · 5s · the good friends
+--------------------------------------------------------------------------------
+Warm medium shot of four young men laughing together around a low table in a
+bright modern flat, tea glasses and an open takeaway box between them, cushions
+on the floor, plants on the windowsill. The mood is genuinely affectionate and
+easy — these are good friends and the frame should feel good. Shot slightly from
+behind one shoulder so faces stay soft and partial. Late golden light through a
+large window, long diagonal shadows across the floor.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 11 — comfortable is contagious · 5s · the sinking cushion
+--------------------------------------------------------------------------------
+Slow close-up of a deep soft sofa cushion compressing gradually under an unseen
+weight, the fabric folding inward, the surface sinking lower and lower past where
+it should stop. Beside it a phone screen glows face-up, its light slowly dimming
+to black. Nothing else moves in the room. The camera creeps almost imperceptibly
+closer. Warm dim indoor light, heavy shadow.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 12 — the authority · 5s · the open book
+--------------------------------------------------------------------------------
+Reverent slow push-in on an old hardbound book lying open on a wooden reading
+stand in a quiet room, its pages completely blank and unmarked, edges worn soft
+with age. A single shaft of warm light crosses the open spread and dust turns
+slowly in the beam. A dark green cloth is folded beside it. Deep shadow all
+around, absolute stillness.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+  NOTE. The pages must come back blank. Any model-generated Arabic or Latin
+  script will be malformed, and malformed script under a citation of Ibn
+  al-Qayyim is the single worst failure mode available to this video. If a
+  render puts marks on the page, discard it — do not try to blur them out.
+  The citation goes on in the edit as a caption, per house rule.
+
+--------------------------------------------------------------------------------
+CLIP 13 — the cascade · 5s · the cracking vase
+--------------------------------------------------------------------------------
+Extreme slow motion close-up of a plain ceramic vase holding two simple flowers
+on a table. A hairline crack opens down the side and spreads, and shards begin to
+separate and drift outward very slowly, water suspended in the air between them.
+The flowers begin to tilt. Bright, warm, beautifully lit domestic interior behind,
+thrown out of focus. The camera holds steady.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+  Lifted directly from the source at 1:03. It is the strongest single image in
+  the original and it lands on the same beat here.
+
+--------------------------------------------------------------------------------
+CLIP 14 — the question · 5s · leaving the room
+--------------------------------------------------------------------------------
+Shot from inside a warm, softly lit living room looking toward an open doorway.
+A young man is walking away from camera through the door into a cool blue hallway,
+one hand on the frame, pausing for a moment mid-step without turning around. The
+warm room stays in focus behind him; the hallway ahead is cold and dim. Very slow
+push toward the doorway.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 15 — who do I become · 5s · the dark window
+--------------------------------------------------------------------------------
+Close static shot of a night-time window from inside a dim room. The glass holds
+a faint, soft reflection of the room's warm lamp and the vague suggestion of a
+figure, too indistinct to read as any particular person. Beyond the glass, a
+stylised city at night with scattered lit windows and a large pale moon. Rain
+beads slowly on the outside of the pane. The camera does not move.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+--------------------------------------------------------------------------------
+CLIP 16 — the close · 5s · two walking, pulling out
+--------------------------------------------------------------------------------
+Two young men walk side by side at an easy matched pace along a quiet night
+street toward a mosque with a green dome and a slim minaret, warm light spilling
+from its entrance across the pavement ahead of them. Seen from behind, unhurried,
+in step. The camera cranes slowly upward and back, letting them become small
+against the wider city as they keep walking. Warm pools of streetlight against
+deep blue night.
+Flat-colour stylised 3D illustration, high colour saturation, complementary
+orange and teal palette, soft directional sunlight with long diagonal shadows,
+flat-plane foliage, simplified geometric clouds, clean matte surfaces, subtle
+film grain. No text, no lettering, no signage, no logos, no watermarks, no
+numbers anywhere in frame.
+
+
+================================================================================
+VOICEOVER — to record: media/company-vo.mp3 (target ~60.0s)
+================================================================================
+
+ElevenLabs v3, stability 45–55, similarity 75, speed 1.0. Same settings as the
+Klarna and credit card packs.
+
+TAG DISCIPLINE. Only five tags appear below — [serious], [whispers], [emphatic],
+[calm], [warmly] — and they are the same five already proven in your pipeline on
+the previous two videos. v3 accepts a much wider tag vocabulary, but an
+unrecognised tag can get read aloud as literal text, and that failure is not
+always obvious on a first listen. Do not add tags to this script without
+test-rendering the line in isolation first.
+
+Tags sit at the head of a line, never mid-sentence. Full stops do the pacing.
+
+--------------------------------------------------------------------------------
+
+[serious] A Sunday league team signed a professional. Top flight, on loan,
+keeping match fit.
+
+Everyone assumed the same thing. He'll drag the whole team up a level.
+
+Watch what happened instead.
+
+First twenty minutes, he's everywhere. Too fast. Nobody can reach his passes.
+
+So he stops making them.
+
+[emphatic] By half time, he's playing at their speed.
+
+Not because he got worse. Because nobody made him prove he was better.
+
+[serious] That's not football. That's people.
+
+You don't rise to your talent. You sink to your room.
+
+And your friends aren't bad people. They're loyal. They'd come at three in the
+morning.
+
+They're just comfortable. [whispers] And comfortable is contagious.
+
+[serious] Ibn al-Qayyim warned about the gathering that costs you nothing.
+Except your time. And your heart.
+
+[emphatic] Lose the time, you lose the heart. And everything else goes with it.
+
+[calm] So tonight, one question. Not about them. About you.
+
+Who do I become in that room?
+
+[warmly] And if someone in your life makes you faster — protect that. Follow.
+
+--------------------------------------------------------------------------------
+
+165 words. At ~150wpm that is 66s of raw read; the map above is cut to 60.0s on
+the assumption you will tighten the gaps, not the words. If the recorded read
+comes in long, take it out of scene 10 and scene 13 — both have air in them.
+Do not cut scenes 14–16. That is the payoff and the follow.
+
+PACING NOTE. "So he stops making them." is this video's "Deadbeats." It is the
+whole hook, it is five words, and it needs a full beat of silence on either side
+in the edit. Do not let the [emphatic] half-time line ride in on top of it. If v3
+rushes the gap, record scenes 04–06 as an isolated pass and cut them in.
+
+SECOND PACING NOTE. The three-part line at scene 13 — "lose the time, you lose
+the heart, and everything else goes with it" — is the source's escalation ladder.
+It only works if the three parts accelerate. If v3 delivers them evenly, nudge
+stability down to 40 for that line alone and re-render it on its own.
+
+
+================================================================================
+CAPTION SPEC
+================================================================================
+
+Inherited from house, unchanged: heavy condensed sans, uppercase for CAP 1,
+sentence case for CAP 2. Fill #F5EFE2 with a 2px #142433 outline, accent word in
+#E8622F. CAP 1 sits at 62% height, CAP 2 at 76%. CAP 1 lands on the first
+stressed syllable of the line, CAP 2 one beat later, both clearing 200ms before
+the cut.
+
+The source video burns no text at all. You should — your audience watches muted
+and your last two videos are captioned. But keep it sparse, because the frames
+below are busier than the finance packs. Six caption moments, not sixteen:
+
+  03   WATCH WHAT HAPPENED
+  05   HE STOPS                      (hold it alone — no CAP 2)
+  09   YOU SINK TO YOUR ROOM         (the accent word is SINK)
+  11   COMFORTABLE IS CONTAGIOUS
+  13   TIME → HEART → EVERYTHING     (build the three in sequence, not at once)
+  15   WHO DO I BECOME IN THAT ROOM?
+
+THE CITATION CAPTION. Scene 12 carries the Ibn al-Qayyim attribution as a
+lower-third, set small, cream on navy, no accent colour:
+
+  Ibn al-Qayyim, al-Fawāʾid
+
+Nothing more than that. Do not put a page number on screen — see ACCURACY.
+
+
+================================================================================
+PACKAGING
+================================================================================
+
+TITLE        You Don't Rise to Your Talent. You Sink to Your Room.
+             alt 1: The Professional Who Got Worse
+             alt 2: Your Friends Aren't Bad. That's the Problem.
+             The declarative won on both previous uploads. Lead with alt 2 if
+             you want the comment section, lead with the main if you want the
+             save.
+THUMBNAIL    The ball stopped on the dirt past the touchline, from CLIP 05.
+             Nothing else. It is the only frame in the pack that is legible at
+             thumbnail size without text.
+LENGTH       60.0s (slate rule: 30–60s — this sits exactly on the ceiling, so
+             if the recorded VO runs long, trim rather than let it spill)
+DESCRIPTION  600+ characters. Put the full Ibn al-Qayyim passage in it, with the
+             source named, so the comment section has somewhere to go.
+TAGS         under 500 characters total — hard YouTube limit, silently rejects.
+HOOK RISK    The first line names a sport. A chunk of your audience does not
+             care about football and will swipe on the word "league". Mitigate
+             in the edit: CLIP 01's push-in must land the lone figure in crisp
+             kit inside the first second, so the frame reads "outsider" before
+             the word "football" is heard.
+
+SERIES FIT. This is not a Finance % Decoded video and should not carry that
+slate. It shares an audience with it but not a premise — nothing here is about
+money, and forcing a riba angle onto a companionship reminder would weaken both.
+If you want it on the same channel, run it as a separate strand with its own
+title card and no % motif.
+
+
+================================================================================
+ACCURACY — the claims that need to survive a comment section
+================================================================================
+
+THE IBN AL-QAYYIM CITATION. Verified. The passage exists in al-Fawāʾid, in the
+opening section on the two kinds of meeting between friends: the first is "a
+meeting based on sociability and spending time, in which are more disadvantages
+than advantage, the least of which is corruption of the heart, and wasting time."
+The widely circulated one-line rendering — beware of mixing with those whose
+company wastes your time and corrupts your heart, lest all your affairs be
+ruined — is a faithful compression of that passage and is the form the source
+video uses.
+
+  WHAT TO DO: attribute it to Ibn al-Qayyim in al-Fawāʾid, on screen and in the
+  description. Say "wrote about", not "said" — the script above already does.
+
+  WHAT NOT TO DO: (1) Do not put a page number on screen. Page numbers differ
+  across editions and printings, and a wrong one is the easiest correction in
+  your comments to make and the hardest to argue with. (2) Do not reproduce the
+  source's "some of our teachers said" chain. That framing belongs to Ustadz
+  Nuzul Dzikri relaying the citation in his own voice; carried into your script
+  it would read as a claim about the printed text that the printed text does not
+  make. The rebuild drops it entirely. (3) Do not render the Arabic on screen
+  unless a human who reads Arabic checks the frame — see the CLIP 12 note.
+
+THE SOURCE ITSELF. This pack is a structural teardown, not a re-upload. The
+rebuild shares the source's argument — which is a centuries-old point about
+companionship, not anybody's original IP — and its beat structure, and none of
+its footage, script, or voice. Standard practice, and the same thing you did off
+the Klarna reference. But the analogy was deliberately changed from cycling to
+football, and no line of the translated transcript in Part 2 appears in the
+rebuilt script in Part 3. Keep it that way. If you credit anyone, credit the
+ustadz in the description as the reminder that prompted the video — it costs
+nothing and it is the correct thing to do.
+
+"YOU DON'T RISE TO YOUR TALENT. YOU SINK TO YOUR ROOM." This is a deliberate
+inversion of the gym-poster line "you don't rise to the level of your goals, you
+fall to the level of your systems," which is itself a widely repeated formulation
+from habit literature. It is a rhetorical echo, not a citation, and it is not
+presented as anyone's quote. Fine to use. Do not attribute it to anyone, and do
+not put quotation marks around it in the caption — the caption spec above
+deliberately sets it unquoted.
+
+THE FOOTBALL PREMISE. A top-flight professional on loan to a Sunday league side
+does not happen in real competition — registration rules alone prevent it. The
+script says "signed a professional" and never names a league, a club, or a
+competition, which keeps it in the register of an illustrative anecdote rather
+than a factual claim. Do not add a club name, a real player, or a season. The
+moment it sounds like a true story, someone will try to find it.
+
+
+================================================================================
+GENERATION RUNBOOK — GENERATE IN THE APP, NOT THROUGH THE API
+================================================================================
+
+WHERE UNLIMITED ACTUALLY WORKS — tested against the live account 2026-08-08
+
+  HIGGSFIELD APP / WEB        UNLIMITED WORKS, ON SEEDANCE 2.5.
+      The video composer carries an "Unlimited mode" toggle, and with Seedance
+      2.5 selected the Generate button reads "Generate · Unlimited". This is the
+      path to use. Its settings — 5s, 9:16, 720p — are already exactly what this
+      pack specifies, so there is nothing to change in the UI before shooting.
+
+  MCP / API SURFACE           UNLIMITED UNAVAILABLE, ON EVERY MODEL.
+      Passing use_unlim true is rejected outright:
+          seedance_2_5  ->  "Unlimited generations aren't supported for
+                             seedance_2_5."
+          seedance_2_0  ->  the identical error, despite the model catalog
+                             flagging it supports_unlim true.
+      The API's use_unlim maps to the free-trial unlimited pool, which this
+      account does not hold (unlim.available false, remaining null). It does not
+      reach the plan entitlement the app spends. supports_unlim in the catalog
+      means "this model can accept unlim in principle", not "you can spend it".
+      So there is no zero-credit route through the API: generating there bills
+      32.5 credits per clip, 520 for the sixteen, against a 137.05 balance.
+
+  CONSEQUENCE. Shoot all sixteen clips in the app. The API stays useful after the
+  edit for upscale_video on the assembled cut, which is a one-off, not per clip.
+
+APP RUNBOOK
+
+  Set once, then leave alone for all sixteen:
+      Model            Seedance 2.5
+      Duration         5s
+      Aspect ratio     9:16
+      Resolution       720p
+      Bitrate          High
+      Audio            OFF      <- the composer defaults this ON
+      Unlimited mode   ON       <- confirm Generate still reads "Unlimited"
+
+  AUDIO IS THE ONE TO WATCH. The composer's speaker control defaults to On, and
+  it is the same trap the API has: sixteen clips of model-invented audio fighting
+  the VO in the timeline. Switch it off before the first generation, and check it
+  again after any settings change — toggling model or resolution can reset it.
+
+  The prompts are in company-you-keep-prompts-app.txt — one per block, unwrapped,
+  no box art, ready to paste on a phone. Paste, generate, save, next.
+
+  ORDER OF OPERATIONS, unchanged from the house rule:
+      1. Record the VO first. Re-derive the scene map from the real recorded
+         audio before generating anything.
+      2. Generate CLIP 01 alone. Pick the frame with the cleanest kit and pitch
+         colour. Save it.
+      3. Attach that frame via @ Elements as a reference on clips 02, 04, 06 and
+         07 — the four that share the pitch. Leave the object clips unreferenced.
+      4. Generate the remaining twelve.
+      5. Upscale the finished cut to 1080x1920. Seedance 2.5 caps at 720p, so
+         this happens once, at the end, on the assembled edit — never per clip.
+
+  RETRY POLICY. Object clips (05, 09, 11, 12, 13, 15) regenerate cheaply and
+  without drift — rerun them freely until the frame is clean. People clips are
+  where the budget goes even on unlimited, because the failure mode is subtle:
+  check hands, check that no player's kit has drifted into a real club's colours,
+  and check CLIP 12's pages have come back genuinely blank.
+
+IF THE API PATH EVER OPENS
+  It only becomes free if a real unlimited allowance lands on the account, at
+  which point use_unlim true stops erroring. The call would be:
+  generate_video_batch, 16 jobs, model seedance_2_5, mode t2v, aspect_ratio 9:16,
+  duration 5, resolution 720p, generate_audio false, use_unlim true — then
+  jobs_wait, then one show_generation_by_ids. Do not raise count above 1; unlim
+  caps it to 1 regardless. Until then the app is the only unlimited route, and
+  seedance_2_0 is not a workaround — it is rejected the same way.
+================================================================================
