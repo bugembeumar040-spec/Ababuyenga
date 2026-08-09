@@ -6,3 +6,6 @@ build/vo/
 build/cap/
 build/frames/
 build/tagtest/
+
+# delivery copy — re-encode from the master when needed
+media/*_preview.mp4
