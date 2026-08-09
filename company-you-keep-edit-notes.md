@@ -4,12 +4,15 @@ The sixteen Seedance 2.5 clips generated in the Higgsfield app, cut against the
 emotion-tagged voiceover into one master.
 
 **Output:** `media/you-sink-to-your-room_1080x1920.mp4` — 67.29s · 1080×1920 ·
-24fps · h264 crf16 · AAC 192k · −14.6 LUFS integrated, −1.5 dBTP
+24fps · h264 crf16 · AAC 192k · −14.4 LUFS integrated, −1.5 dBTP
 
 **Thumbnail:** `media/thumbnail_1080x1920.jpg` — the ball stopped on the dirt
 past the touchline, from CLIP 05, exactly as the pack specifies. No text.
 
-Reproduce with `build/build.py` then `build/captions.py`.
+**Stems:** `media/company-vo.mp3` (voice only) · `media/sfx-bed.mp3` (sound bed
+only, pre-duck, pre-gain).
+
+Reproduce with `build/build.py`, then `build/captions.py`, then `build/sfx.py`.
 
 ## Which take went in
 
@@ -135,14 +138,83 @@ terracotta; and the condensed face is simulated by squeezing DejaVu Sans Bold to
 0.84× width, since no condensed font is installed here. Swap in the house face
 before this becomes a habit.
 
+## Sound
+
+Brief was engaging but quiet — peaceful to sit inside. So the bed is ambience
+and spot effects only. No music, no melody, nothing with a pitch centre that
+would turn into a tune under the voiceover.
+
+Everything is synthesised in `build/sfx.py` rather than sampled. That keeps it
+licence-clean, and more usefully it means every sound in the mix is one that was
+chosen rather than inherited — nothing arrives with a room, a key or a hiss
+floor attached to it.
+
+### Four movements, tracking the picture
+
+| Window | Scenes | Bed |
+|---|---|---|
+| 0.00 – 27.19 | 01–07 | open air over the pitch, with a little more top end so it reads outdoors; four sparse, distant birdsong motifs |
+| 27.19 – 29.63 | 08 | the match cut, and the street on the other side of it |
+| 29.00 – 58.68 | 09–14 | interior room tone, darker and narrower; scene 10 adds the low body of a room with people in it |
+| 58.68 – 67.35 | 15–16 | rain on glass, then night air over the street |
+
+Scene 10's warmth is deliberately *not* voices. It is band-limited to 190–700 Hz
+with a slow wander — the body of a room with people in it, and nothing
+intelligible that could compete with the voiceover.
+
+### Spot effects
+
+Only on beats the picture already plays. Nothing was added to a scene just
+because it was quiet — scenes 09 and 12 in particular are left almost bare,
+because two closed doors and a citation both want stillness.
+
+| Time | Effect |
+|---|---|
+| 12.45 | one soft pass-by on the sprint |
+| 17.15 | the ball rolling, slowing, and a small thud as it settles at 19.17 |
+| 26.95 | rising whoosh through the match cut — the one moment allowed to lift |
+| 38.45 | the cushion giving way under an unseen weight |
+| 49.33 / 50.68 / 51.88 | ceramic, on the three caption beats, plus four micro-shards drifting after |
+| 54.35 – 55.71 | three soft steps out of the warm room |
+| 58.70 – 62.00 | rain, with four beads running down the pane |
+| 62.05 – 66.5 | two people walking in step, receding as the camera cranes out |
+
+### Levels
+
+The bed is keyed off the voice with a gentle sidechain (ratio 4, 25ms attack,
+420ms release) so it breathes in the gaps and steps back under speech. It is
+never allowed to compete:
+
+- ducked bed sits at −39.6 LUFS against a −14.4 LUFS programme
+- spot effects peak −24 to −32 dBFS; voice peaks sit near −1.5 dBFS
+- in the silences, where you actually hear it, the bed measures −25 to −33 dB
+
+Before this pass every gap in the cut was digital silence at −91 dB. The 0.65s
+beat after "So he stops making them" was dead air; it now has air in it, which
+is the point — the pause reads as held rather than as a dropout.
+
+Two things were caught by measurement rather than by ear and are worth
+remembering if the bed is ever rebuilt: the interior movement originally came in
+6 dB under the outdoor one and would have vanished on a phone, and the rain sat
+10 dB hotter than every other movement. Both are levelled now. There was also a
+dip at the street→interior crossfade where one bed had faded out before the next
+faded in; the interior now starts at 29.00 and comes up under the tail of the
+street.
+
 ## Known gaps
 
 - **Runtime is 67.29s against the pack's 60.0s slate ceiling.** Deliberate, and
   chosen over compressing the read. Reasoning and the two rejected alternatives
   are at the foot of `company-you-keep-vo-script.txt`.
-- **No music bed.** The pack does not specify one and none was licensed. The cut
-  is voice and silence only. It ends on the last spoken word, as the pack
-  requires — the 0.20s fade at the tail sits inside the gap after "Follow."
+- **No music.** The pack does not specify any and none was licensed. The sound
+  bed is ambience and effects, deliberately with no pitch centre. The cut still
+  ends on the last spoken word, as the pack requires — the 0.20s picture fade
+  and the bed's 0.45s tail both sit inside the gap after "Follow."
+- **The bed is synthetic.** It is good enough to feel like room tone and rain,
+  but it is not a recorded library. The birdsong is the most synthetic element
+  in it, which is why there are four motifs and not fourteen, all sitting ~30 dB
+  under the voice. If this becomes a series, real ambience recordings would be
+  the first upgrade worth paying for.
 - **Upscaled, not native 1080p.** Seedance 2.5 caps at 720p. The master was
   lanczos-upscaled once, on the assembled cut, never per clip. Running the
   finished file through `upscale_video` would do better if it matters.
