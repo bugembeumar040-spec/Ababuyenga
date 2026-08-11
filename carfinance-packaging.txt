@@ -1,0 +1,330 @@
+================================================================================
+FINANCE % DECODED — PCP / THE BALLOON — PACKAGING
+Title · description · hashtags · tags · pinned comment
+Benchmarked against the channel's own 25 Shorts and against Part 8
+================================================================================
+
+STATUS NOTE ON DATA. The live vidIQ keyword-volume calls for "car finance",
+"pcp", "halal car finance" and "balloon payment" require approval and were not
+run. Everything below is built on data already pulled this session: the full
+per-video performance table for all 25 Shorts on the channel, the reference
+video's own title/description/tag block, and the channel's pinned-comment
+convention. That is the higher-value evidence for a title decision anyway —
+it is same-channel, same-audience and same-format. If you approve the keyword
+calls I will verify search volume on "car finance" vs "car loan" and on the
+UK-vs-global split, which is the one open question in §2.
+
+
+================================================================================
+1. THE PATTERN, FROM THE CHANNEL'S OWN NUMBERS
+================================================================================
+
+Every Short, sorted by what the title does.
+
+  WINNERS — verb-or-question + parenthetical + hashtags
+
+    How to Buy a House Without Interest (Halal Mortgage Explained)      1,231
+    How to Earn Passive Income Without Interest (Sukuk Explained)       1,050
+    Why Everything Costs More (The Tax You Never Voted For)             1,042
+    How Banks Quietly Trap Your Savings (And the Halal Way Out)           971
+    How to Protect Your Savings From Inflation (Sound Money Explained)    928
+    How to Buy a Car Without Interest (Ijara Explained)                   718
+    Is Your Pension Halal? (You Never Picked What It Buys)          269 in 1 day
+
+  LOSERS — bare declarative, no parenthetical, thin or no hashtags
+
+    £1,461 a month. Only £420 buys your house.                            257
+    The Bank Doesn't Want You Debt-Free                                    39
+    10 years of payments. You still owe more than you paid.                35
+    3 Questions Decide If Your Credit Card Is Halal                        30
+    How to Tell If Your "Islamic" Mortgage Is Actually Fake                24
+    You've Already Paid Klarna.                                            24
+
+THE FORMULA THE WINNERS SHARE, all three parts present every time:
+
+  1. A verb phrase or a question that names a thing the viewer owns or does.
+  2. A parenthetical carrying either the mechanism's name or the twist.
+  3. Two or three hashtags, always ending #islamicfinance.
+
+TWO FAMILIES, and they are not interchangeable:
+
+  FAMILY A — "How to [DO THING] Without Interest ([MECHANISM] Explained)"
+             For videos that deliver the fix. Six of the seven winners.
+
+  FAMILY B — "Is Your [THING] Halal? ([THE TWIST])"
+             For videos that diagnose a problem. One data point so far —
+             Pension — but it is the strongest data point on the channel:
+             269 views in a single day, VPH 9.47, breakout score 284, against
+             Klarna's 0.17 and 3.2 five days earlier.
+
+THIS VIDEO IS FAMILY B. It diagnoses PCP and points at Part 13 for the fix
+rather than delivering one. And Family A is unavailable regardless —
+
+  ** "How to Buy a Car Without Interest (Ijara Explained)" IS TAKEN. **
+
+  That is Part 13, 718 views, published 18 July. Reusing the Family A car
+  construction would compete with your own back catalogue in search and confuse
+  a returning viewer about which video is which. Family B is both the better
+  fit and the only clear lane.
+
+
+================================================================================
+2. TITLE — recommended
+================================================================================
+
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │ Is Your Car Finance Halal? (You Pay Interest on the Part You Give Back)  │
+  │ #carfinance #pcp #islamicfinance                                         │
+  └──────────────────────────────────────────────────────────────────────────┘
+
+  103 characters including hashtags. In range — the 1,231-view mortgage title
+  is 93.
+
+WHY EACH PART:
+
+  "Is Your Car Finance Halal?"  — Family B, and it leads on the volume term.
+  "Car finance" is the UK phrase for the category and covers PCP, HP and lease
+  in one. Leading on "PCP" instead would cut reach to people who do not know
+  their product's name, which is most of the audience this video is aimed at.
+
+  "(You Pay Interest on the Part You Give Back)"  — the same shape as Pension's
+  "(You Never Picked What It Buys)": second person, present tense, a revelation
+  about the viewer's own situation rather than a description of the video. It
+  is also the exact claim the script defends, so the title makes a promise the
+  film keeps.
+
+  Hashtags — topic-specific first, #islamicfinance last, which is what all
+  seven winners do.
+
+ALTERNATES, in order of my confidence:
+
+  alt 1  Is Your Car Finance Halal? (The Balloon Nobody Explains)
+         #carfinance #pcp #islamicfinance
+         Shorter and more curiosity-driven, but "balloon" means nothing to a
+         viewer who has not watched yet, so the parenthetical spends its click
+         on a word rather than a revelation. Use if the recommended title tests
+         long in mobile truncation.
+
+  alt 2  Is Your PCP Halal? (You're Paying for a Car You Hand Back)
+         #pcp #carfinance #islamicfinance
+         Sharper for people who know the product name, weaker for everyone
+         else. This is the A/B against the recommendation if you want one.
+
+  alt 3  How to Spot the Riba in Your Car Finance (PCP Balloon Explained)
+         Family A shape without colliding with Part 13's exact construction.
+         Listed for completeness — I would not ship it. It promises a fix the
+         film does not deliver, and it puts "riba" in the title, which §5
+         explains is a keyword trap.
+
+DO NOT SHIP any of these, all of which are the losing convention:
+  "The Balloon."  ·  "Three Years. Then You Hand It Back."
+  "You Paid Interest on a Car You Gave Back."
+Bare declaratives are the naming convention on every video in the 24–50 block.
+
+ONE OPEN QUESTION, pending the keyword calls. "Car finance" is the British
+phrase; "car loan" is the American one and probably carries more global volume.
+PCP is a UK and Ireland product and this script is priced in pounds with FCA
+and DVLA framing, so I have gone UK. If the keyword data shows "car loan" at
+several times the volume it may be worth "Is Your Car Loan Halal?" with PCP in
+the parenthetical — but only if the gap is large, because it would misdescribe
+the product to the people most able to act on the video.
+
+
+================================================================================
+3. HASHTAGS
+================================================================================
+
+  #carfinance #pcp #islamicfinance
+
+Three, topic-first, #islamicfinance last. That is the winners' convention
+exactly and every video in the losing block either omits hashtags or leads with
+the generic one.
+
+ONE CAUTION ON #pcp. The tag is shared with the drug of the same initials. It
+is unlikely to cause a problem in a title whose other words are all financial,
+but if you would rather not carry the ambiguity at all, swap in #halalmoney —
+your Sukuk video used it and did 1,050.
+
+  safer variant   #carfinance #halalmoney #islamicfinance
+
+Do not use more than three. None of your winners do, and the description
+carries a fuller hashtag block anyway.
+
+
+================================================================================
+4. DESCRIPTION
+================================================================================
+
+Structure copied from the reference video: links first, then mechanism prose,
+then the check, then the series index, then the disclaimer. 600+ characters
+minimum — do not ship the 197-character boilerplate.
+
+  ---------------------------------------------------------------------------
+  ▶ Part 13 — how to buy a car without interest (Ijara): https://youtu.be/ElD5gg-Q1wY
+  ▶ Part 1 — how banks rent out money and call it interest: https://youtu.be/V8HYpTHy2aU
+  ▶ FULL BREAKDOWN — the whole machine in 5 minutes: https://youtu.be/7TWUwpbl83U
+
+  Three years of payments, and then you give the car back. That is not the
+  problem. Renting a car is trade, and a lease has a name in Islamic finance:
+  ijara. Not owning the car is fine.
+
+  Here is what isn't.
+
+  A PCP splits the car into two parts: the part you pay off over the term, and
+  a lump deferred to the very end — the optional final payment, the balloon,
+  the Guaranteed Minimum Future Value. Most people never pay the balloon.
+  Handing the car back is the normal exit; it is what the product is built
+  around.
+
+  But the balloon sits inside the financed amount for the whole term, and
+  interest is charged on all of it. On a £30,000 car with £3,000 down and a
+  £13,000 balloon at around 10% over three years, that is roughly £103 a month
+  — about £3,700 by the end, or nearly two-thirds of the total interest on the
+  agreement — charged on a slab of car you were always going to walk away from.
+  That is why the monthly looks affordable and the total charge for credit
+  doesn't.
+
+  Run the test from Part 1: does the contract charge you for time? Every month,
+  on £13,000 of car that will never be yours, it does. And that charge doesn't
+  depend on the car. It depends on the calendar.
+
+  Worth knowing, though it is not the video's argument: on a PCP the finance
+  company is the legal owner for the whole term. You are the registered keeper
+  — the person the DVLA writes to — and the V5C says in terms that it is not
+  proof of ownership. Keeper and owner were never meant to be the same thing.
+
+  THE TWO-MINUTE CHECK:
+
+  1. Find the optional final payment on your agreement. It is on page one, in
+     its own box, and it is usually the largest single number on the document.
+  2. Find the total amount payable and the total charge for credit. Subtract
+     the cash price of the car. What is left is what time cost you.
+  3. Decide honestly which one you are. If you intend to hand it back you are
+     renting — so compare it against a straight lease, where you are not
+     financing a balloon you will never pay. If you intend to keep it you are
+     buying — so compare the total charge for credit against saving for it.
+
+  Separately, and worth two minutes of its own: the FCA's motor finance redress
+  scheme covers PCP and HP agreements taken out between 6 April 2007 and
+  1 November 2024 where commission arrangements weren't properly disclosed.
+  Around 12.1 million agreements are in scope. It is free to use and you do not
+  need a claims company. Check the FCA's own site for where it currently
+  stands — parts of it have been subject to legal challenge.
+
+  That scheme is about disclosure. This video is about the structure
+  underneath it, which no redress scheme touches.
+
+  THE SERIES SO FAR:
+  Part 1 - The deposit and lending spread: https://youtu.be/V8HYpTHy2aU
+  Part 2 - Money created as debt: https://youtu.be/8DlJ28QnXj4
+  Part 3 - Inflation, the tax you never voted for: https://youtu.be/a7xkXgTfCXs
+  Part 4 - Sound money: https://youtu.be/zY664YZPI6U
+  Part 5 - The credit card minimum payment trap: https://youtu.be/scjEcnABEOo
+  Part 6 - How banks collect a second house from you: https://youtu.be/fMQMZKPvK4c
+  Part 7 - Murabaha, the fixed-price sale: https://youtu.be/c8uyMAIORkU
+  Part 8 - Diminishing Musharaka: https://youtu.be/riQ7dLSnogo
+  Part 9 - Sukuk: https://youtu.be/J0TCD2u177k
+  Part 10 - How banks quietly drain your savings: https://youtu.be/OXIP3EJROQk
+  Part 13 - Ijara, renting the car not the money: https://youtu.be/ElD5gg-Q1wY
+  ▶ Full series in order: https://www.youtube.com/playlist?list=PLKLKzR1QgFHE
+  ▶ Daily money takes on X: https://x.com/financedecode
+
+  This describes how these contracts are built. It is financial education, not
+  financial advice, and it is not a religious ruling — check with someone
+  qualified before you act on it.
+
+  The Money Machine, Decoded.
+
+  #IslamicFinance #CarFinance #PCP #Ijara #Riba #HalalMoney #BalloonPayment
+  #FinanceDecoded #MoneyMechanisms
+  ---------------------------------------------------------------------------
+
+TWO NOTES ON THE ABOVE.
+
+  THE FCA DATES ARE STALE. The source pack recorded the scheme's status as at
+  2 July 2026. It is now 11 August. Re-check the FCA page before you publish
+  and update the paragraph — this is precisely why it lives in the description
+  and never in the VO or the captions, so you can edit it after publishing
+  without re-cutting the film.
+
+  THE KEEPER/OWNER PARAGRAPH IS SAFE HERE. It was cut from the VO because the
+  script's version of it was wrong. The version above is correct — legal owner
+  versus registered keeper, with the V5C's own disclaimer — and in a
+  description it adds credibility rather than risk. Do not move it back into
+  the voiceover or a caption.
+
+
+================================================================================
+5. TAGS — under 500 characters total, hard limit, silently rejects
+================================================================================
+
+  car finance, pcp, pcp explained, balloon payment, optional final payment,
+  guaranteed minimum future value, car finance uk, halal car finance, islamic
+  finance, ijara, riba, interest free car, car loan interest, finance decoded,
+  money mechanisms, halal money
+
+  312 characters. Room to add two or three if you want them.
+
+KEYWORD TRAP, unchanged and worth restating: do NOT put "riba" in the TITLE.
+The English SERP for that term is owned by RIBA, the Royal Institute of British
+Architects. In tags and in the spoken script it is fine — your 971-view savings
+video carries #riba as a hashtag — but a title competing with a professional
+body's brand term is a title that loses.
+
+
+================================================================================
+6. PINNED COMMENT — post at upload
+================================================================================
+
+You pin a question on every video and the shape is settled: something the
+viewer can answer from their own paperwork, not an opinion. "Run them tonight.
+What did yours score?" is the model.
+
+  ---------------------------------------------------------------------------
+  Go and look at your agreement tonight. What's your optional final payment —
+  and what percentage of the car's price is it? 👇
+
+  Two things worth saying before anyone panics. Handing the car back at the end
+  is not a loophole or a failure — it is the normal exit and the product is
+  built around it. And if you have already signed one, the useful move isn't
+  guilt, it's arithmetic: find the total charge for credit, subtract nothing,
+  and just look at it. That number is the whole conversation.
+
+  If you don't know whether yours is a PCP or an HP, the tell is on page one.
+  An HP has no optional final payment. A PCP does.
+  ---------------------------------------------------------------------------
+
+That last paragraph is deliberate: it gives a viewer who doesn't know their own
+product a reason to go and look, which is the same homework the VO closes on.
+
+
+================================================================================
+7. THE NICHE BENCHMARK — and its limits, stated honestly
+================================================================================
+
+I ran an outlier sweep on car finance and balloon-payment Shorts earlier in this
+session and it returned mostly noise: "balloon" pulled ASMR balloon-crushing
+videos and "debt" pulled entertainment clips. Two things did come through and
+both are worth knowing.
+
+  THE DAVE RAMSEY CLIP ECOSYSTEM OWNS DEBT SHORTS. One clip channel had 7.1M
+  views on a single car-debt Short. That format is confrontation and reaction —
+  a caller, a number, an incredulous host. It is structurally unavailable to
+  you and you should not try to imitate it. Do not read those view counts as a
+  target.
+
+  THE ONE USABLE STRUCTURAL COMPARABLE was "Car Loan vs Cash Payment" — 688k
+  views, 65 seconds, from a 176k-subscriber channel. It is a calculation
+  explainer: one worked example, real numbers, no personality. That is the same
+  genre as yours, and it confirms the thing your own data already says — the
+  numbers are the content. It is also the reason the rewritten script has a
+  worked example in it at all, which the original draft did not.
+
+BEYOND THAT, THE HONEST ANSWER IS THAT YOUR OWN CHANNEL IS THE BETTER
+BENCHMARK. Twenty-five Shorts, one audience, one format, a clean split between
+a winning title convention and a losing one, and a same-week natural experiment
+in Pension versus Klarna. Cross-niche title patterns from channels with 100x
+your subscriber count would tell you less, because their titles are carried by
+an existing audience and yours have to work cold.
+
+================================================================================
