@@ -1,0 +1,415 @@
+================================================================================
+FINANCE % DECODED — CAR FINANCE PROMPT PACK — v3 DELTA
+What survives the rewritten VO, what breaks, what has to be built
+Reads on top of carfinancepromptpack.txt v2 · does not supersede it
+================================================================================
+
+SHORT ANSWER
+
+Mostly, yes. Six of the eleven scenes hold unchanged, three are re-taskable
+using art you have already specified, one is cut, and one needs rebuilding. The
+style bible, cast, palette, caption system, negative-prompt strategy and the
+faces-vs-institution rule all survive completely intact — none of that was ever
+script-dependent and none of it should be touched.
+
+Two things do break, and one of them matters:
+
+  · A02 IS CUT, AND A02 WAS THE THUMBNAIL. The rewritten VO removes the
+    logbook/keeper argument entirely, which was that scene's only job.
+  · THE SCENE COUNT IS NOW WRONG BY ABOUT HALF. Eleven scenes over 58 seconds
+    is a 5.3s average cut. Eleven scenes over the new 2:15 is a 12.3s average,
+    which is a dead Short. You need ~20 beats.
+
+The good news on that second point: most of the gap is filled by panel and
+caption variants over stills you are already generating. Real new generations
+needed: four, maybe five. Details in §5.
+
+
+================================================================================
+1. WHAT THE v2 PACK GOT RIGHT — keep all of this
+================================================================================
+
+Said plainly because the rest of this file is corrections and the ratio would
+otherwise mislead. The v2 compliance audit is good work and its central catch
+is real.
+
+ITEM 11 IS CONFIRMED. I checked it against the repo. credit-card-prompt-pack.txt
+line 129 carries "facial features, eyes, mouth, nose, lips, eyebrows, face,
+portrait" in its negatives, and lines 118, 167 and 196 explicitly instruct
+COMPLETELY BLANK heads on AMIR and the clerk, over a near-black macro ground.
+The uploaded pack's account of that error is accurate on every point, and
+inverting the negatives to defend the faces is the correct fix.
+
+ALSO CORRECT AND WORTH KEEPING:
+  · The faces-vs-institution rule. It is the strongest device in the visual
+    language and it does moral work no caption can do.
+  · Stills as the primary track, animation only where motion is the argument.
+    The three chosen for Track B (A06, A07, A08) are the right three.
+  · Frame-for-type discipline — top fifth and bottom fifth clear on every
+    prompt. Keep this on every new scene below.
+  · The CAP 1 / CAP 2 / PANEL / PILL system, and the one-PILL-per-film rule.
+  · Per-scene negatives rather than one global block.
+  · Keeping the FCA redress material out of the VO and captions so it can be
+    edited post-publish. Re-check it before you ship — the pack's status note
+    is dated 2 July and today is 11 August.
+
+INDEPENDENT CORROBORATION ON TITLES. The v2 packaging section reached the same
+conclusion my channel audit did, from the same evidence: interrogative-plus-
+parenthetical beats bare declarative, Pension against the 24–39 block. Two
+passes agreeing from different directions is about as good as this gets.
+
+
+================================================================================
+2. THREE ERRORS IN v2 THAT ARE INDEPENDENT OF MY REWRITE
+================================================================================
+
+2.1  CAP 1 ON SCENE 02 CONTRADICTS THE PACK'S OWN ACCURACY SECTION.
+     Caption: "THE LOGBOOK WAS NEVER YOURS." Accuracy section, correctly: the
+     customer IS the registered keeper and the V5C states it is not proof of
+     ownership. Both cannot be true. The logbook is issued to you; what is
+     never yours is title. The pack diagnosed this precisely and then shipped
+     the wrong version into CAP 1 and into the VO at line 584. Moot now — the
+     scene is cut — but it would have gone out.
+
+2.2  "UNCHANGED FROM v1 — THE MECHANISM WAS NEVER THE PROBLEM."
+     The VO header's stated assumption. The channel data says otherwise: the
+     terse 17–58s aphoristic format is the block doing 24–50 views, and the
+     credit card pack shipped into it at 39. Not a mechanism problem, a format
+     problem. Full workings in pcp-balloon-vo.txt §1.
+
+2.3  "LENGTH 58.0s (SLATE RULE: 30–60s)."
+     That slate rule is the single most expensive line in the pack. Every video
+     the channel has published inside it has underperformed; every video at
+     2:10–3:00 has done 700–1,200. The rule is inverted and should be struck.
+
+
+================================================================================
+3. SCENE-BY-SCENE VERDICT AGAINST THE REWRITTEN VO
+================================================================================
+
+  A01  HAND IT BACK                                          HOLDS UNCHANGED
+       Still the hook, still the first line, still the right image. The
+       rewritten opener adds "you paid interest on the piece you were always
+       going to give away" as a second sentence — that gets its own beat (see
+       §5, B02), A01 does not change.
+
+  A02  NEVER YOURS — the document tug-of-war                            CUT
+       Its entire content is the keeper/owner argument, which the rewrite
+       removes on accuracy grounds. There is no line left for it to sit under.
+       Do not try to re-caption it: two figures holding one document says
+       "disputed ownership" and nothing else, and ownership is no longer the
+       claim. See §4 for the thumbnail consequence.
+
+  A03  THAT PART'S FINE — Sami, relaxed                    HOLDS, BUT MOVES
+       Survives intact as art. Moves from 0:10 to roughly 1:58 — the concession
+       is now objection-handling rather than an early disarm. This is not a
+       downgrade: Part 8 puts its objection beat at 2:03 of 3:00, about 70%
+       through, and it is that channel's best-performing video. The v2 note
+       that scene 03 is load-bearing is still true; it is just load-bearing
+       later. Consider one extra Sami frame so the beat can breathe over two
+       cuts instead of one long hold.
+
+  A04  THE PIVOT — Kareem to camera                    HOLDS AS A DEVICE
+       The line under it is gone ("here's the part that isn't"). The device is
+       needed more than before, not less: the rewrite adds first-person
+       narration ("that was my first question too"), which is a Kareem-to-lens
+       moment and is the warmth the format runs on. Generate two more
+       expressions off the same reference — QUESTIONING and WARM. v2's claim
+       that Kareem should appear exactly twice no longer holds; three or four
+       is right at this length.
+
+  A05  THE BALLOON — the absurd block                 HOLDS, AND IMPROVES
+       Gets materially better. The old VO had no numbers, so the block was pure
+       metaphor. The rewrite quantifies it — £13,000 against a £27,000 financed
+       amount — so the block can now carry a real proportion and a real panel.
+       Draw it to scale: roughly half the row's total mass, not eight units.
+
+  A06  YOU PAY ON IT — the band crossing everything          HOLDS ★
+       Now the most important frame in the film. The rewrite gives it £103 a
+       month, £3,700, and "nearly two-thirds of all the interest." Move the
+       PILL here from A07. This is the beat the video exists for.
+
+  A07  NEVER OWN IT — grey hand lifts the block out          HOLDS
+       Lands under "charged on a piece of car you never intended to own, and
+       never did." Unchanged. Becomes the thumbnail — see §4.
+
+  A08  FLOW ONE — tokens travelling to the institution     RE-TASK
+       Its VO is gone; the "two flows" construction is cut. But the image —
+       uniform tokens flowing one way from a person to the grey figure — is
+       exactly the Part 1 recap the rewrite opens with: "banks rent out money
+       and call it interest." Same prompt, new position, new captions. No
+       regeneration.
+
+  A09  FLOW TWO — Adam vs Bilal split frame               REBUILD
+       Broken as specified. The Adam/Bilal comparison is outright-owner versus
+       financed, and the rewrite never makes that comparison. What it does make
+       is PCP versus Ijara. Rebuild the same split-frame layout with SAMI on
+       the right instead of BILAL, holding nothing, with the grey figure
+       carrying the car on his side. New prompt in §5, D01. The layout,
+       the centre rule, the matched scale and the panel position all carry over.
+
+  A10  PAGE ONE                                       HOLDS UNCHANGED
+       "Go and find your balloon. It's on page one of your agreement —
+       optional final payment." The prompt already specifies one empty ruled
+       box and a finger resting on it. Nothing to change.
+
+  A11  THE CLOSE                                     HOLDS, PLUS ONE CARD
+       Fine as is. Add a final type card after it for "No jargon. Just
+       mechanisms." — the series signoff, which v2 predates.
+
+  TALLY   6 hold · 2 re-task without regenerating · 1 rebuild · 1 cut
+          Plus ~9 new beats, of which 4–5 need actual generations.
+
+CASUALTY NOTE — BILAL. He loses his only scene. The rewrite's comparison is
+PCP against Ijara, and Ijara's owner is the financier, so there is no slot for
+an outright cash owner. He stays in the A11 group shot. If you want him back
+in the body of a film, he is the natural lead for a "buy it outright" episode,
+which the series does not yet have.
+
+
+================================================================================
+4. THE THUMBNAIL — the real cost of cutting A02
+================================================================================
+
+A02 was doing three jobs at once: one object, two contradictory labels, and
+Adam's QUESTIONING face. That was a good thumbnail and it is gone.
+
+REPLACE IT WITH A07. It is the only surviving frame that carries a face, a
+number and the argument simultaneously: Adam WORRIED in profile, the grey hand
+lifting the terracotta block out of frame, the gap left behind on the baseline.
+Set the panel large —
+
+    INTEREST PAID ON THIS PART
+    £3,700
+
+— and let the empty stretch of baseline do the rest. It matches the pattern v2
+correctly identified in the Student Loan thumbnail, where the WORRIED face
+carries the frame.
+
+SECOND CHOICE is A06 with the band crossing the big block, panel reading £103 A
+MONTH. Stronger diagram, weaker thumbnail — no face, and every winning
+thumbnail on the channel has one.
+
+Generate A07 first now, not A02. It becomes the ADAM reference frame that every
+other Adam scene locks to, which was A02's other job.
+
+
+================================================================================
+5. NEW BEATS — what has to be built
+================================================================================
+
+Numbered B-series so they don't collide with the A-series. Timings are the same
+kind of estimate v2 used and carry the same warning: record the VO, derive the
+real cuts, then generate.
+
+CHEAP — no new generation required
+--------------------------------------------------------------------------------
+  B01  RECAP: PART ONE          re-task A08 unchanged
+       "Part one — banks rent out money and call it interest."
+  B02  THE STRANGE PART         A04 variant, Kareem QUESTIONING
+       "And here's the strange part. You paid interest on the piece of it you
+       were always going to give away."
+  B03  RECAP: PART THIRTEEN     reuse A03, or one cheap second Sami angle
+       "Part thirteen — we put that on a car, and found the fix. Ijara."
+  B04  P-C-P                    type card on plain cream, built in the edit
+       "Today it's the deal most of Britain actually drives."
+  B05  THE SETUP NUMBERS        panel-only over the A03 car shape
+       PANEL: CAR £30,000 / DEPOSIT £3,000 / FINANCED £27,000
+  B06  THE PARKED LUMP          A05 with a second panel state
+       "Parked at the end of the contract, untouched."
+  B07  THE MONTHLY              A06 with panel £103 A MONTH
+  B08  THE TOTAL                A06 with panel £3,700 · 63% OF ALL INTEREST
+                                ** the PILL goes here **
+  B09  QURAN 2:275              type card, built in the edit
+                                "Trade permitted, riba forbidden."
+  B10  SIGNOFF                  type card after A11
+                                "No jargon. Just mechanisms."
+
+REAL GENERATIONS — four
+--------------------------------------------------------------------------------
+
+  C01 · KAREEM, QUESTIONING · "the bit nobody explains at the desk"
+  Same prompt body as A04, one substitution:
+    "His expression is QUESTIONING — one eyebrow slightly raised and uneven,
+    mouth a small flat line, head very slightly tilted."
+  Same negative as A04, minus "smiling" (a faint asymmetry is wanted), plus:
+    exaggerated confusion, shrugging, raised shoulders, hands in frame
+
+  C02 · KAREEM, WARM · "that was my first question too"
+  Same prompt body as A04, one substitution:
+    "His expression is WARM — a small genuine closed smile, relaxed brows,
+    eyes slightly softened."
+  Same negative as A04, minus "smiling".
+
+  C03 · THE TEST · "does the contract charge you for time?"          ★ REUSABLE
+  Build this one properly. The series test is the channel's signature device and
+  it recurs in every episode; a locked asset for it pays for itself across the
+  back catalogue.
+
+  [STYLE STEM] A flat side-on diagram, no people. Centre frame, a plain circular
+  wall clock drawn in a few simple shapes — cream #F7EFDD face, thick dark brown
+  #3D2B23 outline, two plain hands, no numerals, no markings of any kind on the
+  face. Directly beneath it on the same baseline sits a small plain simplified
+  flat car shape in muted wheat-tan, drawn in three or four shapes with no
+  badges, no plates and no detail, notably smaller than the clock. A single
+  continuous terracotta #B0503A band runs horizontally across the clock only,
+  passing behind nothing and stopping cleanly at the frame edges; the car below
+  is untouched by it and sits clear of it. The clock is plainly the larger and
+  more important object. Clear cream space across the top fifth and bottom fifth
+  for type.
+
+  NEGATIVE — this scene:
+  photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+  dramatic lighting, hard directional shadows, dark background, black
+  background, shallow depth of field, bokeh, painterly, sketchy or tapering
+  lines, variable line weight, anime, manga, chibi, thin outlines, no outlines,
+  neon or saturated colours, people, hands, faces, clock numerals, roman
+  numerals, tick marks, second hand, alarm bells, hourglass, calendar, sundial,
+  band touching the car, band crossing the car, car larger than the clock,
+  detailed car, licence plates, car badges, perspective, isometric view, text,
+  lettering, numbers, watermark, signature, logos, cluttered background
+
+  CAP 1 DOES THE TEST: "DOES IT CHARGE YOU FOR TIME?" then, one beat later,
+  "IT DEPENDS ON THE CALENDAR. NOT THE CAR."
+
+  D01 · IJARA vs PCP · the rebuilt split frame — replaces A09
+  Keeps A09's layout, centre rule, matched scale and panel position exactly.
+
+  [STYLE STEM] A flat side-on diagram split into two halves by a single thin
+  vertical dark brown rule down the centre of the frame, both halves drawn at
+  the same scale on the same baseline. LEFT HALF, labelled by the caption as the
+  lease: SAMI in profile — an adult man with short-cropped black hair, a light
+  stubble beard, simple black dot eyes, thin dark eyebrows, medium-tan skin,
+  wearing a teal #2F6B72 short-sleeved t-shirt and slate-grey #55595E trousers,
+  expression NEUTRAL and settled — standing beside a plain simplified flat car
+  shape in muted wheat-tan. A featureless flat mid-grey #7A7A7A humanoid with
+  the same thick dark brown outline, smooth blank oval head, NO eyes, NO nose,
+  NO mouth and NO hair stands with one hand resting flat on the roof of that
+  car, plainly holding it. A short even line of small cream coin-shaped tokens
+  runs from SAMI to the grey figure. RIGHT HALF: ADAM in profile — rounded
+  friendly face, simple black dot eyes, thin dark eyebrows, no beard, short
+  swept dark brown hair, light warm skin, rust-red #B05A42 t-shirt, ochre-tan
+  #C08B4A trousers, expression WORRIED with inner eyebrows raised — with an
+  identical line of cream tokens running away from him toward the frame edge,
+  and a large terracotta #B0503A block resting heavily against his side. No grey
+  figure touches anything on his half and there is no car on his half at all.
+  Clear cream space across the top fifth and bottom fifth for type.
+
+  NEGATIVE — this scene:
+  photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+  dramatic lighting, hard directional shadows, dark background, black
+  background, shallow depth of field, bokeh, painterly, sketchy or tapering
+  lines, variable line weight, anime, manga, chibi, thin outlines, no outlines,
+  neon or saturated colours, blank face on Sami, blank face on Adam, featureless
+  head on a named character, missing eyes, missing mouth, full beard on Sami,
+  clean-shaven Sami, beard on Adam, face on the grey figure, eyes on the grey
+  figure, hair on the grey figure, clothing detail on the grey figure, car on
+  Adam's half, grey figure on Adam's half, grey hand touching Adam, tokens
+  flowing toward Sami, tokens flowing toward Adam, uneven spacing, curved or
+  arcing line, figures at different scales, detailed car, realistic car, licence
+  plates, car badges, grille logos, dealership signage, text, lettering,
+  numbers, watermark, signature, logos, extra fingers, distorted hands,
+  cluttered background
+
+  WHAT THIS FRAME HAS TO SAY, and the reason for every constraint above: on the
+  lease side the financier's hand is on the car, so he is holding the thing and
+  carrying it. On the PCP side there is no car at all and no grey hand — only
+  money leaving and a weight against the ribs. That asymmetry is the argument.
+  CAP 2: "the cost of owning it. the rights of renting it."
+
+
+================================================================================
+6. REVISED SCENE MAP
+================================================================================
+
+Twenty beats, ~2:16. Every timing is an estimate at ~150wpm — record first.
+
+  #   | SOURCE      | BEAT                          | HOLD
+ -----|-------------|-------------------------------|------
+  01  | A01         | hand the car back             | 5.5s
+  02  | B02 (C01)   | the strange part              | 6.0s
+  03  | B01 (A08)   | recap: part one               | 6.5s
+  04  | B03 (A03)   | recap: part thirteen, ijara   | 6.0s
+  05  | B04 card    | P-C-P                         | 4.0s
+  06  | B05 panel   | 30,000 / 3,000 / 27,000       | 8.0s
+  07  | C01         | nobody explains this at the desk | 6.0s
+  08  | A05         | thirteen thousand set aside   | 7.0s
+  09  | B06 (A05)   | that's the balloon            | 6.0s
+  10  | A06         | interest. every single month  | 7.0s
+  11  | B07 (A06)   | £103 a month                  | 6.5s
+  12  | B08 (A06)   | £3,700 · two-thirds  ** PILL **| 7.5s
+  13  | A07         | never intended to own it      | 6.5s
+  14  | C03         | does it charge you for time?  | 6.5s
+  15  | C03 var     | the calendar, not the car     | 5.5s
+  16  | A03         | isn't a PCP just a lease?     | 6.0s
+  17  | C02         | that was my first question too| 6.5s
+  18  | D01         | ijara vs PCP                  | 9.0s
+  19  | B09 card    | trade permitted, riba forbidden| 5.0s
+  20  | A10         | page one                      | 6.0s
+  21  | A11 + B10   | the close + signoff           | 9.0s
+
+CUT ORDER IF YOU RUN LONG. Take 05 first, then 09, then 15. Never cut 12
+(the payoff number), 16–18 (the objection, which is the retention play), or 20
+(the homework CTA that farms the pinned comment).
+
+TRACK B — ANIMATED. The v2 selection still stands and gains one. A06 remains
+the best candidate because the band travelling the row IS the argument. A07
+still earns it. A08 is now the Part 1 recap and still earns it. Add D01 — the
+tokens running in opposite relationships on the two halves reads far better
+moving than held. Four clips, everything else a still with an edit move.
+
+
+================================================================================
+7. CAPTION TABLE — replaces the v2 table entirely
+================================================================================
+
+CAP 1 / CAP 2 / PANEL / PILL specs are unchanged. Only the content changes.
+
+  #  | CAP 1                        | CAP 2                              | PANEL
+ ----|------------------------------|------------------------------------|-------------------
+  01 | THREE YEARS OF PAYMENTS      | then you hand it back              | TERM · 36 MONTHS
+  02 | YOU PAID INTEREST ON IT      | on the part you gave away          | (none)
+  03 | BANKS RENT OUT MONEY         | and call it interest               | PART 1
+  04 | RENTING A CAR IS TRADE       | it has a name. ijara.              | PART 13
+  05 | P-C-P                        | the deal most of Britain drives    | (none)
+  06 | £27,000 FINANCED             | thirty thousand car. three down.   | APR ~10% · 36 MONTHS
+  07 | NOBODY EXPLAINS THIS         | not at the desk, anyway            | (none)
+  08 | £13,000 IS SET ASIDE         | your payments never touch it       | NEVER REDUCED
+  09 | THAT'S THE BALLOON           | the one you walk away from         | OPTIONAL FINAL PAYMENT
+  10 | SO WHAT ARE YOU PAYING ON IT?| interest. every single month.      | CHARGED ON ALL OF IT
+  11 | £103 A MONTH                 | on a part that will never be yours | × 36 MONTHS
+  12 | £3,700                       | nearly two-thirds of all the interest | PILL: ↗ ON THE PART YOU GIVE BACK
+  13 | YOU NEVER OWNED IT           | and you never intended to          | (none)
+  14 | DOES IT CHARGE YOU FOR TIME? | run the test from part one         | (none)
+  15 | THE CALENDAR. NOT THE CAR.   | that's the whole difference        | (none)
+  16 | BUT ISN'T THIS JUST A LEASE? | fair question                      | (none)
+  17 | THAT WAS MY FIRST QUESTION   | (none — let it be human)           | (none)
+  18 | TWO CONTRACTS                | wearing each other's clothes       | IJARA / PCP
+  19 | TRADE PERMITTED              | riba forbidden                     | AL-BAQARAH 2:275
+  20 | IT'S ON PAGE ONE             | in its own box. go and look.       | OPTIONAL FINAL PAYMENT
+  21 | WHAT ARE YOU PAYING FOR TIME?| No jargon. Just mechanisms.        | (none)
+
+BEAT 12 IS THE TYPOGRAPHIC CENTRE OF THE FILM. £103 small, £3,700 large, in
+collision — the same device as "£1,461 a month. Only £420 buys your house."
+Give it more weight than anything else on screen.
+
+BEAT 17 GETS NO PANEL AND NO NUMBER. It is the only moment in the film where a
+person admits something, and any furniture on screen kills it.
+
+
+================================================================================
+8. STILL OUTSTANDING
+================================================================================
+
+Unchanged from v2's own list, and now confirmed against the repo:
+credit-card-prompt-pack.txt carries the v1 errors in full — inverted negatives
+at line 129, blank-head instructions at 118/167/196, near-black macro
+throughout. It has already shipped once as "The Bank Doesn't Want You
+Debt-Free" (39 views). The shelved halal-card pack is presumably the same.
+
+Rebuilding those to v2's style bible is worth doing, but it is not the first
+thing. On the channel's own numbers the format and length decisions are worth
+more than the render idiom: the Deadbeat frame proves you already correct the
+idiom by hand at production time, and it still did 39 views. Fix the length and
+the title pattern first, then come back for the packs.
+================================================================================
