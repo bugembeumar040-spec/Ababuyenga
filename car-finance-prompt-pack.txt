@@ -148,15 +148,17 @@ plastic sheen, uncanny, stock-photo smiles
 A01 · 0:00.0–0:05.2 · HAND IT BACK   [generate 10s]
 --------------------------------------------------------------------------------
 Macro close-up of a dark matte charcoal counter. A simplified geometric hand in a
-terracotta #E85F42 sleeve enters from the left holding a single brass car key on
-a plain ring, sets it down on the counter with a small deliberate press, releases
-it, and withdraws completely from frame. The key settles and holds, alone.
-Stylised low-poly 3D, matte clay hand, near-photorealistic brass with fine patina
-and real specular hits. Camera locked off, no movement at all — the only motion
-in frame is the hand. Single hard key light from camera-left, one long real
-shadow thrown right, deep near-black surround, one warm amber glint along the
-key. Shallow cinematic depth of field. 9:16 vertical, key in the lower
-two-thirds, clean dark headroom above.
+terracotta #E85F42 sleeve enters from the left holding a single matte black car
+key fob on a brushed metal split ring — a smooth rounded rectangular block with
+three unmarked recessed buttons and a polished chrome bezel around its edge — sets
+it down on the counter with a small deliberate press, releases it, and withdraws
+completely from frame. The fob settles and holds, alone. Stylised low-poly 3D,
+matte clay hand, near-photorealistic soft-touch polymer with a fine satin sheen,
+real specular hits along the chrome bezel. Camera locked off, no movement at all
+— the only motion in frame is the hand. Single hard key light from camera-left,
+one long real shadow thrown right, deep near-black surround, one warm amber glint
+running along the fob's chrome bezel. Shallow cinematic depth of field. 9:16
+vertical, fob in the lower two-thirds, clean dark headroom above.
 
 --------------------------------------------------------------------------------
 A02 · 0:05.2–0:10.0 · NEVER YOURS
@@ -177,11 +179,14 @@ A03 · 0:10.0–0:15.4 · THAT PART'S FINE   [generate 10s]
 --------------------------------------------------------------------------------
 Macro close-up of two simplified geometric hands over a dark matte surface, one
 in a cream #E8DCC8 sleeve and one in a deep navy #1E3A5F sleeve, facing each
-other. The cream hand holds a brass key out flat on an open upturned palm; the
-navy hand rests beside it, open and still. Neither hand closes, neither takes the
-key — the exchange stays suspended and even. Both hold completely still.
-Stylised low-poly 3D, matte clay shading, soft subsurface material,
-near-photorealistic brass with fine patina. Camera arcs slowly 10 degrees right
+other. The cream hand holds a matte black car key fob on a brushed metal split
+ring out flat on an open upturned palm — a smooth rounded rectangular block with
+three unmarked recessed buttons and a polished chrome bezel; the navy hand rests
+beside it, open and still. Neither hand closes, neither takes the fob — the
+exchange stays suspended and even. Both hold completely still. Stylised low-poly
+3D, matte clay shading, soft subsurface material, near-photorealistic soft-touch
+polymer with a fine satin sheen and a bright chrome edge. Camera arcs slowly 10
+degrees right
 around the two palms and settles. Deep near-black background, single hard key
 light from upper left, one warm amber rim tracing both wrists. Shallow depth of
 field. Calm, balanced, unhurried. 9:16 vertical, hands in the lower two-thirds,
@@ -335,18 +340,21 @@ sheen, uncanny, low resolution
 
 --------------------------------------------------------------------------------
 B01 · hold 5.20s · HAND IT BACK
-MOVE: push in 7%, centred on the key.
+MOVE: push in 7%, centred on the fob.
 --------------------------------------------------------------------------------
-Still life, 85mm macro, f/2.8. A single brass car key on a plain ring lies alone
-on a dark brushed-charcoal counter, just released, slightly askew. A simplified
-geometric hand in a terracotta #E85F42 sleeve is withdrawing at the frame edge,
-fingertips still open, no longer touching the key. Stylised low-poly matte clay
-hand, near-photorealistic brass with fine patina, real specular hits and faint
-handling marks. Single hard key from camera-left at a low raking angle, one long
-defined shadow thrown right, deep near-black falloff. Fine dust on the counter
-surface. Cool neutral grade, one warm amber highlight along the key's shank.
-Final, relinquished, slightly bare. 9:16 vertical, key composed low, two-fifths
-of the frame empty above.
+Still life, 85mm macro, f/2.8. A single matte black car key fob on a brushed
+metal split ring lies alone on a dark brushed-charcoal counter, just released,
+slightly askew — a smooth rounded rectangular block with three unmarked recessed
+buttons and a polished chrome bezel around its edge. A simplified geometric hand
+in a terracotta #E85F42 sleeve is withdrawing at the frame edge, fingertips still
+open, no longer touching the fob. Stylised low-poly matte clay hand,
+near-photorealistic soft-touch polymer with a fine satin sheen, faint thumb wear
+on the buttons and real specular hits along the chrome. Single hard key from
+camera-left at a low raking angle, one long defined shadow thrown right, deep
+near-black falloff. Fine dust on the counter surface. Cool neutral grade, one
+warm amber highlight running the length of the fob's chrome bezel. Final,
+relinquished, slightly bare. 9:16 vertical, fob composed low, two-fifths of the
+frame empty above.
 
 --------------------------------------------------------------------------------
 B02 · hold 4.80s · NEVER YOURS   ** THUMBNAIL FRAME **
@@ -370,10 +378,12 @@ MOVE: none. Hold dead still — this beat is a concession, and it should sit lev
 Locked-off macro still life, 60mm, f/5.6, dark matte surface. Two simplified
 geometric hands face each other, one in a cream #E8DCC8 sleeve and one in a deep
 navy #1E3A5F sleeve, both palms open and upturned, level with each other. A
-single brass key rests flat on the cream palm; the navy palm is open and empty
-beside it. Neither hand is closing. Nothing else in frame. Stylised low-poly
-matte clay with soft subsurface scatter, near-photorealistic brass with fine
-patina and real specular hits, firm contact shadows. One hard key from upper
+single matte black car key fob on a brushed metal split ring rests flat on the
+cream palm — a smooth rounded rectangular block with three unmarked recessed
+buttons and a polished chrome bezel; the navy palm is open and empty beside it.
+Neither hand is closing. Nothing else in frame. Stylised low-poly matte clay with
+soft subsurface scatter, near-photorealistic soft-touch polymer with a fine satin
+sheen and a bright chrome edge, firm contact shadows. One hard key from upper
 left, deep near-black surround, a warm amber rim tracing both wrists. Symmetrical,
 balanced, settled — the composition should read as fair. 9:16 vertical, hands
 centred low, wide dark margin above.
