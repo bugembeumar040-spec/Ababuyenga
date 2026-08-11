@@ -1,0 +1,267 @@
+================================================================================
+FINANCE % DECODED — "YOU PAID INTEREST ON A CAR YOU GAVE BACK" — VO PASS
+ElevenLabs v3 · emotion-tag audit and rewrite
+9:16 · target ~50s
+Follows credit-card-prompt-pack.txt
+================================================================================
+
+WHAT THIS FILE IS
+
+The PCP / balloon-payment VO, audited against the v3 tagging conventions used
+on the Klarna and credit card packs, and rewritten. Section 1 is the audit —
+what the draft was doing wrong. Section 2 is the script to record. Sections
+3–6 are the settings, the strip order if v3 over-performs, the two
+pronunciation traps, and one accuracy fix that has nothing to do with tags but
+would have ended the video in the comments.
+
+The scene map, captions and prompt pack for this video do not exist yet. Record
+this first, then derive the beats off the rendered audio — same rule as the
+credit card pack.
+
+
+================================================================================
+1. AUDIT — what the draft was doing
+================================================================================
+
+The draft carried four tags across fourteen lines: [serious] ×3, [calm],
+[warmly] ×2. Eleven findings, roughly in order of how much they cost you.
+
+1.1  NO CONTRAST, SO NO EMOTION.
+     v3 does not read a tag as an absolute setting. It reads it as a move away
+     from the surrounding delivery. [serious] on a voice already narrating a
+     riba explainer at stability 50 is a null instruction — it describes the
+     baseline. Three of the four tags in the draft were [serious]. The script
+     was effectively untagged.
+
+1.2  THE HOOK HAD NO DELIVERY DIRECTION.
+     "Three years of payments. Then you hand the car back." is the whole
+     retention decision and it was carrying the same tag as the middle of the
+     script. The Klarna and credit card packs both open cold-flat and drop to
+     [whispers] on the reveal. This draft never uses the device.
+
+1.3  THE SINGLE-WORD BOMB WAS UNTAGGED.
+     "The balloon." is this video's "Deadbeats." — the two-word line the whole
+     film is built to land. It sat in the middle of a [serious] block with no
+     isolation and no tag. That is the one place a tag was mandatory and the
+     one place there wasn't one.
+
+1.4  CONSECUTIVE DUPLICATE TAGS ARE NO-OPS.
+     [warmly] on the last two lines. The second one changes nothing — v3 holds
+     an emotional state until the next tag contradicts it. You spent a tag to
+     instruct the model to keep doing what it was already doing, and lost the
+     chance to differentiate the CTA from the line before it.
+
+1.5  NON-CANONICAL TAG VOCABULARY.
+     [serious], [calm], [warmly] and [emphatic] are not in ElevenLabs' v3 tag
+     documentation. v3 is prompt-following rather than enum-driven so they do
+     something, but the effect is soft and it varies run to run. The documented
+     set — [whispers], [sighs], [exhales], [curious], [sarcastic], [excited],
+     [angry], [laughs], [shouts] — steers far harder for the same token cost.
+     Rewrite below keeps three soft mood tags where the soft effect is what's
+     wanted and moves every load-bearing beat onto the documented set.
+
+1.6  TAGS ON SHORT LINES DON'T LAND.
+     v3 ramps into an emotional state over roughly a line. A tag in front of a
+     four-word sentence is often spent before the sentence is over. Applies to
+     "Here's the part that isn't." and "The balloon." Fix is either to tag the
+     line before and let the state carry in, or to isolate the beat as its own
+     generation. Both used below.
+
+1.7  NO PACING MARKS AT ALL.
+     Full stops were doing 100% of the work. v3 rushes list-shaped prose, and
+     "So there are two flows. Money leaving you, like a buyer's. And a logbook
+     that never moves, like a tenant's." is the most list-shaped passage in the
+     script — it will come out flat and fast, exactly on the beat you need the
+     viewer to actually think. Em-dashes and ellipses steer pace more reliably
+     than any tag; the rewrite uses them.
+
+1.8  CHUNKS TOO SHORT FOR STABLE EMOTION.
+     v3 wants ~250+ characters per generation to hold a state. Recording this
+     line by line will give you fourteen different performances of the same
+     voice. Generate as one pass, with exactly one exception (§5).
+
+1.9  THE ANALYTICAL BEAT HAS NO EMOTION AVAILABLE TO IT.
+     "Two flows... you carry the cost of owning it and you hold the rights of
+     someone renting it" is the argument, and it's the driest sentence in the
+     script. No tag fixes abstract copy. Rewritten below into second person and
+     split into two short opposed clauses so the delivery has something to
+     push against.
+
+1.10 THE ARC WAS FLAT.
+     serious → calm → serious → warm → warm. What the two published packs
+     actually do, and what the rewrite restores: cold open, drop to whisper on
+     the reveal, controlled heat on the injustice, drop again on the
+     instruction, warm only on the last line.
+
+1.11 NO CTA DIFFERENTIATION.
+     "Go and find the balloon. It's on page one." is an instruction — it should
+     be quiet and close-miked, not warm. Warmth belongs on the final line only,
+     where it's the payoff for 45 seconds of pressure. The draft gave both
+     lines the same tag and flattened the ending.
+
+
+================================================================================
+2. THE SCRIPT — record this
+================================================================================
+
+Tag count: 8 across the film, six of them documented v3 tags. Punctuation
+carries the pace; tags are reserved for the four moves that matter.
+
+--------------------------------------------------------------------------------
+[serious] Three years of payments. Then you hand the car back.
+
+[whispers] You never owned it. Not for one day of it.
+
+[calm] And that part is fine. A lease is a lease — Islam has a name for it.
+Ijara. Nothing wrong with renting a car.
+
+[serious] Here's the part that isn't.
+
+The balloon. That lump at the end — the one you were always going to walk away
+from.
+
+You pay interest on that too. Every month. For three years.
+
+[angry] Interest... on a piece of car you were never going to own.
+
+[curious] So which one are you?
+
+The money leaves you like a buyer. The keys go back like a tenant.
+You carried the cost of owning it. You held the rights of renting it.
+
+[whispers] Go and find the balloon. It's on page one of your agreement.
+
+[warmly] Then ask what you're actually renting — and what you're paying for
+time.
+--------------------------------------------------------------------------------
+
+WHAT EACH TAG IS DOING
+
+  [serious]   Baseline. Stated once at the top so the whisper two lines later
+              has something to be a departure from. Restated after [calm] to
+              snap back — that one is load-bearing, it's the pivot of the film.
+  [whispers]  The reveal. Drops on "You never owned it" and carries into the
+              short line after it, which is why the two sentences are in one
+              chunk rather than split.
+  [calm]      The concession. Deliberately soft — this is the beat where a
+              hostile viewer decides you're being fair, and it buys you the
+              rest of the video.
+  [angry]     The injustice, once. Do not add a second one anywhere. Its entire
+              power is that it's the only raised moment in fifty seconds. If
+              your voice build over-performs it, see §4.
+  [curious]   Turns the analytical beat into a question aimed at the viewer.
+              This is the tag doing the most work per token in the script — it
+              converts the driest passage into direct address.
+  [whispers]  Second whisper, on the instruction. Close-miked, conspiratorial.
+              Pairs with the first whisper to bracket the argument.
+  [warmly]    Last line only. The only warmth in the film.
+
+"The balloon." is untagged on purpose — it inherits [serious] from the pivot
+and lands on the silence around it, not on a performance. See §5.
+
+
+================================================================================
+3. SETTINGS
+================================================================================
+
+ElevenLabs v3, stability 45–55, similarity 75, speed 1.0. Same as Klarna and
+the credit card pack — do not change these to chase the tags.
+
+Stability is the thing that decides whether tags work at all. Above ~60 v3
+starts ignoring them; at 45–55 they land and the voice still holds identity.
+If [angry] and [whispers] are coming out as ordinary narration, the problem is
+almost always stability drifting high, not the tags.
+
+Generate the whole script as one pass. Fourteen separate generations will not
+match.
+
+
+================================================================================
+4. STRIP ORDER — if v3 over-performs
+================================================================================
+
+Eight tags is more than the two published packs use and it is deliberate, but
+v3 occasionally reads an over-tagged script as a performance rather than a
+narration. If the take sounds theatrical, remove in this order and regenerate
+after each:
+
+  1. [curious]   — the question mark alone gets you most of it
+  2. [calm]      — the copy is already conciliatory
+  3. [serious] (the second one, at "Here's the part that isn't")
+  4. [angry]     — replace with the ellipsis alone, which is already in the line
+
+Never strip the two [whispers] or the closing [warmly]. Those three are the
+film's entire dynamic range; without them you have a man reading a leaflet.
+
+Separately: if a tag is ever audibly spoken in the take — v3 does this
+occasionally — it is instantly obvious and the whole generation is scrap. Listen
+to every pass end to end before you cut to it.
+
+
+================================================================================
+5. THE ISOLATED BEAT
+================================================================================
+
+"The balloon." is this video's "Deadbeats." Same treatment as the credit card
+pack: a full beat of silence either side in the edit, and nothing riding in on
+it.
+
+If v3 rushes it in the full pass — likely, it's three words after a long
+sentence — generate the pivot on its own:
+
+    [serious] Here's the part that isn't. [long pause] The balloon.
+
+and cut that in. Do not solve it by adding a tag to "The balloon." in the main
+pass; per §1.6 the state won't ramp in time and you'll get an odd half-inflected
+read instead.
+
+
+================================================================================
+6. PRONUNCIATION — two traps
+================================================================================
+
+v3 does not support SSML phoneme or alias tags. The only lever is respelling in
+the script text itself, so test both of these before you commit to a take.
+
+  IJARA — Arabic term, and v3 has no reason to know it. Expect a hard English
+  "eye-JAR-uh" on first pass. If you get it, respell it in the script as
+  "Ijaara" or, if that still fails, "ee-JAA-ra" — v3 reads the respelling, so
+  whatever you write is what you hear. Get this one right; mispronouncing the
+  Islamic term while explaining Islamic finance is the single most quotable
+  error available in this script.
+
+  PCP — the draft's second line contained it and the rewrite removes it, partly
+  for this reason. If you put it back, write it "P-C-P" with hyphens to force
+  letter-by-letter. Unhyphenated, v3 will sooner or later say "pee-see-pee" as
+  a word, and PCP also has an unfortunate other referent your comment section
+  will find funny.
+
+
+================================================================================
+7. ACCURACY — one fix that is not a tag problem
+================================================================================
+
+THE LOGBOOK LINE IS WRONG AND HAD TO GO.
+
+The draft read: "On a PCP the logbook was never in your name."
+
+On a UK PCP or HP agreement the V5C registration document normally IS in the
+customer's name — the customer is the registered keeper. The finance company is
+the legal owner. The V5C itself carries the line that it is not proof of
+ownership, and that distinction between keeper and owner is exactly the thing
+the document exists to make. Anyone who has held a V5C for a financed car — a
+large share of your audience — can check this in thirty seconds, and it is the
+kind of error that gets a top comment and discredits the argument around it.
+
+The rewrite replaces the whole keeper/owner mechanic with the flow the script
+can defend without qualification: money out like a buyer, keys back like a
+tenant. Same point, no falsifiable claim.
+
+Keep the rest of the argument as drafted. Interest on a PCP is charged on the
+full amount financed including the optional final payment, so a customer who
+always intended to hand the car back has still been paying interest on the
+balloon for the whole term — that is the video's central claim and it is sound.
+
+Posture, as in both published packs: describe the economics, do not issue a
+ruling in your own voice. Ijara is named as the contrast, not as a verdict.
+================================================================================
