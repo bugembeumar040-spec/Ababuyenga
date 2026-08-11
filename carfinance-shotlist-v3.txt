@@ -1,0 +1,804 @@
+================================================================================
+FINANCE % DECODED — "IS YOUR CAR FINANCE HALAL?" — SHOT LIST v3
+GENERATION-READY · self-contained · cut against the rewritten VO
+9:16 · 1080x1920 · 22 beats · ~2:28 · 14 generations
+================================================================================
+
+HOW TO READ THIS FILE
+
+Every prompt you need is in here in full. You do not need the v2 pack open
+alongside it. Each block carries a provenance tag, the VO line it sits under,
+its captions, and its complete prompt and negative.
+
+  [RETAINED]    Prompt is byte-identical to the v2 pack. Generate as written.
+  [RE-TASKED]   Prompt identical to v2, but the beat it serves has changed.
+  [REBUILT]     v2 scene existed but its argument is gone; prompt rewritten.
+  [NEW]         Did not exist in v2.
+  [EDIT-ONLY]   Type card. No generation — build it in the edit.
+  [CUT]         In v2, not in this film. Listed at the bottom so you don't
+                generate it by habit.
+
+GENERATION BUDGET — 14 stills, against v2's 11.
+
+  Retained, unchanged      8    A01 A03 A04 A05 A06 A07 A10 A11
+  Re-tasked, unchanged     1    A08
+  New                      4    C01 C02 C03 C04
+  Rebuilt                  1    D01
+  Edit-only cards          3    CARD-01 CARD-02 CARD-03
+  Cut                      1    A02
+
+Nine of the fourteen are prompts you already had. The film is twice as long as
+v2's and costs three extra generations, because the added length is carried by
+panel and caption states over stills that repeat — A05 twice, A06 three times,
+A03 twice, D01 twice.
+
+GENERATE FIRST, IN THIS ORDER. Each locks a reference the rest depend on:
+  1. A07  — ADAM reference AND the thumbnail. This was A02's job in v2.
+  2. A03  — SAMI reference.
+  3. A04  — KAREEM reference. C01 and C02 lock to it.
+  4. A05  — the block diagram. A06 and A07 must match its row exactly.
+
+TIMINGS ARE ESTIMATES at ~137 effective wpm including pauses. Record the VO,
+derive the real IN/OUT points into video/src/carfinance/beats.ts, then generate.
+
+--------------------------------------------------------------------------------
+STYLE STEM — paste this at the head of every prompt below. Every prompt in this
+file that says [STYLE STEM] means this text, verbatim.
+--------------------------------------------------------------------------------
+
+  Flat 2D vector cartoon illustration in a warm muted storybook style. Thick
+  uniform dark brown #3D2B23 outlines of even weight on every shape. Flat
+  colour fills with one slightly darker tone per shape for soft shading, no
+  gradients on skin, no texture, no photorealism, no 3D. Warm cream #F7EFDD
+  background with a very faint vertical gradient and nothing else in it. Soft
+  cream ellipse shadow on the ground. Clean, uncluttered, generous empty space.
+  9:16 vertical.
+
+FRAME FOR TYPE on every generation: leave the top fifth and the bottom fifth of
+the frame clear. CAP 1 / CAP 2 live in the top, the PANEL in the bottom.
+
+THE RULE, unchanged: people have faces, the institution does not. Never put a
+face on the grey figure. Never take one off a named character.
+
+PALETTE
+  Cream ground      #F7EFDD      Outline / type    #3D2B23
+  Terracotta accent #B0503A      Muted label grey  #8A7D72
+  Skin, light       #F2C4A8      Skin, mid-tan     #C89468
+  Skin, mid-brown   #D0A077      Institution grey  #7A7A7A
+  Shoes / dark      #3A2E28      Panel white       #FBF7EF
+  Block cream       #EFE3CC      CAP 2 brown       #6B5A4E
+
+
+================================================================================
+TIMELINE AT A GLANCE
+================================================================================
+
+  #  | IN     | OUT    | LEN  | ASSET    | STATUS      | VO
+ ----|--------|--------|------|----------|-------------|------------------------
+  01 | 0:00.0 | 0:05.5 | 5.5s | A01      | RETAINED    | Three years of payments
+  02 | 0:05.5 | 0:12.5 | 7.0s | C01      | NEW         | the strange part
+  03 | 0:12.5 | 0:18.5 | 6.0s | A08      | RE-TASKED   | recap: part one
+  04 | 0:18.5 | 0:25.0 | 6.5s | A03      | RETAINED    | recap: part thirteen
+  05 | 0:25.0 | 0:29.0 | 4.0s | CARD-01  | EDIT-ONLY   | P-C-P
+  06 | 0:29.0 | 0:37.5 | 8.5s | C03      | NEW         | say the car is thirty
+  07 | 0:37.5 | 0:44.5 | 7.0s | A04      | RETAINED    | nobody explains this
+  08 | 0:44.5 | 0:52.0 | 7.5s | A05      | RETAINED    | thirteen thousand aside
+  09 | 0:52.0 | 0:58.5 | 6.5s | A05·b    | RETAINED    | that's the balloon
+  10 | 0:58.5 | 1:05.5 | 7.0s | A06      | RETAINED    | Interest. Every month.
+  11 | 1:05.5 | 1:12.5 | 7.0s | A06·b    | RETAINED    | £103 a month
+  12 | 1:12.5 | 1:19.5 | 7.0s | A06·c    | RETAINED    | £3,700 · two-thirds ★
+  13 | 1:19.5 | 1:26.0 | 6.5s | A07      | RETAINED    | never intended to own
+  14 | 1:26.0 | 1:32.5 | 6.5s | C04      | NEW         | charge you for time?
+  15 | 1:32.5 | 1:39.0 | 6.5s | C04·b    | NEW         | the calendar, not the car
+  16 | 1:39.0 | 1:45.5 | 6.5s | A03·b    | RETAINED    | isn't this just a lease?
+  17 | 1:45.5 | 1:50.5 | 5.0s | C02      | NEW         | my first question too
+  18 | 1:50.5 | 1:57.5 | 7.0s | D01      | REBUILT     | under Ijara
+  19 | 1:57.5 | 2:04.0 | 6.5s | D01·b    | REBUILT     | under a PCP
+  20 | 2:04.0 | 2:09.5 | 5.5s | CARD-02  | EDIT-ONLY   | 2:275
+  21 | 2:09.5 | 2:16.5 | 7.0s | A10      | RETAINED    | page one
+  22 | 2:16.5 | 2:24.5 | 8.0s | A11      | RETAINED    | the close
+  23 | 2:24.5 | 2:28.5 | 4.0s | CARD-03  | EDIT-ONLY   | no jargon
+
+  ★ = the one PILL of the film, and its typographic centre.
+
+CUT ORDER IF YOU RUN LONG. Take 05 first, then 09, then 15. Never cut 12
+(the payoff number), 16–19 (the objection — that is the retention play), or 21
+(the homework CTA that farms the pinned comment).
+
+ANIMATE ONLY FOUR, if you animate at all: A06, A07, A08, D01. Feed the approved
+still as the reference image and animate from it rather than generating from
+text. Keep every move slow. Add to that scene's negative:
+  morphing shapes, warping outlines, line weight changing between frames,
+  flickering fills, faces drifting between frames, camera shake, whip pans,
+  speed ramping, jitter, background shifting
+
+
+================================================================================
+BEAT 01 · A01 · [RETAINED] · 0:00.0–0:05.5 · hold 5.5s
+================================================================================
+VO      "Three years of payments. Then you hand the car back."
+CAP 1   THREE YEARS OF PAYMENTS
+CAP 2   then you hand it back
+PANEL   TERM · 36 MONTHS
+MOVE    push in 6% on the fob.
+
+[STYLE STEM] ADAM stands at a service counter, seen from the front, three-
+quarter length. ADAM is an adult man with a rounded friendly face, simple black
+dot eyes, thin dark eyebrows, a small straight mouth line, no beard, short swept
+dark brown hair, light warm skin; he wears a rust-red #B05A42 short-sleeved
+t-shirt and ochre-tan #C08B4A trousers. His expression is NEUTRAL. He has just
+set a matte black car key fob on a brushed metal split ring down on the counter
+top — a small rounded rectangular block with three plain unmarked buttons — and
+his hand is lifting away from it, fingers open, no longer touching it. Behind
+the counter stands THE INSTITUTION: a featureless flat mid-grey #7A7A7A humanoid
+figure with the same thick dark brown outline, a smooth blank oval head with NO
+eyes, NO nose, NO mouth and NO hair, plain simplified body, standing square and
+still. The counter is a simple flat slab with a low railing above it, drawn in a
+few plain shapes. Composed with clear empty cream space across the top fifth and
+the bottom fifth of the frame.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, cross-hatching, anime, manga, chibi, thin outlines, no outlines,
+neon or saturated colours, blank face on Adam, featureless head on Adam, missing
+eyes, missing mouth, face on the grey figure, eyes on the grey figure, hair on
+the grey figure, clothing detail on the grey figure, metal key blade, key teeth,
+manufacturer badge on the fob, keyring bundle, text, lettering, numbers,
+watermark, signature, logos, brand names, extra fingers, distorted hands,
+cluttered background, busy detail
+
+
+================================================================================
+BEAT 02 · C01 · [NEW] · 0:05.5–0:12.5 · hold 7.0s
+================================================================================
+VO      "And here's the strange part. You paid interest on the piece of it you
+         were always going to give away."
+CAP 1   YOU PAID INTEREST ON IT
+CAP 2   on the part you gave away
+PANEL   (none)
+MOVE    push in 7%.
+NOTE    Kareem QUESTIONING. Lock to the A04 reference — same man, same shirt,
+        same framing, expression only.
+
+[STYLE STEM] KAREEM addresses the camera directly, framed from the chest up,
+square on, centred. KAREEM is an adult man with a full short black beard and
+moustache, short black hair swept up, simple black dot eyes, thin dark eyebrows,
+light warm skin; he wears a sage-olive #7A8459 henley shirt with a three-button
+placket at the collar and sleeves rolled to the forearm. His expression is
+QUESTIONING — one eyebrow slightly raised and uneven with the other, mouth a
+small flat line, head tilted very slightly to one side. He is still, hands out
+of frame, looking straight down the lens. Nothing else in the frame at all:
+empty cream behind him. Generous clear space across the top fifth for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, blank face, featureless head, missing eyes, missing mouth, clean-shaven
+Kareem, moustache only, grey hair, angry, shouting, exaggerated expression,
+exaggerated confusion, shrugging, raised shoulders, hands in frame, pointing,
+background objects, furniture, text, lettering, numbers, watermark, signature,
+logos, brand names, extra fingers, distorted hands, cluttered background
+
+
+================================================================================
+BEAT 03 · A08 · [RE-TASKED] · 0:12.5–0:18.5 · hold 6.0s
+================================================================================
+VO      "Quick recap if you're new here. Part one — banks rent out money and
+         call it interest."
+CAP 1   BANKS RENT OUT MONEY
+CAP 2   and call it interest
+PANEL   PART 1
+MOVE    drift right 50px, no scale. Lateral, constant, matching the flow.
+NOTE    Prompt unchanged from v2, where this was "flow one". Its old VO is gone;
+        it now serves the series recap. Same art, new job.
+
+[STYLE STEM] A flat side-on diagram read left to right. On the left stands ADAM
+in profile — rounded friendly face, simple black dot eyes, thin dark eyebrows,
+no beard, short swept dark brown hair, light warm skin, rust-red #B05A42
+t-shirt, ochre-tan #C08B4A trousers — expression NEUTRAL. On the right stands
+THE INSTITUTION: a featureless flat mid-grey #7A7A7A humanoid with the same
+thick dark brown outline, smooth blank oval head, NO eyes, NO nose, NO mouth, NO
+hair, plain simplified body. Between them, at waist height, an evenly spaced
+single-file line of small identical cream coin-shaped tokens runs in a straight
+horizontal line from ADAM to THE INSTITUTION, all the same size, all the same
+gap apart, clearly travelling in one direction only. Both figures stand at the
+same scale on the same baseline. Clear cream space across the top fifth and
+bottom fifth for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, blank face on Adam, featureless head on Adam, missing eyes, missing
+mouth, face on the grey figure, eyes on the grey figure, hair on the grey
+figure, currency symbols, banknotes, poker chips, stacked tokens, scattered
+tokens, uneven spacing, curved or arcing line, tokens of differing sizes, tokens
+flowing both ways, figures at different scales, text, lettering, numbers,
+watermark, signature, logos, extra fingers, distorted hands, cluttered
+background
+
+
+================================================================================
+BEAT 04 · A03 · [RETAINED] · 0:18.5–0:25.0 · hold 6.5s      ** SAMI reference **
+================================================================================
+VO      "Part thirteen — we put that on a car, and found the fix. Ijara."
+CAP 1   RENTING A CAR IS TRADE
+CAP 2   it has a name. ijara.
+PANEL   PART 13
+MOVE    none. Hold dead still — let "Ijara" land on a level frame.
+
+[STYLE STEM] SAMI stands relaxed beside a simple flat side-on car shape, seen
+three-quarter length, weight on one hip, entirely at ease. SAMI is an adult man
+with short-cropped black hair, a light stubble beard, simple black dot eyes,
+thin dark eyebrows, medium-tan skin; he wears a teal #2F6B72 short-sleeved
+t-shirt and slate-grey #55595E trousers. His expression is PLEASED — a small
+easy closed smile, relaxed brows. He holds a matte black car key fob loosely in
+one hand, down at his side, unbothered. The car is drawn as a plain simplified
+flat shape in muted wheat-tan with no badges, no plates, no grille detail and no
+markings — three or four shapes at most, clearly secondary to him. Balanced,
+open, unhurried composition. Clear cream space across the top fifth and bottom
+fifth for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, blank face, featureless head, missing eyes, missing mouth, full beard
+on Sami, clean-shaven Sami, worried or anxious expression, detailed car,
+realistic car, licence plates, car badges, grille logos, wheels in perspective,
+dealership signage, text, lettering, numbers, watermark, signature, logos, brand
+names, extra fingers, distorted hands, cluttered background, busy detail
+
+
+================================================================================
+BEAT 05 · CARD-01 · [EDIT-ONLY] · 0:25.0–0:29.0 · hold 4.0s
+================================================================================
+VO      "Today it's the deal most of Britain actually drives. P-C-P."
+BUILD   Plain #F7EFDD cream field. "P-C-P" set very large, centred, heavy bold
+        sans, #3D2B23, letter-spaced. Beneath it in CAP 2 style #6B5A4E:
+        "the deal most of Britain actually drives". Nothing else.
+MOVE    hold still, no move. The card is a hard beat between the recap and the
+        mechanism.
+NOTE    No generation. Typeset it.
+
+
+================================================================================
+BEAT 06 · C03 · [NEW] · 0:29.0–0:37.5 · hold 8.5s
+================================================================================
+VO      "Say the car is thirty thousand. You put down three. So twenty-seven
+         thousand is financed, at around ten percent, over three years."
+CAP 1   £27,000 FINANCED
+CAP 2   thirty thousand car. three down.
+PANEL   Three states, landing on the spoken number:
+          state 1  CAR · £30,000
+          state 2  DEPOSIT · £3,000
+          state 3  FINANCED · £27,000   ·   APR ~10%   ·   36 MONTHS
+MOVE    push in 4%, very slow. The panel is doing the work.
+NOTE    The car alone, no people — A03's car is occupied by Sami and the panel
+        needs the lower third clear.
+
+[STYLE STEM] A single plain simplified flat car shape seen directly side-on,
+centred in the middle band of the frame, drawn in muted wheat-tan in three or
+four shapes at most with a thick uniform dark brown outline. No badges, no
+number plates, no grille detail, no door handles, no wing mirrors, no markings
+of any kind. Two plain circular wheels in flat dark brown. The car sits on one
+soft cream ellipse shadow on an otherwise empty baseline. Nothing else in the
+frame at all. Composed small enough that a wide band of clear cream space runs
+across the top fifth and the entire bottom third of the frame.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, people, hands, faces, driver, passengers, detailed car, realistic car,
+sports car, licence plates, number plates, car badges, manufacturer logos,
+grille logos, headlight detail, door handles, wing mirrors, windscreen wipers,
+alloy wheel spokes, three-quarter view, perspective, isometric view, road,
+kerb, buildings, scenery, text, lettering, numbers, watermark, signature, logos,
+brand names, cluttered background, busy detail
+
+
+================================================================================
+BEAT 07 · A04 · [RETAINED] · 0:37.5–0:44.5 · hold 7.0s    ** KAREEM reference **
+================================================================================
+VO      "But a PCP doesn't finance all of it the same way. And this is the bit
+         nobody explains at the desk."
+CAP 1   NOBODY EXPLAINS THIS
+CAP 2   not at the desk, anyway
+PANEL   (none)
+MOVE    push in 8% — decisive. This is the turn.
+
+[STYLE STEM] KAREEM addresses the camera directly, framed from the chest up,
+square on, centred. KAREEM is an adult man with a full short black beard and
+moustache, short black hair swept up, simple black dot eyes, thin dark eyebrows,
+light warm skin; he wears a sage-olive #7A8459 henley shirt with a three-button
+placket at the collar and sleeves rolled to the forearm. His expression is
+SERIOUS — brows drawn slightly down and level, mouth a straight closed line, no
+smile. He is still, hands out of frame, looking straight down the lens. Nothing
+else in the frame at all: empty cream behind him. Generous clear space across
+the top fifth for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, blank face, featureless head, missing eyes, missing mouth, clean-shaven
+Kareem, moustache only, grey hair, smiling, angry, shouting, exaggerated
+expression, pointing, raised hands, background objects, furniture, text,
+lettering, numbers, watermark, signature, logos, brand names, extra fingers,
+distorted hands, cluttered background
+
+
+================================================================================
+BEAT 08 · A05 · [RETAINED] · 0:44.5–0:52.0 · hold 7.5s
+================================================================================
+VO      "Thirteen thousand pounds of that car gets set aside. Parked at the end
+         of the contract, untouched. Your monthly payments never reduce it. Not
+         by a penny."
+CAP 1   £13,000 IS SET ASIDE
+CAP 2   your payments never touch it
+PANEL   NEVER REDUCED
+MOVE    drift right 40px, no scale — travelling the row to the big block.
+NOTE    v2 drew the big block at eight units. Draw it to the real proportion
+        instead: the terracotta block should read as roughly half the total mass
+        of the row, because £13,000 of £27,000 is what it is. Still absurd,
+        and now also true.
+
+[STYLE STEM] A flat side-on diagram, no people. A long even row of small
+identical cream #EFE3CC blocks runs left to right across the middle of the
+frame, each one outlined in dark brown, evenly spaced, all the same size. At the
+right-hand end of the row sits a single terracotta #B0503A block many times
+larger than any of the others — roughly equal in visual mass to the entire rest
+of the row combined — squared off and solid, clearly belonging to the same row
+and clearly out of scale with it. Everything sits on one plain horizontal
+baseline. The size difference should be immediate at a glance. Clear cream space
+across the top fifth and bottom fifth for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, people, hands, faces, uneven spacing, irregular block sizes, scattered
+blocks, stacked blocks, perspective, isometric view, rubber balloon, inflatable,
+party balloon, sphere, big block the same size as the small ones, text,
+lettering, numbers, watermark, signature, logos, cluttered background
+
+
+================================================================================
+BEAT 09 · A05·b · [RETAINED] · 0:52.0–0:58.5 · hold 6.5s
+================================================================================
+VO      "That's the balloon. The optional final payment. The one you were always
+         going to walk away from."
+CAP 1   THAT'S THE BALLOON
+CAP 2   the one you walk away from
+PANEL   OPTIONAL FINAL PAYMENT
+ASSET   Same generation as beat 08. Do not regenerate.
+MOVE    hard cut back out to full frame, then push in 6% on the terracotta
+        block alone. The cut resets the eye; the move names the object.
+
+
+================================================================================
+BEAT 10 · A06 · [RETAINED] · 0:58.5–1:05.5 · hold 7.0s
+================================================================================
+VO      "So if you're not paying it down... what are you paying on it?"
+         "Interest. Every single month."
+CAP 1   state 1  SO WHAT ARE YOU PAYING ON IT?
+        state 2  INTEREST.
+CAP 2   state 2  every single month
+PANEL   CHARGED ON ALL OF IT
+MOVE    push in 7% onto the large block — the band already reached it, the move
+        confirms it.
+NOTE    CAP 1 state 2 lands on the whispered word. Give it 400ms of clear frame
+        before it appears.
+
+[STYLE STEM] The same flat side-on diagram as the previous image, framed
+identically: a long even row of small cream #EFE3CC blocks running left to
+right, ending in one much larger terracotta #B0503A block. A single continuous
+horizontal terracotta band runs along the full length of the row from the far
+left edge of the frame to the far right, passing over every small block AND
+continuing unbroken across the large block to the end. The band plainly covers
+all of it with nothing left outside it. No people, no hands. Flat, diagrammatic,
+even. Clear cream space across the top fifth and bottom fifth for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, people, hands, faces, uneven spacing, irregular block sizes, band
+stopping short of the large block, large block left uncovered, gap in the band,
+spotlight, glow, pool of light, perspective, isometric view, text, lettering,
+numbers, watermark, signature, logos, cluttered background
+
+
+================================================================================
+BEAT 11 · A06·b · [RETAINED] · 1:05.5–1:12.5 · hold 7.0s
+================================================================================
+VO      "Thirteen thousand pounds, sitting there, charged at ten percent, for
+         thirty-six months. About a hundred and three pounds a month."
+CAP 1   £103 A MONTH
+CAP 2   on a part that will never be yours
+PANEL   £13,000 × ~10% × 36 MONTHS
+ASSET   Same generation as beat 10. Do not regenerate.
+MOVE    hold still on the large block, no move. The number moves, not the frame.
+
+
+================================================================================
+BEAT 12 · A06·c · [RETAINED] · 1:12.5–1:19.5 · hold 7.0s     ★ THE PILL BEAT ★
+================================================================================
+VO      "Three thousand seven hundred pounds by the end."
+         "Nearly two-thirds of all the interest on that contract."
+CAP 1   £3,700
+CAP 2   nearly two-thirds of all the interest
+PANEL   set £103 small and £3,700 large, in collision
+PILL    ↗ ON THE PART YOU GIVE BACK      — the only pill in the film
+ASSET   Same generation as beat 10. Do not regenerate.
+MOVE    pull back 5% to full row. The whole diagram is the evidence.
+NOTE    This is the typographic centre of the film and the beat the video exists
+        for. Same device as "£1,461 a month. Only £420 buys your house." Give it
+        more weight than anything else on screen.
+
+
+================================================================================
+BEAT 13 · A07 · [RETAINED] · 1:19.5–1:26.0 · hold 6.5s
+                    ** GENERATE FIRST · ADAM reference · THUMBNAIL **
+================================================================================
+VO      "Charged on a piece of car you never intended to own, and never did."
+CAP 1   YOU NEVER OWNED IT
+CAP 2   and you never intended to
+PANEL   (none in the film)
+MOVE    push in 9% onto the gap in the row.
+THUMB   For the thumbnail version, add a large panel:
+          INTEREST PAID ON THIS PART
+          £3,700
+        Face, number and argument in one frame — the same pattern that carries
+        the Student Loan thumbnail. This replaces v2's A02 as the thumbnail.
+
+[STYLE STEM] The same flat side-on row of small cream #EFE3CC blocks, but the
+large terracotta block that stood at the right-hand end is gone, leaving a wide
+empty stretch of plain baseline where it clearly used to sit. Above and to the
+right, a featureless flat mid-grey #7A7A7A hand and forearm — same thick dark
+brown outline, no sleeve, no clothing detail — is carrying the large terracotta
+block up and out of the top right of the frame. On the left, ADAM stands in
+profile watching it go: rounded friendly face, simple black dot eyes, thin dark
+eyebrows, no beard, short swept dark brown hair, light warm skin, rust-red
+#B05A42 t-shirt, arms at his sides. His expression is WORRIED — inner eyebrows
+raised, mouth a small downturned line. Clear cream space across the top fifth
+and bottom fifth for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, blank face on Adam, featureless head on Adam, missing eyes, missing
+mouth, smiling Adam, angry Adam, face on the grey hand, sleeve on the grey arm,
+large block still in the row, gap filled, another block in the gap, hole in the
+ground, crater, text, lettering, numbers, watermark, signature, logos, extra
+fingers, distorted hands, cluttered background
+
+
+================================================================================
+BEAT 14 · C04 · [NEW] · 1:26.0–1:32.5 · hold 6.5s          ★ REUSABLE ASSET ★
+================================================================================
+VO      "Now run the test from part one. Does the contract charge you for time?"
+CAP 1   DOES IT CHARGE YOU FOR TIME?
+CAP 2   run the test from part one
+PANEL   (none)
+MOVE    push in 6% on the clock.
+NOTE    Build this one properly and keep it. The series test recurs in every
+        episode; a locked asset for it pays for itself across the back
+        catalogue and gives the series a repeating visual signature it does not
+        yet have.
+
+[STYLE STEM] A flat side-on diagram, no people. Centre frame, a plain circular
+wall clock drawn in a few simple shapes — cream #F7EFDD face, thick dark brown
+#3D2B23 outline, two plain straight hands, no numerals, no tick marks, no
+markings of any kind on the face. Directly beneath it on the same baseline sits
+a small plain simplified flat car shape in muted wheat-tan, drawn in three or
+four shapes with no badges, no plates and no detail, notably smaller than the
+clock. A single continuous horizontal terracotta #B0503A band runs across the
+clock only, stopping cleanly at the frame edges on either side; the car below
+sits entirely clear of the band and is untouched by it. The clock is plainly the
+larger and more important of the two objects. Clear cream space across the top
+fifth and bottom fifth for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, people, hands, faces, clock numerals, roman numerals, tick marks,
+second hand, pendulum, alarm bells, hourglass, calendar, sundial, wristwatch,
+band touching the car, band crossing the car, car larger than the clock,
+detailed car, realistic car, licence plates, car badges, perspective, isometric
+view, text, lettering, numbers, watermark, signature, logos, cluttered
+background
+
+
+================================================================================
+BEAT 15 · C04·b · [NEW] · 1:32.5–1:39.0 · hold 6.5s
+================================================================================
+VO      "Every month, on thirteen thousand pounds of car that will never be
+         yours — yes. It does. And that charge doesn't depend on the car. It
+         depends on the calendar."
+CAP 1   THE CALENDAR. NOT THE CAR.
+CAP 2   that's the whole difference
+PANEL   (none)
+ASSET   Same generation as beat 14. Do not regenerate.
+MOVE    push past the clock and let the car drift out of the bottom of frame.
+        The car leaving while the clock stays is the line, delivered without a
+        word.
+
+
+================================================================================
+BEAT 16 · A03·b · [RETAINED] · 1:39.0–1:45.5 · hold 6.5s
+================================================================================
+VO      "But hold on. Isn't a PCP just a lease? And leasing is fine, isn't it?"
+CAP 1   BUT ISN'T THIS JUST A LEASE?
+CAP 2   fair question
+PANEL   (none)
+ASSET   Same generation as beat 04. Do not regenerate.
+MOVE    push in 5% on Sami. Warmer, closer than beat 04's level hold.
+OPTION  If you want the objection to breathe over two cuts rather than one long
+        hold, generate one alternate Sami angle — same prompt as A03, change
+        "seen three-quarter length" to "seen from the chest up, turned slightly
+        toward camera". One extra generation, entirely optional.
+
+
+================================================================================
+BEAT 17 · C02 · [NEW] · 1:45.5–1:50.5 · hold 5.0s
+================================================================================
+VO      "That was my first question too."
+CAP 1   THAT WAS MY FIRST QUESTION
+CAP 2   (none — let it be human)
+PANEL   (none)
+MOVE    none. Hold dead still.
+NOTE    Kareem WARM. Lock to the A04 reference. This is the only moment in the
+        film where a person admits something — no panel, no number, no move.
+        Any furniture on screen kills it.
+
+[STYLE STEM] KAREEM addresses the camera directly, framed from the chest up,
+square on, centred. KAREEM is an adult man with a full short black beard and
+moustache, short black hair swept up, simple black dot eyes, thin dark eyebrows,
+light warm skin; he wears a sage-olive #7A8459 henley shirt with a three-button
+placket at the collar and sleeves rolled to the forearm. His expression is WARM
+— a small genuine closed smile, relaxed brows, eyes slightly softened. He is
+still, hands out of frame, looking straight down the lens. Nothing else in the
+frame at all: empty cream behind him. Generous clear space across the top fifth
+for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, blank face, featureless head, missing eyes, missing mouth, clean-shaven
+Kareem, moustache only, grey hair, broad grin, open mouth, teeth showing,
+laughing, angry, shouting, exaggerated expression, pointing, raised hands,
+background objects, furniture, text, lettering, numbers, watermark, signature,
+logos, brand names, extra fingers, distorted hands, cluttered background
+
+
+================================================================================
+BEAT 18 · D01 · [REBUILT] · 1:50.5–1:57.5 · hold 7.0s
+================================================================================
+VO      "And renting a car is trade — that's Ijara, that's part thirteen. But a
+         lease doesn't charge you for a share you're handing back. Under Ijara
+         the owner owns the car, carries it, and rents you a thing."
+CAP 1   UNDER IJARA
+CAP 2   the owner owns it. and carries it.
+PANEL   IJARA
+MOVE    push in 6% on the LEFT half only.
+NOTE    Replaces v2's A09. That scene compared Adam to Bilal — outright owner
+        versus financed — a comparison the rewritten script never makes. The
+        comparison it does make is PCP against Ijara, so Sami replaces Bilal.
+        Layout, centre rule, matched scale and panel position all carry over
+        from A09 unchanged.
+WHY EVERY CONSTRAINT: on the lease side the financier's hand is ON the car — he
+        is holding the thing and carrying it. On the PCP side there is no car at
+        all and no grey hand — only money leaving, and a weight against the
+        ribs. That asymmetry is the entire argument.
+
+[STYLE STEM] A flat side-on diagram split into two halves by a single thin
+vertical dark brown rule down the centre of the frame, both halves drawn at the
+same scale on the same baseline. LEFT HALF: SAMI in profile — an adult man with
+short-cropped black hair, a light stubble beard, simple black dot eyes, thin
+dark eyebrows, medium-tan skin, wearing a teal #2F6B72 short-sleeved t-shirt and
+slate-grey #55595E trousers, expression NEUTRAL and settled — standing beside a
+plain simplified flat car shape in muted wheat-tan drawn in three or four shapes
+with no badges, no plates and no detail. A featureless flat mid-grey #7A7A7A
+humanoid with the same thick dark brown outline, smooth blank oval head, NO
+eyes, NO nose, NO mouth and NO hair stands on the far side of that car with one
+hand resting flat on its roof, plainly holding it. A short even line of small
+identical cream coin-shaped tokens runs from SAMI to the grey figure. RIGHT
+HALF: ADAM in profile — rounded friendly face, simple black dot eyes, thin dark
+eyebrows, no beard, short swept dark brown hair, light warm skin, rust-red
+#B05A42 t-shirt, ochre-tan #C08B4A trousers, expression WORRIED with inner
+eyebrows raised — with an identical line of cream tokens running away from him
+toward the frame edge, and a large terracotta #B0503A block resting heavily
+against his side. There is no car on his half at all and no grey figure touches
+anything on his half. Clear cream space across the top fifth and bottom fifth
+for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, blank face on Sami, blank face on Adam, featureless head on a named
+character, missing eyes, missing mouth, full beard on Sami, clean-shaven Sami,
+beard on Adam, face on the grey figure, eyes on the grey figure, hair on the
+grey figure, clothing detail on the grey figure, car on Adam's half, grey figure
+on Adam's half, grey hand touching Adam, second grey figure, tokens flowing
+toward Sami, tokens flowing toward Adam, uneven spacing, curved or arcing line,
+figures at different scales, detailed car, realistic car, licence plates, car
+badges, grille logos, dealership signage, text, lettering, numbers, watermark,
+signature, logos, extra fingers, distorted hands, cluttered background
+
+
+================================================================================
+BEAT 19 · D01·b · [REBUILT] · 1:57.5–2:04.0 · hold 6.5s
+================================================================================
+VO      "Under a PCP you carry the cost of owning it, and you hold the rights of
+         renting it. Two contracts wearing each other's clothes."
+CAP 1   state 1  UNDER A PCP
+        state 2  TWO CONTRACTS
+CAP 2   state 1  the cost of owning it. the rights of renting it.
+        state 2  wearing each other's clothes
+PANEL   IJARA  /  PCP
+ASSET   Same generation as beat 18. Do not regenerate.
+MOVE    push in 6% on the RIGHT half, then pull back to full frame on "two
+        contracts" so both halves are on screen for the line that names them.
+
+
+================================================================================
+BEAT 20 · CARD-02 · [EDIT-ONLY] · 2:04.0–2:09.5 · hold 5.5s
+================================================================================
+VO      "Trade permitted, riba forbidden. Surah Al-Baqarah, two two seven five."
+BUILD   Plain #F7EFDD cream field. "TRADE PERMITTED" and beneath it "RIBA
+        FORBIDDEN", both centred, heavy bold sans #3D2B23, generous leading.
+        Small letter-spaced #8A7D72 label beneath: AL-BAQARAH 2:275.
+MOVE    hold still. No move on scripture.
+NOTE    No generation. Typeset it.
+
+
+================================================================================
+BEAT 21 · A10 · [RETAINED] · 2:09.5–2:16.5 · hold 7.0s
+================================================================================
+VO      "Go and find your balloon. It's on page one of your agreement —
+         optional final payment."
+CAP 1   IT'S ON PAGE ONE
+CAP 2   in its own box. go and look.
+PANEL   OPTIONAL FINAL PAYMENT
+MOVE    push in 11% onto the empty ruled box.
+NOTE    This is the homework CTA that farms the pinned comment. Never cut it.
+
+[STYLE STEM] A close flat overhead view of a single cream contract page lying
+square on a plain wheat-tan table surface. The page is completely blank — no
+printing, no lettering, no ruled lines, no markings of any kind — except for one
+plain empty rectangular box outlined in dark brown, set low on the page. One
+soft fold crease runs across the sheet. ADAM's hand and forearm reach in from
+the right in a rust-red #B05A42 sleeve, one index finger resting firmly on the
+empty box, pointing it out. Nothing else on the table. The box is the clear
+focal point of the frame. Clear cream space across the top fifth and bottom
+fifth for type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, printed text, paragraphs, form fields, ruled lines, filled box, ticked
+box, handwriting, signature line, pen, pencil, clipboard, multiple sheets,
+perspective distortion, tilted page, text, lettering, numbers, watermark,
+signature, logos, extra fingers, distorted hands, cluttered background
+
+
+================================================================================
+BEAT 22 · A11 · [RETAINED] · 2:16.5–2:24.5 · hold 8.0s
+================================================================================
+VO      "Then ask the only question that matters. What am I actually renting?
+         And what am I paying for time?"
+CAP 1   WHAT ARE YOU PAYING FOR TIME?
+CAP 2   (none)
+PANEL   (none)
+MOVE    push in 4%, the gentlest in the film. Let it come to rest.
+NOTE    BILAL appears here and nowhere else in this film. The rewritten script
+        makes no outright-owner comparison, so his A09 scene is gone. He keeps
+        the group close. He is the natural lead for a "buy it outright" episode
+        the series does not yet have.
+
+[STYLE STEM] KAREEM stands centre frame facing camera, three-quarter length,
+with SAMI, ADAM and BILAL standing in a relaxed even row behind and slightly to
+either side of him, all four at the same scale on one baseline. KAREEM: full
+short black beard and moustache, short black hair swept up, light warm skin,
+sage-olive #7A8459 henley with a three-button placket and sleeves rolled to the
+forearm, mid-grey #6E6E6E trousers; his expression is WARM — a small genuine
+closed smile, relaxed brows. SAMI: short-cropped black hair, light stubble
+beard, medium-tan skin, teal #2F6B72 t-shirt, slate-grey #55595E trousers, calm.
+ADAM: no beard, short swept dark brown hair, light warm skin, rust-red #B05A42
+t-shirt, ochre-tan #C08B4A trousers; his expression is RESOLVED — level brows, a
+small settled closed mouth, no smile. BILAL: full dark brown beard, short dark
+hair, medium-brown skin, wheat-tan #D2B98B button-up shirt with sleeves rolled,
+dark brown #4A3A2E trousers, calm. All four have their hands relaxed at their
+sides and are standing still. Nothing else in the frame. Generous clear cream
+space across the top fifth for the closing type.
+
+NEGATIVE:
+photorealistic, 3D render, clay render, low-poly, photograph, texture, grain,
+dramatic lighting, hard directional shadows, dark background, black background,
+shallow depth of field, bokeh, painterly, sketchy or tapering lines, variable
+line weight, anime, manga, chibi, thin outlines, no outlines, neon or saturated
+colours, blank face, featureless head, missing eyes, missing mouth, wrong
+wardrobe colours, swapped shirts, beard on Adam, clean-shaven Kareem,
+clean-shaven Bilal, full beard on Sami, figures at different scales, crowd,
+extra people, background objects, cars, furniture, signage, text, lettering,
+numbers, watermark, signature, logos, extra fingers, distorted hands, cluttered
+background
+
+
+================================================================================
+BEAT 23 · CARD-03 · [EDIT-ONLY] · 2:24.5–2:28.5 · hold 4.0s
+================================================================================
+VO      "No jargon. Just mechanisms."
+BUILD   Plain #F7EFDD cream field. "No jargon. Just mechanisms." centred,
+        sentence case, medium weight, #3D2B23. Nothing else. This is the series
+        signoff and it should look identical on every episode.
+MOVE    hold still, fade to it.
+NOTE    No generation. Typeset it once, keep the file, reuse forever.
+
+
+================================================================================
+CUT FROM v2 — DO NOT GENERATE
+================================================================================
+
+  A02 · "NEVER YOURS" · the document tug-of-war, Adam and the Institution both
+        holding one blank contract.
+
+  WHY. Its entire content is the keeper/owner argument, and the rewritten script
+  removes that on accuracy grounds: on a UK PCP the V5C IS issued in the
+  customer's name — they are the registered keeper, the finance company is the
+  legal owner, and the V5C states in terms that it is not proof of ownership.
+  "The logbook was never in your name" is falsifiable in thirty seconds by
+  anyone who has held one for a financed car.
+
+  DO NOT TRY TO RE-CAPTION IT. Two figures holding one document reads as
+  disputed ownership and nothing else, and ownership is no longer the claim.
+
+  A02 was also the designated thumbnail and the ADAM reference frame. A07 now
+  does both jobs — see beat 13.
+
+
+================================================================================
+CAPTION SPEC — unchanged from v2
+================================================================================
+
+CAP 1   Heavy bold sans, UPPERCASE, #3D2B23, centred, TOP of frame at 8–14%
+        height, one or two lines maximum. This is the claim.
+
+CAP 2   Medium weight, sentence case, roughly 55% of CAP 1's size, #6B5A4E,
+        directly beneath CAP 1, one line. This is the qualifier.
+
+PANEL   #FBF7EF rounded rectangle, thin #3D2B23 border, small letter-spaced
+        uppercase label in #8A7D72 on the top line, value beneath in heavy
+        #3D2B23. Sits LOW — 80–88% height — and rests on a surface where the
+        scene has one.
+
+PILL    Terracotta #B0503A rounded pill, cream text, small arrow glyph. ONCE in
+        the whole film, at beat 12.
+
+Captions cut faster than images. Part 8 runs 1–4 words at a time synced to the
+spoken syllable, with the type clearing completely at major transitions. Several
+beats above carry two or three caption states over one held still — that is the
+intended rhythm, not an error.
+================================================================================
