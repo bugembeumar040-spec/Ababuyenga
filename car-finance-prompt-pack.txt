@@ -1,0 +1,706 @@
+================================================================================
+FINANCE % DECODED — "IS YOUR CAR FINANCE HALAL?" — PROMPT PACK
+Two independent tracks: VIDEO (Higgsfield) and STILLS (any image model)
+9:16 · 1080x1920 · 11 scenes · 58.00s
+Standalone. Not part of the credit card sequence — that closed on 2026-08-07.
+================================================================================
+
+WHAT THIS FILE IS
+
+Same two-track architecture as the Klarna, Deadbeat and (shelved) halal card
+packs. Pick one track, don't mix them.
+
+  TRACK A — VIDEO.  11 clips, Higgsfield.
+  TRACK B — STILLS. 11 images, moved in the edit.
+
+House style, character sheet, palette and caption spec carry over unchanged.
+AMIR is the same build — reuse the locked reference frames.
+
+WHAT'S DIFFERENT. This pack is built to the format your two best-performing
+uploads actually use, not the format the card packs assumed. See PACKAGING —
+the "declarative title" advice in the earlier packs is contradicted by your own
+numbers and is corrected here.
+
+TIMINGS ARE TARGETS, estimated at ~150wpm. Record the VO first, re-derive the
+real IN/OUT points into video/src/carfinance/beats.ts, then generate.
+
+
+================================================================================
+WHY THIS TOPIC, AND WHY NOW
+================================================================================
+
+UNCOVERED. Across all 15 uploads in the feed you have done mortgages, inflation,
+fractional reserve, savings, investing, paper gold, BNPL, credit cards (three
+times), pensions and student loans. Car finance is the largest consumer debt
+product in Britain that you have never touched.
+
+TIMELY, WITHOUT BEING A NEWS VIDEO. The FCA's motor finance redress scheme
+opened on 30 June 2026 for agreements taken out from 1 April 2014, and opens on
+31 August 2026 for earlier ones — roughly three weeks after this pack is dated.
+Around 12.1 million agreements are in scope, average redress about £829, roughly
+£7.5bn total. Search demand for "car finance" is going to spike into that date.
+
+But the video is NOT about the redress scheme. The scheme goes in the
+description, where it does the search work. The film does what your channel
+does: one mechanism, followed all the way through. News dates the video. The
+mechanism doesn't.
+
+THE ARGUMENT — and it is not the obvious one.
+
+The lazy take is "you don't own the car, so it's haram." That take is wrong, and
+saying so out loud is this video's retention device. Renting is renting. Islam
+has a name for a lease and it is ijara. Not owning the thing is fine.
+
+The actual problem is narrower and much harder to shrug off:
+
+  On a PCP you are charged interest on the balloon — the optional final payment,
+  the lump you were always going to walk away from. It sits in the financed
+  amount for the whole term. You pay a price for time on a slab of car you were
+  never going to own.
+
+So you carry a buyer's cost and a tenant's rights at the same time. That is the
+two-flow structure your channel already does well — the same shape as the
+student loan video's capped-payment / uncapped-interest split.
+
+NO RE-DIAGNOSIS. Do not re-explain what riba is. Ten uploads have done that.
+This film assumes the viewer knows and spends its 58 seconds on one mechanism
+they have not seen.
+
+
+================================================================================
+SCENE MAP — the spine both tracks hang off
+================================================================================
+
+ #  | IN     | OUT    | LEN   | SCENE            | VO LINE
+----|--------|--------|-------|------------------|----------------------------
+ 01 | 0:00.0 | 0:05.2 | 5.20s | hand it back     | Three years. Then you hand it back
+ 02 | 0:05.2 | 0:10.0 | 4.80s | never yours      | The logbook was never yours
+ 03 | 0:10.0 | 0:15.4 | 5.40s | that part's fine | Renting is renting. Ijara.
+ 04 | 0:15.4 | 0:18.6 | 3.20s | the pivot        | Here's the part that isn't
+ 05 | 0:18.6 | 0:24.0 | 5.40s | the balloon      | The lump at the end
+ 06 | 0:24.0 | 0:28.6 | 4.60s | you pay on it    | You pay interest on that too
+ 07 | 0:28.6 | 0:33.4 | 4.80s | never own it     | On a piece you'll never own
+ 08 | 0:33.4 | 0:38.2 | 4.80s | flow one         | Money leaving, like a buyer
+ 09 | 0:38.2 | 0:45.6 | 7.40s | flow two         | A logbook that never moves
+ 10 | 0:45.6 | 0:49.4 | 3.80s | page one         | Check the balloon
+ 11 | 0:49.4 | 0:58.0 | 8.60s | the close        | Ask what you're paying for time
+
+CLIP LENGTH NOTE (Track A). Scenes 01, 03, 05, 09 and 11 run past 5s — those go
+on a 10s model and get trimmed to the OUT point. Everything else generates at 5s
+and trims. Never stretch a short clip to cover a long scene.
+
+STRUCTURAL NOTE. Scene 03 is the concession and it is load-bearing. A viewer who
+came to be told leasing is forbidden gets told the opposite at ten seconds, and
+that turn is what buys you the next forty. Do not cut it for time. If you need
+seconds, take them from 08.
+
+
+================================================================================
+NUMBERS — burn these in during the edit, never generate them
+================================================================================
+
+  01  3 YEARS OF PAYMENTS
+  02  REGISTERED KEEPER: YOU · OWNER: THEM
+  03  IJARA — A LEASE IS A LEASE
+  04  (none — let the turn land clean)
+  05  THE BALLOON
+  06  INTEREST ON THE BALLOON TOO
+  07  A PART YOU WERE NEVER GOING TO OWN
+  08  FLOW 1 — YOU PAY LIKE A BUYER
+  09  FLOW 2 — THE LOGBOOK NEVER MOVES
+  10  PAGE 1: "OPTIONAL FINAL PAYMENT"
+  11  (none — let the close breathe)
+
+Scene 02 is your collision beat, the slot that "£1,461 a month / only £420 buys
+your house" filled on your best-performing upload. Two labels, one object, and
+they disagree. Set REGISTERED KEEPER small and OWNER large, stacked, and hold.
+That contrast is the single most screenshot-able frame in the film — build the
+thumbnail from it.
+
+Scenes 08 and 09 are a matched pair. Same type size, same position, so the two
+flows read as one diagram split across two shots.
+
+
+================================================================================
+================================  TRACK A  =====================================
+                        VIDEO — 11 CLIPS (HIGGSFIELD)
+================================================================================
+
+SETTINGS: 9:16 · 1080p · 5s or 10s per the scene map · text-to-video.
+
+CONSISTENCY: reuse the locked AMIR reference frame. If you no longer have it,
+generate CLIP 11 first, regenerate until the head is completely blank, save that
+frame and feed it as reference on 11. No other clip has a face in it.
+
+HIGGSFIELD NOTE: where a prompt names a camera move, set it with the platform's
+motion control rather than trusting the prompt text. Keep every move slow.
+
+NEGATIVE PROMPT — paste once, applies to all 11 clips:
+
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles
+
+--------------------------------------------------------------------------------
+A01 · 0:00.0–0:05.2 · HAND IT BACK   [generate 10s]
+--------------------------------------------------------------------------------
+Macro close-up of a dark matte charcoal counter. A simplified geometric hand in a
+terracotta #E85F42 sleeve enters from the left holding a single brass car key on
+a plain ring, sets it down on the counter with a small deliberate press, releases
+it, and withdraws completely from frame. The key settles and holds, alone.
+Stylised low-poly 3D, matte clay hand, near-photorealistic brass with fine patina
+and real specular hits. Camera locked off, no movement at all — the only motion
+in frame is the hand. Single hard key light from camera-left, one long real
+shadow thrown right, deep near-black surround, one warm amber glint along the
+key. Shallow cinematic depth of field. 9:16 vertical, key in the lower
+two-thirds, clean dark headroom above.
+
+--------------------------------------------------------------------------------
+A02 · 0:05.2–0:10.0 · NEVER YOURS
+--------------------------------------------------------------------------------
+Top-down macro of a folded document lying on a dark matte charcoal desk,
+completely blank with no printing, lettering or markings of any kind, one soft
+fold crease across it. A simplified geometric hand in a deep navy #1E3A5F sleeve
+enters from the top of frame, places two fingertips on the document, and slides
+it steadily AWAY from camera and out of the top of frame, taking it. The desk is
+left empty. Stylised low-poly 3D, matte clay hand, near-photorealistic paper
+texture with visible fibre and a curling corner. Camera locked off, no movement.
+Single hard overhead key slightly off-axis, deep near-black surround, one warm
+amber accent along the paper's near edge. 9:16 vertical, document in the lower
+two-thirds.
+
+--------------------------------------------------------------------------------
+A03 · 0:10.0–0:15.4 · THAT PART'S FINE   [generate 10s]
+--------------------------------------------------------------------------------
+Macro close-up of two simplified geometric hands over a dark matte surface, one
+in a cream #E8DCC8 sleeve and one in a deep navy #1E3A5F sleeve, facing each
+other. The cream hand holds a brass key out flat on an open upturned palm; the
+navy hand rests beside it, open and still. Neither hand closes, neither takes the
+key — the exchange stays suspended and even. Both hold completely still.
+Stylised low-poly 3D, matte clay shading, soft subsurface material,
+near-photorealistic brass with fine patina. Camera arcs slowly 10 degrees right
+around the two palms and settles. Deep near-black background, single hard key
+light from upper left, one warm amber rim tracing both wrists. Shallow depth of
+field. Calm, balanced, unhurried. 9:16 vertical, hands in the lower two-thirds,
+clean headroom above.
+
+--------------------------------------------------------------------------------
+A04 · 0:15.4–0:18.6 · THE PIVOT
+--------------------------------------------------------------------------------
+Extreme macro of a single blank printed contract page lying on a dark walnut
+desk, entirely unprinted with no lettering anywhere. A hard-edged band of shadow
+travels slowly across the page from right to left, darkening it as it passes,
+and stops halfway — leaving one half of the page lit and one half in shadow.
+Nothing else moves. Stylised low-poly 3D, near-photorealistic heavy paper stock
+with visible fibre and one soft fold crease. Camera pushes in 6%, locked and
+steady. Deep near-black surround, single hard raking key from camera-left, cool
+neutral grade with one warm amber accent along the lit edge. Very shallow depth
+of field. 9:16 vertical, page filling the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A05 · 0:18.6–0:24.0 · THE BALLOON   [generate 10s]
+--------------------------------------------------------------------------------
+Macro side-on shot of a dark matte surface. A neat row of thirty-six small
+identical cream clay cubes runs left to right across the frame, evenly spaced and
+low. At the right-hand end of the row sits a single heavy brass sphere many times
+larger than any cube, resting in a shallow dent it has pressed into the surface.
+Nothing moves; the composition simply holds and is looked at. Stylised low-poly
+3D, matte clay cubes, near-photorealistic brass with fine patina and real
+specular hits, firm contact shadows under every object. Camera tracks slowly
+right along the row and comes to rest on the sphere. Deep near-black background,
+one hard key light from upper left, warm amber rim along the sphere. Shallow
+depth of field. 9:16 vertical, row in the lower two-thirds, dark space above.
+
+--------------------------------------------------------------------------------
+A06 · 0:24.0–0:28.6 · YOU PAY ON IT
+--------------------------------------------------------------------------------
+Macro side-on shot of the same row of small cream clay cubes ending in a single
+large brass sphere on a dark matte surface. A narrow band of warm amber light
+sweeps slowly across the whole row from left to right, brightening each cube in
+turn as it passes — and it does not stop at the last cube. It continues across
+the brass sphere, lighting that too, before passing off the right of frame.
+Nothing physically moves. Stylised low-poly 3D, matte clay cubes,
+near-photorealistic brass with fine patina, firm contact shadows. Camera locked
+off, no movement at all — the only change in frame is the travelling light. Deep
+near-black background, cool neutral grade, warm amber as the only accent. 9:16
+vertical, row in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A07 · 0:28.6–0:33.4 · NEVER OWN IT
+--------------------------------------------------------------------------------
+Macro shot of a dark matte surface where a large heavy brass sphere rests in a
+shallow dent. A pair of simplified geometric hands in deep navy #1E3A5F sleeves
+enters, lifts the sphere cleanly straight up and carries it out of the top of
+frame. The empty dent is left behind, holding its shape, catching the light.
+Nothing fills it. Stylised low-poly 3D, matte clay hands, near-photorealistic
+brass and a fine dust ring left in the dent. Camera holds still through the lift,
+then pushes in 8% on the empty dent and settles. Deep near-black background, one
+hard key from upper left throwing a long shadow right, warm amber accent. Shallow
+depth of field. 9:16 vertical, dent low-centre, dark space above.
+
+--------------------------------------------------------------------------------
+A08 · 0:33.4–0:38.2 · FLOW ONE
+--------------------------------------------------------------------------------
+Macro top-down shot of a dark matte charcoal surface. A steady single-file line
+of small blank cream tokens slides continuously across the frame from left to
+right, evenly spaced, at a constant unhurried speed, disappearing off the right
+edge and never returning. Nothing else is in frame. Stylised low-poly 3D, matte
+clay tokens, near-photorealistic surface grain, each token throwing its own hard
+shadow. Camera locked off, no movement at all — the only motion is the tokens.
+Single hard overhead key slightly off-axis so every shadow falls the same way,
+deep near-black surround, one warm amber accent. 9:16 vertical, the line of
+tokens running across the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A09 · 0:38.2–0:45.6 · FLOW TWO   [generate 10s]
+--------------------------------------------------------------------------------
+Macro top-down shot of a dark matte charcoal surface, framed exactly as the
+previous shot. The same steady line of small blank cream tokens slides across
+from left to right. In the centre of frame a folded blank document — no printing,
+no lettering — lies pinned flat beneath a heavy brass paperweight, and the tokens
+part around it and continue past. The document does not shift, drift or lift at
+any point; the paperweight never moves. Stylised low-poly 3D, matte clay tokens,
+near-photorealistic paper fibre and brass with fine patina, firm contact shadows.
+Camera pushes in 5% on the pinned document over the shot, locked and steady.
+Single hard overhead key slightly off-axis, deep near-black surround, one warm
+amber accent on the brass. 9:16 vertical, document centred in the lower
+two-thirds.
+
+--------------------------------------------------------------------------------
+A10 · 0:45.6–0:49.4 · PAGE ONE
+--------------------------------------------------------------------------------
+Macro close-up of a blank printed contract page on a dark walnut desk, the paper
+completely unprinted except for a single empty ruled rectangle low on the page. A
+simplified geometric hand in a terracotta #E85F42 sleeve enters from the right,
+taps one fingertip once, firmly, on the empty box, and withdraws. The page
+settles. Stylised low-poly 3D, matte clay hand, near-photorealistic heavy paper
+stock with a visible fold crease and fibre at the edge. Camera pushes in 10% on
+the box — brisk for this house style, matching the short beat — locked and
+steady. Hard low raking key from camera-left throwing a long angular shadow
+across the page, deep near-black surround, one warm amber accent. Very shallow
+depth of field. 9:16 vertical, page filling the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A11 · 0:49.4–0:58.0 · THE CLOSE   ** AMIR reference **   [generate 10s]
+--------------------------------------------------------------------------------
+Stylised low-poly 3D character AMIR walking along a quiet pavement past a row of
+parked cars in warm low evening sun, seen from a low three-quarter angle, both
+hands empty and loose at his sides. He has a COMPLETELY BLANK featureless head —
+no eyes, no nose, no mouth, a smooth matte tan block. He wears a terracotta
+#E85F42 t-shirt, cream #E8DCC8 trousers, white sneakers and a cream beanie. The
+parked cars are simplified low-poly forms with no badges, no plates and no
+markings, softly out of focus. He takes three unhurried steps toward camera and
+stops, weight settled. Camera tracks backward with him at the same speed, then
+settles. Simplified geometric anatomy, matte clay-like shading, soft subsurface
+material. Long golden-hour shadows, warm amber key from behind him, cool fill
+from the front. Shallow cinematic depth of field. Calm, resolved, unhurried. 9:16
+vertical, subject in the lower two-thirds, generous headroom for the captions.
+
+
+================================================================================
+================================  TRACK B  =====================================
+                        STILLS — 11 IMAGES + EDIT MOVES
+================================================================================
+
+SETTINGS: 9:16 · 1080x1920 (or 2048x3640 and downscale) · one image per scene.
+
+Framed 10–15% wider than the video prompts, because every one gets a push in the
+edit and the push crops in.
+
+TRACK B IS THE RECOMMENDATION ON THIS ONE. Scenes 06, 08 and 09 are travelling-
+light and streaming-token shots — exactly the kind of continuous uniform motion
+that generative video renders inconsistently, and any stutter in the token flow
+destroys the two-flows diagram those shots exist to draw. As stills with edit
+moves, 08 and 09 become a matched pair you control frame-exactly. Shoot Track B
+unless you have credits to burn on regenerating 09 repeatedly.
+
+CONSISTENCY: reuse the locked AMIR reference. Only B11 has a figure in it.
+
+HOW TO MOVE THEM. Each still gets the move listed under it, held for the scene's
+full length from the map. Drop the files in video/public/broll/ and drive them
+the way src/inflation/ drives its stills. Push percentages are total travel
+across the scene, eased out, never linear.
+
+NEGATIVE PROMPT — paste once, applies to all 11 stills:
+
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+B01 · hold 5.20s · HAND IT BACK
+MOVE: push in 7%, centred on the key.
+--------------------------------------------------------------------------------
+Still life, 85mm macro, f/2.8. A single brass car key on a plain ring lies alone
+on a dark brushed-charcoal counter, just released, slightly askew. A simplified
+geometric hand in a terracotta #E85F42 sleeve is withdrawing at the frame edge,
+fingertips still open, no longer touching the key. Stylised low-poly matte clay
+hand, near-photorealistic brass with fine patina, real specular hits and faint
+handling marks. Single hard key from camera-left at a low raking angle, one long
+defined shadow thrown right, deep near-black falloff. Fine dust on the counter
+surface. Cool neutral grade, one warm amber highlight along the key's shank.
+Final, relinquished, slightly bare. 9:16 vertical, key composed low, two-fifths
+of the frame empty above.
+
+--------------------------------------------------------------------------------
+B02 · hold 4.80s · NEVER YOURS   ** THUMBNAIL FRAME **
+MOVE: pull back 8% — the only pull-back in the film, opening onto the empty desk.
+--------------------------------------------------------------------------------
+Overhead flat-lay, 50mm, f/4, shot perpendicular to the surface. A folded
+document on dark matte charcoal, completely blank with no printing, lettering or
+markings of any kind, one soft fold crease across it and one corner curling. A
+simplified geometric hand in a deep navy #1E3A5F sleeve grips its far edge from
+the top of frame, drawing it away, the paper already half out of the light and
+into shadow. Below it, an empty rectangle of clean desk where it had been sitting
+in the dust. Stylised low-poly matte clay hand, near-photorealistic paper fibre
+and deckled edge. Single hard overhead key slightly off-axis, deep near-black
+background, one warm amber accent. Square-on composition, wide clean margin above
+for the two stacked captions. 9:16 vertical.
+
+--------------------------------------------------------------------------------
+B03 · hold 5.40s · THAT PART'S FINE
+MOVE: none. Hold dead still — this beat is a concession, and it should sit level.
+--------------------------------------------------------------------------------
+Locked-off macro still life, 60mm, f/5.6, dark matte surface. Two simplified
+geometric hands face each other, one in a cream #E8DCC8 sleeve and one in a deep
+navy #1E3A5F sleeve, both palms open and upturned, level with each other. A
+single brass key rests flat on the cream palm; the navy palm is open and empty
+beside it. Neither hand is closing. Nothing else in frame. Stylised low-poly
+matte clay with soft subsurface scatter, near-photorealistic brass with fine
+patina and real specular hits, firm contact shadows. One hard key from upper
+left, deep near-black surround, a warm amber rim tracing both wrists. Symmetrical,
+balanced, settled — the composition should read as fair. 9:16 vertical, hands
+centred low, wide dark margin above.
+
+--------------------------------------------------------------------------------
+B04 · hold 3.20s · THE PIVOT
+MOVE: push in 9% — shortest scene in the film, so the move has to be decisive.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, of a single blank contract page on a dark walnut
+desk, entirely unprinted with no lettering anywhere. A hard-edged band of shadow
+falls across the page and stops precisely halfway, splitting the frame into one
+lit half and one dark half along a clean straight line. Heavy stock, one soft
+fold crease, visible fibre at the edge. Near-photorealistic paper texture. Hard
+raking key from camera-left, deep near-black surround, cool neutral grade with
+one warm amber accent along the lit edge. Extremely shallow focus: the shadow
+line sharp, the far edge of the page dissolving. Abrupt, divided. 9:16 vertical,
+page filling the lower two-thirds.
+
+--------------------------------------------------------------------------------
+B05 · hold 5.40s · THE BALLOON
+MOVE: drift right 40px, no scale — lateral, travelling the row to the sphere.
+--------------------------------------------------------------------------------
+Side-on tabletop still life, 50mm, f/5.6, shot square to a dark matte surface. A
+long neat row of small identical cream clay cubes runs left to right across the
+frame, evenly spaced and low. At the right-hand end sits a single heavy brass
+sphere many times larger than any cube, resting in a shallow dent pressed into
+the surface. Stylised low-poly matte clay cubes, near-photorealistic brass with
+fine patina and real specular hits, firm contact shadows under every object. One
+hard key from upper left, all shadows falling the same way, deep near-black
+surround, warm amber rim along the sphere. The scale difference should be
+absurd and immediate. 9:16 vertical, row in the lower two-thirds, dark above.
+
+--------------------------------------------------------------------------------
+B06 · hold 4.60s · YOU PAY ON IT
+MOVE: push in 7% onto the sphere — the light already reached it; the move
+confirms it.
+--------------------------------------------------------------------------------
+Side-on tabletop still life, 50mm, f/5.6, framed identically to the previous
+image: the same row of small cream clay cubes on dark matte, ending in the same
+large brass sphere. Here every object in the row is lit by the same warm amber
+raking light, the cubes and the sphere alike, with no falloff and no object left
+in shadow — the light plainly covers all of it. Stylised low-poly matte clay
+cubes, near-photorealistic brass with fine patina, firm contact shadows. Deep
+near-black surround, cool neutral grade with warm amber as the only accent.
+Unbroken, uniform, inclusive. 9:16 vertical, row in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+B07 · hold 4.80s · NEVER OWN IT
+MOVE: push in 8% onto the empty dent.
+--------------------------------------------------------------------------------
+Tight macro, 100mm, f/2.8, of a dark matte surface bearing a single shallow
+circular dent, empty, with a fine ring of settled dust marking where a heavy
+object rested for a long time. The object is gone. Nothing else in frame.
+Near-photorealistic surface grain, dust and the soft compression of the dent's
+rim. Hard low raking key from camera-left striking across the dent so its rim
+catches and its floor stays dark, a long shadow thrown right, deep near-black
+surround, one warm amber accent. Extremely shallow focus: the dent's near rim
+sharp, the far surface dissolving. Absent, vacated, paid-for-and-gone. 9:16
+vertical, dent low-centre, dark space filling the upper half.
+
+--------------------------------------------------------------------------------
+B08 · hold 4.80s · FLOW ONE   ** matched pair with B09 — same framing **
+MOVE: drift right 50px, no scale. Lateral, constant, matching the flow.
+--------------------------------------------------------------------------------
+Overhead flat-lay, 50mm, f/4, shot perpendicular to a dark matte charcoal
+surface. A single-file line of small blank cream tokens runs straight across the
+frame from the left edge to the right edge, evenly spaced, uniform, continuing
+past both edges. Nothing interrupts the line. Stylised low-poly matte clay
+tokens, near-photorealistic surface grain, each token casting its own identical
+hard shadow. Single hard overhead key slightly off-axis so every shadow falls the
+same way, deep near-black surround, one warm amber accent. Regular, mechanical,
+uninterrupted. 9:16 vertical, the line running across the lower two-thirds, wide
+clean margin above for captions.
+
+--------------------------------------------------------------------------------
+B09 · hold 7.40s · FLOW TWO   ** matched pair with B08 — identical framing **
+MOVE: push in 5% on the pinned document. No lateral drift — the contrast with
+B08's sideways move is the entire point. Keep the caption position identical.
+--------------------------------------------------------------------------------
+Overhead flat-lay, 50mm, f/4, perpendicular to a dark matte charcoal surface,
+framed identically to the previous image. The same single-file line of small
+blank cream tokens runs left to right, but in the centre of frame a folded blank
+document — no printing, no lettering, no markings — lies pinned flat beneath a
+heavy brass paperweight, and the line of tokens parts around it and rejoins
+beyond. Stylised low-poly matte clay tokens, near-photorealistic paper fibre and
+brass with fine patina and real specular hits, a firm contact shadow under the
+paperweight. Single hard overhead key slightly off-axis, deep near-black
+surround, one warm amber accent on the brass. Fixed, weighted, immovable while
+everything else passes. 9:16 vertical, document centred in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+B10 · hold 3.80s · PAGE ONE
+MOVE: push in 11% onto the empty ruled box.
+--------------------------------------------------------------------------------
+Tight macro, 100mm, f/2.8, of a blank contract page on a dark walnut desk, the
+paper entirely unprinted except for a single empty ruled rectangle set low on the
+page. A simplified geometric fingertip in a terracotta #E85F42 sleeve rests
+against the box's edge at the frame margin. Heavy stock, one soft fold crease
+running across the page, visible fibre at the edge. Hard low raking key from
+camera-left throwing a long angular shadow across the paper and picking out the
+ruled box, deep near-black surround, warm amber rim along the page's near edge.
+Extremely shallow focus: the box sharp, the far edge of the page dissolving. 9:16
+vertical, page filling the lower two-thirds, dark space above.
+
+--------------------------------------------------------------------------------
+B11 · hold 8.60s · THE CLOSE   ** AMIR reference **
+MOVE: push in 4%, the gentlest in the film. Let it come to rest.
+--------------------------------------------------------------------------------
+Low three-quarter environmental shot, 35mm, f/2.8, of AMIR walking along a quiet
+pavement past a row of parked cars in warm low evening sun, both hands empty and
+loose at his sides, mid-stride but weight settled. He has a COMPLETELY BLANK
+featureless head — no eyes, no nose, no mouth, a smooth matte tan block. He wears
+a terracotta #E85F42 t-shirt, cream #E8DCC8 trousers, white sneakers and a cream
+beanie. The parked cars are simplified low-poly forms with no badges, plates or
+markings, falling into soft focus behind him. Simplified geometric anatomy, matte
+clay-like shading, soft subsurface material. Long golden-hour shadows stretching
+toward camera, warm amber backlight rimming his shoulders, cool ambient fill on
+the front. Shallow depth of field. Calm, resolved, entirely ordinary. 9:16
+vertical, figure in the lower two-thirds, generous open sky above for the
+closing captions.
+
+
+================================================================================
+CAPTIONS — identical for both tracks
+================================================================================
+ #  | CAP 1                          | CAP 2
+----|--------------------------------|-------------------------------------------
+ 01 | 3 YEARS OF PAYMENTS            | then you hand it back
+ 02 | REGISTERED KEEPER: YOU         | OWNER: THEM. the logbook was never yours.
+ 03 | AND THAT PART IS FINE          | renting is renting. Islam has a name for it — ijara.
+ 04 | HERE'S THE PART THAT ISN'T     | (hold — no CAP 2 on this beat)
+ 05 | THE BALLOON                    | the lump at the end you'd always walk away from
+ 06 | YOU PAY INTEREST ON THAT TOO   | every month. for three years.
+ 07 | ON A PART YOU'D NEVER OWN      | you rented it and you were priced as a buyer
+ 08 | FLOW 1 — YOU PAY LIKE A BUYER  | money leaving, every month, uninterrupted
+ 09 | FLOW 2 — THE LOGBOOK NEVER MOVES | the cost of ownership. the rights of a tenant.
+ 10 | PAGE 1: "OPTIONAL FINAL PAYMENT" | that's the balloon. go and look at it.
+ 11 | ASK WHAT YOU'RE PAYING FOR TIME | The Money Machine, Decoded.
+
+CAPTION SPEC — unchanged. Heavy condensed sans, uppercase CAP 1, sentence case
+CAP 2. #F5F0E6 with a 2px #0A0C10 outline, accent word in #E85F42. CAP 1 at 62%
+height, CAP 2 at 76%. CAP 1 lands on the first stressed syllable of the line,
+CAP 2 one beat later, both clearing 200ms before the cut.
+
+SCENE 02 EXCEPTION. Stack both labels on one frame — REGISTERED KEEPER: YOU set
+small above OWNER: THEM set large — and hold them together for the full 4.8s.
+They have to be readable in the same glance or the contradiction doesn't land.
+This is also your thumbnail.
+
+SCENE 04 EXCEPTION. CAP 1 only, on a held frame, no CAP 2. It is a turn, not an
+explanation, and a second line would soften it.
+
+SCENES 08–09. Identical type size and identical screen position, so the two
+captions read as one diagram split across two shots.
+
+
+================================================================================
+VOICEOVER — to record: media/carfinance-vo.mp3 (target ~58.0s)
+================================================================================
+ElevenLabs v3, stability 45–55, similarity 75, speed 1.0. Tags sparse, full stops
+doing the pacing.
+
+[serious] Three years of payments. Then you hand the car back.
+You never owned it. On a PCP the logbook was never in your name.
+[calm] And that part is fine. Renting a car is renting a car. Islam has a name
+for a lease. Ijara.
+[serious] Here's the part that isn't.
+The balloon. That lump at the end — the one you were always going to walk away
+from.
+You pay interest on that too. Every month. For three years.
+Interest, on a piece of car you were never going to own.
+So there are two flows. Money leaving you, like a buyer's.
+And a logbook that never moves, like a tenant's. You carry the cost of owning it
+and you hold the rights of someone renting it.
+[warmly] Go and find the balloon. It's on page one.
+[warmly] Then ask what you're renting — and what you're paying for time.
+
+PACING NOTE. The concession at 0:10 is the whole retention play, so it has to
+sound sincere rather than like a setup. Let "Ijara" land on its own with a clear
+beat after it before "Here's the part that isn't." If v3 rushes the turn,
+generate scenes 03–04 as an isolated pass and cut it in — the same fix the
+Deadbeat pack used for "Deadbeats."
+
+DO NOT say "haram" anywhere in the VO. Ten uploads have established the posture:
+describe the mechanism, let the viewer run the ruling. The title asks the
+question; the film answers it with a structure, not a verdict.
+
+
+================================================================================
+PACKAGING
+================================================================================
+
+TITLE CORRECTION — READ THIS. The Klarna, Deadbeat and halal-card packs all
+carry the note "the declarative won." Your own numbers contradict it:
+
+    Is Your Pension Halal? (You Never Picked What It Buys)      229
+    How Banks Take Your Money Without Touching It                50
+    The Bank Doesn't Want You Debt-Free   (the Deadbeat video)   39
+    3 Questions Decide If Your Credit Card Is Halal              30
+    You've Already Paid Klarna.                                  24
+    How to Buy a House Without Ever Paying Interest               2
+
+The declaratives sit at 24–39. The interrogative-plus-parenthetical did 229 —
+six times the best declarative. The only upload above it is a Short whose title
+is a bare number collision (£1,461 / £420, 257 views). Two patterns work on this
+channel and neither of them is the declarative.
+
+TITLE        Is Your Car Finance Halal? (You Never Owned the Car)
+             #carfinance #islamicfinance
+             alt 1: Is Your PCP Halal? (You're Paying Interest on the Half You
+                    Give Back)
+             alt 2 (Short cut): You paid interest on a car you handed back.
+                    — bare number-collision framing, the £1,461 pattern
+             Keep the hashtags in the title. Both of your hits have them.
+
+THUMBNAIL    B02 — the blank logbook being drawn out of frame, with
+             REGISTERED KEEPER: YOU set small above OWNER: THEM set large.
+             One object, two labels, and they disagree. That is the click.
+
+LENGTH       58.0s (slate rule: 30–60s)
+
+DESCRIPTION  Use the current house format — mechanism prose, then THE TWO-MINUTE
+             CHECK, then the signoff. Your last two uploads both do this and they
+             are your two most recent bets; the card packs predate it. Draft:
+
+  ---------------------------------------------------------------------------
+  Three years of payments, and then you give it back. That is not the problem.
+
+  On a PCP the finance company is the owner for the whole term. You are the
+  registered keeper — the person the DVLA writes to — which is not the same
+  thing and was never meant to be. So you are renting. Renting is renting, and
+  a lease has a name in Islamic finance: ijara. Not owning the car is fine.
+
+  Here is what isn't.
+
+  A PCP splits the car into two parts. The part you pay off over the term, and
+  a lump deferred to the very end — the optional final payment, the balloon,
+  the Guaranteed Future Value. Most people never pay the balloon. Handing the
+  car back is the normal exit; it is what the product is designed around.
+
+  But the balloon sits inside the financed amount for the entire term, and
+  interest is charged on the whole of it. Every month, for three years, part of
+  your payment is a price for time on a slab of car you were always going to
+  walk away from. That is why the monthly looks affordable and the total cost
+  of credit doesn't.
+
+  Two flows, not one. Money leaving you on a buyer's schedule. A logbook that
+  never moves, on a tenant's terms. You carry the cost of ownership and hold
+  the rights of someone renting.
+
+  THE TWO-MINUTE CHECK:
+
+  1. Find the optional final payment on your agreement. It is on page one, in
+     its own box, and it is usually the largest single number on the document.
+  2. Find the total amount payable and the total charge for credit. Subtract
+     the cash price of the car. What is left is what time cost you.
+  3. Decide honestly which one you are. If you intend to hand it back, you are
+     renting — so compare it against a straight lease, where you are not
+     financing a balloon you will never pay. If you intend to keep it, you are
+     buying — so compare the total charge for credit against saving for it.
+
+  Separately, and worth two minutes of its own: the FCA's motor finance redress
+  scheme covers PCP and HP agreements taken out between 6 April 2007 and
+  1 November 2024 where commission arrangements weren't properly disclosed. It
+  opened on 30 June 2026 for agreements from 1 April 2014, and 31 August 2026
+  for earlier ones. Around 12.1 million agreements are in scope. It is free to
+  use and you do not need a claims company. Check the FCA's own site for where
+  it currently stands — parts of it are subject to legal challenge.
+
+  That scheme is about disclosure. This video is about the structure underneath
+  it, which no redress scheme touches.
+
+  This describes how these contracts are built. It is not a religious ruling —
+  check with someone qualified before you act on it.
+
+  The Money Machine, Decoded.
+  ---------------------------------------------------------------------------
+
+TAGS         under 500 characters total — hard YouTube limit, silently rejects.
+
+KEYWORDS     "car finance" and "PCP" are the volume terms and both are safe.
+             Still do NOT put "riba" in the title — RIBA / Royal Institute of
+             British Architects owns that SERP. Description and spoken VO only.
+
+SERIES       Do not label this Part 4 of anything. The credit card sequence
+             closed on 2026-08-07 and this is a different machine. If you want
+             series framing, it belongs to "The Money Machine, Decoded" — the
+             umbrella your last two descriptions already use — and this is a
+             sibling of the pension and student loan videos, not of the cards.
+             Link those two in the description; they are the closest neighbours
+             and one of them is your second-best upload.
+
+
+================================================================================
+ACCURACY — the four claims that need to survive a comment section
+================================================================================
+
+"THE LOGBOOK WAS NEVER YOURS" — correct on both PCP and HP. The finance company
+retains title until the final payment (and, on a PCP, the optional final payment
+plus any purchase fee). The customer is the registered keeper, which the V5C
+itself states is not proof of ownership. Do not say "you don't own the V5C" —
+the distinction is keeper versus owner, and getting it precisely right is what
+makes the rest of the video credible.
+
+"INTEREST IS CHARGED ON THE BALLOON" — correct and central, so be exact about
+why. The optional final payment is deferred, not excluded: it remains part of
+the outstanding balance the whole term, so interest accrues on it throughout.
+That is precisely why a PCP monthly is lower than an HP monthly on the same car
+while the total charge for credit is not proportionally lower. If a commenter
+says "but I never paid the balloon" — that is the point, and the video already
+says it.
+
+"IJARA" — a genuine lease contract in Islamic finance, and invoking it is the
+honest move here because it concedes the strongest counter-argument up front.
+But keep the concession narrow. The script says a lease is legitimate; it does
+not say a PCP is an ijara. It isn't — an ijara's rental is a price for use, and
+a PCP's finance charge is a price for time on a deferred principal. Do not let
+the caption or the VO blur those, and do not let a comment reply do it either.
+
+FCA REDRESS SCHEME — dated material, handle it accordingly. Confirmed 30 March
+2026; opens 30 June 2026 for agreements from 1 April 2014 and 31 August 2026 for
+earlier ones; covers 6 April 2007 to 1 November 2024; roughly 12.1 million
+agreements, about £829 average redress, around £7.5bn total. As of 2 July 2026
+the Upper Tribunal had suspended parts of the scheme by agreement with four
+challengers. Because it can move, keep it out of the VO and out of the captions
+entirely — it lives in the description, where you can edit it after publishing
+without re-cutting the film. Point people at the FCA's own page rather than
+restating the current status on screen, and never imply anyone is definitely
+owed money.
+================================================================================

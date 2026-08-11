@@ -1,3 +1,27 @@
+################################################################################
+##                                                                            ##
+##  SHELVED — DO NOT SHOOT. Superseded before it was ever produced.           ##
+##                                                                            ##
+##  "3 Questions Decide If Your Credit Card Is Halal" published 2026-08-07    ##
+##  and claims this slot in its own description: "Part 3 — this one."         ##
+##  The credit card trilogy is closed.                                        ##
+##                                                                            ##
+##  This pack also CONTRADICTS that upload on two points:                     ##
+##    · Published Part 3 refuses to name a product ("terms change,            ##
+##      availability changes"). This pack's whole spine is naming one.        ##
+##    · Published Part 3 opens "paying in full doesn't settle it."            ##
+##      This pack's scene 10 advises keeping a card and clearing it same day. ##
+##                                                                            ##
+##  SALVAGE. Two pieces are still good and unspent, but belong in a           ##
+##  standalone video, not a card sequel:                                      ##
+##    · The Section 75 trade-off (scene 09) — nobody on the channel has       ##
+##      covered consumer protection as a cost of leaving credit.              ##
+##    · The vitrine shot (B01) — strongest thumbnail frame in any pack.       ##
+##                                                                            ##
+##  Superseded by: car-finance-prompt-pack.txt                                ##
+##                                                                            ##
+################################################################################
+
 ================================================================================
 FINANCE % DECODED — "THE HALAL CARD EXISTS" — PROMPT PACK
 Two independent tracks: VIDEO (Higgsfield) and STILLS (any image model)
