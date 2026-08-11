@@ -1,0 +1,572 @@
+================================================================================
+FINANCE % DECODED — "THE HALAL CARD EXISTS" — PROMPT PACK
+Two independent tracks: VIDEO (Higgsfield) and STILLS (any image model)
+9:16 · 1080x1920 · 11 scenes · 57.00s
+Follows credit-card-prompt-pack.txt ("They Call You a Deadbeat")
+================================================================================
+
+WHAT THIS FILE IS
+
+Part 3. Same architecture as the last two packs — two complete, separate ways
+to shoot the same Short. Pick one, don't mix them.
+
+  TRACK A — VIDEO.  11 clips, Higgsfield.
+  TRACK B — STILLS. 11 images, moved in the edit.
+
+House style, character sheet, palette, caption spec and the burn-in-the-numbers
+rule carry over unchanged. AMIR and the clerk are the same builds — reuse the
+locked reference frames from the Klarna and Deadbeat shoots.
+
+TIMINGS ARE TARGETS. Estimated at ~150wpm. Record the VO first, re-derive the
+real IN/OUT points into video/src/halalcard/beats.ts, then generate.
+
+
+================================================================================
+CONTINUITY — READ BEFORE ANYTHING ELSE
+================================================================================
+
+Three arguments are now spent. None of them appears in this video.
+
+  BURNED #1 — MERCHANT FEE PASS-THROUGH (Klarna video).
+  BURNED #2 — MINIMUM PAYMENTS AND COMPOUNDING (older upload, 198 views).
+  BURNED #3 — THE BUSINESS MODEL (Deadbeat video): deadbeat/revolver, the limit
+  rising on its own, cashback as bait, the minimum-payment box, "a real sale
+  takes its profit once." That was the whole diagnosis. It is finished.
+
+THIS VIDEO IS THE FIX AND ONLY THE FIX. Deadbeat closed on "Follow — the halal
+card fix is next." Every second of retention on this upload is borrowed against
+that promise, so the payoff cannot wait. It lands in scene 01, not scene 06.
+
+THE PIVOT THAT MAKES IT WORK. The honest answer to "is there a halal credit
+card" is: yes, and not here. The ujrah card is a real, licensed, ordinary
+product in the Gulf and Malaysia. It has not reached the UK retail market. That
+gap is the video — the first third is the product that exists, the back two
+thirds is the version you assemble yourself tonight.
+
+NO DIAGNOSIS. Zero seconds spent re-explaining why interest is the problem. The
+audience arriving here already watched that. If you find yourself writing a line
+that argues rather than instructs, cut it.
+
+
+================================================================================
+SCENE MAP — the spine both tracks hang off
+================================================================================
+
+ #  | IN     | OUT    | LEN   | SCENE            | VO LINE
+----|--------|--------|-------|------------------|----------------------------
+ 01 | 0:00.0 | 0:05.4 | 5.40s | it exists        | There is a halal credit card
+ 02 | 0:05.4 | 0:10.4 | 5.00s | the ujrah card   | The bank charges one flat fee
+ 03 | 0:10.4 | 0:15.2 | 4.80s | no rate          | Time isn't in the price
+ 04 | 0:15.2 | 0:18.8 | 3.60s | licensed         | Ordinary. Just not here.
+ 05 | 0:18.8 | 0:22.4 | 3.60s | build it         | The version you can have tonight
+ 06 | 0:22.4 | 0:26.9 | 4.50s | fund it first    | One. A separate account.
+ 07 | 0:26.9 | 0:31.4 | 4.50s | your ceiling     | Two. You set the limit.
+ 08 | 0:31.4 | 0:35.8 | 4.40s | a fee, not a rate| Three. A fee you choose.
+ 09 | 0:35.8 | 0:44.6 | 8.80s | what you lose    | Section 75. Be honest about it.
+ 10 | 0:44.6 | 0:48.4 | 3.80s | same day         | Keep one. Clear it same day.
+ 11 | 0:48.4 | 0:57.0 | 8.60s | the close        | The card was never the problem
+
+CLIP LENGTH NOTE (Track A). Scenes 01, 02, 09 and 11 run past 5s — those go on a
+10s model and get trimmed to the OUT point. Everything else generates at 5s.
+Never stretch a short clip to cover a long scene.
+
+
+================================================================================
+NUMBERS — burn these in during the edit, never generate them
+================================================================================
+
+  01  IT EXISTS
+  02  UJRAH — ONE FLAT FEE
+  03  NO RATE. NO TIME.
+  04  (none)
+  05  TONIGHT
+  06  FUND IT FIRST
+  07  YOUR LIMIT · YOUR HAND
+  08  A FEE ≠ A RATE
+  09  SECTION 75 · £100 – £30,000
+  10  CLEARED SAME DAY
+  11  PART 4 — THE ACCOUNT
+
+Scene 09 is this film's two-numbers-in-collision beat, the slot that "1% BACK vs
+24.9% APR" filled last time. It is also the honesty beat — the thing you give up
+by leaving credit. Give it the most typographic weight in the film, and the
+longest hold. A fix video that admits a cost is the one people trust.
+
+
+================================================================================
+================================  TRACK A  =====================================
+                        VIDEO — 11 CLIPS (HIGGSFIELD)
+================================================================================
+
+SETTINGS: 9:16 · 1080p · 5s or 10s per the scene map · text-to-video.
+
+CONSISTENCY: reuse the locked AMIR and clerk reference frames. If you no longer
+have them, generate CLIP 02 first — cleanest full view of the clerk — regenerate
+until the head is completely blank, save that frame, and feed it as reference on
+clips 02, 05 and 11.
+
+HIGGSFIELD NOTE: where a prompt names a camera move, set it with the platform's
+motion control rather than trusting the prompt text. Keep every move slow.
+
+NEGATIVE PROMPT — paste once, applies to all 11 clips:
+
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon outlines,
+cel shading, flat vector, anime, 2D illustration, distorted hands, extra fingers,
+extra limbs, morphing objects, warping architecture, camera shake, whip pans,
+blurry, low resolution, oversaturated, plastic sheen, uncanny, stock-photo smiles
+
+--------------------------------------------------------------------------------
+A01 · 0:00.0–0:05.4 · IT EXISTS   [generate 10s]
+--------------------------------------------------------------------------------
+Macro shot of a single blank cream payment card standing upright inside a small
+museum display vitrine on a dark matte plinth, the glass clean and reflective,
+the card completely unprinted. A narrow shaft of warm amber light falls through
+the glass onto the card alone. Nothing moves except a slow drift of fine dust
+through the light beam. Stylised low-poly 3D, matte clay card, near-photorealistic
+glass with real refraction and one soft reflection along the near pane. Camera
+pushes in 7% on the card, locked and steady. Deep near-black surround, single
+hard key from upper left, cool neutral grade with one warm amber accent. Shallow
+cinematic depth of field. 9:16 vertical, vitrine in the lower two-thirds, clean
+dark headroom above.
+
+--------------------------------------------------------------------------------
+A02 · 0:05.4–0:10.4 · THE UJRAH CARD   ** GENERATE FIRST **   [generate 10s]
+--------------------------------------------------------------------------------
+Stylised low-poly 3D render of a bank counter from the customer's side. Behind it
+stands a clerk with a COMPLETELY BLANK featureless head — no eyes, no nose, no
+mouth, a smooth matte tan block — wearing a deep navy #1E3A5F apron over a cream
+shirt and a navy bucket hat. He sets one small brass coin down on the counter
+beside a blank cream card, withdraws both hands cleanly from frame, and stills.
+Nothing further is added — the coin and the card sit alone. Camera orbits slowly
+10 degrees to the left, holding him centre-frame. Near-photorealistic bank
+interior behind in soft focus, warm overhead practical light. Matte clay shading,
+soft subsurface material, real cast shadows. Shallow depth of field. 9:16
+vertical, subject lower two-thirds, clean headroom above.
+
+--------------------------------------------------------------------------------
+A03 · 0:10.4–0:15.2 · NO RATE
+--------------------------------------------------------------------------------
+Macro close-up of an antique brass hourglass lying on its side on a dark matte
+surface, completely still, all the sand settled in one chamber and none running.
+Beside it, a single blank cream card lies flat. Absolutely nothing in frame
+moves. Stylised low-poly 3D, matte clay card, near-photorealistic brass and glass
+with real refraction, specular hits and fine patina. Camera drifts slowly right
+across the two objects, no zoom, no shake. Deep near-black background, hard
+raking key from camera-left, cool neutral grade with one warm amber accent along
+the brass. Shallow depth of field. 9:16 vertical, objects in the lower
+two-thirds, dark space above.
+
+--------------------------------------------------------------------------------
+A04 · 0:15.2–0:18.8 · LICENSED
+--------------------------------------------------------------------------------
+Extreme macro of a plain polished brass plaque mounted on a dark stone wall,
+entirely blank with no engraving of any kind, four visible countersunk screws at
+the corners. A slow band of warm light travels across its face left to right and
+passes off the edge. Stylised low-poly 3D, near-photorealistic brass with fine
+brushed grain, real patina in the screw recesses, and stone texture behind.
+Camera pushes in 8%, locked and steady. Deep near-black surround, single hard key
+from camera-left, cool neutral grade with one warm amber accent. Very shallow
+depth of field. 9:16 vertical, plaque low-centre, dark space above.
+
+--------------------------------------------------------------------------------
+A05 · 0:18.8–0:22.4 · BUILD IT
+--------------------------------------------------------------------------------
+Medium shot of AMIR seated at a small table in a quiet flat at night, low
+three-quarter angle, holding a phone in two simplified geometric hands. He has a
+COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte
+tan block. He wears a terracotta #E85F42 t-shirt and a cream beanie. The phone
+screen is a clean blank pale grey panel with no text. He taps it once,
+deliberately, with one thumb, then lowers the phone slightly and holds still.
+Stylised low-poly 3D, simplified geometric anatomy, matte clay shading, soft
+subsurface material. Camera pushes in 5% and settles. Near-photorealistic room
+behind dissolved into deep bokeh, one warm amber practical lamp off-frame right,
+cool blue ambient fill from the left. Shallow cinematic depth of field. 9:16
+vertical, subject lower two-thirds, generous headroom above.
+
+--------------------------------------------------------------------------------
+A06 · 0:22.4–0:26.9 · FUND IT FIRST
+--------------------------------------------------------------------------------
+Macro close-up of two identical small cream ceramic dishes side by side on a dark
+matte surface. A pair of simplified geometric hands in cream sleeves lifts a
+short stack of blank cream tokens and sets them into the left dish, filling it,
+then withdraws from frame. Only after the hands are gone does a single blank
+cream card slide out from under the filled dish toward camera and stop. The right
+dish stays empty throughout. Stylised low-poly 3D, matte clay materials,
+near-photorealistic ceramic glaze and real contact shadows. Camera locked off, no
+movement at all. Deep near-black surround, single hard key from upper left, one
+warm amber rim on the dish edges. Shallow depth of field. 9:16 vertical, dishes
+in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A07 · 0:26.9–0:31.4 · YOUR CEILING
+--------------------------------------------------------------------------------
+Macro close-up of a heavy brass slider set into a machined channel on a dark
+matte block, like a fader on a control surface. A single simplified geometric
+hand in a terracotta #E85F42 sleeve enters from the right, takes the slider
+between two fingers, draws it firmly down the channel to a stop, and withdraws.
+The slider does not drift back. Everything then holds. Stylised low-poly 3D,
+matte clay hand, near-photorealistic brass with machined tool marks, fine patina
+and real specular hits. Camera locked off, no movement — the only motion in frame
+is the hand. Hard low raking key from camera-left throwing a long shadow right,
+deep near-black surround, warm amber glint along the slider. 9:16 vertical,
+mechanism in the lower two-thirds, clean headroom above.
+
+--------------------------------------------------------------------------------
+A08 · 0:31.4–0:35.8 · A FEE, NOT A RATE
+--------------------------------------------------------------------------------
+Tabletop shot, dark walnut surface. A shallow cream dish sits square in the
+centre. A simplified geometric hand in a deep navy #1E3A5F sleeve lowers one
+small brass coin into the dish, releases it, and withdraws entirely from frame.
+The coin settles and rings still. Nothing else is added and nothing grows — the
+dish holds one coin for the rest of the shot. Stylised low-poly 3D, matte clay
+shading, near-photorealistic brass and ceramic texture. Camera locked off, no
+movement at all. Single hard key from the left, one long real shadow to the
+right, deep near-black surround, warm amber glint on the coin. 9:16 vertical,
+dish in the lower two-thirds, clean dark headroom.
+
+--------------------------------------------------------------------------------
+A09 · 0:35.8–0:44.6 · WHAT YOU LOSE   [generate 10s]
+--------------------------------------------------------------------------------
+Macro close-up of a single blank cream receipt lying flat on a dark walnut desk,
+entirely unprinted. Two simplified geometric hands enter from opposite edges of
+frame — one in a deep navy #1E3A5F sleeve from the left, one in a terracotta
+#E85F42 sleeve from the right — and each rests one fingertip on the paper at the
+same moment, pinning it flat from both sides. They hold. Then the navy hand lifts
+away and leaves frame, and the terracotta fingertip is left holding the receipt
+alone; the far corner of the paper lifts very slightly. Stylised low-poly 3D,
+matte clay hands, near-photorealistic thin receipt paper with a visible curl and
+fibre. Camera pushes in 6% across the shot, locked and steady. Hard low raking
+key from camera-left, deep near-black surround, one warm amber accent. Very
+shallow depth of field. 9:16 vertical, receipt filling the lower two-thirds.
+
+--------------------------------------------------------------------------------
+A10 · 0:44.6–0:48.4 · SAME DAY
+--------------------------------------------------------------------------------
+Extreme macro of a single blank cream payment card lying flat on a dark matte
+desk beside a small brass desk clock with a completely blank face — no numerals,
+no hands, no markings. A simplified geometric fingertip in a cream sleeve enters,
+presses the card down flat once, and withdraws immediately. The card lies
+perfectly square and still. Stylised low-poly 3D, matte clay card,
+near-photorealistic brass and card-stock texture. Camera pushes in 9% — brisk for
+this house style, matching the shortness of the beat — locked and steady. Deep
+near-black background, hard raking light from camera-left, cool neutral grade
+with one warm amber accent on the brass. 9:16 vertical, objects low-centre.
+
+--------------------------------------------------------------------------------
+A11 · 0:48.4–0:57.0 · THE CLOSE   [generate 10s]
+--------------------------------------------------------------------------------
+Stylised low-poly 3D character AMIR standing at a small market stall in warm low
+evening sun, seen from a low three-quarter angle, handing a blank cream card
+across the counter with one hand and taking a paper-wrapped parcel with the
+other. He has a COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a
+smooth matte tan block. He wears a terracotta #E85F42 t-shirt, cream #E8DCC8
+trousers, white sneakers and a cream beanie. The exchange completes in one
+unhurried motion and both figures settle, still. Simplified geometric anatomy,
+matte clay-like shading, soft subsurface material. Camera arcs slowly 12 degrees
+right and comes to rest. Near-photorealistic street market behind, quiet, long
+golden-hour shadows, warm amber key from behind, cool fill from the front.
+Shallow cinematic depth of field. 9:16 vertical, subject lower two-thirds,
+generous headroom above for the closing captions.
+
+
+================================================================================
+================================  TRACK B  =====================================
+                        STILLS — 11 IMAGES + EDIT MOVES
+================================================================================
+
+SETTINGS: 9:16 · 1080x1920 (or 2048x3640 and downscale) · one image per scene.
+
+Framed 10–15% wider than the video prompts, because every one gets a push in the
+edit and the push crops in.
+
+CONSISTENCY: reuse the locked reference images for AMIR and the clerk. Otherwise
+generate B02 and B11 first, approve both, lock the seed.
+
+HOW TO MOVE THEM. Each still gets the move listed under it, held for the scene's
+full length from the map. Drop the files in video/public/broll/ and drive them
+the way src/inflation/ drives its stills. Push percentages are total travel
+across the scene, eased out, never linear.
+
+NEGATIVE PROMPT — paste once, applies to all 11 stills:
+
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon, anime,
+2D illustration, flat vector, cel shading, distorted hands, extra fingers,
+stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted horizon,
+clutter, busy background, composite look, plastic sheen, uncanny, low resolution
+
+--------------------------------------------------------------------------------
+B01 · hold 5.40s · IT EXISTS
+MOVE: push in 7%, centred on the card behind the glass.
+--------------------------------------------------------------------------------
+Still life, 85mm macro, f/2.8. A single blank cream payment card standing upright
+inside a small museum display vitrine on a dark matte plinth, no printing on the
+card anywhere. One narrow shaft of warm amber light falls through the glass onto
+the card alone, fine dust suspended in the beam. Near-photorealistic glass with
+real refraction and a single soft reflection across the near pane; stylised
+low-poly matte clay card. Hard key from upper left, deep near-black falloff, cool
+neutral grade with one warm amber accent. Extremely shallow focus, card face
+sharp, glass edges dissolving. Reverent, sealed, slightly out of reach. 9:16
+vertical, vitrine composed low, two-fifths of the frame empty above.
+
+--------------------------------------------------------------------------------
+B02 · hold 5.00s · THE UJRAH CARD   ** GENERATE FIRST — clerk reference **
+MOVE: push in 5% on the coin beside the card.
+--------------------------------------------------------------------------------
+Environmental portrait from the customer's side of a bank counter, 35mm, f/2. A
+clerk stands behind it with a COMPLETELY BLANK featureless head — no eyes, no
+nose, no mouth, a smooth matte tan block — in a deep navy #1E3A5F apron over a
+cream shirt and a navy bucket hat, both forearms flat on the counter, weight
+settled, still. On the counter in front of him: one blank cream card, and beside
+it exactly one small brass coin. Nothing else on the surface. Stylised low-poly
+geometric anatomy, matte clay shading with soft subsurface scatter.
+Near-photorealistic bank interior behind falling into soft focus. Warm practical
+overhead light plus cooler window fill from the left. Shallow depth of field,
+counter edge sharp. 9:16 vertical, figure in the lower two-thirds, clean headroom.
+
+--------------------------------------------------------------------------------
+B03 · hold 4.80s · NO RATE
+MOVE: drift right 30px, no scale — lateral, from hourglass to card.
+--------------------------------------------------------------------------------
+Locked-off tabletop still life, 60mm, f/5.6, dark matte surface. An antique brass
+hourglass lies on its side, all its pale sand pooled and settled in one chamber,
+nothing running. A blank cream card lies flat beside it, square to frame. Nothing
+else in shot. Stylised low-poly matte clay card, near-photorealistic brass and
+glass with real refraction, specular hits and fine patina, firm contact shadows.
+One hard raking key from camera-left, a single long unbroken shadow to the right,
+deep near-black surround. Absolute stillness — the composition should read as
+stopped, not paused. 9:16 vertical, objects centred low, wide dark margin above.
+
+--------------------------------------------------------------------------------
+B04 · hold 3.60s · LICENSED
+MOVE: push in 9% — short scene, decisive move.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, of a plain polished brass plaque on a dark stone
+wall, entirely blank with no engraving of any kind, four countersunk screws at
+the corners. Near-photorealistic brushed brass grain, real patina collected in
+the screw recesses, coarse stone texture behind. Hard key from camera-left
+raking across the face so the brushing catches, deep near-black surround, cool
+neutral grade with one warm amber accent. Extremely shallow focus, plaque face
+sharp, wall dissolving. Institutional, ordinary, unremarkable — that is the
+point. 9:16 vertical, plaque low-centre, dark space filling the upper half.
+
+--------------------------------------------------------------------------------
+B05 · hold 3.60s · BUILD IT
+MOVE: push in 6% and drift down 20px, settling onto the phone.
+--------------------------------------------------------------------------------
+Low three-quarter environmental shot, 35mm, f/2, of AMIR seated at a small table
+in a quiet flat at night, holding a phone in two simplified geometric hands, one
+thumb resting on the screen mid-tap. He has a COMPLETELY BLANK featureless head —
+no eyes, no nose, no mouth, a smooth matte tan block — and wears a terracotta
+#E85F42 t-shirt and a cream beanie. The phone screen is a clean blank pale grey
+panel, softly lit, no text anywhere. Stylised low-poly geometric anatomy, matte
+clay shading, soft subsurface material. Near-photorealistic room behind dissolved
+into deep bokeh, one warm amber practical lamp off-frame right, cool blue ambient
+fill from the left, screen glow up onto his hands. Shallow cinematic depth of
+field. Purposeful, not passive — the posture of someone doing something. 9:16
+vertical, figure lower two-thirds, generous headroom.
+
+--------------------------------------------------------------------------------
+B06 · hold 4.50s · FUND IT FIRST
+MOVE: push in 6% onto the filled dish.
+--------------------------------------------------------------------------------
+Tabletop still life, 60mm, f/5.6, dark matte surface. Two identical small cream
+ceramic dishes side by side, square to frame. The left dish is heaped with blank
+cream tokens; the right dish is completely empty. One blank cream card rests half
+under the left dish, projecting toward camera. Stylised low-poly matte clay
+tokens, near-photorealistic ceramic glaze with real specular hits, firm contact
+shadows under both dishes. One hard key from upper left, long unbroken shadows to
+the right, deep near-black surround. The asymmetry should read instantly — full
+first, empty second. 9:16 vertical, dishes centred low, wide dark margin above.
+
+--------------------------------------------------------------------------------
+B07 · hold 4.50s · YOUR CEILING
+MOVE: push in 8% onto the stop at the end of the channel.
+--------------------------------------------------------------------------------
+Tight macro, 100mm, f/2.8, of a heavy brass slider set into a machined channel in
+a dark matte block, the slider pulled all the way down to a hard stop at the low
+end. A single simplified geometric fingertip in a terracotta #E85F42 sleeve rests
+against it at the frame edge. Near-photorealistic brass with machined tool marks,
+fine patina and real specular hits; stylised low-poly matte clay hand. Hard low
+raking key from camera-left throwing a long angular shadow across the block, deep
+near-black surround, warm amber glint along the slider's top edge. Extremely
+shallow focus, the stop sharp, the far end of the channel dissolving. 9:16
+vertical, mechanism in the lower two-thirds, dark space above.
+
+--------------------------------------------------------------------------------
+B08 · hold 4.40s · A FEE, NOT A RATE
+MOVE: none. Hold dead still — one coin, and it never becomes two.
+--------------------------------------------------------------------------------
+Locked-off tabletop still life, 60mm, f/5.6, dark walnut surface with visible
+grain. A shallow cream ceramic dish sits square in the centre holding exactly one
+small brass coin, lying flat. Nothing else in frame. Stylised low-poly matte clay
+dish, near-photorealistic brass with real specular hits and fine patina, a firm
+contact shadow. One hard key from camera-left, a single long unbroken shadow to
+the right, deep near-black surround. Absolute symmetry and stillness — settled,
+final, finished. 9:16 vertical, dish centred low, wide dark margin above.
+
+--------------------------------------------------------------------------------
+B09 · hold 8.80s · WHAT YOU LOSE
+MOVE: push in 6% and drift left 20px — the longest, slowest move in the film.
+--------------------------------------------------------------------------------
+Tight macro, 100mm, f/2.8, of a single blank cream receipt lying on a dark walnut
+desk, entirely unprinted, one corner curling upward and unsupported. A single
+simplified geometric fingertip in a terracotta #E85F42 sleeve pins the near edge
+flat. On the opposite side of the paper, an empty indentation in the desk dust
+where a second hand plainly rested and is no longer there. Stylised low-poly
+matte clay hand, near-photorealistic thin receipt paper with visible fibre and a
+soft curl. Hard low raking key from camera-left, a long shadow thrown right, deep
+near-black surround, one warm amber accent. Extremely shallow focus, the pinned
+edge sharp, the lifting corner soft. Exposed, one-sided, slightly precarious.
+9:16 vertical, receipt filling the lower two-thirds.
+
+--------------------------------------------------------------------------------
+B10 · hold 3.80s · SAME DAY
+MOVE: push in 10%. Short beat, so the move carries it.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, of a single blank cream payment card lying perfectly
+flat and square on a dark matte desk beside a small brass desk clock with a
+completely blank face — no numerals, no hands, no markings of any kind. Nothing
+else in frame. Stylised low-poly matte clay card, near-photorealistic brass with
+fine patina and real specular hits, card-stock fibre visible along the lit edge.
+Hard raking light from camera-left, deep near-black surround, cool neutral grade
+with one warm amber accent on the brass. Extremely shallow focus, card face
+sharp, clock softening. Clean, resolved, closed. 9:16 vertical, objects
+low-centre, dark space above.
+
+--------------------------------------------------------------------------------
+B11 · hold 8.60s · THE CLOSE   ** AMIR reference **
+MOVE: push in 4%, the gentlest in the film. Let it come to rest.
+--------------------------------------------------------------------------------
+Low three-quarter environmental shot, 35mm, f/2.8, of AMIR at a small street
+market stall in warm low evening sun, mid-exchange: one hand extending a blank
+cream card across the counter, the other receiving a paper-wrapped parcel. He has
+a COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte
+tan block. He wears a terracotta #E85F42 t-shirt, cream #E8DCC8 trousers, white
+sneakers and a cream beanie. The stallholder is a second blank-headed figure in
+deep navy #1E3A5F, softly out of focus. Simplified geometric anatomy, matte
+clay-like shading, soft subsurface material. Near-photorealistic market street
+behind, quiet, long golden-hour shadows stretching toward camera. Warm amber
+backlight rimming both figures, cool ambient fill on the front. Shallow depth of
+field. Ordinary, easy, entirely unremarkable — a normal transaction. 9:16
+vertical, figures in the lower two-thirds, generous open sky above for captions.
+
+
+================================================================================
+CAPTIONS — identical for both tracks
+================================================================================
+ #  | CAP 1                          | CAP 2
+----|--------------------------------|-------------------------------------------
+ 01 | THERE IS A HALAL CREDIT CARD   | you just can't get one in Britain
+ 02 | UJRAH — ONE FLAT FEE           | the bank is paid for the service, once
+ 03 | NO RATE. NO TIME.              | nothing grows while you sleep
+ 04 | LICENSED. REGULATED. ORDINARY. | it just hasn't crossed the Channel
+ 05 | SO BUILD IT TONIGHT            | three steps, one evening
+ 06 | 1 — FUND IT FIRST              | a separate account. money in before spend.
+ 07 | 2 — YOUR LIMIT, YOUR HAND      | set the ceiling yourself, in the app
+ 08 | 3 — A FEE, NOT A RATE          | a price you choose beats a rate that chooses you
+ 09 | YOU DO LOSE SECTION 75         | £100–£30,000. on credit the bank shares the liability.
+ 10 | KEEP ONE. CLEAR IT SAME DAY.   | that's the trade-off, honestly stated
+ 11 | THE CARD WAS NEVER THE PROBLEM | Part 4: the account itself. Follow.
+
+CAPTION SPEC — unchanged. Heavy condensed sans, uppercase CAP 1, sentence case
+CAP 2. #F5F0E6 with a 2px #0A0C10 outline, accent word in #E85F42. CAP 1 at 62%
+height, CAP 2 at 76%. CAP 1 on the first stressed syllable, CAP 2 one beat later,
+both clearing 200ms before the cut.
+
+SCENE 09 EXCEPTION. This caption is long and it is the most important one in the
+film. Give CAP 2 two lines and 8.8 seconds — do not compress it to fit the
+template. An honest cost stated plainly is what makes the other ten scenes
+credible.
+
+
+================================================================================
+VOICEOVER — to record: media/halalcard-vo.mp3 (target ~57.0s)
+================================================================================
+ElevenLabs v3, stability 45–55, similarity 75, speed 1.0. Tags sparse, full stops
+doing the pacing.
+
+[serious] There is a halal credit card. You just can't get one in Britain.
+In the Gulf it's an ujrah card. The bank charges one flat fee.
+Same plastic. Same limit. No interest — because time isn't in the price.
+Licensed. Regulated. Ordinary. It just hasn't crossed the Channel.
+[warmly] So build the version you can have tonight.
+One. A separate account. Funded before you spend, not after.
+Two. The ceiling is yours. You set it, in an app, once.
+Three. A fee you choose — never a rate that chooses you.
+[serious] And be honest about what you lose. Section seventy-five. On credit, the
+bank is jointly liable with the seller — a hundred pounds up to thirty thousand.
+Debit only gets you chargeback.
+So keep one card. Clear it the same day.
+[warmly] The card was never the problem. Time was. Follow — Part four.
+
+PACING NOTE. The hook is a promise kept in eleven words — do not soften it with a
+lead-in. "You just can't get one in Britain" is the turn, so put the beat of
+silence before "You", not after "card". Section 75 is the only place in the film
+where numbers are spoken; slow down there and let the rest run.
+
+
+================================================================================
+PACKAGING
+================================================================================
+TITLE        The Halal Credit Card Exists. Just Not Here.
+             alt 1: Build a Halal Credit Card Tonight
+             alt 2: What a Halal Card Actually Costs You
+             Declarative, per the Klarna retitle that worked
+             ("You've Already Paid Klarna." over "Is Klarna Halal?").
+THUMBNAIL    B01 — the card sealed in the vitrine, IT EXISTS in terracotta.
+             The glass does the work; it reads as withheld, which is the click.
+LENGTH       57.0s (slate rule: 30–60s)
+DESCRIPTION  600+ characters. Name Section 75 and the Consumer Credit Act 1974 in
+             the description — it is the searchable term and it corroborates the
+             one hard claim in the film.
+TAGS         under 500 characters total — hard YouTube limit, silently rejects.
+KEYWORDS     still do NOT put "riba" in the title (RIBA / Royal Institute of
+             British Architects owns that SERP). "Halal" is safe and is the
+             search term your audience actually types.
+
+SERIES. Part 3 of 4. Pin a comment: "Part 1: Klarna. Part 2: Deadbeat. Part 4:
+the account." You had no series framing across 21 uploads; this is the third
+consecutive video that carries one, and it is the cheapest retention available.
+Part 4 is the account, not the card — Sharia-compliant current and savings
+provision in the UK is a genuinely deeper bench than cards, so the series ends on
+something that is actually available rather than something that isn't.
+
+
+================================================================================
+ACCURACY — the four claims that need to survive a comment section
+================================================================================
+
+"UJRAH CARD" — real and current. Ujrah (fee/wage) structured cards are issued in
+Malaysia and across the GCC: the issuer's revenue is a disclosed flat service fee
+rather than interest on an outstanding balance. Some issuers layer tawarruq or
+qard-hasan structures underneath, and those variants are contested among
+scholars. The VO says "the bank charges one flat fee", which describes the ujrah
+model specifically and does not endorse every product marketed as Islamic. Keep
+that phrasing.
+
+"YOU CAN'T GET ONE IN BRITAIN" — accurate as of writing for mainstream retail.
+UK Islamic banking is well established for home finance, current accounts and
+savings, but a Sharia-compliant consumer credit card is not a normal high-street
+product here. Do not name a specific bank on screen as not offering one — product
+lines change and a dated screenshot is a correction you will have to pin.
+
+"SECTION 75 · £100–£30,000" — Consumer Credit Act 1974. Where a purchase is made
+using credit, the lender is jointly and severally liable with the seller for
+breach of contract or misrepresentation. The commonly cited range is that the
+cash price of the item must be over £100 and no more than £30,000. Two nuances
+worth having ready for the comments: it can apply even when only part of the
+price was paid on the card, and debit-card protection is chargeback, which is a
+card-scheme rule rather than a statutory right. The caption says "on credit the
+bank shares the liability", which is right and avoids overstating the scope.
+
+"KEEP ONE CARD, CLEAR IT SAME DAY" — this is the line that will draw the most
+argument, because holding a conventional card means being party to an
+interest-bearing contract even if no interest is ever paid, and scholars differ
+on that. The script does not issue a ruling — it presents a trade-off and states
+its cost. That is the same posture as both previous packs. If you want the
+cautious cut, replace scene 10's VO with "Or drop credit entirely, and accept the
+gap" and change CAP 1 to "OR DROP IT ENTIRELY", which costs you 0.4s and no
+retention. Pick one before you record; do not hedge both ways in the VO.
+================================================================================
