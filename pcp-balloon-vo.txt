@@ -1,267 +1,397 @@
 ================================================================================
-FINANCE % DECODED — "YOU PAID INTEREST ON A CAR YOU GAVE BACK" — VO PASS
-ElevenLabs v3 · emotion-tag audit and rewrite
-9:16 · target ~50s
-Follows credit-card-prompt-pack.txt
+FINANCE % DECODED — PCP / THE BALLOON — VO PASS v2
+Benchmarked against Part 8 (riQ7dLSnogo) and the channel's own Shorts data
+Target ~2:15 · ElevenLabs v3
 ================================================================================
 
-WHAT THIS FILE IS
+WHAT CHANGED FROM v1
 
-The PCP / balloon-payment VO, audited against the v3 tagging conventions used
-on the Klarna and credit card packs, and rewritten. Section 1 is the audit —
-what the draft was doing wrong. Section 2 is the script to record. Sections
-3–6 are the settings, the strip order if v3 over-performs, the two
-pronunciation traps, and one accuracy fix that has nothing to do with tags but
-would have ended the video in the comments.
+v1 of this file audited the emotion tags in isolation and rewrote them. That
+work was correct as far as it went and most of it survives below — but it was
+answering the wrong question. Benchmarking against Part 8 and against every
+Short this channel has published shows the draft's problem was never the tags.
+It was the format. A 50-second aphoristic VO is the format that is currently
+failing on this channel by roughly 25x, and no tag fixes that.
 
-The scene map, captions and prompt pack for this video do not exist yet. Record
-this first, then derive the beats off the rendered audio — same rule as the
-credit card pack.
+One call from v1 is now reversed outright: the [angry] tag. See §3.
 
 
 ================================================================================
-1. AUDIT — what the draft was doing
+1. THE DATA — what the channel says is working
 ================================================================================
 
-The draft carried four tags across fourteen lines: [serious] ×3, [calm],
-[warmly] ×2. Eleven findings, roughly in order of how much they cost you.
+Every Short on the channel, grouped by format. Views as at 11 Aug 2026.
 
-1.1  NO CONTRAST, SO NO EMOTION.
-     v3 does not read a tag as an absolute setting. It reads it as a move away
-     from the surrounding delivery. [serious] on a voice already narrating a
-     riba explainer at stability 50 is a null instruction — it describes the
-     baseline. Three of the four tags in the draft were [serious]. The script
-     was effectively untagged.
+  THE JULY BATCH — 2:00–3:00, "How to X (Y Explained)" titles, taught format
 
-1.2  THE HOOK HAD NO DELIVERY DIRECTION.
-     "Three years of payments. Then you hand the car back." is the whole
-     retention decision and it was carrying the same tag as the middle of the
-     script. The Klarna and credit card packs both open cold-flat and drop to
-     [whispers] on the reveal. This draft never uses the device.
+    Part 8   Halal mortgage / musharaka  3:00   1,231 views   64 likes  5.2%
+    Part 9   Sukuk                       2:24   1,050         62        5.9%
+    Part 3   Inflation                   2:13   1,042         58        5.6%
+    Part 10  Savings recap               2:20     971         40        4.1%
+    Part 4   Sound money                 2:26     928         40        4.3%
+    Part 13  Ijara / car                 2:31     718         30        4.2%
 
-1.3  THE SINGLE-WORD BOMB WAS UNTAGGED.
-     "The balloon." is this video's "Deadbeats." — the two-word line the whole
-     film is built to land. It sat in the middle of a [serious] block with no
-     isolation and no tag. That is the one place a tag was mandatory and the
-     one place there wasn't one.
+  THE AUGUST BATCH — 17–58s, bare declarative titles, aphoristic format
 
-1.4  CONSECUTIVE DUPLICATE TAGS ARE NO-OPS.
-     [warmly] on the last two lines. The second one changes nothing — v3 holds
-     an emotional state until the next tag contradicts it. You spent a tag to
-     instruct the model to keep doing what it was already doing, and lost the
-     chance to differentiate the CTA from the line before it.
+    "£1,461 a month..."                  0:17     257 views    0 likes  0.0%
+    "The Bank Doesn't Want You Debt-Free" 0:58      39          1       2.6%
+    "10 years of payments..."            0:25      35           0       0.0%
+    "3 Questions Decide If Your Card..." 0:51      30           2
+    "How to Tell If Your Islamic..."     0:28      24           0       0.0%
+    "You've Already Paid Klarna."        2:58      24           3
 
-1.5  NON-CANONICAL TAG VOCABULARY.
-     [serious], [calm], [warmly] and [emphatic] are not in ElevenLabs' v3 tag
-     documentation. v3 is prompt-following rather than enum-driven so they do
-     something, but the effect is soft and it varies run to run. The documented
-     set — [whispers], [sighs], [exhales], [curious], [sarcastic], [excited],
-     [angry], [laughs], [shouts] — steers far harder for the same token cost.
-     Rewrite below keeps three soft mood tags where the soft effect is what's
-     wanted and moves every load-bearing beat onto the documented set.
+That second block is not a slump. It is the same channel, four weeks later,
+doing a twenty-fifth of the traffic and — on four of six videos — a zero
+percent like rate. A zero like rate at 250 views is an audience watching
+without responding.
 
-1.6  TAGS ON SHORT LINES DON'T LAND.
-     v3 ramps into an emotional state over roughly a line. A tag in front of a
-     four-word sentence is often spent before the sentence is over. Applies to
-     "Here's the part that isn't." and "The balloon." Fix is either to tag the
-     line before and let the state carry in, or to isolate the beat as its own
-     generation. Both used below.
+THE CONTROL THAT SETTLES IT. Two videos, five days apart, both long:
 
-1.7  NO PACING MARKS AT ALL.
-     Full stops were doing 100% of the work. v3 rushes list-shaped prose, and
-     "So there are two flows. Money leaving you, like a buyer's. And a logbook
-     that never moves, like a tenant's." is the most list-shaped passage in the
-     script — it will come out flat and fast, exactly on the beat you need the
-     viewer to actually think. Em-dashes and ellipses steer pace more reliably
-     than any tag; the rewrite uses them.
+    "You've Already Paid Klarna."     5 Aug   2:58   24 views    VPH 0.17
+    "Is Your Pension Halal?"         10 Aug   2:16   269 views   VPH 9.47
 
-1.8  CHUNKS TOO SHORT FOR STABLE EMOTION.
-     v3 wants ~250+ characters per generation to hold a state. Recording this
-     line by line will give you fourteen different performances of the same
-     voice. Generate as one pass, with exactly one exception (§5).
+Fifty-five times the view velocity, and the pension one had been up for a
+single day when this was pulled. Its breakout score is 284 against Klarna's
+3.2. Length is not the variable — Klarna is the longer of the two. The variable
+is title pattern and script format: the pension video went back to the taught
+"Is Your X Halal?" structure and immediately behaved like the July batch.
 
-1.9  THE ANALYTICAL BEAT HAS NO EMOTION AVAILABLE TO IT.
-     "Two flows... you carry the cost of owning it and you hold the rights of
-     someone renting it" is the argument, and it's the driest sentence in the
-     script. No tag fixes abstract copy. Rewritten below into second person and
-     split into two short opposed clauses so the delivery has something to
-     push against.
+WHY THIS MATTERS HERE. "The Bank Doesn't Want You Debt-Free" at 39 views IS
+the credit card pack in this repo, shipped. Its VO is the terse, tagged,
+aphoristic style at credit-card-prompt-pack.txt:507. The PCP draft is written
+in that same voice. We are not speculating about whether the style works on
+this channel — it has been tested twice and returned 39 and 24 views against a
+taught-format baseline of 700–1,200.
 
-1.10 THE ARC WAS FLAT.
-     serious → calm → serious → warm → warm. What the two published packs
-     actually do, and what the rewrite restores: cold open, drop to whisper on
-     the reveal, controlled heat on the injustice, drop again on the
-     instruction, warm only on the last line.
-
-1.11 NO CTA DIFFERENTIATION.
-     "Go and find the balloon. It's on page one." is an instruction — it should
-     be quiet and close-miked, not warm. Warmth belongs on the final line only,
-     where it's the payoff for 45 seconds of pressure. The draft gave both
-     lines the same tag and flattened the ending.
+CAVEAT, STATED HONESTLY. Six videos a side, four weeks, one channel, and the
+August batch also changed title convention, hashtag usage and length all at
+once. The formats are confounded and this is not a clean experiment. But every
+confounded variable points the same direction, the pension video isolates the
+format variable about as well as an uncontrolled channel ever will, and the
+downside of going back to the taught format is nil — it is the format that
+built the channel.
 
 
 ================================================================================
-2. THE SCRIPT — record this
+2. THE REFERENCE — what Part 8 actually does
 ================================================================================
 
-Tag count: 8 across the film, six of them documented v3 tags. Punctuation
-carries the pace; tags are reserved for the four moves that matter.
+Part 8 is 3:00, 1,231 views, and a 5.2% like rate, which is exceptional. Here
+is its machinery, cross-checked against Part 13 (Ijara), which runs the same
+build. Both share nine recurring devices. The PCP draft uses none of them.
+
+  D1  COUNTER-INTUITIVE HOOK.
+      P8: "imagine there's a mortgage where your debt gets smaller while you
+      sleep." P13: "You don't pay for the car. You pay rent on the money that
+      bought the car. And that rent never sleeps."
+      The "while you sleep" motif recurs across the series. It is the channel's
+      signature image and it is free to reuse.
+
+  D2  SERIES RECAP IN THE FIRST 25 SECONDS.
+      "Quick recap if you're new here. In part one... in part six..."
+      Establishes authority and sells the back catalogue before the argument
+      starts. The credit card pack claimed this channel has no series framing.
+      That is out of date — the series runs to Part 14 with a playlist, and the
+      taught videos all open on it.
+
+  D3  A WORKED EXAMPLE WITH REAL NUMBERS.
+      P13: "$30,000 at 9% for 6 years, 540 a month. By the end you've paid
+      nearly 39,000. That extra 9,000 never touched the car."
+      Every winning video has one. The PCP draft has zero numbers in it. This
+      is the single largest content gap.
+
+  D4  A TURN SIGNAL BEFORE THE REVEAL.
+      "And here's where it gets good." / "here's the part nobody says out loud."
+
+  D5  FIRST-PERSON DISCOVERY.
+      "When someone first explained this to me, I honestly thought they were
+      joking. They weren't." / "when someone first showed me the fix, I thought
+      it was too simple to be real."
+      The narrator learns alongside the viewer. This is the warmth in the
+      format, and it is what makes a riba video feel like teaching rather than
+      accusation. The PCP draft is pure second-person accusation — it tells the
+      viewer what they did, fourteen times, and never once stands next to them.
+
+  D6  "IT'S OVER A THOUSAND YEARS OLD."
+
+  D7  THE SERIES TEST. The signature device.
+      P8: "If the roof caves in tomorrow, who pays? Both of us."
+      P13: "If the engine dies tomorrow, does the lender lose anything?
+      Nothing."
+      There is also an explicit three-question version the channel pinned in
+      its own comments: does the contract charge for time / is the fee flat or
+      does it scale / where does a late fee go. Use question one below.
+
+  D8  QURAN 2:275, LATE, AS THE SEAL. "Trade permitted, riba forbidden."
+
+  D9  NEXT-PART TEASE, THEN "NO JARGON, JUST MECHANISMS."
+      Every episode. The draft's ending is a bare rhetorical question and does
+      not sign off.
+
+THE DELIVERY REGISTER — and this is the correction to v1. The shot-by-shot
+read of Part 8 describes the VO as "calming, intrigue-focused, almost
+whisper-soft," "serene and intimate, ASMR-adjacent warmth," delivered in a
+lower register for an insider-secret feel. Its punch beats are not loud. They
+are pitch DROPS into flat certainty:
+
+    0:10  "They weren't."
+    0:41  "This is it."
+    2:16  "Both of us."
+
+That is the opposite of what v1 built. v1 added [angry] on the injustice beat
+on general viral-craft logic. On this channel that is off-voice — the format's
+authority comes from being the calmest person in the room while describing
+something outrageous. [angry] is cut from the script below and should not come
+back.
+
+
+================================================================================
+3. CONTINUITY — the collision you have to route around
+================================================================================
+
+PART 13 ALREADY DID IJARA, AND ALREADY DID CARS.
+"How to Buy a Car Without Interest (Ijara Explained)", 2:31, 718 views. It
+covers a $30,000 car loan, the underwater beat, the risk test on a car, ijara
+as the fix, rent-to-own ijara, and "renting a car is trade, renting money is
+riba."
+
+The PCP draft's entire concession beat — "a lease is a lease, Islam has a name
+for it, Ijara" — is a re-teach of Part 13. Same error class the credit card
+pack has a whole section about. In the script below Ijara is named in one line
+and pointed at Part 13; it is never re-explained.
+
+WHAT SURVIVES AS NEW. Part 13 covered a straight amortising car loan. A PCP is
+a different mechanism — most of the car is never amortised at all, it is parked
+in a balloon and charged for anyway. That is genuinely unclaimed, it is the
+most common car finance product in the UK, and it is worth its own episode.
+Slot it as its own part number and open on Part 13 in the recap.
+
+
+================================================================================
+4. THE SCRIPT — record this
+================================================================================
+
+~340 words, ~2:15 at 150wpm. Eight tags. Numbers in §6.
 
 --------------------------------------------------------------------------------
 [serious] Three years of payments. Then you hand the car back.
 
-[whispers] You never owned it. Not for one day of it.
+And here's the strange part. You paid interest on the piece of it you were
+always going to give away.
 
-[calm] And that part is fine. A lease is a lease — Islam has a name for it.
-Ijara. Nothing wrong with renting a car.
+[calm] Quick recap if you're new here. Part one — banks rent out money and call
+it interest. Part thirteen — we put that on a car, and found the fix. Ijara.
 
-[serious] Here's the part that isn't.
+Today it's the deal most of Britain actually drives. P-C-P.
 
-The balloon. That lump at the end — the one you were always going to walk away
-from.
+Say the car is thirty thousand. You put down three. So twenty-seven thousand is
+financed, at around ten percent, over three years.
 
-You pay interest on that too. Every month. For three years.
+But a PCP doesn't finance all of it the same way. [curious] And this is the bit
+nobody explains at the desk.
 
-[angry] Interest... on a piece of car you were never going to own.
+Thirteen thousand pounds of that car gets set aside. Parked at the end of the
+contract, untouched. Your monthly payments never reduce it. Not by a penny.
 
-[curious] So which one are you?
+That's the balloon. The optional final payment. The one you were always going
+to walk away from.
 
-The money leaves you like a buyer. The keys go back like a tenant.
-You carried the cost of owning it. You held the rights of renting it.
+[curious] So if you're not paying it down... what are you paying on it?
 
-[whispers] Go and find the balloon. It's on page one of your agreement.
+[whispers] Interest. Every single month.
 
-[warmly] Then ask what you're actually renting — and what you're paying for
-time.
+Thirteen thousand pounds, sitting there, charged at ten percent, for
+thirty-six months. About a hundred and three pounds a month. Three thousand
+seven hundred pounds by the end.
+
+[serious] Nearly two-thirds of all the interest on that contract. Charged on a
+piece of car you never intended to own, and never did.
+
+[calm] Now run the test from part one. Does the contract charge you for time?
+
+Every month, on thirteen thousand pounds of car that will never be yours — yes.
+It does. And that charge doesn't depend on the car. It depends on the calendar.
+
+[curious] But hold on. Isn't a PCP just a lease? And leasing is fine, isn't it?
+
+That was my first question too. And renting a car is trade — that's Ijara,
+that's part thirteen. But a lease doesn't charge you for a share you're handing
+back. Under Ijara the owner owns the car, carries it, and rents you a thing.
+
+[serious] Under a PCP you carry the cost of owning it, and you hold the rights
+of renting it. Two contracts wearing each other's clothes.
+
+Trade permitted, riba forbidden. Surah Al-Baqarah, two two seven five.
+
+[whispers] Go and find your balloon. It's on page one of your agreement —
+"optional final payment."
+
+[warmly] Then ask the only question that matters. What am I actually renting?
+And what am I paying for time?
+
+No jargon. Just mechanisms.
 --------------------------------------------------------------------------------
 
-WHAT EACH TAG IS DOING
+TAG MAP
 
-  [serious]   Baseline. Stated once at the top so the whisper two lines later
-              has something to be a departure from. Restated after [calm] to
-              snap back — that one is load-bearing, it's the pivot of the film.
-  [whispers]  The reveal. Drops on "You never owned it" and carries into the
-              short line after it, which is why the two sentences are in one
-              chunk rather than split.
-  [calm]      The concession. Deliberately soft — this is the beat where a
-              hostile viewer decides you're being fair, and it buys you the
-              rest of the video.
-  [angry]     The injustice, once. Do not add a second one anywhere. Its entire
-              power is that it's the only raised moment in fifty seconds. If
-              your voice build over-performs it, see §4.
-  [curious]   Turns the analytical beat into a question aimed at the viewer.
-              This is the tag doing the most work per token in the script — it
-              converts the driest passage into direct address.
-  [whispers]  Second whisper, on the instruction. Close-miked, conspiratorial.
-              Pairs with the first whisper to bracket the argument.
-  [warmly]    Last line only. The only warmth in the film.
+  [serious]  ×3   Baseline, and the two flat-certainty landings. These are the
+                  "They weren't." beats — pitch drops, not volume.
+  [calm]     ×2   The recap, and the test. Teaching register.
+  [curious]  ×3   The three questions aimed at the viewer. This is the tag
+                  doing the most work in the script; it is what converts the
+                  format from accusation to shared discovery.
+  [whispers] ×2   The reveal ("Interest. Every single month.") and the
+                  homework instruction. Matches the ASMR-adjacent register the
+                  channel already reads in.
+  [warmly]   ×1   Last beat only.
 
-"The balloon." is untagged on purpose — it inherits [serious] from the pivot
-and lands on the silence around it, not on a performance. See §5.
+  NOT USED: [angry], [excited], [shouts]. Off-voice for this channel — see §2.
+
+  "No jargon. Just mechanisms." is untagged on purpose. It inherits [warmly]
+  and lands on the silence, exactly as it does on every other episode.
 
 
 ================================================================================
-3. SETTINGS
+5. v3 MECHANICS — the tag findings that still hold from v1
 ================================================================================
 
-ElevenLabs v3, stability 45–55, similarity 75, speed 1.0. Same as Klarna and
-the credit card pack — do not change these to chase the tags.
+Settings: stability 45–55, similarity 75, speed 1.0. Above ~60 v3 begins
+ignoring tags entirely; if the whispers are coming out as ordinary narration
+that is almost always the cause.
 
-Stability is the thing that decides whether tags work at all. Above ~60 v3
-starts ignoring them; at 45–55 they land and the voice still holds identity.
-If [angry] and [whispers] are coming out as ordinary narration, the problem is
-almost always stability drifting high, not the tags.
+5.1  TAGS WORK BY CONTRAST, NOT AS SETTINGS. The original draft ran [serious]
+     three times out of four tags. On a voice already narrating a riba
+     explainer that describes the baseline and instructs nothing. Above,
+     [serious] appears only where something quieter or more curious precedes
+     it, so it has a delta to express.
 
-Generate the whole script as one pass. Fourteen separate generations will not
-match.
+5.2  CONSECUTIVE DUPLICATE TAGS ARE NO-OPS. The draft's two [warmly] in a row —
+     v3 holds a state until contradicted, so the second changed nothing and
+     cost you the CTA differentiation. Fixed above by whispering the
+     instruction and warming only the final question.
 
+5.3  NON-CANONICAL TAGS ARE SOFT. [serious], [calm] and [warmly] are not in
+     ElevenLabs' documented v3 set. v3 is prompt-following so they do something,
+     but weakly and inconsistently. [whispers] and [curious] are documented and
+     steer hard — which is why the four load-bearing beats above sit on those
+     two and the mood tags only carry connective tissue.
 
-================================================================================
-4. STRIP ORDER — if v3 over-performs
-================================================================================
+5.4  TAGS ON SHORT LINES DON'T LAND. v3 ramps into a state over roughly a line.
+     "[whispers] Interest. Every single month." is deliberately two sentences,
+     not one, so the whisper has somewhere to arrive.
 
-Eight tags is more than the two published packs use and it is deliberate, but
-v3 occasionally reads an over-tagged script as a performance rather than a
-narration. If the take sounds theatrical, remove in this order and regenerate
-after each:
+5.5  GENERATE IN ONE PASS. v3 wants ~250+ characters to hold a state; recording
+     line by line gives you twenty performances of the same voice.
 
-  1. [curious]   — the question mark alone gets you most of it
-  2. [calm]      — the copy is already conciliatory
-  3. [serious] (the second one, at "Here's the part that isn't")
-  4. [angry]     — replace with the ellipsis alone, which is already in the line
+5.6  IF A TAG IS AUDIBLY SPOKEN, the generation is scrap. Listen end to end
+     before you cut to it.
 
-Never strip the two [whispers] or the closing [warmly]. Those three are the
-film's entire dynamic range; without them you have a man reading a leaflet.
+5.7  STRIP ORDER if the take sounds theatrical: [curious] on the lease
+     objection first, then [calm] on the recap, then the third [serious].
+     Never strip the two [whispers] or the closing [warmly].
 
-Separately: if a tag is ever audibly spoken in the take — v3 does this
-occasionally — it is instantly obvious and the whole generation is scrap. Listen
-to every pass end to end before you cut to it.
-
-
-================================================================================
-5. THE ISOLATED BEAT
-================================================================================
-
-"The balloon." is this video's "Deadbeats." Same treatment as the credit card
-pack: a full beat of silence either side in the edit, and nothing riding in on
-it.
-
-If v3 rushes it in the full pass — likely, it's three words after a long
-sentence — generate the pivot on its own:
-
-    [serious] Here's the part that isn't. [long pause] The balloon.
-
-and cut that in. Do not solve it by adding a tag to "The balloon." in the main
-pass; per §1.6 the state won't ramp in time and you'll get an odd half-inflected
-read instead.
+PRONUNCIATION.
+  P-C-P — hyphenated in the script text to force letter-by-letter. Unhyphenated
+  v3 will eventually say "pee-see-pee" as a word, and PCP has an unfortunate
+  other referent your comments will find.
+  IJARA — v3 has no phoneme tags; respelling in the script is the only lever.
+  Expect "eye-JAR-uh" first pass. If you get it, write "ee-JAA-ra" and v3 reads
+  what you wrote. Note Part 13's title spells it "Ijara" and its VO says
+  "Ijarah" — pick one for the series and stay on it.
+  2:275 — written "two two seven five" above so v3 doesn't read it as a
+  timestamp or a ratio.
 
 
 ================================================================================
-6. PRONUNCIATION — two traps
+6. THE NUMBERS — check these against a real quote before recording
 ================================================================================
 
-v3 does not support SSML phoneme or alias tags. The only lever is respelling in
-the script text itself, so test both of these before you commit to a take.
+Worked from a representative UK PCP: £30,000 car, £3,000 deposit, £27,000
+financed, ~10% APR, 36 months, £13,000 guaranteed minimum future value.
 
-  IJARA — Arabic term, and v3 has no reason to know it. Expect a hard English
-  "eye-JAR-uh" on first pass. If you get it, respell it in the script as
-  "Ijaara" or, if that still fails, "ee-JAA-ra" — v3 reads the respelling, so
-  whatever you write is what you hear. Get this one right; mispronouncing the
-  Islamic term while explaining Islamic finance is the single most quotable
-  error available in this script.
+  Monthly payment            ~£552
+  Total paid over the term   ~£22,872  (deposit + 36 payments)
+  Total interest             ~£5,872   (if you go on to buy at the balloon)
+  Interest on the balloon    ~£3,700   (£13,000 × ~0.79%/mo × 36)
+  Balloon share of interest  ~63%
 
-  PCP — the draft's second line contained it and the rewrite removes it, partly
-  for this reason. If you put it back, write it "P-C-P" with hyphens to force
-  letter-by-letter. Unhyphenated, v3 will sooner or later say "pee-see-pee" as
-  a word, and PCP also has an unfortunate other referent your comment section
-  will find funny.
+"Nearly two-thirds" in the VO is that 63%. A £13,000 GMFV on a £30,000 car at
+three years is ~43% of list, which is squarely in the normal band for a
+3-year/10k-mile PCP. All of it is illustrative, none of it names a lender, and
+the VO says "say the car is thirty thousand" so it never claims to be a
+specific product. Same posture as the credit card pack's 1%-vs-24.9% beat.
+
+Burn these on screen, do not generate them: 30,000 / 3,000 / 13,000 / £103 A
+MONTH / £3,700 / 63%. The £103-vs-£3,700 collision is this video's equivalent
+of "£1,461 a month, only £420 buys your house" — give it the most typographic
+weight in the film.
 
 
 ================================================================================
-7. ACCURACY — one fix that is not a tag problem
+7. ACCURACY — three things that have to survive the comments
 ================================================================================
 
-THE LOGBOOK LINE IS WRONG AND HAD TO GO.
+7.1  THE LOGBOOK LINE IS WRONG AND IS CUT.
+     The draft said "on a PCP the logbook was never in your name." On a UK PCP
+     the V5C normally IS in the customer's name — they are the registered
+     keeper; the finance company is the legal owner, and the V5C says in terms
+     that it is not proof of ownership. Anyone who has held one for a financed
+     car can check this in thirty seconds. Gone from the script entirely.
 
-The draft read: "On a PCP the logbook was never in your name."
+7.2  DO NOT SAY THE LENDER CARRIES NO RISK.
+     This is the trap in porting Part 13's risk test straight across. On a
+     straight car loan "if the engine dies, does the lender lose anything?
+     Nothing" is fair. On a PCP it is not: the lender GUARANTEES the minimum
+     future value, so if the car is worth less than the balloon at hand-back
+     the lender eats that difference. That is a real risk they take, and a
+     knowledgeable commenter will say so and be right.
+     The script above therefore runs a different test — your own question one,
+     "does the contract charge for time?" — which is unarguable here and is
+     the actual riba claim. Keep it narrow. The argument is that you are
+     charged for time on a portion you will never own, not that the lender is
+     risk-free.
 
-On a UK PCP or HP agreement the V5C registration document normally IS in the
-customer's name — the customer is the registered keeper. The finance company is
-the legal owner. The V5C itself carries the line that it is not proof of
-ownership, and that distinction between keeper and owner is exactly the thing
-the document exists to make. Anyone who has held a V5C for a financed car — a
-large share of your audience — can check this in thirty seconds, and it is the
-kind of error that gets a top comment and discredits the argument around it.
+7.3  INTEREST ON THE BALLOON IS THE CENTRAL CLAIM AND IT IS SOUND.
+     Interest on a PCP is charged on the whole amount financed, including the
+     optional final payment, for the entire term. A customer who always
+     intended to hand the car back has still paid interest on the balloon
+     every month. This is the video and it holds.
 
-The rewrite replaces the whole keeper/owner mechanic with the flow the script
-can defend without qualification: money out like a buyer, keys back like a
-tenant. Same point, no falsifiable claim.
+POSTURE, unchanged from both published packs: describe the economics, do not
+issue a ruling in your own voice. Ijara is named as the contrast, not as a
+verdict.
 
-Keep the rest of the argument as drafted. Interest on a PCP is charged on the
-full amount financed including the optional final payment, so a customer who
-always intended to hand the car back has still been paying interest on the
-balloon for the whole term — that is the video's central claim and it is sound.
 
-Posture, as in both published packs: describe the economics, do not issue a
-ruling in your own voice. Ijara is named as the contrast, not as a verdict.
+================================================================================
+8. PACKAGING — do not repeat the August batch's mistake
+================================================================================
+
+The six videos doing 24–50 views all have bare declarative titles with no
+keywords and no hashtags. The six doing 700–1,200 all follow "How to X (Y
+Explained)" or "Is Your X Halal?" with three trailing hashtags. That pattern is
+the cheapest thing on this list to copy.
+
+  TITLE   How to Buy a Car on PCP Without Riba (The Balloon Explained)
+          #pcp #carfinance #islamicfinance
+    alt   Is Your Car Finance Halal? (You're Paying Interest on a Car You Give
+          Back)
+    alt   The Part of Your Car Finance Nobody Explains (PCP Balloon Explained)
+
+  Do not ship it as "The Balloon." or "Three Years. Then You Hand It Back."
+  That is the naming convention on every video in the failing block.
+
+  LENGTH  2:10–2:30. Not 50 seconds. The 17–58s cuts are the worst-performing
+          content on the channel by a wide margin.
+  SERIES  Give it a part number, open the recap on Part 13, and add it to the
+          playlist — a viewer already flagged in the comments that a missing
+          playlist entry broke the run order for them.
+  TEASE   Close the description with the next part, as every winning episode
+          does.
+  PINNED  Pin the comment hook at upload. The channel does this every time and
+          the format is settled: a question the viewer can answer from their
+          own paperwork. Use —
+            "Go and look at your agreement tonight. What's your optional final
+            payment — and what percentage of the car is it? 👇"
+          That is the same shape as "Run them tonight. What did yours score?"
+          and it is designed to farm the exact comment the algorithm rewards.
 ================================================================================
