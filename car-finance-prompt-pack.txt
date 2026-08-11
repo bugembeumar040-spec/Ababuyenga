@@ -135,14 +135,11 @@ frame and feed it as reference on 11. No other clip has a face in it.
 HIGGSFIELD NOTE: where a prompt names a camera move, set it with the platform's
 motion control rather than trusting the prompt text. Keep every move slow.
 
-NEGATIVE PROMPT — paste once, applies to all 11 clips:
-
-facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
-lettering, numbers, logos, brand names, licence plates, badges, watermark,
-signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
-distorted hands, extra fingers, extra limbs, morphing objects, warping
-architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
-plastic sheen, uncanny, stock-photo smiles
+NEGATIVES ARE PER-SCENE IN THIS PACK. Every prompt below carries its own
+NEGATIVE block — the base terms plus the failure modes specific to that shot.
+There is nothing to paste once and nothing to remember between scenes; each
+prompt is self-contained. If your model has a separate negative field, split at
+the NEGATIVE line. If it doesn't, append the block to the end of the prompt.
 
 --------------------------------------------------------------------------------
 A01 · 0:00.0–0:05.2 · HAND IT BACK   [generate 10s]
@@ -160,6 +157,17 @@ one long real shadow thrown right, deep near-black surround, one warm amber glin
 running along the fob's chrome bezel. Shallow cinematic depth of field. 9:16
 vertical, fob in the lower two-thirds, clean dark headroom above.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, manufacturer badge, branded key
+fob, metal key blade, key teeth, keyring bundle, multiple keys, hand still
+touching the fob
+
+
 --------------------------------------------------------------------------------
 A02 · 0:05.2–0:10.0 · NEVER YOURS
 --------------------------------------------------------------------------------
@@ -173,6 +181,16 @@ texture with visible fibre and a curling corner. Camera locked off, no movement.
 Single hard overhead key slightly off-axis, deep near-black surround, one warm
 amber accent along the paper's near edge. 9:16 vertical, document in the lower
 two-thirds.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, printed form, form fields, ruled
+lines, official stamp, envelope, book, document lying flat and unmoved
+
 
 --------------------------------------------------------------------------------
 A03 · 0:10.0–0:15.4 · THAT PART'S FINE   [generate 10s]
@@ -192,6 +210,17 @@ light from upper left, one warm amber rim tracing both wrists. Shallow depth of
 field. Calm, balanced, unhurried. 9:16 vertical, hands in the lower two-thirds,
 clean headroom above.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, manufacturer badge, branded key
+fob, metal key blade, key teeth, handshake, closed fist, gripping fingers, one
+hand higher than the other
+
+
 --------------------------------------------------------------------------------
 A04 · 0:15.4–0:18.6 · THE PIVOT
 --------------------------------------------------------------------------------
@@ -204,6 +233,16 @@ with visible fibre and one soft fold crease. Camera pushes in 6%, locked and
 steady. Deep near-black surround, single hard raking key from camera-left, cool
 neutral grade with one warm amber accent along the lit edge. Very shallow depth
 of field. 9:16 vertical, page filling the lower two-thirds.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, printed text, paragraphs, form
+fields, soft shadow edge, gradient shadow, shadow crossing the whole page
+
 
 --------------------------------------------------------------------------------
 A05 · 0:18.6–0:24.0 · THE BALLOON   [generate 10s]
@@ -219,6 +258,17 @@ right along the row and comes to rest on the sphere. Deep near-black background,
 one hard key light from upper left, warm amber rim along the sphere. Shallow
 depth of field. 9:16 vertical, row in the lower two-thirds, dark space above.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, uneven spacing, irregular cube
+sizes, scattered blocks, stacked cubes, rubber balloon, inflatable, sphere the
+same size as the cubes
+
+
 --------------------------------------------------------------------------------
 A06 · 0:24.0–0:28.6 · YOU PAY ON IT
 --------------------------------------------------------------------------------
@@ -233,6 +283,17 @@ off, no movement at all — the only change in frame is the travelling light. De
 near-black background, cool neutral grade, warm amber as the only accent. 9:16
 vertical, row in the lower two-thirds.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, uneven spacing, irregular cube
+sizes, scattered blocks, unlit sphere, sphere left in shadow, spotlight circle,
+pool of light, light stopping short of the sphere
+
+
 --------------------------------------------------------------------------------
 A07 · 0:28.6–0:33.4 · NEVER OWN IT
 --------------------------------------------------------------------------------
@@ -246,6 +307,17 @@ then pushes in 8% on the empty dent and settles. Deep near-black background, one
 hard key from upper left throwing a long shadow right, warm amber accent. Shallow
 depth of field. 9:16 vertical, dent low-centre, dark space above.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, sphere present, ball, object
+resting in the dent, hole, crater, drilled hole, dent filled, hands still in
+frame
+
+
 --------------------------------------------------------------------------------
 A08 · 0:33.4–0:38.2 · FLOW ONE
 --------------------------------------------------------------------------------
@@ -258,6 +330,17 @@ shadow. Camera locked off, no movement at all — the only motion is the tokens.
 Single hard overhead key slightly off-axis so every shadow falls the same way,
 deep near-black surround, one warm amber accent. 9:16 vertical, the line of
 tokens running across the lower two-thirds.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, coins, currency, banknotes, poker
+chips, stacked tokens, scattered tokens, uneven spacing, curved line, tokens of
+differing sizes
+
 
 --------------------------------------------------------------------------------
 A09 · 0:38.2–0:45.6 · FLOW TWO   [generate 10s]
@@ -274,6 +357,17 @@ Single hard overhead key slightly off-axis, deep near-black surround, one warm
 amber accent on the brass. 9:16 vertical, document centred in the lower
 two-thirds.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, coins, currency, poker chips,
+uneven spacing, document lifting, curling paper, document drifting, tokens
+overlapping the document, paperweight tilted
+
+
 --------------------------------------------------------------------------------
 A10 · 0:45.6–0:49.4 · PAGE ONE
 --------------------------------------------------------------------------------
@@ -287,6 +381,16 @@ the box — brisk for this house style, matching the short beat — locked and
 steady. Hard low raking key from camera-left throwing a long angular shadow
 across the page, deep near-black surround, one warm amber accent. Very shallow
 depth of field. 9:16 vertical, page filling the lower two-thirds.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, printed text, paragraphs, filled
+box, handwriting, signature line, ticked box, pen
+
 
 --------------------------------------------------------------------------------
 A11 · 0:49.4–0:58.0 · THE CLOSE   ** AMIR reference **   [generate 10s]
@@ -303,6 +407,15 @@ settles. Simplified geometric anatomy, matte clay-like shading, soft subsurface
 material. Long golden-hour shadows, warm amber key from behind him, cool fill
 from the front. Shallow cinematic depth of field. Calm, resolved, unhurried. 9:16
 vertical, subject in the lower two-thirds, generous headroom for the captions.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon outlines, cel shading, flat vector, anime, 2D illustration,
+distorted hands, extra fingers, extra limbs, morphing objects, warping
+architecture, camera shake, whip pans, blurry, low resolution, oversaturated,
+plastic sheen, uncanny, stock-photo smiles, car badges, grille logos, dealership signage, forecourt banners, price stickers, crowds,
+pedestrians, moving traffic, keys in hand
 
 
 ================================================================================
@@ -329,14 +442,12 @@ full length from the map. Drop the files in video/public/broll/ and drive them
 the way src/inflation/ drives its stills. Push percentages are total travel
 across the scene, eased out, never linear.
 
-NEGATIVE PROMPT — paste once, applies to all 11 stills:
+NEGATIVES ARE PER-SCENE IN THIS PACK. Every prompt below carries its own
+NEGATIVE block — the base terms plus the failure modes specific to that shot.
+There is nothing to paste once and nothing to remember between scenes; each
+prompt is self-contained. If your model has a separate negative field, split at
+the NEGATIVE line. If it doesn't, append the block to the end of the prompt.
 
-facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
-lettering, numbers, logos, brand names, licence plates, badges, watermark,
-signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
-hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
-highlights, tilted horizon, clutter, busy background, composite look, plastic
-sheen, uncanny, low resolution
 
 --------------------------------------------------------------------------------
 B01 · hold 5.20s · HAND IT BACK
@@ -356,6 +467,16 @@ warm amber highlight running the length of the fob's chrome bezel. Final,
 relinquished, slightly bare. 9:16 vertical, fob composed low, two-fifths of the
 frame empty above.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, manufacturer badge, branded key fob, metal key
+blade, key teeth, keyring bundle, multiple keys, hand still touching the fob
+
+
 --------------------------------------------------------------------------------
 B02 · hold 4.80s · NEVER YOURS   ** THUMBNAIL FRAME **
 MOVE: pull back 8% — the only pull-back in the film, opening onto the empty desk.
@@ -370,6 +491,16 @@ in the dust. Stylised low-poly matte clay hand, near-photorealistic paper fibre
 and deckled edge. Single hard overhead key slightly off-axis, deep near-black
 background, one warm amber accent. Square-on composition, wide clean margin above
 for the two stacked captions. 9:16 vertical.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, printed form, form fields, ruled lines,
+official stamp, envelope, book, document lying flat and unmoved
+
 
 --------------------------------------------------------------------------------
 B03 · hold 5.40s · THAT PART'S FINE
@@ -388,6 +519,17 @@ left, deep near-black surround, a warm amber rim tracing both wrists. Symmetrica
 balanced, settled — the composition should read as fair. 9:16 vertical, hands
 centred low, wide dark margin above.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, manufacturer badge, branded key fob, metal key
+blade, key teeth, handshake, closed fist, gripping fingers, one hand higher
+than the other
+
+
 --------------------------------------------------------------------------------
 B04 · hold 3.20s · THE PIVOT
 MOVE: push in 9% — shortest scene in the film, so the move has to be decisive.
@@ -401,6 +543,16 @@ raking key from camera-left, deep near-black surround, cool neutral grade with
 one warm amber accent along the lit edge. Extremely shallow focus: the shadow
 line sharp, the far edge of the page dissolving. Abrupt, divided. 9:16 vertical,
 page filling the lower two-thirds.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, printed text, paragraphs, form fields, soft
+shadow edge, gradient shadow, shadow crossing the whole page
+
 
 --------------------------------------------------------------------------------
 B05 · hold 5.40s · THE BALLOON
@@ -416,6 +568,17 @@ hard key from upper left, all shadows falling the same way, deep near-black
 surround, warm amber rim along the sphere. The scale difference should be
 absurd and immediate. 9:16 vertical, row in the lower two-thirds, dark above.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, uneven spacing, irregular cube sizes, scattered
+blocks, stacked cubes, rubber balloon, inflatable, sphere the same size as the
+cubes
+
+
 --------------------------------------------------------------------------------
 B06 · hold 4.60s · YOU PAY ON IT
 MOVE: push in 7% onto the sphere — the light already reached it; the move
@@ -429,6 +592,17 @@ in shadow — the light plainly covers all of it. Stylised low-poly matte clay
 cubes, near-photorealistic brass with fine patina, firm contact shadows. Deep
 near-black surround, cool neutral grade with warm amber as the only accent.
 Unbroken, uniform, inclusive. 9:16 vertical, row in the lower two-thirds.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, uneven spacing, irregular cube sizes, scattered
+blocks, unlit sphere, sphere left in shadow, spotlight circle, pool of light,
+light stopping short of the sphere
+
 
 --------------------------------------------------------------------------------
 B07 · hold 4.80s · NEVER OWN IT
@@ -444,6 +618,16 @@ surround, one warm amber accent. Extremely shallow focus: the dent's near rim
 sharp, the far surface dissolving. Absent, vacated, paid-for-and-gone. 9:16
 vertical, dent low-centre, dark space filling the upper half.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, sphere present, ball, object resting in the
+dent, hole, crater, drilled hole, dent filled, hands still in frame
+
+
 --------------------------------------------------------------------------------
 B08 · hold 4.80s · FLOW ONE   ** matched pair with B09 — same framing **
 MOVE: drift right 50px, no scale. Lateral, constant, matching the flow.
@@ -457,6 +641,17 @@ hard shadow. Single hard overhead key slightly off-axis so every shadow falls th
 same way, deep near-black surround, one warm amber accent. Regular, mechanical,
 uninterrupted. 9:16 vertical, the line running across the lower two-thirds, wide
 clean margin above for captions.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, coins, currency, banknotes, poker chips,
+stacked tokens, scattered tokens, uneven spacing, curved line, tokens of
+differing sizes
+
 
 --------------------------------------------------------------------------------
 B09 · hold 7.40s · FLOW TWO   ** matched pair with B08 — identical framing **
@@ -474,6 +669,17 @@ paperweight. Single hard overhead key slightly off-axis, deep near-black
 surround, one warm amber accent on the brass. Fixed, weighted, immovable while
 everything else passes. 9:16 vertical, document centred in the lower two-thirds.
 
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, coins, currency, poker chips, uneven spacing,
+document lifting, curling paper, document drifting, tokens overlapping the
+document, paperweight tilted
+
+
 --------------------------------------------------------------------------------
 B10 · hold 3.80s · PAGE ONE
 MOVE: push in 11% onto the empty ruled box.
@@ -487,6 +693,16 @@ camera-left throwing a long angular shadow across the paper and picking out the
 ruled box, deep near-black surround, warm amber rim along the page's near edge.
 Extremely shallow focus: the box sharp, the far edge of the page dissolving. 9:16
 vertical, page filling the lower two-thirds, dark space above.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, printed text, paragraphs, filled box,
+handwriting, signature line, ticked box, pen
+
 
 --------------------------------------------------------------------------------
 B11 · hold 8.60s · THE CLOSE   ** AMIR reference **
@@ -504,6 +720,16 @@ toward camera, warm amber backlight rimming his shoulders, cool ambient fill on
 the front. Shallow depth of field. Calm, resolved, entirely ordinary. 9:16
 vertical, figure in the lower two-thirds, generous open sky above for the
 closing captions.
+
+NEGATIVE — this scene:
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+lettering, numbers, logos, brand names, licence plates, badges, watermark,
+signature, cartoon, anime, 2D illustration, flat vector, cel shading, distorted
+hands, extra fingers, stock-photo smiles, HDR glow, oversaturation, blown
+highlights, tilted horizon, clutter, busy background, composite look, plastic
+sheen, uncanny, low resolution, car badges, grille logos,
+dealership signage, forecourt banners, price stickers, crowds, pedestrians,
+moving traffic, keys in hand
 
 
 ================================================================================
@@ -714,3 +940,5 @@ without re-cutting the film. Point people at the FCA's own page rather than
 restating the current status on screen, and never imply anyone is definitely
 owed money.
 ================================================================================
+
+
