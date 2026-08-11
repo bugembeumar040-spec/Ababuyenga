@@ -1,7 +1,7 @@
 ================================================================================
 FINANCE % DECODED — "IS YOUR CAR FINANCE HALAL?" — SHOT LIST v3
 GENERATION-READY · self-contained · cut against the rewritten VO
-9:16 · 1080x1920 · 22 beats · ~2:28 · 14 generations
+9:16 · 1080x1920 · 27 beats · ~2:50 · 14 generations
 ================================================================================
 
 HOW TO READ THIS FILE
@@ -27,10 +27,10 @@ GENERATION BUDGET — 14 stills, against v2's 11.
   Edit-only cards          3    CARD-01 CARD-02 CARD-03
   Cut                      1    A02
 
-Nine of the fourteen are prompts you already had. The film is twice as long as
-v2's and costs three extra generations, because the added length is carried by
-panel and caption states over stills that repeat — A05 twice, A06 three times,
-A03 twice, D01 twice.
+Nine of the fourteen are prompts you already had. The film is three times as
+long as v2's and costs three extra generations, because all of the added length
+is carried by panel and caption states over stills that repeat — A03 three
+times, A05 three times, A06 three times, C04 three times, D01 three times.
 
 GENERATE FIRST, IN THIS ORDER. Each locks a reference the rest depend on:
   1. A07  — ADAM reference AND the thumbnail. This was A02's job in v2.
@@ -38,7 +38,20 @@ GENERATE FIRST, IN THIS ORDER. Each locks a reference the rest depend on:
   3. A04  — KAREEM reference. C01 and C02 lock to it.
   4. A05  — the block diagram. A06 and A07 must match its row exactly.
 
-TIMINGS ARE ESTIMATES at ~137 effective wpm including pauses. Record the VO,
+RUNTIME — CORRECTED. The first cut of this file was built on an estimated word
+count and ran the beats too short. The delivered VO is 397 words. At the 157
+effective wpm measured off Part 8 that is 2:32 of pure speech, and this script
+is more pause-heavy than Part 8 — two whispered beats, an ellipsis, three
+isolated landings — so the real target is 2:45–2:55.
+
+The table below is the corrected version. Four beats had been under-allocated,
+one of them badly: the "under Ijara" block carried 38 words in a 7-second slot,
+which is not possible. Those four are now split across additional caption
+states. NO EXTRA GENERATIONS RESULT — every added beat is a new panel or caption
+state over a still that was already on the list.
+
+Block headers below are keyed by ASSET, not by beat number, so this table is the
+single authority on order and duration. Timings remain estimates: record the VO,
 derive the real IN/OUT points into video/src/carfinance/beats.ts, then generate.
 
 --------------------------------------------------------------------------------
@@ -73,37 +86,44 @@ PALETTE
 TIMELINE AT A GLANCE
 ================================================================================
 
-  #  | IN     | OUT    | LEN  | ASSET    | STATUS      | VO
- ----|--------|--------|------|----------|-------------|------------------------
-  01 | 0:00.0 | 0:05.5 | 5.5s | A01      | RETAINED    | Three years of payments
-  02 | 0:05.5 | 0:12.5 | 7.0s | C01      | NEW         | the strange part
-  03 | 0:12.5 | 0:18.5 | 6.0s | A08      | RE-TASKED   | recap: part one
-  04 | 0:18.5 | 0:25.0 | 6.5s | A03      | RETAINED    | recap: part thirteen
-  05 | 0:25.0 | 0:29.0 | 4.0s | CARD-01  | EDIT-ONLY   | P-C-P
-  06 | 0:29.0 | 0:37.5 | 8.5s | C03      | NEW         | say the car is thirty
-  07 | 0:37.5 | 0:44.5 | 7.0s | A04      | RETAINED    | nobody explains this
-  08 | 0:44.5 | 0:52.0 | 7.5s | A05      | RETAINED    | thirteen thousand aside
-  09 | 0:52.0 | 0:58.5 | 6.5s | A05·b    | RETAINED    | that's the balloon
-  10 | 0:58.5 | 1:05.5 | 7.0s | A06      | RETAINED    | Interest. Every month.
-  11 | 1:05.5 | 1:12.5 | 7.0s | A06·b    | RETAINED    | £103 a month
-  12 | 1:12.5 | 1:19.5 | 7.0s | A06·c    | RETAINED    | £3,700 · two-thirds ★
-  13 | 1:19.5 | 1:26.0 | 6.5s | A07      | RETAINED    | never intended to own
-  14 | 1:26.0 | 1:32.5 | 6.5s | C04      | NEW         | charge you for time?
-  15 | 1:32.5 | 1:39.0 | 6.5s | C04·b    | NEW         | the calendar, not the car
-  16 | 1:39.0 | 1:45.5 | 6.5s | A03·b    | RETAINED    | isn't this just a lease?
-  17 | 1:45.5 | 1:50.5 | 5.0s | C02      | NEW         | my first question too
-  18 | 1:50.5 | 1:57.5 | 7.0s | D01      | REBUILT     | under Ijara
-  19 | 1:57.5 | 2:04.0 | 6.5s | D01·b    | REBUILT     | under a PCP
-  20 | 2:04.0 | 2:09.5 | 5.5s | CARD-02  | EDIT-ONLY   | 2:275
-  21 | 2:09.5 | 2:16.5 | 7.0s | A10      | RETAINED    | page one
-  22 | 2:16.5 | 2:24.5 | 8.0s | A11      | RETAINED    | the close
-  23 | 2:24.5 | 2:28.5 | 4.0s | CARD-03  | EDIT-ONLY   | no jargon
+  #  | IN     | OUT    | LEN  | ASSET    | STATUS      | FIRST WORDS OF THE VO
+ ----|--------|--------|------|----------|-------------|-------------------------
+  01 | 0:00.0 | 0:04.5 | 4.5s | A01      | RETAINED    | Three years of payments…
+  02 | 0:04.5 | 0:13.0 | 8.5s | C01      | NEW         | And here's the strange…
+  03 | 0:13.0 | 0:20.0 | 7.0s | A08      | RE-TASKED   | Quick recap… Part one…
+  04 | 0:20.0 | 0:26.0 | 6.0s | A03      | RETAINED    | Part thirteen… Ijara.
+  05 | 0:26.0 | 0:29.5 | 3.5s | CARD-01  | EDIT-ONLY   | Today it's the deal…
+  06 | 0:29.5 | 0:39.0 | 9.5s | C03      | NEW         | Say the car is thirty…
+  07 | 0:39.0 | 0:47.5 | 8.5s | A04      | RETAINED    | But a PCP doesn't…
+  08 | 0:47.5 | 0:54.0 | 6.5s | A05      | RETAINED    | Thirteen thousand… set aside
+  09 | 0:54.0 | 0:59.0 | 5.0s | A05·b    | RETAINED    | never reduce it. Not a penny.
+  10 | 0:59.0 | 1:06.0 | 7.0s | A05·c    | RETAINED    | That's the balloon.
+  11 | 1:06.0 | 1:13.5 | 7.5s | A06      | RETAINED    | So if you're not paying…
+  12 | 1:13.5 | 1:21.5 | 8.0s | A06·b    | RETAINED    | Thirteen thousand, sitting…
+  13 | 1:21.5 | 1:28.5 | 7.0s | A06·c    | RETAINED    | Three thousand seven hundred ★
+  14 | 1:28.5 | 1:34.5 | 6.0s | A07      | RETAINED    | Charged on a piece of car…
+  15 | 1:34.5 | 1:40.5 | 6.0s | C04      | NEW         | Now run the test…
+  16 | 1:40.5 | 1:47.5 | 7.0s | C04·b    | NEW         | Every month, on thirteen…
+  17 | 1:47.5 | 1:53.0 | 5.5s | C04·c    | NEW         | It depends on the calendar.
+  18 | 1:53.0 | 1:59.0 | 6.0s | A03·b    | RETAINED    | But hold on. Isn't a PCP…
+  19 | 1:59.0 | 2:02.5 | 3.5s | C02      | NEW         | That was my first question…
+  20 | 2:02.5 | 2:11.5 | 9.0s | A03·c    | RETAINED    | And renting a car is trade…
+  21 | 2:11.5 | 2:17.5 | 6.0s | D01      | REBUILT     | Under Ijara the owner owns…
+  22 | 2:17.5 | 2:24.5 | 7.0s | D01·b    | REBUILT     | Under a PCP you carry…
+  23 | 2:24.5 | 2:28.5 | 4.0s | D01·c    | REBUILT     | Two contracts…
+  24 | 2:28.5 | 2:33.0 | 4.5s | CARD-02  | EDIT-ONLY   | Trade permitted, riba…
+  25 | 2:33.0 | 2:39.5 | 6.5s | A10      | RETAINED    | Go and find your balloon.
+  26 | 2:39.5 | 2:47.0 | 7.5s | A11      | RETAINED    | Then ask the only question…
+  27 | 2:47.0 | 2:50.5 | 3.5s | CARD-03  | EDIT-ONLY   | No jargon. Just mechanisms.
 
   ★ = the one PILL of the film, and its typographic centre.
 
-CUT ORDER IF YOU RUN LONG. Take 05 first, then 09, then 15. Never cut 12
-(the payoff number), 16–19 (the objection — that is the retention play), or 21
-(the homework CTA that farms the pinned comment).
+  Total 2:50.5 · 397 words · ~140 effective wpm. Part 8 ran 157; the slower rate
+  is deliberate and is where the whispers live.
+
+CUT ORDER IF YOU RUN LONG. Take 05 first, then 09, then 17, then 23. Never cut
+13 (the payoff number), 18–22 (the objection — that is the retention play), or
+25 (the homework CTA that farms the pinned comment).
 
 ANIMATE ONLY FOUR, if you animate at all: A06, A07, A08, D01. Feed the approved
 still as the reference image and animate from it rather than generating from
@@ -114,7 +134,7 @@ text. Keep every move slow. Add to that scene's negative:
 
 
 ================================================================================
-BEAT 01 · A01 · [RETAINED] · 0:00.0–0:05.5 · hold 5.5s
+BLOCK · A01 · [RETAINED]
 ================================================================================
 VO      "Three years of payments. Then you hand the car back."
 CAP 1   THREE YEARS OF PAYMENTS
@@ -151,7 +171,7 @@ cluttered background, busy detail
 
 
 ================================================================================
-BEAT 02 · C01 · [NEW] · 0:05.5–0:12.5 · hold 7.0s
+BLOCK · C01 · [NEW]
 ================================================================================
 VO      "And here's the strange part. You paid interest on the piece of it you
          were always going to give away."
@@ -185,7 +205,7 @@ logos, brand names, extra fingers, distorted hands, cluttered background
 
 
 ================================================================================
-BEAT 03 · A08 · [RE-TASKED] · 0:12.5–0:18.5 · hold 6.0s
+BLOCK · A08 · [RE-TASKED]
 ================================================================================
 VO      "Quick recap if you're new here. Part one — banks rent out money and
          call it interest."
@@ -224,7 +244,7 @@ background
 
 
 ================================================================================
-BEAT 04 · A03 · [RETAINED] · 0:18.5–0:25.0 · hold 6.5s      ** SAMI reference **
+BLOCK · A03 · [RETAINED]      ** SAMI reference **
 ================================================================================
 VO      "Part thirteen — we put that on a car, and found the fix. Ijara."
 CAP 1   RENTING A CAR IS TRADE
@@ -257,7 +277,7 @@ names, extra fingers, distorted hands, cluttered background, busy detail
 
 
 ================================================================================
-BEAT 05 · CARD-01 · [EDIT-ONLY] · 0:25.0–0:29.0 · hold 4.0s
+BLOCK · CARD-01 · [EDIT-ONLY]
 ================================================================================
 VO      "Today it's the deal most of Britain actually drives. P-C-P."
 BUILD   Plain #F7EFDD cream field. "P-C-P" set very large, centred, heavy bold
@@ -269,7 +289,7 @@ NOTE    No generation. Typeset it.
 
 
 ================================================================================
-BEAT 06 · C03 · [NEW] · 0:29.0–0:37.5 · hold 8.5s
+BLOCK · C03 · [NEW]
 ================================================================================
 VO      "Say the car is thirty thousand. You put down three. So twenty-seven
          thousand is financed, at around ten percent, over three years."
@@ -306,7 +326,7 @@ brand names, cluttered background, busy detail
 
 
 ================================================================================
-BEAT 07 · A04 · [RETAINED] · 0:37.5–0:44.5 · hold 7.0s    ** KAREEM reference **
+BLOCK · A04 · [RETAINED]    ** KAREEM reference **
 ================================================================================
 VO      "But a PCP doesn't finance all of it the same way. And this is the bit
          nobody explains at the desk."
@@ -338,14 +358,13 @@ distorted hands, cluttered background
 
 
 ================================================================================
-BEAT 08 · A05 · [RETAINED] · 0:44.5–0:52.0 · hold 7.5s
+BLOCK · A05 · [RETAINED]
 ================================================================================
 VO      "Thirteen thousand pounds of that car gets set aside. Parked at the end
-         of the contract, untouched. Your monthly payments never reduce it. Not
-         by a penny."
+         of the contract, untouched."
 CAP 1   £13,000 IS SET ASIDE
-CAP 2   your payments never touch it
-PANEL   NEVER REDUCED
+CAP 2   parked at the end of the contract
+PANEL   OF A £27,000 BALANCE
 MOVE    drift right 40px, no scale — travelling the row to the big block.
 NOTE    v2 drew the big block at eight units. Draw it to the real proportion
         instead: the terracotta block should read as roughly half the total mass
@@ -374,20 +393,32 @@ lettering, numbers, watermark, signature, logos, cluttered background
 
 
 ================================================================================
-BEAT 09 · A05·b · [RETAINED] · 0:52.0–0:58.5 · hold 6.5s
+BLOCK · A05·b · [RETAINED]
+================================================================================
+VO      "Your monthly payments never reduce it. Not by a penny."
+CAP 1   YOUR PAYMENTS NEVER TOUCH IT
+CAP 2   not by a penny
+PANEL   NEVER REDUCED
+ASSET   Same generation as A05. Do not regenerate.
+MOVE    hold dead still on the terracotta block. Nothing moves, because nothing
+        moves. The stillness is the line.
+
+
+================================================================================
+BLOCK · A05·c · [RETAINED]
 ================================================================================
 VO      "That's the balloon. The optional final payment. The one you were always
          going to walk away from."
 CAP 1   THAT'S THE BALLOON
 CAP 2   the one you walk away from
 PANEL   OPTIONAL FINAL PAYMENT
-ASSET   Same generation as beat 08. Do not regenerate.
+ASSET   Same generation as A05. Do not regenerate.
 MOVE    hard cut back out to full frame, then push in 6% on the terracotta
         block alone. The cut resets the eye; the move names the object.
 
 
 ================================================================================
-BEAT 10 · A06 · [RETAINED] · 0:58.5–1:05.5 · hold 7.0s
+BLOCK · A06 · [RETAINED]
 ================================================================================
 VO      "So if you're not paying it down... what are you paying on it?"
          "Interest. Every single month."
@@ -421,19 +452,19 @@ numbers, watermark, signature, logos, cluttered background
 
 
 ================================================================================
-BEAT 11 · A06·b · [RETAINED] · 1:05.5–1:12.5 · hold 7.0s
+BLOCK · A06·b · [RETAINED]
 ================================================================================
 VO      "Thirteen thousand pounds, sitting there, charged at ten percent, for
          thirty-six months. About a hundred and three pounds a month."
 CAP 1   £103 A MONTH
 CAP 2   on a part that will never be yours
 PANEL   £13,000 × ~10% × 36 MONTHS
-ASSET   Same generation as beat 10. Do not regenerate.
+ASSET   Same generation as A06. Do not regenerate.
 MOVE    hold still on the large block, no move. The number moves, not the frame.
 
 
 ================================================================================
-BEAT 12 · A06·c · [RETAINED] · 1:12.5–1:19.5 · hold 7.0s     ★ THE PILL BEAT ★
+BLOCK · A06·c · [RETAINED]     ★ THE PILL BEAT ★
 ================================================================================
 VO      "Three thousand seven hundred pounds by the end."
          "Nearly two-thirds of all the interest on that contract."
@@ -441,7 +472,7 @@ CAP 1   £3,700
 CAP 2   nearly two-thirds of all the interest
 PANEL   set £103 small and £3,700 large, in collision
 PILL    ↗ ON THE PART YOU GIVE BACK      — the only pill in the film
-ASSET   Same generation as beat 10. Do not regenerate.
+ASSET   Same generation as A06. Do not regenerate.
 MOVE    pull back 5% to full row. The whole diagram is the evidence.
 NOTE    This is the typographic centre of the film and the beat the video exists
         for. Same device as "£1,461 a month. Only £420 buys your house." Give it
@@ -449,7 +480,7 @@ NOTE    This is the typographic centre of the film and the beat the video exists
 
 
 ================================================================================
-BEAT 13 · A07 · [RETAINED] · 1:19.5–1:26.0 · hold 6.5s
+BLOCK · A07 · [RETAINED]
                     ** GENERATE FIRST · ADAM reference · THUMBNAIL **
 ================================================================================
 VO      "Charged on a piece of car you never intended to own, and never did."
@@ -488,7 +519,7 @@ fingers, distorted hands, cluttered background
 
 
 ================================================================================
-BEAT 14 · C04 · [NEW] · 1:26.0–1:32.5 · hold 6.5s          ★ REUSABLE ASSET ★
+BLOCK · C04 · [NEW]          ★ REUSABLE ASSET ★
 ================================================================================
 VO      "Now run the test from part one. Does the contract charge you for time?"
 CAP 1   DOES IT CHARGE YOU FOR TIME?
@@ -526,28 +557,38 @@ background
 
 
 ================================================================================
-BEAT 15 · C04·b · [NEW] · 1:32.5–1:39.0 · hold 6.5s
+BLOCK · C04·b · [NEW]
 ================================================================================
 VO      "Every month, on thirteen thousand pounds of car that will never be
-         yours — yes. It does. And that charge doesn't depend on the car. It
-         depends on the calendar."
+         yours — yes. It does."
+CAP 1   YES. IT DOES.
+CAP 2   every month, on £13,000 that will never be yours
+PANEL   (none)
+ASSET   Same generation as C04. Do not regenerate.
+MOVE    hold on the clock, no move.
+
+
+================================================================================
+BLOCK · C04·c · [NEW]
+================================================================================
+VO      "And that charge doesn't depend on the car. It depends on the calendar."
 CAP 1   THE CALENDAR. NOT THE CAR.
 CAP 2   that's the whole difference
 PANEL   (none)
-ASSET   Same generation as beat 14. Do not regenerate.
+ASSET   Same generation as C04. Do not regenerate.
 MOVE    push past the clock and let the car drift out of the bottom of frame.
         The car leaving while the clock stays is the line, delivered without a
         word.
 
 
 ================================================================================
-BEAT 16 · A03·b · [RETAINED] · 1:39.0–1:45.5 · hold 6.5s
+BLOCK · A03·b · [RETAINED]
 ================================================================================
 VO      "But hold on. Isn't a PCP just a lease? And leasing is fine, isn't it?"
 CAP 1   BUT ISN'T THIS JUST A LEASE?
 CAP 2   fair question
 PANEL   (none)
-ASSET   Same generation as beat 04. Do not regenerate.
+ASSET   Same generation as A03. Do not regenerate.
 MOVE    push in 5% on Sami. Warmer, closer than beat 04's level hold.
 OPTION  If you want the objection to breathe over two cuts rather than one long
         hold, generate one alternate Sami angle — same prompt as A03, change
@@ -556,7 +597,7 @@ OPTION  If you want the objection to breathe over two cuts rather than one long
 
 
 ================================================================================
-BEAT 17 · C02 · [NEW] · 1:45.5–1:50.5 · hold 5.0s
+BLOCK · C02 · [NEW]
 ================================================================================
 VO      "That was my first question too."
 CAP 1   THAT WAS MY FIRST QUESTION
@@ -590,11 +631,29 @@ logos, brand names, extra fingers, distorted hands, cluttered background
 
 
 ================================================================================
-BEAT 18 · D01 · [REBUILT] · 1:50.5–1:57.5 · hold 7.0s
+BLOCK · A03·c · [RETAINED]
 ================================================================================
 VO      "And renting a car is trade — that's Ijara, that's part thirteen. But a
-         lease doesn't charge you for a share you're handing back. Under Ijara
-         the owner owns the car, carries it, and rents you a thing."
+         lease doesn't charge you for a share you're handing back."
+CAP 1   state 1  RENTING A CAR IS TRADE
+        state 2  BUT A LEASE DOESN'T CHARGE YOU
+CAP 2   state 1  that's ijara. that's part thirteen.
+        state 2  for a share you're handing back
+PANEL   (none)
+ASSET   Same generation as A03. Do not regenerate.
+MOVE    slow pull back 6% from Sami to include the car beside him — the frame
+        widens to show the thing being rented, which is the whole distinction
+        the next two blocks draw.
+NOTE    Nine seconds is the longest single hold in the film and it is on a still
+        you have already generated. If it feels static in the edit, this is the
+        one place to spend the optional alternate Sami angle described in the
+        A03·b block.
+
+
+================================================================================
+BLOCK · D01 · [REBUILT]
+================================================================================
+VO      "Under Ijara the owner owns the car, carries it, and rents you a thing."
 CAP 1   UNDER IJARA
 CAP 2   the owner owns it. and carries it.
 PANEL   IJARA
@@ -647,22 +706,32 @@ signature, logos, extra fingers, distorted hands, cluttered background
 
 
 ================================================================================
-BEAT 19 · D01·b · [REBUILT] · 1:57.5–2:04.0 · hold 6.5s
+BLOCK · D01·b · [REBUILT]
 ================================================================================
 VO      "Under a PCP you carry the cost of owning it, and you hold the rights of
-         renting it. Two contracts wearing each other's clothes."
-CAP 1   state 1  UNDER A PCP
-        state 2  TWO CONTRACTS
-CAP 2   state 1  the cost of owning it. the rights of renting it.
-        state 2  wearing each other's clothes
-PANEL   IJARA  /  PCP
-ASSET   Same generation as beat 18. Do not regenerate.
-MOVE    push in 6% on the RIGHT half, then pull back to full frame on "two
-        contracts" so both halves are on screen for the line that names them.
+         renting it."
+CAP 1   UNDER A PCP
+CAP 2   the cost of owning it. the rights of renting it.
+PANEL   PCP
+ASSET   Same generation as D01. Do not regenerate.
+MOVE    push in 6% on the RIGHT half.
 
 
 ================================================================================
-BEAT 20 · CARD-02 · [EDIT-ONLY] · 2:04.0–2:09.5 · hold 5.5s
+BLOCK · D01·c · [REBUILT]
+================================================================================
+VO      "Two contracts wearing each other's clothes."
+CAP 1   TWO CONTRACTS
+CAP 2   wearing each other's clothes
+PANEL   IJARA  /  PCP
+ASSET   Same generation as D01. Do not regenerate.
+MOVE    pull back to full frame so both halves are on screen for the line that
+        names them. This is the only moment the whole diagram is visible at
+        once, and it should land on the last three words.
+
+
+================================================================================
+BLOCK · CARD-02 · [EDIT-ONLY]
 ================================================================================
 VO      "Trade permitted, riba forbidden. Surah Al-Baqarah, two two seven five."
 BUILD   Plain #F7EFDD cream field. "TRADE PERMITTED" and beneath it "RIBA
@@ -673,7 +742,7 @@ NOTE    No generation. Typeset it.
 
 
 ================================================================================
-BEAT 21 · A10 · [RETAINED] · 2:09.5–2:16.5 · hold 7.0s
+BLOCK · A10 · [RETAINED]
 ================================================================================
 VO      "Go and find your balloon. It's on page one of your agreement —
          optional final payment."
@@ -705,7 +774,7 @@ signature, logos, extra fingers, distorted hands, cluttered background
 
 
 ================================================================================
-BEAT 22 · A11 · [RETAINED] · 2:16.5–2:24.5 · hold 8.0s
+BLOCK · A11 · [RETAINED]
 ================================================================================
 VO      "Then ask the only question that matters. What am I actually renting?
          And what am I paying for time?"
@@ -748,7 +817,7 @@ background
 
 
 ================================================================================
-BEAT 23 · CARD-03 · [EDIT-ONLY] · 2:24.5–2:28.5 · hold 4.0s
+BLOCK · CARD-03 · [EDIT-ONLY]
 ================================================================================
 VO      "No jargon. Just mechanisms."
 BUILD   Plain #F7EFDD cream field. "No jargon. Just mechanisms." centred,
@@ -776,7 +845,7 @@ CUT FROM v2 — DO NOT GENERATE
   disputed ownership and nothing else, and ownership is no longer the claim.
 
   A02 was also the designated thumbnail and the ADAM reference frame. A07 now
-  does both jobs — see beat 13.
+  does both jobs — see the A07 block.
 
 
 ================================================================================
@@ -795,7 +864,7 @@ PANEL   #FBF7EF rounded rectangle, thin #3D2B23 border, small letter-spaced
         scene has one.
 
 PILL    Terracotta #B0503A rounded pill, cream text, small arrow glyph. ONCE in
-        the whole film, at beat 12.
+        the whole film, on the A06·c state.
 
 Captions cut faster than images. Part 8 runs 1–4 words at a time synced to the
 spoken syllable, with the type clearing completely at major transitions. Several
