@@ -1,0 +1,157 @@
+================================================================================
+FINANCE % DECODED — "WEALTH ASLEEP IS CHARGED" — VOICEOVER SCRIPT
+Zakat vs Interest: The Two Engines
+Extracted from zakatpromptpack.txt
+19 Scenes · 88.00s total
+Measured delivery: 163wpm (from Pension VO)
+================================================================================
+
+[SCENE 01] 0:00.0 — 0:04.0 | 4.00s | THE STAKE
+Two and a half percent of your savings was never yours.
+
+---
+
+[SCENE 02] 0:04.0 — 0:12.0 | 8.00s | THE TWO ENGINES
+Your bank pays you to keep money still.
+Islam charges you for it.
+Same pile. Opposite engines.
+
+---
+
+[SCENE 03] 0:12.0 — 0:15.6 | 3.60s | THE CHARGE
+Every year. On what's been sitting twelve months.
+
+---
+
+[SCENE 04] 0:15.6 — 0:20.1 | 4.50s | NOT YOUR WAGE
+Not on what you earn. On what you keep still.
+
+---
+
+[SCENE 05] 0:20.1 — 0:23.6 | 3.50s | INTEREST
+Interest rewards you for not using money.
+
+---
+
+[SCENE 06] 0:23.6 — 0:27.1 | 3.50s | ZAKAT
+Zakat charges you for not using it.
+
+---
+
+[SCENE 07] 0:27.1 — 0:31.3 | 4.20s | DIRECTION
+One pulls wealth upward. The other pushes it out.
+
+---
+
+[SCENE 08] 0:31.3 — 0:34.5 | 3.20s | IT SHRINKS
+So money that sits still shrinks.
+
+---
+
+[SCENE 09] 0:34.5 — 0:40.5 | 6.00s | PUT IT TO WORK
+Put it to work — a trade, something real —
+and the return outruns the charge.
+
+---
+
+[SCENE 10] 0:40.5 — 0:45.7 | 5.20s | THE REFRAME
+It never asks you to give wealth away.
+It makes stillness expensive.
+
+---
+
+[SCENE 11] 0:45.7 — 0:50.5 | 4.80s | THE UNDERPAY
+And most people underpay.
+Because they only count the bank balance.
+
+---
+
+[SCENE 12] 0:50.5 — 0:54.8 | 4.30s | WHAT COUNTS
+Money owed to you counts. Investments count.
+Gold sitting in a drawer counts.
+
+---
+
+[SCENE 13] 0:54.8 — 0:59.0 | 4.20s | WHAT DOESN'T
+Your home doesn't. Your car doesn't. Your tools don't.
+
+---
+
+[SCENE 14] 0:59.0 — 1:03.2 | 4.20s | THE LINE
+Wealth in use is exempt. Wealth asleep is charged.
+
+---
+
+[SCENE 15A] 1:03.2 — 1:08.2 | 5.00s | STEP ONE
+Two minutes. Three steps.
+One — add what's sat still for a lunar year.
+
+---
+
+[SCENE 15B] 1:08.2 — 1:11.2 | 3.00s | STEP TWO
+Two — subtract what you owe now.
+
+---
+
+[SCENE 15C] 1:11.2 — 1:17.2 | 6.00s | STEP THREE
+Three — if what's left clears the nisab,
+two and a half percent of it was never yours.
+
+---
+
+[SCENE 16A] 1:17.2 — 1:22.0 | 4.80s | THE INVERSION
+Every other system charges your work.
+This one charges your stillness.
+
+---
+
+[SCENE 16B] 1:22.0 — 1:28.0 | 6.00s | THE CLOSE
+That's not a tax. It isn't charity either.
+It's a circulation rule —
+the only engine in finance pointed the other way.
+
+---
+
+================================================================================
+DELIVERY NOTES
+================================================================================
+
+Delivery: calm, level, unhurried. Never sell it. The Pension VO works because it
+states mechanisms as plain fact and lets the viewer supply the outrage. Full
+stops where you want a beat — this script is written in fragments on purpose.
+
+PACING NOTE 1 — THE COLLISION [SCENES 05 + 06]
+Give each a full beat of silence either side and cut hard between them. Do not
+let [06] ride in on the tail of [05] — the whole inversion depends on the viewer
+registering that the two sentences are identical except for one word.
+
+PACING NOTE 2 — THE OPEN [SCENE 01]
+Bare claim with no evidence behind it and it is meant to feel like that. Do not
+soften it, do not add "did you know", do not let the read rise at the end. Flat,
+level, certain. Then a hard beat of silence before [02] starts. The viewer
+should have about half a second to think "no it wasn't" — that objection is what
+buys you the next twenty seconds.
+
+PACING NOTE 3 — THE PAYOFF [SCENE 15C]
+Closes the loop [01] opened, using nearly the same words on purpose. Land it the
+same way you landed [01]: flat and certain. If you change one of those two lines
+in the edit, change both.
+
+================================================================================
+METRICS
+================================================================================
+
+Word Count: 217
+Delivery Speed: 163 wpm (measured from Pension VO)
+Speech Duration: 79.9 seconds
+Beat/Silence Duration: 8.1 seconds
+Total Duration: 88.0 seconds
+Ceiling: 90 seconds
+Headroom: 2.0 seconds
+
+CHECK THIS BEFORE YOU GENERATE ANYTHING. 163wpm is measured from your Pension
+read, not assumed. If your read lands at 150wpm this script runs 86.8s of speech
+and breaches the ceiling on beats alone. Record first, time it, and if it is
+long, cut scene 07 whole — see the sacrificial-scene note in the scene map.
+
+================================================================================

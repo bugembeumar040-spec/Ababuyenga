@@ -1,0 +1,582 @@
+{
+  "project": "Finance % Decoded - Wealth Asleep Is Charged (Zakat)",
+  "subtitle": "Interest vs Zakat: The Two Engines",
+  "format": "9:16 (1080x1920)",
+  "totalDuration": "88.00s",
+  "sceneCount": 19,
+  "description": "Educational short explaining zakat mechanism and how it differs from interest — the only financial engine that charges stillness instead of rewarding it",
+  "metadata": {
+    "voScriptPath": "../voiceover/script.txt",
+    "promptPackPath": "../zakatpromptpack.txt",
+    "createdAt": "2026-08-12",
+    "version": "1.0.0",
+    "voiceoverFile": "ElevenLabs_20260812T17_35_47__s50_v3.mp3",
+    "deliverySpeed": "163wpm",
+    "measurementBasis": "Pension VO (confirmed recording speed)"
+  },
+  "stylePivot": {
+    "note": "FLAT 2D VECTOR CARTOON with FULL FACES (not low-poly 3D with blank heads)",
+    "keyRule": "HUMANS HAVE FACES. INSTITUTIONS DO NOT.",
+    "palette": {
+      "background_cream": "#F7EEDD",
+      "outline_dark_brown": "#3D2B24",
+      "kareem_olive": "#7E8A5E",
+      "kareem_grey": "#6E6E6E",
+      "adam_rust": "#B5543C",
+      "adam_ochre": "#C08B3E",
+      "sami_teal": "#2F6E78",
+      "sami_slate": "#5A6169",
+      "bilal_sand": "#D6C08A",
+      "bilal_brown": "#4A382C",
+      "institution_grey": "#8A8A8A",
+      "accent_terracotta": "#B5543C"
+    }
+  },
+  "characters": {
+    "kareem": {
+      "role": "Host/Narrator",
+      "appearance": "Adult man, warm light-tan skin, black hair swept back with slight quiff, full black beard with grey flecks, thick dark-brown outline",
+      "clothing": "Olive-green henley shirt (3-button placket, sleeves rolled to mid-forearm), mid-grey trousers, dark brown shoes",
+      "scenes": [1, 2, 7, 14, 16, 17],
+      "expressionGuide": {
+        "scenes_01_07_14": "SERIOUS",
+        "scenes_02": "QUESTIONING",
+        "scene_16b": "WARM"
+      }
+    },
+    "adam": {
+      "role": "The Everyman (viewer proxy)",
+      "appearance": "Adult man, fair skin, short dark-brown hair, clean-shaven, soft rounded jaw, thick dark-brown outline",
+      "clothing": "Rust/terracotta short-sleeved t-shirt, ochre-tan trousers, dark brown shoes",
+      "scenes": [4, 10, 11, 15, 16, 17, 18],
+      "continuity": "Same character from credit card video — recurring protagonist"
+    },
+    "sami": {
+      "role": "The One the Money Reaches",
+      "appearance": "Adult man, medium-brown skin, short black hair, dark stubble, thick dark-brown outline",
+      "clothing": "Teal/deep petrol-blue short-sleeved t-shirt, slate-grey trousers, dark brown shoes",
+      "scenes": [6, 16, 17]
+    },
+    "bilal": {
+      "role": "The One Who Puts It to Work",
+      "appearance": "Adult man, warm brown skin, dark brown hair, full dark beard, fuller build, thick dark-brown outline",
+      "clothing": "Sand/tan button-up shirt (sleeves rolled to mid-forearm), dark brown trousers, dark brown shoes",
+      "scenes": [9, 16, 17]
+    },
+    "institution": {
+      "role": "Faceless System/Bank",
+      "appearance": "Flat mid-grey featureless figure, blank ovoid head, no eyes/nose/mouth ever",
+      "variations": [
+        "THE COUNTER — barred teller window, dark brown bars, grey figure behind",
+        "THE CLERK — full-length grey figure, arms at sides, soft grey ellipse shadow",
+        "THE PAPER — blank card and folded document (never printed, numbers burned in at edit)"
+      ],
+      "scenes": [3, 5, 8, 12, 13, 16, 17]
+    }
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "sceneNumber": "01",
+      "name": "The Stake",
+      "timeIn": "0:00.0",
+      "timeOut": "0:04.0",
+      "duration": "4.00s",
+      "voLine": "Two and a half percent of your savings was never yours.",
+      "burnIn": "2.5%",
+      "burnInSpec": "huge, centred, terracotta, alone — set it the instant the line lands and hold for whole scene",
+      "characterRoles": ["Kareem (SERIOUS, close-up, front, chest-up)"],
+      "images": [
+        {
+          "id": "img-zakat-01",
+          "filename": "scene-01-the-stake.png",
+          "description": "Kareem addresses camera directly with serious expression, close framing, fills more of frame than any other shot",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "framing": "Tighter than other images, generous headroom for 2.5% caption",
+        "cameraMove": "Push in 4% (very slight, frame already tight)"
+      }
+    },
+    {
+      "sceneId": 2,
+      "sceneNumber": "02",
+      "name": "The Two Engines",
+      "timeIn": "0:04.0",
+      "timeOut": "0:12.0",
+      "duration": "8.00s",
+      "voLine": "Your bank pays you to keep money still. Islam charges you for it. Same pile. Opposite engines.",
+      "burnIn": null,
+      "burnInSpec": "none — let the two engines land visually, no type competing",
+      "characterRoles": ["Kareem (QUESTIONING, front, normal distance, hands in scales gesture)"],
+      "images": [
+        {
+          "id": "img-zakat-02",
+          "filename": "scene-02-two-engines.png",
+          "description": "Kareem at normal distance (wider than scene 01), left hand palm-up at chest, right hand palm-down at same height, scales gesture, questioning expression",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "hold": "8.00s (longest hold in set)",
+        "cameraMove": "Push in 5%, slow across full eight seconds",
+        "note": "If static, can split and cut to B05 early on 'Same pile' but NOT before 'Islam charges you for it' lands"
+      }
+    },
+    {
+      "sceneId": 3,
+      "sceneNumber": "03",
+      "name": "The Charge",
+      "timeIn": "0:12.0",
+      "timeOut": "0:15.6",
+      "duration": "3.60s",
+      "voLine": "Every year. On what's been sitting twelve months.",
+      "burnIn": "EVERY YEAR · 12 MONTHS",
+      "characterRoles": ["Abstract/Objects (no characters)"],
+      "images": [
+        {
+          "id": "img-zakat-03",
+          "filename": "scene-03-the-charge.png",
+          "description": "Single tall neat stack of blank cream rounded cards, one card lifted above stack, separated clearly, soft grey shadow beneath",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Stack low-centre, wide empty cream space above",
+        "cameraMove": "Push in 8% on top of stack"
+      }
+    },
+    {
+      "sceneId": 4,
+      "sceneNumber": "04",
+      "name": "Not Your Wage",
+      "timeIn": "0:15.6",
+      "timeOut": "0:20.1",
+      "duration": "4.50s",
+      "voLine": "Not on what you earn. On what you keep still.",
+      "burnIn": "NOT INCOME. WEALTH.",
+      "characterRoles": ["Adam (WORRIED, three-quarter, holding blank document, looking down)"],
+      "images": [
+        {
+          "id": "img-zakat-04",
+          "filename": "scene-04-not-wage.png",
+          "description": "Adam in three-quarter view worried expression, holding blank folded document at chest, second identical document on surface beside him untouched",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Figure in lower two-thirds, clean headroom",
+        "cameraMove": "Drift right 30px (from held document to one on surface)"
+      }
+    },
+    {
+      "sceneId": 5,
+      "sceneNumber": "05",
+      "name": "Interest",
+      "timeIn": "0:20.1",
+      "timeOut": "0:23.6",
+      "duration": "3.50s",
+      "voLine": "Interest rewards you for not using money.",
+      "burnIn": "↑ INTEREST",
+      "burnInSpec": "set arrow rising, small type",
+      "characterRoles": ["Institution/Abstract (THE CLERK, faceless grey figure)"],
+      "images": [
+        {
+          "id": "img-zakat-05",
+          "filename": "scene-05-interest.png",
+          "description": "Faceless grey figure (CLERK) on right, arms at sides, single blank cream card in mid-air left traveling toward figure, soft grey shadow",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Figure right of centre, card left, wide empty space above",
+        "cameraMove": "none — hold dead still",
+        "criticalNote": "Card travels TOWARD grey featureless figure (money disappears into faceless institution)"
+      }
+    },
+    {
+      "sceneId": 6,
+      "sceneNumber": "06",
+      "name": "Zakat",
+      "timeIn": "0:23.6",
+      "timeOut": "0:27.1",
+      "duration": "3.50s",
+      "voLine": "Zakat charges you for not using it.",
+      "burnIn": "↓ ZAKAT 2.5%",
+      "burnInSpec": "set arrow falling, large type",
+      "characterRoles": ["Sami (warm open expression, hand extended palm-up)"],
+      "images": [
+        {
+          "id": "img-zakat-06",
+          "filename": "scene-06-zakat.png",
+          "description": "Sami in three-quarter view warm expression, hand extended forward waist height palm-up, single blank card travels toward open palm from left, soft grey shadow",
+          "role": "primary",
+          "thumbnailCandidate": true
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Match scene 05 composition exactly — ONLY difference is this figure HAS A FACE",
+        "cameraMove": "none — hold dead still",
+        "criticalNote": "THE COLLISION BEAT: Hard cut between 05 and 06. Do NOT let 06 ride on tail of 05. Whole inversion depends on viewer registering sentences are identical except one word."
+      }
+    },
+    {
+      "sceneId": 7,
+      "sceneNumber": "07",
+      "name": "Direction",
+      "timeIn": "0:27.1",
+      "timeOut": "0:31.3",
+      "duration": "4.20s",
+      "voLine": "One pulls wealth upward. The other pushes it out.",
+      "burnIn": "UP / OUT",
+      "characterRoles": ["Kareem (QUESTIONING, hand gestures)"],
+      "images": [
+        {
+          "id": "img-zakat-07",
+          "filename": "scene-07-direction.png",
+          "description": "Kareem centre frame, front view, questioning expression, right hand raised angled upward to right, left hand extended outward at waist left, two opposing gestures",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Centred, figure in lower two-thirds",
+        "cameraMove": "Push in 5%",
+        "sacrificial": "Scene 07 is DESIGNATED SACRIFICIAL SCENE — if VO runs long, cut this entire scene whole. Buys 4.20s and costs nothing; argument fully carried by scenes 05/06"
+      }
+    },
+    {
+      "sceneId": 8,
+      "sceneNumber": "08",
+      "name": "It Shrinks",
+      "timeIn": "0:31.3",
+      "timeOut": "0:34.5",
+      "duration": "3.20s",
+      "voLine": "So money that sits still shrinks.",
+      "burnIn": "−2.5% EVERY YEAR",
+      "characterRoles": ["Abstract/Objects (no characters)"],
+      "images": [
+        {
+          "id": "img-zakat-08",
+          "filename": "scene-08-it-shrinks.png",
+          "description": "Short stack of blank cream rounded cards, noticeably shorter than full stack, sits alone centred on simple surface, no hand/character/external force",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Stack low-centre, large empty cream field above",
+        "cameraMove": "none — hold dead still (point is that nothing acts on it)"
+      }
+    },
+    {
+      "sceneId": 9,
+      "sceneNumber": "09",
+      "name": "Put It to Work",
+      "timeIn": "0:34.5",
+      "timeOut": "0:40.5",
+      "duration": "6.00s",
+      "voLine": "Put it to work — a trade, something real — and the return outruns the charge.",
+      "burnIn": null,
+      "characterRoles": ["Bilal (working expression, hands on crate mid-lift)"],
+      "images": [
+        {
+          "id": "img-zakat-09",
+          "filename": "scene-09-put-to-work.png",
+          "description": "Bilal behind market stall counter, three-quarter view, sleeves rolled, engaged expression, both hands on blank crate mid-lift, two more crates on counter",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "duration": "6.00s (one of five scenes over 5s)",
+        "composition": "Figure in lower two-thirds, awning shape leaving clean caption space above",
+        "cameraMove": "Push in 7% on Bilal's hands"
+      }
+    },
+    {
+      "sceneId": 10,
+      "sceneNumber": "10",
+      "name": "The Reframe",
+      "timeIn": "0:40.5",
+      "timeOut": "0:45.7",
+      "duration": "5.20s",
+      "voLine": "It never asks you to give wealth away. It makes stillness expensive.",
+      "burnIn": "STILLNESS IS EXPENSIVE",
+      "characterRoles": ["Adam (RESOLVED, front, hands open at sides)"],
+      "images": [
+        {
+          "id": "img-zakat-10",
+          "filename": "scene-10-reframe.png",
+          "description": "Adam front view, resolved expression (level brows, firm mouth, chin slightly lifted), hands open empty at sides, single blank card on surface beside him",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "duration": "5.20s (one of five scenes over 5s)",
+        "composition": "Centred, generous headroom",
+        "cameraMove": "Push in 6%"
+      }
+    },
+    {
+      "sceneId": 11,
+      "sceneNumber": "11",
+      "name": "The Underpay",
+      "timeIn": "0:45.7",
+      "timeOut": "0:50.5",
+      "duration": "4.80s",
+      "voLine": "And most people underpay. Because they only count the bank balance.",
+      "burnIn": "\"just the bank balance\"",
+      "burnInSpec": "lowercase, in quotes — it's a shrug",
+      "characterRoles": ["Adam (NEUTRAL, three-quarter, holding phone, three objects behind)"],
+      "images": [
+        {
+          "id": "img-zakat-11",
+          "filename": "scene-11-underpay.png",
+          "description": "Adam three-quarter view holding blank phone-shaped panel at chest, neutral expression, three small objects on surfaces behind (box, document, card) outside eyeline",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Framed wide so three background objects fully inside frame",
+        "cameraMove": "Pull back 8%, revealing three ignored objects"
+      }
+    },
+    {
+      "sceneId": 12,
+      "sceneNumber": "12",
+      "name": "What Counts",
+      "timeIn": "0:50.5",
+      "timeOut": "0:54.8",
+      "duration": "4.30s",
+      "voLine": "Money owed to you counts. Investments count. Gold sitting in a drawer counts.",
+      "burnIn": "COUNTS: CASH · GOLD · OWED TO YOU · INVESTMENTS",
+      "characterRoles": ["Abstract/Objects (four items in row)"],
+      "images": [
+        {
+          "id": "img-zakat-12",
+          "filename": "scene-12-what-counts.png",
+          "description": "Four simple rounded blank objects in evenly spaced row on surface: stack of cards, closed box, folded document, flat coin disc, all unprinted",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Row centred low, wide clean cream space above for caption list",
+        "cameraMove": "Drift left to right 40px across row"
+      }
+    },
+    {
+      "sceneId": 13,
+      "sceneNumber": "13",
+      "name": "What Doesn't",
+      "timeIn": "0:54.8",
+      "timeOut": "0:59.0",
+      "duration": "4.20s",
+      "voLine": "Your home doesn't. Your car doesn't. Your tools don't.",
+      "burnIn": "EXEMPT: HOME · CAR · TOOLS",
+      "characterRoles": ["Abstract/Objects (three items in row)"],
+      "images": [
+        {
+          "id": "img-zakat-13",
+          "filename": "scene-13-what-doesnt.png",
+          "description": "Three simple rounded shapes in evenly spaced row: house silhouette, car silhouette, cluster of hand tools, muted desaturated tones, all still and unmoving",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Row centred low, matching scene 12 scale and baseline",
+        "cameraMove": "none — hold dead still (deliberately inert against 12's drift)"
+      }
+    },
+    {
+      "sceneId": 14,
+      "sceneNumber": "14",
+      "name": "The Line",
+      "timeIn": "0:59.0",
+      "timeOut": "1:03.2",
+      "duration": "4.20s",
+      "voLine": "Wealth in use is exempt. Wealth asleep is charged.",
+      "burnIn": "IN USE = EXEMPT     ASLEEP = CHARGED",
+      "characterRoles": ["Kareem (SERIOUS, hands separating two groups)"],
+      "images": [
+        {
+          "id": "img-zakat-14",
+          "filename": "scene-14-the-line.png",
+          "description": "Kareem centre frame, front view, serious expression, both hands held out at chest height palms facing outward and well apart, as though separating two groups",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Centred and symmetrical, generous headroom",
+        "cameraMove": "Push in 5%"
+      }
+    },
+    {
+      "sceneId": 15,
+      "sceneNumber": "15A",
+      "name": "Step One",
+      "timeIn": "1:03.2",
+      "timeOut": "1:08.2",
+      "duration": "5.00s",
+      "voLine": "Two minutes. Three steps. One — add what's sat still for a lunar year.",
+      "burnIn": "STEP 1 — ADD",
+      "burnInSpec": "held still 1 lunar year",
+      "characterRoles": ["Adam (NEUTRAL, at table, placing objects)"],
+      "images": [
+        {
+          "id": "img-zakat-15a",
+          "filename": "scene-15a-step-one.png",
+          "description": "Adam at simple flat table, neutral expression, right hand placing blank objects one at time (card, box, document) building tidy group in front",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "duration": "exactly 5.00s",
+        "composition": "Framed slightly wide leaving room for caption stack, table in lower half",
+        "cameraMove": "Push in 5% onto group of objects"
+      }
+    },
+    {
+      "sceneId": 16,
+      "sceneNumber": "15B",
+      "name": "Step Two",
+      "timeIn": "1:08.2",
+      "timeOut": "1:11.2",
+      "duration": "3.00s",
+      "voLine": "Two — subtract what you owe now.",
+      "burnIn": "STEP 2 — SUBTRACT",
+      "burnInSpec": "debts due now",
+      "characterRoles": ["Adam (at same table, sliding objects away)"],
+      "images": [
+        {
+          "id": "img-zakat-15b",
+          "filename": "scene-15b-step-two.png",
+          "description": "Same table and angle as 15A, Adam hand extended right sliding two objects away, smaller group remains in front, hand withdraws",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Match 15A table position, angle, scale exactly for continuity",
+        "cameraMove": "Drift right 25px following removed objects out"
+      }
+    },
+    {
+      "sceneId": 17,
+      "sceneNumber": "15C",
+      "name": "Step Three",
+      "timeIn": "1:11.2",
+      "timeOut": "1:17.2",
+      "duration": "6.00s",
+      "voLine": "Three — if what's left clears the nisab, two and a half percent of it was never yours.",
+      "burnIn": "STEP 3 — NISAB ≈ 85g GOLD → × 2.5%",
+      "characterRoles": ["Adam (RESOLVED, watching scale)"],
+      "images": [
+        {
+          "id": "img-zakat-15c",
+          "filename": "scene-15c-step-three.png",
+          "description": "Same table and angle, small group of objects centred, balance scale behind dipped left, single card on lowered pan, Adam in three-quarter resolved watching",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "duration": "6.00s (one of five scenes over 5s)",
+        "composition": "Scale in upper-middle of lower two-thirds, clean caption space above",
+        "cameraMove": "Push in 9% onto balance scale"
+      }
+    },
+    {
+      "sceneId": 18,
+      "sceneNumber": "16A",
+      "name": "The Inversion",
+      "timeIn": "1:17.2",
+      "timeOut": "1:22.0",
+      "duration": "4.80s",
+      "voLine": "Every other system charges your work. This one charges your stillness.",
+      "burnIn": "THEY CHARGE YOUR WORK / THIS CHARGES YOUR STILLNESS",
+      "characterRoles": ["Institution (THE COUNTER left) vs Sami & Bilal (right)"],
+      "images": [
+        {
+          "id": "img-zakat-16a",
+          "filename": "scene-16a-the-inversion.png",
+          "description": "Split composition: LEFT - barred teller window dark brown bars, grey featureless figure behind; RIGHT - Sami and Bilal side by side with warm expressions, Sami hand on Bilal shoulder",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "composition": "Both halves fully in frame, balanced, clean space above, vertical division",
+        "cameraMove": "Pull back 7%, settling both halves into frame"
+      }
+    },
+    {
+      "sceneId": 19,
+      "sceneNumber": "16B",
+      "name": "The Close",
+      "timeIn": "1:22.0",
+      "timeOut": "1:28.0",
+      "duration": "6.00s",
+      "voLine": "That's not a tax. It isn't charity either. It's a circulation rule — the only engine in finance pointed the other way.",
+      "burnIn": null,
+      "characterRoles": ["Kareem (WARM, direct to camera)"],
+      "images": [
+        {
+          "id": "img-zakat-16b",
+          "filename": "scene-16b-the-close.png",
+          "description": "Kareem centre frame, front view, addressing camera directly with WARM expression (soft eyes, slight closed-mouth smile), hands relaxed open at sides",
+          "role": "primary"
+        }
+      ],
+      "generateNotes": {
+        "track": "B (Still)",
+        "duration": "6.00s (one of five scenes over 5s)",
+        "composition": "Centred, figure in lower two-thirds, very generous headroom above for closing caption",
+        "cameraMove": "Push in 4% very slowly",
+        "criticalNote": "CLOSES THE LOOP — scene 01 opened with bare claim 'Two and a half percent of your savings was never yours.' This closes it with 'two and a half percent of it was never yours.' Land same way: flat and certain."
+      }
+    }
+  ],
+  "burnInSpec": {
+    "position": "centred in upper third",
+    "duration": "scene length",
+    "fontSize": "varies by scene",
+    "color": "#FFFFFF",
+    "keywordColor": "#B5543C",
+    "background": "rgba(0,0,0,0.3) or clear",
+    "font": "heavy geometric sans, all caps",
+    "rule": "NEVER over a face, NEVER generated — burn in during edit only"
+  },
+  "audioSpec": {
+    "format": "mp3",
+    "sampleRate": "44.1kHz",
+    "bitrate": "192kbps",
+    "deliverySpeed": "163wpm",
+    "totalDuration": "88.0s",
+    "fileProvided": "ElevenLabs_20260812T17_35_47__s50_v3.mp3"
+  },
+  "generation": {
+    "track": "B (Still images + edit moves recommended)",
+    "consistency": {
+      "kareem": "Generate scene 01 first, lock seed, use as reference on scenes 02, 07, 14, 16B",
+      "adam": "Generate scene 15A first, lock seed, use as reference on scenes 04, 10, 11, 15B, 15C",
+      "sami": "Generate from scene 06 before scene 16A",
+      "bilal": "Generate from scene 09 before scene 16A"
+    },
+    "clipsOver5s": [2, 9, 10, 15, 17],
+    "sacrificial": "Scene 07 (4.20s) — if VO long, cut whole. Argument carried by 05/06 already."
+  }
+}
