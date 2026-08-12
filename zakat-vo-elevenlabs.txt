@@ -1,0 +1,267 @@
+================================================================================
+FINANCE % DECODED — "TWO AND A HALF PERCENT" — TAGGED VO SCRIPT
+ElevenLabs v3 audio-tag pass · paste-ready
+265 words · ~1:55 at delivered pace · 9:16
+================================================================================
+
+WHAT THIS FILE IS
+
+The Zakat script with ElevenLabs v3 audio tags placed for retention, not for
+decoration. Section 1 is the block you paste into ElevenLabs. Everything after
+it is why the tags sit where they sit, what to do when the model ignores them,
+and the clean text for captions.
+
+THE SCRIPT ITSELF IS UNCHANGED. Not one word added, removed or reordered. The
+only additions are bracketed tags, three ellipses, and two capitalised words —
+all of them removable without touching the writing.
+
+TAG SYNTAX NOTE. v3 only. v2 and Turbo will read "[serious]" aloud as the word
+"serious" — if you are on an older model, use the punctuation-only fallback in
+Section 5 instead.
+
+
+================================================================================
+1 · THE TAGGED SCRIPT — PASTE THIS
+================================================================================
+
+[quietly] Two and a half percent of your savings... [serious] was never yours.
+
+[matter-of-fact] Your bank pays you to keep money still.
+[serious] Islam charges you for it.
+[slowly] Same pile. [short pause] Opposite engines.
+
+[matter-of-fact] Every year. On what's been sitting twelve months.
+
+Not on what you earn. On what you KEEP still.
+[matter-of-fact] Interest rewards you for not using money.
+
+[serious] Zakat charges you for not using it.
+
+[slowly] One pulls wealth upward. [short pause] The other pushes it out.
+
+[serious] So money that sits still... shrinks.
+
+[curious] Put it to work — a trade, something real —
+[confident] and the return outruns the charge.
+
+[thoughtful] It never asks you to give wealth away.
+[quietly] It makes stillness expensive.
+
+[serious] And most people underpay.
+[matter-of-fact] Because they only count the bank balance.
+
+[quickly] Money owed to you counts. Investments count.
+Gold sitting in a drawer counts.
+[serious] Your home doesn't. Your car doesn't. Your tools don't.
+
+[slowly] Wealth in use is exempt. [short pause] Wealth asleep is charged.
+
+[urgent] Two minutes. Three steps.
+One — add what's sat still for a lunar year.
+
+Two — subtract what you owe now.
+
+[confident] Three — if what's left clears the nisab,
+[serious] two and a half percent of it... was never yours.
+
+[emphatic] Every other system charges your work.
+[slowly] This one charges your stillness.
+
+[thoughtful] That's not a tax. [short pause] It isn't charity either.
+[quietly] It's a circulation rule —
+[serious] the only engine in finance pointed the other way.
+
+
+================================================================================
+2 · THE DELIVERY ARC — what the tags are actually buying
+================================================================================
+
+Retention on a 2-minute finance vertical is lost in three specific places. Every
+tag above is spent defending one of them.
+
+  0:00–0:08   THE COLD CLAIM.        [quietly] → [serious]
+              The hook is an accusation, so it must not sound like an ad. Quiet
+              beats loud here: dropping volume on "two and a half percent of
+              your savings" makes the viewer lean in, and the ellipsis buys the
+              beat of silence that makes "was never yours" land as a verdict.
+              This is the single most important line in the file.
+
+  0:08–0:35   THE ENGINE SWAP.       [matter-of-fact] vs [serious], alternating
+              The whole argument is a contrast, so the VO alternates registers
+              line by line — flat for the bank, weighted for Zakat. The viewer
+              hears the opposition before they've finished parsing it. Never let
+              both halves of a contrast pair carry the same tag.
+
+  0:35–0:50   THE TURN.              [curious] → [confident] → [thoughtful]
+              "Put it to work" is where the video stops being a complaint and
+              becomes a system. [curious] opens the door, [confident] closes it.
+              [thoughtful] on "it never asks you to give wealth away" is the
+              reframe beat — the line most likely to be quoted in comments.
+
+  0:50–1:05   THE ACCUSATION.        [serious] on "most people underpay"
+              First direct hit on the viewer. Do not soften it, do not rush it.
+              This is the retention save at the one-minute mark, where verticals
+              die — the viewer stays because they now suspect they're wrong.
+
+  1:05–1:20   THE INVENTORY.         [quickly] then [serious]
+              Lists lose people. [quickly] turns the counts-list into rhythm so
+              it plays as momentum rather than admin, then the register drops
+              hard on "your home doesn't" so the exemptions register as relief.
+
+  1:20–1:40   THE PROMISE RESET.     [urgent] on "Two minutes. Three steps."
+              The strongest anti-drop-off device in the script. "Two minutes"
+              is a fresh contract offered at the exact moment attention sags —
+              it must sound like an offer, not a heading. Pace up here.
+
+  1:40–1:55   THE DROP.              [emphatic] → [slowly] → [thoughtful] → [quietly]
+              Descending energy, rising weight. The callback "was never yours"
+              is tagged [serious] with the same ellipsis as the hook so it rhymes
+              with the opening by sound, not just by words. Then decelerate all
+              the way to the last line — the final clause should be the slowest
+              in the video.
+
+
+================================================================================
+3 · GENERATION SETTINGS
+================================================================================
+
+MODEL          Eleven v3. Tags are inert on v2 / Turbo / Flash.
+
+STABILITY      Natural. Start here.
+               → Creative only if tags are being under-performed; it obeys
+                 harder but drifts in timbre between takes, which shows up as
+                 tonal jumps between blocks.
+               → Robust ignores tags almost entirely. Do not use for this.
+
+SPEED          1.0. The script is already paced by punctuation. Global speed
+               changes flatten the [slowly] / [quickly] contrast, which is the
+               main thing making this listenable.
+
+VOICE          One with a low, unhurried floor and real range. This script
+               needs to whisper and to press. Voices that sit permanently at
+               "confident narrator" will flatten the entire arc — every line
+               reads as the same line, and the contrast structure dies.
+
+BLOCKS         Do NOT generate all 265 words in one shot. Split at the blank
+               lines into 4 blocks, matching Section 2:
+                 A  hook + engine swap        (through "pushes it out")
+                 B  the turn                  (through "makes stillness expensive")
+                 C  accusation + inventory    (through "wealth asleep is charged")
+                 D  calculator + drop         (to the end)
+               Use request stitching / previous-text so prosody carries across
+               the joins. Blocks let you re-roll one bad line without losing a
+               good take of everything else.
+
+HOOK TAKES     Generate block A on its own 5–6 times minimum before you touch
+               the rest. The first six seconds decide the video's ceiling; every
+               other block is replaceable, that one isn't.
+
+
+================================================================================
+4 · TAG-BY-TAG, AND WHAT TO SWAP IF IT MISFIRES
+================================================================================
+
+  [quietly]        Volume drop, intimacy. If the voice goes breathy or slurred,
+                   swap to [whispers] for the hook only, or drop the tag and
+                   rely on the ellipsis.
+  [serious]        The workhorse. Weight without volume. Safe everywhere.
+  [matter-of-fact] Deliberately flat. This is a tag doing work by NOT emoting —
+                   it exists so the [serious] lines beside it read as heavier.
+                   If it comes back bored rather than flat, swap to [deadpan].
+  [slowly]         Deceleration on the aphorisms. If it drags into parody,
+                   delete the tag and keep the [short pause].
+  [short pause]    Beat, not a breath. If it renders as dead air, replace with
+                   an em-dash.
+  [curious]        Slight upward lift. Opens the solution section.
+  [confident]      Lands the payoff of a pair. If it tips into salesy, swap to
+                   [assured] or remove — the writing already carries it.
+  [thoughtful]     Reflective, slightly slower. Carries the two reframe lines.
+  [quickly]        Rhythm on the list only. Never use it on a line with a number
+                   in it — comprehension drops and this script's numbers matter.
+  [urgent]         Used exactly once, on purpose. Its entire power is that no
+                   other line in the video sounds like it. Do not add a second.
+  [emphatic]       Least standard tag here. If it's ignored, swap to [firm], or
+                   delete it — "every other system charges your work" is strong
+                   enough unmarked.
+
+  CAPS   Two instances only: "KEEP still". Nothing else is capitalised, so it
+         gets a real emphasis lift rather than a shout. If your voice over-reacts
+         to caps, lowercase it — the sentence still works.
+
+  "..."  Three instances: the hook, "sits still... shrinks", and the callback.
+         All three are the same device — a held beat before a verdict. Keep them
+         or remove them together; mixing breaks the rhyme between open and close.
+
+  NOT USED, DELIBERATELY: [laughs], [chuckles], [sarcastic], [sighs], [excited].
+  This is a religious-finance argument delivered to a viewer who is about to be
+  told they've been underpaying. Any performed amusement or fatigue in the read
+  reads as mockery of the subject and torches the comment section. Keep the
+  register respectful and certain throughout — the tags escalate weight, never
+  attitude.
+
+  TAG DENSITY. Never stack two tags on one phrase, e.g. "[serious][slowly]".
+  v3 degrades into artefacts. One tag, one beat. Where this file has two tags
+  in a line, they sit on two separate sentences.
+
+
+================================================================================
+5 · FALLBACK — PUNCTUATION-ONLY (v2 / Turbo / any non-tag model)
+================================================================================
+
+Same performance shape, achieved with pacing alone. Strip every bracket from
+Section 1 and keep the ellipses, em-dashes and line breaks. Then add these:
+
+  · Comma before the second half of every contrast pair — forces the register
+    change the tags were buying. "Same pile, opposite engines."
+  · Em-dash instead of the full stop in "Two minutes — three steps." to keep
+    the calculator moving as one urgent unit.
+  · Full stop after "shrinks." held with a line break, so the model breathes.
+
+You will lose the [quietly] hook and the [urgent] reset — those two are worth
+enough on their own to justify staying on v3.
+
+
+================================================================================
+6 · CLEAN TEXT — captions, subtitles, description
+================================================================================
+
+Tags are audio directions, never on screen. Burn captions from this version.
+
+Two and a half percent of your savings was never yours.
+Your bank pays you to keep money still. Islam charges you for it.
+Same pile. Opposite engines.
+Every year. On what's been sitting twelve months.
+Not on what you earn. On what you keep still.
+Interest rewards you for not using money.
+Zakat charges you for not using it.
+One pulls wealth upward. The other pushes it out.
+So money that sits still shrinks.
+Put it to work — a trade, something real — and the return outruns the charge.
+It never asks you to give wealth away. It makes stillness expensive.
+And most people underpay. Because they only count the bank balance.
+Money owed to you counts. Investments count. Gold sitting in a drawer counts.
+Your home doesn't. Your car doesn't. Your tools don't.
+Wealth in use is exempt. Wealth asleep is charged.
+Two minutes. Three steps.
+One — add what's sat still for a lunar year.
+Two — subtract what you owe now.
+Three — if what's left clears the nisab, two and a half percent of it was
+never yours.
+Every other system charges your work. This one charges your stillness.
+That's not a tax. It isn't charity either.
+It's a circulation rule — the only engine in finance pointed the other way.
+
+
+================================================================================
+7 · EDIT NOTE
+================================================================================
+
+Record this VO before you build any scene map for it. The timings in Section 2
+are estimates at delivered pace, not a cut — same rule as the credit card pack.
+The [short pause] beats and the three ellipses will move every OUT point, and
+they are exactly the beats you want to cut picture on.
+
+Two visual anchors are already written into the read: the ellipsis before
+"was never yours" at 0:06, and the same ellipsis before the callback at ~1:38.
+Cut to the same frame on both. The audio rhyme is doing half the work; matching
+the picture makes the close feel inevitable.
