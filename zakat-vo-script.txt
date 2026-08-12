@@ -1,0 +1,100 @@
+FINANCE % DECODED — "WEALTH ASLEEP IS CHARGED"
+VO SCRIPT — RECORD THIS FIRST
+217 words · 79.9s speech at 163wpm · 8.1s beats · 88.0s total · ceiling 90s
+================================================================================
+
+DELIVERY. Calm, level, unhurried. Never sell it. The Pension VO works because it
+states mechanisms as plain fact and lets the viewer supply the outrage. Full
+stops are beats — this is written in fragments on purpose. Do not smooth them
+into sentences.
+
+TIME IT AFTER THE FIRST TAKE. 163wpm is measured from your Pension read, not
+assumed. At 150wpm this script runs 86.8s of speech and breaches 90s on beats
+alone. If it comes in long, cut [07] whole — it is the designated sacrifice and
+scenes [05]/[06] already carry its argument.
+
+================================================================================
+
+[01]  Two and a half percent of your savings was never yours.
+
+      >> Flat. Level. Certain. Do not let the read rise at the end.
+      >> Then a hard beat of silence. The viewer should get about half a second
+         to think "no it wasn't" — that objection buys you the next 20 seconds.
+
+[02]  Your bank pays you to keep money still.
+      Islam charges you for it.
+      Same pile. Opposite engines.
+
+      >> One unbroken take, 8 seconds. Do not rush the gap between line 1 and
+         line 2 — the whole film is in that gap.
+
+[03]  Every year. On what's been sitting twelve months.
+
+[04]  Not on what you earn. On what you keep still.
+
+[05]  Interest rewards you for not using money.
+
+[06]  Zakat charges you for not using it.
+
+      >> THE COLLISION. Full beat of silence either side of each. Cut hard
+         between them. Do not let [06] ride in on the tail of [05] — the
+         inversion depends on the viewer registering that the two sentences are
+         identical except for one word.
+
+[07]  One pulls wealth upward. The other pushes it out.
+
+      >> SACRIFICIAL. Cut this whole line if the read runs long.
+
+[08]  So money that sits still shrinks.
+
+[09]  Put it to work — a trade, something real —
+      and the return outruns the charge.
+
+[10]  It never asks you to give wealth away.
+      It makes stillness expensive.
+
+[11]  And most people underpay.
+      Because they only count the bank balance.
+
+[12]  Money owed to you counts. Investments count.
+      Gold sitting in a drawer counts.
+
+      >> "Sitting in a drawer" is load-bearing and must not drift to "gold
+         counts" or "your jewellery counts". Personal-use jewellery is
+         genuinely differed between the schools. See ACCURACY in the pack.
+
+[13]  Your home doesn't. Your car doesn't. Your tools don't.
+
+[14]  Wealth in use is exempt. Wealth asleep is charged.
+
+[15A] Two minutes. Three steps.
+      One — add what's sat still for a lunar year.
+
+[15B] Two — subtract what you owe now.
+
+      >> "Now" is load-bearing. You deduct immediately-due debts, not the whole
+         balance of a 25-year mortgage. Never trim that word.
+
+[15C] Three — if what's left clears the nisab,
+      two and a half percent of it was never yours.
+
+      >> THE PAYOFF. Closes the loop [01] opened, near-identical wording on
+         purpose. Land it exactly how you landed [01] — flat and certain. If you
+         change one of those two lines, change both.
+
+[16A] Every other system charges your work.
+      This one charges your stillness.
+
+[16B] That's not a tax. It isn't charity either.
+      It's a circulation rule —
+      the only engine in finance pointed the other way.
+
+      >> [16A] and [16B] are a single unit. [16A] calls zakat a charge on
+         stillness; [16B] is the line that takes "tax" back. Never cut one
+         without the other, or you ship a video that calls zakat a tax and
+         never retracts it.
+
+================================================================================
+PROTECTED — never cut:  01 · 02 · 05 · 06 · 15A · 15B · 15C · 16A · 16B
+SACRIFICIAL — cut first: 07  (4.20s)
+================================================================================
