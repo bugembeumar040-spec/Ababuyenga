@@ -1,0 +1,83 @@
+================================================================================
+FINANCE % DECODED — "THEY CALL YOU A DEADBEAT" — VOICEOVER SCRIPT
+Extracted from credit-card-prompt-pack.txt
+11 Scenes · 55.60s total (target timings at ~150wpm)
+================================================================================
+
+SCENE 01 | IN: 0:00.0 | OUT: 0:05.0 | 5.00s
+TYPE: Hook
+VO: "...a word for people who pay in full"
+
+---
+
+SCENE 02 | IN: 0:05.0 | OUT: 0:10.2 | 5.20s
+TYPE: The Term
+VO: "That's the actual term..."
+
+---
+
+SCENE 03 | IN: 0:10.2 | OUT: 0:15.0 | 4.80s
+TYPE: The Revolver
+VO: "The profitable one is a revolver"
+
+BURN-IN: "REVOLVER"
+
+---
+
+SCENE 04 | IN: 0:15.0 | OUT: 0:18.6 | 3.60s
+TYPE: The Product
+VO: "The card isn't the product..."
+
+BURN-IN: "THE BALANCE IS THE PRODUCT"
+
+---
+
+SCENE 05 | IN: 0:18.6 | OUT: 0:23.9 | 5.30s
+TYPE: The Limit
+VO: "Which is why the limit goes up"
+
+BURN-IN: "LIMIT  £2,000 → £3,500   (annotate: 'you didn't ask')"
+
+---
+
+SCENE 06 | IN: 0:23.9 | OUT: 0:28.4 | 4.50s
+TYPE: The Rewards
+VO: "Why the cashback exists"
+
+BURN-IN: "1% BACK   vs   24.9% APR   (set 1% small, APR large)"
+
+---
+
+SCENE 07 | IN: 0:28.4 | OUT: 0:33.6 | 5.20s
+TYPE: The Box
+VO: "The smallest number on the page"
+
+BURN-IN: "MINIMUM PAYMENT £25"
+
+---
+
+SCENE 08 | IN: 0:33.6 | OUT: 0:37.9 | 4.30s
+TYPE: The Rule
+VO: "Riba isn't a fee you trigger..."
+
+---
+
+SCENE 09 | IN: 0:37.9 | OUT: 0:44.3 | 6.40s
+TYPE: The Real Sale
+VO: "A real sale takes its profit once"
+
+BURN-IN: "PROFIT: FIXED AT THE SALE"
+
+---
+
+SCENE 10 | IN: 0:44.3 | OUT: 0:47.2 | 2.90s
+TYPE: Time
+VO: "Time is the ingredient"
+
+---
+
+SCENE 11 | IN: 0:47.2 | OUT: 0:55.6 | 8.40s
+TYPE: The Close
+VO: "Be worthless to them..."
+
+---

@@ -1,0 +1,251 @@
+{
+  "project": "Finance % Decoded - They Call You a Deadbeat",
+  "format": "9:16 (1080x1920)",
+  "totalDuration": "55.60s",
+  "sceneCount": 11,
+  "description": "Educational video about credit card business models and predatory lending practices",
+  "metadata": {
+    "voScriptPath": "../voiceover/script.txt",
+    "promptPackPath": "../credit-card-prompt-pack.txt",
+    "createdAt": "2026-08-12",
+    "version": "1.0.0"
+  },
+  "scenes": [
+    {
+      "sceneId": 1,
+      "sceneNumber": "01",
+      "name": "Hook",
+      "timeIn": "0:00.0",
+      "timeOut": "0:05.0",
+      "duration": "5.00s",
+      "voLine": "...a word for people who pay in full",
+      "burnIn": null,
+      "images": [
+        {
+          "id": "img-01",
+          "filename": "scene-01-hook.png",
+          "description": "Silhouette figure with debit card - introducing the deadbeat concept",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "sceneNumber": "02",
+      "name": "The Term",
+      "timeIn": "0:05.0",
+      "timeOut": "0:10.2",
+      "duration": "5.20s",
+      "voLine": "That's the actual term...",
+      "burnIn": null,
+      "images": [
+        {
+          "id": "img-02",
+          "filename": "scene-02-term.png",
+          "description": "Man in casual shirt (profile view) - defining the term",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "sceneNumber": "03",
+      "name": "The Revolver",
+      "timeIn": "0:10.2",
+      "timeOut": "0:15.0",
+      "duration": "4.80s",
+      "voLine": "The profitable one is a revolver",
+      "burnIn": "REVOLVER",
+      "images": [
+        {
+          "id": "img-03",
+          "filename": "scene-03-revolver.png",
+          "description": "Man with uncertain/confused gesture (arms spread) - confusion about revolving credit",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "sceneId": 4,
+      "sceneNumber": "04",
+      "name": "The Product",
+      "timeIn": "0:15.0",
+      "timeOut": "0:18.6",
+      "duration": "3.60s",
+      "voLine": "The card isn't the product...",
+      "burnIn": "THE BALANCE IS THE PRODUCT",
+      "images": [
+        {
+          "id": "img-04",
+          "filename": "scene-04-product.png",
+          "description": "Stack of ATM/debit cards - showing the cards themselves",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "sceneId": 5,
+      "sceneNumber": "05",
+      "name": "The Limit",
+      "timeIn": "0:18.6",
+      "timeOut": "0:23.9",
+      "duration": "5.30s",
+      "voLine": "Which is why the limit goes up",
+      "burnIn": "LIMIT  £2,000 → £3,500   (annotate: 'you didn't ask')",
+      "images": [
+        {
+          "id": "img-05",
+          "filename": "scene-05-limit.png",
+          "description": "Man reading document with concerned expression - reacting to limit increase",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "sceneId": 6,
+      "sceneNumber": "06",
+      "name": "The Rewards",
+      "timeIn": "0:23.9",
+      "timeOut": "0:28.4",
+      "duration": "4.50s",
+      "voLine": "Why the cashback exists",
+      "burnIn": "1% BACK   vs   24.9% APR   (set 1% small, APR large)",
+      "images": [
+        {
+          "id": "img-06",
+          "filename": "scene-06-rewards.png",
+          "description": "Man with thumbs up gesture holding debit card - promoting rewards/cashback",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "sceneId": 7,
+      "sceneNumber": "07",
+      "name": "The Box",
+      "timeIn": "0:28.4",
+      "timeOut": "0:33.6",
+      "duration": "5.20s",
+      "voLine": "The smallest number on the page",
+      "burnIn": "MINIMUM PAYMENT £25",
+      "images": [
+        {
+          "id": "img-07",
+          "filename": "scene-07-box.png",
+          "description": "Man holding mobile phone with storage/documents shelf - minimum payment visualization",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "sceneId": 8,
+      "sceneNumber": "08",
+      "name": "The Rule",
+      "timeIn": "0:33.6",
+      "timeOut": "0:37.9",
+      "duration": "4.30s",
+      "voLine": "Riba isn't a fee you trigger...",
+      "burnIn": null,
+      "images": [
+        {
+          "id": "img-08",
+          "filename": "scene-08-rule.png",
+          "description": "Man holding debit card with happy/explanatory expression - explaining Riba/interest rules",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "sceneId": 9,
+      "sceneNumber": "09",
+      "name": "The Real Sale",
+      "timeIn": "0:37.9",
+      "timeOut": "0:44.3",
+      "duration": "6.40s",
+      "voLine": "A real sale takes its profit once",
+      "burnIn": "PROFIT: FIXED AT THE SALE",
+      "images": [
+        {
+          "id": "img-09",
+          "filename": "scene-09-real-sale.png",
+          "description": "Man with clipboard/box on shelf - showing packages/profit visualization",
+          "role": "primary"
+        },
+        {
+          "id": "img-10",
+          "filename": "scene-09-emphasis.png",
+          "description": "Stack of cards (Global Bank) - emphasizing product accumulation",
+          "role": "supporting"
+        }
+      ]
+    },
+    {
+      "sceneId": 10,
+      "sceneNumber": "10",
+      "name": "Time",
+      "timeIn": "0:44.3",
+      "timeOut": "0:47.2",
+      "duration": "2.90s",
+      "voLine": "Time is the ingredient",
+      "burnIn": null,
+      "images": [
+        {
+          "id": "img-11",
+          "filename": "scene-10-time.png",
+          "description": "Four objects in sequence (card, box, papers, coin) - breaking down value over time",
+          "role": "primary"
+        }
+      ]
+    },
+    {
+      "sceneId": 11,
+      "sceneNumber": "11",
+      "name": "The Close",
+      "timeIn": "0:47.2",
+      "timeOut": "0:55.6",
+      "duration": "8.40s",
+      "voLine": "Be worthless to them...",
+      "burnIn": null,
+      "images": [
+        {
+          "id": "img-12",
+          "filename": "scene-11-close-options.png",
+          "description": "Three icons (house, car, tools) - showing what you could afford instead",
+          "role": "primary"
+        },
+        {
+          "id": "img-13",
+          "filename": "scene-11-close-analysis.png",
+          "description": "Man at table with multiple cards and documents - final analysis",
+          "role": "supporting"
+        },
+        {
+          "id": "img-14",
+          "filename": "scene-11-close-refusal.png",
+          "description": "Man with both hands up in refusal gesture - rejecting the system",
+          "role": "supporting"
+        },
+        {
+          "id": "img-15",
+          "filename": "scene-11-boxes-explain.png",
+          "description": "Man with boxes/envelopes explaining - final message delivery",
+          "role": "supporting"
+        }
+      ]
+    }
+  ],
+  "audioSpec": {
+    "format": "mp3",
+    "sampleRate": "44.1kHz",
+    "bitrate": "192kbps",
+    "mono": false
+  },
+  "burnInSpec": {
+    "position": "center",
+    "duration": "scene",
+    "fontSize": "large",
+    "color": "#FFFFFF",
+    "background": "rgba(0,0,0,0.3)",
+    "note": "Numbers should never be generated - burn in during edit only"
+  }
+}
