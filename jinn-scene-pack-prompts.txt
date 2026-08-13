@@ -1,0 +1,237 @@
+================================================================================
+JINN - SCENE PACK - PASTE-READY PROMPTS  ·  built for SCRIPT v3
+Clarity in the Quran · 16:9 · 30 shots + 6 texture plates
+================================================================================
+
+Paste GLOBAL NEGATIVE once into the negative field, leave it for the
+whole session. Then copy each prompt block below verbatim.
+
+Generation order: S02 first (sets lattice, wood tone, light angle that
+S04/S27/S28 reference) -> lock the seed. Then S20 (thumbnail plate).
+Then the rest in order.
+
+================================================================================
+GLOBAL NEGATIVE
+================================================================================
+
+people, person, human, figure, silhouette of a person, face, facial features, eyes, hands, body, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit, ghost, apparition, skull, horror, jump scare, red glow, green glow, fog machine, smoke machine, text, lettering, Arabic script, calligraphy, writing, numbers, logos, watermark, signature, cartoon, anime, 2D illustration, flat vector, cel shading, oversaturation, HDR glow, blown highlights, plastic sheen, composite look, tilted horizon, clutter, busy background, low resolution
+
+================================================================================
+THE PROMPTS
+================================================================================
+
+--------------------------------------------------------------------------------
+S01 · 0:00-0:16 - "somebody watching this has paid money"
+MOVE: push in 6%, centred on the notes.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/2.8. A small folded stack of worn banknotes sits on a plain dark wooden table beside a switched-off mobile phone lying face down, the screen black and blank. Two simple wooden chairs pulled up to the table, both empty. Nobody in frame. Aged tabletop with visible grain and ring marks, near-photorealistic paper fibre on the notes. One hard low raking key from camera-left, long defined shadows thrown right, deep near-black falloff at every edge. Cool neutral grade with one muted gold highlight on the phone's edge. Still and transactional. 16:9, table filling the lower two-thirds, dark space above.
+
+--------------------------------------------------------------------------------
+S02 · 0:16-0:30 - "a healer with a phone number"  ** GENERATE FIRST - reference **
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+Frontal architectural detail, 50mm, f/4, of a carved wooden mashrabiya lattice screen filling the frame, backlit by warm low sun so the geometric interlace reads as a dark silhouette against glowing light, hard geometric light shapes thrown forward onto a bare stone floor. Aged hardwood with visible grain, turned spindles, fine dust on the ledge. Nothing visible through the lattice - the space behind is pure blown warm light with no detail and no shapes in it. Near-photorealistic, deep near-black in the unlit carving, muted gold through the gaps. Perfectly square-on and symmetrical. 16:9.
+
+--------------------------------------------------------------------------------
+S03 · 0:30-0:44 - "a story so humiliating it's hard to hear"
+MOVE: pull back 8%, the darkness opening out around the shaft.
+--------------------------------------------------------------------------------
+Wide interior, 24mm, f/5.6. An empty stone chamber in near-total darkness with a single narrow shaft of hard daylight entering high from camera-left and striking the floor, dust suspended and visible in the beam. Nothing else in the room - no furniture, no objects, no figures. Ancient dressed stone with fine surface pitting and lime bloom, near-photorealistic. Cool neutral grade, one muted gold warmth inside the shaft only. Vast, quiet, empty. 16:9, the beam entering upper-left and landing lower-right, deep black filling most of the frame.
+
+--------------------------------------------------------------------------------
+S04 · 0:44-1:05 - "the root is three letters"
+MOVE: push in 5%, very slow.
+--------------------------------------------------------------------------------
+Three-quarter architectural shot, 35mm, f/2.8, of a carved wooden mashrabiya screen seen at an angle from inside a dark room, warm daylight pressing through the geometric openings and falling across a bare stone floor in sharp repeating shapes. The room in front of the screen is empty and near-black. Aged hardwood with visible turning marks, dust motes suspended in the light. Nothing discernible beyond the screen - light only, no shapes, no depth. Near-photorealistic, single hard warm key from behind the lattice, deep cool shadow in the interior. 16:9, screen occupying the right two-thirds, empty dark left.
+
+--------------------------------------------------------------------------------
+S05 · 1:05-1:26 - "janna - growth so thick the ground disappears"
+MOVE: drift right 40px, revealing more depth in the foliage.
+--------------------------------------------------------------------------------
+Macro, 100mm, f/2, into dense dark garden foliage - layered broad leaves in deep green, so thick the ground beneath is completely hidden and unreadable. One narrow shaft of low sun penetrates the canopy and lands on a single leaf, leaving everything else in deep shadow. Water droplets beading on the lit leaf. Near-photorealistic botanical detail with fine leaf venation. Deep near-black falloff at all edges, deep garden green through the mass, one warm highlight. No sky, no horizon, no path, nothing man-made anywhere. 16:9, dense and enclosing.
+
+--------------------------------------------------------------------------------
+S06 · 1:26-1:47 - "junna - a shield" / "handed a category, told it was a character"
+MOVE: push in 6%, settling on the boss of the shield.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/4, of a plain round hammered brass shield resting upright against a dark stone wall, its face completely unadorned with no emblem, no decoration and no markings, catching one hard raking light across its curvature. Fine hammer planishing marks and a warm aged patina. Nothing else in frame. Near-photorealistic brass with real specular falloff. One hard key from camera-left, long shadow thrown right, deep near-black surround. Muted gold on the metal, cool grade everywhere else. Solid and settled. 16:9, shield centred.
+
+--------------------------------------------------------------------------------
+S07 · 1:47-2:12 - "marij min nar"   ** DROP IF YOU TAKE OPTIONAL CUT 1 **
+MOVE: push in 8%, slow, into the distortion.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, of the air directly above a single flame against pure black - only the clear moving heated air is in frame, visibly bending and shimmering, with no smoke and no visible fuel source. The flame body itself sits at the very bottom edge, almost entirely out of frame. Ember orange at the base falling off instantly into black. Near-photorealistic refraction and heat shimmer. Nothing else in frame at all. Very shallow focus. 16:9, the distortion filling the centre, deep black surround.
+
+--------------------------------------------------------------------------------
+S08 · 2:12-2:34 - "allah tells the angels to bow"
+MOVE: push in 5% and drift down 20px.
+--------------------------------------------------------------------------------
+Architectural still, 35mm, f/4. A long row of identical empty stone alcoves set into a dark wall, receding evenly across the frame, every one of them empty - except that one alcove near the centre is lit differently from all the others, catching a cold shaft while the rest sit in warm shadow. No objects in any alcove. No figures anywhere. Aged dressed stone with fine pitting and lime bloom, near-photorealistic. Deep near-black, one hard cool key isolating the single alcove. Rigidly symmetrical, broken only by that lighting difference. 16:9.
+
+--------------------------------------------------------------------------------
+S09 · 2:34-2:56 - "kana min al-jinn"  ** SILENCE - hold this one **
+MOVE: none. Absolutely locked off.
+--------------------------------------------------------------------------------
+Locked-off macro, 100mm, f/4. A single blank parchment card lying alone and square on dark matte stone, completely unprinted with no writing or markings anywhere on it. One hard key from upper left throwing a long clean shadow to the right, deep near-black falloff at every edge. Near-photorealistic parchment tooth and fine stone grain, a slight cockle in the card's surface catching the light. Absolute stillness, nothing else in frame. 16:9, card centred low with generous dark space above for the verse card.
+
+--------------------------------------------------------------------------------
+S10 · 2:56-3:19 - "i believed the fallen angel version most of my life"
+MOVE: pull back 6%, isolating the upright stone.
+--------------------------------------------------------------------------------
+Overhead flat-lay, 50mm, f/5.6, shot perpendicular to the surface. A tight even grid of identical smooth pale stones on dark matte sand, laid in neat rows, all of them lying flat - except one single stone standing upright on its edge, breaking the pattern. Every flat stone casts an identical hard shadow; the upright one throws a long anomalous shadow across its neighbours. Near-photorealistic stone and fine sand grain. One hard overhead key slightly off-axis, deep near-black falloff at the frame edges. Cool neutral grade, no warmth anywhere. 16:9, grid centred with generous margin.
+
+--------------------------------------------------------------------------------
+S11 · 3:19-3:42 - "a choice - the same thing sitting in your chest"
+MOVE: push in 7%, decisive.
+--------------------------------------------------------------------------------
+Still life, 100mm, f/2.8, of a single set of old brass balance scales on a dark matte surface, both pans completely empty and the beam perfectly level and at rest. Nothing in either pan. Near-photorealistic brass with real specular hits, fine patina in the recesses and a firm contact shadow anchoring the base. One hard key from upper left, long shadow right, deep near-black surround. Muted gold on the beam, cool grade elsewhere. Poised, undecided, waiting. 16:9, scales centred low, dark space above.
+
+--------------------------------------------------------------------------------
+S12 · 3:42-4:11 - "among us are the righteous, and among us are others"
+MOVE: drift left 30px, slow.
+--------------------------------------------------------------------------------
+Wide low-angle, 24mm, f/5.6, of a desert at pre-dawn where the ground divides into two distinct paths running away from camera in different directions, separated by a low ridge of stone. One path catches early warm light along its length; the other stays in cool blue shadow. No figures, no footprints, no structures anywhere. Fine wind-rippled sand, near-photorealistic. Deep near-black sky with no stars, a single warm band at the horizon. Vast and quiet. 16:9, the fork low in frame, sky filling the upper half.
+
+--------------------------------------------------------------------------------
+S13 · 4:11-4:40 - "exactly like the street you live on"
+MOVE: push in 6% on the lit half of the line.
+--------------------------------------------------------------------------------
+Macro, 100mm, f/2.8, of a single line of small identical pale stones running across dark matte ground from lower-left to upper-right, half of them falling inside a hard shaft of warm light and half sitting in deep shadow, the light's edge cutting the line cleanly in the middle. Near-photorealistic stone texture and fine drifted dust. One hard key from camera-right, deep near-black elsewhere. Cool grade in the shadowed half, muted gold in the lit half. 16:9, line running diagonally, generous dark space above.
+
+--------------------------------------------------------------------------------
+S14 · 4:40-5:00 - "there was a night"   ** DROP IF YOU TAKE OPTIONAL CUT 2 **
+MOVE: push in 5%, very slow, toward the opening.
+--------------------------------------------------------------------------------
+Exterior night, 35mm, f/2. A low doorway in an ancient stone wall seen from outside in near-total darkness, warm lamplight spilling out from within across the threshold and onto the sand, the interior beyond not visible. Nobody in the doorway. Nothing standing in the light. Rough dressed stone, wind-scoured, fine sand drifted at the base. Near-photorealistic. Deep near-black night with no moon and no stars, muted gold pooling only at the threshold. Still and listening. 16:9, doorway centred, darkness filling the rest of the frame.
+
+--------------------------------------------------------------------------------
+S15 · 5:00-5:20 - "we have heard an amazing quran"  ** DROP WITH CUT 2 **
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+Macro, 85mm, f/2.8, of an open manuscript resting on a low carved wooden stand, its pages completely blank and unprinted with no writing anywhere, lit by a single oil lamp just out of frame so the parchment glows warm at the centre and falls to black at the edges. Fine parchment tooth, slight cockling, the blind-ruled lines of an unwritten page just catching the light. Near-photorealistic. Deep near-black surround, one warm muted gold pool. Reverent and quiet. 16:9, manuscript low-centre, dark above.
+
+--------------------------------------------------------------------------------
+S16 · 5:20-5:36 - "both of us inside it"  ** DROP IF YOU TAKE OPTIONAL CUT 1 **
+MOVE: hold still - short beat, no room for a move.
+--------------------------------------------------------------------------------
+Locked-off macro, 100mm, f/5.6, of two identical rough clay vessels standing side by side on dark matte stone, the same height and the same form, both completely plain and unglazed with no markings. One hard raking key from camera-left throwing two identical long shadows to the right, deep near-black falloff. Near-photorealistic clay with fine throwing rings and mineral grit. Cool neutral grade with one faint muted gold on the near rims. Balanced and equal. 16:9, vessels centred low, generous dark above.
+
+--------------------------------------------------------------------------------
+S17 · 5:36-5:53 - "his soldiers of the jinn, and men, and birds"
+MOVE: pull back 8%, revealing the scale of the hall.
+--------------------------------------------------------------------------------
+Wide architectural, 24mm, f/8, of a vast unfinished stone hall at night - massive dressed blocks stacked into half-built columns, rough timber scaffolding, cut stone waiting on the floor. Completely deserted. No figures, no tools in motion. One hard cold moonlight key from high camera-right throwing long architectural shadows across the floor. Near-photorealistic masonry with chisel marks visible on the block faces and stone dust underfoot. Deep near-black, cool grade, one muted gold from a distant unseen lamp. Monumental and empty. 16:9.
+
+--------------------------------------------------------------------------------
+S18 · 5:53-6:10 - "every builder and diver"
+MOVE: push in 7% on the vessel.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/4, of a single enormous cast bronze basin standing alone on a dark stone floor, far too large to have been lifted by any ordinary means, its surface hammered and deeply patinated. Nothing else in frame. One hard raking key from camera-left picking out the hammer marks in relief, a long heavy shadow thrown right, deep near-black surround. Near-photorealistic bronze with real specular hits and fine verdigris in the recesses. Cool grade, muted gold on the rim. 16:9, basin centred low, dark space above.
+
+--------------------------------------------------------------------------------
+S19 · 6:10-6:27 - "never for sale. never for you."
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+Locked-off still life, 60mm, f/5.6, of a heavy iron chain lying coiled on dark matte stone, its links thick and pitted with age, the coil pressing into fine dust beneath it. Both ends of the chain visible and free, attached to nothing. Near-photorealistic corroded iron with deep pitting and flaking scale. One hard key from upper left, one long unbroken shadow to the right, deep near-black surround. Cool grade, no warmth anywhere in frame. Settled and final. 16:9, chain centred low.
+
+--------------------------------------------------------------------------------
+S20 · 6:27-6:47 - "he died standing up"  ** THUMBNAIL PLATE - generate second **
+MOVE: push in 4%, barely perceptible.
+--------------------------------------------------------------------------------
+Still life, 100mm, f/2.8. A single tall wooden staff standing perfectly upright and alone on a dark polished stone floor, nothing holding it, nothing leaning against it, no figure anywhere in frame. Aged hardwood worn smooth at the grip, near-photorealistic grain. One hard low raking key from camera-left throwing an extremely long shadow across the floor to the right. Deep near-black surround, cool neutral grade with one faint ember warmth low on the shaft. Absolutely still. 16:9, staff centred and vertical, floor running to black.
+
+--------------------------------------------------------------------------------
+S21 · 6:47-7:07 - "the jinn kept working"
+MOVE: drift right 40px past the blocks.
+--------------------------------------------------------------------------------
+Wide architectural, 35mm, f/8, of dressed stone blocks part-stacked into an unfinished wall at night, mason's tools set down on the ground beside them - chisels, a mallet, a coil of rope - all lying exactly where they were left. Completely deserted, nothing in motion. Near-photorealistic stone with chisel tooling and fine dust, worn wooden tool handles. One hard cold key from high camera-left, long shadows across the ground, deep near-black surround. Cool grade throughout. Abandoned mid-task. 16:9.
+
+--------------------------------------------------------------------------------
+S22 · 7:07-7:27 - "a creature of the earth ate through the wood"  ** PEAK **
+MOVE: push in 10%. The most decisive move in the film.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, of the base of an aged wooden staff where it meets dark polished stone, a small clean bored hole eaten through the grain near the bottom, fine pale wood dust fallen in a ring around the base. No insect visible anywhere. Deep grain detail, near-photorealistic wood fibre and stone. One hard raking key from camera-left, deep black surround, extremely shallow focus with the bored hole sharp and the floor dissolving within centimetres. 16:9, hole slightly off-centre.
+
+--------------------------------------------------------------------------------
+S23 · 7:27-7:49 - "they could not see a dead man"  ** SILENCE - hold **
+MOVE: hold dead still four seconds, then push in 4%.
+--------------------------------------------------------------------------------
+Still life, 100mm, f/2.8, of a tall wooden staff now lying flat and fallen across a dark polished stone floor, a small ring of pale wood dust beside it, its shadow now flat and broken across the floor. Nothing else in frame, no figure anywhere. Near-photorealistic wood grain and polished stone with a faint reflection. One hard low raking key from camera-left, deep near-black surround, cool neutral grade. Final and quiet. 16:9, staff running diagonally across the lower third, vast dark space above.
+
+--------------------------------------------------------------------------------
+S24 · 7:49-8:12 - "then named his price"  ** THE CALLBACK **
+MOVE: push in 8% onto the notes.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/2.8, of the same plain dark wooden table and the same folded stack of worn banknotes from the opening shot, framed slightly tighter, the switched-off phone still lying face down beside them. Both chairs empty. Nobody in frame. The light has changed - colder now, harder, raking lower from camera-left and throwing longer shadows than before. Aged tabletop grain and ring marks, near-photorealistic paper fibre. Deep near-black falloff, cool grade with the muted gold highlight now almost gone. 16:9, table in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+S25 · 8:12-8:42 - "night comes down in a valley you don't know"
+MOVE: pull back 10%, the valley opening around the objects.
+--------------------------------------------------------------------------------
+Wide, 24mm, f/5.6, of a narrow desert valley at last light, steep dark rock walls either side and a flat sand floor between them, entirely deserted. A rough woollen travelling cloak and a plain clay water jar are set down together on the sand in the middle distance, as though left there deliberately. Nobody present. Coarse wool weave and unglazed clay, fine wind-rippled sand, near-photorealistic. One cold key from camera-right, long shadows thrown left, deep near-black in the rock. One last band of muted gold at the horizon. Exposed and faintly uneasy. 16:9, objects low in frame, dark walls rising either side.
+
+--------------------------------------------------------------------------------
+S26 · 8:42-9:11 - "what they got was weight"
+MOVE: pull back 12%, the weight becoming visible as the frame widens.
+--------------------------------------------------------------------------------
+Macro, 85mm, f/4, of a single large rough stone resting on top of a folded woollen cloak on dark sand, pressing the fabric down and deforming it visibly under the load. Nothing else in frame, nobody present. Coarse wool weave compressed and creased beneath the stone, fine sand grain, near-photorealistic mineral surface on the rock. One hard raking key from upper left, a long shadow thrown right, deep near-black surround. Cool grade, no warmth. Heavy and oppressive. 16:9, subject centred low, dark space above.
+
+--------------------------------------------------------------------------------
+S27 · 9:11-9:35 - "shayateen of mankind and jinn"
+MOVE: drift right 40px, past the openings.
+--------------------------------------------------------------------------------
+Interior, 35mm, f/2.8, of a long dark stone corridor lined on one side with carved wooden mashrabiya screens, warm light pressing through each one in turn and throwing repeating geometric shapes across the floor. The corridor is completely empty end to end. Aged hardwood and dressed stone, dust suspended in each shaft of light. Near-photorealistic. Deep near-black, one hard warm key per opening, cool fill along the corridor. Receding, rhythmic, nobody there. 16:9, corridor running to a dark vanishing point.
+
+--------------------------------------------------------------------------------
+S28 · 9:35-10:15 - "sitting across the table from you"  ** THE THESIS SHOT **
+MOVE: push in 9%, ending on the empty chair opposite.
+--------------------------------------------------------------------------------
+Interior still life, 35mm, f/2, of the same plain dark wooden table seen from one side, two empty wooden chairs facing each other across it, the folded banknotes still lying on the surface. Behind and to one side stands a carved wooden mashrabiya screen, and hard geometric light from it falls across the tabletop and over the far chair in sharp repeating shapes. Nobody in either chair. Nobody in the room. Aged table grain, coarse wool seat pads, near-photorealistic. Deep near-black surround, one hard warm key through the lattice, cool fill elsewhere. Intimate and wrong. 16:9, table centred, the far chair catching the lattice light.
+
+--------------------------------------------------------------------------------
+S29 · 10:15-10:45 - "it hands you a junna"
+MOVE: push in 5%, settling.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/4, of the same plain hammered brass shield from earlier, now standing upright and square to camera on a dark stone floor rather than leaning, face completely unadorned with no emblem or markings, lit by one broad warm key from camera-left across its curvature. Fine planishing marks and warm patina. Nothing else in frame. Near-photorealistic brass with real specular falloff. Deep near-black surround, muted gold across the metal, the shadow shorter and softer than before. Resolved and protective. 16:9, shield centred.
+
+--------------------------------------------------------------------------------
+S30 · 10:45-11:11 - "only one sees both"  ** CLOSING FRAME **
+MOVE: pull back 12% - the widest move in the film, saved for last.
+--------------------------------------------------------------------------------
+Wide, 24mm, f/8, of the same empty stone chamber from the opening, now at dawn - the single shaft of light broadened and warmer, falling across the bare floor and filling the room where before it was black. Still no furniture, no objects, no figures anywhere. Dust suspended and lit throughout the beam. Aged dressed stone with fine pitting, near-photorealistic. Deep shadow holding at the edges, warm muted gold through the centre. Resolved, open, quiet. 16:9, the beam entering upper-left, generous clean space for the closing card.
+
+--------------------------------------------------------------------------------
+T1 · texture plate - reusable overrun cover
+MOVE: drift up 20px.
+--------------------------------------------------------------------------------
+Extreme macro of dust motes suspended in a hard shaft of warm light against pure black, nothing else in frame, extremely shallow focus, near-photorealistic. 16:9.
+
+--------------------------------------------------------------------------------
+T2 · texture plate - reusable overrun cover
+MOVE: drift left 30px.
+--------------------------------------------------------------------------------
+Macro of wind-rippled desert sand at a low raking angle, fine grain, long shadows caught in the ripples, deep black falloff at the edges, near-photorealistic. 16:9.
+
+--------------------------------------------------------------------------------
+T3 · texture plate - reusable overrun cover
+MOVE: push in 6%.
+--------------------------------------------------------------------------------
+Extreme macro of aged parchment fibre filling the frame, completely blank with no writing, one hard raking key picking out the tooth and cockle, near-photorealistic. 16:9.
+
+--------------------------------------------------------------------------------
+T4 · texture plate - reusable overrun cover
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+Macro of still dark water with one narrow band of muted gold reflected on the surface, nothing visible beneath, near-photorealistic. 16:9.
+
+--------------------------------------------------------------------------------
+T5 · texture plate - reusable overrun cover
+MOVE: push in 5%.
+--------------------------------------------------------------------------------
+Macro of carved geometric wooden joinery, hard light across the interlace, deep shadow in the recesses, fine grain, near-photorealistic. 16:9.
+
+--------------------------------------------------------------------------------
+T6 · texture plate - reusable overrun cover  ** ember grade - beats 03/09 only **
+MOVE: hold still.
+--------------------------------------------------------------------------------
+Extreme macro of heat shimmer over dark stone, the air visibly bending, no fire and no fuel anywhere in frame, near-photorealistic. 16:9.
