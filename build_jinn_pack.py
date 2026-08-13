@@ -43,6 +43,31 @@ INLINE_NEGATIVE = (
     "look, no tilted horizon, no clutter, no busy background, no low resolution."
 )
 
+# Banknotes default to a portrait head and printed numerals, which breaks the two
+# hardest rules in the pack (no figures anywhere, no text) in the three money shots.
+#
+# Negation DOES NOT WORK here. Two live S28 renders were tested: one with no clause
+# at all, and one instructed "no portrait, no head, no bust, no face of any kind, no
+# numerals". Both produced a clearly legible portrait head on the top note -- the
+# second more prominent than the first. The "banknote" prior overrides the negative.
+#
+# What works instead is staging the notes so no printed face is ever turned to
+# camera. Describing the physical arrangement is followed; forbidding the content
+# is not. Applies to S01/S24/S28.
+BLANK_NOTES = (
+    "The banknotes are folded closed and lie face-down in a worn stack, so that only "
+    "the blank outer fold and the layered paper edges of the stack are turned toward "
+    "camera. No printed side of any note faces the camera; only aged paper fibre, "
+    "fold creases and the cut edges of the stack are visible."
+)
+
+# Models read "polished stone floor" as modern tiling with regular grout lines.
+# Confirmed on a live S20 render.
+ANCIENT_FLOOR = (
+    "The floor is ancient dark stone, worn and irregular, with no modern tiling, no "
+    "regular tile grid and no grout lines anywhere."
+)
+
 # id, beat/time header, MOVE, prompt
 SHOTS = [
     ("S01", "0:00-0:16 - \"somebody watching this has paid money\"",
@@ -51,10 +76,11 @@ SHOTS = [
      "dark wooden table beside a switched-off mobile phone lying face down, the screen "
      "black and blank. Two simple wooden chairs pulled up to the table, both empty. "
      "Nobody in frame. Aged tabletop with visible grain and ring marks, near-"
-     "photorealistic paper fibre on the notes. One hard low raking key from camera-"
-     "left, long defined shadows thrown right, deep near-black falloff at every edge. "
-     "Cool neutral grade with one muted gold highlight on the phone's edge. Still and "
-     "transactional. 16:9, table filling the lower two-thirds, dark space above."),
+     "photorealistic paper fibre on the notes. " + BLANK_NOTES + " One hard low raking "
+     "key from camera-left, long defined shadows thrown right, deep near-black falloff "
+     "at every edge. Cool neutral grade with one muted gold highlight on the phone's "
+     "edge. Still and transactional. 16:9, table filling the lower two-thirds, dark "
+     "space above."),
 
     ("S02", "0:16-0:30 - \"a healer with a phone number\"  ** GENERATE FIRST - reference **",
      "hold dead still.",
@@ -63,9 +89,13 @@ SHOTS = [
      "reads as a dark silhouette against glowing light, hard geometric light shapes "
      "thrown forward onto a bare stone floor. Aged hardwood with visible grain, turned "
      "spindles, fine dust on the ledge. Nothing visible through the lattice - the "
-     "space behind is pure blown warm light with no detail and no shapes in it. "
-     "Near-photorealistic, deep near-black in the unlit carving, muted gold through "
-     "the gaps. Perfectly square-on and symmetrical. 16:9."),
+     "space behind is pure blown warm light with no detail and no shapes in it, no "
+     "horizon line, no landscape, no sun disc, no sky and no scenery of any kind "
+     "through the openings. Near-photorealistic, deep near-black in the unlit carving, "
+     "muted gold through the gaps. The frame is predominantly near-black: only the "
+     "lattice openings and the cast light shapes on the floor are bright, and the wood "
+     "itself reads as near-black silhouette rather than warm brown. Perfectly "
+     "square-on and symmetrical, camera level and frontal at mid height. 16:9."),
 
     ("S03", "0:30-0:44 - \"a story so humiliating it's hard to hear\"",
      "pull back 8%, the darkness opening out around the shaft.",
@@ -241,13 +271,17 @@ SHOTS = [
 
     ("S20", "6:27-6:47 - \"he died standing up\"  ** THUMBNAIL PLATE - generate second **",
      "push in 4%, barely perceptible.",
-     "Still life, 100mm, f/2.8. A single tall wooden staff standing perfectly upright "
-     "and alone on a dark polished stone floor, nothing holding it, nothing leaning "
-     "against it, no figure anywhere in frame. Aged hardwood worn smooth at the grip, "
-     "near-photorealistic grain. One hard low raking key from camera-left throwing an "
-     "extremely long shadow across the floor to the right. Deep near-black surround, "
-     "cool neutral grade with one faint ember warmth low on the shaft. Absolutely "
-     "still. 16:9, staff centred and vertical, floor running to black."),
+     "Wide still life, 50mm, f/4, camera at mid height and level. A single tall wooden "
+     "staff standing perfectly upright and alone on an ancient dark stone floor, "
+     "nothing holding it, nothing leaning against it, no figure anywhere in frame. The "
+     "entire staff is visible in full from its rounded top tip down to where its foot "
+     "meets the floor, complete and uncropped, with generous dark headroom above the "
+     "tip - the staff must not run out of the top of the frame. Aged hardwood worn "
+     "smooth at the grip, near-photorealistic grain. " + ANCIENT_FLOOR + " One hard low "
+     "raking key from camera-left throwing an extremely long shadow across the floor "
+     "to the right. Deep near-black surround filling most of the frame, cool neutral "
+     "grade with one faint ember warmth low on the shaft. Absolutely still. 16:9, "
+     "staff centred and vertical and shown whole, floor running to black."),
 
     ("S21", "6:47-7:07 - \"the jinn kept working\"",
      "drift right 40px past the blocks.",
@@ -283,7 +317,8 @@ SHOTS = [
      "push in 8% onto the notes.",
      "Still life, 85mm, f/2.8, of the same plain dark wooden table and the same folded "
      "stack of worn banknotes from the opening shot, framed slightly tighter, the "
-     "switched-off phone still lying face down beside them. Both chairs empty. Nobody "
+     "switched-off phone still lying face down beside them. " + BLANK_NOTES + " Both "
+     "chairs empty. Nobody "
      "in frame. The light has changed - colder now, harder, raking lower from camera-"
      "left and throwing longer shadows than before. Aged tabletop grain and ring marks, "
      "near-photorealistic paper fibre. Deep near-black falloff, cool grade with the "
@@ -324,7 +359,7 @@ SHOTS = [
      "push in 9%, ending on the empty chair opposite.",
      "Interior still life, 35mm, f/2, of the same plain dark wooden table seen from one "
      "side, two empty wooden chairs facing each other across it, the folded banknotes "
-     "still lying on the surface. Behind and to one side stands a carved wooden "
+     "still lying on the surface. " + BLANK_NOTES + " Behind and to one side stands a carved wooden "
      "mashrabiya screen, and hard geometric light from it falls across the tabletop and "
      "over the far chair in sharp repeating shapes. Nobody in either chair. Nobody in "
      "the room. Aged table grain, coarse wool seat pads, near-photorealistic. Deep "
