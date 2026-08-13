@@ -1,0 +1,602 @@
+================================================================================
+CLARITY IN THE QURAN — CHANNEL AUDIT + NEXT TOPIC BRIEF
+@clarityinthequran · UC0eBu0ZXcF20pTAG3lUnPXA
+41 subs · 2,459 lifetime views · 14 videos · registered AE · opened 31 Jan 2024
+Data pulled 13 Aug 2026 (vidIQ channel stats, video-level stats, outliers,
+keyword research, transcript + comment pull)
+================================================================================
+
+WHAT THIS FILE IS
+
+Two parts. PART ONE is the audit — what the numbers actually say, including one
+production defect sitting on the channel's single best-performing asset that
+needs fixing before anything else ships. PART TWO is the next topic, built to
+production-brief depth: title, thumbnail, full VO script, description, tags,
+and the reasoning that picked it over the alternatives.
+
+Read Part One first. The topic in Part Two is chosen off those findings, not
+off vibes, and the logic won't land without them.
+
+
+================================================================================
+PART ONE — AUDIT
+================================================================================
+
+--------------------------------------------------------------------------------
+1. THE HEADLINE: THE CHANNEL IS DORMANT
+--------------------------------------------------------------------------------
+
+  Subscribers gained, last 30d ....... 0
+  Views gained, last 30d ............. 0
+  Videos published, last 30d ......... 0
+
+Publishing history is a burst followed by a collapse:
+
+  6–20 May 2026 ...... 11 videos in 15 days
+  8–15 Jun 2026 ......  3 videos
+  9 Aug 2026 .........  1 Short, titled "9 August 2026", 3 views
+  → 8 weeks of effective silence
+
+This is the single largest problem and it outweighs every other finding. A
+burst-then-vanish pattern teaches YouTube's system that the channel is not a
+reliable source of new sessions, and the browse/suggested surfaces that a
+41-sub channel depends on stop being offered. Nothing in Part Two matters if
+the next upload is followed by another eight-week gap.
+
+Fix: pick a cadence you can hold for twelve straight weeks and hold it. One
+video a week beats eleven in a fortnight and then nothing. Given the
+production load of the format below, weekly is the honest target — do not
+promise yourself twice-weekly.
+
+--------------------------------------------------------------------------------
+2. PRODUCTION DEFECT ON THE BEST VIDEO — FIX THIS FIRST
+--------------------------------------------------------------------------------
+
+"What the Quran Actually Says About Anger" (cjtKWsFZbcg) is the channel's
+best-performing video by a distance:
+
+  846 views · 19 likes · breakout score 18.8 · 2.2% like rate
+  Next best long-form: 225 views. This one video is 34% of channel lifetime views.
+
+The transcript shows the entire closing block is DUPLICATED. Everything from
+"And in another place, who spend during ease and hardship..." through to the
+final line "...the Quran never actually tells you to stop feeling angry" plays
+once, and then plays again, in a 6:17 video. The repeat is also ASR-garbled in
+places ("cold to fita", "the words you will rewrite"), which suggests the
+duplicate came in at the assembly stage rather than the script stage.
+
+That is roughly the last 90 seconds of a 377-second video played twice. Viewers
+hit a passage they have already heard and leave. On the one asset that earned
+real distribution, retention is being thrown away in the final third.
+
+Action: re-cut and re-upload the corrected version. Do NOT delete the existing
+video and lose its watch history — re-cut and replace via YouTube's editor if
+the trim is clean, otherwise publish the corrected cut fresh and leave the
+original unlisted. This is the highest-return hour of work available on the
+channel right now, ahead of any new upload.
+
+Audit every other video for the same fault before shipping anything new. A
+duplicated closing block is a systematic assembly error, not a one-off.
+
+--------------------------------------------------------------------------------
+3. WHAT'S WORKING — THREE PROVEN PATTERNS
+--------------------------------------------------------------------------------
+
+Ranked by breakout score (vidIQ's over/under-performance multiple), the shape
+of the winners is unambiguous:
+
+  BREAKOUT  VIEWS  TITLE
+  --------  -----  --------------------------------------------------------
+    18.8     846   What the Quran Actually Says About Anger
+    10.6     476   This 1 Secret Verse Will Change Your Life Forever (Short)
+     5.0     225   Money in the Quran: The Arabic Word That Changes Everything
+     4.3     192   Every Minor Prophet Explained: The Part Everyone Skips
+     4.2     189   Every Plague of Egypt Explained: The Exact Pattern Pharaoh Missed
+     2.8     125   The Quran Verse That Actually Stops Anxiety
+
+  PATTERN A — "WHAT THE QURAN ACTUALLY SAYS ABOUT [X]."
+  The channel's #1. Works because it sets up a correction: the viewer arrives
+  holding an assumption and is told it's wrong. That is a click and a reason to
+  stay to the reveal.
+
+  PATTERN B — "EVERY [X] EXPLAINED."
+  The two "Every…" videos are 192 and 189 views — mid-table — but they carry
+  the highest genuine comment counts on the channel (4 each, where most videos
+  have zero). Enumeration invites response. Viewers argue with lists.
+
+  PATTERN C — THE ARABIC-WORD REVEAL.
+  "Money in the Quran: The Arabic Word That Changes Everything" has the highest
+  like rate on the channel at 4.0% — nearly double the anger video's 2.2%,
+  despite a quarter of the views. When people get a linguistic payoff they
+  didn't have before, they like the video. This is the channel's most
+  underexploited asset.
+
+--------------------------------------------------------------------------------
+4. WHAT'S NOT WORKING
+--------------------------------------------------------------------------------
+
+  VAGUE TITLES DIE.
+    "Allah's Promises: What the Quran Actually Reveals" ......... 15 views
+    "I Did Everything Right… So Why Does It Feel Like Allah Hates Me?" 14 views
+    "What Did the Prophet ﷺ Actually Eat Every Day?" ............ 30 views
+  Note the second one: that is a genuinely strong emotional hook that got 14
+  views. It was published 20 May, at the tail of the burst, when the channel
+  had already flooded its own audience with ten uploads in two weeks. Good
+  titles were wasted on a saturated slot. Consider re-shooting that concept
+  later — the idea is not burned, the slot was.
+
+  THE "9 AUGUST 2026" SHORT.
+  A placeholder date as a title, 3 views. Unlist or retitle it. It signals
+  abandonment to anyone who lands on the channel page.
+
+  ENGAGEMENT IS ESSENTIALLY ZERO AND THE COMMENT STRATEGY IS WHY.
+  Pulling 40 comments channel-wide returns almost entirely the creator's own
+  pinned comment, repeated near-verbatim on 11 videos:
+    "Thanks for watching! If this blessed you, pray for us. Subscribe, drop a
+     comment (even a word or two helps others find this). God bless!"
+  Three things wrong with it. It asks for a comment without giving anyone
+  anything to comment ABOUT. It's identical across every video, so it reads as
+  automation. And "God bless!" is off-register for a Quran channel — the
+  audience says JazakAllahu khayran, barakAllahu feek, Ameen.
+
+  The one exception proves it. On "Every Minor Prophet Explained" the pinned
+  comment was specific and asked a real question — "Which prophet's story
+  touched your heart the most?" — and that video tied for the most comments on
+  the channel. Do that every time. One concrete question, tied to the content.
+
+  AI NARRATION IS BEING CLOCKED.
+  The single most-liked audience comment on the entire channel is "AI BE AWARE"
+  (1 like) on the Plagues video. One comment is not a verdict, but in a niche
+  where trust is the product, it's a flag. The scripts are genuinely good — the
+  anger script's handling of kāẓimīn al-ghayẓ is strong writing. The delivery is
+  what's drawing the objection. Consider recording the hook and close in a real
+  voice even if the body stays synthetic, or move to a higher-grade voice model.
+
+  SUBSCRIBER CONVERSION.
+  41 subs on 2,459 views is 1.7%. For a faceless explainer channel with genuine
+  teaching value, that is low. The current CTA ("hit subscribe" as the final
+  line, after a repeated block) isn't earning it. Ask mid-video, at the moment
+  of highest payoff, not at the end.
+
+--------------------------------------------------------------------------------
+5. THE COMPETITIVE PICTURE
+--------------------------------------------------------------------------------
+
+Searching outliers on "Quran" returns a wall of recitation channels — Surah
+Yaseen, Ayatul Kursi, sleep tilawah, morning/evening adhkar, breakout scores in
+the hundreds. That is NOT this channel's lane and should not be chased. Those
+videos win on audio-as-ambience, need no scripting, and the field is saturated
+with 40k–150k-sub incumbents.
+
+The relevant comps are the explainer channels — and they show the ceiling is
+much higher than 846 views:
+
+  "Every Rule About Keeping Pets in Islam Explained in 12 Minutes"
+  Brother Rayyan · 5,810 subs · 97,884 views · breakout 62 · VPH 105 · 2.2% eng.
+  → A channel 140x this one's size pulling ~100k views on exactly Pattern B.
+
+  "The Creation of Jannah Explained in Islam | What Allah Prepared for Believers"
+  Sunnah Nexus TV · 4,170 subs · 53,069 views · breakout 98.
+
+  "The Holy Spirit in Hebrew: What the Original Word Reveals That English Hides"
+  Revelation Road X · 89k subs · 107,193 views · 5.8% engagement.
+  → Pattern C, in the Christian mirror of this niche, at 107k views.
+
+  "What Does the Bible Say About TATTOOS in Revelation? (Explained)"
+  Bible with Elias · 19,900 subs · 166,785 views · VPH 224.
+  → Pattern A, Christian mirror, at 167k views.
+
+Read that together: every one of this channel's three proven patterns is
+already validated at 50k–170k views by channels in the 4k–20k subscriber range.
+The formats are right. The execution cadence and the topic selection are what's
+capping it.
+
+--------------------------------------------------------------------------------
+6. AUDIT ACTIONS, IN ORDER
+--------------------------------------------------------------------------------
+
+  1. Re-cut the Anger video. Remove the duplicated closing block.
+  2. Audit all 14 videos for the same duplication fault.
+  3. Retitle or unlist "9 August 2026".
+  4. Rewrite the pinned-comment habit: one specific question per video, in the
+     register the audience actually uses.
+  5. Commit to weekly, held for 12 weeks. Then ship Part Two.
+
+
+================================================================================
+PART TWO — THE NEXT TOPIC
+================================================================================
+
+--------------------------------------------------------------------------------
+THE PICK
+--------------------------------------------------------------------------------
+
+  EVERY VERSE ABOUT JINN IN THE QURAN — EXPLAINED
+
+Why this one, on the data:
+
+  KEYWORD DEMAND IS HIGH AND COMPETITION IS UNUSUALLY LOW.
+    "jinn" ............. 199,658 est. monthly searches · competition 39.3
+    "ruqyah" ........... 240,931 est. monthly searches · competition 42.5
+    "surah jinn" ........ 61,342 est. monthly searches · competition 44.0
+    "jinn in islam" ...... 9,621 est. monthly searches · competition 35.0
+    "jinn explained" ..... 5,318 est. monthly searches · competition 25.9
+  For contrast, "quran" itself carries competition 65. A head term with 200k
+  monthly searches at competition 39 is a genuine gap, and "jinn explained" at
+  25.9 is close to open ground.
+
+  IT WAS TESTED AGAINST THE OBVIOUS ALTERNATIVE AND WON.
+  End-times / Signs of the Last Day looks attractive but its related-keyword
+  cloud comes back dominated by named lecturers — Omar Suleiman (72k), Nouman
+  Ali Khan (145k), Bilal Assad, Abu Bakr Zoud. That space is won by
+  personalities with existing authority, which a 41-sub faceless channel does
+  not have. "Day of judgement" carries only 12,991 searches at competition 43.5.
+  Jinn has fifteen times the search volume at lower competition and no
+  personality lock-in.
+
+  IT FIRES ALL THREE PROVEN PATTERNS AT ONCE.
+    Pattern B — it's an "Every…Explained" enumeration, the format that earns
+      this channel comments and that just did 97,884 views for Brother Rayyan.
+    Pattern A — it's built on a correction most viewers are carrying wrong
+      (Iblīs was not an angel), which is what powered the 846-view winner.
+    Pattern C — it has a real Arabic-root payoff, the thing that produced the
+      channel's highest like rate.
+
+  THE ROOT REVEAL IS GENUINELY GOOD.
+  Jinn (جن) comes from ج-ن-ن, j-n-n, "to conceal, to cover." The same root
+  gives janna (جنة), the garden — concealed under its own foliage; janīn
+  (جنين), the fetus — concealed in the womb; majnūn (مجنون), the madman — one
+  whose reason is covered over; and junna (جُنّة), a shield — the thing that
+  covers you. So "jinn" is not a name. It is a description: THE CONCEALED ONES.
+  That single fact reframes the entire subject and it is the spine of the video.
+
+  IT IS EVERGREEN AND SAFE.
+  No news peg to decay, no sectarian argument, no politics. It teaches
+  established Quranic material and corrects folk belief with cited verses.
+  It will still be pulling search traffic in three years.
+
+--------------------------------------------------------------------------------
+TITLE
+--------------------------------------------------------------------------------
+
+  PRIMARY
+    Every Verse About Jinn in the Quran Explained (Iblis Was Never an Angel)
+
+  The parenthetical is doing real work: it's a specific, checkable, widely-held
+  misconception with a verse behind it. It converts browsers AND it seeds the
+  comment section, which is this channel's weakest metric.
+
+  ALTERNATES
+    Everything the Quran Says About Jinn — Explained in 10 Minutes
+    What the Quran ACTUALLY Says About Jinn (Not What You Were Told)
+    The Arabic Word for "Jinn" Changes Everything You Believe About Them
+    Every Jinn Verse in the Quran Explained: The Part Everyone Gets Wrong
+
+  Note: vidIQ's title scorer required an approval this session didn't have, so
+  these are ranked on the channel's own observed title performance and the comp
+  set above, not on a scorer output. Worth running the scorer on all five
+  before you commit.
+
+--------------------------------------------------------------------------------
+THUMBNAIL
+--------------------------------------------------------------------------------
+
+  Faceless, consistent with existing channel art. Composition:
+
+    - Deep near-black background, heavy vignette.
+    - Centre-left: a shape of smokeless flame — marij min nar — rendered as
+      wisping heat-distortion, NOT cartoon fire. Ember-orange on black.
+    - The three Arabic letters ج ن ن large, semi-transparent, ghosted behind
+      the flame so they read as a watermark rather than as text.
+    - Right third, stacked text, heavy condensed sans, white with a thin
+      ember-orange keyline:
+          NOT
+          ANGELS
+    - Bottom-right corner, small: "AL-KAHF 18:50"
+
+  The citation in the corner is the trust signal — it tells a scrolling Muslim
+  viewer this is sourced, not a creepypasta channel. That matters enormously in
+  this topic, which is otherwise full of low-quality horror content, and it is
+  your differentiator against them.
+
+  Avoid entirely: red eyes, silhouetted figures, horror-movie framing. It will
+  pull the wrong audience, tank your like ratio, and misrepresent the material.
+
+--------------------------------------------------------------------------------
+BEAT MAP — target 9:30–10:30
+--------------------------------------------------------------------------------
+
+  #   BEAT                        ANCHOR
+  --  --------------------------  ------------------------------------------
+  01  Hook — the word             root ج-ن-ن, "the concealed ones"
+  02  What they're made of        Ar-Rahman 55:15, Al-Hijr 15:27
+  03  MISCONCEPTION 1: Iblis      Al-Kahf 18:50
+  04  MISCONCEPTION 2: all evil   Al-Jinn 72:11, 72:13-14
+  05  Why they exist at all       Adh-Dhariyat 51:56
+  06  The night they listened     Al-Jinn 72:1-2, Al-Ahqaf 46:29-31
+  07  MISCONCEPTION 3: the unseen Saba 34:12-14  ← the strongest beat
+  08  Sulayman's workforce        An-Naml 27:17, 27:39, Saba 34:12-13
+  09  MISCONCEPTION 4: seek help  Al-Jinn 72:6
+  10  Who's actually whispering   Al-An'am 6:112, An-Nas 114:4-6
+  11  Close — the shield          junna, root callback, protection
+
+--------------------------------------------------------------------------------
+VO SCRIPT — draft 1 · ~1,420 words · ~9:30 at the channel's current pace
+--------------------------------------------------------------------------------
+
+[01 — HOOK]
+
+"Jinn" is not a name.
+
+Most people hear that word and picture something — a spirit, a ghost, a demon
+crouched in a dark corner. But in Arabic, jinn isn't a label for a species. It's
+a description of a property. And once you know which property, every verse about
+them in the Quran starts reading differently.
+
+The root is jīm, nūn, nūn. Ja-na-na. And it means: to conceal. To cover over.
+
+You already know this root, even if you've never noticed it. Janna — the garden,
+paradise — is from it, because a garden is a place so thick with growth that the
+ground beneath is hidden. Janīn — a fetus — is from it, because the child is
+concealed inside the womb. Majnūn — which people translate as "madman" — is from
+it, because it describes someone whose reason has been covered over. And junna —
+a shield — is from it, because a shield is the thing you hide behind.
+
+So when the Quran says jinn, it is not saying "demon." It is saying: the
+concealed ones. The ones you cannot see.
+
+That's the whole category. Not evil. Not supernatural horror. Hidden.
+
+Hold onto that, because at least four things you've probably been told about
+jinn contradict what the Quran actually says — and one of them is about a name
+you know very well.
+
+[02 — MATERIAL]
+
+Start with what they're made of, because the Quran is specific.
+
+Surah Ar-Rahman, verse fifteen: He created man from clay like pottery, "and He
+created the jinn from a smokeless flame of fire." Mārij min nār. And in Surah
+Al-Hijr, verse twenty-seven: "And the jinn We created before, from scorching
+fire."
+
+Two things worth catching there. First, "before" — jinn were created before
+human beings. Second, mārij: not a log burning, not smoke. The pure, moving part
+of a flame. The part with no substance you could hold.
+
+Which fits the root exactly. Made of the thing you can see through.
+
+[03 — MISCONCEPTION ONE]
+
+Now the big one.
+
+Ask most people what Iblīs is, and they'll tell you a fallen angel. That's the
+picture — the angel who got proud, refused to bow, and was cast out.
+
+The Quran says something else. Surah Al-Kahf, verse fifty. Allah describes the
+command to the angels to prostrate to Adam, and then: "they prostrated, except
+Iblīs. He was of the jinn, and he departed from the command of his Lord."
+
+Kāna min al-jinn. He was of the jinn.
+
+Not an angel who fell. A jinn who was in the company of angels and disobeyed.
+
+And that distinction is not a technicality — it's the entire moral logic of the
+story. Angels, as the Quran describes them, do not disobey. They do what they
+are commanded. Iblīs could refuse because Iblīs had what you have: a will. He
+wasn't a perfect being who broke. He was a being who could choose, and chose
+wrong.
+
+Which means his story is a warning aimed at you. It only works as a warning if
+he was never an angel.
+
+[04 — MISCONCEPTION TWO]
+
+Second correction: not all jinn are evil.
+
+Surah Al-Jinn, verse eleven, and this is the jinn speaking about themselves:
+"And among us are the righteous, and among us are others below that. We follow
+different paths."
+
+They have religions. They have believers and disbelievers. They have people who
+get it right and people who don't — exactly like us. A few verses later: "And
+when we heard the guidance, we believed in it."
+
+So "jinn" is not a synonym for "shayṭān." Shayṭān is a description of behaviour,
+not a species — and we'll come back to that, because it applies to more of us
+than people expect.
+
+[05 — PURPOSE]
+
+Why do they exist? The Quran gives one sentence.
+
+Surah Adh-Dhāriyāt, verse fifty-six: "And I did not create the jinn and mankind
+except to worship Me."
+
+Same sentence. Same purpose. Jinn and humans are named together as the two
+accountable creations — which is why Surah Ar-Rahman keeps addressing "you two"
+and asking, thirty-one times, which of your Lord's favours you would deny. Two
+audiences. Both being asked.
+
+[06 — THE NIGHT THEY LISTENED]
+
+Surah Al-Jinn opens with something remarkable. "Say: it has been revealed to me
+that a company of the jinn listened, and they said: indeed, we have heard an
+amazing Quran. It guides to what is right, so we have believed in it."
+
+Surah Al-Ahqāf tells the same event from the other side — they listened, and
+then they went back to their own people as callers: "O our people, respond to
+the one calling to Allah."
+
+They weren't summoned. Nobody performed a ritual. They passed by, they heard
+recitation, and it moved them.
+
+[07 — MISCONCEPTION THREE]
+
+Third correction, and this is the one that should change what you do.
+
+People believe jinn know things. The future, hidden matters, what's coming. It's
+the entire foundation of fortune-telling, of "I'll ask something that can see."
+
+The Quran closes that door with a story, in Surah Saba.
+
+Sulaymān, peace be upon him, had jinn working under him — building, diving,
+labouring. And Sulaymān died. He died leaning on his staff, and the jinn kept
+working, because they did not know. They kept labouring for their dead king
+until a creature of the earth ate through the staff, and he fell.
+
+Verse fourteen: "When he fell, it became clear to the jinn that if they had
+known the unseen, they would not have remained in humiliating punishment."
+
+They couldn't see a dead man in the room with them.
+
+Sit with that. The Quran picked the most humiliating possible example to make
+one point: whatever jinn are, they are not a source of knowledge. Anyone selling
+you access to the unseen through them is selling you something the Quran itself
+mocks.
+
+[08 — SULAYMAN'S WORKFORCE]
+
+That same passage, and Surah An-Naml, tell you what they can do. They built.
+They dived. In An-Naml an ʿifrīt — a powerful one among the jinn — offers to
+bring the throne of Bilqīs before Sulaymān can rise from his seat.
+
+Strength, then. Speed. But notice: under a prophet's authority, by Allah's
+permission, in a documented exception. Not a power available for hire.
+
+[09 — MISCONCEPTION FOUR]
+
+Fourth, and it follows directly.
+
+Surah Al-Jinn, verse six: "And there were men from mankind who sought refuge in
+men from the jinn, so they increased them in burden."
+
+That was a real practice. Travellers would stop somewhere unfamiliar and ask the
+jinn of that place for protection. The Quran's verdict is one word — rahaqā.
+They increased them in burden. In some translations: in oppression, in
+exhaustion.
+
+They asked for protection and received weight.
+
+Seeking safety from the concealed does not produce safety. It produces
+dependency.
+
+[10 — WHO'S ACTUALLY WHISPERING]
+
+And here's the part almost nobody expects.
+
+Surah Al-An'ām, verse one hundred and twelve, speaks of "shayāṭīn of mankind and
+jinn" — devils from among humans, and devils from among jinn.
+
+And the final surah of the Quran, An-Nās, ends by naming the whisperer who
+whispers into the chests of people — "min al-jinnati wa'n-nās." From among the
+jinn, and from among mankind.
+
+The very last line of the Quran names a human threat alongside the hidden one.
+
+Which means "shayṭān" was never a species. It's a job description. And some of
+the people doing that job are visible, standing next to you, and are not
+concealed at all.
+
+[11 — CLOSE]
+
+So bring the root back.
+
+Jinn: the concealed. Janīn: the concealed child. Janna: the concealed garden.
+Majnūn: the concealed mind.
+
+And junna — the shield. The thing that covers YOU.
+
+The Quran doesn't give you a ritual against the unseen. It gives you a junna.
+Al-Fātiha. Āyat al-Kursī. The last two surahs. The morning and evening
+remembrance. Protection that doesn't require you to negotiate with anything
+hidden, because it comes from the One who made the hidden thing in the first
+place.
+
+They were made from fire. You were made from clay. Neither of you can see the
+other clearly.
+
+Only One sees both.
+
+[PINNED COMMENT — post immediately, do not reuse the old template]
+
+  Before I made this, I genuinely thought Iblis was a fallen angel — Al-Kahf
+  18:50 corrected me. Which of these four did you grow up believing? 1, 2, 3,
+  or 4 — tell me below.
+
+--------------------------------------------------------------------------------
+DESCRIPTION
+--------------------------------------------------------------------------------
+
+  The Arabic word "jinn" comes from the root ج-ن-ن — meaning "to conceal." It
+  isn't a name. It's a description: the concealed ones. And once you know that,
+  four things most of us were taught about jinn stop holding up.
+
+  In this video we go verse by verse through what the Quran actually says —
+  what jinn are made of, why Iblis was never an angel, why they cannot know the
+  unseen, and who the Quran says is really doing the whispering.
+
+  Verses referenced:
+  Ar-Rahman 55:15 · Al-Hijr 15:27 · Al-Kahf 18:50 · Al-Jinn 72:1-2, 72:6,
+  72:11, 72:13 · Adh-Dhariyat 51:56 · Al-Ahqaf 46:29-31 · Saba 34:12-14 ·
+  An-Naml 27:17, 27:39 · Al-An'am 6:112 · An-Nas 114:4-6
+
+  00:00  "Jinn" is not a name
+  01:10  What the Quran says they're made of
+  02:05  Iblis was never an angel (Al-Kahf 18:50)
+  03:20  Not all jinn are evil (Al-Jinn 72:11)
+  04:15  Why they were created at all
+  05:00  The night a group of jinn heard the Quran
+  06:00  They cannot know the unseen — the death of Sulayman
+  07:20  What they did for Sulayman
+  08:10  Why seeking their protection backfires
+  08:55  Who the Quran says is really whispering
+  09:45  The shield
+
+  If this was of benefit, share it with someone who needs it.
+
+  #Quran #Jinn #IslamicReminder #Tafsir #SurahAlJinn
+
+--------------------------------------------------------------------------------
+TAGS
+--------------------------------------------------------------------------------
+
+  jinn, jinn in islam, jinn explained, jinn in the quran, what the quran says
+  about jinn, surah jinn, surah al jinn, is iblis an angel, iblis jinn or angel,
+  al kahf 18:50, jinn and shaytan difference, are all jinn evil, do jinn know
+  the future, jinn and sulaiman, ifrit in the quran, jinn made from fire,
+  smokeless fire, protection from jinn, ruqyah, quran explained, islamic
+  reminder, tafsir, clarity in the quran
+
+--------------------------------------------------------------------------------
+COMPANION SHORT — cut from beat 07
+--------------------------------------------------------------------------------
+
+  The Sulaymān beat is the strongest 45 seconds in the script and stands alone.
+  Cut it as a Short, publish 48 hours after the long-form, and pin a comment
+  pointing to the full video.
+
+  Title: The Jinn Kept Working For a Dead King
+  Hook line: "Sulayman died standing up — and the jinn working for him had no
+  idea." Land on Saba 34:14, then: "Full breakdown on the channel."
+
+  This is the channel's best Short concept available, because it's a story with
+  a body, not an aphorism. The existing Shorts are aphorisms, and the one that
+  worked (476 views) worked on curiosity alone. A story will outperform it.
+
+--------------------------------------------------------------------------------
+ACCURACY NOTE
+--------------------------------------------------------------------------------
+
+  Every verse above was cited from the standard text and the claims are
+  mainstream across Sunni tafsir — the Iblis point (Al-Kahf 18:50) and the
+  unseen-knowledge point (Saba 34:14) in particular are uncontroversial
+  positions, not a hot take. The etymology of ج-ن-ن and its relation to janna,
+  janin, majnun and junna is standard Arabic lexicography.
+
+  That said: verify each citation against a mushaf before recording. This is a
+  topic where an error will be caught fast and publicly, and the channel's
+  credibility is the product. The corner-citation on the thumbnail promises
+  sourcing — honour it.
+
+================================================================================
