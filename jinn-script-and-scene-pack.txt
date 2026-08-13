@@ -1,0 +1,938 @@
+================================================================================
+CLARITY IN THE QURAN — "EVERY VERSE ABOUT JINN" — SCRIPT + SCENE PACK
+Two independent tracks: VIDEO (Higgsfield) and STILLS (any image model)
+16:9 · 1920x1080 · 11 beats · 26 generations · 10:05
+Follows clarity-in-the-quran-audit-and-next-topic.txt
+================================================================================
+
+WHAT THIS FILE IS
+
+The shooting document for the jinn video. Same two-track architecture as the
+credit-card pack: one complete way to shoot it with generated video, one with
+generated stills moved in the edit. Pick one — the idioms don't cut together.
+
+  TRACK A — VIDEO.  26 generated clips. Highest cost, highest drift risk.
+  TRACK B — STILLS. 26 generated images, moved in the edit. RECOMMENDED HERE.
+
+TRACK B IS THE RIGHT CALL FOR THIS ONE, and that's a change from the Short. A
+55-second Short can carry 11 generated clips. A ten-minute long-form needs
+roughly two and a half times the coverage, and generated video drifts across
+that many shots in ways stills simply don't. Stills also give you thumbnail
+frames and a reusable plate library for every future video in this series.
+Track A is written out in full if you want it, but shoot B.
+
+TIMINGS BELOW ARE DERIVED, NOT ESTIMATED. The channel's real narration pace was
+measured off the de-duplicated Anger transcript: 851 spoken words across 377
+seconds = 135 wpm. Every IN/OUT below is built on 135 wpm, not on a generic
+150. Record the VO first and re-derive anyway before you generate anything on
+Track A — but these are close.
+
+
+================================================================================
+SCRIPT AUDIT — WHAT CHANGED FROM THE DRAFT IN THE BRIEF, AND WHY
+================================================================================
+
+The draft script in the topic brief was structurally sound but had four
+retention faults. All four are fixed in the VO below. Recording the brief's
+version instead would cost you most of the benefit.
+
+  FAULT 1 — THE TITLE PROMISE ARRIVED TWO MINUTES LATE.
+  The title says "Iblis Was Never an Angel." In the draft, Iblis showed up at
+  beat 03, around 2:05, behind a full minute of etymology. Everyone who clicked
+  for the Iblis claim had to sit through a linguistics lesson to reach it. That
+  is the single most expensive mistake available in the first minute.
+  FIX: cold open on the Iblis contradiction. Verse on screen inside 25 seconds.
+  The etymology then becomes the payoff for staying, not the toll for entering.
+
+  FAULT 2 — THE PEAK WAS FOLLOWED BY AN ANTICLIMAX.
+  Draft order was: death of Sulayman (the strongest beat in the video) → then a
+  descriptive beat about what jinn built for him. Energy fell off a cliff
+  immediately after the best moment.
+  FIX: the capability material now runs BEFORE the death, as setup. You watch
+  them build, dive and lift a throne, and THEN learn they couldn't see a dead
+  man in the room. The peak now lands last and flows straight into the next
+  correction.
+
+  FAULT 3 — THE PINNED COMMENT ASKED A QUESTION THE SCRIPT COULDN'T SUPPORT.
+  The pinned comment asks "which of these four did you believe?" — but the draft
+  never numbered them out loud. Nothing for a viewer to map an answer onto.
+  FIX: all four are now explicitly numbered in VO and on screen. This also
+  builds a retention ladder — a viewer who has collected one, two and three
+  will stay for four. That device is most of why list content retains.
+
+  FAULT 4 — THE SUBSCRIBE ASK WAS IN THE WORST POSSIBLE PLACE.
+  The audit found this channel asks at the very end, after the payoff, and
+  converts at 1.7%. The draft repeated that mistake.
+  FIX: the ask now sits at 7:05, in the two seconds after the Sulayman reveal —
+  the emotional peak of the video. Nothing at the end but the close.
+
+  ALSO: pace corrected. 135 wpm measured off the de-duplicated Anger transcript
+  (851 words / 377s), not 150 assumed. The brief's "~9:30" was really about
+  10:30. Script rebuilt to a counted 1,361 words, landing 10:05.
+
+
+================================================================================
+CONTINUITY — READ BEFORE WRITING ANYTHING ELSE
+================================================================================
+
+Burned on this channel. None of these may be re-explained here.
+
+  BURNED — ANGER / SELF-CONTROL. "What the Quran Actually Says About Anger" is
+  the channel's best video (846 views). Its whole spine is kazimeen al-ghaiz and
+  the swallowing of rage. The jinn script touches waswasa in beat 09 and must
+  not drift into a second anger lecture. One line, then out.
+
+  BURNED — THE PLAGUES / PHARAOH PATTERN. "Every Plague of Egypt Explained"
+  already used the enumerate-a-sequence-from-one-surah structure with Musa. This
+  video uses Sulayman instead, deliberately, so the two don't read as reruns.
+
+  NOT BURNED, DO NOT TOUCH ANYWAY — RUQYAH AND POSSESSION. "ruqyah" carries
+  ~240k monthly searches and it will be tempting. Leave it. It is a separate
+  video, it needs fiqh you do not want to adjudicate on camera, and folding it in
+  here drags the whole piece toward the horror lane the thumbnail is engineered
+  to avoid. Beat 11 gestures at protection and stops. Hold that line.
+
+CTA INHERITANCE. Nothing to inherit — the channel has no series framing across
+14 uploads. Start one here. The close sets up "Part 2: what the Quran says about
+the angels" so the next upload has somewhere to land.
+
+
+================================================================================
+SCENE MAP — the spine both tracks hang off
+================================================================================
+
+  #  | IN     | OUT    | LEN    | BEAT                | ANCHOR
+ ----|--------|--------|--------|---------------------|----------------------
+  01 | 0:00.0 | 0:38.0 | 38.0s  | cold open — Iblis   | Al-Kahf 18:50
+  02 | 0:38.0 | 1:46.0 | 68.0s  | the root ج-ن-ن      | lexicography
+  03 | 1:46.0 | 2:31.0 | 45.0s  | made of what        | 55:15 · 15:27
+  04 | 2:31.0 | 3:37.0 | 66.0s  | MISCONCEPTION 1     | Al-Kahf 18:50
+  05 | 3:37.0 | 4:29.0 | 52.0s  | MISCONCEPTION 2     | 72:11 · 72:13
+  06 | 4:29.0 | 5:24.0 | 55.0s  | the night they heard| 72:1-2 · 46:29,31 · 51:56
+  07 | 5:24.0 | 6:14.0 | 50.0s  | what they could do  | 27:17 · 27:39 · 34:12-13
+  08 | 6:14.0 | 7:12.0 | 58.0s  | MISCONCEPTION 3 ★   | Saba 34:14
+  09 | 7:12.0 | 8:07.0 | 55.0s  | MISCONCEPTION 4     | Al-Jinn 72:6
+  10 | 8:07.0 | 9:03.0 | 56.0s  | who's whispering    | 6:112 · 114:6
+  11 | 9:03.0 | 10:05.0| 62.0s  | the close — junna   | root callback
+
+  ★ PEAK. The subscribe ask sits at 7:05, inside beat 08, immediately after
+  "they couldn't see a dead man in the room with them." Nowhere else.
+
+  IF YOU CUT FOR TIME: cut from 03 and 07. Never from 01, 08 or 11.
+
+
+================================================================================
+VISUAL SYSTEM
+================================================================================
+
+THE ONE IDEA. The root ج-ن-ن means "to conceal." So the entire film is shot
+through things that conceal while letting light through. The mashrabiya — the
+carved wooden lattice screen of Islamic architecture, whose literal function is
+to hide what is behind it while passing light — is the spine motif. It appears
+in seven of the eleven beats. It is the root, made photographable.
+
+HARD RULES — these are not style preferences.
+
+  NO FIGURES. No people, no faces, no hands, no silhouettes of persons. The
+  channel is faceless and this topic makes that a doctrinal asset, not just a
+  production shortcut.
+
+  SULAYMAN IS NEVER DEPICTED. Not as a person, not as a silhouette, not as a
+  shape on a throne, not implied by a shadow. Prophets are not depicted. Beat 07
+  and 08 are carried entirely by objects, architecture and empty space. The
+  staff in beat 08 is shown alone, standing, with nothing holding it.
+
+  JINN ARE NEVER DEPICTED. No creatures, no entities, no eyes, no smoke-with-a-
+  shape. The moment you draw one you have made a monster video and you will get
+  the monster audience, which does not subscribe to tafsir channels. Jinn are
+  conveyed as ABSENCE and as heat-distortion — the air bending, and nothing
+  there.
+
+  NO HORROR GRAMMAR. No red, no green glow, no fog machine, no crawling shadow,
+  no candle-in-a-corridor. This is the whole differentiator against the content
+  already ranking for this keyword.
+
+  ARABIC IS NEVER GENERATED. Every image model garbles Arabic script, and
+  garbled Quranic text in a Quran video is the one error that will end the
+  channel's credibility in a single comment thread. All Arabic is burned in
+  during the edit from real text. Every prompt below says "no text."
+
+PALETTE
+  near-black         #0A0C10   ground, 70% of every frame
+  ember              #E8873C   the fire the jinn are made of — beats 03, 08 only
+  parchment          #E8DCC8   text, paper, stone highlights
+  muted gold         #C9A227   brass, lamplight, lattice edges
+  deep garden green  #123B36   beat 02 only, on the janna word — nowhere else
+
+  The ember/green discipline matters. Ember appears in exactly two beats so it
+  reads as "the material they're made of," and green appears in exactly one so
+  it reads as "the garden." Spray either everywhere and both stop meaning
+  anything.
+
+LIGHT. One hard key, always raking, always low. Long real shadows. Deep falloff
+to near-black at the frame edges. The look is a single shaft of light in a dark
+room — which is also, conveniently, exactly what a mashrabiya does to sunlight.
+
+MOTION. Slow. Nothing in this film moves fast. No whip pans, no snap zooms, no
+shake. Pushes are 5–10% total travel across a whole beat, eased out.
+
+
+================================================================================
+TEXT ON SCREEN — burn in during the edit, never generate
+================================================================================
+
+Long-form carries far less on-screen text than a Short. Three kinds only:
+
+  A) THE VERSE CARD. On every citation. Arabic line, transliteration, English,
+     reference. Held 4–6s, parchment on near-black, centred, no motion.
+  B) THE ROOT CARD. Beat 02 only. The four cognates, revealed one at a time.
+  C) THE COUNTER. Beats 04, 05, 08, 09. A small persistent marker, upper-right,
+     parchment, 40% opacity: "1 OF 4" … "4 OF 4". This is the retention ladder —
+     it is doing real work, do not drop it for being unglamorous.
+
+  BEAT | ON SCREEN
+  -----|---------------------------------------------------------------
+   01  | كَانَ مِنَ الْجِنِّ  /  kāna min al-jinn  /  "He was of the jinn"  — AL-KAHF 18:50
+   02  | ج ن ن  →  جِنّ  ·  جَنَّة  ·  جَنِين  ·  مَجْنُون  ·  جُنَّة   (one at a time)
+   03  | مَارِج مِّن نَّار  /  mārij min nār  /  "a smokeless flame of fire" — AR-RAHMAN 55:15
+   04  | 1 OF 4 — IBLIS WAS NOT AN ANGEL
+   05  | 2 OF 4 — NOT ALL JINN ARE EVIL          — AL-JINN 72:11
+   06  | قُرْآنًا عَجَبًا  /  qurʾānan ʿajabā  /  "an amazing Qur'an" — AL-JINN 72:1
+   07  | (none — let the objects carry it)
+   08  | 3 OF 4 — THEY CANNOT KNOW THE UNSEEN    — SABA 34:14
+   09  | 4 OF 4 — SEEKING THEIR PROTECTION BACKFIRES — AL-JINN 72:6
+   10  | مِنَ الْجِنَّةِ وَالنَّاسِ  /  min al-jinnati wa'n-nās  /  "from among the jinn and mankind" — AN-NAS 114:6
+   11  | جُنَّة  /  junna  /  "a shield"
+
+TYPESETTING. Arabic in a proper Uthmani face (KFGQPC Uthmanic Script HAFS, or
+Amiri Quran). Do NOT set Quranic text in a UI font. Copy the Arabic from a
+verified digital mushaf, paste it as an image if your editor mangles RTL, and
+eyeball every diacritic against the source before render. English in the same
+condensed sans the channel already uses.
+
+
+================================================================================
+================================  TRACK B  =====================================
+              STILLS — 26 IMAGES + EDIT MOVES   ** SHOOT THIS ONE **
+================================================================================
+
+SETTINGS: 16:9 · 2560x1440 and downscale (you want headroom for the pushes) ·
+one image per shot.
+
+STRUCTURE. Each beat gets one HERO and one or two SUPPORTs. Cut hero → support
+→ hero across the beat so nothing sits longer than ~20 seconds. Plus a six-plate
+TEXTURE POOL at the end that can be dropped anywhere a beat runs long — those
+six are the reusable library and they will serve every future video too.
+
+CONSISTENCY. Generate H02 first — the mashrabiya. It sets lattice geometry,
+wood tone and light angle for six other shots. Approve it, lock the seed, and
+feed it as a reference image to H04, H06, H09, H10, S02b and S09b.
+
+NEGATIVE PROMPT — paste once, applies to all 26:
+
+people, person, human, figure, silhouette of a person, face, facial features,
+eyes, hands, body, crowd, prophet, angel, wings, creature, demon, monster,
+spirit, ghost, apparition, skull, horror, jump scare, red glow, green glow,
+fog machine, text, lettering, Arabic script, calligraphy, numbers, logos,
+watermark, signature, cartoon, anime, 2D illustration, flat vector, cel shading,
+oversaturation, HDR glow, blown highlights, plastic sheen, composite look,
+tilted horizon, clutter, busy background, low resolution
+
+--------------------------------------------------------------------------------
+H01 · beat 01 · hold 0:00–0:14 · COLD OPEN
+MOVE: push in 6%, centred, eased out.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/2.8. A single open antique book lies on a dark walnut
+surface, its pages completely blank and unprinted, one page lifted slightly and
+held mid-turn by nothing at all. Deep near-black surround, the book lit by one
+hard raking shaft from camera-left as though through a high window, a long
+defined shadow thrown right. Fine paper fibre and foxing visible along the
+deckled edge. Near-photorealistic paper and wood, restrained cool grade with a
+single muted gold highlight on the page edge. Absolute stillness. 16:9, book in
+the lower two-thirds, deep empty dark filling the upper third for the verse card.
+
+--------------------------------------------------------------------------------
+S01a · beat 01 · hold 0:14–0:26
+MOVE: hold dead still. This is the contradiction landing — let it sit.
+--------------------------------------------------------------------------------
+Locked-off macro, 100mm, f/4. Two identical blank parchment cards on dark matte
+stone, laid side by side with a hand's width between them, both completely
+unprinted. The left card is lit warm and clean; the right card sits in shadow
+with only its top edge catching light. Identical hard shadows falling the same
+way. Near-photorealistic parchment tooth and stone grain. Single hard key from
+upper left, deep near-black falloff. Square-on, generous margin, 16:9.
+
+--------------------------------------------------------------------------------
+S01b · beat 01 · hold 0:26–0:38
+MOVE: pull back 8%, revealing more darkness around the shaft.
+--------------------------------------------------------------------------------
+Wide interior, 24mm, f/5.6. An empty stone chamber in near-total darkness with a
+single narrow shaft of hard daylight entering from high camera-left and striking
+the floor, dust suspended and visible in the beam. Nothing else in the room —
+no furniture, no figures, no objects. Ancient dressed stone, fine surface
+pitting, near-photorealistic. Cool neutral grade, one muted gold warmth inside
+the shaft only. Vast, quiet, empty. 16:9, the beam entering upper-left and
+landing lower-right, deep black filling most of the frame.
+
+--------------------------------------------------------------------------------
+H02 · beat 02 · hold 0:38–0:56 · THE ROOT   ** GENERATE FIRST — reference shot **
+MOVE: push in 5%, very slow.
+--------------------------------------------------------------------------------
+Frontal architectural detail, 50mm, f/4, of a carved wooden mashrabiya lattice
+screen filling the frame, backlit by warm low sun so the geometric interlace
+reads as a dark silhouette against glowing light, with hard geometric light
+patterns thrown forward onto a stone floor in the foreground. Aged hardwood with
+visible grain, turned spindles, fine dust on the ledge. Nothing visible through
+the lattice — the space behind is pure blown warm light with no detail, no
+figures, nothing legible. Near-photorealistic, deep near-black in the unlit
+carving, muted gold through the gaps. Perfectly square-on and symmetrical. 16:9.
+
+--------------------------------------------------------------------------------
+S02a · beat 02 · hold 0:56–1:14 · JANNA
+MOVE: drift right 40px, revealing more foliage depth.
+--------------------------------------------------------------------------------
+Macro, 100mm, f/2, into dense dark garden foliage — layered broad leaves in deep
+green, so thick that the ground beneath is completely hidden and unreadable. One
+narrow shaft of low sun penetrates the canopy and lands on a single leaf,
+leaving everything else in deep shadow. Water droplets on the lit leaf.
+Near-photorealistic botanical detail, fine leaf venation. Deep near-black
+falloff at all edges, deep garden green in the mass, one warm highlight. No sky,
+no horizon, no path, nothing man-made. 16:9, dense and enclosing.
+
+--------------------------------------------------------------------------------
+S02b · beat 02 · hold 1:14–1:46 · CONCEALMENT
+MOVE: push in 7% toward the lattice gap.
+--------------------------------------------------------------------------------
+Three-quarter architectural shot, 35mm, f/2.8, of the same carved wooden
+mashrabiya screen seen at an angle from a dark interior, warm daylight pressing
+through the geometric openings and falling across a bare stone floor in sharp
+repeating shapes. The room in front of the screen is empty and near-black. Aged
+hardwood, visible turning marks, dust motes suspended in the light. Nothing
+discernible beyond the screen — light only. Near-photorealistic, single hard
+warm key from behind the lattice, deep cool shadow in the interior. 16:9,
+screen occupying the right two-thirds, empty dark room left.
+
+--------------------------------------------------------------------------------
+H03 · beat 03 · hold 1:46–2:08 · SMOKELESS FIRE
+MOVE: push in 8%, slow, into the heat distortion.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, of the tip of a single flame against pure black,
+shot so that only the clear moving air above the flame is in frame — visible
+heat distortion bending the darkness, with no smoke and no visible fuel source.
+The flame body itself sits at the very bottom edge, mostly out of frame. Ember
+orange at the base falling off instantly to black. Near-photorealistic
+refraction and shimmer in the heated air. Nothing else in frame at all. Very
+shallow focus. 16:9, distortion filling the centre, deep black surround.
+
+--------------------------------------------------------------------------------
+S03a · beat 03 · hold 2:08–2:31 · CLAY
+MOVE: hold still — this is the contrast, it should sit next to the fire.
+--------------------------------------------------------------------------------
+Locked-off macro, 100mm, f/5.6, of a rough handful of dry cracked earthenware
+clay resting on dark matte stone, its surface fissured and matte, absorbing all
+light. Fine grit and dust around it. One hard raking key from camera-left
+picking out the cracks in relief, long shadow right, deep near-black surround.
+Cool neutral grade, no warmth anywhere in frame. Near-photorealistic mineral
+texture. Heavy, inert, grounded. 16:9, clay low-centre, dark above.
+
+--------------------------------------------------------------------------------
+H04 · beat 04 · hold 2:31–2:55 · MISCONCEPTION 1
+MOVE: push in 5% and drift down 20px.
+--------------------------------------------------------------------------------
+Architectural still, 35mm, f/4. A row of identical stone alcoves in a dark wall,
+each empty, receding evenly across frame — except one alcove near the centre
+which is lit differently from all the others, catching a cold shaft while the
+rest sit in warm shadow. No objects in any alcove, no figures anywhere. Aged
+dressed stone with fine pitting and lime bloom. Near-photorealistic. Deep
+near-black, one hard cool key isolating the single alcove. Rigidly symmetrical
+composition broken only by that one lighting difference. 16:9.
+
+--------------------------------------------------------------------------------
+S04a · beat 04 · hold 2:55–3:37
+MOVE: pull back 6%, isolating the single stone.
+--------------------------------------------------------------------------------
+Overhead flat-lay, 50mm, f/5.6, shot perpendicular. A tight grid of identical
+smooth pale stones on dark matte sand, laid in even rows, all lying flat — with
+one single stone standing upright on its edge, breaking the pattern. Every stone
+casts an identical hard shadow; the upright one casts a long anomalous shadow
+across the others. Near-photorealistic stone and sand grain. One hard overhead
+key slightly off-axis, deep near-black falloff at the frame edges. Cool neutral
+grade, no warmth. 16:9, grid centred, margin all round.
+
+--------------------------------------------------------------------------------
+H05 · beat 05 · hold 3:37–4:03 · MISCONCEPTION 2
+MOVE: drift left 30px, slow.
+--------------------------------------------------------------------------------
+Wide low-angle, 24mm, f/5.6, of a desert at pre-dawn where the ground divides
+into two distinct paths running away from camera in different directions,
+separated by a low ridge of stone. One path catches early warm light along its
+length; the other stays in cool blue shadow. No figures, no footprints, no
+structures. Fine wind-rippled sand, near-photorealistic. Deep near-black sky
+with no stars, a single warm band at the horizon. Vast and quiet. 16:9, the fork
+low in frame, sky filling the upper half.
+
+--------------------------------------------------------------------------------
+S05a · beat 05 · hold 4:03–4:29
+MOVE: push in 6% on the lit half.
+--------------------------------------------------------------------------------
+Macro, 100mm, f/2.8, of a single line of small identical pale stones running
+across dark matte ground from lower-left to upper-right, half of them falling
+inside a hard shaft of warm light and half sitting in deep shadow, with the
+light's edge cutting the line cleanly in the middle. Near-photorealistic stone
+texture and fine dust. One hard key from camera-right, deep near-black
+elsewhere. Cool grade in shadow, muted gold in light. 16:9, line running
+diagonally, generous dark space above.
+
+--------------------------------------------------------------------------------
+H06 · beat 06 · hold 4:29–4:56 · THE NIGHT THEY LISTENED
+MOVE: push in 5%, very slow, toward the opening.
+--------------------------------------------------------------------------------
+Exterior night, 35mm, f/2. A low doorway in an ancient stone wall seen from
+outside in near-total darkness, warm lamplight spilling out from within across
+the threshold and onto the sand, the interior beyond not visible. Nobody in the
+doorway, nothing in the light. Rough dressed stone, wind-scoured, fine sand
+drifted at the base. Near-photorealistic. Deep near-black night with no moon,
+muted gold pooling only at the threshold. Still and listening. 16:9, doorway
+centred, darkness filling the rest.
+
+--------------------------------------------------------------------------------
+S06a · beat 06 · hold 4:56–5:24
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+Macro, 85mm, f/2.8, of an open handwritten manuscript on a low wooden rest, the
+pages blank and completely unprinted, lit by a single oil lamp just out of frame
+so the parchment glows warm at the centre and falls to black at the edges. Fine
+parchment tooth, slight cockling, the ruled blind-lines of an unwritten page
+just catching the light. Near-photorealistic. Deep near-black surround, one warm
+muted gold pool. Reverent and quiet. 16:9, manuscript low-centre.
+
+--------------------------------------------------------------------------------
+H07 · beat 07 · hold 5:24–5:49 · WHAT THEY COULD DO
+MOVE: pull back 8%, revealing scale.
+--------------------------------------------------------------------------------
+Wide architectural, 24mm, f/8, of a vast unfinished stone hall at night —
+massive dressed blocks stacked into half-built columns, scaffolding of rough
+timber, dressed stone waiting on the floor. Completely deserted, no figures, no
+tools in motion. One hard cold moonlight key from high camera-right throwing
+long architectural shadows across the floor. Near-photorealistic masonry, chisel
+marks visible on the block faces, stone dust underfoot. Deep near-black, cool
+grade, one muted gold from a distant unseen lamp. Monumental and empty. 16:9.
+
+--------------------------------------------------------------------------------
+S07a · beat 07 · hold 5:49–6:14
+MOVE: push in 7% on the vessel.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/4, of a single enormous cast bronze basin standing alone on
+a dark stone floor, far too large to have been lifted by any ordinary means, its
+surface hammered and patinated. Nothing else in frame. One hard raking key from
+camera-left picking out the hammer marks in relief, a long heavy shadow thrown
+right, deep near-black surround. Near-photorealistic bronze with real specular
+hits and fine verdigris in the recesses. Cool grade, muted gold on the rim.
+16:9, basin centred low, dark space above.
+
+--------------------------------------------------------------------------------
+H08 · beat 08 · hold 6:14–6:44 · THE STAFF   ** PEAK — generate second **
+MOVE: push in 9%. The most decisive move in the film.
+--------------------------------------------------------------------------------
+Still life, 100mm, f/2.8. A single tall wooden staff standing perfectly upright
+and alone on a dark polished stone floor, nothing holding it, nothing leaning on
+it, no figure anywhere in frame. Aged hardwood, worn smooth at the grip,
+near-photorealistic grain. One hard low raking key from camera-left throwing an
+extremely long shadow across the floor to the right. Deep near-black surround,
+cool neutral grade with one faint ember warmth low on the shaft. Absolutely
+still. 16:9, staff centred and vertical, floor running to black, deep empty
+space either side.
+
+--------------------------------------------------------------------------------
+S08a · beat 08 · hold 6:44–6:58 · THE CREATURE'S WORK
+MOVE: push in 10% into the bored hole.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, of the base of an aged wooden staff where it meets
+dark stone, a small clean bored hole eaten through the grain near the bottom,
+fine pale wood dust fallen in a ring around the base. No insect visible. Deep
+grain detail, near-photorealistic wood and dust. One hard raking key from
+camera-left, deep black surround, extremely shallow focus with the hole sharp
+and the floor dissolving. 16:9, hole slightly off-centre.
+
+--------------------------------------------------------------------------------
+S08b · beat 08 · hold 6:58–7:12 · THE FALL
+MOVE: hold dead still for four seconds, then push in 4%.
+--------------------------------------------------------------------------------
+Still life, 100mm, f/2.8, of the same wooden staff now lying flat and fallen on
+the dark polished stone floor, a small ring of pale wood dust beside it, the
+long shadow now flat and broken across the floor. Nothing else in frame.
+Near-photorealistic wood grain and stone. One hard low raking key from
+camera-left, deep near-black surround, cool neutral grade. Final and quiet.
+16:9, staff running diagonally across the lower third, vast dark above.
+
+--------------------------------------------------------------------------------
+H09 · beat 09 · hold 7:12–7:40 · MISCONCEPTION 4
+MOVE: push in 6%.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/4, of a traveller's rough woollen cloak and a clay water jar
+set down on dark sand at the base of a stone outcrop at dusk, arranged as though
+left there deliberately. Nobody present. Coarse wool weave, unglazed clay, fine
+sand grain, near-photorealistic. One hard cold key from camera-right, long
+shadows thrown left, deep near-black falloff. Cool grade, one last band of muted
+gold at the horizon. Still, exposed, faintly uneasy. 16:9, objects low in frame.
+
+--------------------------------------------------------------------------------
+S09a · beat 09 · hold 7:40–8:07
+MOVE: pull back 10%, the weight becoming visible as the frame widens.
+--------------------------------------------------------------------------------
+Macro, 85mm, f/4, of a heavy iron chain coiled on dark matte stone, its links
+thick and pitted with age, the coil sitting with real weight and pressing into
+fine dust beneath. Nothing attached to either end — both ends visible and free.
+Near-photorealistic corroded iron with deep pitting and flaking scale. One hard
+raking key from upper left, long shadow right, deep near-black surround. Cool
+grade, no warmth. 16:9, chain centred low, dark above.
+
+--------------------------------------------------------------------------------
+H10 · beat 10 · hold 8:07–8:35 · WHO'S WHISPERING
+MOVE: drift right 40px, slow, past the openings.
+--------------------------------------------------------------------------------
+Interior, 35mm, f/2.8, of a long dark stone corridor lined on one side with the
+same carved wooden mashrabiya screens, warm light pressing through each in turn
+and throwing repeating geometric shapes across the floor. The corridor is
+completely empty. Aged hardwood and dressed stone, dust suspended in each shaft.
+Near-photorealistic. Deep near-black, one hard warm key per opening, cool fill
+in the corridor. Receding, rhythmic, nobody there. 16:9, corridor running to a
+dark vanishing point.
+
+--------------------------------------------------------------------------------
+S10a · beat 10 · hold 8:35–9:03
+MOVE: push in 8% on the near cup.
+--------------------------------------------------------------------------------
+Still life, 100mm, f/2, of two identical plain clay cups on a dark wooden table,
+one close to camera and sharp, one further back and soft, set as though for two.
+Both empty. Nobody present, no chairs visible. Unglazed clay with fine throwing
+rings, near-photorealistic. One hard low key from camera-left, two long shadows
+falling parallel, deep near-black surround. Cool grade, one faint muted gold on
+the near rim. Intimate and wrong. 16:9, cups in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+H11 · beat 11 · hold 9:03–9:33 · THE SHIELD
+MOVE: push in 5%, settling.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/4, of a plain round hammered brass shield resting upright
+against a dark stone wall, its face unadorned with no emblem, boss or
+decoration, catching one hard raking light across its curvature. Fine hammer
+planishing marks and a warm patina. Nothing else in frame. Near-photorealistic
+brass with real specular falloff. One hard key from camera-left, long shadow
+right, deep near-black surround. Muted gold on the metal, cool grade elsewhere.
+Solid, settled, protective. 16:9, shield centred, dark space around.
+
+--------------------------------------------------------------------------------
+S11a · beat 11 · hold 9:33–10:05 · CLOSE
+MOVE: pull back 12% — the widest move in the film, saved for last.
+--------------------------------------------------------------------------------
+Wide, 24mm, f/8, of the same stone chamber from S01b at dawn, the single shaft
+of light now broadened and warmer, falling across the empty floor. Still no
+furniture, no objects, no figures — but the room is now legible where before it
+was black. Dust suspended and lit. Aged dressed stone, near-photorealistic. Deep
+shadow at the edges holding, warm muted gold in the centre. Resolved, open,
+quiet. 16:9, the beam entering upper-left, generous space for the closing card.
+
+--------------------------------------------------------------------------------
+TEXTURE POOL — 6 plates, reusable, drop anywhere a beat runs long
+--------------------------------------------------------------------------------
+  T1  Macro dust motes suspended in a hard shaft of warm light against pure
+      black, nothing else in frame, extremely shallow focus. MOVE: drift up 20px.
+  T2  Macro wind-rippled sand at a low raking angle, fine grain, long shadows in
+      the ripples, deep black falloff. MOVE: drift left 30px.
+  T3  Extreme macro of aged parchment fibre filling frame, one hard raking key
+      picking out the tooth, no printing. MOVE: push in 6%.
+  T4  Macro of still dark water with one narrow band of muted gold reflected on
+      the surface, nothing beneath visible. MOVE: hold still.
+  T5  Macro of carved geometric wood joinery, hard light across the interlace,
+      deep shadow in the recesses. MOVE: push in 5%.
+  T6  Extreme macro heat shimmer over dark stone, air visibly bending, no fire
+      or fuel in frame. MOVE: hold still. ** ember grade — beats 03/08 only **
+
+
+================================================================================
+================================  TRACK A  =====================================
+                   VIDEO — SAME 26 SHOTS (HIGGSFIELD)
+================================================================================
+
+Only shoot this if you have the budget and patience. Instructions:
+
+Use the Track B prompt text verbatim as the base for each clip, then add the
+motion from that shot's MOVE line as an actual camera move, set through
+Higgsfield's motion control rather than described in the prompt text — the
+presets hold far better than prompted motion, which is the reason to be on the
+platform at all. Generate 5s and trim, except H02, H08, S08b and S11a, which
+want 10s.
+
+Everything in frame stays still. The ONLY things permitted to move anywhere in
+this film are: suspended dust, the heat distortion in H03 and T6, water in T4,
+and the camera. Nothing else moves. No falling staff — S08b is the aftermath,
+shot static; do not animate the fall, generated video will make it comic.
+
+Same negative prompt as Track B, plus: camera shake, whip pan, zoom, morphing
+geometry, warping architecture, flickering light, strobing.
+
+
+================================================================================
+VOICEOVER — record to media/jinn-vo.mp3
+1,361 words · target 10:05 at the channel's measured 135 wpm
+(counted, not estimated: 10:28 if you read at 130, 9:43 if you read at 140)
+================================================================================
+
+ElevenLabs v3, stability 50, similarity 75, speed 0.95. Slightly slower than the
+finance slate — this is teaching, not argument. Tags sparse. The full stops
+between short sentences are doing the pacing; do not add tags to compensate.
+
+VOICE NOTE FROM THE AUDIT. The single most-liked audience comment on this
+channel is "AI BE AWARE." If you can record beats 01 and 11 in a real voice and
+let the synthetic carry the middle, do it — the open and the close are where
+trust is decided. If you can't, at minimum move off whatever generated the
+Anger video; that read is what drew the comment.
+
+------------------------------------------------------------ BEAT 01 — COLD OPEN
+
+[serious] Everyone knows the story. Allah commanded the angels to bow to Adam.
+They all bowed. One refused. And that one was Iblis.
+
+So Iblis was a fallen angel.
+
+[pause] Except the Quran never says that.
+
+Surah Al-Kahf, verse fifty. Same event. Same refusal. And then five words that
+almost nobody notices.
+
+Kana min al-jinn.
+
+He was of the jinn.
+
+Not an angel who fell. Something else entirely — and once you see it, three more
+things you were probably told about jinn stop holding up too. The fourth one
+should change what you actually do.
+
+Start with the word itself, because the word gives the whole thing away.
+
+------------------------------------------------------------ BEAT 02 — THE ROOT
+
+"Jinn" is not a name.
+
+It's a description. The root is jeem, noon, noon. And it means: to conceal. To
+cover over.
+
+You already know this root, even if you've never noticed it.
+
+Janna — the garden, paradise. Same root. Because a garden is a place so thick
+with growth that the ground beneath it is hidden.
+
+Janeen — a fetus. Same root. Because the child is concealed inside the womb.
+
+Majnoon — which gets translated "madman." Same root. Someone whose reason has
+been covered over.
+
+And junna — a shield. Same root. The thing you hide behind. [pause] Hold onto
+that one. We come back to it at the end.
+
+So when the Quran says jinn, it isn't saying demon. It's saying: the concealed
+ones. The ones you cannot see.
+
+That's the whole category. Not evil. Not monstrous. Hidden.
+
+--------------------------------------------------------- BEAT 03 — MADE OF WHAT
+
+The Quran is specific about what they're made of.
+
+Surah Ar-Rahman, verse fifteen. He created man from clay like pottery — and He
+created the jinn from a smokeless flame of fire. Marij min nar.
+
+And Surah Al-Hijr, verse twenty-seven: and the jinn We created before, from
+scorching fire.
+
+Two things there. Before — jinn were created before human beings. And marij:
+not a log burning. Not smoke. The pure moving part of a flame. The part with no
+substance you could hold.
+
+Which fits the root exactly. Made of the thing you can see straight through.
+
+------------------------------------------------- BEAT 04 — MISCONCEPTION ONE
+
+So. Number one. Iblis was never an angel.
+
+[serious] And that isn't a technicality. It's the entire moral logic of the
+story.
+
+Angels, as the Quran describes them, do not disobey. That is what they are. They
+do what they are commanded.
+
+Iblis could refuse — because Iblis had the one thing angels don't. A will. The
+same thing you have.
+
+He wasn't a perfect being who malfunctioned. He was a being who could choose,
+and chose wrong.
+
+Which is why his story is aimed at you. It only works as a warning if he was
+never an angel in the first place.
+
+------------------------------------------------- BEAT 05 — MISCONCEPTION TWO
+
+Number two. Not all jinn are evil.
+
+Surah Al-Jinn, verse eleven — and this is the jinn speaking about themselves:
+and among us are the righteous, and among us are others below that. We follow
+different paths.
+
+They have believers and disbelievers. Some get it right. Some don't. Exactly
+like us.
+
+Two verses later: and when we heard the guidance, we believed in it.
+
+So jinn is not another word for shaytan. Shaytan describes behaviour, not
+species. [pause] And that turns out to apply to more of us than people expect.
+
+------------------------------------------ BEAT 06 — THE NIGHT THEY LISTENED
+
+Which brings us to how the Quran says they were created — and why.
+
+Surah Adh-Dhariyat, verse fifty-six: and I did not create the jinn and mankind
+except to worship Me.
+
+One sentence. Both named together. Which is why Surah Ar-Rahman keeps addressing
+two audiences and asking, thirty-one times, which of your Lord's favours you
+would deny.
+
+And then Surah Al-Jinn opens with something remarkable. Say: it has been
+revealed to me that a group of the jinn listened — and they said, indeed, we
+have heard an amazing Quran.
+
+Surah Al-Ahqaf tells the same night from their side. They listened. They told
+each other to be quiet. And when it ended they went back to their own people as
+warners: O our people, respond to the caller of Allah.
+
+Nobody summoned them. No ritual. They passed by, they heard recitation, and it
+moved them.
+
+------------------------------------------------- BEAT 07 — WHAT THEY COULD DO
+
+Now — what can they actually do?
+
+The Quran answers that through Sulayman, peace be upon him.
+
+Surah An-Naml: gathered for Sulayman were his soldiers of the jinn and men and
+birds. And when he needed a throne carried across a great distance, one of them
+— an ifrit, a powerful one among the jinn — said: I will bring it to you before
+you rise from your place.
+
+Surah Saba adds the rest. They built. They dived. They made elevated chambers
+and basins like reservoirs and cauldrons that could not be moved.
+
+So: strength. Speed. Real capability. [pause] Under a prophet's authority, by
+Allah's permission, in a documented exception. Not a power available for hire.
+
+And then Sulayman died.
+
+---------------------------------------- BEAT 08 — MISCONCEPTION THREE ★ PEAK
+
+He died leaning on his staff. And the jinn working under him kept working —
+because they did not know.
+
+They kept labouring for a dead king. For how long, the Quran doesn't say. Until
+a creature of the earth ate through the wood, and he fell.
+
+Surah Saba, verse fourteen: when he fell, it became clear to the jinn that if
+they had known the unseen, they would not have remained in humiliating
+punishment.
+
+[pause] They couldn't see a dead man standing in the room with them.
+
+Sit with that. Of every example available, the Quran chose the most humiliating
+one — to make a single point. Number three: whatever jinn are, they are not a
+source of knowledge.
+
+Which means anyone selling you access to the unseen through them is selling you
+something the Quran itself holds up as a joke.
+
+[warmly] If that landed — subscribe. There's one more, and it's the one that
+changes what you do.
+
+------------------------------------------------ BEAT 09 — MISCONCEPTION FOUR
+
+Number four.
+
+Surah Al-Jinn, verse six: and there were men from mankind who sought refuge in
+men from the jinn — so they only increased them in burden.
+
+That was a real practice. Travellers would stop somewhere unfamiliar and ask the
+jinn of that place for protection before sleeping.
+
+The Quran's verdict is one word. Rahaqa. They increased them in burden. In
+oppression. In exhaustion.
+
+They asked for protection. They received weight.
+
+[serious] Seeking safety from the concealed does not produce safety. It produces
+dependency.
+
+-------------------------------------------- BEAT 10 — WHO'S ACTUALLY WHISPERING
+
+And here is the part almost nobody expects.
+
+Surah Al-An'am, verse a hundred and twelve, speaks of shayateen of mankind and
+jinn. Devils from among humans. And devils from among jinn.
+
+And then the very last surah of the Quran — An-Nas — names the whisperer who
+whispers into the chests of people. And it ends: min al-jinnati wan-nas.
+
+From among the jinn. And from among mankind.
+
+[pause] The final line of the Quran names a human threat standing right beside
+the hidden one.
+
+Which means shaytan was never a species. It's a job description. And some of
+the people doing that job are entirely visible, standing next to you, concealed
+by nothing at all.
+
+------------------------------------------------------------- BEAT 11 — THE CLOSE
+
+So bring the root back.
+
+Jinn — the concealed. Janeen — the concealed child. Janna — the concealed
+garden. Majnoon — the concealed mind.
+
+And junna. The shield. The thing that covers you.
+
+[calm] The Quran doesn't hand you a ritual to use against the unseen. It hands
+you a junna. Al-Fatiha. Ayat al-Kursi. The last two surahs. The morning and the
+evening remembrance.
+
+Protection that never requires you to negotiate with anything hidden — because
+it comes from the One who made the hidden thing in the first place.
+
+They were made from fire. You were made from clay. Neither of you can see the
+other clearly.
+
+[warmly] Only One sees both.
+
+PACING NOTES.
+  "Kana min al-jinn" in beat 01 is the whole video. Full beat of silence either
+  side. Do not let the next line ride in on it. If v3 rushes it, generate beat 01
+  as its own pass with the line isolated and cut it in — same fix as "Deadbeats".
+  "They couldn't see a dead man standing in the room with them" gets the same
+  treatment. Two seconds of nothing after it, then the subscribe line.
+  Arabic terms: slow down roughly 15% on every transliterated word. The channel's
+  Arabic reads rushed in the Anger video and it undercuts the authority.
+
+
+================================================================================
+PINNED COMMENT — post at upload, do not reuse the old template
+================================================================================
+
+  Before I made this I genuinely thought Iblis was a fallen angel — Al-Kahf
+  18:50 corrected me.
+
+  Which of the four did you grow up believing? 1, 2, 3 or 4 — tell me below.
+
+  (1 — Iblis was an angel · 2 — all jinn are evil · 3 — jinn know the unseen ·
+  4 — you can seek their protection)
+
+Spelling the four out is the point. The audit found this channel's only video
+with real comments was the one whose pinned comment asked something specific and
+answerable. A viewer can reply "3" in two seconds. Make it that cheap.
+
+Reply to every comment in the first 48 hours, in the register the audience
+actually uses — JazakAllahu khayran, barakAllahu feek. Drop "God bless!"
+entirely; it reads as off-register on a Quran channel and it's in eleven of your
+pinned comments right now.
+
+
+================================================================================
+PACKAGING
+================================================================================
+TITLE        Every Verse About Jinn in the Quran Explained (Iblis Was Never an Angel)
+             alt 1: Everything the Quran Says About Jinn — Explained in 10 Minutes
+             alt 2: What the Quran ACTUALLY Says About Jinn (Not What You Were Told)
+             alt 3: The Arabic Word for "Jinn" Changes Everything You Believe
+             STILL OPEN: vidIQ's title scorer is gated behind an approval this
+             session couldn't clear, attempted three times. Run it on all four
+             yourself. It's the only unvalidated call in this pack.
+THUMBNAIL    H03 (heat distortion) or H08 (the standing staff) as the plate.
+             Ghosted ج ن ن behind, "NOT ANGELS" right third, "AL-KAHF 18:50"
+             bottom-right corner. Full spec in the topic brief.
+             H08 is the braver choice and probably the better one — a single
+             upright staff in the dark is a genuine curiosity gap, and nobody
+             else in this keyword is running anything like it.
+LENGTH       10:05. Long enough for mid-rolls if you're monetised, short enough
+             to hold. Do not pad to 12.
+DESCRIPTION  In the topic brief, ready to paste. Update the timestamps — the
+             restructure moved every one of them.
+TAGS         Under 500 characters total. Hard YouTube limit, silently rejects.
+CADENCE      This ships into an eight-week dead channel. It will underperform
+             its own quality on release regardless of how good it is — the
+             browse surfaces have to be re-earned. Judge it at 30 days, not 48
+             hours, and have the next video already written before this one goes
+             live. The audit's first finding stands: the cadence is the ceiling.
+
+SERIES. Close the description with "Part 2: what the Quran says about the
+angels." The channel has no series framing across 14 uploads and it is the
+cheapest retention available to it. The angels video is the natural sequel —
+this one spends 10 minutes establishing what jinn are NOT, half of it by
+contrast with angels, so the audience finishes it already holding the question.
+
+
+================================================================================
+COMPANION SHORT — cut from beat 08
+================================================================================
+
+Beat 08 stands alone and is the best Short this channel has had available. Cut
+9:16 from S08a/S08b, add H08 as the opener.
+
+  HOOK      Sulayman died standing up. The jinn working for him had no idea.
+  BODY      They kept building for a dead king. Until an insect ate through his
+            staff and he fell.
+  LAND      Saba 34:14 — if they had known the unseen, they would not have
+            remained in humiliating punishment.
+  CLOSE     They couldn't see a dead man in the room. Full breakdown on the
+            channel.
+
+Publish 48 hours after the long-form, not the same day. The existing Shorts are
+aphorisms; the one that worked (476 views) worked on curiosity alone. This is a
+story with a body and it should beat it.
+
+
+================================================================================
+ACCURACY — the claims that need to survive a comment section
+================================================================================
+
+ALL 18 CITATIONS VERIFIED 13 Aug 2026 against the Uthmani text and Sahih
+International: 55:15 · 15:27 · 18:50 · 51:56 · 72:1 · 72:2 · 72:6 · 72:11 ·
+72:13 · 46:29 · 46:31 · 34:12 · 34:13 · 34:14 · 27:17 · 27:39 · 6:112 · 114:6.
+The Ar-Rahman refrain count was verified programmatically — تكذبان occurs
+exactly 31 times across 78 ayat, so "thirty-one times" is safe on camera.
+
+"HE WAS OF THE JINN" — Al-Kahf 18:50, kana min al-jinn, is explicit and the
+translation is uncontested. The mainstream Sunni position is that Iblis was
+jinn. A minority classical view held he was an angel; the script says the Quran
+"never says" he was a fallen angel, which is accurate to the text. If challenged
+in comments, cite 18:50 and leave the classical dispute alone — you do not need
+to win it and engaging invites a thread you cannot close.
+
+"THEY CANNOT KNOW THE UNSEEN" — Saba 34:14 is the strongest verse in the video
+and the argument is straightforwardly the verse's own. Safe.
+
+THE ETYMOLOGY IS LEXICOGRAPHY, NOT SCRIPTURE. The ج-ن-ن root and its relation to
+janna, janeen, majnoon and junna is standard Arabic lexicography — Lisan al-Arab,
+and al-Raghib al-Isfahani's Mufradat. Attribute it as "the root means," never as
+"the Quran says." That distinction is the difference between a scholarly channel
+and one that gets corrected publicly.
+
+TRANSLATION CHOICES — both defensible, neither an error:
+  46:29 — the jinn return as "warners" (mundhireen). The script says warners.
+    Do not say callers here; the calling belongs to 46:31.
+  46:31 — the Arabic is da'iya Allah, literally "the caller of Allah." Sahih
+    International renders it "the Messenger of Allah." The script uses the
+    literal reading. Either is fine — just don't attribute the literal wording
+    to Sahih on screen.
+
+WHAT THE SCRIPT DELIBERATELY DOES NOT DO. It issues no ruling on ruqyah, no
+ruling on possession, and no verdict on anyone's practice. Same posture as the
+finance slate: let the verses carry it and never hand down a fatwa in your own
+voice. Beat 09 comes closest — it says seeking refuge in jinn "produces
+dependency," which is 72:6's own verdict restated, not yours. Keep it that way.
+================================================================================
