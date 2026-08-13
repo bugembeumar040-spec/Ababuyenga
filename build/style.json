@@ -1,0 +1,88 @@
+{
+  "_comment": [
+    "Caption + card look, transcribed from the reference Short",
+    "https://youtube.com/shorts/riQ7dLSnogo and reconciled with the CAPTION SPEC in",
+    "credit-card-prompt-pack.txt. Reference behaviour that is kept verbatim:",
+    "  - heavy condensed sans, UPPERCASE throughout, bare on footage (no caption box)",
+    "  - hard cut-on / hard cut-off per spoken burst, zero fade on captions",
+    "  - 1-2 lines per burst, 12-18 characters per line",
+    "  - one accent colour reserved for the key term in a line",
+    "  - held full-frame cards at the turns, white stat pills for figures",
+    "Two deliberate departures, both forced by this pack's compositions:",
+    "  - captionY 0.24 not 0.82. Track B frames every still 'subject in the lower",
+    "    two-thirds, two-fifths of the frame empty above' - captions belong in that gap.",
+    "  - accent is the house terracotta #E85F42, not the reference teal, because the",
+    "    stills are lit terracotta/navy/cream and teal fights them."
+  ],
+
+  "font": {
+    "display": "Anton",
+    "displayFile": "Anton-Regular.ttf",
+    "body": "Inter",
+    "bodyFile": "Inter-Bold.ttf",
+    "dir": "assets/fonts"
+  },
+
+  "colour": {
+    "captionFill": "F5F0E6",
+    "captionOutline": "0A0C10",
+    "accent": "E85F42",
+    "pillFill": "F5F0E6",
+    "pillStroke": "0A0C10",
+    "pillText": "0A0C10",
+    "pillValue": "0A0C10",
+    "rule": "E85F42"
+  },
+
+  "caption": {
+    "bandY": 0.24,
+    "safeMarginX": 90,
+    "minSize": 104,
+    "maxSize": 172,
+    "lineSpacing": 1.02,
+    "maxLines": 2,
+    "maxCharsPerLine": 22,
+    "outline": 6,
+    "shadowDepth": 0,
+    "minBurst": 0.34,
+    "maxBurst": 1.65,
+    "gapBeforeCut": 0.2,
+    "wordsPerBurst": 3
+  },
+
+  "card": {
+    "bandY": 0.45,
+    "safeMarginX": 90,
+    "fadeIn": 0.08,
+    "fadeOut": 0.14,
+    "word": { "targetWidthRatio": 0.92, "maxSize": 460, "outline": 9 },
+    "line": { "targetWidthRatio": 0.86, "maxSize": 240, "outline": 8, "maxCharsPerLine": 16 },
+    "pill": {
+      "labelSize": 62,
+      "valueSize": 152,
+      "noteSize": 54,
+      "padX": 46,
+      "padY": 34,
+      "radius": 14,
+      "stroke": 5,
+      "gap": 16
+    },
+    "collision": {
+      "smallSize": 88,
+      "largeSize": 300,
+      "gap": 34,
+      "ruleWidth": 320,
+      "ruleThickness": 5
+    }
+  },
+
+  "render": {
+    "supersample": 2,
+    "crf": 18,
+    "preset": "slow",
+    "audioBitrate": "192k",
+    "loudnessTarget": -14,
+    "truePeak": -1.5,
+    "holdFirstFrame": 0.0
+  }
+}

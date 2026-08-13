@@ -1,0 +1,202 @@
+{
+  "project": {
+    "slug": "creditcard",
+    "title": "They Call You a Deadbeat for Paying in Full",
+    "pack": "credit-card-prompt-pack.txt",
+    "track": "B",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "targetDuration": 55.6,
+    "voiceover": "media/vo/creditcard-vo.mp3",
+    "stillsDir": "media/stills"
+  },
+
+  "_comment": [
+    "This file is the single source of truth for the cut. It is a transcription of the",
+    "SCENE MAP, NUMBERS and VOICEOVER sections of credit-card-prompt-pack.txt.",
+    "bin/audit.mjs re-reads the pack and fails if the two ever drift apart.",
+    "",
+    "target{In,Out} are the pack's ESTIMATES at ~150wpm. They are not the cut.",
+    "bin/align.mjs re-derives real timings from the recorded voiceover and writes",
+    "out/timeline.json; everything downstream reads that, never these numbers.",
+    "",
+    "card.at accepts a number (seconds from scene start) or 'vo:<sentence>:<word>',",
+    "which pins the card to the moment that word is actually spoken."
+  ],
+
+  "scenes": [
+    {
+      "id": "01",
+      "name": "hook",
+      "still": "B01",
+      "targetIn": 0.0,
+      "targetOut": 5.0,
+      "move": { "push": 0.07, "driftX": 0, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": ["The card industry has a word for people who pay in full every month."],
+      "accentWords": ["FULL"],
+      "card": null
+    },
+    {
+      "id": "02",
+      "name": "the term",
+      "still": "B02",
+      "targetIn": 5.0,
+      "targetOut": 10.2,
+      "move": { "push": -0.08, "driftX": 30, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": [
+        "Deadbeats.",
+        "That's the actual term. Not an insult. A category.",
+        "If you never carry a balance, you were never the customer."
+      ],
+      "accentWords": ["DEADBEATS.", "CATEGORY.", "NEVER"],
+      "card": {
+        "kind": "word",
+        "text": "DEADBEAT",
+        "at": "vo:0:0",
+        "hold": 2.2,
+        "takeover": true,
+        "note": "pack: 'give it the full box - it is the whole hook'"
+      }
+    },
+    {
+      "id": "03",
+      "name": "the revolver",
+      "still": "B03",
+      "targetIn": 10.2,
+      "targetOut": 15.0,
+      "move": { "push": 0.05, "driftX": 0, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": ["The profitable one has a name too. A revolver. Someone who never quite clears it."],
+      "accentWords": ["REVOLVER."],
+      "card": { "kind": "word", "text": "REVOLVER", "at": "vo:0:8", "hold": 1.8, "takeover": false }
+    },
+    {
+      "id": "04",
+      "name": "the product",
+      "still": "B04",
+      "targetIn": 15.0,
+      "targetOut": 18.6,
+      "move": { "push": 0.09, "driftX": 0, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": ["So the card isn't the product. The balance is."],
+      "accentWords": ["BALANCE"],
+      "card": { "kind": "line", "text": "THE BALANCE IS THE PRODUCT", "at": "vo:0:6", "hold": 2.0, "takeover": false }
+    },
+    {
+      "id": "05",
+      "name": "the limit",
+      "still": "B05",
+      "targetIn": 18.6,
+      "targetOut": 23.9,
+      "move": { "push": 0.06, "driftX": 0, "driftY": 20 },
+      "captionY": 0.24,
+      "vo": ["Which is why the limit goes up on its own. You didn't ask. It arrived."],
+      "accentWords": ["OWN.", "ARRIVED."],
+      "card": {
+        "kind": "pill",
+        "label": "LIMIT",
+        "value": "£2,000 → £3,500",
+        "note": "you didn't ask",
+        "at": "vo:0:4",
+        "hold": 3.2,
+        "takeover": false
+      }
+    },
+    {
+      "id": "06",
+      "name": "the rewards",
+      "still": "B06",
+      "targetIn": 23.9,
+      "targetOut": 28.4,
+      "move": { "push": 0, "driftX": 0, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": ["Why the cashback exists. One percent back. Twenty-four point nine percent owed."],
+      "accentWords": ["OWED."],
+      "card": {
+        "kind": "collision",
+        "small": "1% BACK",
+        "large": "24.9% APR",
+        "at": "vo:0:4",
+        "hold": 3.6,
+        "takeover": false,
+        "note": "pack: most typographic weight in the film"
+      }
+    },
+    {
+      "id": "07",
+      "name": "the box",
+      "still": "B07",
+      "targetIn": 28.4,
+      "targetOut": 33.6,
+      "move": { "push": 0.11, "driftX": 0, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": [
+        "And why the minimum payment gets its own box. The smallest number on the page.",
+        "None of that is an accident. That's the design."
+      ],
+      "accentWords": ["SMALLEST", "DESIGN."],
+      "card": {
+        "kind": "pill",
+        "label": "MINIMUM PAYMENT",
+        "value": "£25",
+        "at": "vo:0:4",
+        "hold": 3.0,
+        "takeover": false
+      }
+    },
+    {
+      "id": "08",
+      "name": "the rule",
+      "still": "B08",
+      "targetIn": 33.6,
+      "targetOut": 37.9,
+      "move": { "push": 0, "driftX": 0, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": ["Riba isn't a fee you might trigger. It's the revenue model."],
+      "accentWords": ["REVENUE", "MODEL."],
+      "card": null
+    },
+    {
+      "id": "09",
+      "name": "the real sale",
+      "still": "B09",
+      "targetIn": 37.9,
+      "targetOut": 44.3,
+      "move": { "push": 0, "driftX": 30, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": ["A real sale takes its profit once. At the moment of sale. It never grows again."],
+      "accentWords": ["ONCE."],
+      "card": { "kind": "line", "text": "PROFIT: FIXED AT THE SALE", "at": "vo:0:6", "hold": 2.6, "takeover": false }
+    },
+    {
+      "id": "10",
+      "name": "time",
+      "still": "B10",
+      "targetIn": 44.3,
+      "targetOut": 47.2,
+      "move": { "push": 0.13, "driftX": 0, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": ["Riba grows while you sleep. Time is the ingredient."],
+      "accentWords": ["TIME"],
+      "card": { "kind": "line", "text": "RIBA: PRICED IN TIME", "at": "vo:0:5", "hold": 2.2, "takeover": false }
+    },
+    {
+      "id": "11",
+      "name": "the close",
+      "still": "B11",
+      "targetIn": 47.2,
+      "targetOut": 55.6,
+      "move": { "push": 0.04, "driftX": 0, "driftY": 0 },
+      "captionY": 0.24,
+      "vo": [
+        "Pay it to zero and you become worthless to them.",
+        "Be worthless. Follow — the fix is next."
+      ],
+      "accentWords": ["WORTHLESS", "WORTHLESS."],
+      "card": { "kind": "pill", "label": "BALANCE", "value": "£0.00", "at": "vo:0:3", "hold": 3.0, "takeover": false }
+    }
+  ]
+}

@@ -1,0 +1,1095 @@
+================================================================================
+FINANCE % DECODED — "WEALTH ASLEEP IS CHARGED" — PROMPT PACK
+Two independent tracks: VIDEO (Higgsfield) and STILLS (any image model)
+9:16 · 1080x1920 · 19 scenes · 88.00s
+Follows credit-card-prompt-pack.txt ("They Call You a Deadbeat")
+================================================================================
+
+WHAT THIS FILE IS
+
+Same two-track architecture as the Klarna and credit card packs. Pick one track
+— do not mix them, the idioms don't cut together.
+
+  TRACK A — VIDEO.  19 generated clips, Higgsfield. Highest production value,
+                    highest cost, most drift risk.
+  TRACK B — STILLS. 19 generated images, moved in the edit. A quarter of the
+                    generations, no temporal artefacts, frames reusable as
+                    thumbnails and b-roll.
+
+*** READ THE STYLE PIVOT SECTION BEFORE YOU GENERATE ANYTHING. ***
+The supplied character sheets change the house look completely. The old packs'
+negative prompts actively banned the style you are now shooting in. If you paste
+an old negative prompt into this shoot you will fight your own reference sheets
+on every single frame.
+
+TIMINGS BELOW ARE TARGETS, NOT THE CUT. Derived at 163wpm — measured from the
+Pension VO (≈370 words / 2:16), which is your actual delivery speed, not the
+150wpm guess the last pack used. Record the VO first, then re-derive real IN/OUT
+points before generating on Track A.
+
+
+================================================================================
+WHY THIS TOPIC — the channel read
+================================================================================
+
+CHANNEL STATE (12 Aug 2026). 195 subs · 9,119 views · 28 videos · UAE · £ figures
+(so the money examples read UK, the audience reads GB/PK/BD/IN/US).
+Last 30 days: +93 subs, +7,937 views. The channel is compounding, not flat.
+
+THE PROVEN VEIN — "you never chose this, and it is costing you."
+Every single one of your top performers sits on that spine:
+
+  1,234  Halal Mortgage Explained
+  1,209  Why You're Born Into Debt          ← 46s. Proof short CAN win here.
+  1,050  Sukuk Explained
+  1,042  The Tax You Never Voted For        ← literally the spine, in the title
+    973  How Banks Quietly Trap Your Savings
+    928  Sound Money / inflation
+    718  Ijara Explained
+    307  Is Your Pension Halal?             ← LAST SHORT. Breakout score 34.98.
+
+That 34.98 is the single most important number in this document. Nothing else on
+the channel is above 1.76. The Pension short is the live winner and it is only
+two days old — this video is built on its skeleton deliberately.
+
+THE PENSION SKELETON (copy it beat for beat):
+  a) A default nobody asked you about        ("And nobody asked you. Not once.")
+  b) Name the machine, then open it          ("So what is actually in it?")
+  c) The buried feature                      ("They call it lifestyling.")
+  d) Two minutes. Three steps. One/Two/Three.
+  e) Turn the phrase back on the viewer      ("Default is still a choice.")
+
+BURNED TERRITORY — this is the constraint that decided the topic.
+Video #973 is Part 10 of a 10-part series and it recaps the other nine on
+screen. Between that series, the 28 uploads and the last two packs, the
+following are all spent and may not carry a video:
+
+  banks earn the spread · money from thin air · printing/inflation · sound money
+  savings accounts · credit cards (×3) · minimum payments · mortgages/riba
+  bonds · murabaha · musharaka · sukuk · ijara · takaful · gharar/insurance
+  paper gold · bank runs · born-into-debt · Klarna/BNPL · pensions
+
+ZAKAT IS THE LARGEST UNTOUCHED THING ON YOUR CHANNEL. Zero of 28 videos. And it
+is not a filler topic — it is the missing half of your own thesis. Ten videos
+proved riba is the trap. None has shown the engine that runs the other way.
+That makes this a series capstone, not a departure.
+
+It is also universal. Student loans and credit scores were the other candidates
+and both are geo-locked to GB/US — with PK/BD/IN in your top markets that costs
+you most of the audience. Zakat applies to every market you have.
+
+THE ANGLE — the inversion that makes it viral, not a lecture.
+Do not teach zakat. Everyone has heard of zakat. Teach the MECHANISM nobody
+articulates:
+
+    Interest is a reward for money that sits still.
+    Zakat is a charge on money that sits still.
+    Same pile. Opposite engines.
+
+That single contrast is the whole video, and it is genuinely new to most of your
+audience — including the ones who have paid zakat their entire adult life.
+
+
+================================================================================
+*** STYLE PIVOT — READ BEFORE GENERATING ***
+================================================================================
+
+The supplied reference sheets are FLAT 2D VECTOR CARTOON with FULL FACES.
+The Klarna / credit card packs were STYLISED LOW-POLY 3D with BLANK HEADS, and
+their negative prompts explicitly banned: "cartoon outlines, cel shading, flat
+vector, 2D illustration, face, eyes, mouth". Every one of those bans is now
+inverted. AMIR, the navy #1E3A5F palette and the blank-head rule are retired for
+human characters.
+
+WHAT SURVIVES THE PIVOT — and it is the best thing in the new sheets:
+
+    HUMANS HAVE FACES. INSTITUTIONS DO NOT.
+
+The Institution sheet keeps the featureless grey figure. That is no longer a
+budget workaround for face-drift, it is now the film's central visual argument,
+because the reference sheets put a faced human directly beside a faceless grey
+one. Use it ruthlessly:
+
+  · Money that moves toward the GREY FACELESS FIGURE disappears. It is charged,
+    it is counted, it is filed. Nobody is home.
+  · Money that moves toward a FACE circulates. Sami and Bilal are the proof that
+    the money landed on a person.
+
+That is the entire zakat/riba contrast expressed without a single word, and it
+is why this script casts four named characters instead of one everyman.
+
+Never let the grey Institution figure gain a face. Never let Kareem, Adam, Sami
+or Bilal lose one.
+
+
+================================================================================
+CAST — locked from the supplied reference sheets
+================================================================================
+
+Paste the relevant block verbatim into every prompt featuring that character.
+Do not paraphrase the clothing colours between scenes — that is where drift
+starts.
+
+KAREEM — THE HOST. The only character who addresses camera.
+  Adult man, warm light-tan skin, black hair swept back with a slight quiff,
+  full black beard with grey flecks at the chin, thick dark-brown outline.
+  Olive-green henley shirt with a three-button placket and sleeves rolled to
+  mid-forearm, mid-grey trousers, dark brown shoes.
+  Sheet has: front / three-quarter / side, and neutral / warm / serious /
+  questioning heads. Use SERIOUS for the hook, QUESTIONING for the challenge
+  beats, WARM only for the close.
+
+ADAM — THE EVERYMAN. The viewer's proxy. Never speaks to camera.
+  Adult man, fair skin, short dark-brown hair, clean-shaven, soft rounded jaw,
+  thick dark-brown outline. Rust / terracotta short-sleeved t-shirt, ochre-tan
+  trousers, dark brown shoes.
+  Sheet has: front / three-quarter / side, and neutral / pleased / worried /
+  resolved heads.
+  CONTINUITY: he was the cardholder in the last film. Same man, same shirt,
+  later. Do not redesign him — a recurring protagonist across uploads is free
+  retention and you currently have none.
+
+SAMI — THE ONE THE MONEY REACHES.
+  Adult man, medium-brown skin, short black hair, dark stubble beard, thick
+  dark-brown outline. Teal / deep petrol-blue short-sleeved t-shirt, slate-grey
+  trousers, dark brown shoes.
+
+BILAL — THE ONE WHO PUTS IT TO WORK.
+  Adult man, warm brown skin, dark brown hair, full dark beard, fuller build,
+  thick dark-brown outline. Sand / tan button-up shirt with sleeves rolled to
+  mid-forearm, dark brown trousers, dark brown shoes.
+
+THE INSTITUTION — faceless, grey, three devices from the sheet.
+  THE COUNTER — a barred teller window, dark brown bars over a counter, a flat
+    mid-grey featureless figure behind it, shoulders and blank ovoid head only.
+  THE CLERK — a full-length flat mid-grey featureless figure, standing, arms at
+    sides, soft grey ellipse shadow beneath. No eyes, no mouth, no nose, ever.
+  THE PAPER — a blank rounded card and a blank folded document with empty ruled
+    lines and one empty box. Always unprinted; numbers are burned in at the edit.
+
+PALETTE — sample these, don't eyeball them.
+  background cream    #F7EEDD      outline dark brown  #3D2B24
+  Kareem olive        #7E8A5E      Kareem grey         #6E6E6E
+  Adam rust           #B5543C      Adam ochre          #C08B3E
+  Sami teal           #2F6E78      Sami slate          #5A6169
+  Bilal sand          #D6C08A      Bilal brown         #4A382C
+  institution grey    #8A8A8A      shadow ellipse      #E5D8BE
+  accent terracotta   #B5543C  (captions/keywords — same as Adam's shirt on
+                                purpose, the everyman colour is the alert colour)
+
+RENDER STYLE — append to every prompt, both tracks:
+  Flat 2D vector cartoon illustration, thick uniform dark-brown outlines, simple
+  round dot eyes, minimal facial detail, soft flat colour fills with very subtle
+  shading and no gradients, rounded friendly geometry, plain warm cream
+  background, soft grey ellipse contact shadow beneath each figure, clean
+  children's-picture-book clarity, generous negative space. 9:16 vertical,
+  subject in the lower two-thirds, clean headroom above for captions.
+
+
+================================================================================
+SCENE MAP — the spine both tracks hang off
+================================================================================
+
+ #   | IN     | OUT    | LEN   | SCENE          | VO LINE
+-----|--------|--------|-------|----------------|-----------------------------
+ 01  | 0:00.0 | 0:04.0 | 4.00s | the stake       | Two and a half percent of your...
+ 02  | 0:04.0 | 0:12.0 | 8.00s | the two engines | Your bank pays you to keep...
+ 03  | 0:12.0 | 0:15.6 | 3.60s | the charge      | Every year. On what's been...
+ 04  | 0:15.6 | 0:20.1 | 4.50s | not your wage   | Not on what you earn...
+ 05  | 0:20.1 | 0:23.6 | 3.50s | interest        | Interest rewards you for...
+ 06  | 0:23.6 | 0:27.1 | 3.50s | zakat           | Zakat charges you for...
+ 07  | 0:27.1 | 0:31.3 | 4.20s | direction       | One pulls wealth upward...
+ 08  | 0:31.3 | 0:34.5 | 3.20s | it shrinks      | So money that sits still...
+ 09  | 0:34.5 | 0:40.5 | 6.00s | put it to work  | Put it to work — a trade...
+ 10  | 0:40.5 | 0:45.7 | 5.20s | the reframe     | It never asks you to give...
+ 11  | 0:45.7 | 0:50.5 | 4.80s | the underpay    | And most people underpay...
+ 12  | 0:50.5 | 0:54.8 | 4.30s | what counts     | Money owed to you counts...
+ 13  | 0:54.8 | 0:59.0 | 4.20s | what doesn't    | Your home doesn't...
+ 14  | 0:59.0 | 1:03.2 | 4.20s | the line        | Wealth in use is exempt...
+ 15A | 1:03.2 | 1:08.2 | 5.00s | step one        | Two minutes. Three steps...
+ 15B | 1:08.2 | 1:11.2 | 3.00s | step two        | Two — subtract what you owe
+ 15C | 1:11.2 | 1:17.2 | 6.00s | step three      | Three — if it clears nisab...
+ 16A | 1:17.2 | 1:22.0 | 4.80s | the inversion   | Every other system charges...
+ 16B | 1:22.0 | 1:28.0 | 6.00s | the close       | That's not a tax...
+
+TOTAL 88.00s. Ceiling is 90s. You have 2.00s of headroom and no more.
+
+DESIGNATED SACRIFICIAL SCENE: 07. If the recorded VO runs long, cut scene 07
+whole — it is the only beat in the film whose argument is fully carried by
+another scene (05/06 already state the direction, 07 only names it). Cutting it
+buys you 4.20s and costs you nothing. Never cut from 01–02, 05–06, 15A–15C or
+16B; those are the hook, the collision, the fix and the close.
+
+CLIP LENGTH NOTE (Track A). Scenes 02, 09, 10, 15C and 16B run past 5s — put
+those five on a model that outputs 10s and trim to the OUT point. Everything
+else generates at 5s and trims (15A is exactly 5.00s — generate at 5s, no
+trim). Never stretch a short clip to cover a long scene; the slow-down reads
+instantly.
+
+WHY THE HOOK IS ORDERED THIS WAY. Scene 01 is a naked ownership threat delivered
+by a face looking straight down the lens, and it resolves in under four seconds.
+That is the shape of both your best hooks — "Your pension owns things you would
+never buy" and "a complete stranger is drowning in debt so that the money in
+your account can exist." Neither opens by describing a bank; both open by
+telling the viewer something is already true about THEIR money. Scene 02 then
+gets a full eight seconds to run the whole inversion in one unbroken take,
+because the inversion is the reason to keep watching and it should not be
+chopped across a cut. The claim in scene 01 is deliberately not explained until
+15C — that unresolved thread is the retention spine of the film.
+
+PACING NOTE. Average scene length is 4.6s. That is faster than either previous
+pack and it is deliberate — your sub-60s uploads died at 24–50 views while your
+2m+ uploads hit 900–1,200, which means length was never the problem, PACE was.
+The micro-shorts had no room to build an argument. This one has 19 cuts in 87
+seconds and still lands a complete mechanism.
+
+
+================================================================================
+NUMBERS — burn these in during the edit, never generate them
+================================================================================
+
+Every prompt below asks for blank cards, blank papers and blank screens on
+purpose. Generated text is where this style falls apart.
+
+  01  2.5%          (huge, centred, terracotta, alone — set it the instant the
+                     line lands and hold it for the whole scene)
+  02  (none — let the two engines land visually, no type competing with them)
+  03  EVERY YEAR   ·   12 MONTHS
+  04  NOT INCOME.  WEALTH.
+  05  ↑  INTEREST      (set the arrow rising, small type)
+  06  ↓  ZAKAT  2.5%   (set the arrow falling, large type)
+  07  UP  /  OUT
+  08  −2.5%  EVERY YEAR
+  09  (none)
+  10  STILLNESS IS EXPENSIVE
+  11  "just the bank balance"   (lowercase, in quotes — it's a shrug)
+  12  COUNTS:  CASH · GOLD · OWED TO YOU · INVESTMENTS
+  13  EXEMPT:  HOME · CAR · TOOLS
+  14  IN USE = EXEMPT     ASLEEP = CHARGED
+  15A STEP 1 — ADD  (held still 1 lunar year)
+  15B STEP 2 — SUBTRACT  (debts due now)
+  15C STEP 3 — NISAB ≈ 85g GOLD  →  × 2.5%
+  16A THEY CHARGE YOUR WORK  /  THIS CHARGES YOUR STILLNESS
+  16B (none — Kareem lands it clean)
+
+SCENES 05 + 06 ARE THE COLLISION BEAT. This is your house device — the one that
+carried "£1,461 a month. Only £420 buys your house." Two numbers, opposite
+directions, maximum typographic weight, cut hard between them with no
+transition. If you only art-direct one moment in this film, direct this one.
+
+CAPTION SPEC. Terracotta #B5543C for the keyword, dark brown #3D2B24 for
+everything else, heavy geometric sans, all caps, centred in the upper third
+where every prompt has reserved headroom. Never over a face.
+
+
+================================================================================
+================================  TRACK A  =====================================
+                        VIDEO — 19 CLIPS (HIGGSFIELD)
+================================================================================
+
+SETTINGS: 9:16 · 1080p · 5s or 10s per the scene map · text-to-video.
+
+CONSISTENCY: generate A01 FIRST — it is the tightest, cleanest view of Kareem
+and it is also your hook, so it has to be right anyway. Regenerate until the
+face matches the sheet exactly, then save that frame and feed it as the
+reference image on every Kareem scene (01, 02, 07, 14, 16B).
+Then generate A10 SECOND — it is the cleanest full front view of Adam — and use
+that frame as the reference on every Adam scene (04, 10, 11, 15A, 15B, 15C).
+Sami is referenced from A06, Bilal from A09; generate each before its second
+appearance in 16A.
+Character drift between clips is what kills this format, and flat vector faces
+drift far harder than the blank heads you were shooting before — budget for it.
+
+HIGGSFIELD NOTE: where a prompt names a camera move, set it with the platform's
+motion control rather than the prompt text. Keep every move slow. This house
+style still has no fast camera anywhere in it.
+
+MOTION NOTE FOR FLAT 2D: this style breaks if you ask for realistic physics or
+parallax. Ask for simple, deliberate, single-axis motion — one object slides,
+one arm raises, one stack falls. If a clip starts morphing outlines, drop that
+scene to Track B and cut it in as a still. Mixing one or two stills into a video
+cut is invisible; mixing idioms across the whole film is not.
+
+NEGATIVE PROMPT — paste once, applies to all 19 clips:
+
+photorealistic, 3D render, low-poly, clay render, realistic lighting, gradients,
+soft focus, depth of field, bokeh, texture, grain, text, lettering, numbers,
+logos, brand names, watermark, signature, faceless human, blank featureless
+human head, distorted face, asymmetric eyes, extra fingers, extra limbs,
+morphing outlines, wobbling linework, warping architecture, camera shake, whip
+pans, blurry, low resolution, oversaturated, harsh neon colours, cluttered
+background, busy background, drop shadows on text, anime, manga, sketchy lines
+
+--------------------------------------------------------------------------------
+A01 · 0:00.0–0:04.0 · THE STAKE   ** GENERATE FIRST — Kareem reference **
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view, close — chest up, filling more of the
+frame than any other shot in the film. He addresses camera directly with a
+SERIOUS expression — level brows, mouth set flat, no smile, direct eye contact
+down the lens. [KAREEM BLOCK] His hands are still at his sides. He does not
+gesture at all. Plain warm cream background, absolutely nothing else in frame.
+[RENDER STYLE BLOCK]
+Camera locked off, no movement whatsoever. Framed tighter than the rest of the
+film so the cut to scene 02 opens the space up.
+
+--------------------------------------------------------------------------------
+A02 · 0:04.0–0:12.0 · THE TWO ENGINES   [generate 10s]
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view, at normal distance — noticeably wider
+than the previous shot. [KAREEM BLOCK] He begins with hands relaxed at his
+sides, then raises his left hand palm-up to chest height, holds, then raises his
+right hand palm-down at the same height, and holds both steady like a pair of
+scales that are not moving. His expression shifts from SERIOUS to QUESTIONING as
+the second hand settles. Plain warm cream background, nothing else in frame.
+[RENDER STYLE BLOCK]
+Camera locked off. Two slow deliberate arm gestures, well separated in time —
+the left hand must settle completely before the right begins to move.
+
+--------------------------------------------------------------------------------
+A03 · 0:12.0–0:15.6 · THE CHARGE
+--------------------------------------------------------------------------------
+Flat 2D vector scene on plain warm cream. A single tall neat stack of blank
+cream rounded cards sits centred on a simple flat surface. One card at the very
+top of the stack lifts straight up, hovers briefly, and drifts out of the top of
+frame, leaving the stack very slightly shorter. The remaining stack does not
+wobble or resettle — it simply sits, one card poorer. No characters in frame.
+[RENDER STYLE BLOCK]
+Camera pushes in 6% over the shot, locked and steady.
+
+--------------------------------------------------------------------------------
+A04 · 0:14.6–0:19.1 · NOT YOUR WAGE
+--------------------------------------------------------------------------------
+ADAM stands in three-quarter view, WORRIED expression, holding a blank folded
+document in both hands at chest height and looking down at it. [ADAM BLOCK] A
+second identical blank document lies flat on a simple surface beside him,
+untouched. He looks from the one in his hands to the one on the surface, then
+back. Plain warm cream background.
+[RENDER STYLE BLOCK]
+Camera holds still. Head turn only, slow.
+
+--------------------------------------------------------------------------------
+A05 · 0:19.1–0:22.6 · INTEREST
+--------------------------------------------------------------------------------
+Flat 2D vector scene, plain warm cream background. THE CLERK — a full-length
+flat mid-grey completely featureless figure with a blank ovoid head, no eyes, no
+nose, no mouth — stands on the right with arms at its sides. A single blank
+cream card slides slowly from the left of frame toward the grey figure, reaches
+it, and disappears behind it without the figure moving at all. Soft grey ellipse
+shadow beneath the figure. Nothing else in frame.
+[RENDER STYLE BLOCK]
+Camera locked off, absolutely no movement.
+
+--------------------------------------------------------------------------------
+A06 · 0:22.6–0:26.1 · ZAKAT
+--------------------------------------------------------------------------------
+Flat 2D vector scene, plain warm cream background, composed as a deliberate
+mirror of the previous shot. SAMI stands on the right in three-quarter view with
+a warm open expression, one hand extended forward at waist height, palm up.
+[SAMI BLOCK] A single blank cream card slides slowly from the left of frame
+toward him and settles into his open palm. He closes his hand around it and
+holds it against his chest. Soft grey ellipse shadow beneath him.
+[RENDER STYLE BLOCK]
+Camera locked off, absolutely no movement. Identical framing to the previous
+scene — the ONLY difference in the composition is that this figure has a face.
+
+--------------------------------------------------------------------------------
+A07 · 0:26.1–0:30.3 · DIRECTION
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view, QUESTIONING expression — one eyebrow
+slightly raised, mouth flat. [KAREEM BLOCK] He lifts his right hand and traces a
+slow rising diagonal upward to his right, then lowers it and traces a slow
+outward sweep to his left at waist height. Two clean unhurried gestures, nothing
+else moving. Plain warm cream background.
+[RENDER STYLE BLOCK]
+Camera locked off. Arm motion only, slow and deliberate.
+
+--------------------------------------------------------------------------------
+A08 · 0:30.3–0:33.5 · IT SHRINKS
+--------------------------------------------------------------------------------
+Flat 2D vector scene, plain warm cream. A neat stack of blank cream rounded
+cards sits alone, centred. The stack settles downward very slightly, losing
+height in one small smooth step, then holds completely still. No hand, no
+character, no external force — it simply becomes smaller on its own.
+[RENDER STYLE BLOCK]
+Camera locked off, no movement at all.
+
+--------------------------------------------------------------------------------
+A09 · 0:33.5–0:39.5 · PUT IT TO WORK   [generate 10s]
+--------------------------------------------------------------------------------
+BILAL stands behind a simple flat market stall counter in three-quarter view,
+sleeves rolled, an engaged working expression. [BILAL BLOCK] On the counter sit
+three simple rounded blank crates or boxes in muted sand and brown. He lifts one
+box from the counter and sets it down firmly to his left, then reaches for the
+next. Steady, unhurried, competent working motion. Plain warm cream background
+with a single simple flat awning shape above the stall.
+[RENDER STYLE BLOCK]
+Camera arcs slowly 10 degrees to the right during the action, then settles.
+
+--------------------------------------------------------------------------------
+A10 · 0:39.5–0:44.7 · THE REFRAME   [generate 10s]
+--------------------------------------------------------------------------------
+ADAM stands in front view with a RESOLVED expression — level brows, mouth firm,
+chin slightly lifted. [ADAM BLOCK] Both hands are open and empty at his sides,
+palms forward. Beside him on a simple flat surface sits a single blank cream
+card, alone. He glances down at it once, then looks back up and forward. Plain
+warm cream background.
+[RENDER STYLE BLOCK]
+Camera pushes in 5% and holds.
+
+--------------------------------------------------------------------------------
+A11 · 0:44.7–0:49.5 · THE UNDERPAY
+--------------------------------------------------------------------------------
+ADAM stands in three-quarter view holding a blank rectangular phone-shaped panel
+in one hand at chest height, looking down at it with a NEUTRAL expression.
+[ADAM BLOCK] The panel face is a clean blank pale grey rectangle with no text.
+Behind him and slightly out to one side sit three separate small blank cream
+shapes on simple flat surfaces — a small closed box, a folded document, and a
+single card — all clearly outside his eyeline. He does not look at any of them.
+[RENDER STYLE BLOCK]
+Camera holds still, no movement.
+
+--------------------------------------------------------------------------------
+A12 · 0:49.5–0:53.8 · WHAT COUNTS
+--------------------------------------------------------------------------------
+Flat 2D vector arrangement on plain warm cream, no characters. Four simple
+rounded blank objects sit in an evenly spaced row on a flat surface: a small
+stack of cards, a small closed box, a folded document, and a simple flat coin
+disc. One at a time, left to right, each object lifts very slightly and settles
+back down — a clean sequential acknowledgement, four small beats. All objects
+completely unprinted.
+[RENDER STYLE BLOCK]
+Camera locked off. Sequential object motion only.
+
+--------------------------------------------------------------------------------
+A13 · 0:53.8–0:58.0 · WHAT DOESN'T
+--------------------------------------------------------------------------------
+Flat 2D vector arrangement on plain warm cream, no characters, composed to match
+the previous shot. Three simple rounded shapes sit in a row: a simple flat house
+silhouette, a simple flat car silhouette, and a small cluster of simple hand
+tools. All three sit completely still and unmoving, in slightly desaturated
+muted tones. Nothing lifts, nothing reacts.
+[RENDER STYLE BLOCK]
+Camera locked off, absolutely no movement.
+
+--------------------------------------------------------------------------------
+A14 · 0:58.0–1:02.2 · THE LINE
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view, SERIOUS expression. [KAREEM BLOCK] He
+holds both hands out in front of him at chest height, palms facing each other a
+shoulder-width apart, then moves them apart in one slow decisive motion to
+either side, as if separating two groups, and holds. Plain warm cream
+background.
+[RENDER STYLE BLOCK]
+Camera locked off. Slow deliberate arm motion only.
+
+--------------------------------------------------------------------------------
+A15A · 1:02.2–1:07.2 · STEP ONE
+--------------------------------------------------------------------------------
+ADAM stands in three-quarter view at a simple flat table, NEUTRAL expression,
+placing blank cream objects onto the tabletop one at a time with his right hand
+— a card, then a small box, then a folded document — building a small tidy group
+in front of him. Steady, methodical, unhurried. [ADAM BLOCK] Plain warm cream
+background.
+[RENDER STYLE BLOCK]
+Camera holds still, framed slightly wide to leave room for the caption stack.
+
+--------------------------------------------------------------------------------
+A15B · 1:07.2–1:10.2 · STEP TWO
+--------------------------------------------------------------------------------
+Same framing and same table as the previous scene. ADAM reaches in and slides
+two of the blank cream objects away from the group, off toward the right edge of
+frame, leaving a smaller group behind. [ADAM BLOCK] One clean removing motion,
+then his hand withdraws and the remaining group sits still.
+[RENDER STYLE BLOCK]
+Camera locked off, no movement. Continuity with the previous scene must be
+exact — same table, same angle, same object positions.
+
+--------------------------------------------------------------------------------
+A15C · 1:10.2–1:16.2 · STEP THREE   [generate 10s]
+--------------------------------------------------------------------------------
+Same table, same angle. The remaining small group of blank cream objects sits
+centred. A simple flat balance-scale shape rises into frame behind the group,
+its two pans level. One single blank card lifts off the top of the group,
+travels across, and settles onto the left pan, which dips gently and holds.
+ADAM watches, RESOLVED expression. [ADAM BLOCK]
+[RENDER STYLE BLOCK]
+Camera pushes in 7% onto the scale over the shot, slow and steady.
+
+--------------------------------------------------------------------------------
+A16A · 1:16.2–1:21.0 · THE INVERSION
+--------------------------------------------------------------------------------
+Split composition on plain warm cream. On the left, THE COUNTER — a barred
+teller window with dark brown vertical bars and a flat mid-grey completely
+featureless figure behind it, motionless. On the right, SAMI and BILAL stand
+side by side facing camera, both with warm open expressions, Sami's hand resting
+on Bilal's shoulder. [SAMI BLOCK] [BILAL BLOCK] Neither side moves; the frame
+simply holds both.
+[RENDER STYLE BLOCK]
+Camera pulls back 6% slowly, widening to hold both halves.
+
+--------------------------------------------------------------------------------
+A16B · 1:21.0–1:27.0 · THE CLOSE   [generate 10s]
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view, addressing camera directly with a WARM
+expression — soft eyes, slight closed-mouth smile. [KAREEM BLOCK] His hands are
+relaxed and open at his sides. He gives one slow, small nod, then holds
+completely still, looking straight down the lens. Plain warm cream background,
+nothing else in frame.
+[RENDER STYLE BLOCK]
+Camera pushes in 4% very slowly and settles. Generous headroom above him for the
+closing caption.
+
+
+================================================================================
+================================  TRACK B  =====================================
+                        STILLS — 19 IMAGES + EDIT MOVES
+================================================================================
+
+SETTINGS: 9:16 · 1080x1920 (or 2048x3640 and downscale — you want headroom for
+the push) · one image per scene.
+
+Framed 10–15% wider than the video prompts, because every one gets a push in the
+edit and the push crops in.
+
+CONSISTENCY: generate B01 (Kareem) and B10 (Adam) first, approve both, lock the
+seed, then feed them as reference images on every scene featuring that
+character. Generate B06 (Sami) and B09 (Bilal) before B16A, which needs both.
+Flat vector faces drift hard — locking the seed matters more here than it did on
+the low-poly packs.
+
+STRONG RECOMMENDATION: SHOOT TRACK B. This style is fundamentally a still-image
+idiom. Flat vector with thick uniform outlines is exactly what current video
+models wobble on — outlines shimmer, faces re-draw themselves frame to frame,
+and the clean cream background invites artefacts. You get 19 clean frames for a
+quarter of the generations, thumbnail candidates, and reusable b-roll for the
+rest of the series. Track A is here because the last two packs had it; on this
+style, Track B is the better film.
+
+HOW TO MOVE THEM. Each still gets the move listed under it, held for the scene's
+full length from the map. Push percentages are total travel across the scene,
+eased out, never linear.
+
+NEGATIVE PROMPT — paste once, applies to all 19 stills:
+
+photorealistic, 3D render, low-poly, clay render, realistic lighting, gradients,
+texture, grain, noise, depth of field, bokeh, text, lettering, numbers, logos,
+brand names, watermark, signature, faceless human, blank featureless human head,
+distorted face, asymmetric eyes, extra fingers, extra limbs, sketchy lines,
+uneven linework, anime, manga, harsh neon colours, oversaturation, cluttered
+background, busy background, tilted horizon, composite look, low resolution
+
+--------------------------------------------------------------------------------
+B01 · hold 4.00s · THE STAKE   ** GENERATE FIRST — Kareem reference **
+MOVE: push in 4%, very slight — the frame is already tight, don't crowd him.
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view, CLOSE — chest up, filling more of the
+frame than any other image in the set. He faces camera directly with a SERIOUS
+expression — level brows, mouth set flat, no smile, direct eye contact down the
+lens. [KAREEM BLOCK] Hands still at his sides, no gesture. Plain warm cream
+background, absolutely nothing else in frame.
+[RENDER STYLE BLOCK]
+Framed tighter than every other image in the set. Clean space above his head for
+the 2.5% caption and nothing competing with it.
+
+--------------------------------------------------------------------------------
+B02 · hold 8.00s · THE TWO ENGINES
+MOVE: push in 5%, slow across the full eight seconds.
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view at normal distance, noticeably wider than
+the previous frame, with a QUESTIONING expression — one eyebrow slightly raised,
+mouth flat. [KAREEM BLOCK] Left hand held palm-up at chest height, right hand
+held palm-down at the same height, like a pair of balanced scales. Plain warm
+cream background, soft grey ellipse shadow beneath him, nothing else in frame.
+[RENDER STYLE BLOCK]
+Centred, symmetrical, generous headroom above.
+NOTE: this still holds for eight seconds, the longest hold in the set. If it
+feels static in the edit, split the scene and cut to B05 early on "Same pile" —
+but do NOT cut away before "Islam charges you for it" has fully landed.
+
+--------------------------------------------------------------------------------
+B03 · hold 3.60s · THE CHARGE
+MOVE: push in 8% on the top of the stack.
+--------------------------------------------------------------------------------
+Flat 2D vector still on plain warm cream. A single tall neat stack of blank
+cream rounded cards sits centred on a simple flat surface, with one card
+separated and floating a short distance directly above the stack, clearly apart
+from it. Both completely unprinted. Soft grey ellipse shadow beneath the stack.
+No characters in frame.
+[RENDER STYLE BLOCK]
+Stack low-centre, wide empty cream space above.
+
+--------------------------------------------------------------------------------
+B04 · hold 4.50s · NOT YOUR WAGE
+MOVE: drift right 30px, moving from the held document to the one on the surface.
+--------------------------------------------------------------------------------
+ADAM stands in three-quarter view with a WORRIED expression, holding a blank
+folded document in both hands at chest height, head angled down toward it.
+[ADAM BLOCK] A second identical blank document lies flat on a simple surface
+beside him, untouched. Both completely unprinted, no lettering anywhere. Plain
+warm cream background.
+[RENDER STYLE BLOCK]
+Figure in the lower two-thirds, clean headroom above.
+
+--------------------------------------------------------------------------------
+B05 · hold 3.50s · INTEREST
+MOVE: none. Hold dead still.
+--------------------------------------------------------------------------------
+Flat 2D vector still, plain warm cream background. THE CLERK — a full-length
+flat mid-grey completely featureless figure with a blank ovoid head, no eyes, no
+nose, no mouth — stands on the right of frame, arms at its sides. A single blank
+cream card sits in mid-air to the left of it, angled as though travelling toward
+it. Soft grey ellipse shadow beneath the figure. Nothing else in frame.
+[RENDER STYLE BLOCK]
+Figure right of centre, card left, wide empty space above.
+
+--------------------------------------------------------------------------------
+B06 · hold 3.50s · ZAKAT
+MOVE: none. Hold dead still — the cut between B05 and B06 is the whole argument.
+--------------------------------------------------------------------------------
+Flat 2D vector still, plain warm cream, composed as an exact mirror of the
+previous frame. SAMI stands on the right of frame in three-quarter view with a
+warm open expression, one hand extended forward at waist height, palm up.
+[SAMI BLOCK] A single blank cream card sits in mid-air to the left, angled as
+though travelling toward his open palm. Soft grey ellipse shadow beneath him.
+[RENDER STYLE BLOCK]
+Match the previous frame's composition exactly — same figure position, same card
+position, same scale. The ONLY difference is that this figure has a face.
+
+--------------------------------------------------------------------------------
+B07 · hold 4.20s · DIRECTION
+MOVE: push in 5%.
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view, QUESTIONING expression — one eyebrow
+slightly raised, mouth flat. [KAREEM BLOCK] His right hand is raised and angled
+upward to his right; his left hand is extended outward at waist height to his
+left. Two clear opposing gestures held at once. Plain warm cream background.
+[RENDER STYLE BLOCK]
+Centred, figure in the lower two-thirds.
+
+--------------------------------------------------------------------------------
+B08 · hold 3.20s · IT SHRINKS
+MOVE: none. Hold it dead still — the point is that nothing acts on it.
+--------------------------------------------------------------------------------
+Flat 2D vector still on plain warm cream. A short stack of blank cream rounded
+cards sits alone, centred on a simple flat surface, noticeably shorter than a
+full stack. No hand, no character, no external force anywhere in frame. Soft
+grey ellipse shadow beneath. Completely unprinted.
+[RENDER STYLE BLOCK]
+Stack low-centre, large empty cream field above.
+
+--------------------------------------------------------------------------------
+B09 · hold 6.00s · PUT IT TO WORK
+MOVE: push in 7% on Bilal's hands.
+--------------------------------------------------------------------------------
+BILAL stands behind a simple flat market stall counter in three-quarter view,
+sleeves rolled, an engaged working expression, both hands on a simple rounded
+blank crate mid-lift. [BILAL BLOCK] Two more simple blank crates in muted sand
+and brown sit on the counter. A single simple flat awning shape hangs above the
+stall. Plain warm cream background.
+[RENDER STYLE BLOCK]
+Figure in the lower two-thirds, awning shape leaving clean caption space above.
+
+--------------------------------------------------------------------------------
+B10 · hold 5.20s · THE REFRAME
+MOVE: push in 6%.
+--------------------------------------------------------------------------------
+ADAM stands in front view with a RESOLVED expression — level brows, mouth firm,
+chin slightly lifted, both hands open and empty at his sides with palms forward.
+[ADAM BLOCK] A single blank cream card sits alone on a simple flat surface
+beside him. Plain warm cream background, soft grey ellipse shadow beneath him.
+[RENDER STYLE BLOCK]
+Centred, generous headroom above.
+
+--------------------------------------------------------------------------------
+B11 · hold 4.80s · THE UNDERPAY
+MOVE: pull back 8%, revealing the three ignored objects.
+--------------------------------------------------------------------------------
+ADAM stands in three-quarter view holding a blank rectangular phone-shaped panel
+in one hand at chest height, head angled down toward it, NEUTRAL expression.
+[ADAM BLOCK] The panel face is a clean blank pale grey rectangle, no text. Well
+behind him and off to one side sit three separate small blank cream shapes on
+simple flat surfaces — a small closed box, a folded document, and a single card
+— all clearly outside his eyeline and slightly smaller in scale.
+[RENDER STYLE BLOCK]
+Framed wide so the three background objects sit fully inside the frame.
+
+--------------------------------------------------------------------------------
+B12 · hold 4.30s · WHAT COUNTS
+MOVE: drift left to right 40px across the row.
+--------------------------------------------------------------------------------
+Flat 2D vector still on plain warm cream, no characters. Four simple rounded
+blank objects sit in an evenly spaced row on a simple flat surface: a small
+stack of cards, a small closed box, a folded document, and a simple flat coin
+disc. All completely unprinted, all identically lit, each with a soft grey
+ellipse shadow.
+[RENDER STYLE BLOCK]
+Row centred low, wide clean cream space above for the caption list.
+
+--------------------------------------------------------------------------------
+B13 · hold 4.20s · WHAT DOESN'T
+MOVE: none. Hold dead still, deliberately inert against B12's drift.
+--------------------------------------------------------------------------------
+Flat 2D vector still on plain warm cream, no characters, composed to match the
+previous frame exactly. Three simple rounded shapes sit in an evenly spaced row:
+a simple flat house silhouette, a simple flat car silhouette, and a small
+cluster of simple hand tools. Rendered in slightly muted, desaturated tones
+against the same cream field, each with a soft grey ellipse shadow.
+[RENDER STYLE BLOCK]
+Row centred low, matching the previous frame's scale and baseline.
+
+--------------------------------------------------------------------------------
+B14 · hold 4.20s · THE LINE
+MOVE: push in 5%.
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view, SERIOUS expression. [KAREEM BLOCK] Both
+hands are held out to either side at chest height, palms facing outward and well
+apart, as though he has just separated two groups. Plain warm cream background,
+soft grey ellipse shadow beneath him.
+[RENDER STYLE BLOCK]
+Centred and symmetrical, generous headroom.
+
+--------------------------------------------------------------------------------
+B15A · hold 5.00s · STEP ONE
+MOVE: push in 5% onto the group of objects.
+--------------------------------------------------------------------------------
+ADAM stands in three-quarter view at a simple flat table, NEUTRAL expression,
+one hand resting on the tabletop. [ADAM BLOCK] In front of him on the table sits
+a tidy group of five blank cream objects — cards, a small box, a folded document
+— all completely unprinted, arranged in a neat cluster. Plain warm cream
+background.
+[RENDER STYLE BLOCK]
+Framed slightly wide, table in the lower half, clean caption space above.
+
+--------------------------------------------------------------------------------
+B15B · hold 3.00s · STEP TWO
+MOVE: drift right 25px, following the removed objects out.
+--------------------------------------------------------------------------------
+Same table, same angle, same scale as the previous frame. ADAM stands in
+three-quarter view, hand extended to the right, having just pushed two blank
+cream objects away toward the right edge of frame; a smaller group of three
+remains in front of him. [ADAM BLOCK] All objects completely unprinted. Plain
+warm cream background.
+[RENDER STYLE BLOCK]
+Match the previous frame's table position, angle and scale exactly.
+
+--------------------------------------------------------------------------------
+B15C · hold 6.00s · STEP THREE
+MOVE: push in 9% onto the balance scale.
+--------------------------------------------------------------------------------
+Same table, same angle. A small group of three blank cream objects sits centred
+on the tabletop. Behind them stands a simple flat two-pan balance scale, its
+left pan dipped slightly lower than the right, with one single blank cream card
+resting on the lowered pan. ADAM stands beside the table in three-quarter view,
+RESOLVED expression, watching the scale. [ADAM BLOCK] Plain warm cream
+background.
+[RENDER STYLE BLOCK]
+Scale in the upper-middle of the lower two-thirds, clean caption space above.
+
+--------------------------------------------------------------------------------
+B16A · hold 4.80s · THE INVERSION
+MOVE: pull back 7%, settling both halves into frame.
+--------------------------------------------------------------------------------
+Split composition on plain warm cream. On the left, THE COUNTER — a barred
+teller window with dark brown vertical bars over a counter, a flat mid-grey
+completely featureless figure standing behind it, blank ovoid head, no eyes, no
+nose, no mouth. On the right, SAMI and BILAL stand side by side facing camera,
+both with warm open expressions, Sami's hand resting on Bilal's shoulder.
+[SAMI BLOCK] [BILAL BLOCK] A single clean vertical division separates the two
+halves. Soft grey ellipse shadows beneath all figures.
+[RENDER STYLE BLOCK]
+Both halves fully in frame, balanced, clean space above.
+
+--------------------------------------------------------------------------------
+B16B · hold 6.00s · THE CLOSE
+MOVE: push in 4% very slowly.
+--------------------------------------------------------------------------------
+KAREEM stands centre frame, front view, addressing camera directly with a WARM
+expression — soft eyes, slight closed-mouth smile, hands relaxed and open at his
+sides. [KAREEM BLOCK] Plain warm cream background, soft grey ellipse shadow
+beneath him, absolutely nothing else in frame.
+[RENDER STYLE BLOCK]
+Centred, figure in the lower two-thirds, very generous headroom above for the
+closing caption.
+
+
+================================================================================
+VO SCRIPT — record this first, then re-derive the cut
+================================================================================
+
+Delivery: calm, level, unhurried. Never sell it. The Pension VO works because it
+states mechanisms as plain fact and lets the viewer supply the outrage. Full
+stops where you want a beat — this script is written in fragments on purpose.
+
+[01] Two and a half percent of your savings was never yours.
+
+[02] Your bank pays you to keep money still.
+     Islam charges you for it.
+     Same pile. Opposite engines.
+
+[03] Every year. On what's been sitting twelve months.
+
+[04] Not on what you earn. On what you keep still.
+
+[05] Interest rewards you for not using money.
+
+[06] Zakat charges you for not using it.
+
+[07] One pulls wealth upward. The other pushes it out.
+
+[08] So money that sits still shrinks.
+
+[09] Put it to work — a trade, something real —
+     and the return outruns the charge.
+
+[10] It never asks you to give wealth away.
+     It makes stillness expensive.
+
+[11] And most people underpay.
+     Because they only count the bank balance.
+
+[12] Money owed to you counts. Investments count.
+     Gold sitting in a drawer counts.
+
+[13] Your home doesn't. Your car doesn't. Your tools don't.
+
+[14] Wealth in use is exempt. Wealth asleep is charged.
+
+[15A] Two minutes. Three steps.
+      One — add what's sat still for a lunar year.
+
+[15B] Two — subtract what you owe now.
+
+[15C] Three — if what's left clears the nisab,
+      two and a half percent of it was never yours.
+
+[16A] Every other system charges your work.
+      This one charges your stillness.
+
+[16B] That's not a tax. It isn't charity either.
+      It's a circulation rule —
+      the only engine in finance pointed the other way.
+
+WORD COUNT 217. At your measured 163wpm that is 79.9s of speech plus 8.1s of
+beats = 88.0s, against a 90s ceiling.
+
+CHECK THIS BEFORE YOU GENERATE ANYTHING. 163wpm is measured from your Pension
+read, not assumed. If your read lands at 150wpm this script runs 86.8s of speech
+and breaches the ceiling on beats alone. Record first, time it, and if it is
+long, cut scene 07 whole — see the sacrificial-scene note in the scene map.
+
+PACING NOTE 1 — THE COLLISION. [05] and [06] are the film. Give each a full beat
+of silence either side and cut hard between them. Do not let [06] ride in on the
+tail of [05] — the whole inversion depends on the viewer registering that the
+two sentences are identical except for one word.
+
+PACING NOTE 2 — THE OPEN. [01] is a bare claim with no evidence behind it and it
+is meant to feel like that. Do not soften it, do not add "did you know", do not
+let the read rise at the end. Flat, level, certain. Then a hard beat of silence
+before [02] starts. The viewer should have about half a second to think "no it
+wasn't" — that objection is what buys you the next twenty seconds.
+
+PACING NOTE 3 — THE PAYOFF. [15C] closes the loop [01] opened, using nearly the
+same words on purpose. Land it the same way you landed [01]: flat and certain.
+If you change one of those two lines in the edit, change both.
+
+
+================================================================================
+PACKAGING
+================================================================================
+TITLE        Most Muslims Calculate Zakat Wrong (Here's the Fix)
+             vidIQ CTR score 81 — highest of five tested against your channel.
+             alt 1: You're Probably Underpaying Your Zakat            (scored 80)
+             alt 2: The Only Tax on Money That Sits Still             (scored 77)
+             alt 3: 2.5% of Your Savings Was Never Yours              (scored 73)
+             Rejected: "Your Bank Pays You to Keep Money Still. Islam
+             Charges You." — scored 58. It is the best LINE in the script and
+             the worst title; it needs the second half to make sense and Shorts
+             titles get truncated. Keep it as the hook, not the slate.
+
+             Note on the pattern: your Klarna upload was retitled from "Is
+             Klarna Halal?" to "You've Already Paid Klarna." at publish, and the
+             declarative won. But "Is Your Pension Halal?" is your current
+             breakout, so the interrogative is not dead — it works when the
+             answer is genuinely in doubt. Here it isn't (zakat is obligatory),
+             so the declarative is correct.
+
+THUMBNAIL    B06 is the frame — Sami's open palm with the single card. Set
+             2.5% in terracotta beside it, nothing else.
+             Second option: B05/B06 as a split, grey faceless figure left, Sami
+             right, one card each. That is the whole video in one image, and it
+             is the only thumbnail you have ever had that poses a question the
+             title doesn't answer.
+
+LENGTH       88.0s. Ceiling 90s per the brief.
+             FLAG — your data does not actually support sub-90s. Your 900–1,200
+             view uploads are all 1m57s–3m00s. Your 17s–58s uploads are all
+             24–50 views, with one exception. 87s is the right call for THIS
+             brief and the pace here is built to justify it, but if it
+             underperforms, length is the first variable to test, not the hook.
+
+DESCRIPTION  600+ characters. Do not ship the 197-char boilerplate.
+             Must include the silver-nisab alternative and the madhhab note on
+             jewellery — see ACCURACY below. Put both in the description
+             rather than the VO; they are correct, they are load-bearing in the
+             comments, and they are pace-killers on screen.
+
+TAGS         under 500 characters total — hard YouTube limit, silently rejects.
+
+KEYWORDS     "riba" stays out of the title as always (RIBA = Royal Institute of
+             British Architects owns the English SERP). "zakat" is clean and
+             should be in the title, description and first spoken line region.
+
+SERIES       This is the capstone of the riba series, and you should say so.
+             Ten videos established the trap; this is the counter-engine. Pin a
+             comment: "Parts 1–10 showed you the machine. This is the one
+             pointed the other way." You still have no series framing across 28
+             uploads and it remains the cheapest retention available to you.
+
+
+================================================================================
+ACCURACY — the claims that need to survive a comment section
+================================================================================
+
+This topic has a far higher comment-risk profile than Klarna or credit cards,
+because zakat is an act of worship with four schools of detailed fiqh behind it,
+not a product you can describe mechanically. The script's posture — mechanism,
+never verdict — is doing heavy lifting. Hold it.
+
+1. "CHARGES YOU" / "THE ONLY TAX ON MONEY THAT SITS STILL"
+   The biggest risk in the film. Zakat is the third pillar and a right of the
+   poor (haqq al-faqir), not a tax and not a penalty. The script never calls it
+   a tax in your own voice except to REFUSE the label — [16B] opens "That's not
+   a tax. It isn't charity either." That rebuttal must survive the edit. If you
+   cut it for time, you have to cut [16A] with it, or you ship a video that
+   calls zakat a tax and never takes it back. Do not separate those two scenes.
+   Put the pillar framing explicitly in the description.
+
+2. "TWO AND A HALF PERCENT"
+   Correct for cash, gold, silver, trade goods and monetary wealth held one
+   lunar year. NOT universal across all zakatable wealth — agricultural produce
+   is 5% or 10% depending on irrigation, livestock runs on its own schedules,
+   and buried treasure (rikaz) is 20%. The VO is scoped to money and stored
+   wealth throughout and never claims 2.5% is the only rate. Keep that scoping.
+
+3. "GOLD SITTING IN A DRAWER COUNTS"
+   Deliberately worded. Gold held as stored wealth is agreed. Gold JEWELLERY in
+   regular personal use is genuinely differed — the Hanafi position is that it
+   is zakatable, while the Maliki, Shafi'i and Hanbali positions generally
+   exempt jewellery kept for permitted personal use. "Sitting in a drawer" keeps
+   you on agreed ground and is consistent with the film's stillness thesis. Do
+   NOT let this drift in the edit to "gold counts" or "your jewellery counts" —
+   that single word change starts an argument you cannot win in a reply. State
+   the difference plainly in the description.
+
+4. "NISAB ≈ 85g GOLD"
+   Correct and standard. But there are two nisabs: roughly 85g of gold, or
+   roughly 595g of silver, and the silver nisab is FAR lower in modern money —
+   it brings many more people into obligation. A large number of scholars and
+   charities recommend the silver nisab precisely because it benefits the poor.
+   The VO gives the gold figure for pace; the description must give both and say
+   the silver threshold is lower. If you only fix one thing from this section in
+   the description, fix this one — it is the most likely single correction you
+   will receive.
+
+5. "SUBTRACT WHAT YOU OWE NOW"
+   The word "now" is load-bearing. You generally deduct immediately-due debts,
+   not the entire outstanding balance of a long-term liability like a 25-year
+   mortgage. If the VO ever becomes "subtract your debts", the claim becomes
+   wrong. Do not trim that word.
+
+6. "WEALTH IN USE IS EXEMPT"
+   Accurate for personal-use assets: primary residence, personal vehicle, tools
+   of trade, household goods, clothing. Note the boundary the film doesn't have
+   time for — property bought as an INVESTMENT or held for resale is treated
+   differently from the home you live in. Worth one line in the description
+   because "so my rental flat is exempt?" is a predictable comment.
+
+7. WHERE IT GOES
+   The eight categories of recipient are specified in Surah At-Tawbah (9:60).
+   Not in the VO — no room — but naming the ayah in the description is cheap
+   credibility and pre-empts "who decides who gets it?"
+
+8. THE CENTRAL RHETORICAL CLAIM — "interest rewards stillness, zakat charges it"
+   This is an economic characterisation, not a fiqh ruling, and it is defensible:
+   interest accrues to capital held, zakat is levied on wealth held through a
+   hawl. It is a framing, and the script presents it as a framing. It does not
+   claim zakat's PURPOSE is monetary velocity — that would be a theological
+   claim about divine intent and you should not make it. "Circulation rule" in
+   [16B] is the strongest formulation you can safely use. Do not upgrade it to
+   "that's why it exists."
+
+9. NO VERDICTS, AS EVER
+   The script issues no ruling in your own voice at any point, exactly as the
+   Klarna and credit card packs held the line. Zakat's obligation is not
+   differed so stating it is safe; every DETAIL below that is differed, and the
+   script stays on the agreed ground in all of them. Keep it that way, and route
+   every "what about X?" comment to "differed — ask your local scholar." That
+   reply costs you nothing and wins you the thread.
+================================================================================
+
+
+================================================================================
+AUDIT — what was checked, what was wrong, what changed
+================================================================================
+
+Run before delivery, against the brief "must be engaging and viral worthy".
+
+FIXED — WEAK FIRST FOUR SECONDS.  The first draft opened on Adam standing
+motionless beside a stack of cards while the VO described what a bank does. Both
+of your best-performing hooks open on an immediate personal stake, not on a
+description of an institution. Worse, the inversion — the actual reason to keep
+watching — didn't complete until 0:09.0, which is past the point most Shorts
+viewers have already decided. Rebuilt: scene 01 is now a bare ownership claim
+delivered by a face in close-up, resolving at 0:04.0, and scene 02 runs the full
+inversion in one unbroken 8s take. The claim in 01 goes unexplained until 15C,
+which gives the film a retention thread it previously did not have.
+
+FIXED — NO DESIGNATED CUT.  The first draft had 3.00s of headroom and vague
+advice to "cut from 07 or 13". If a VO comes in long mid-edit that is not
+actionable. Scene 07 is now formally designated sacrificial, with the reason
+stated (05/06 already carry its argument) and a protected list naming everything
+that must never be cut.
+
+FIXED — STALE GENERATION ORDER.  Reordering the hook moved Kareem's cleanest
+reference frame from A02 to A01 and left Adam without a designated reference
+frame at all. Both tracks' consistency notes were rewritten, and Sami and Bilal
+were given explicit reference scenes ahead of 16A, which needs both.
+
+FIXED — CLIP LENGTH LIST.  Scene 03 dropped from 5.60s to 3.60s in the rebuild
+but was still listed as needing a 10s generation; scene 10 at 5.20s was missing
+from the list. Corrected to 02, 09, 10, 15C, 16B.
+
+FIXED — ARITHMETIC.  Word count was stated as 219 against an actual 217, and the
+beat budget was wrong as a result. Recomputed: 217 words, 79.9s speech at your
+measured 163wpm, 8.1s of beats, 88.00s total against a 90s ceiling. Scene
+lengths were summed independently and match the IN/OUT chain exactly.
+
+CHECKED AND LEFT ALONE — TOPIC.  Cross-referenced all 28 uploads plus the 10
+parts recapped inside video #973. Zakat appears in none of them. It is the
+largest untouched subject on the channel and the only remaining one that is both
+universal across your PK/BD/IN/GB/US markets and structurally load-bearing for
+the series you have already built.
+
+CHECKED AND LEFT ALONE — TITLE.  Five candidates scored against your channel;
+the winner at 81 is not the line I would have picked by instinct (that one
+scored 58). Instinct lost, the score is in the packaging section, and the
+rejected line was kept where it actually works — as the hook.
+
+CHECKED AND LEFT ALONE — FIQH POSTURE.  No ruling is issued in your voice
+anywhere. Every differed detail — jewellery, silver nisab, investment property,
+debt deduction — is either scoped onto agreed ground in the VO or pushed to the
+description. See ACCURACY.
+
+KNOWN RISK, NOT FIXED — LENGTH.  Your 900–1,200 view uploads are all 1m57s–3m00s
+and your 17s–58s uploads are all 24–50 views. The brief caps this at 90s, so 88s
+is what was built, and the 4.6s average scene length is the compensation. But
+the honest read of your own data is that length was never your problem and this
+is the one variable in the pack that runs against the evidence. If it
+underperforms, test length before you touch the hook or the topic.
+
+KNOWN RISK, NOT FIXED — STYLE PIVOT COST.  The new reference sheets are a clean
+break from two packs of locked 3D assets. Nothing from the Klarna or credit card
+shoots is reusable here — not AMIR, not the shopkeeper, not the palette, not the
+negative prompts. That is a real cost and it is the user's call, not a defect;
+it is flagged here so it is priced in rather than discovered mid-shoot.
+================================================================================

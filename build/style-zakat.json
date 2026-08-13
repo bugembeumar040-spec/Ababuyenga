@@ -1,0 +1,121 @@
+{
+  "_comment": [
+    "Caption + card look for the Zakat film. Two sources, reconciled:",
+    "",
+    "  zakat-prompt-pack.txt CAPTION SPEC — 'Terracotta #B5543C for the keyword,",
+    "  dark brown #3D2B24 for everything else, heavy geometric sans, all caps,",
+    "  centred in the upper third where every prompt has reserved headroom.",
+    "  Never over a face.'",
+    "",
+    "  Reference Short https://youtube.com/shorts/riQ7dLSnogo — burst captions that",
+    "  cut on and off with the voice, bare on the artwork, one accent colour per",
+    "  line, and held cards at the turns.",
+    "",
+    "Inverted from the credit-card style: this film is dark type on cream, so the",
+    "outline is cream (it separates type from the artwork, not from a dark plate)",
+    "and pills are solid dark brown with cream type."
+  ],
+  "font": {
+    "display": "Anton",
+    "displayFile": "Anton-Regular.ttf",
+    "body": "Inter",
+    "bodyFile": "Inter-Bold.ttf",
+    "dir": "assets/fonts"
+  },
+  "colour": {
+    "captionFill": "3D2B24",
+    "captionOutline": "F7EEDD",
+    "accent": "B5543C",
+    "pillFill": "3D2B24",
+    "pillStroke": "F7EEDD",
+    "pillText": "F7EEDD",
+    "pillValue": "F7EEDD",
+    "rule": "B5543C",
+    "institutionGrey": "8A8A8A"
+  },
+  "caption": {
+    "bandY": 0.16,
+    "safeMarginX": 90,
+    "minSize": 104,
+    "maxSize": 168,
+    "lineSpacing": 1.02,
+    "maxLines": 2,
+    "maxCharsPerLine": 22,
+    "outline": 7,
+    "shadowDepth": 0,
+    "minBurst": 0.42,
+    "maxBurst": 3.0,
+    "gapBeforeCut": 0.18,
+    "wordsPerBurst": 3
+  },
+  "card": {
+    "bandY": 0.44,
+    "safeMarginX": 90,
+    "fadeIn": 0.08,
+    "fadeOut": 0.14,
+    "word": {
+      "targetWidthRatio": 0.86,
+      "maxSize": 520,
+      "outline": 10
+    },
+    "line": {
+      "targetWidthRatio": 0.84,
+      "maxSize": 230,
+      "outline": 8,
+      "maxCharsPerLine": 16
+    },
+    "pill": {
+      "labelSize": 66,
+      "valueSize": 132,
+      "noteSize": 54,
+      "padX": 48,
+      "padY": 36,
+      "radius": 16,
+      "stroke": 0,
+      "gap": 16
+    },
+    "collision": {
+      "smallSize": 108,
+      "largeSize": 208,
+      "gap": 34,
+      "ruleWidth": 340,
+      "ruleThickness": 6
+    },
+    "arrow": {
+      "smallSize": 120,
+      "largeSize": 240,
+      "shaftRatio": 0.34,
+      "headRatio": 1.0,
+      "heightRatio": 1.9,
+      "gap": 34
+    },
+    "quote": {
+      "size": 96,
+      "outline": 6
+    },
+    "list": {
+      "labelSize": 84,
+      "itemSize": 112,
+      "gap": 16,
+      "outline": 7
+    },
+    "plate": {
+      "padX": 46,
+      "padY": 32,
+      "radius": 20,
+      "stroke": 5,
+      "alpha": "10",
+      "inkThreshold": 0.1,
+      "lumaThreshold": 150
+    }
+  },
+  "render": {
+    "supersample": 2,
+    "crf": 18,
+    "preset": "slow",
+    "audioBitrate": "192k",
+    "loudnessTarget": -14,
+    "truePeak": -1.5,
+    "holdFirstFrame": 0.0
+  }
+}

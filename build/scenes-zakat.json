@@ -1,0 +1,540 @@
+{
+  "project": {
+    "slug": "zakat",
+    "title": "Most Muslims Calculate Zakat Wrong (Here's the Fix)",
+    "pack": "zakat-prompt-pack.txt",
+    "track": "B",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "targetDuration": 88.0,
+    "voiceover": "media/zakat/vo/zakat-vo.mp3",
+    "stillsDir": "media/zakat/stills",
+    "style": "style-zakat.json"
+  },
+  "_comment": [
+    "Transcription of the SCENE MAP, NUMBERS and VO SCRIPT sections of",
+    "zakat-prompt-pack.txt. target{In,Out} are the pack's 163wpm estimates and are",
+    "NOT the cut - bin/align.mjs re-derives real timings from the recorded VO,",
+    "which came in at 108.75s against the pack's 88.0s estimate.",
+    "",
+    "Scene 07 has no supplied still and carries continuesFrom:'06' - per the user's",
+    "call, 06's artwork holds through 07's line rather than cutting. The pack names",
+    "07 as the sacrificial scene, so no cut is lost that the pack protects.",
+    "",
+    "captionY / bandY are deliberately absent: bin/captions.mjs solves placement per",
+    "frame against that still's own ink coverage. Set them here only to override."
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "name": "the stake",
+      "still": "01-Man_facing_camera_seriously_2K_202608122000.jpeg",
+      "targetIn": 0.0,
+      "targetOut": 4.0,
+      "move": {
+        "push": 0.04,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Two and a half percent of your savings was never yours."
+      ],
+      "accentWords": [
+        "NEVER",
+        "YOURS."
+      ],
+      "card": {
+        "kind": "word",
+        "text": "2.5%",
+        "at": 0.15,
+        "hold": 3.4,
+        "takeover": false
+      }
+    },
+    {
+      "id": "02",
+      "name": "the two engines",
+      "still": "02-Man_posing_with_questioning_expr__202608122002.jpeg",
+      "targetIn": 4.0,
+      "targetOut": 12.0,
+      "move": {
+        "push": 0.05,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Your bank pays you to keep money still.",
+        "Islam charges you for it.",
+        "Same pile. Opposite engines."
+      ],
+      "accentWords": [
+        "STILL.",
+        "CHARGES",
+        "OPPOSITE"
+      ],
+      "card": null
+    },
+    {
+      "id": "03",
+      "name": "the charge",
+      "still": "03-Blank_card_floating_above_stack_202608122005.jpeg",
+      "targetIn": 12.0,
+      "targetOut": 15.6,
+      "move": {
+        "push": 0.08,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Every year. On what's been sitting twelve months."
+      ],
+      "accentWords": [
+        "YEAR."
+      ],
+      "card": {
+        "kind": "line",
+        "text": "EVERY YEAR · 12 MONTHS",
+        "at": "vo:0:0",
+        "hold": 3.0,
+        "takeover": false
+      }
+    },
+    {
+      "id": "04",
+      "name": "not your wage",
+      "still": "04-Man_holding_blank_document_202608122007.jpeg",
+      "targetIn": 15.6,
+      "targetOut": 20.1,
+      "move": {
+        "push": 0,
+        "driftX": 30,
+        "driftY": 0
+      },
+      "vo": [
+        "Not on what you earn. On what you keep still."
+      ],
+      "accentWords": [
+        "EARN.",
+        "STILL."
+      ],
+      "card": {
+        "kind": "line",
+        "text": "NOT INCOME. WEALTH.",
+        "at": "vo:0:4",
+        "hold": 3.0,
+        "takeover": false
+      }
+    },
+    {
+      "id": "05",
+      "name": "interest",
+      "still": "05-Featureless_figure_viewing_float__2K_202608122011.jpeg",
+      "targetIn": 20.1,
+      "targetOut": 23.6,
+      "move": {
+        "push": 0,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Interest rewards you for not using money."
+      ],
+      "accentWords": [
+        "REWARDS"
+      ],
+      "card": {
+        "kind": "arrow",
+        "direction": "up",
+        "text": "INTEREST",
+        "scale": "small",
+        "at": "vo:0:0",
+        "hold": 3.0,
+        "takeover": false,
+        "bandY": 0.8,
+        "fade": false,
+        "plate": true
+      }
+    },
+    {
+      "id": "06",
+      "name": "zakat",
+      "still": "06-Figure_holding_blank_card_2K_202608122015.jpeg",
+      "targetIn": 23.6,
+      "targetOut": 27.1,
+      "move": {
+        "push": 0,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Zakat charges you for not using it."
+      ],
+      "accentWords": [
+        "CHARGES"
+      ],
+      "card": {
+        "kind": "arrow",
+        "direction": "down",
+        "text": "ZAKAT 2.5%",
+        "scale": "large",
+        "at": "vo:0:0",
+        "hold": 3.0,
+        "takeover": false,
+        "bandY": 0.8,
+        "fade": false,
+        "plate": true
+      }
+    },
+    {
+      "id": "07",
+      "name": "direction",
+      "still": null,
+      "targetIn": 27.1,
+      "targetOut": 31.3,
+      "move": {
+        "push": 0.05,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "One pulls wealth upward. The other pushes it out."
+      ],
+      "accentWords": [
+        "UPWARD.",
+        "OUT."
+      ],
+      "card": {
+        "kind": "line",
+        "text": "UP  /  OUT",
+        "at": "vo:0:0",
+        "hold": 3.4,
+        "takeover": false
+      },
+      "continuesFrom": "06"
+    },
+    {
+      "id": "08",
+      "name": "it shrinks",
+      "still": "07-Stack_of_blank_cards_2K_202608122017.jpeg",
+      "targetIn": 31.3,
+      "targetOut": 34.5,
+      "move": {
+        "push": 0,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "So money that sits still shrinks."
+      ],
+      "accentWords": [
+        "SHRINKS."
+      ],
+      "card": {
+        "kind": "line",
+        "text": "−2.5% EVERY YEAR",
+        "at": "vo:0:0",
+        "hold": 2.6,
+        "takeover": false
+      }
+    },
+    {
+      "id": "09",
+      "name": "put it to work",
+      "still": "08-Man_lifting_crate_at_stall_202608122020.jpeg",
+      "targetIn": 34.5,
+      "targetOut": 40.5,
+      "move": {
+        "push": 0.07,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Put it to work — a trade, something real — and the return outruns the charge."
+      ],
+      "accentWords": [
+        "OUTRUNS"
+      ],
+      "card": null,
+      "captionY": 0.26
+    },
+    {
+      "id": "10",
+      "name": "the reframe",
+      "still": "09-Man_standing_with_resolved_expre__202608122023.jpeg",
+      "targetIn": 40.5,
+      "targetOut": 45.7,
+      "move": {
+        "push": 0.06,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "It never asks you to give wealth away.",
+        "It makes stillness expensive."
+      ],
+      "accentWords": [
+        "AWAY.",
+        "EXPENSIVE."
+      ],
+      "card": {
+        "kind": "line",
+        "text": "STILLNESS IS EXPENSIVE",
+        "at": "vo:1:2",
+        "hold": 3.0,
+        "takeover": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "the underpay",
+      "still": "10-Man_holding_blank_panel_202608122025.jpeg",
+      "targetIn": 45.7,
+      "targetOut": 50.5,
+      "move": {
+        "push": -0.08,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "And most people underpay.",
+        "Because they only count the bank balance."
+      ],
+      "accentWords": [
+        "UNDERPAY."
+      ],
+      "card": {
+        "kind": "quote",
+        "text": "just the bank balance",
+        "at": "vo:1:3",
+        "hold": 2.8,
+        "takeover": false
+      },
+      "captionY": 0.13
+    },
+    {
+      "id": "12",
+      "name": "what counts",
+      "still": "11-Four_objects_sit_on_surface_202608122028.jpeg",
+      "targetIn": 50.5,
+      "targetOut": 54.8,
+      "move": {
+        "push": 0,
+        "driftX": 40,
+        "driftY": 0
+      },
+      "vo": [
+        "Money owed to you counts. Investments count.",
+        "Gold sitting in a drawer counts."
+      ],
+      "accentWords": [
+        "COUNTS.",
+        "COUNT.",
+        "COUNTS."
+      ],
+      "card": {
+        "kind": "list",
+        "label": "COUNTS",
+        "items": [
+          "CASH",
+          "GOLD",
+          "OWED TO YOU",
+          "INVESTMENTS"
+        ],
+        "at": "vo:0:0",
+        "hold": 4.0,
+        "takeover": false
+      }
+    },
+    {
+      "id": "13",
+      "name": "what doesn't",
+      "still": "12-Vector_shapes_in_a_row_202608122029.jpeg",
+      "targetIn": 54.8,
+      "targetOut": 59.0,
+      "move": {
+        "push": 0,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Your home doesn't. Your car doesn't. Your tools don't."
+      ],
+      "accentWords": [
+        "DOESN'T.",
+        "DON'T."
+      ],
+      "card": {
+        "kind": "list",
+        "label": "EXEMPT",
+        "items": [
+          "HOME",
+          "CAR",
+          "TOOLS"
+        ],
+        "at": "vo:0:0",
+        "hold": 3.8,
+        "takeover": false
+      }
+    },
+    {
+      "id": "14",
+      "name": "the line",
+      "still": "13-Kareem_holding_hands_out_202608122031.jpeg",
+      "targetIn": 59.0,
+      "targetOut": 63.2,
+      "move": {
+        "push": 0.05,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Wealth in use is exempt. Wealth asleep is charged."
+      ],
+      "accentWords": [
+        "EXEMPT.",
+        "ASLEEP",
+        "CHARGED."
+      ],
+      "card": {
+        "kind": "collision",
+        "small": "IN USE = EXEMPT",
+        "large": "ASLEEP = CHARGED",
+        "at": "vo:0:0",
+        "hold": 3.8,
+        "takeover": false
+      },
+      "captionY": 0.055
+    },
+    {
+      "id": "15A",
+      "name": "step one",
+      "still": "14-Adam_standing_at_table_2K_202608122035.jpeg",
+      "targetIn": 63.2,
+      "targetOut": 68.2,
+      "move": {
+        "push": 0.05,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Two minutes. Three steps.",
+        "One — add what's sat still for a lunar year."
+      ],
+      "accentWords": [
+        "ADD"
+      ],
+      "card": {
+        "kind": "pill",
+        "label": "STEP 1 — ADD",
+        "value": "held still 1 lunar year",
+        "at": "vo:1:0",
+        "hold": 3.4,
+        "takeover": false
+      }
+    },
+    {
+      "id": "15B",
+      "name": "step two",
+      "still": "15-Person_pushing_cream_objects_away_202608122038.jpeg",
+      "targetIn": 68.2,
+      "targetOut": 71.2,
+      "move": {
+        "push": 0,
+        "driftX": 25,
+        "driftY": 0
+      },
+      "vo": [
+        "Two — subtract what you owe now."
+      ],
+      "accentWords": [
+        "SUBTRACT"
+      ],
+      "card": {
+        "kind": "pill",
+        "label": "STEP 2 — SUBTRACT",
+        "value": "debts due now",
+        "at": "vo:0:0",
+        "hold": 2.6,
+        "takeover": false
+      }
+    },
+    {
+      "id": "15C",
+      "name": "step three",
+      "still": "16-Person_watching_scale_on_table_202608122058.jpeg",
+      "targetIn": 71.2,
+      "targetOut": 77.2,
+      "move": {
+        "push": 0.09,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Three — if what's left clears the nisab, two and a half percent of it was never yours."
+      ],
+      "accentWords": [
+        "NISAB,",
+        "NEVER",
+        "YOURS."
+      ],
+      "card": {
+        "kind": "pill",
+        "label": "STEP 3 — NISAB ≈ 85g GOLD",
+        "value": "× 2.5%",
+        "at": "vo:0:0",
+        "hold": 4.2,
+        "takeover": false
+      }
+    },
+    {
+      "id": "16A",
+      "name": "the inversion",
+      "still": "17-Split_composition_of_teller_and_202608122101.jpeg",
+      "targetIn": 77.2,
+      "targetOut": 82.0,
+      "move": {
+        "push": -0.07,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "Every other system charges your work.",
+        "This one charges your stillness."
+      ],
+      "accentWords": [
+        "WORK.",
+        "STILLNESS."
+      ],
+      "card": {
+        "kind": "collision",
+        "small": "THEY CHARGE YOUR WORK",
+        "large": "THIS CHARGES YOUR STILLNESS",
+        "at": "vo:1:0",
+        "hold": 3.2,
+        "takeover": false
+      }
+    },
+    {
+      "id": "16B",
+      "name": "the close",
+      "still": "18-Man_addressing_camera_directly_202608122104.jpeg",
+      "targetIn": 82.0,
+      "targetOut": 88.0,
+      "move": {
+        "push": 0.04,
+        "driftX": 0,
+        "driftY": 0
+      },
+      "vo": [
+        "That's not a tax. It isn't charity either.",
+        "It's a circulation rule — the only engine in finance pointed the other way."
+      ],
+      "accentWords": [
+        "CIRCULATION",
+        "RULE"
+      ],
+      "card": null
+    }
+  ]
+}

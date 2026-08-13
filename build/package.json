@@ -1,0 +1,19 @@
+{
+  "name": "finance-decoded-assembly",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic 9:16 short assembly: stills + voiceover + scene pack -> captioned MP4",
+  "scripts": {
+    "align": "node bin/align.mjs",
+    "captions": "node bin/captions.mjs",
+    "render": "node bin/render.mjs",
+    "audit": "node bin/audit.mjs",
+    "build": "node bin/align.mjs && node bin/captions.mjs && node bin/render.mjs && node bin/audit.mjs"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0",
+    "opentype.js": "^1.3.4"
+  }
+}
