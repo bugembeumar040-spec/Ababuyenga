@@ -111,7 +111,7 @@
   },
   "render": {
     "supersample": 2,
-    "crf": 18,
+    "crf": 20,
     "preset": "slow",
     "audioBitrate": "192k",
     "loudnessTarget": -14,
