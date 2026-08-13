@@ -272,10 +272,11 @@ TITLE
     The Arabic Word for "Jinn" Changes Everything You Believe About Them
     Every Jinn Verse in the Quran Explained: The Part Everyone Gets Wrong
 
-  Note: vidIQ's title scorer required an approval this session didn't have, so
-  these are ranked on the channel's own observed title performance and the comp
-  set above, not on a scorer output. Worth running the scorer on all five
-  before you commit.
+  STILL OPEN: vidIQ's title scorer is gated behind a tool approval that this
+  session could not clear — attempted twice, blocked both times. So these five
+  are ranked on the channel's own observed title performance and the comp set
+  above, not on a scorer output. Run the scorer on all five yourself before you
+  commit to one; it's the only claim in this brief not backed by pulled data.
 
 --------------------------------------------------------------------------------
 THUMBNAIL
@@ -424,9 +425,9 @@ Surah Al-Jinn opens with something remarkable. "Say: it has been revealed to me
 that a company of the jinn listened, and they said: indeed, we have heard an
 amazing Quran. It guides to what is right, so we have believed in it."
 
-Surah Al-Ahqāf tells the same event from the other side — they listened, and
-then they went back to their own people as callers: "O our people, respond to
-the one calling to Allah."
+Surah Al-Ahqāf tells the same event from the other side — they listened, they
+told each other to be quiet and listen, and then they went back to their own
+people as warners: "O our people, respond to the caller of Allah."
 
 They weren't summoned. Nobody performed a ritual. They passed by, they heard
 recitation, and it moved them.
@@ -588,15 +589,34 @@ COMPANION SHORT — cut from beat 07
 ACCURACY NOTE
 --------------------------------------------------------------------------------
 
-  Every verse above was cited from the standard text and the claims are
-  mainstream across Sunni tafsir — the Iblis point (Al-Kahf 18:50) and the
-  unseen-knowledge point (Saba 34:14) in particular are uncontroversial
-  positions, not a hot take. The etymology of ج-ن-ن and its relation to janna,
-  janin, majnun and junna is standard Arabic lexicography.
+  VERIFIED 13 Aug 2026 against the Uthmani text and the Sahih International
+  translation. All eighteen citations in this brief were checked individually
+  and every one matches the script as written:
 
-  That said: verify each citation against a mushaf before recording. This is a
-  topic where an error will be caught fast and publicly, and the channel's
-  credibility is the product. The corner-citation on the thumbnail promises
-  sourcing — honour it.
+    55:15 · 15:27 · 18:50 · 51:56 · 72:1 · 72:2 · 72:6 · 72:11 · 72:13 ·
+    46:29 · 46:31 · 34:12 · 34:13 · 34:14 · 27:17 · 27:39 · 6:112 · 114:6
+
+  The Ar-Rahman refrain count was also verified programmatically: the phrase
+  ending تُكَذِّبَانِ occurs exactly 31 times across the surah's 78 ayat. The
+  "thirty-one times" line in beat 05 is safe to say on camera.
+
+  Two translation choices to be aware of, both defensible, neither an error:
+
+    46:29 — the jinn return to their people as "warners" (mundhirīn). The
+      script says warners. Do not say "callers" here; that belongs to 46:31.
+    46:31 — the Arabic is dāʿiya Allāh, literally "the caller of Allah" /
+      the one inviting to Allah. Sahih International renders it "the Messenger
+      of Allah." The script uses the literal reading, which is the stronger
+      one for this beat. Either is correct; just don't attribute the literal
+      wording to Sahih on screen.
+
+  The claims themselves are mainstream across Sunni tafsir — the Iblis point
+  (Al-Kahf 18:50) and the unseen-knowledge point (Saba 34:14) in particular are
+  uncontroversial positions, not a hot take. The etymology of ج-ن-ن and its
+  relation to janna, janin, majnun and junna is standard Arabic lexicography
+  (Lisan al-Arab; al-Raghib al-Isfahani, Mufradat) — this one is lexicography
+  rather than scripture, so attribute it as "the root means" and not as a verse.
+
+  The corner-citation on the thumbnail promises sourcing. It is now honoured.
 
 ================================================================================
