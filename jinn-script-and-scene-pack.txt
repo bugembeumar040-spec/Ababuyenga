@@ -575,8 +575,13 @@ geometry, warping architecture, flickering light, strobing.
 
 ================================================================================
 VOICEOVER — record to media/jinn-vo.mp3
-1,361 words · target 10:05 at the channel's measured 135 wpm
-(counted, not estimated: 10:28 if you read at 130, 9:43 if you read at 140)
+
+** SUPERSEDED — record from jinn-script-COPY-PASTE.txt instead. **
+That file carries six line-level fixes made after this pack was written,
+including one factual correction (diving is Sad 38:37, not Saba) and one
+miscount ("three words", not five). The version below is kept for reference
+only. Final: 1,255 words, 9:18 at 135 wpm — rescale this map by 0.92, or
+re-derive off the recorded VO.
 ================================================================================
 
 ElevenLabs v3, stability 50, similarity 75, speed 0.95. Slightly slower than the

@@ -1,0 +1,264 @@
+================================================================================
+JINN SCRIPT — CLEAN COPY-PASTE VERSION
+Clarity in the Quran · 1,255 words · 9:18 at the channel's measured 135 wpm
+Audited 13 Aug 2026. Six line-level fixes applied — listed at the bottom.
+
+NOTE ON LENGTH. Counted, not estimated. The line-level fixes tightened this
+below the scene pack's 10:05 map — the em-dash conversions and the cut filler
+took out about 106 words. 9:18 is still comfortably over the eight-minute
+mid-roll threshold, so nothing is lost. Two options: scale every IN/OUT in the
+scene map by 0.92, or just re-derive the timings off the recorded VO, which the
+pack tells you to do anyway. Do not pad the script back up to hit 10:00.
+================================================================================
+
+Paste the block between the two markers straight into ElevenLabs v3.
+Settings: stability 50 · similarity 75 · speed 0.95.
+
+For a plain teleprompter read instead, paste the same block and find-and-replace
+the bracketed tags with nothing. Nothing else needs changing.
+
+
+▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ COPY FROM HERE ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+
+
+[serious] Everyone knows the story. Allah commanded the angels to bow to Adam. They all bowed. One refused. And that one was Iblis.
+
+So Iblis was a fallen angel.
+
+Except the Quran never says that.
+
+Surah Al-Kahf, verse fifty. Same event. Same refusal. And then three words that almost nobody notices.
+
+Kana min al-jinn.
+
+He was of the jinn.
+
+Not an angel who fell. Something else entirely. And three more things you were told about jinn stop holding up along with it. The last one should change what you actually do.
+
+Start with the word itself, because the word gives the whole thing away.
+
+"Jinn" is not a name.
+
+It's a description. The root is jeem, noon, noon. And it means: to conceal. To cover over.
+
+You already know this root, even if you have never noticed it.
+
+Janna. The garden, paradise. Same root. Because a garden is a place so thick with growth that the ground beneath it is hidden.
+
+Janeen. A fetus. Same root. Because the child is concealed inside the womb.
+
+Majnoon. Which gets translated "madman." Same root. Someone whose reason has been covered over.
+
+And junna. A shield. Same root. The thing you hide behind. Hold onto that one. We come back to it at the end.
+
+So when the Quran says jinn, it is not saying demon. It is saying: the concealed ones. The ones you cannot see.
+
+That is the whole category. Not evil. Not monstrous. Hidden.
+
+[serious] The Quran is specific about what they are made of.
+
+Surah Ar-Rahman, verse fifteen. He created man from clay like pottery. And He created the jinn from a smokeless flame of fire. Marij min nar.
+
+And Surah Al-Hijr, verse twenty-seven. And the jinn We created before, from scorching fire.
+
+Two things there. Before. Jinn were created before human beings. And marij. Not a log burning. Not smoke. The pure moving part of a flame. The part with no substance you could hold.
+
+Which fits the root exactly. Made of the thing you can see straight through.
+
+So. Number one. Iblis was never an angel.
+
+And that is not a technicality. It is the entire moral logic of the story.
+
+Angels, as the Quran describes them, do not disobey. That is what they are. They do what they are commanded.
+
+Iblis could refuse, because Iblis had the one thing angels do not. A will. The same thing you have.
+
+He was not a perfect being who broke. He was a being who could choose, and chose wrong.
+
+Which is why his story is aimed at you. It only works as a warning if he was never an angel in the first place.
+
+Number two. Not all jinn are evil.
+
+Surah Al-Jinn, verse eleven. And this is the jinn speaking about themselves. And among us are the righteous, and among us are others below that. We follow different paths.
+
+They have believers and disbelievers. Some get it right. Some do not. Exactly like us.
+
+Two verses later. And when we heard the guidance, we believed in it.
+
+So jinn is not another word for shaytan. Shaytan describes behaviour, not species. And that turns out to apply to more of us than people expect.
+
+[serious] So why do they exist at all?
+
+Surah Adh-Dhariyat, verse fifty-six. And I did not create the jinn and mankind except to worship Me.
+
+One sentence. Both named together. Which is why Surah Ar-Rahman keeps addressing two audiences, and asking, thirty-one times, which of your Lord's favours you would deny.
+
+And then Surah Al-Jinn opens with something remarkable. Say: it has been revealed to me that a group of the jinn listened. And they said, indeed, we have heard an amazing Quran.
+
+Surah Al-Ahqaf tells the same night from their side. They listened. They told each other to be quiet. And when it ended they went back to their own people as warners. O our people, respond to the caller of Allah.
+
+Nobody summoned them. No ritual. They passed by, they heard recitation, and it moved them.
+
+Now. What can they actually do?
+
+The Quran answers that through Sulayman, peace be upon him.
+
+Surah An-Naml. Gathered for Sulayman were his soldiers of the jinn and men and birds. And when he needed a throne carried across a great distance, one of them, an ifrit, a powerful one among the jinn, said: I will bring it to you before you rise from your place.
+
+Surah Sad describes them in four words. Every builder and diver.
+
+And Surah Saba adds the rest. They made elevated chambers. Basins like reservoirs. Cauldrons that could not be moved.
+
+So. Strength. Speed. Real capability. Under a prophet's authority, by Allah's permission, in a documented exception. Not a power available for hire.
+
+And then Sulayman died.
+
+He died leaning on his staff. And the jinn working under him kept working, because they did not know.
+
+They kept labouring for a dead king. For how long, the Quran does not say. Until a creature of the earth ate through the wood, and he fell.
+
+Surah Saba, verse fourteen. When he fell, it became clear to the jinn that if they had known the unseen, they would not have remained in humiliating punishment.
+
+[serious] They could not see a dead man standing in the room with them.
+
+Sit with that. Of every example available, the Quran chose the most humiliating one, to make a single point. Number three. Whatever jinn are, they are not a source of knowledge.
+
+Which means anyone selling you access to the unseen through them is selling you something the Quran itself holds up as a joke.
+
+[warmly] If that landed, subscribe. There is one more, and it is the one that changes what you do.
+
+Number four.
+
+Surah Al-Jinn, verse six. And there were men from mankind who sought refuge in men from the jinn. So they only increased them in burden.
+
+That was a real practice. Travellers would stop somewhere unfamiliar and ask the jinn of that place for protection before sleeping.
+
+The Quran's verdict is one word. Rahaqa. They increased them in burden. In oppression. In exhaustion.
+
+They asked for protection. They received weight.
+
+[serious] Seeking safety from the concealed does not produce safety. It produces dependency.
+
+And here is the part almost nobody expects.
+
+Surah Al-An'am, verse one hundred and twelve, speaks of shayateen of mankind and jinn. Devils from among humans. And devils from among jinn.
+
+And then the very last surah of the Quran, An-Nas, names the whisperer who whispers into the chests of people. And it ends: min al-jinnati wan-nas.
+
+From among the jinn. And from among mankind.
+
+The final line of the Quran names a human threat standing right beside the hidden one.
+
+Which means shaytan was never a species. It is a job description. And some of the people doing that job are entirely visible, standing next to you, concealed by nothing at all.
+
+So bring the root back.
+
+Jinn. The concealed. Janeen. The concealed child. Janna. The concealed garden. Majnoon. The concealed mind.
+
+And junna. The shield. The thing that covers you.
+
+[calm] The Quran does not hand you a ritual to use against the unseen. It hands you a junna. Al-Fatiha. Ayat al-Kursi. The last two surahs. The morning and the evening remembrance.
+
+Protection that never requires you to negotiate with anything hidden. Because it comes from the One who made the hidden thing in the first place.
+
+They were made from fire. You were made from clay. Neither of you can see the other clearly.
+
+[warmly] Only One sees both.
+
+
+▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲ COPY TO HERE ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
+
+
+================================================================================
+PRONUNCIATION KEY — check these in the render before you cut
+================================================================================
+
+ElevenLabs will mangle some of these on the first pass. Listen back to each one
+specifically. If any is wrong, respell it phonetically in a separate short
+generation and splice it — do not re-render the whole track chasing one word.
+
+  Kana min al-jinn      KAA-na min al-JINN
+  Marij min nar         MAA-rij min NAAR
+  Janna                 JAN-na        (not "JAY-na")
+  Janeen                ja-NEEN
+  Majnoon               maj-NOON
+  Junna                 JUN-na        (short u, as in "sun")
+  Adh-Dhariyat          adh-dhaa-ri-YAAT
+  Al-Ahqaf              al-AH-qaaf
+  An-Naml               an-NAML
+  Ifrit                 IF-reet
+  Saba                  sa-BAA
+  Rahaqa                ra-HA-qa
+  Shayateen             sha-yaa-TEEN
+  Min al-jinnati wan-nas   min al-JIN-na-ti wan-NAAS
+  Ayat al-Kursi         AA-yat al-KUR-see
+  Al-Fatiha             al-FAA-ti-ha
+
+  Slow every one of these by about 15%. The Arabic in the Anger video reads
+  rushed and it costs you authority — it is the cheapest fix on the whole track.
+
+================================================================================
+THE TWO SILENCES — cut these in manually, do not trust the model
+================================================================================
+
+Two lines carry the video. Both need a full beat of silence either side, and TTS
+will not reliably give you one.
+
+  1. "Kana min al-jinn."
+  2. "They could not see a dead man standing in the room with them."
+
+Generate each as its own isolated short pass, then splice it in with roughly two
+seconds of room tone before and after. Same fix as the "Deadbeats" line on the
+finance slate. If you let the next sentence ride in on either of these, the
+video loses its two best moments.
+
+================================================================================
+AUDIT — six fixes applied to the version in the scene pack
+================================================================================
+
+  1. FACTUAL ERROR, NOW FIXED. The script attributed diving to Surah Saba.
+     Saba 34:12-13 does not mention diving — that is Sad 38:37 ("every builder
+     and diver") and Al-Anbiya 21:82. Verified against the text. Rewritten as
+     "Surah Sad describes them in four words. Every builder and diver." The
+     line is now both correct and better, because that four-word phrase is
+     more vivid than the paraphrase it replaced.
+
+  2. MISCOUNT, NOW FIXED. The script said "five words that almost nobody
+     notices" before quoting kana min al-jinn. كَانَ مِنَ الْجِنِّ is three words.
+     Now reads "three words." Exactly the kind of thing a comment section
+     catches in an hour.
+
+  3. THE COLD OPEN MADE THE LISTENER DO ARITHMETIC. It said "three more things
+     ... the fourth one," which forces the viewer to add Iblis back in to work
+     out what "fourth" refers to. Now "the last one." Same promise, no maths.
+
+  4. A TRANSITION CONTRADICTED AN EARLIER BEAT. Before the purpose section the
+     script said "which brings us to how the Quran says they were created, and
+     why" — but creation was already covered two beats earlier, in the smokeless
+     fire section. Now simply "So why do they exist at all?"
+
+  5. REGISTER SLIP. "A perfect being who malfunctioned" is mechanical language
+     in a passage about will and moral responsibility. Now "a perfect being who
+     broke."
+
+  6. TTS HAZARDS REMOVED. All [pause] tags stripped — v3 does not honour them
+     reliably, and the two pauses that actually matter are now handled by manual
+     splice instead. Em-dashes converted to full stops throughout, because v3
+     runs straight through a dash and stops properly on a period. "Verse a
+     hundred and twelve" changed to "verse one hundred and twelve."
+
+  UNCHANGED AND DELIBERATE: the four numbered misconceptions, the subscribe ask
+  sitting immediately after the Sulayman reveal rather than at the end, and the
+  cold open leading with Iblis. Those are the three structural decisions from
+  the scene-pack audit and they are what make this hold.
+
+================================================================================
+STILL OPEN
+================================================================================
+
+  The vidIQ title scorer is gated behind a tool approval I could not clear —
+  four attempts across this session. The title options are ranked on your own
+  channel's observed performance and the comp set, which is sound reasoning but
+  not a scorer output. Run it yourself before you commit to one. It remains the
+  only unvalidated call in this package.
+================================================================================
