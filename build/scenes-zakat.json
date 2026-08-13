@@ -159,7 +159,7 @@
     {
       "id": "06",
       "name": "zakat",
-      "still": "06-Figure_holding_blank_card_2K_202608122015.jpeg",
+      "still": "06-Sami_face_holding_blank_card_202608130830.jpeg",
       "targetIn": 23.6,
       "targetOut": 27.1,
       "move": {
@@ -261,7 +261,7 @@
     {
       "id": "10",
       "name": "the reframe",
-      "still": "09-Man_standing_with_resolved_expre__202608122023.jpeg",
+      "still": "09-Adam_resolved_open_palms_202608130833.jpeg",
       "targetIn": 40.5,
       "targetOut": 45.7,
       "move": {
@@ -283,7 +283,8 @@
         "at": "vo:1:2",
         "hold": 3.0,
         "takeover": false
-      }
+      },
+      "captionY": 0.43
     },
     {
       "id": "11",

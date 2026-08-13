@@ -315,9 +315,19 @@ if (!exists(outFile)) {
   check('output', 'has an audio track', !!a, a ? `${a.codec_name} ${a.sample_rate}Hz ${a.channels}ch` : 'none');
   check('output', 'video length matches the voiceover', voInfo ? Math.abs(dur - voInfo.duration) < 0.12 : false,
     voInfo ? `video ${dur.toFixed(2)}s vs VO ${voInfo.duration.toFixed(2)}s` : 'no VO to compare');
-  check('output', 'faststart enabled for web playback', /moov/.test(execFileSync(FFPROBE, ['-v', 'trace', '-i', outFile, '-t', '0.01', '-f', 'null', '-'], { stdio: ['ignore', 'pipe', 'pipe'] }).toString().slice(0, 4000)) ? true : 'warn', '');
+  // faststart means the moov atom precedes mdat; ffprobe cannot report this, so
+  // read the atom order off the front of the file directly.
+  const head = Buffer.alloc(Math.min(4 * 1024 * 1024, fs.statSync(outFile).size));
+  const fd = fs.openSync(outFile, 'r');
+  fs.readSync(fd, head, 0, head.length, 0);
+  fs.closeSync(fd);
+  const moov = head.indexOf('moov');
+  const mdat = head.indexOf('mdat');
+  check('output', 'faststart enabled for web playback',
+    moov !== -1 && (mdat === -1 || moov < mdat) ? true : 'warn',
+    moov === -1 ? 'moov atom not in the first 4MB' : `moov at ${moov}, mdat at ${mdat}`);
 
-  const eb = spawnSync(FFMPEG, ['-hide_banner', '-nostats', '-i', outFile, '-af', 'ebur128=framelog=quiet', '-f', 'null', '-'], { encoding: 'utf8' }).stderr;
+  const eb = spawnSync(FFMPEG, ['-hide_banner', '-nostats', '-i', outFile, '-af', 'ebur128=framelog=quiet:peak=true', '-f', 'null', '-'], { encoding: 'utf8' }).stderr;
   const I = Number(/I:\s*(-?[\d.]+)\s*LUFS/.exec(eb)?.[1] ?? NaN);
   const TP = Number(/Peak:\s*(-?[\d.]+)\s*dBFS/.exec(eb)?.[1] ?? NaN);
   check('output', 'integrated loudness near -14 LUFS', Number.isFinite(I) && Math.abs(I - style.render.loudnessTarget) <= 1.5,
