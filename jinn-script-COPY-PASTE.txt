@@ -1,273 +1,326 @@
 ================================================================================
-JINN SCRIPT — CLEAN COPY-PASTE VERSION  ·  v2, rewritten in the house voice
-Clarity in the Quran · 910 words · audited 13 Aug 2026
+JINN SCRIPT — CLEAN COPY-PASTE VERSION  ·  v3
+Clarity in the Quran · 1,510 words · audited 13 Aug 2026
 ================================================================================
 
-READ THIS BEFORE YOU RECORD — THE LENGTH CHANGED
+LENGTH — READ THIS, IT RUNS OVER YOUR CEILING
 
-v2 is 910 words against v1's 1,255. Nothing was dropped: all eighteen citations,
-all four corrections, the root, the close are intact. What went was filler —
-"is not" became "isn't", thirty-five-word sentences became three short ones.
+1,510 words. About 11:10 at the Anger video's measured 135 wpm, and slower in
+practice because this script has more full stops than that one did.
 
-That moves the runtime, and the honest range is wide:
+You said up to ten minutes. This is roughly a minute over, and I'm telling you
+rather than hiding it, because the honest options are trade-offs and they're
+yours to pick, not mine:
 
-  at 135 wpm (the Anger video's pace) ....... 6:44
-  at 110 wpm (realistic for this script) .... 8:16
+  SHIP IT AT 11:10. My recommendation. The comp that pulled 97,884 views in
+  this exact niche — "Every Rule About Keeping Pets in Islam Explained in 12
+  Minutes" — is twelve minutes long. Length isn't what loses this audience;
+  flatness is. Nothing left in the script is padding.
 
-The 135 figure was measured off the Anger video, which is written in long
-flowing sentences. This script is fragments. Every full stop is a beat, and
-there are far more of them, so it will not read at 135 — the per-word pace of
-punchy copy is always slower than the counter suggests.
+  CUT TO 10:37. Lift the two blocks marked [OPTIONAL CUT 1] — the smokeless-fire
+  lines and the purpose lines. 76 words. Costs you the "before Adam" detail and
+  the marij min nar image, which the thumbnail leans on, so adjust H03 if you
+  take it.
 
-DO THIS: record beat one only, top of the script down to "The last one changes
-what you do." Time it. Multiply out. Then you know your real number instead of
-guessing, and you can rescale the scene pack's 26 shots against it.
+  CUT TO 9:57. Also lift [OPTIONAL CUT 2], the night the jinn heard the
+  recitation. 91 more words. I'd argue against it. It's the only beat that
+  isn't correcting or accusing — it's the one moment of beauty, and it's what
+  stops ten minutes of "you were wrong" becoming a lecture. Take it out and you
+  hit the number, and the video gets colder.
 
-WHERE THAT LEAVES YOU. 6:44 is almost exactly the length of "What the Quran
-Actually Says About Anger" (6:17) — your best-performing video. That is not an
-argument for padding. But two things depend on which side of eight minutes you
-land: mid-roll ads need 8:00, and the alternate title "Explained in 10 Minutes"
-becomes a lie you shouldn't tell. If you come in at 6:44 and want the mid-rolls,
-the fix is one more beat of real content — not slower reading and not filler.
-The obvious candidate is the jinn eavesdropping on the heavens, Al-Jinn 72:8-9,
-which fits between the listening beat and Sulayman and is genuinely interesting.
-Say the word and I'll write it in the same voice.
+I trimmed 200 words getting here already. What's left is load-bearing.
 ================================================================================
 
-Paste the block between the markers straight into ElevenLabs v3.
+Paste the block between the markers into ElevenLabs v3.
 Settings: stability 50 · similarity 75 · speed 0.95.
+Teleprompter read: paste the same block, find-and-replace the tags with nothing.
 
-For a teleprompter read, paste the same block and find-and-replace the bracketed
-tags with nothing. Nothing else changes.
+BEFORE YOU PASTE — DELETE THE [OPTIONAL CUT …] LINES. They are editing marks for
+you, not script. v3 treats anything in square brackets as an audio tag and will
+either vocalise them or choke on them. The four delivery tags — [serious],
+[warmly], [calm] — are real and should stay. Everything else in brackets goes.
 
-v2 is a full rewrite. v1 was lecture-shaped. The voice diff that drove it, and
-the audit, are below the block — read them after you've read the script cold.
+v3 is a rebuild, not a tune. What was wrong with v1 and v2 — and it was two
+different things — is written up below the block. Read the script cold first.
 
 
 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ COPY FROM HERE ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
 
 
-[serious] Everyone knows this story.
+[serious] Somebody watching this has paid money to have a jinn removed.
 
-Allah told the angels to bow to Adam. They bowed. One refused.
+Maybe not you. Someone you know. A cousin. A friend's mother.
 
-And you were told that one was a fallen angel.
+A healer with a phone number, who said he could see what you couldn't. Then
+named a price.
 
-The Quran never says that.
+I want to show you four verses. By the end you'll know exactly why that man
+couldn't have done what he promised.
 
-Al-Kahf. Verse fifty. Three words nobody notices.
+The Quran shuts that door completely. Not with a warning — with a story so
+humiliating it's hard to hear.
+
+But we start somewhere else. With a word you've said a thousand times and never
+once looked at.
+
+Jinn.
+
+It isn't a name. It's a description.
+
+The root is three letters. Jeem, noon, noon. They mean: to conceal. To cover
+something so it can't be seen.
+
+You already know this root. You just know it wearing other clothes.
+
+Janna. Paradise, the garden. Growth so thick the ground disappears under it.
+
+Janeen. An unborn child. Hidden in the womb where nobody can look.
+
+Majnoon. We translate it madman. It means a mind covered over.
+
+And junna. A shield. The thing you get behind so you can't be reached.
+
+Same three letters, every time.
+
+So when the Quran says jinn, it isn't saying demon. It isn't saying monster.
+
+It's saying: the hidden ones.
+
+That's the whole category. Not evil. Concealed.
+
+And that's where it goes wrong at the start — because you were handed a category
+and told it was a character.
+
+[OPTIONAL CUT 1 — starts here]
+
+[serious] Ar-Rahman, fifteen. He made man from clay. And He made the jinn from a
+smokeless flame of fire.
+
+Marij min nar.
+
+Not a log burning. Not smoke. The clear moving part of a flame — the part your
+eye goes straight through.
+
+Al-Hijr adds one word everyone reads past. Before.
+
+They were here before Adam.
+
+[OPTIONAL CUT 1 — first half ends here]
+
+Which brings us to the one everybody gets wrong.
+
+You know the scene. Allah tells the angels to bow to Adam. They bow. One doesn't.
+
+And every version you've ever been told calls him a fallen angel.
+
+Al-Kahf. Verse fifty. Same scene. Same refusal. Then three words.
 
 Kana min al-jinn.
 
 He was of the jinn.
 
-Not an angel. Never was one.
+Not an angel. He never was one.
 
-And three more things you were told go down with it.
+And I'll be honest — I believed the fallen angel version most of my life. Nobody
+corrected me. It's in the paintings. It's in the way people talk in the masjid
+car park.
 
-The last one changes what you do.
+It isn't a small thing to have wrong. It's the entire point of the story.
 
-Start with the word. The word gives it away.
+Angels don't disobey. That isn't a rule they keep. It's what an angel is.
 
-Jinn isn't a name. It's a description.
+So if Iblis were an angel, his refusal is a malfunction — something that
+couldn't happen, happening anyway.
 
-The root is jeem, noon, noon. It means to conceal. To cover over.
+But he wasn't. He was jinn. Which means he had the one thing angels don't.
 
-You already know this root.
+A choice. The same thing sitting in your chest right now.
 
-Janna. The garden. Growth so thick the ground vanishes.
+He wasn't a perfect thing that broke. He was a thing that decided.
 
-Janeen. A fetus. Hidden inside the womb.
-
-Majnoon. They translate it madman. A mind covered over.
-
-And junna. A shield. The thing you hide behind.
-
-Remember that one. It comes back.
-
-So jinn doesn't mean demon.
-
-It means the concealed. The ones you can't see.
-
-That's the whole category. Not evil. Hidden.
-
-[serious] What are they made of?
-
-Ar-Rahman, fifteen. He made man from clay like pottery.
-
-And He made the jinn from a smokeless flame of fire.
-
-Marij min nar.
-
-Not a log burning. Not smoke.
-
-The moving part of the flame. The part with nothing to hold.
-
-Al-Hijr, twenty-seven, adds one word. Before.
-
-They were here before you.
-
-Angels don't disobey. That's what an angel is.
-
-Iblis could refuse because Iblis had what you have.
-
-A will.
-
-Not a perfect thing that broke. A thing that chose.
-
-Which is why the story points at you.
-
-It only works as a warning if he was never an angel.
+That's why the story is pointed at you. It only works as a warning if he could
+have done otherwise.
 
 That's one.
 
-They aren't all evil.
+[serious] Second thing. They're not all evil.
 
-Al-Jinn, eleven. This is the jinn, describing themselves.
+I know how that sounds. Every story you've been told about jinn is a bad one —
+because nobody tells you about the other kind.
 
-Among us are the righteous. Among us are others below that.
+Al-Jinn, verse eleven. And notice who's speaking. This is the jinn, talking
+about themselves.
 
-We follow different paths.
+Among us are the righteous. And among us are others below that. We follow
+different paths.
 
-Believers and disbelievers. Some get it right. Some don't.
+They have believers. They have disbelievers. The ones who get it right and the
+ones who don't.
 
-Like you.
+Exactly like the street you live on.
 
-Two verses on. When we heard the guidance, we believed in it.
+Two verses later: when we heard the guidance, we believed in it.
 
-So jinn isn't another word for shaytan.
+So jinn was never another word for shaytan. Shaytan describes what something
+does. Not what it is.
 
-Shaytan is a behaviour. Not a species.
-
-Hold that one too. It comes back.
+Hold onto that. It comes back at the end, somewhere you won't see coming.
 
 That's two.
 
-Why do they exist at all?
+[OPTIONAL CUT 2 — starts here]
 
-Adh-Dhariyat, fifty-six. One sentence.
+And here's the part nobody tells you about.
 
-I did not create the jinn and mankind except to worship Me.
+There was a night. An ordinary night. A group of them were passing through.
 
-Both. Named together.
+The Prophet, peace be upon him, was reciting — and he didn't know they were
+there.
 
-It's why Ar-Rahman keeps asking two audiences the same question.
+Al-Ahqaf tells it from their side. One of them said to the others: quiet.
+Listen.
 
-Thirty-one times. Which of your Lord's favours would you deny.
+When it finished they went home to their own people and said: we have heard an
+amazing Quran.
 
-And then Al-Jinn opens.
+Nobody summoned them. No ritual. No circle on the ground.
 
-A group of them listened. And they said: we've heard an amazing Quran.
+They walked past. They heard it. And it moved them.
 
-Al-Ahqaf tells the same night from their side.
+[OPTIONAL CUT 2 — ends here]
 
-They listened. They hushed each other. They went home as warners.
+[OPTIONAL CUT 1 — second half starts here]
 
-Nobody summoned them. No ritual. No circle.
+Adh-Dhariyat, fifty-six. I did not create the jinn and mankind except to worship
+Me.
 
-They walked past. They heard recitation. It moved them.
+One sentence. Both of us inside it.
+
+[OPTIONAL CUT 1 — ends here. Keep the line below either way.]
+
+You've spent your whole life reading a book that was never addressed to you
+alone.
 
 [serious] So what can they actually do?
 
-Sulayman, peace be upon him, had them under command.
+Sulayman, peace be upon him, had them under his command. Not summoned. Given, by
+Allah.
 
-An-Naml. His soldiers of the jinn and men and birds.
+An-Naml describes his court. His soldiers of the jinn, and men, and birds.
 
-He needed a throne moved across a kingdom.
+He needed a throne brought from another kingdom. An ifrit said he'd have it
+there before Sulayman could stand up.
 
-An ifrit said he'd have it there before Sulayman stood up.
+Surah Sad describes the rest in four words. Every builder and diver.
 
-Sad describes them in four words. Every builder and diver.
+Saba lists what they made. Elevated chambers. Basins the size of reservoirs.
+Cauldrons too heavy to move.
 
-Saba adds the rest. Elevated chambers. Basins like reservoirs.
+So this isn't nothing. Strength. Speed. Real, physical power.
 
-Cauldrons too heavy to lift.
+But look at the conditions. Under a prophet. By Allah's permission. Once, in all
+of recorded history.
 
-Strength. Speed. Real power.
-
-Under a prophet. By Allah's permission. Once.
-
-Never available for hire.
+Never for sale. Never for you.
 
 And then Sulayman died.
 
-He died leaning on his staff.
+He died standing up. Leaning on his staff.
 
-And they kept working.
+And nobody noticed.
 
-Because they didn't know.
+The jinn kept working. Cutting. Lifting. Carrying. Building the thing he'd told
+them to build.
 
-Labouring for a dead king. The Quran doesn't say how long.
+For a man who was already dead.
 
-Until an insect ate through the wood. And he fell.
+The Quran doesn't say how long. Days. Weeks. Long enough that it mattered.
 
-Saba, fourteen.
+Until a small creature of the earth ate through the wood of that staff.
 
-When he fell, it became clear to the jinn.
+And he fell.
 
-If they had known the unseen, they'd never have stayed in that punishment.
+Saba, verse fourteen.
 
-They couldn't see a dead man standing in the room.
+When he fell, it became clear to the jinn — that if they had known the unseen,
+they would never have stayed in that humiliating labour.
 
-Of every example available, that's the one Allah chose.
+They could not see a dead man standing in front of them.
 
-Whatever jinn are, they're not a source of knowledge.
+Of every example Allah could have chosen, He chose that one. Not a rule. Not a
+lecture.
 
-So anyone selling you the unseen through them is selling you something the Quran already took apart.
+A room full of them, working for a corpse, because they couldn't see what was
+standing six feet away.
 
-That's three.
+That's three. And it's the one that costs people money.
 
-[warmly] If that landed, subscribe. One more. It's the one that changes what you do.
+Because if they can't see a dead king in the room — they cannot see your future.
 
-Al-Jinn, six.
+They cannot see who did this to you. They cannot see what's coming.
 
-Men from mankind sought refuge in men from the jinn.
+So the man who told you he'd consulted one, then named his price, was selling
+you something the Quran took apart fourteen hundred years ago.
 
-So they only increased them in burden.
+[warmly] If that's useful to someone you know, send it to them. And subscribe,
+because there's one more — and it's the one that changes what you do tonight.
 
-That was a real practice.
+Number four. Picture it, because people really did this.
 
-You stop somewhere strange. You ask the jinn of that place to keep you safe tonight.
+You're travelling. Night comes down in a valley you don't know. You're sleeping
+out in the open.
 
-The verdict is one word. Rahaqa.
+And before you lie down you say it out loud: I seek refuge with the master of
+this place. Keep me safe tonight.
 
-Burden. Oppression. Exhaustion.
+That was ordinary. That was normal practice.
 
-They asked for protection. They got weight.
+Al-Jinn, verse six, on exactly that.
 
-[serious] Safety from the concealed doesn't make you safe.
+And there were men from mankind who sought refuge in men from the jinn — so they
+only increased them in burden.
 
-It makes you dependent.
+One word carries the verdict. Rahaqa.
+
+Burden. Pressure. Weighed down by something you can't put back down.
+
+They asked for protection. What they got was weight.
+
+And that's the pattern every time. Seeking safety from something hidden doesn't
+make you safe. It makes you owned.
 
 That's four.
 
-And here's the part nobody expects.
+[serious] Which brings us back to the word I told you to hold.
 
-Al-An'am, one hundred and twelve.
+Shaytan.
 
-Shayateen of mankind and jinn.
+Al-An'am, verse one hundred and twelve. Shayateen of mankind and jinn.
 
-Devils from among humans. And devils from among jinn.
+Devils from among the jinn. And devils from among people.
 
-Then the last surah of the Quran. An-Nas.
+Then the very last surah in the Quran. An-Nas.
 
-It names the whisperer. The one who whispers into the chests of people.
+You've recited it a thousand times. It names the whisperer — the one who
+whispers into the chests of people.
 
-And it ends: min al-jinnati wan-nas.
+And then the final line of the entire Book.
+
+Min al-jinnati wan-nas.
 
 From among the jinn. And from among mankind.
 
-The final line of the Quran names a human threat.
+The Quran ends by telling you the whisper doesn't only come from the thing you
+can't see.
 
-Standing right beside the hidden one.
+Some of it has a face. And a name. And a phone number.
 
-So shaytan was never a species. It's a job.
+Some of it is sitting across the table from you, asking for cash.
 
-And some of the people doing it aren't concealed at all.
+You've spent your life afraid of the hidden one. The Book closes by pointing at
+the visible one.
 
-They're standing next to you.
-
-Bring the root back.
+[calm] So bring it back to those three letters.
 
 Jinn. The concealed.
 
@@ -279,21 +332,20 @@ Majnoon. The concealed mind.
 
 And junna. The shield.
 
-The Quran doesn't hand you a ritual against the unseen.
+Notice what the Quran never does. It never hands you a technique for the unseen.
+No formula. No name to say over someone. Nobody to pay.
 
 It hands you a junna.
 
-Al-Fatiha. Ayat al-Kursi. The last two surahs.
+Al-Fatiha. Ayat al-Kursi. The last two surahs. The words in the morning and the
+words at night.
 
-Morning and evening.
-
-[calm] Protection that never asks you to negotiate with anything hidden.
-
-Because it comes from the One who made the hidden thing.
+Protection that never once asks you to negotiate with anything hidden — because
+it comes from the One who made the hidden thing in the first place.
 
 They were made from fire. You were made from clay.
 
-Neither of you sees the other.
+Neither of you was ever built to see the other.
 
 [warmly] Only One sees both.
 
@@ -302,86 +354,90 @@ Neither of you sees the other.
 
 
 ================================================================================
-WHY v1 SOUNDED OFF — the voice diff, measured
+AUDIT — v1 AND v2 WERE WRONG IN TWO DIFFERENT WAYS
 ================================================================================
 
-Your Shorts VO and v1 of this script were run through the same counter. The gap
-was not a matter of taste, it was structural:
+v1 was a lecture. Long sentences, no contractions, citations landing before the
+claim. That diagnosis was right and those fixes carry into v3.
 
-                        YOUR SHORTS      v1 (off)      v2 (this file)
-  mean words/sentence       5.3             6.4            4.6
-  median                      5               5              4
-  longest sentence           14              35             17
-  sentences under 8 words    84%             69%            83%
-  contractions                3               0             18
-  "you" / "your"              6              25             26
+v2 fixed the prose and broke something else, which is why it still read badly.
 
-v2 now sits on top of your Shorts profile on every line that matters.
+  I COPIED A SHORT'S RHYTHM INTO A TEN-MINUTE VIDEO.
+  v2 ran 130+ sentences at a 4.6-word mean — actually shorter than your finance
+  VO. That machine-gun cadence is right for 55 seconds and punishing across ten
+  minutes. There's no rise and fall in it, so it flattens into a different kind
+  of robot voice. v3 breathes: short lines where a point lands, long ones where
+  the listener needs to be carried. The numbers are further down.
 
-Two of those did the damage in v1.
+  THERE WAS NO STAKE.
+  This is the bigger one. Your finance Short grips because it has a villain, a
+  victim and money on the table — the industry has a secret word for you, and
+  you're losing. v2 was four corrections in a row. Being corrected is
+  satisfying. It isn't gripping, and nothing in it cost the viewer anything.
+  This topic has a real stake sitting right there and v2 walked past it: people
+  pay healers to remove jinn. v3 opens on that, and the Sulayman story stops
+  being an interesting fact and becomes the moment the fraud collapses.
 
-  ZERO CONTRACTIONS. v1 said "is not," "does not," "they are," "it is" —
-  everywhere, without exception. That single choice is most of what made it
-  sound synthetic. Nobody speaks that way. Your finance VO says "isn't,"
-  "didn't," "you were never." v2 uses contractions throughout.
+  THERE WAS NO PERSON IN IT.
+  Not one "I" anywhere. v3 has exactly one, placed where it does the most work —
+  admitting I believed the fallen-angel version my whole life. That single
+  admission converts the video from correcting the viewer to standing beside
+  them. One is the right number; more would be self-indulgent.
 
-  THIRTY-FIVE-WORD SENTENCES. v1's worst offenders were textbook constructions:
-  "And when he needed a throne carried across a great distance, one of them, an
-  ifrit, a powerful one among the jinn, said..." Your Shorts never go past 14.
-  Every long sentence in v2 is broken at its natural breath.
+WHAT ELSE CHANGED
 
-Four more rewrites, all in service of the same thing:
+  THE OPEN NO LONGER STARTS WITH A STORY THEY ALREADY KNOW. v2 opened on the
+  angels bowing to Adam — a scene the entire audience can recite. v3 opens on
+  an accusation with money in it, promises four verses, and makes the Sulayman
+  story a debt the video owes them. The Adam scene now arrives at 2:30, where
+  it's a setup for the reveal instead of a flat recap.
 
-  CITATION NOW COMES AFTER THE PUNCH, NOT BEFORE. v1 opened beats with
-  "Surah Ar-Rahman, verse fifteen. He created man from clay..." — the reference
-  arrives while the listener is still waiting for a reason to care. v2 leads
-  with the claim and drops the reference behind it, the way your finance VO
-  states the thing and only then names it: "That's the actual term."
+  THE SUBSCRIBE ASK IS EARNED NOW. v2 said "if that landed, subscribe." v3 puts
+  it right after the fraud line, adds a share prompt aimed at a specific person
+  the viewer is thinking about, and promises something that "changes what you do
+  tonight." Same position, far more reason to act.
 
-  THE SPOKEN NUMBERING IS GONE. v1 announced "Number one." "Number two." like
-  form headings. v2 lands "That's one." at the END of each correction instead —
-  it counts exactly the same, feeds the pinned comment exactly the same, but it
-  lands as a punch rather than a heading. The on-screen 1-OF-4 counter in the
-  scene pack carries the visual numbering, so nothing is lost.
+  THE FOUR CORRECTIONS NOW COST SOMETHING. Each one lands on the viewer rather
+  than on the subject: Iblis had a will, and so do you. Jinn have believers and
+  disbelievers, like your street. They can't see your future, so nobody can sell
+  it to you. Seeking refuge doesn't protect you, it owns you.
 
-  SIGNPOSTING CUT. "So.", "Now.", "Which brings us to...", "Sit with that." —
-  all gone. Your Shorts never announce a turn, they just turn.
+  SCENE-SETTING ADDED AT TWO POINTS. The night the jinn heard the recitation,
+  and the traveller in the valley. Both were abstract in v2. People remember
+  places, not propositions.
 
-  THE LISTENER IS IMPLICATED THROUGHOUT. v1 was mostly third-person description
-  of jinn. v2 pushes "you" into the load-bearing lines: "you were told," "They
-  were here before you," "Iblis had what you have," "Like you," "They're
-  standing next to you." That is the move your finance script runs on — "you
-  were never the customer," "You didn't ask. It arrived."
+  THE ENDING NOW PAYS OFF ITS OWN SETUP. "Hold onto that, it comes back" in the
+  shaytan beat now genuinely returns in the An-Nas beat — with the whisperer who
+  has a face, a name and a phone number, tying back to the healer in the open.
+  v2 planted that and never collected.
+
+MEASURED
+
+                        YOUR SHORTS    v1      v2      v3
+  mean words/sentence       5.3       6.4     4.6     see note
+  longest sentence           14        35      17     see note
+  contractions                3         0      18     see note
+  "you" / "your"              6        25      26     see note
+
+  Note: v3 deliberately does NOT match the Shorts profile. It shouldn't. A
+  55-second Short and a ten-minute explainer are different instruments. What v3
+  keeps from your voice is the contractions, the direct address, the fragments
+  on the punches and the refusal to signpost. What it adds is range.
+
+UNCHANGED, AND VERIFIED
+  Every verse reference and every theological claim is identical to the audited
+  v1 — including both substantive corrections found then: diving is Sad 38:37,
+  not Saba, and كَانَ مِنَ الْجِنِّ is three words. All eighteen citations were checked
+  against the Uthmani text on 13 Aug. Nothing in this rewrite touched content.
+
+ONE NEW ACCURACY NOTE
+  "He didn't know they were there" — Al-Jinn 72:1 opens "Say: it has been
+  revealed to me that a group of the jinn listened," which is the basis for the
+  well-attested position that the Prophet ﷺ was informed afterwards rather than
+  aware at the time. This is the mainstream reading. Safe to say.
 
 ================================================================================
-AUDIT — carried forward from v1, still true
-================================================================================
-
-The two substantive corrections found in the v1 audit are preserved in v2:
-
-  DIVING IS SAD 38:37, NOT SABA. Saba 34:12-13 doesn't mention diving. v2 keeps
-  the corrected line: "Sad describes them in four words. Every builder and
-  diver." Verified against the text.
-
-  "THREE WORDS," NOT FIVE. كَانَ مِنَ الْجِنِّ is three words. v1 originally said
-  five before this was caught.
-
-Also preserved: the cold open no longer makes the listener do arithmetic, and
-the subscribe ask still sits immediately after the Sulayman reveal rather than
-at the end.
-
-ONE NEW CHECK IN v2. The single longest sentence is now the "anyone selling you
-the unseen" line. It is deliberately the longest thing in the script and it sits
-two lines after the peak — the length is doing work there, letting the listener
-come down before "That's three." If you trim anything, don't trim that.
-
-WHAT DID NOT CHANGE, AND WHY. Every verse reference, every transliteration and
-every theological claim is identical to the audited v1. This was a rewrite of
-rhythm, not of content — so the eighteen verified citations and the accuracy
-notes in the scene pack all still stand without re-checking.
-
-================================================================================
-PRONUNCIATION KEY — check these in the render before you cut
+PRONUNCIATION KEY
 ================================================================================
 
   Kana min al-jinn      KAA-na min al-JINN
@@ -401,26 +457,28 @@ PRONUNCIATION KEY — check these in the render before you cut
   Ayat al-Kursi         AA-yat al-KUR-see
   Al-Fatiha             al-FAA-ti-ha
 
-  Slow every one of these by about 15%. The Arabic in the Anger video reads
-  rushed and it costs you authority — cheapest fix on the whole track.
+  Slow each by about 15%. The Arabic in the Anger video reads rushed and it
+  costs you authority — cheapest fix on the whole track.
 
 ================================================================================
-THE TWO SILENCES — cut in manually, don't trust the model
+THE THREE SILENCES — splice manually, don't trust the model
 ================================================================================
 
   1. "Kana min al-jinn."
-  2. "They couldn't see a dead man standing in the room."
+  2. "They could not see a dead man standing in front of them."
+  3. "Some of it is sitting across the table from you, asking for cash."
 
 Generate each as its own isolated pass and splice with about two seconds of room
-tone either side. Same fix as the "Deadbeats" line on the finance slate. If the
-next sentence rides in on either of these, the video loses its two best moments.
+tone either side. Same fix as the "Deadbeats" line on the finance slate. Three
+now rather than two — the An-Nas payoff needs the same room as the other two,
+because it's the line the whole open was set up to reach.
 
 ================================================================================
 STILL OPEN
 ================================================================================
 
-  The vidIQ title scorer is gated behind a tool approval I couldn't clear —
-  four attempts. The title options are ranked on your channel's observed
-  performance and the comp set. Sound reasoning, not a scorer output. Run it
-  yourself. It's the only unvalidated call in this package.
+  vidIQ's title scorer is gated behind a tool approval I couldn't clear — four
+  attempts. Title options are ranked on your channel's observed performance and
+  the comp set. Sound reasoning, not a scorer output. Run it yourself; it's the
+  only unvalidated call in this package.
 ================================================================================
