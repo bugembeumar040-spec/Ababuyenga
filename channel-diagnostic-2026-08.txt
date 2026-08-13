@@ -1,0 +1,336 @@
+================================================================================
+FINANCE % DECODED — CHANNEL DIAGNOSTIC & RECOVERY PLAN
+Pulled 2026-08-13 · window 2026-05-16 → 2026-08-12 (90d) · YouTube Analytics
+Channel UCVOoFJkRiOdJsWnewt8HJkw · 195 subs · 29 videos · AE · en
+================================================================================
+
+WHAT THIS FILE IS
+
+The answer to "why isn't the channel performing, especially long form." It is
+not one problem. It is a Shorts engine that broke on 21 July, and a long-form
+launch that was attempted on top of an audience structurally incapable of
+receiving it. Both are diagnosed below from channel analytics, not from
+guesswork. The fix is at the bottom and it is sequenced — the order matters
+more than any single item in it.
+
+Read the SIX CAUSES before the plan. Several of them contradict what the
+upload history suggests you currently believe.
+
+
+================================================================================
+THE NUMBERS — 90 DAYS
+================================================================================
+
+FORMAT SPLIT
+  Shorts        9,139 views | 6,627 min watched |  83s avg view duration
+  Long-form        24 views |    50 min watched | 126s avg view duration
+
+  Long-form is 0.26% of all views on the channel.
+
+TRAFFIC SOURCES                          views     share
+  Shorts feed                            7,940     86.9%
+  Channel page                             598      6.5%
+  Other YouTube pages                      235      2.6%
+  YouTube search                           216      2.4%   (30.8% avg view %)
+  External                                 121      1.3%
+  Playlist                                  12
+  SUBSCRIBER FEED                            11     ← see CAUSE 2
+  SUGGESTED VIDEO                             6     ← see CAUSE 1
+  Notifications                               5
+
+SUBSCRIBED vs NOT
+  Subscribed        576 views | 130s AVD | 109.5% avg view % (rewatching)
+  Unsubscribed    8,587 views |  80s AVD |  59.8% avg view %
+
+GEOGRAPHY (top)
+  US 1,568 · GB 518 · MY 349 · IN 316 · CA 225 · ZA 216 · PH 184 · AU 178
+  AE 171 · NG 133 · NL 130 · KE 109 · SG 100 · ID 95 · SA 89
+  Tier-1 (US/GB/CA/AU/NL) = 2,619 = 28.7% of views. This is the one genuinely
+  valuable asset on the channel and it is currently pointed at Shorts.
+
+DAILY VIEWS — THE COLLAPSE IS DATED
+  Jul 12    1,199    +27 subs
+  Jul 13    1,935    +42 subs
+  Jul 14    1,951    +42 subs        ← peak
+  Jul 15–20   121 / 304 / 53 / 477 / 370 / 42
+  Jul 21    1,179     +2 subs        ← big push, weak response. see CAUSE 4
+  Jul 22–31    25 / 20 / 2 / 4 / 8 / 5 / 4 / 5 / 16 / 13   ← ten dead days
+  Aug 1–11     35 / 249 / 102 / 36 / 57 / 30 / 75 / 12 / 12 / 232 / 86
+
+  Subscribers gained across all of Aug 1–11: FOUR.
+
+LONG-FORM CATALOGUE — all four
+  7TWUwpbl83U  5:17   Jul 21  "Your Money Only Exists Because..."        2 views
+  WJ_UhugwA9U 17:56   Jul 28  "Your Savings Account Is Costing..."      10 views
+  bvZ3NdPKsus 10:18   Aug 01  "How to Buy a House Without Ever..."       2 views
+  j2E4OLNZDJk  3:47   Aug 11  "Is Your Student Loan Halal?..."           8 views
+
+  YouTube returned NO retention curve for WJ_UhugwA9U. Not a bad curve — no
+  curve. The video is below the minimum view count needed to generate one.
+
+MONETIZATION
+  YouTube Analytics REFUSES revenue metrics for this channel. That is the API
+  telling us the channel is not in YPP. Estimated earnings at current traffic:
+  $0/month. There is no revenue decline to explain — there is no revenue yet.
+
+
+================================================================================
+CAUSE 1 — LONG-FORM HAS NO SURFACE TO APPEAR ON
+================================================================================
+
+Suggested-video traffic across the entire channel, 90 days: SIX VIEWS.
+
+Long-form does not live in the Shorts feed. It lives in Browse (Home) and
+Suggested. To place a video there, YouTube's recommender needs two inputs:
+
+  (a) a history of THIS channel's long-form holding watch time, and
+  (b) an audience with long-form watch history on THIS channel.
+
+You have neither. So each long-form upload gets a seed test of a few hundred
+impressions, produces no click-and-hold signal, and stops. And because it
+produced no data, the NEXT long-form upload starts from the same zero. Four
+uploads, four cold starts, no accumulation.
+
+This is not a penalty, a strike, or shadowbanning. It is a cold start that
+restarts every time. The only thing that ends it is long-form that holds
+watch time — which cannot happen until enough people see one, which is the
+loop that has to be broken deliberately. It will not break itself.
+
+
+================================================================================
+CAUSE 2 — THE SUBSCRIBER BASE IS A SHORTS AUDIENCE AND IT DOES NOT CONVERT
+================================================================================
+
+195 subscribers produced 11 views from the subscriber feed and 5 from
+notifications, across 21 uploads in 90 days.
+
+Shorts subscribers are swipe-feed subscribers. They do not visit Home. They do
+not have the bell on. They subscribed in about a second and have no memory of
+doing it. So when you publish an 18-minute video you are not launching to 195
+people — you are launching to roughly ten. That is far below the volume
+YouTube needs to decide whether to widen distribution, which is why the seed
+test in CAUSE 1 never gets past the seed.
+
+The encouraging half: the subscribers who DO watch, watch hard — 130s AVD and
+109.5% average view percentage, meaning rewatch. The audience is not bad. It
+is small and unreachable, which is a different and more fixable problem.
+
+
+================================================================================
+CAUSE 3 — 17:56 IS THIRTEEN TIMES WHAT THIS AUDIENCE HAS EVER GIVEN YOU
+================================================================================
+
+Demonstrated watch behaviour on this channel: 83 seconds.
+WJ_UhugwA9U asks for 17 minutes 56 seconds.
+
+YouTube predicts expected watch time BEFORE it shows a video, and it builds
+that prediction from your channel's own history. Jumping 2:20 → 17:56 in one
+step guarantees a low predicted-watch-time score, and a video with a low
+predicted score loses the impression auction to every other candidate. The
+video was never rejected by viewers. It was never offered to them.
+
+j2E4OLNZDJk has the opposite problem — at 3:47 it is a Short wearing a
+long-form label, and it carries "#studentloans #islamicfinance" in the title,
+which pushes the classifier further toward Shorts. It gets the worst of both.
+
+
+================================================================================
+CAUSE 4 — THE SHORTS ENGINE BROKE ON 21 JULY, AND YOU BROKE IT
+================================================================================
+
+This is the most important finding in this document, because it is entirely
+within your control and it is not what the dates suggest.
+
+WHAT WORKED — Jul 6–18. Runtime 1:45–3:00. Title pattern
+"How to [outcome] ([Concept] Explained)". Like rate 5–6%.
+  1,235 · 1,053 · 1,042 · 973 · 928 · 719 views
+
+WHAT FAILED — Aug 1–8. Runtime 17s–58s. Statement/aphorism titles.
+Like rate 0–4%.
+  257 · 50 · 40 · 39 · 39 · 35 · 30 · 25 · 24 views
+
+THE CONTROL CASE. S61o4xbsn20 — "Is Your Pension Halal? (You Never Picked What
+It Buys)" — Aug 10, runtime 2:16, back to the July template exactly.
+308 views. Breakout score 22.1. It outperformed the channel's recent average
+by 22x on the same dead account in the same dead week.
+
+The algorithm did not change. THE PRODUCT CHANGED. The 17–58 second aphorism
+clips ("£1,461 a month. Only £420 buys your house.", "You've Already Paid
+Klarna.", "10 years of payments. You still owe more than you paid.") deliver a
+punchline. The July videos delivered a complete explanation. The Shorts feed
+rates on rewatch, likes and comments — exactly the signals a punchline cannot
+generate and a finished lesson can. That is the whole difference.
+
+THE TRIGGER EVENT. UpCMyfIOftA, Jul 21 — 1,209 views, 11 likes (0.9%), 25s
+watched of a 46s runtime (54%). A large distribution push met with a weak
+response. Shorts distribution is reactive: it pushes, measures, and withdraws.
+The ten dead days that follow (Jul 22–31, 2 to 25 views/day) are the
+withdrawal. Compare 0.9% likes there against 5–6% on the July winners.
+
+COMPOUNDING IT — CADENCE. Near-daily Jul 3–19, then sporadic, with a seven-day
+gap between Jul 21 and Jul 28. Shorts distribution decays fast without fresh
+supply. The format change and the upload gap landed in the same week, which is
+why the fall was as steep as it was.
+
+
+================================================================================
+CAUSE 5 — THE HOOK IS THE WEAKEST PART OF YOUR BEST VIDEO
+================================================================================
+
+Retention curve, riQ7dLSnogo (halal mortgage, 3:00, 1,235 views — your best):
+
+  relativeRetentionPerformance   (0.5 = median vs comparable videos)
+    1%  elapsed ........ 0.700
+    5–7% elapsed ....... 0.635   ← the floor. first ~11 seconds.
+    43% elapsed ........ 0.925   ← the ceiling. mid-video.
+    100% elapsed ....... 0.806
+
+Read it plainly: against comparable videos your OPENING is 63rd percentile and
+your MIDDLE is 92nd percentile. Absolute watch ratio confirms it — 1.50 at the
+first tick (rewatching), 1.00 by 7%, then a slow honest decay to 0.51.
+
+Your scripts are good. Your first ten seconds leak. On a Short that leak is the
+entire ballgame, because the feed decides whether to keep pushing based on
+almost exactly that window.
+
+
+================================================================================
+CAUSE 6 — SHORTS SKILLSET APPLIED TO A LONG-FORM SURFACE
+================================================================================
+
+Shorts do not need thumbnails. Long-form is NOTHING BUT thumbnail and title at
+the moment of impression. Scored:
+
+  WJ_UhugwA9U — 80/100
+    Strengths  sharp, high contrast, strong face presence, high energy
+    Costs      negative space 69% (−16 pts)
+               implied comparison not legible (−16 pts)
+    The title promises a comparison ("costing you $359,000"). The thumbnail
+    does not show two things side by side. Fix the frame, keep the face.
+
+  bvZ3NdPKsus — 34/100
+    Strengths  sharp. That is the entire list.
+    Costs      visually plain, no focal hook, nothing to click
+    Full redo.
+
+NICHE REALITY CHECK. Long-form that wins in Islamic finance is authority-led —
+Dr Zakir Naik on riba pulling 16.5k views from a 4,170-sub channel; Mufti
+Zubair Usmani on halal money. Faceless two-minute explainer brands do not
+carry eighteen-minute videos in this niche. Scholars and named hosts do.
+Either put a credible face and voice on the long-form, or build long-form as
+case-study/documentary that does not need one. Do not port the Shorts idiom
+up unchanged and expect it to hold.
+
+
+================================================================================
+ON THE MONEY — THERE IS NOTHING TO DECODE YET
+================================================================================
+
+The channel is not monetized. At 9,139 monthly views on a 99.7% Shorts mix,
+estimated earnings round to $0.
+
+The current strategy actively fights both routes into YPP:
+
+  LONG-FORM ROUTE   1,000 subs + 4,000 public watch HOURS in 365 days.
+                    Shorts watch time DOES NOT COUNT toward this.
+                    You have 0.83 long-form hours from the last 90 days.
+                    = 0.02% of the requirement.
+
+  SHORTS ROUTE      1,000 subs + 10,000,000 Shorts views in 90 days.
+                    You have 9,139.
+                    = 0.09% of the requirement.
+
+You have banked 110.5 hours of watch time in 90 days and 98.8% of it is
+ineligible. That is the finance answer: the format doing all the work is the
+format that counts for nothing.
+
+The asset worth protecting is geography — 28.7% US/GB/CA/AU/NL in a Business /
+Islamic-finance category is a genuinely high-RPM audience. Shorts RPM is
+roughly a tenth of long-form RPM. That audience is currently being spent at
+the cheapest possible rate.
+
+
+================================================================================
+THE FIX — SEQUENCED. DO NOT REORDER.
+================================================================================
+
+PHASE 1 — WEEKS 1–4. REBUILD THE SHORTS ENGINE. PUBLISH NO LONG-FORM.
+
+  1. Return to the July template exactly. 2:00–3:00 runtime. Title pattern
+     "How to [outcome] ([Concept] Explained)" or "Is Your [thing] Halal?
+     ([consequence])". One mechanism per video, taught to completion.
+  2. Stop the 17–58 second aphorism clips entirely. They are what broke it.
+     They are not "hooks for the algorithm" — they are the thing the algorithm
+     measured and rejected.
+  3. Five uploads a week minimum, same time each day. Cadence is the input
+     Shorts distribution actually responds to, and the July gap proved it.
+  4. Rewrite the first ten seconds of every script. Sentence one states the
+     loss in money or consequence. Sentence two names the mechanism. Nothing
+     else goes in that window.
+  5. KPIs, checked per video, no exceptions:
+       relativeRetentionPerformance in the 0–10% band ......... ≥ 0.80
+       like rate ............................................. ≥ 5%
+     Below 3% likes means the script taught nothing. Kill that format branch
+     immediately rather than publishing three more of them.
+
+  EXIT CONDITION: three consecutive weeks averaging 800+ views per Short and
+  positive subscriber growth. Do not start Phase 2 early.
+
+PHASE 2 — WEEKS 3–8, OVERLAPPING. BUILD THE BRIDGE.
+
+  6. Every long-form video is 6–8 MINUTES. Not 3:47 (a Short with a bad
+     label). Not 17:56 (thirteen times what the audience has given you).
+     Six to eight. This is the single most important number in the plan.
+  7. Every long-form is the full version of a Short that ALREADY PROVED
+     DEMAND. Do not invent long-form topics. The queue is already written:
+       riQ7dLSnogo  halal mortgage      1,235 views  ← first one
+       J0TCD2u177k  sukuk               1,053 views
+       a7xkXgTfCXs  inflation           1,042 views
+       OXIP3EJROQk  savings / riba        973 views
+       zY664YZPI6U  gold / sound money    928 views
+  8. Build the bridge deliberately, because it will not build itself:
+       – pinned comment on each winning Short linking its long-form
+       – end screen on every Short pointing at the long-form
+       – one playlist per theme, linked from the channel banner. Channel page
+         is already your #2 traffic source at 598 views — it is a real surface
+         for you, use it.
+  9. One long-form per week. Same day, same time. Consistency is what trains
+     the prediction model described in CAUSE 3.
+ 10. DO NOT JUDGE LONG-FORM ON 48 HOURS. Long-form is a 30-day curve. Judging
+     it on day two is what produced the panic pivot to 17-second clips.
+
+PHASE 3 — THUMBNAIL AND TITLE DISCIPLINE, FROM THE FIRST LONG-FORM ONWARD.
+
+ 11. Face in frame, 30–40% of the area. WJ_UhugwA9U already does this — that
+     is why it scored 80 and not 34.
+ 12. Negative space under 40%. Currently 69%.
+ 13. If the title implies a comparison, the thumbnail must show two things
+     side by side. No exceptions.
+ 14. Three to four words of text maximum, set large.
+ 15. Rebuild bvZ3NdPKsus's thumbnail from scratch. 34/100 is not salvageable
+     by tweaking.
+ 16. NO HASHTAGS IN LONG-FORM TITLES. They cost characters and push the
+     classifier toward Shorts. Fix j2E4OLNZDJk.
+
+PHASE 4 — THE MONETIZATION ROUTE, ONCE PHASES 1–3 HOLD.
+
+ 17. Target the long-form 4,000-hour route. The 10M-Shorts route is 1,000x
+     away and not reachable from here.
+ 18. The arithmetic that makes it real:
+       7-minute video @ 50% AVD ............... 3.5 min per view
+       4,000 hours ............................ 240,000 minutes
+       required long-form views ............... ~68,600 over 12 months
+       required weekly long-form views ........ ~1,320
+     At one upload per week that is 1,320 views per video. Reachable once the
+     bridge works. Not reachable at 24 views per 90 days.
+ 19. Shorts remain top-of-funnel for the 1,000 subscribers. They are NOT the
+     watch-hours engine and never will be. Two formats, two jobs, and the
+     jobs are not interchangeable.
+
+STOP DOING — the four-line version
+  1. 17–58 second aphorism clips.
+  2. 18-minute videos.
+  3. Publishing long-form to an audience never given a reason to expect it.
+  4. Judging long-form on 48-hour numbers.
+
+================================================================================
