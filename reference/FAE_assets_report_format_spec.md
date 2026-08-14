@@ -202,6 +202,34 @@ Mapping rules applied to every source table:
   (Zabeel, China Town, Fountain Views), except baby rooms, which are stacked under a
   `Property` column.
 
+## 6b. Batch 2 output
+
+Seven files were sent, but two pairs were byte-identical duplicates
+(`LG_FC` = `LG_FC_2`, `Bin_Stations_in_Food_Courts` = `..._2`), so five were built.
+
+| Source file | Output in `reports/` | Tabs |
+|---|---|---|
+| `LG_FC.xlsx` | `LG_FC_Furniture_Details_2026.xlsx` | 2 |
+| `Bin_Stations_in_Food_Courts.xlsx` | `Bin_Stations_in_Food_Courts_Details_2026.xlsx` | 4 |
+| `New_External_dining_furniture_details.xlsx` | `New_External_Dining_Furniture_Details_2026.xlsx` | 2 |
+| `SF_FC_ASSETS_INSPECTION_TRACKER2026.xlsx` | `SF_FC_Assets_Inspection_Tracker_2026.xlsx` | 1 |
+| `SF_FC.xlsx` | `SF_FC_Furniture_Details_2026.xlsx` | 5 |
+
+New handling introduced in this batch:
+
+- **Per-row reference photos.** Unlike the master's row-2 photo strip, these sources
+  keep an `IMAGE` / `Asset photo` column with one photo per data row. That column is
+  retained and the photos are re-anchored row by row, with source row heights kept.
+  Where the source stacked two photos in one cell, both are placed side by side.
+- **Full contiguous row spans are preserved** (first data row through the last total
+  row, blank rows included) so every remapped formula reference stays valid. Compacting
+  the blanks away would have pointed totals at themselves.
+- **Repeating label-row / value-row layouts are normalised** into one row per record with
+  assets as columns (`SF FC External`). Where the same asset was spelled two ways across
+  blocks, the first spelling becomes the column and the variant is recorded in Remarks.
+- Emaar logos in title rows are dropped, as in batch 1.
+- No total row is added where the source has none (the inspection tracker has none).
+
 ## 7. Consolidation checklist
 
 - [ ] Same four-tab structure, same tab names and order.

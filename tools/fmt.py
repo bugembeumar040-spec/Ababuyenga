@@ -26,7 +26,8 @@ def _border(left=THIN, right=THIN, top=THIN, bottom=THIN):
 
 
 def render(ws, cols, grid, *, style='washroom', freeze='A3', photo_row=False,
-           photo_cols=(), total_rows=(), label_span=None, first_row=None):
+           photo_cols=(), total_rows=(), label_span=None, first_row=None,
+           data_height=None):
     """Lay out a sheet in master format.
 
     cols  : list of (group, sub, width). sub=None -> the column is flat and its
@@ -111,7 +112,7 @@ def render(ws, cols, grid, *, style='washroom', freeze='A3', photo_row=False,
 
     for r_off, row in enumerate(grid):
         r = data_start + r_off
-        ws.row_dimensions[r].height = st['hd']
+        ws.row_dimensions[r].height = st['hd'] if data_height is None else data_height
         is_total = r_off in total_rows
         for k in range(1, ncol + 1):
             v = row[k - 1] if k - 1 < len(row) else None
@@ -165,3 +166,59 @@ def remap(formula, colmap, rowmap):
         return f'{d1}{nc}{d2}{nr}'
 
     return _REF.sub(sub, formula)
+
+
+# ─────────────────── per-row reference photos ───────────────────
+EMU = 9525   # EMU per pixel
+
+
+def place_image(ws, col, row, path, w=120, h=105, dx=0, dy=3):
+    """Anchor an image inside one cell, with a pixel offset so two photos can
+    sit side by side in the same cell (as some source sheets do)."""
+    from openpyxl.drawing.image import Image as XLImage
+    from openpyxl.drawing.spreadsheet_drawing import OneCellAnchor, AnchorMarker
+    from openpyxl.drawing.xdr import XDRPositiveSize2D
+    img = XLImage(path)
+    img.width, img.height = w, h
+    img.anchor = OneCellAnchor(
+        _from=AnchorMarker(col=col - 1, colOff=dx * EMU, row=row - 1, rowOff=dy * EMU),
+        ext=XDRPositiveSize2D(w * EMU, h * EMU))
+    ws.add_image(img)
+
+
+def extract_media(src_path, outdir):
+    """Dump a workbook's media and return {drawing_index: [(cell, filename), ...]}."""
+    import os, re, zipfile
+    from openpyxl.utils import get_column_letter
+    os.makedirs(outdir, exist_ok=True)
+    z = zipfile.ZipFile(src_path)
+    for n in z.namelist():
+        if n.startswith('xl/media/'):
+            open(os.path.join(outdir, os.path.basename(n)), 'wb').write(z.read(n))
+    sheet_to_drawing = {}
+    for i in range(1, 12):
+        try:
+            r = z.read(f'xl/worksheets/_rels/sheet{i}.xml.rels').decode()
+        except KeyError:
+            continue
+        m = re.search(r'drawing(\d+)\.xml', r)
+        if m:
+            sheet_to_drawing[i] = int(m.group(1))
+    anchors = {}
+    for dn in sorted(n for n in z.namelist() if re.match(r'xl/drawings/drawing\d+\.xml$', n)):
+        idx = int(dn.split('drawing')[-1].split('.')[0])
+        try:
+            rels = z.read(f'xl/drawings/_rels/drawing{idx}.xml.rels').decode()
+        except KeyError:
+            rels = ''
+        rm = dict(re.findall(r'Id="(rId\d+)"[^>]*Target="([^"]+)"', rels))
+        body = z.read(dn).decode()
+        out = []
+        for a in re.findall(r'<xdr:(?:two|one)CellAnchor[\s\S]*?</xdr:(?:two|one)CellAnchor>', body):
+            f = re.search(r'<xdr:from><xdr:col>(\d+)</xdr:col>.*?<xdr:row>(\d+)</xdr:row>', a, re.S)
+            rid = re.search(r'r:embed="(rId\d+)"', a)
+            if f and rid:
+                out.append((f'{get_column_letter(int(f.group(1)) + 1)}{int(f.group(2)) + 1}',
+                            os.path.basename(rm[rid.group(1)])))
+        anchors[idx] = out
+    return anchors, sheet_to_drawing
