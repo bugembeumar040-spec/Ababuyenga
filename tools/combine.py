@@ -1,0 +1,166 @@
+"""Combine all ten reformatted reports into a single workbook, with an Index tab.
+
+Sheets are copied cell-by-cell with their styles, merges, dimensions, freeze
+panes and images, so every tab is identical to its standalone version.
+"""
+from copy import copy, deepcopy
+import openpyxl
+from openpyxl.drawing.image import Image as XLImage
+from openpyxl.styles import Font, Alignment
+from openpyxl.worksheet.hyperlink import Hyperlink
+from openpyxl.utils import get_column_letter
+from fmt import HDR_FILL, TOT_FILL
+
+R = '/home/user/Ababuyenga/reports/'
+OUT = R + 'FAE_TDM_Assets_Details_2026_Combined.xlsx'
+EMU = 9525
+
+# (workbook, source sheet, sheet name in the combined file, section, original source file)
+PLAN = [
+    # ── washrooms, cross-property ───────────────────────────────────────────
+    ('Washroom_Summary_Details_2026.xlsx', 'Mall Washroom Deatils', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'Staff Washroom Deatils', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'External Staff Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'FAE Washroom Details', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'FAE Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'FAE Staff Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'Mall Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'Zabeel Washroom Details', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'Zabeel Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'CT Washroom Details', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'CT Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'FV Washroom Details', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'FV Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'Baby Room Details', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'Washroom Assets Summery', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    # ── washrooms, TDM detailed register (renamed: names clash with the above)
+    ('TDM_Mall_Washroom_Details_2026.xlsx', 'Mall Washroom Deatils', 'TDM Washroom (Detailed)', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
+    ('TDM_Mall_Washroom_Details_2026.xlsx', 'Staff Washroom Deatils', 'TDM Staff Washroom (Detail)', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
+    ('TDM_Mall_Washroom_Details_2026.xlsx', 'Baby Room Details', 'TDM Baby Room (Detailed)', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
+    ('TDM_Mall_Washroom_Details_2026.xlsx', 'Handicap Washroom Details', 'TDM Handicap Washroom', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
+    ('TDM_Mall_Washroom_Details_2026.xlsx', 'Washroom Assets Summery', 'TDM Washroom Summery', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
+    # ── bins ────────────────────────────────────────────────────────────────
+    ('TDM_Common_Area_Bins_Details_2026.xlsx', 'Common Area Bins Details', None, 'Bins', 'Common_area__Bin.xlsx'),
+    ('TDM_Steel_Bins_Details_2026.xlsx', 'Steel Bins Details 2025', None, 'Bins', 'Steel_Bins.xlsx'),
+    ('Bin_Stations_in_Food_Courts_Details_2026.xlsx', 'SF FC Bin Stations', None, 'Bins', 'Bin_Stations_in_Food_Courts.xlsx'),
+    ('Bin_Stations_in_Food_Courts_Details_2026.xlsx', 'LG FC Bin Stations', None, 'Bins', 'Bin_Stations_in_Food_Courts.xlsx'),
+    ('Bin_Stations_in_Food_Courts_Details_2026.xlsx', 'SF FC Bin Spares', None, 'Bins', 'Bin_Stations_in_Food_Courts.xlsx'),
+    ('Bin_Stations_in_Food_Courts_Details_2026.xlsx', 'LG FC Bin Spares', None, 'Bins', 'Bin_Stations_in_Food_Courts.xlsx'),
+    # ── planters ────────────────────────────────────────────────────────────
+    ('Planters_in_Malls_Details_2026.xlsx', 'RC & IR Lobbies', None, 'Planters', 'Planters_in_Malls.xlsx'),
+    ('Planters_in_Malls_Details_2026.xlsx', 'FP Lobbies', None, 'Planters', 'Planters_in_Malls.xlsx'),
+    ('Planters_in_Malls_Details_2026.xlsx', 'Mall Planters', None, 'Planters', 'Planters_in_Malls.xlsx'),
+    ('Planters_in_Malls_Details_2026.xlsx', 'Planter Photo Reference', None, 'Planters', 'Planters_in_Malls.xlsx'),
+    # ── food court & furniture ──────────────────────────────────────────────
+    ('LG_FC_Furniture_Details_2026.xlsx', 'LG Food Court Furniture', None, 'Food court & furniture', 'LG_FC.xlsx'),
+    ('LG_FC_Furniture_Details_2026.xlsx', 'LG Sofa Measurements', None, 'Food court & furniture', 'LG_FC.xlsx'),
+    ('New_External_Dining_Furniture_Details_2026.xlsx', 'Mall External Dining', None, 'Food court & furniture', 'New_External_dining_furniture_details.xlsx'),
+    ('New_External_Dining_Furniture_Details_2026.xlsx', 'Store Inventory', None, 'Food court & furniture', 'New_External_dining_furniture_details.xlsx'),
+    ('SF_FC_Assets_Inspection_Tracker_2026.xlsx', 'SF FC Assets Tracker', None, 'Food court & furniture', 'SF_FC_ASSETS_INSPECTION_TRACKER2026.xlsx'),
+    ('SF_FC_Furniture_Details_2026.xlsx', 'SF FC External', None, 'Food court & furniture', 'SF_FC.xlsx'),
+    ('SF_FC_Furniture_Details_2026.xlsx', 'SFFC Chairs In Use', None, 'Food court & furniture', 'SF_FC.xlsx'),
+    ('SF_FC_Furniture_Details_2026.xlsx', 'SFFC Tables In Use', None, 'Food court & furniture', 'SF_FC.xlsx'),
+    ('SF_FC_Furniture_Details_2026.xlsx', 'SFFC Leather Sofa', None, 'Food court & furniture', 'SF_FC.xlsx'),
+    ('SF_FC_Furniture_Details_2026.xlsx', 'SF FC Summery', None, 'Food court & furniture', 'SF_FC.xlsx'),
+]
+
+
+def copy_sheet(src, tgt):
+    for coord, dim in src.column_dimensions.items():
+        d = tgt.column_dimensions[coord]
+        d.width, d.hidden = dim.width, dim.hidden
+        d.bestFit = False
+    for idx, dim in src.row_dimensions.items():
+        tgt.row_dimensions[idx].height = dim.height
+
+    for row in src.iter_rows():
+        for c in row:
+            n = tgt.cell(row=c.row, column=c.column)
+            n.value = c.value
+            if c.has_style:
+                # style *objects*, not _style: the index array points into the
+                # source workbook's style table and is meaningless here
+                n.font = copy(c.font)
+                n.fill = copy(c.fill)
+                n.border = copy(c.border)
+                n.alignment = copy(c.alignment)
+                n.number_format = c.number_format
+                n.protection = copy(c.protection)
+    for rng in src.merged_cells.ranges:
+        tgt.merge_cells(str(rng))
+
+    tgt.freeze_panes = src.freeze_panes
+    tgt.sheet_view.zoomScale = src.sheet_view.zoomScale
+    tgt.sheet_view.showGridLines = src.sheet_view.showGridLines
+
+    for img in src._images:
+        data = img.ref
+        try:
+            data.seek(0)
+        except Exception:
+            pass
+        new = XLImage(data)
+        new.anchor = deepcopy(img.anchor)
+        ext = getattr(new.anchor, 'ext', None)
+        if ext is not None:                 # keep the on-sheet size, not the native size
+            new.width, new.height = ext.cx / EMU, ext.cy / EMU
+        tgt.add_image(new)
+
+
+wb = openpyxl.Workbook()
+wb.remove(wb.active)
+index = wb.create_sheet('Index')
+
+cache, rows = {}, []
+for f, sheet, rename, section, origin in PLAN:
+    if f not in cache:
+        cache[f] = openpyxl.load_workbook(R + f)
+    src = cache[f][sheet]
+    name = rename or sheet
+    tgt = wb.create_sheet(name)
+    copy_sheet(src, tgt)
+    rows.append((section, name, origin, src.max_row - 2, src.max_column, len(src._images)))
+
+# ───────────────────────── Index tab ─────────────────────────
+heads = ['#', 'Section', 'Tab', 'Original source file', 'Data rows', 'Columns', 'Photos']
+widths = [6.45, 24.45, 32.45, 44.45, 12.45, 11.45, 10.45]
+for i, (h, w) in enumerate(zip(heads, widths), start=1):
+    c = index.cell(row=1, column=i, value=h)
+    c.font = Font(name='Calibri', size=12, bold=True, color='FFFFFF')
+    c.fill = HDR_FILL
+    c.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
+    index.column_dimensions[get_column_letter(i)].width = w
+index.row_dimensions[1].height = 37.4
+index.freeze_panes = 'A2'
+
+prev = None
+for n, (section, name, origin, nrows, ncols, nimg) in enumerate(rows, start=1):
+    r = n + 1
+    index.row_dimensions[r].height = 22.0
+    vals = [n, section if section != prev else '', name, origin, nrows, ncols, nimg or '']
+    prev = section
+    for i, v in enumerate(vals, start=1):
+        c = index.cell(row=r, column=i, value=v)
+        c.font = Font(name='Calibri', size=11, color='000000')
+        c.alignment = Alignment(horizontal='center' if i != 3 and i != 4 else 'left',
+                                vertical='center')
+    link = index.cell(row=r, column=3)
+    # internal jump: Excel needs `location`, not a target URL
+    link.hyperlink = Hyperlink(ref=link.coordinate, location=f"'{name}'!A1")
+    link.font = Font(name='Calibri', size=11, color='0563C1', underline='single')
+
+tot = index.cell(row=len(rows) + 2, column=1, value=f'{len(rows)} report tabs')
+tot.font = Font(name='Calibri', size=12, bold=True, color='FFFFFF')
+tot.fill = HDR_FILL
+tot.alignment = Alignment(horizontal='center', vertical='center')
+index.merge_cells(start_row=len(rows) + 2, start_column=1, end_row=len(rows) + 2, end_column=4)
+for i, col in enumerate((5, 6, 7)):
+    c = index.cell(row=len(rows) + 2, column=col,
+                   value=sum(r[3 + i] for r in rows) if col != 6 else '')
+    c.font = Font(name='Calibri', size=12, bold=True, color='000000')
+    c.fill = TOT_FILL
+    c.alignment = Alignment(horizontal='center', vertical='center')
+
+wb.save(OUT)
+print('wrote', OUT)
+print('tabs:', len(wb.sheetnames), '| images:', sum(len(ws._images) for ws in wb.worksheets))
