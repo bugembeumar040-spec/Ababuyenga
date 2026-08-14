@@ -1,0 +1,794 @@
+================================================================================
+JINN — SCENE PACK v3 · ENGAGEMENT AUDIT AND REBUILD
+30 shots audited · 34 added · 2 rewritten · thumbnail rebuilt · 64 shots total
+================================================================================
+
+VERDICT
+
+The 30 prompts are good images. They are not yet a good video. The problem is
+not the art direction — it's density, repetition, and a rule that has stopped
+earning its keep now that the style has changed. Four findings below, ranked by
+how much retention each one costs. Then the rebuild.
+
+
+================================================================================
+FINDING 1 — 22 SECONDS PER IMAGE. THIS IS THE WHOLE PROBLEM.
+================================================================================
+
+  671 seconds of runtime ÷ 30 stills = 22.4 seconds on screen per image.
+
+Explainer channels change image every 4–8 seconds. Slow documentary sits around
+10–12. Nothing holds a static frame for 22 seconds and keeps a scrolling
+audience — the eye finishes reading an image in about three seconds and then has
+nothing to do but notice it's bored. A 5% push does not fix that; it's below the
+threshold of conscious motion, which is exactly why it was specced that way.
+
+Worst offenders, per beat:
+
+    12 whisperer      64s / 2 shots = 32.0s per image   ← contains the thesis
+    11 traveller      59s / 2 shots = 29.5s per image
+    05 not all evil   58s / 2 shots = 29.0s per image
+    13 close          56s / 2 shots = 28.0s per image
+    03 made of        25s / 1 shot  = 25.0s per image
+    10 fraud + CTA    23s / 1 shot  = 23.0s per image
+    09 death  PEAK    82s / 4 shots = 20.5s per image   ← your best story
+
+Beat 12 is the payoff the entire open was built to reach, and it is two images
+across a minute. Beat 09 is the emotional peak — a king dead on his feet while
+the work continues around him — and it gets four still lifes.
+
+  FIX. 64 shots, not 30. That lands at 10.5s average, which is the slow end of
+  workable and correct for this subject. The added shots are below.
+
+  The six texture plates do not count toward this. They are for overruns, and if
+  you use them as filler to hit the number the video will feel padded.
+
+
+================================================================================
+FINDING 2 — TWELVE OF THIRTY SHOTS ARE THE SAME COMPOSITION.
+================================================================================
+
+Single object, centred low, long shadow thrown right, open space above:
+
+  S01 table · S06 shield · S09 card · S11 scales · S16 vessels · S18 basin
+  S19 chain · S20 staff · S23 fallen staff · S24 table · S26 stone · S29 shield
+
+That's 40% of the film in one framing, and because they share a palette, a light
+angle and an ink weight, they will read as *the same picture* with the object
+swapped. The consistency rules that make the series feel authored are the same
+rules that make it feel repetitive at this density.
+
+Group the rest and the real variety count drops further: 4 mashrabiya shots
+(S02, S04, S27, S28), 5 stone interiors (S03, S08, S17, S21, S30), 4 ground and
+desert (S10, S12, S13, S25). Thirty prompts, roughly six distinct looks.
+
+  FIX. The added shots deliberately break framing: overheads, POV reversals, a
+  technical cutaway drawing, close crops on action, and figures at three
+  different scales. Variety of *shot type* is what buys you the runtime, not
+  variety of subject.
+
+
+================================================================================
+FINDING 3 — THE NO-FIGURES RULE HAS INVERTED ON YOU.
+================================================================================
+
+I recommended keeping the film figure-free two turns ago. That was right for the
+photoreal dark pack and it is wrong now. The reason is structural, not aesthetic.
+
+Absence only reads as absence against presence. In the original pack, near-black
+ground and hard raking light did the emotional work — an empty room was *ominous*
+because the grammar was ominous. On warm parchment in a hand-drawn wash, an empty
+room is not ominous. It's decorative. Thirty consecutive empty frames don't
+accumulate into dread; they accumulate into a screensaver.
+
+And it costs you the single best shot in the film. S28 — "some of it is sitting
+across the table from you" — works because the chair is empty. But if no human
+has appeared in nine minutes, that chair isn't empty. It's just furniture, same
+as every other frame. You cannot spend an absence you never funded.
+
+  FIX. Faceless figures become standard, not an optional block. The doctrinal
+  guardrails do not move an inch:
+
+    · No face is drawn anywhere in the film. Not once, not in any shot.
+    · Figures are seen from behind, cropped at the shoulder or wrist, or laid
+      as a flat silhouette wash with one contour line.
+    · Sulayman is still never depicted. The jinn are still never depicted. The
+      Prophet ﷺ is still never depicted. Those three are absolute and the
+      figures below are never any of them — they are anonymous believers, a
+      traveller, labourers, and the viewer.
+    · Arabic is still never generated.
+
+  GLOBAL NEGATIVE CHANGE, applies to the whole pack now:
+  REMOVE these three terms → hands, body, silhouette of a person
+  KEEP forever            → face, facial features, eyes
+  Everything else in the negative stands unchanged.
+
+
+================================================================================
+FINDING 4 — TWO SHOTS ARGUE WITH THEIR OWN NARRATION.
+================================================================================
+
+  S21. The VO is "The jinn kept working. Cutting. Lifting. Carrying." The prompt
+  says "Completely deserted, nothing in motion... Abandoned mid-task." The image
+  states the opposite of the line it plays under, and it kills the horror of the
+  story — the whole point is that the work *continued*. Rewritten below.
+
+  S01. The hook line is an accusation with a victim and money on the table. The
+  image is a tidy still life of banknotes. Nothing is happening. This is the
+  first frame of an eleven-minute video and it has no verb in it. Rewritten
+  below.
+
+
+================================================================================
+FINDING 5 — THE THUMBNAIL IS A BET YOU DON'T NEED TO TAKE.
+================================================================================
+
+I argued earlier that a quiet warm plate would stand out in a grid of dark horror
+thumbnails. That argument is real but it is a contrarian bet, and re-reading it
+against how the grid actually works, it's the weaker call:
+
+  · Parchment on parchment is low internal contrast. In a 320px row it goes
+    muddy while the dark thumbnails around it stay legible.
+  · The staff is a thin vertical object. At thumbnail scale it's a line.
+  · No face and no hands means no human anchor, which is the most consistent
+    CTR lever there is.
+
+The curiosity gap in "a lone staff in the dark" is genuine. Keep the idea, fix
+the execution — the thumbnail is not in the film and does not owe the film its
+palette. Rebuilt spec at the bottom.
+
+
+================================================================================
+THE REBUILD — 64 SHOTS
+================================================================================
+
+All 30 originals stay unless marked REWRITTEN. New shots carry a letter suffix so
+the ON-SCREEN TEXT map and the verse cards keep their anchors — every shot named
+in that map (S04, S07, S09, S11, S13, S15, S23, S26, S28, S29) still exists.
+
+The global STYLE and NEGATIVE blocks from jinn-scene-pack-timeline.txt append to
+every prompt below, unchanged except for the three removed figure terms.
+
+  BEAT                     WAS  NOW   PER IMAGE
+  01 open / the stake       3    6      7.3s
+  02 the root               3    6     10.5s
+  03 made of                1    3      8.3s
+  04 Iblis                  4    7     12.9s
+  05 not all evil           2    5     11.6s
+  06 the night              2    4     10.0s
+  07 purpose                1    2      8.0s
+  08 what they can do       3    5     10.2s
+  09 the death   PEAK       4    8     10.3s
+  10 the fraud + CTA        1    3      7.7s
+  11 the traveller          2    5     11.8s
+  12 the whisperer          2    5     12.8s
+  13 the close              2    5     11.2s
+                           30   64     10.5s
+
+
+--------------------------------------------------------------------------------
+BEAT 01 · OPEN / THE STAKE · 0:00–0:44 · 6 shots
+--------------------------------------------------------------------------------
+
+S01  ** REWRITTEN — the hook needs a verb **
+VO ► [serious] Somebody watching this has paid money to have a jinn removed.
+MOVE: push in 6%, centred where the hands meet.
+
+Hand-drawn ink and watercolour illustration on textured aged parchment. A folded
+stack of worn banknotes being pushed across a plain dark wooden table by one
+hand, toward a second open hand waiting to receive it. Both figures cropped at
+the wrist — no arms, no bodies, no faces anywhere in frame. A switched-off mobile
+phone lies face down beside the notes. Loose confident pen contour, warm sepia
+and tan washes with visible wet edges, paper tooth through the tabletop. One
+implied low sun from the left, long flat grey-blue shadow washes thrown right.
+The giving hand tense and the receiving hand relaxed. 16:9, hands and notes
+filling the lower two-thirds, open parchment above.
+
+S01b  ** NEW **
+VO   Maybe not you. Someone you know. A cousin. A friend's mother.
+MOVE: hold still.
+
+Ink and watercolour illustration on textured aged parchment of a knotted cloth
+amulet on a worn cord lying alone on a dark wooden tabletop, its fabric grubby
+and much-handled, the knot tight and unopenable. Nothing else in frame, nobody
+present. Fine pen contour on the weave, muted tan and grey-brown washes,
+granulation in the folds, dry-brush on the frayed cord ends. One long grey-blue
+shadow wash to the right. Ordinary, cheap, and sad. 16:9, object centred low.
+
+S02  ** unchanged — GENERATE FIRST, reference plate **
+VO ► A healer with a phone number, who said he could see what you couldn't.
+
+S02b  ** NEW **
+VO   Then named a price. / I want to show you four verses.
+MOVE: drift down 20px.
+
+Ink and watercolour illustration on textured aged parchment, seen from above, of
+a hand-thrown clay bowl on a low table with a few coins and a folded note dropped
+into it, the bowl positioned as though it has been pushed forward for payment.
+Nobody in frame. Warm tan wash on the clay, muted gold on the coins, one flat
+grey-blue shadow inside the bowl's curve. Paper tooth throughout. 16:9, bowl
+centred, dark table around it.
+
+S03  ** unchanged **
+VO ► The Quran shuts that door completely... a story so humiliating it's hard to hear.
+
+S03b  ** NEW — the first figure, so every later absence can be spent **
+VO   But we start somewhere else. With a word you've said a thousand times. / Jinn.
+MOVE: push in 5%, very slow.
+
+Ink and watercolour illustration on textured aged parchment of a single figure
+seen from directly behind, small in the frame, standing alone at the threshold of
+a vast empty stone chamber and looking into it. Featureless — a flat cool
+grey-blue silhouette wash with one contour line, no face, no detail of any kind.
+A narrow shaft of daylight falls across the floor ahead of them as bare unpainted
+paper. Dressed stone in loose pen contour. Small human, enormous room. 16:9,
+figure low and left, the chamber opening away.
+
+
+--------------------------------------------------------------------------------
+BEAT 02 · THE ROOT · 0:44–1:47 · 6 shots
+--------------------------------------------------------------------------------
+
+The five cognates are the retention ladder of this beat and four of them
+currently share one image. Each gets its own plate.
+
+S04  ** unchanged — the root ج ن ن **
+VO ► The root is three letters. Jeem, noon, noon. They mean: to conceal.
+
+S05  ** unchanged — janna **
+VO ► Janna. Paradise, the garden. Growth so thick the ground disappears under it.
+
+S05b  ** NEW — janeen **
+VO ► Janeen. An unborn child. Hidden in the womb where nobody can look.
+MOVE: push in 7%, slow.
+
+Ink and watercolour botanical illustration on textured aged parchment of a single
+seed pod split open just enough to show one pale curled seed held inside the
+husk, everything else about it closed. Fine pen contour on the pod's ribs, soft
+tan and olive washes with wet edges, the seed itself left as bare unpainted paper.
+Deep shadow inside the opening. Nothing else in frame. Protective and enclosed.
+16:9, pod centred, generous parchment around it.
+
+S05c  ** NEW — majnoon **
+VO ► Majnoon. We translate it madman. It means a mind covered over.
+MOVE: push in 6%.
+
+Ink and watercolour illustration on textured aged parchment of a lit oil lamp
+with a thick cloth thrown over it, the flame still burning underneath and its
+light escaping only as a dull unreadable glow through the fabric. Nobody in
+frame. Heavy grey-brown wash on the cloth with granulation in the folds, one
+muted-gold bloom bleeding through the weave, no clean light anywhere. Loose pen
+contour. Muffled and wrong. 16:9, lamp centred low.
+
+S06  ** unchanged — junna **
+VO ► And junna. A shield. The thing you get behind so you can't be reached.
+
+S06b  ** NEW — the family plate, and the home for the on-screen cognate reveal **
+VO   Same three letters, every time. / That's the whole category. Not evil. Concealed.
+MOVE: hold dead still — the text reveals over it one word at a time.
+
+Flat overhead ink and watercolour illustration on textured aged parchment of five
+objects laid in a neat row on a plain surface, evenly spaced and equally lit: a
+sprig of dense dark foliage, a closed seed pod, a cloth-covered lamp, a small
+round brass shield, and a carved fragment of wooden lattice. Nothing else in
+frame, nobody present. Identical pen contour and identical short grey-blue shadow
+under each, so the row reads as one family. Muted earthy washes throughout. 16:9,
+row running across the centre, generous open parchment above and below for text.
+
+
+--------------------------------------------------------------------------------
+BEAT 03 · MADE OF · 1:47–2:12 · 3 shots   ** all drop with CUT 1 **
+--------------------------------------------------------------------------------
+
+S07  ** unchanged — marij min nar **
+VO ► Marij min nar.
+
+S07b  ** NEW — the clay half of the verse, currently unillustrated **
+VO ► Ar-Rahman, fifteen. He made man from clay.
+MOVE: push in 6%.
+
+Ink and watercolour illustration on textured aged parchment of a slab of wet
+river clay with a single open handprint pressed deep into its surface, the clay
+still damp and holding the impression sharply. No hand present in frame, only the
+print it left. Loose pen contour around the slab, heavy grey-brown wash with
+granulation pooling in the impression, dry-brush at the drying edges. One long
+grey-blue shadow to the right. 16:9, slab filling the lower half.
+
+S07c  ** NEW — "before" **
+VO ► Al-Hijr adds one word everyone reads past. Before. They were here before Adam.
+MOVE: pull back 8%.
+
+Wide ink and watercolour illustration on textured aged parchment of an empty
+plain at first light with a single small fire already burning on it, no
+structures, no footprints, no marks of any kind on the ground anywhere. Ember
+orange wash at the fire bleeding into bare paper, everything else in thin cool
+grey-blue with dry-brush ground texture. Bare parchment sky. Nothing has happened
+here yet except this. 16:9, fire small and low, vast empty ground around it.
+
+
+--------------------------------------------------------------------------------
+BEAT 04 · IBLIS · 2:12–3:42 · 7 shots   ** correction 1 of 4 **
+--------------------------------------------------------------------------------
+
+S08  ** unchanged **
+VO ► You know the scene. Allah tells the angels to bow to Adam. They bow. One doesn't.
+
+S08b  ** NEW — the refusal, made physical without depicting anyone **
+VO   And every version you've ever been told calls him a fallen angel.
+MOVE: drift right 30px.
+
+Ink and watercolour illustration on textured aged parchment of a long even row of
+tall reeds all bent low in the same direction by a wind, drawn with fluid pen
+strokes — except one single reed near the centre standing perfectly straight and
+unbent. Nothing else in frame, nobody present. Soft olive and tan washes, the
+upright reed left palest, one long grey-blue shadow field beneath the row. 16:9,
+row running across the frame, the upright reed slightly off-centre.
+
+S09  ** unchanged — SILENCE 1 of 3 **
+VO ► Kana min al-jinn.
+
+S10  ** unchanged **
+VO ► And I'll be honest — I believed the fallen angel version most of my life.
+
+S10b  ** NEW — the one "I" in the script deserves a real place **
+VO ► Nobody corrected me. It's in the way people talk in the masjid car park.
+MOVE: push in 5%.
+
+Ink and watercolour illustration on textured aged parchment of two empty plastic
+chairs set out against a plain rendered wall at dusk, a pair of used tea glasses
+left on the ground beside them, a scatter of shoes at the edge of frame. Nobody
+present. Ordinary, contemporary, unremarkable. Loose pen contour, muted tan and
+grey washes, warm lamplight from off-frame right pooling on the wall as bare
+paper. 16:9, chairs low in frame, wall filling the upper half.
+
+S11  ** unchanged **
+VO ► A choice. The same thing sitting in your chest right now.
+
+S11b  ** NEW **
+VO   He wasn't a perfect thing that broke. He was a thing that decided. That's one.
+MOVE: pull back 6%.
+
+Flat overhead ink and watercolour illustration on textured aged parchment of a
+single set of footprints in fine sand walking toward a fork where the ground
+divides in two — and stopping dead at the junction, with no prints continuing
+down either path. Nobody in frame. Fine dry-brush sand texture, soft grey-blue
+inside each print, bare parchment on the lit ground. 16:9, fork centred, prints
+entering from the lower edge.
+
+
+--------------------------------------------------------------------------------
+BEAT 05 · NOT ALL EVIL · 3:42–4:40 · 5 shots   ** correction 2 of 4 **
+--------------------------------------------------------------------------------
+
+S12  ** unchanged — the split-frame **
+VO ► Among us are the righteous. And among us are others below that.
+
+S12b  ** NEW — put people in the split, or it's just scenery **
+VO   We follow different paths.
+MOVE: push in 6%.
+
+Ink and watercolour illustration on textured aged parchment, split-frame: two
+figures seen from behind walking away from the viewer down two diverging desert
+paths, one on each side of a low stone ridge, already far apart. Both featureless
+— flat silhouette washes with one contour line, no faces, no detail. The left
+figure walks in warm ochre light, the right in cool grey-blue shadow. Identical
+pen weight on both. 16:9, figures small and low, the fork opening between them.
+
+S13  ** unchanged **
+VO ► Exactly like the street you live on.
+
+S13b  ** NEW — the line lands the beat and currently has no image **
+VO ► Exactly like the street you live on.  (hold through the line)
+MOVE: drift left 40px along the doors.
+
+Ink and watercolour illustration on textured aged parchment of a row of identical
+doorways along an ordinary residential street wall at dusk, seen straight on —
+some with a lamp burning above them drawn as bare unpainted paper, some dark.
+Every door the same size, the same shape, the same pen weight. Completely empty,
+nobody in the street. Muted tan wall wash, grey-blue in the unlit bays, muted
+gold at the lit ones. Utterly ordinary. 16:9, doors running the full width.
+
+S13c  ** NEW **
+VO   Two verses later: when we heard the guidance, we believed in it.
+MOVE: push in 5%, settling.
+
+Ink and watercolour illustration on textured aged parchment of a loose group of
+small clay oil lamps set on a stone floor, most of them unlit and one or two
+newly burning. Nobody in frame. Warm tan clay wash, the lit flames left as bare
+unpainted paper with a thin muted-gold rim, the unlit lamps cool and grey.
+Granulation in the clay, dry-brush on the stone. Quiet and hopeful. 16:9, lamps
+grouped low and centre.
+
+
+--------------------------------------------------------------------------------
+BEAT 06 · THE NIGHT · 4:40–5:20 · 4 shots   ** all drop with CUT 2 **
+--------------------------------------------------------------------------------
+
+This is the only beat in the film that isn't correcting or accusing. It should be
+the warmest thing in the video and it currently has the fewest people in it.
+
+S14  ** unchanged **
+VO ► There was a night. An ordinary night. A group of them were passing through.
+
+S14b  ** NEW **
+VO   The Prophet, peace be upon him, was reciting — and he didn't know they were there.
+MOVE: hold dead still.
+
+Ink and watercolour illustration on textured aged parchment of a small group of
+travelling figures halted in the dark outside a low stone wall, seen from behind
+and slightly above, all of them turned toward warm lamplight spilling from a
+doorway ahead. Featureless — flat cool silhouette washes with single contour
+lines, no faces, no detail, nobody identifiable. Thin indigo-slate night wash
+over the whole scene with paper tooth reading through. The light itself is bare
+unpainted paper. Still, arrested, listening. 16:9, figures low and small.
+
+S15  ** unchanged **
+VO ► When it finished they went home to their own people and said: we have heard
+     an amazing Quran.
+
+S15b  ** NEW **
+VO   They walked past. They heard it. And it moved them.
+MOVE: pull back 8%.
+
+Ink and watercolour illustration on textured aged parchment of the same small
+group of travelling figures now walking away across open ground at first light,
+seen from behind and further off, spread out and unhurried. Featureless flat
+silhouette washes, one contour line each, no faces. The night wash gone — warm
+tan ground, bare parchment sky, long soft grey-blue shadows stretching back
+toward the viewer. Changed and quiet. 16:9, figures small on the lower third.
+
+
+--------------------------------------------------------------------------------
+BEAT 07 · PURPOSE · 5:20–5:36 · 2 shots   ** both drop with CUT 1 **
+--------------------------------------------------------------------------------
+
+S16  ** unchanged **
+VO ► One sentence. Both of us inside it.
+
+S16b  ** NEW **
+VO   You've spent your whole life reading a book that was never addressed to you alone.
+MOVE: push in 5%.
+
+Flat overhead ink and watercolour illustration on textured aged parchment of the
+same two identical clay vessels seen from directly above, standing side by side
+inside one single hand-drawn circle that encloses them both, the circle ruled in
+one continuous slightly uneven pen stroke. Nothing else inside the circle,
+nothing outside it. Identical tan washes on both vessels, identical shadows.
+16:9, circle centred, generous parchment around it.
+
+
+--------------------------------------------------------------------------------
+BEAT 08 · WHAT THEY CAN DO · 5:36–6:27 · 5 shots
+--------------------------------------------------------------------------------
+
+S17  ** unchanged **
+VO ► An-Naml describes his court. His soldiers of the jinn, and men, and birds.
+
+S17b  ** NEW — the throne, without depicting Sulayman or the ifrit **
+VO ► He needed a throne brought from another kingdom. An ifrit said he'd have it
+     there before Sulayman could stand up.
+MOVE: push in 6% up the steps.
+
+Ink and watercolour architectural illustration on textured aged parchment of a
+broad empty stone dais at the top of a short flight of steps, with a clean
+rectangular patch of undisturbed floor at its centre where dust has not settled —
+the exact footprint of something that stood there and is gone. Nothing on the
+dais. Nobody in frame. Ruled pen perspective, cool grey stone washes, the clean
+patch left as bare unpainted paper. 16:9, dais centred, steps running toward the
+viewer.
+
+S18  ** unchanged **
+VO ► Surah Sad describes the rest in four words. Every builder and diver.
+
+S18b  ** NEW — a different visual register, deliberately **
+VO ► Saba lists what they made. Elevated chambers. Basins the size of reservoirs.
+MOVE: drift up 30px through the levels.
+
+Ink and watercolour architectural cutaway drawing on textured aged parchment
+showing a tall building sectioned open to reveal four stacked elevated chambers
+one above the other, drawn as a measured elevation in fine ruled pen line with
+light tan and grey wash fills. Every chamber completely empty. No figures, no
+scale bar, no annotations, no numbers, no text of any kind. Paper tooth through
+the washes. Technical and cool. 16:9, section filling the frame.
+
+S19  ** unchanged **
+VO ► Never for sale. Never for you.
+
+
+--------------------------------------------------------------------------------
+BEAT 09 · THE DEATH · 6:27–7:49 · 8 shots   ** PEAK · correction 3 of 4 **
+--------------------------------------------------------------------------------
+
+Your best story, previously the third-worst covered. Doubled.
+
+S20  ** unchanged — thumbnail plate source **
+VO ► He died standing up. Leaning on his staff.
+
+S20b  ** NEW — the image the entire story is about, and it did not exist **
+VO ► And nobody noticed.
+MOVE: pull back 10%, the room opening around the staff.
+
+Wide ink and watercolour illustration on textured aged parchment of a vast
+half-built stone hall at night with a single tall wooden staff standing upright
+and alone in the middle distance, nothing holding it — and all around it,
+labouring figures bent to their work, cutting and lifting and carrying, none of
+them looking toward the staff. All figures featureless flat silhouette washes
+with single contour lines, seen from behind or in profile-less outline, no faces
+anywhere. Thin indigo-slate night wash, cold light reserved as bare paper on the
+block faces. The staff is the only vertical thing not moving. 16:9.
+
+S21  ** REWRITTEN — the old prompt contradicted its own line **
+VO ► The jinn kept working. Cutting. Lifting. Carrying.
+MOVE: drift right 40px across the work.
+
+Ink and watercolour illustration on textured aged parchment of stone-cutting work
+in progress at night — dressed blocks part-stacked into a rising wall, a block
+mid-lift on ropes, stone dust hanging in the air, chisels in use. Labouring
+figures throughout, all featureless flat silhouette washes with single contour
+lines, no faces anywhere, caught mid-action rather than posed. Thin indigo-slate
+night wash, cold light on the upper block faces as bare paper, long shadow washes
+across the ground. Busy, rhythmic, ongoing. 16:9.
+
+S21b  ** NEW **
+VO   Building the thing he'd told them to build. For a man who was already dead.
+MOVE: push in 8%.
+
+Close-crop ink and watercolour illustration on textured aged parchment of a
+chisel struck into dressed stone mid-cut, a burst of pale stone chips and dust
+thrown off the edge and hanging in the air, the mallet blurred out of frame. The
+holding hand cropped at the wrist, no arm, no body, no face. Dense pen hatching
+in the stone face, warm sepia on the tool handle, chips left as bare unpainted
+paper. 16:9, point of contact slightly off-centre.
+
+S22  ** unchanged — PEAK **
+VO ► Until a small creature of the earth ate through the wood of that staff.
+
+S22b  ** NEW — build the reveal across two shots instead of one **
+VO   And he fell. Saba, verse fourteen.
+MOVE: push in 9%, following the line down.
+
+Extreme close-crop ink and watercolour illustration on textured aged parchment of
+a fine trail of pale wood dust running down the grain of an aged wooden staff
+from a point higher up, gathering in a small drift at the base. No insect visible
+anywhere. Dense parallel pen hatching following the shaft's curve, warm sepia
+wash, the dust trail left as bare unpainted paper. Extremely tight. 16:9, the
+trail running vertically slightly off-centre.
+
+S23  ** unchanged — SILENCE 2 of 3 **
+VO ► They could not see a dead man standing in front of them.
+
+S23b  ** NEW — the payoff needs a reaction shot **
+VO   A room full of them, working for a corpse, because they couldn't see what
+     was standing six feet away.
+MOVE: hold dead still.
+
+Wide ink and watercolour illustration on textured aged parchment of a half-built
+stone hall where every labouring figure has stopped mid-task and turned toward a
+fallen wooden staff lying on the floor, tools still in their hands, a dropped
+block resting where it landed. All figures featureless flat silhouette washes
+with single contour lines, no faces anywhere. Thin indigo-slate night wash,
+everything arrested. The stillest crowded frame in the film. 16:9, staff low and
+central, figures ringed around it at a distance.
+
+
+--------------------------------------------------------------------------------
+BEAT 10 · THE FRAUD + CTA · 7:49–8:12 · 3 shots
+--------------------------------------------------------------------------------
+
+S24  ** unchanged — the callback **
+VO ► So the man who told you he'd consulted one, then named his price...
+
+S24b  ** NEW — close the transaction the film opened on **
+VO   ...was selling you something the Quran took apart fourteen hundred years ago.
+MOVE: push in 10%. Hard, and the hardest in the film after S22.
+
+Close-crop ink and watercolour illustration on textured aged parchment of a bare
+patch of dark wooden tabletop where a stack of banknotes was lying — the notes
+gone, only a faint clean rectangle in the dust and one ring mark left behind.
+Nobody in frame, nothing else on the table. Warm sepia grain in loose pen
+contour, the clean rectangle left as bare unpainted paper, granulation in the
+surrounding dust. 16:9, the empty patch centred.
+
+S24c  ** NEW — the CTA plate, kept in-world **
+VO   [warmly] If that's useful to someone you know, send it to them. And subscribe.
+MOVE: hold still.
+
+Ink and watercolour illustration on textured aged parchment of a small lit clay
+oil lamp being passed from one hand to another, both hands cropped at the wrist —
+no arms, no bodies, no faces. The flame left as bare unpainted paper with a thin
+muted-gold rim, warm light spilling across both hands. Loose pen contour, muted
+tan washes, soft grey-blue beyond the light. Warm and direct. 16:9, hands and
+lamp centred, generous parchment around them for the subscribe graphic.
+
+
+--------------------------------------------------------------------------------
+BEAT 11 · THE TRAVELLER · 8:12–9:11 · 5 shots   ** correction 4 of 4 **
+--------------------------------------------------------------------------------
+
+S25  ** unchanged **
+VO ► You're travelling. Night comes down in a valley you don't know.
+
+S25b  ** NEW — the figure variant, promoted to standard **
+VO   You're sleeping out in the open.
+MOVE: pull back 10%.
+
+Ink and watercolour illustration on textured aged parchment of a lone travelling
+figure seen from directly behind, small in the frame, standing at the mouth of a
+narrow desert valley at last light with a woollen cloak over the shoulders and a
+clay jar set down at the feet. Featureless — a flat cool grey-blue silhouette
+wash with one contour line, no face, no detail of any kind. Steep dark rock walls
+rising either side in loose angular pen contour, one band of muted gold reserved
+at the horizon. 16:9, figure low and small, valley towering.
+
+S25c  ** NEW — the error itself, made visible **
+VO ► And before you lie down you say it out loud: I seek refuge with the master
+     of this place. Keep me safe tonight.
+MOVE: push in 6%.
+
+Ink and watercolour illustration on textured aged parchment of a pair of open
+hands raised in supplication — turned not upward to the sky but outward toward a
+dark rock wall directly in front of them. Cropped at the wrists, no arms, no
+body, no face. Coarse dry-brush texture on the rock, cool grey-blue wash, the
+palms left as the palest paper in frame. The gesture is right and the direction
+is wrong. 16:9, hands low and centre, rock filling the upper frame.
+
+S26  ** unchanged **
+VO ► They asked for protection. What they got was weight.
+
+S26b  ** NEW **
+VO   Seeking safety from something hidden doesn't make you safe. It makes you owned.
+MOVE: drift right 40px, following.
+
+Ink and watercolour illustration on textured aged parchment of the same lone
+travelling figure seen from behind, now walking on with shoulders stooped and
+back visibly bent under a large rough stone strapped across it, gait uneven.
+Featureless flat grey-blue silhouette wash with one contour line, no face, no
+detail. Flat sand ground in dry-brush, one long shadow wash dragging behind them.
+No warmth anywhere. 16:9, figure centred and small, empty ground all around.
+
+
+--------------------------------------------------------------------------------
+BEAT 12 · THE WHISPERER · 9:11–10:15 · 5 shots   ** was the worst-covered beat **
+--------------------------------------------------------------------------------
+
+S27  ** unchanged **
+VO ► Al-An'am, verse one hundred and twelve. Shayateen of mankind and jinn.
+
+S27b  ** NEW — two sources, one of them human **
+VO   Devils from among the jinn. And devils from among people.
+MOVE: hold dead still.
+
+Ink and watercolour illustration on textured aged parchment of a long empty stone
+corridor lined with carved wooden mashrabiya screens, with two shadows falling
+across the floor: one cast by the lattice as a sharp repeating geometric pattern,
+and one the plain shadow of a standing person cast from off-frame — with nobody
+in the corridor to cast it. No figure visible anywhere, only the shadow. Ruled
+pen perspective, deep sepia lattice wash, cool grey-blue corridor. 16:9, both
+shadows crossing the same floor.
+
+S28  ** unchanged — THE THESIS SHOT · SILENCE 3 of 3 **
+VO ► Some of it is sitting across the table from you, asking for cash.
+
+S28b  ** NEW — the POV reversal, and the shot that spends the whole film's absence **
+VO   You've spent your life afraid of the hidden one.
+MOVE: push in 9%, ending on the empty chair.
+
+Ink and watercolour illustration on textured aged parchment seen from the
+viewer's own seat at a plain dark wooden table — the near edge of the table and
+the viewer's own two hands resting on it, cropped at the wrists, with a folded
+stack of banknotes between them. Across the table, one empty wooden chair,
+pulled out and facing the viewer with nobody in it. Hard geometric lattice light
+falls across the tabletop and over the empty chair as bare unpainted paper. No
+face anywhere. 16:9, the empty chair centred beyond the hands.
+
+S28c  ** NEW **
+VO   The Book closes by pointing at the visible one.
+MOVE: hold dead still.
+
+Extreme close-crop ink and watercolour illustration on textured aged parchment of
+the sharp geometric shadow of a carved lattice falling directly across a folded
+stack of worn banknotes on a dark wooden tabletop, the pattern breaking over the
+edges of the paper. Nothing else in frame, nobody present. Fine pen contour on
+the note edges, warm sepia and grey-blue washes, the lit strips left as bare
+paper. 16:9, notes filling the lower half.
+
+
+--------------------------------------------------------------------------------
+BEAT 13 · THE CLOSE · 10:15–11:11 · 5 shots
+--------------------------------------------------------------------------------
+
+S29  ** unchanged **
+VO ► It hands you a junna.
+
+S29b  ** NEW — callback to the cognate row, resolved **
+VO   [calm] So bring it back to those three letters.
+MOVE: drift right 30px along the row.
+
+Flat overhead ink and watercolour illustration on textured aged parchment of the
+same five objects from earlier laid in a row — foliage, seed pod, cloth-covered
+lamp, brass shield, carved lattice fragment — but now the cloth has been lifted
+off the lamp and it burns clean, and the shield sits forward of the line, closest
+to the viewer. Identical pen contour and shadow weight across all five. Warmer
+washes than the first time. 16:9, row across the centre, open parchment for text.
+
+S29c  ** NEW **
+VO ► Al-Fatiha. Ayat al-Kursi. The last two surahs. The words in the morning and
+     the words at night.
+MOVE: push in 5%.
+
+Ink and watercolour illustration on textured aged parchment of an open manuscript
+resting on a low wooden stand at dawn, its pages completely blank and unprinted
+with no writing anywhere, left as bare unpainted paper. A plain round brass
+shield rests against the stand's base, its shadow falling protectively across the
+foot of the pages. Nobody in frame. Warm tan and muted-gold washes, soft
+grey-blue beyond. Settled. 16:9, manuscript centred, generous parchment above for
+the verse card.
+
+S30  ** unchanged — CLOSING FRAME **
+VO ► [warmly] Only One sees both.
+
+S30b  ** NEW — optional final plate, ties the film's two substances together **
+VO   They were made from fire. You were made from clay.
+MOVE: hold dead still, then cut to S30.
+
+Ink and watercolour illustration on textured aged parchment of two things side by
+side on a plain surface at dawn: the clay slab with its pressed handprint, and
+beside it a small patch of scorched ground where a fire has burnt out, the ember
+gone cold. Nothing else in frame, nobody present. Equal weight and equal size,
+identical pen contour on both, one shared grey-blue shadow direction. Warm tan on
+the clay, faded ember-grey on the scorch. 16:9, both centred, wide parchment
+around them.
+
+
+================================================================================
+MOTION — the other half of the density fix
+================================================================================
+
+More images buys you most of it. The rest comes from varying the energy, which
+the current pack does not do: every move is a 4–12% push or a 20–40px drift, and
+uniform slow motion across eleven minutes reads as no motion at all.
+
+  KEEP the slow pushes as the default. They're right for this subject.
+  ADD three harder beats and nothing more — S22 at 10%, S24b at 10%, S20b's
+    10% pull. Those three are the only places the camera should be felt.
+  LINE-REVEAL on four shots maximum, unchanged: S02, S12, S20, S28.
+  WASH BLOOM is the new device and it's free in the edit: hold the frame on ink
+    line only for a beat, then let the colour spread into it. Use it exactly
+    three times — S06b (the cognate row), S13c (the lamps lighting), S29b (the
+    row resolved). It's the reference video's actual idiom and it turns three
+    static plates into small events.
+  CUT ON THE FULL STOP, not on the breath. This script has more full stops than
+    the Anger VO by design; every one of them is a free edit point.
+
+
+================================================================================
+THUMBNAIL — REBUILT
+================================================================================
+
+The film owes its palette to the film. The thumbnail owes it nothing.
+
+  PLATE      S28b, tightened — the viewer's own hands on the table with the cash
+             between them, and the empty chair opposite catching hard lattice
+             light. Human anchor, money, and an empty seat that asks a question.
+  GROUND     Near-black #0A0C10 behind and around the illustration, not
+             parchment. The watercolour plate sits inset and lit, so it reads as
+             a warm object in a dark field. This is where the contrast comes
+             from, and it's what keeps it legible at 320px.
+  TEXT       NOT ANGELS, right third, heavy condensed sans, parchment #E8DCC8
+             with a thin ember keyline. Back to light type — the ground is dark
+             again, so the earlier flip reverses here and only here.
+  GHOST      ج ن ن large behind the chair, sepia at low opacity.
+  CORNER     AL-KAHF 18:50, bottom-right, small, parchment.
+
+  WHY THIS OVER THE STAFF. The staff plate is a better *image* and a worse
+  *thumbnail*. It has no human, no stakes, and a thin subject that vanishes in a
+  grid. The table has hands, cash and an empty chair — a scene with a question
+  in it, which is what a curiosity gap actually is. Keep S20 as the pinned-
+  comment and community-post asset; it will do well there, where it's shown
+  large and alone.
+
+  A/B IF YOU CAN. Run the table plate against the staff plate. My call is the
+  table by a distance, but this is the one number on the whole package I can't
+  check for you — the vidIQ title scorer is still gated behind a tool approval
+  I couldn't clear, and thumbnail scoring sits behind the same wall.
+================================================================================
