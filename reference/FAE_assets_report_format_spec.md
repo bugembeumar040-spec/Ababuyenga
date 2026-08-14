@@ -19,6 +19,15 @@ data-placement rules below.
 | Gridlines | Shown |
 | Autofilter / conditional formatting | None |
 | Print | Portrait, A4 (paper 9), per-sheet printer settings embedded, aggressive scale-to-fit |
+| View | Zoom below 100% on wide sheets (master uses 50 / 55 / 85), gridlines shown |
+
+**Print setup is part of the format, not an afterthought.** Three of the master's four
+tabs carry portrait + A4 + an explicit print area; only `Common Area Assets Details`
+omits it. Generated sheets set portrait, A4, a print area covering the used range,
+`fitToWidth=1` and repeating header rows `1:2`. Fit-to-width replaces the master's
+hand-tuned scale values (10% / 12% / 25%), which are per-sheet artefacts that would be
+meaningless on a narrow sheet; the intent — get every column onto one page wide — is
+the same. Zoom is set from sheet width: >40 columns → 50, >12 → 55, otherwise 85.
 
 **Total row rule:** the last row of each table is labelled `Total` in column A, with the
 label cell merged across the identity columns, and `=SUM(<first data row>:<last data row>)`

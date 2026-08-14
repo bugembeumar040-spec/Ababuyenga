@@ -2,7 +2,7 @@
 import openpyxl
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import Font, Alignment
-from fmt import render, remap, merge_runs, HDR_FILL, TOT_FILL
+from fmt import render, remap, merge_runs, finalize, HDR_FILL, TOT_FILL
 
 U = '/root/.claude/uploads/342efb5e-df1f-5d88-ab0b-269e90eb1eb9/'
 OUT = '/home/user/Ababuyenga/reports/'
@@ -96,5 +96,6 @@ for i, r in enumerate(range(21, 26)):
     for c in (lbl, val):
         c.alignment = Alignment(horizontal='center', vertical='center')
 
+finalize(wb)
 wb.save(OUT + 'TDM_Mall_Washroom_Details_2026.xlsx')
 print('wrote TDM_Mall_Washroom_Details_2026.xlsx', wb.sheetnames)

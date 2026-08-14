@@ -8,7 +8,7 @@ import io
 from copy import copy, deepcopy
 import openpyxl
 from openpyxl.drawing.image import Image as XLImage
-from fmt import remap
+from fmt import remap, finalize
 
 R = '/home/user/Ababuyenga/reports/'
 SRC = R + 'FAE_TDM_Assets_Details_2026_Combined.xlsx'
@@ -113,6 +113,7 @@ def build(filename, sheets):
         else:
             srcname, newname, keep, hdr = spec
             subset_sheet(comb[srcname], wb.create_sheet(newname), keep, hdr)
+    finalize(wb)
     wb.save(R + filename)
     print(f'{filename:42} {len(wb.sheetnames)} tabs  '
           f'{sum(len(w._images) for w in wb.worksheets)} photos  {wb.sheetnames}')
@@ -144,11 +145,11 @@ build('China_Town_Assets_Details_2026.xlsx', [
 ])
 
 # ────────────────────────── Fashion Parking ───────────────────────
-photo_rows = [r for r in range(2, comb['Planter Photo Reference'].max_row + 1)
+photo_rows = [r for r in range(3, comb['Planter Photo Reference'].max_row + 1)
               if comb['Planter Photo Reference'].cell(row=r, column=1).value == 'FP Lobbies']
 build('FP_Assets_Details_2026.xlsx', [
     ('FP Lobbies', 'FP Planters'),
-    ('Planter Photo Reference', 'FP Planter Photos', photo_rows, 1),
+    ('Planter Photo Reference', 'FP Planter Photos', photo_rows, 2),
     ('Common Area Bins Details', 'FP Common Area Bins', [11], 2),
     ('External Staff Washroom', 'FP Staff Washroom', [12], 2),
 ])

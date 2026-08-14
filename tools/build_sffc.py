@@ -1,7 +1,7 @@
 """Batch 2, file 5: SF_FC.xlsx -> FAE master format (5 tabs)."""
 import openpyxl
 from openpyxl.utils import get_column_letter
-from fmt import render, remap, merge_runs, HDR_FILL, TOT_FILL
+from fmt import render, remap, merge_runs, finalize, HDR_FILL, TOT_FILL
 from openpyxl.styles import Font, Alignment
 
 U = '/root/.claude/uploads/342efb5e-df1f-5d88-ab0b-269e90eb1eb9/'
@@ -107,6 +107,7 @@ render(ws, cols, grid, style='compact', freeze='B3')
 for rng in ('D3:D4', 'E3:E5', 'F3:F5', 'G3:G5'):     # source F5:F6, G5:G7, H5:H7, I5:I7
     ws.merge_cells(rng)
 
+finalize(wb)
 wb.save(OUT + 'SF_FC_Furniture_Details_2026.xlsx')
 print('SF_FC_Furniture_Details_2026.xlsx', wb.sheetnames)
 print('asset columns found:', items)

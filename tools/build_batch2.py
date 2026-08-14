@@ -5,7 +5,7 @@ through the last total row) so every remapped formula reference stays valid.
 """
 import openpyxl
 from openpyxl.utils import get_column_letter
-from fmt import render, remap, merge_runs, place_image, extract_media
+from fmt import render, remap, merge_runs, place_image, extract_media, finalize
 
 U = '/root/.claude/uploads/342efb5e-df1f-5d88-ab0b-269e90eb1eb9/'
 OUT = '/home/user/Ababuyenga/reports/'
@@ -53,6 +53,7 @@ grid = [[locs[i]] + cells(src, r, 2, 6, colmap, rowmap) + [None]
 ws = wb.create_sheet('LG Sofa Measurements')
 render(ws, cols, grid, style='compact', freeze='C3')
 merge_runs(ws, 1, 3, locs)
+finalize(wb)
 wb.save(OUT + 'LG_FC_Furniture_Details_2026.xlsx')
 print('LG_FC_Furniture_Details_2026.xlsx', wb.sheetnames)
 
@@ -106,6 +107,7 @@ def bin_spares(src, title, hdr, first, last, c0, drawing, img_src_col):
 
 bin_spares(swb['SF FC'], 'SF FC Bin Spares', 26, 27, 28, 2, s2d[1], 'C')
 bin_spares(swb['LG FC'], 'LG FC Bin Spares', 14, 15, 16, 2, s2d[2], 'C')
+finalize(wb)
 wb.save(OUT + 'Bin_Stations_in_Food_Courts_Details_2026.xlsx')
 print('Bin_Stations_in_Food_Courts_Details_2026.xlsx', wb.sheetnames)
 
@@ -152,6 +154,7 @@ ws = wb.create_sheet('Store Inventory')
 render(ws, cols, grid, style='compact', freeze='C3')
 merge_runs(ws, 1, 3, [g[0] for g in grid])
 ws.merge_cells('C3:C4')          # source B4:B5 - 'Table' spans both rows
+finalize(wb)
 wb.save(OUT + 'New_External_Dining_Furniture_Details_2026.xlsx')
 print('New_External_Dining_Furniture_Details_2026.xlsx', wb.sheetnames)
 
@@ -173,5 +176,6 @@ for cell, img in anch[s2d[1]]:
     if cell.startswith('C'):
         r = int(cell[1:]); n = seen.get(r, 0); seen[r] = n + 1
         place_image(ws, 3, r, f'b2_track/{img}', w=78, h=100, dx=2 + n * 82)
+finalize(wb)
 wb.save(OUT + 'SF_FC_Assets_Inspection_Tracker_2026.xlsx')
 print('SF_FC_Assets_Inspection_Tracker_2026.xlsx', wb.sheetnames)

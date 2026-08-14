@@ -1,7 +1,7 @@
 """Reformat the two bin inventories into FAE master format."""
 import openpyxl
 from openpyxl.styles import Font, Alignment
-from fmt import render, remap, HDR_FILL, TOT_FILL
+from fmt import render, remap, finalize, HDR_FILL, TOT_FILL
 
 U = '/root/.claude/uploads/342efb5e-df1f-5d88-ab0b-269e90eb1eb9/'
 OUT = '/home/user/Ababuyenga/reports/'
@@ -30,6 +30,7 @@ render(ws, cols, grid, style='compact', freeze='A3',
 ws.merge_cells('B7:C7')      # Metro link bridge  (src C10:D10)
 ws.merge_cells('B8:C8')      # Grand Parking      (src C11:D11)
 ws.merge_cells('B9:B12')     # Lobby              (src C12:C15)
+finalize(wb)
 wb.save(OUT + 'TDM_Common_Area_Bins_Details_2026.xlsx')
 print('wrote TDM_Common_Area_Bins_Details_2026.xlsx')
 
@@ -74,5 +75,6 @@ for i, (label, val) in enumerate(summary):
     v.fill = TOT_FILL
     v.alignment = Alignment(horizontal='center', vertical='center')
 
+finalize(wb)
 wb.save(OUT + 'TDM_Steel_Bins_Details_2026.xlsx')
 print('wrote TDM_Steel_Bins_Details_2026.xlsx')

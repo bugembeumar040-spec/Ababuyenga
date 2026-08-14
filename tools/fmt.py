@@ -222,3 +222,53 @@ def extract_media(src_path, outdir):
                             os.path.basename(rm[rid.group(1)])))
         anchors[idx] = out
     return anchors, sheet_to_drawing
+
+
+# ─────────────────── final pass: borders, print setup, view ───────────────────
+def finalize(wb, default_freeze='A3'):
+    """Bring every sheet up to the master's conventions:
+    thin borders on any populated cell that has none (the master borders every
+    cell of a table), portrait A4 print setup with a print area and fit-to-width,
+    a zoom matched to sheet width, and a freeze pane below the header band."""
+    from openpyxl.utils import get_column_letter
+    for ws in wb.worksheets:
+        # 1. borders on ad-hoc blocks built outside render()
+        merged = {}
+        for rng in ws.merged_cells.ranges:
+            for r in range(rng.min_row, rng.max_row + 1):
+                for c in range(rng.min_col, rng.max_col + 1):
+                    merged[(r, c)] = rng
+        fill_cells = set()
+        for row in ws.iter_rows():
+            for cell in row:
+                if cell.value is None:
+                    continue
+                b = cell.border
+                if any([b.left.style, b.right.style, b.top.style, b.bottom.style]):
+                    continue
+                rng = merged.get((cell.row, cell.column))
+                if rng is not None:
+                    for r in range(rng.min_row, rng.max_row + 1):
+                        for c in range(rng.min_col, rng.max_col + 1):
+                            fill_cells.add((r, c))
+                else:
+                    fill_cells.add((cell.row, cell.column))
+        for r, c in fill_cells:
+            ws.cell(row=r, column=c).border = _border()
+
+        # 2. print setup
+        ncol, nrow = ws.max_column, ws.max_row
+        ps = ws.page_setup
+        ps.orientation = 'portrait'
+        ps.paperSize = 9                       # A4, as the master uses
+        ps.fitToWidth, ps.fitToHeight = 1, 0   # all columns on one page wide
+        ws.sheet_properties.pageSetUpPr.fitToPage = True
+        if ncol and nrow:
+            ws.print_area = f'A1:{get_column_letter(ncol)}{nrow}'
+            ws.print_title_rows = '1:2'        # repeat the header band on every page
+
+        # 3. view
+        if ws.sheet_view.zoomScale in (None, 100):
+            ws.sheet_view.zoomScale = 50 if ncol > 40 else (55 if ncol > 12 else 85)
+        if ws.freeze_panes is None:
+            ws.freeze_panes = default_freeze

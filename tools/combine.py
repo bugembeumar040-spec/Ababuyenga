@@ -9,7 +9,7 @@ from openpyxl.drawing.image import Image as XLImage
 from openpyxl.styles import Font, Alignment
 from openpyxl.worksheet.hyperlink import Hyperlink
 from openpyxl.utils import get_column_letter
-from fmt import HDR_FILL, TOT_FILL
+from fmt import HDR_FILL, TOT_FILL, finalize
 
 R = '/home/user/Ababuyenga/reports/'
 OUT = R + 'FAE_TDM_Assets_Details_2026_Combined.xlsx'
@@ -122,8 +122,9 @@ for f, sheet, rename, section, origin in PLAN:
     rows.append((section, name, origin, src.max_row - 2, src.max_column, len(src._images)))
 
 # ───────────────────────── Index tab ─────────────────────────
-heads = ['#', 'Section', 'Tab', 'Original source file', 'Data rows', 'Columns', 'Photos']
-widths = [6.45, 24.45, 32.45, 44.45, 12.45, 11.45, 10.45]
+heads = ['#', 'Section', 'Tab', 'Original source file', 'Data rows', 'Columns', 'Photos',
+         'Remarks']
+widths = [6.45, 24.45, 32.45, 44.45, 12.45, 11.45, 10.45, 26.45]
 for i, (h, w) in enumerate(zip(heads, widths), start=1):
     c = index.cell(row=1, column=i, value=h)
     c.font = Font(name='Calibri', size=12, bold=True, color='FFFFFF')
@@ -137,7 +138,7 @@ prev = None
 for n, (section, name, origin, nrows, ncols, nimg) in enumerate(rows, start=1):
     r = n + 1
     index.row_dimensions[r].height = 22.0
-    vals = [n, section if section != prev else '', name, origin, nrows, ncols, nimg or '']
+    vals = [n, section if section != prev else '', name, origin, nrows, ncols, nimg or '', None]
     prev = section
     for i, v in enumerate(vals, start=1):
         c = index.cell(row=r, column=i, value=v)
@@ -161,6 +162,7 @@ for i, col in enumerate((5, 6, 7)):
     c.fill = TOT_FILL
     c.alignment = Alignment(horizontal='center', vertical='center')
 
+finalize(wb)
 wb.save(OUT)
 print('wrote', OUT)
 print('tabs:', len(wb.sheetnames), '| images:', sum(len(ws._images) for ws in wb.worksheets))

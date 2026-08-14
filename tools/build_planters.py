@@ -6,7 +6,7 @@ import openpyxl
 from openpyxl.drawing.image import Image as XLImage
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import Font, Alignment
-from fmt import render, remap, merge_runs, HDR_FILL
+from fmt import render, remap, merge_runs, place_image, finalize, HDR_FILL
 
 U = '/root/.claude/uploads/342efb5e-df1f-5d88-ab0b-269e90eb1eb9/'
 OUT = '/home/user/Ababuyenga/reports/'
@@ -109,37 +109,27 @@ for cell, key in (('C2', 'A5'), ('D2', 'B5'), ('E2', 'C5'), ('F2', 'D5')):
     place(ws, cell, dict(anchors[3])[key])
 
 # ───────────────── 4. Photo reference tab (every source photo, labelled) ─────────────────
-ws = wb.create_sheet('Planter Photo Reference')
-ws.column_dimensions['A'].width = 22.45
-ws.column_dimensions['B'].width = 26.45
-ws.column_dimensions['C'].width = 22.45
-for i, h in enumerate(['Source sheet', 'Shown at', 'Photo'], start=1):
-    c = ws.cell(row=1, column=i, value=h)
-    c.font = Font(name='Calibri', size=12, bold=True, color='FFFFFF')
-    c.fill = HDR_FILL
-    c.alignment = Alignment(horizontal='center', vertical='center')
-ws.row_dimensions[1].height = 37.4
-
 SIZE_OF = {'A': 'Extra large', 'B': 'Big', 'C': 'Medum', 'D': 'Small'}
 BLOCK = {5: 'GF block', 12: 'GF block', 19: 'FF block', 34: 'SF block',
          3: 'header', 4: 'header', 45: 'MLB'}
 sheet_of = {1: 'RC & IR Lobbies', 2: 'FP Lobbies', 3: 'Mall'}
 
-r = 2
+grid, ordered = [], []
 for didx in sorted(anchors):
     for cell, img in anchors[didx]:
         col, rownum = re.match(r'([A-Z]+)(\d+)', cell).groups()
-        if didx == 3:
-            label = f'{SIZE_OF.get(col, col)} - {BLOCK.get(int(rownum), "row " + rownum)}'
-        else:
-            label = f'cell {cell}'
-        ws.row_dimensions[r].height = 115.0
-        ws.cell(row=r, column=1, value=sheet_of[didx]).alignment = Alignment(
-            horizontal='center', vertical='center')
-        ws.cell(row=r, column=2, value=label).alignment = Alignment(
-            horizontal='center', vertical='center', wrap_text=True)
-        place(ws, f'C{r}', img, w=128, h=145)
-        r += 1
+        label = (f'{SIZE_OF.get(col, col)} - {BLOCK.get(int(rownum), "row " + rownum)}'
+                 if didx == 3 else f'cell {cell}')
+        grid.append([sheet_of[didx], label, None, None])
+        ordered.append(img)
 
+ws = wb.create_sheet('Planter Photo Reference')
+cols = [('Source sheet', None, 22.45), ('Shown at', None, 26.45),
+        ('Photo', None, 22.45), ('Remarks', None, 24.45)]
+render(ws, cols, grid, style='compact', freeze='C3', data_height=115.0)
+for i, img in enumerate(ordered):
+    place_image(ws, 3, 3 + i, os.path.join(IMG, img), w=128, h=145)
+
+finalize(wb)
 wb.save(OUT + 'Planters_in_Malls_Details_2026.xlsx')
 print('wrote Planters_in_Malls_Details_2026.xlsx', wb.sheetnames)

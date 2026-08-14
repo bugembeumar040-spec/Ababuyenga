@@ -4,7 +4,7 @@ import zipfile
 import openpyxl
 from openpyxl.drawing.image import Image as XLImage
 from openpyxl.utils import get_column_letter
-from fmt import render, remap, merge_runs
+from fmt import render, remap, merge_runs, finalize
 
 U = '/root/.claude/uploads/342efb5e-df1f-5d88-ab0b-269e90eb1eb9/'
 OUT = '/home/user/Ababuyenga/reports/'
@@ -178,6 +178,7 @@ grid = [[remap(src.cell(row=r, column=c).value, colmap, rowmap) for c in range(3
 ws = wb.create_sheet('Washroom Assets Summery')
 render(ws, cols, grid, style='compact', freeze='B3', total_rows={12}, label_span=1)
 
+finalize(wb)
 wb.save(OUT + 'Washroom_Summary_Details_2026.xlsx')
 print('wrote Washroom_Summary_Details_2026.xlsx')
 print(len(wb.sheetnames), 'tabs:', wb.sheetnames)
