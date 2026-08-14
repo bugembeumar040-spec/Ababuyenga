@@ -230,6 +230,31 @@ New handling introduced in this batch:
 - Emaar logos in title rows are dropped, as in batch 1.
 - No total row is added where the source has none (the inspection tracker has none).
 
+## 6c. Per-entity registers
+
+Split out of the combined workbook so every property has its own register, matching
+how FAE already sits in `FAE_Assets_Details_2026.xlsx`. One sheet per asset type.
+
+| Entity | Workbook | Tabs |
+|---|---|---|
+| The Dubai Mall | `TDM_Assets_Details_2026.xlsx` | 30 |
+| Fountain Views | `FV_Assets_Details_2026.xlsx` | 5 |
+| Zabeel | `Zabeel_Assets_Details_2026.xlsx` | 4 |
+| China Town | `China_Town_Assets_Details_2026.xlsx` | 4 |
+| Fashion Parking | `FP_Assets_Details_2026.xlsx` | 4 |
+| Fashion Avenue Ext. | *(already exists — the master)* | 4 |
+
+Where a source tab held several properties (`Baby Room Details`,
+`Washroom Assets Summery`, `Store Inventory`), only that entity's rows are carried
+across and the block's own total formulas are remapped to their new row positions.
+The cross-property `Sub Total` row is **not** carried into an entity register — it
+covered every property and is meaningless for one.
+
+Two rows appear in two registers on purpose, because they belong to a TDM table but
+describe a Fashion Parking location: the `Fashion Lobby` bin row (qty 24) and the
+`L3 FP Valet office` washroom row. TDM keeps its source tables whole; FP surfaces
+them as its own data.
+
 ## 7. Consolidation checklist
 
 - [ ] Same four-tab structure, same tab names and order.
