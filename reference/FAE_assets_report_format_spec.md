@@ -175,6 +175,33 @@ The register uses consistent non-standard spellings. Keep them so consolidated s
 
 ---
 
+## 6a. Batch 1 output (one workbook per source file)
+
+| Source file | Output in `reports/` | Tabs |
+|---|---|---|
+| `Common_area__Bin.xlsx` | `TDM_Common_Area_Bins_Details_2026.xlsx` | 1 |
+| `Steel_Bins.xlsx` | `TDM_Steel_Bins_Details_2026.xlsx` | 1 |
+| `Mall_Washroom.xlsx` | `TDM_Mall_Washroom_Details_2026.xlsx` | 5 |
+| `Planters_in_Malls.xlsx` | `Planters_in_Malls_Details_2026.xlsx` | 4 |
+| `Washroom_Summery.xlsx` | `Washroom_Summary_Details_2026.xlsx` | 15 |
+
+Build tooling lives in `tools/` (`fmt.py` carries the master styling; one builder
+per source file; `verify.py` checks the result). Re-runnable for later batches.
+
+Mapping rules applied to every source table:
+
+- Source `Floor` -> **Area**; source `Location` (Male WR / Female WR) -> **Washroom (Gender)**;
+  a **Washroom no** column is inserted between them to match the master's A/B/C layout.
+  It is a per-Area sequence, except where the source already carried its own number
+  (External Staff Washroom's `No` column), which is used verbatim.
+- Source title banners are dropped (the master has none) and their wording moved into the tab name.
+- Every table gains a `Remarks` column last, even where the source had none.
+- **Total formulas are translated, never redesigned** — each reference is remapped to the new
+  layout so the totals keep exactly the rows the source included or omitted.
+- Blocks stacked or placed side-by-side in one source sheet are split onto their own tabs
+  (Zabeel, China Town, Fountain Views), except baby rooms, which are stacked under a
+  `Property` column.
+
 ## 7. Consolidation checklist
 
 - [ ] Same four-tab structure, same tab names and order.
