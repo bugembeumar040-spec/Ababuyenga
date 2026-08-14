@@ -152,7 +152,11 @@ The register uses consistent non-standard spellings. Keep them so consolidated s
 
 ## 6. Known defects in the source workbook
 
-Carry these forward as fixes when consolidating, and flag them rather than silently changing data.
+> **USER DECISION: leave all as it is.** Do NOT fix any of the items below when
+> consolidating. Reproduce the format verbatim — including the missing/short total
+> ranges, the duplicate rows, the `o`-for-`0` typo, the mid-table freeze pane, the
+> blank-vs-zero inconsistency, and every non-standard spelling in §5. Listed here for
+> awareness only.
 
 1. **`FAE Washroom Deatils` row 51 `Total` has no formulas** — the label is there, every
    count column is empty. The only tab without a working total.
@@ -180,7 +184,7 @@ Carry these forward as fixes when consolidating, and flag them rather than silen
 - [ ] Medium borders at group boundaries, thin inside.
 - [ ] Row heights and column widths per §3.
 - [ ] `Remarks` last column on every tab.
-- [ ] Working `=SUM()` total row on **every** tab, covering **every** data row.
+- [ ] Total rows replicated exactly as the master has them (per §6 — no corrections).
 - [ ] Explicit `0` on washroom/prayer tabs; blank on common-area tab.
 - [ ] Split counts (`5+5`) preserved as text.
 - [ ] Photos re-anchored one-per-column in row 2 of the common-area tab if supplied.
