@@ -2690,26 +2690,23 @@ numbers, logos, watermark, signature, decorative border, ornamental frame,
 clutter, busy background, tilted horizon, low resolution
 
 --------------------------------------------------------------------------------
-S30 · 10:48–11:01
-MOVE: pull back 12% — the widest move in the film, saved for last.   ** CLOSING
-FRAME **
+S30b · 10:48–11:01
+MOVE: hold dead still. Cuts to S30 on the last line.
 --------------------------------------------------------------------------------
 VO  Protection that never once asks you to negotiate with anything hidden —
       because it comes from the One who made the hidden thing in the first
       place.
-VO> [warmly] Only One sees both.
+VO> They were made from fire. You were made from clay.
+VO  Neither of you was ever built to see the other.
 
 PROMPT
-Wide ink and watercolour illustration on textured aged parchment of the same
-empty stone chamber from the opening, now at dawn — the indigo night wash gone,
-the single shaft of light broadened and warmed into a wide reserve of bare
-unpainted parchment falling across the bare floor and filling the room where
-before it was washed dark. Still no furniture, no objects, no figures anywhere.
-Dust left as flecks of raw paper suspended throughout the beam. Dressed stone in
-the same loose pen contour as the opening chamber, granulation in the joints,
-one thin muted-gold wash along the lit wall. Soft grey-blue holding only at the
-extreme edges. Resolved, open, quiet. 16:9, the beam entering upper-left,
-generous clean parchment for the closing card.
+Ink and watercolour illustration on textured aged parchment of two things side
+by side on a plain surface at dawn: the clay slab with its pressed handprint,
+and beside it a small patch of scorched ground where a fire has burnt out, the
+ember gone cold. Nothing else in frame, nobody present. Equal weight and equal
+size, identical pen contour on both, one shared grey-blue shadow direction. Warm
+tan on the clay, faded ember-grey on the scorch. 16:9, both centred, wide
+parchment around them.
 
 STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
 Loose confident pen contour with uneven pressure. Translucent washes with
@@ -2737,20 +2734,23 @@ numbers, logos, watermark, signature, decorative border, ornamental frame,
 clutter, busy background, tilted horizon, low resolution
 
 --------------------------------------------------------------------------------
-S30b · 11:01–11:11
-MOVE: hold dead still, then cut to S30.
+S30 · 11:01–11:11
+MOVE: pull back 12% — the widest move in the film, saved for last.   ** CLOSING
+FRAME **
 --------------------------------------------------------------------------------
-VO> They were made from fire. You were made from clay.
-VO  Neither of you was ever built to see the other.
+VO> [warmly] Only One sees both.
 
 PROMPT
-Ink and watercolour illustration on textured aged parchment of two things side
-by side on a plain surface at dawn: the clay slab with its pressed handprint,
-and beside it a small patch of scorched ground where a fire has burnt out, the
-ember gone cold. Nothing else in frame, nobody present. Equal weight and equal
-size, identical pen contour on both, one shared grey-blue shadow direction. Warm
-tan on the clay, faded ember-grey on the scorch. 16:9, both centred, wide
-parchment around them.
+Wide ink and watercolour illustration on textured aged parchment of the same
+empty stone chamber from the opening, now at dawn — the indigo night wash gone,
+the single shaft of light broadened and warmed into a wide reserve of bare
+unpainted parchment falling across the bare floor and filling the room where
+before it was washed dark. Still no furniture, no objects, no figures anywhere.
+Dust left as flecks of raw paper suspended throughout the beam. Dressed stone in
+the same loose pen contour as the opening chamber, granulation in the joints,
+one thin muted-gold wash along the lit wall. Soft grey-blue holding only at the
+extreme edges. Resolved, open, quiet. 16:9, the beam entering upper-left,
+generous clean parchment for the closing card.
 
 STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
 Loose confident pen contour with uneven pressure. Translucent washes with
