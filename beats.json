@@ -1,0 +1,1072 @@
+[
+ {
+  "id": "S01",
+  "in": 0,
+  "out": 9,
+  "move": "push in 6%, centred where the hands meet.",
+  "vo": [
+   {
+    "text": "[serious] Somebody watching this has paid money to have a jinn removed.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 9
+ },
+ {
+  "id": "S01b",
+  "in": 9,
+  "out": 15,
+  "move": "hold still.",
+  "vo": [
+   {
+    "text": "Maybe not you. Someone you know. A cousin. A friend's mother.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 6
+ },
+ {
+  "id": "S02",
+  "in": 15,
+  "out": 23,
+  "move": "hold dead still. Line-reveal permitted.   ** GENERATE FIRST — reference",
+  "vo": [
+   {
+    "text": "A healer with a phone number, who said he could see what you couldn't.",
+    "land": true
+   }
+  ],
+  "flags": [
+   "GENERATE FIRST — reference"
+  ],
+  "len": 8
+ },
+ {
+  "id": "S02b",
+  "in": 23,
+  "out": 30,
+  "move": "drift down 20px.",
+  "vo": [
+   {
+    "text": "Then named a price.",
+    "land": true
+   },
+   {
+    "text": "I want to show you four verses. By the end you'll know exactly why that man couldn't have done what he promised.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 7
+ },
+ {
+  "id": "S03",
+  "in": 30,
+  "out": 37,
+  "move": "pull back 8%, the wash opening out around the shaft.",
+  "vo": [
+   {
+    "text": "The Quran shuts that door completely. Not with a warning — with a story so humiliating it's hard to hear.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 7
+ },
+ {
+  "id": "S03b",
+  "in": 37,
+  "out": 44,
+  "move": "push in 5%, very slow.",
+  "vo": [
+   {
+    "text": "But we start somewhere else. With a word you've said a thousand times and never once looked at.",
+    "land": false
+   },
+   {
+    "text": "Jinn.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 7
+ },
+ {
+  "id": "S04",
+  "in": 44,
+  "out": 57,
+  "move": "push in 5%, very slow.",
+  "vo": [
+   {
+    "text": "It isn't a name. It's a description.",
+    "land": false
+   },
+   {
+    "text": "The root is three letters. Jeem, noon, noon. They mean: to conceal. To cover something so it can't be seen.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 13
+ },
+ {
+  "id": "S05",
+  "in": 57,
+  "out": 67,
+  "move": "drift right 40px, revealing more depth in the foliage.",
+  "vo": [
+   {
+    "text": "Janna. Paradise, the garden. Growth so thick the ground disappears under it.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S05b",
+  "in": 67,
+  "out": 77,
+  "move": "push in 7%, slow.",
+  "vo": [
+   {
+    "text": "Janeen. An unborn child. Hidden in the womb where nobody can look.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S05c",
+  "in": 77,
+  "out": 86,
+  "move": "push in 6%.",
+  "vo": [
+   {
+    "text": "Majnoon. We translate it madman. It means a mind covered over.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 9
+ },
+ {
+  "id": "S06",
+  "in": 86,
+  "out": 96,
+  "move": "push in 6%, settling on the boss of the shield.",
+  "vo": [
+   {
+    "text": "And junna. A shield. The thing you get behind so you can't be reached.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S06b",
+  "in": 96,
+  "out": 107,
+  "move": "hold dead still — WASH BLOOM, and the cognate text reveals over it one at",
+  "vo": [
+   {
+    "text": "Same three letters, every time.",
+    "land": false
+   },
+   {
+    "text": "That's the whole category. Not evil. Concealed.",
+    "land": true
+   },
+   {
+    "text": "And that's where it goes wrong at the start — because you were handed a category and told it was a character.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S07",
+  "in": 107,
+  "out": 117,
+  "move": "push in 8%, slow, into the distortion.",
+  "vo": [
+   {
+    "text": "Marij min nar.",
+    "land": true
+   },
+   {
+    "text": "Not a log burning. Not smoke. The clear moving part of a flame — the part your eye goes straight through.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S07b",
+  "in": 117,
+  "out": 124,
+  "move": "push in 6%.",
+  "vo": [
+   {
+    "text": "[serious] Ar-Rahman, fifteen. He made man from clay.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 7
+ },
+ {
+  "id": "S07c",
+  "in": 124,
+  "out": 132,
+  "move": "pull back 8%.",
+  "vo": [
+   {
+    "text": "Al-Hijr adds one word everyone reads past. Before.",
+    "land": false
+   },
+   {
+    "text": "They were here before Adam.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 8
+ },
+ {
+  "id": "S08",
+  "in": 132,
+  "out": 144,
+  "move": "push in 5% and drift down 20px.",
+  "vo": [
+   {
+    "text": "Which brings us to the one everybody gets wrong.",
+    "land": false
+   },
+   {
+    "text": "You know the scene. Allah tells the angels to bow to Adam. They bow. One doesn't.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 12
+ },
+ {
+  "id": "S08b",
+  "in": 144,
+  "out": 155,
+  "move": "drift right 30px.",
+  "vo": [
+   {
+    "text": "And every version you've ever been told calls him a fallen angel.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S09",
+  "in": 155,
+  "out": 172,
+  "move": "none. Absolutely locked off.   ** SILENCE 1 of 3 — the image holds alone",
+  "vo": [
+   {
+    "text": "Al-Kahf. Verse fifty. Same scene. Same refusal. Then three words.",
+    "land": false
+   },
+   {
+    "text": "Kana min al-jinn.   <- spliced silence, ~2s room tone either side",
+    "land": true
+   },
+   {
+    "text": "He was of the jinn. Not an angel. He never was one.",
+    "land": false
+   }
+  ],
+  "flags": [
+   "SILENCE 1 of 3 — the image holds alone"
+  ],
+  "len": 17
+ },
+ {
+  "id": "S10",
+  "in": 172,
+  "out": 186,
+  "move": "pull back 6%, isolating the upright stone.",
+  "vo": [
+   {
+    "text": "And I'll be honest — I believed the fallen angel version most of my life.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 14
+ },
+ {
+  "id": "S10b",
+  "in": 186,
+  "out": 198,
+  "move": "push in 5%.",
+  "vo": [
+   {
+    "text": "Nobody corrected me. It's in the paintings. It's in the way people talk in the masjid car park.",
+    "land": true
+   },
+   {
+    "text": "It isn't a small thing to have wrong. It's the entire point of the story.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 12
+ },
+ {
+  "id": "S11",
+  "in": 198,
+  "out": 211,
+  "move": "push in 7%, decisive.",
+  "vo": [
+   {
+    "text": "But he wasn't. He was jinn. Which means he had the one thing angels don't.",
+    "land": false
+   },
+   {
+    "text": "A choice. The same thing sitting in your chest right now.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 13
+ },
+ {
+  "id": "S11b",
+  "in": 211,
+  "out": 222,
+  "move": "pull back 6%.",
+  "vo": [
+   {
+    "text": "He wasn't a perfect thing that broke. He was a thing that decided.",
+    "land": true
+   },
+   {
+    "text": "That's why the story is pointed at you. It only works as a warning if he could have done otherwise. That's one.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S12",
+  "in": 222,
+  "out": 235,
+  "move": "drift left 30px, slow. Line-reveal permitted.",
+  "vo": [
+   {
+    "text": "[serious] Second thing. They're not all evil.",
+    "land": false
+   },
+   {
+    "text": "Al-Jinn, verse eleven. And notice who's speaking. This is the jinn, talking about themselves.",
+    "land": false
+   },
+   {
+    "text": "Among us are the righteous. And among us are others below that.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 13
+ },
+ {
+  "id": "S12b",
+  "in": 235,
+  "out": 246,
+  "move": "push in 6%.",
+  "vo": [
+   {
+    "text": "We follow different paths.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S13",
+  "in": 246,
+  "out": 258,
+  "move": "push in 6% on the lit half of the line.",
+  "vo": [
+   {
+    "text": "They have believers. They have disbelievers. The ones who get it right and the ones who don't.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 12
+ },
+ {
+  "id": "S13b",
+  "in": 258,
+  "out": 270,
+  "move": "drift left 40px along the doors.",
+  "vo": [
+   {
+    "text": "Exactly like the street you live on.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 12
+ },
+ {
+  "id": "S13c",
+  "in": 270,
+  "out": 280,
+  "move": "push in 5%, settling. WASH BLOOM as the lamps take light.",
+  "vo": [
+   {
+    "text": "Two verses later: when we heard the guidance, we believed in it.",
+    "land": true
+   },
+   {
+    "text": "So jinn was never another word for shaytan. Hold onto that. It comes back at the end. That's two.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S14",
+  "in": 280,
+  "out": 290,
+  "move": "push in 5%, very slow, toward the opening.",
+  "vo": [
+   {
+    "text": "And here's the part nobody tells you about.",
+    "land": false
+   },
+   {
+    "text": "There was a night. An ordinary night. A group of them were passing through.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S14b",
+  "in": 290,
+  "out": 300,
+  "move": "hold dead still.",
+  "vo": [
+   {
+    "text": "The Prophet, peace be upon him, was reciting — and he didn't know they were there.",
+    "land": true
+   },
+   {
+    "text": "Al-Ahqaf tells it from their side. One of them said to the others: quiet. Listen.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S15",
+  "in": 300,
+  "out": 310,
+  "move": "hold dead still.",
+  "vo": [
+   {
+    "text": "When it finished they went home to their own people and said: we have heard an amazing Quran.",
+    "land": true
+   },
+   {
+    "text": "Nobody summoned them. No ritual. No circle on the ground.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S15b",
+  "in": 310,
+  "out": 320,
+  "move": "pull back 8%.",
+  "vo": [
+   {
+    "text": "They walked past. They heard it. And it moved them.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S16",
+  "in": 320,
+  "out": 328,
+  "move": "hold still — short beat, no room for a move.",
+  "vo": [
+   {
+    "text": "Adh-Dhariyat, fifty-six. I did not create the jinn and mankind except to worship Me.",
+    "land": false
+   },
+   {
+    "text": "One sentence. Both of us inside it.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 8
+ },
+ {
+  "id": "S16b",
+  "in": 328,
+  "out": 336,
+  "move": "push in 5%.",
+  "vo": [
+   {
+    "text": "You've spent your whole life reading a book that was never addressed to you alone.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 8
+ },
+ {
+  "id": "S17",
+  "in": 336,
+  "out": 347,
+  "move": "pull back 8%, revealing the scale of the hall.",
+  "vo": [
+   {
+    "text": "[serious] So what can they actually do?",
+    "land": false
+   },
+   {
+    "text": "Sulayman, peace be upon him, had them under his command. Not summoned. Given, by Allah.",
+    "land": false
+   },
+   {
+    "text": "An-Naml describes his court. His soldiers of the jinn, and men, and birds.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S17b",
+  "in": 347,
+  "out": 357,
+  "move": "push in 6% up the steps.",
+  "vo": [
+   {
+    "text": "He needed a throne brought from another kingdom. An ifrit said he'd have it there before Sulayman could stand up.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S18",
+  "in": 357,
+  "out": 367,
+  "move": "push in 7% on the vessel.",
+  "vo": [
+   {
+    "text": "Surah Sad describes the rest in four words. Every builder and diver.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S18b",
+  "in": 367,
+  "out": 377,
+  "move": "drift up 30px through the levels.",
+  "vo": [
+   {
+    "text": "Saba lists what they made. Elevated chambers. Basins the size of reservoirs. Cauldrons too heavy to move.",
+    "land": true
+   },
+   {
+    "text": "So this isn't nothing. Strength. Speed. Real, physical power.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S19",
+  "in": 377,
+  "out": 387,
+  "move": "hold dead still.",
+  "vo": [
+   {
+    "text": "But look at the conditions. Under a prophet. By Allah's permission. Once, in all of recorded history.",
+    "land": false
+   },
+   {
+    "text": "Never for sale. Never for you.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S20",
+  "in": 387,
+  "out": 398,
+  "move": "push in 4%, barely perceptible. Line-reveal permitted.",
+  "vo": [
+   {
+    "text": "And then Sulayman died.",
+    "land": false
+   },
+   {
+    "text": "He died standing up. Leaning on his staff.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S20b",
+  "in": 398,
+  "out": 409,
+  "move": "pull back 10%, the room opening around the staff.",
+  "vo": [
+   {
+    "text": "And nobody noticed.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S21",
+  "in": 409,
+  "out": 419,
+  "move": "drift right 40px across the work.",
+  "vo": [
+   {
+    "text": "The jinn kept working. Cutting. Lifting. Carrying.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S21b",
+  "in": 419,
+  "out": 427,
+  "move": "push in 8%.",
+  "vo": [
+   {
+    "text": "Building the thing he'd told them to build. For a man who was already dead.",
+    "land": true
+   },
+   {
+    "text": "The Quran doesn't say how long. Days. Weeks. Long enough that it mattered.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 8
+ },
+ {
+  "id": "S22",
+  "in": 427,
+  "out": 437,
+  "move": "push in 10%. The most decisive move in the film.   ** PEAK **",
+  "vo": [
+   {
+    "text": "Until a small creature of the earth ate through the wood of that staff.",
+    "land": true
+   }
+  ],
+  "flags": [
+   "PEAK"
+  ],
+  "len": 10
+ },
+ {
+  "id": "S22b",
+  "in": 437,
+  "out": 446,
+  "move": "push in 9%, following the line down.",
+  "vo": [
+   {
+    "text": "And he fell. Saba, verse fourteen.",
+    "land": true
+   },
+   {
+    "text": "When he fell, it became clear to the jinn — that if they had known the unseen, they would never have stayed in that humiliating labour.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 9
+ },
+ {
+  "id": "S23",
+  "in": 446,
+  "out": 459,
+  "move": "hold dead still four seconds, then push in 4%.   ** SILENCE 2 of 3 — the",
+  "vo": [
+   {
+    "text": "They could not see a dead man standing in front of them.   <- spliced silence, ~2s room tone either side",
+    "land": true
+   },
+   {
+    "text": "Of every example Allah could have chosen, He chose that one. Not a rule. Not a lecture.",
+    "land": false
+   }
+  ],
+  "flags": [
+   "SILENCE 2 of 3 — the"
+  ],
+  "len": 13
+ },
+ {
+  "id": "S23b",
+  "in": 459,
+  "out": 469,
+  "move": "hold dead still.",
+  "vo": [
+   {
+    "text": "A room full of them, working for a corpse, because they couldn't see what was standing six feet away.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S24",
+  "in": 469,
+  "out": 477,
+  "move": "push in 8% onto the notes.",
+  "vo": [
+   {
+    "text": "That's three. And it's the one that costs people money.",
+    "land": false
+   },
+   {
+    "text": "Because if they can't see a dead king in the room — they cannot see your future.",
+    "land": false
+   },
+   {
+    "text": "So the man who told you he'd consulted one, then named his price...",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 8
+ },
+ {
+  "id": "S24b",
+  "in": 477,
+  "out": 485,
+  "move": "push in 10%. Hard — the hardest move in the film after S22.",
+  "vo": [
+   {
+    "text": "...was selling you something the Quran took apart fourteen hundred years ago.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 8
+ },
+ {
+  "id": "S24c",
+  "in": 485,
+  "out": 492,
+  "move": "hold still.",
+  "vo": [
+   {
+    "text": "[warmly] If that's useful to someone you know, send it to them. And subscribe, because there's one more — and it's the one that changes what you do tonight.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 7
+ },
+ {
+  "id": "S25",
+  "in": 492,
+  "out": 504,
+  "move": "pull back 10%, the valley opening around the objects.",
+  "vo": [
+   {
+    "text": "Number four. Picture it, because people really did this.",
+    "land": false
+   },
+   {
+    "text": "You're travelling. Night comes down in a valley you don't know.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 12
+ },
+ {
+  "id": "S25b",
+  "in": 504,
+  "out": 516,
+  "move": "pull back 10%.",
+  "vo": [
+   {
+    "text": "You're sleeping out in the open.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 12
+ },
+ {
+  "id": "S25c",
+  "in": 516,
+  "out": 527,
+  "move": "push in 6%.",
+  "vo": [
+   {
+    "text": "And before you lie down you say it out loud: I seek refuge with the master of this place. Keep me safe tonight.",
+    "land": true
+   },
+   {
+    "text": "That was ordinary. That was normal practice.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S26",
+  "in": 527,
+  "out": 540,
+  "move": "pull back 12%, the weight becoming visible as the frame widens.",
+  "vo": [
+   {
+    "text": "Al-Jinn, verse six. And there were men from mankind who sought refuge in men from the jinn — so they only increased them in burden.",
+    "land": false
+   },
+   {
+    "text": "One word carries the verdict. Rahaqa.",
+    "land": false
+   },
+   {
+    "text": "They asked for protection. What they got was weight.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 13
+ },
+ {
+  "id": "S26b",
+  "in": 540,
+  "out": 551,
+  "move": "drift right 40px, following.",
+  "vo": [
+   {
+    "text": "Seeking safety from something hidden doesn't make you safe. It makes you owned.",
+    "land": true
+   },
+   {
+    "text": "That's four.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S27",
+  "in": 551,
+  "out": 563,
+  "move": "drift right 40px, past the openings.",
+  "vo": [
+   {
+    "text": "[serious] Which brings us back to the word I told you to hold. Shaytan.",
+    "land": false
+   },
+   {
+    "text": "Al-An'am, verse one hundred and twelve. Shayateen of mankind and jinn.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 12
+ },
+ {
+  "id": "S27b",
+  "in": 563,
+  "out": 574,
+  "move": "hold dead still.",
+  "vo": [
+   {
+    "text": "Devils from among the jinn. And devils from among people.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S28",
+  "in": 574,
+  "out": 591,
+  "move": "push in 9%, ending on the empty chair opposite. Line-reveal permitted.",
+  "vo": [
+   {
+    "text": "Then the very last surah in the Quran. An-Nas. Min al-jinnati wan-nas.",
+    "land": false
+   },
+   {
+    "text": "Some of it has a face. And a name. And a phone number.",
+    "land": false
+   },
+   {
+    "text": "Some of it is sitting across the table from you, asking for cash.   <- spliced silence, ~2s room tone either side",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 17
+ },
+ {
+  "id": "S28b",
+  "in": 591,
+  "out": 605,
+  "move": "push in 9%, ending on the empty chair.",
+  "vo": [
+   {
+    "text": "You've spent your life afraid of the hidden one.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 14
+ },
+ {
+  "id": "S28c",
+  "in": 605,
+  "out": 615,
+  "move": "hold dead still.",
+  "vo": [
+   {
+    "text": "The Book closes by pointing at the visible one.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 10
+ },
+ {
+  "id": "S29",
+  "in": 615,
+  "out": 626,
+  "move": "push in 5%, settling.",
+  "vo": [
+   {
+    "text": "Notice what the Quran never does. It never hands you a technique for the unseen. No formula. Nobody to pay.",
+    "land": false
+   },
+   {
+    "text": "It hands you a junna.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S29b",
+  "in": 626,
+  "out": 637,
+  "move": "drift right 30px along the row. WASH BLOOM as the lamp is uncovered.",
+  "vo": [
+   {
+    "text": "[calm] So bring it back to those three letters. Jinn. The concealed. Janeen. Janna. Majnoon. And junna. The shield.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S29c",
+  "in": 637,
+  "out": 648,
+  "move": "push in 5%.",
+  "vo": [
+   {
+    "text": "Al-Fatiha. Ayat al-Kursi. The last two surahs. The words in the morning and the words at night.",
+    "land": true
+   }
+  ],
+  "flags": [],
+  "len": 11
+ },
+ {
+  "id": "S30",
+  "in": 648,
+  "out": 661,
+  "move": "pull back 12% — the widest move in the film, saved for last.   ** CLOSING",
+  "vo": [
+   {
+    "text": "Protection that never once asks you to negotiate with anything hidden — because it comes from the One who made the hidden thing in the first place.",
+    "land": false
+   },
+   {
+    "text": "[warmly] Only One sees both.",
+    "land": true
+   }
+  ],
+  "flags": [
+   "CLOSING"
+  ],
+  "len": 13
+ },
+ {
+  "id": "S30b",
+  "in": 661,
+  "out": 671,
+  "move": "hold dead still, then cut to S30.",
+  "vo": [
+   {
+    "text": "They were made from fire. You were made from clay.",
+    "land": true
+   },
+   {
+    "text": "Neither of you was ever built to see the other.",
+    "land": false
+   }
+  ],
+  "flags": [],
+  "len": 10
+ }
+]
