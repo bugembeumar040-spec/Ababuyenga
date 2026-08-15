@@ -3,7 +3,7 @@ import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
 import type { Shot as ShotType } from "./beats";
 import { FPS } from "./beats";
 import { CAPTIONS } from "./captions";
-import { PLATES } from "./plates";
+import { PLATES, isLight } from "./plates";
 import { Plate } from "./Plate";
 import { CaptionLayer } from "./Caption";
 import { WashBloom } from "./effects";
@@ -25,6 +25,7 @@ export const Shot: React.FC<{ shot: ShotType }> = ({ shot }) => {
     ? 1
     : interpolate(frame, [0, 4], [0, 1], { extrapolateRight: "clamp" });
 
+  const light = isLight(shot.id);
   const bloomAt = cap?.bloomAt;
   const bloomOn = shot.bloom || Boolean(bloomAt);
   const bloomP = interpolate(
@@ -42,26 +43,28 @@ export const Shot: React.FC<{ shot: ShotType }> = ({ shot }) => {
           progress={bloomP}
           x={bloomAt?.[0] ?? 50}
           y={bloomAt?.[1] ?? 54}
-          color={PALETTE.gold}
+          color={light ? PALETTE.gold : PALETTE.rawPaper}
         />
       ) : null}
-      {/* Type sits over a wash, not over bare plate. Half these plates are
-          near-white parchment and half are night-washed, so cream type needs
-          its own ground or it disappears on every second shot. Laid as a
-          shadow wash rather than a black scrim — it reads as pigment brushed
-          over the paper, which is the only version of this the style allows. */}
+      {/* The caption band gets a wash to sit on, in the direction the plate
+          is already going: paper lifted on a light shot, night deepened on a
+          dark one. Never a black scrim — the style sheet has no black paint in
+          it, and a scrim heavy enough to carry cream type over parchment would
+          be the most obviously digital thing in the film. */}
       <AbsoluteFill
         style={{
-          background:
-            "linear-gradient(to top, rgba(22,20,16,0.88) 0%, rgba(22,20,16,0.80) 18%, rgba(30,28,22,0.52) 38%, rgba(30,28,22,0) 62%)",
+          background: light
+            ? "linear-gradient(to top, rgba(244,235,217,0.80) 0%, rgba(244,235,217,0.58) 20%, rgba(244,235,217,0) 46%)"
+            : "linear-gradient(to top, rgba(24,22,18,0.90) 0%, rgba(24,22,18,0.72) 24%, rgba(30,28,22,0) 56%)",
           opacity: cap ? 1 : 0,
         }}
       />
-      {/* and a lighter one up top, so the citation slug has a ground too */}
+      {/* and the same, inverted, so the citation slug has a ground too */}
       <AbsoluteFill
         style={{
-          background:
-            "linear-gradient(to bottom, rgba(22,20,16,0.62) 0%, rgba(22,20,16,0) 22%)",
+          background: light
+            ? "linear-gradient(to bottom, rgba(244,235,217,0.72) 0%, rgba(244,235,217,0) 20%)"
+            : "linear-gradient(to bottom, rgba(24,22,18,0.66) 0%, rgba(24,22,18,0) 20%)",
           opacity: cap?.cite || cap?.chip ? 1 : 0,
         }}
       />

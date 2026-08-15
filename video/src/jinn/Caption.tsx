@@ -3,7 +3,30 @@ import { AbsoluteFill, Easing, interpolate, useCurrentFrame } from "remotion";
 import type { Shot } from "./beats";
 import { FPS } from "./beats";
 import { CAPTIONS, ROOT_LETTERS, type Caption as Cap } from "./captions";
+import { isLight } from "./plates";
 import { EMPHASIS, PALETTE, SAFE, SERIF, TYPE } from "./theme";
+
+/**
+ * Ink on paper, or cream on night.
+ *
+ * The delivered plates run from bare parchment to a full indigo night wash.
+ * Cream type dies on the first, ink type dies on the second, and a black scrim
+ * heavy enough to rescue cream everywhere would put black paint on a film whose
+ * style sheet forbids it. So the type reads the plate it is sitting on and
+ * picks a side — which is also what a hand would have done on the sheet.
+ */
+const useTone = (id: string) => {
+  const light = isLight(id);
+  return {
+    light,
+    fg: light ? PALETTE.ink : PALETTE.rawPaper,
+    // The halo is the ground the letter sits on, not a glow: paper behind ink,
+    // night behind cream.
+    halo: light
+      ? "0 1px 0 rgba(244,235,217,0.95), 0 2px 16px rgba(244,235,217,0.9), 0 0 42px rgba(244,235,217,0.8)"
+      : "0 3px 26px rgba(20,16,12,0.75), 0 1px 3px rgba(20,16,12,0.92)",
+  };
+};
 
 const LEAD_IN = Math.round(FPS * 0.55); // plate lands first, then the type
 const TAIL = Math.round(FPS * 0.45); // and clears before the cut
@@ -61,7 +84,8 @@ const Word: React.FC<{
   t: number;
   still: boolean;
   size: number;
-}> = ({ word, em, t, still, size }) => {
+  fg: string;
+}> = ({ word, em, t, still, size, fg }) => {
   const o = interpolate(t, [0, 1], [0, 1], { extrapolateRight: "clamp" });
   // Ink taking: it arrives out of focus and sharpens as the fibre pulls it in.
   const blur = interpolate(t, [0, 1], [10, 0], { extrapolateRight: "clamp" });
@@ -79,7 +103,7 @@ const Word: React.FC<{
         filter: `blur(${blur}px)`,
         transform: `translateY(${y}px)`,
         letterSpacing: `${track}em`,
-        color: em ? EMPHASIS : PALETTE.rawPaper,
+        color: em ? EMPHASIS : fg,
       }}
     >
       {word}
@@ -96,7 +120,9 @@ const Line: React.FC<{
   mode: string;
   weight?: number;
   delay?: number;
-}> = ({ text, em, p, size, mode, weight = 600, delay = 0 }) => {
+  fg: string;
+  halo: string;
+}> = ({ text, em, p, size, mode, weight = 600, delay = 0, fg, halo }) => {
   const tokens = tokenize(text, em);
   const still = mode === "hold";
   const hard = mode === "hard";
@@ -110,7 +136,7 @@ const Line: React.FC<{
         fontSize: size,
         fontWeight: weight,
         lineHeight: 1.24,
-        textShadow: `0 3px 26px rgba(20,16,12,0.72), 0 1px 3px rgba(20,16,12,0.9)`,
+        textShadow: halo,
       }}
     >
       {tokens.map((tk, i) => {
@@ -120,14 +146,21 @@ const Line: React.FC<{
           extrapolateRight: "clamp",
           easing: Easing.out(Easing.quad),
         });
-        return <Word key={i} word={tk.word} em={tk.em} t={t} still={still} size={size} />;
+        return (
+          <Word key={i} word={tk.word} em={tk.em} t={t} still={still} size={size} fg={fg} />
+        );
       })}
     </div>
   );
 };
 
 /** The J-N-N device: the root letters carry ember inside every cognate. */
-const RootWord: React.FC<{ word: string; p: number }> = ({ word, p }) => {
+const RootWord: React.FC<{ word: string; p: number; fg: string; halo: string }> = ({
+  word,
+  p,
+  fg,
+  halo,
+}) => {
   let used = 0;
   const letters = word.split("").map((ch, i) => {
     let isRoot = false;
@@ -148,7 +181,7 @@ const RootWord: React.FC<{ word: string; p: number }> = ({ word, p }) => {
           opacity: t,
           filter: `blur(${(1 - t) * 12}px)`,
           transform: `translateY(${(1 - t) * 10}px)`,
-          color: isRoot ? EMPHASIS : PALETTE.rawPaper,
+          color: isRoot ? EMPHASIS : fg,
         }}
       >
         {ch === " " ? " " : ch}
@@ -163,7 +196,7 @@ const RootWord: React.FC<{ word: string; p: number }> = ({ word, p }) => {
         fontWeight: 700,
         letterSpacing: "0.06em",
         lineHeight: 1.05,
-        textShadow: "0 4px 40px rgba(20,16,12,0.8)",
+        textShadow: halo,
       }}
     >
       {letters}
@@ -172,7 +205,11 @@ const RootWord: React.FC<{ word: string; p: number }> = ({ word, p }) => {
 };
 
 /** A citation slug, ruled like a margin note. */
-const Cite: React.FC<{ text: string; p: number }> = ({ text, p }) => {
+const Cite: React.FC<{ text: string; p: number; light: boolean }> = ({
+  text,
+  p,
+  light,
+}) => {
   const o = interpolate(p, [0, 0.18], [0, 1], { extrapolateRight: "clamp" });
   return (
     <div
@@ -184,10 +221,11 @@ const Cite: React.FC<{ text: string; p: number }> = ({ text, p }) => {
         fontFamily: SERIF,
         fontSize: TYPE.cite,
         letterSpacing: "0.34em",
-        color: PALETTE.gold,
+        color: light ? PALETTE.ink : PALETTE.gold,
         textTransform: "uppercase",
-        textShadow:
-          "0 2px 18px rgba(20,16,12,0.95), 0 0 10px rgba(20,16,12,0.9), 0 1px 2px rgba(20,16,12,1)",
+        textShadow: light
+          ? "0 1px 0 rgba(244,235,217,0.95), 0 0 24px rgba(244,235,217,0.9)"
+          : "0 2px 18px rgba(20,16,12,0.95), 0 0 10px rgba(20,16,12,0.9)",
       }}
     >
       <div style={{ position: "relative", paddingBottom: 16 }}>
@@ -199,7 +237,7 @@ const Cite: React.FC<{ text: string; p: number }> = ({ text, p }) => {
         >
           <path
             d="M0 1.6 Q 40 0.6 70 1.9 T 100 1.2"
-            stroke={PALETTE.gold}
+            stroke={light ? PALETTE.ink : PALETTE.gold}
             strokeWidth={1.6}
             fill="none"
             strokeDasharray={110}
@@ -212,7 +250,11 @@ const Cite: React.FC<{ text: string; p: number }> = ({ text, p }) => {
 };
 
 /** Running counter for the four corrections. Cheapest retention in the film. */
-const Chip: React.FC<{ text: string; p: number }> = ({ text, p }) => {
+const Chip: React.FC<{ text: string; p: number; light: boolean }> = ({
+  text,
+  p,
+  light,
+}) => {
   const o = interpolate(p, [0.08, 0.26], [0, 1], { extrapolateRight: "clamp" });
   return (
     <div
@@ -226,9 +268,9 @@ const Chip: React.FC<{ text: string; p: number }> = ({ text, p }) => {
         letterSpacing: "0.4em",
         color: EMPHASIS,
         border: `2px solid ${EMPHASIS}`,
-        // Ember on cream parchment is unreadable, and half the plates are
-        // cream. The chip carries its own ground so it reads on any of them.
-        backgroundColor: "rgba(22,20,16,0.88)",
+        // The chip carries its own ground so it reads whichever plate it
+        // lands on — paper behind it on a light shot, night on a dark one.
+        backgroundColor: light ? "rgba(244,235,217,0.92)" : "rgba(22,20,16,0.88)",
         padding: "14px 26px 14px 32px",
         textTransform: "uppercase",
       }}
@@ -255,11 +297,12 @@ export const CaptionLayer: React.FC<{ shot: Shot }> = ({ shot }) => {
   });
   const mode = cap.mode ?? "bleed";
   const centred = mode === "hold" || mode === "root" || mode === "strike";
+  const { light, fg, halo } = useTone(shot.id);
 
   return (
     <AbsoluteFill style={{ opacity: out }}>
-      {cap.cite ? <Cite text={cap.cite} p={p} /> : null}
-      {cap.chip ? <Chip text={cap.chip} p={p} /> : null}
+      {cap.cite ? <Cite text={cap.cite} p={p} light={light} /> : null}
+      {cap.chip ? <Chip text={cap.chip} p={p} light={light} /> : null}
 
       <div
         style={{
@@ -272,7 +315,7 @@ export const CaptionLayer: React.FC<{ shot: Shot }> = ({ shot }) => {
       >
         {mode === "root" && cap.root ? (
           <>
-            <RootWord word={cap.root} p={p} />
+            <RootWord word={cap.root} p={p} fg={fg} halo={halo} />
             {cap.gloss ? (
               <div
                 style={{
@@ -281,12 +324,12 @@ export const CaptionLayer: React.FC<{ shot: Shot }> = ({ shot }) => {
                   fontSize: TYPE.gloss,
                   fontStyle: "italic",
                   letterSpacing: "0.06em",
-                  color: PALETTE.parchment,
+                  color: light ? PALETTE.ink : PALETTE.parchment,
                   opacity: interpolate(p, [0.34, 0.6], [0, 0.94], {
                     extrapolateLeft: "clamp",
                     extrapolateRight: "clamp",
                   }),
-                  textShadow: "0 2px 22px rgba(20,16,12,0.85)",
+                  textShadow: halo,
                 }}
               >
                 {cap.gloss}
@@ -305,11 +348,11 @@ export const CaptionLayer: React.FC<{ shot: Shot }> = ({ shot }) => {
               fontSize: TYPE.captionLead,
               fontWeight: 700,
               letterSpacing: "0.05em",
-              color: PALETTE.parchment,
+              color: light ? PALETTE.ink : PALETTE.parchment,
               opacity: interpolate(p, [0, 0.12, 0.78, 1], [0, 1, 1, 0.42], {
                 extrapolateRight: "clamp",
               }),
-              textShadow: "0 3px 26px rgba(20,16,12,0.8)",
+              textShadow: halo,
             }}
           >
             {cap.strike}
@@ -332,6 +375,8 @@ export const CaptionLayer: React.FC<{ shot: Shot }> = ({ shot }) => {
             size={cap.sub ? TYPE.captionLead : TYPE.caption}
             weight={mode === "hold" ? 700 : 600}
             delay={mode === "strike" ? 0.6 : 0}
+            fg={fg}
+            halo={halo}
           />
         ) : null}
 
@@ -345,6 +390,8 @@ export const CaptionLayer: React.FC<{ shot: Shot }> = ({ shot }) => {
               size={TYPE.caption * 0.72}
               weight={400}
               delay={mode === "hard" ? 0.14 : 0.3}
+              fg={fg}
+              halo={halo}
             />
           </div>
         ) : null}

@@ -31,9 +31,15 @@ export const Plate: React.FC<{ shot: Shot; available: boolean }> = ({
   });
 
   const { zoom, dx, dy } = shot.camera;
-  // Overscan so a pull-back never runs off the edge of the plate.
-  const base = 1.14;
-  const scale = shot.locked ? base : base * (1 + zoom * p);
+  // Overscan only as far as this shot's own move needs. The delivered plates
+  // are 1365x768 upscaled to the 2560 canvas, so a flat 14% overscan on every
+  // shot would throw away resolution the push-ins and locked frames never
+  // asked for. A pull-back starts wide and lands at the frame; a push-in
+  // starts at the frame and grows; a drift only needs its own travel covered.
+  const cover = 1 + Math.abs(dx) / 2560 + Math.abs(dy) / 1440 + 0.02;
+  const zoomStart = zoom >= 0 ? 1 : 1 - zoom;
+  const zoomEnd = zoom >= 0 ? 1 + zoom : 1;
+  const scale = cover * (shot.locked ? 1 : zoomStart + (zoomEnd - zoomStart) * p);
   const tx = shot.locked ? 0 : dx * p;
   const ty = shot.locked ? 0 : dy * p;
 
@@ -72,14 +78,15 @@ const ProceduralPlate: React.FC<{ shot: Shot }> = ({ shot }) => {
   const washX = 22 + random(`${s}wx`) * 56;
   const washY = 30 + random(`${s}wy`) * 44;
   const wedgeSkew = -22 + random(`${s}sk`) * 44;
-  const night = random(`${s}n`) > 0.62;
-  const ground = night ? PALETTE.night : PALETTE.parchment;
 
   return (
     <AbsoluteFill>
       <svg width="100%" height="100%" viewBox="0 0 2560 1440" preserveAspectRatio="xMidYMid slice">
+        {/* Always parchment, never a night wash: the type layer decides
+            ink-versus-cream from the plate's measured tone, and an unmeasured
+            stand-in has to be predictable or the captions flip at random. */}
         <rect width="2560" height="1440" fill={PALETTE.parchment} />
-        <rect width="2560" height="1440" fill={ground} opacity={night ? 0.72 : 0.2} />
+        <rect width="2560" height="1440" fill={PALETTE.rawPaper} opacity={0.35} />
 
         {/* the hard-edged wedge of raw paper the style calls light */}
         <polygon

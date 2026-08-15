@@ -28,7 +28,12 @@ jinn-shot-pack-final.txt ─┐
                           ├─> tools/build-beats.py ─> src/jinn/beats.ts
 media/sil.txt ────────────┘                           (frame-accurate cut)
 
-public/plates/*.png ──────> tools/scan-plates.py ─> src/jinn/plates.ts
+delivered art ─┐
+               ├─> tools/import-plates.py ─> public/plates/<shot-id>.png
+plate-map.json ┘                                   │
+                                                   v
+                                 tools/scan-plates.py ─> src/jinn/plates.ts
+                                                        (presence + tone)
 ```
 
 ### The voiceover
@@ -73,14 +78,41 @@ ffmpeg -i public/jinn-vo.mp3 -af "silencedetect=noise=-38dB:d=0.30" -f null - 2>
 
 ### The plates
 
-None of the 64 illustrations exist yet. Every shot renders a procedural
-stand-in in the house palette — right tone, right light angle, right camera
-move, labelled with its shot id and its `MOVE:` line — so timing and type can
-be judged now.
+51 of the 64 illustrations have landed. They arrived with generator filenames
+(`IMG_7284.png`, `Clay_oil_lamps_...jpeg`) carrying no shot information, so
+`tools/plate-map.json` holds the pairing — each one matched by subject against
+that shot's `PROMPT` block — and `tools/import-plates.py` applies it:
 
-Drop `public/plates/S01.png` (and so on, one per shot id) and run
-`python3 tools/scan-plates.py`. That shot switches to the real illustration and
-nothing else changes.
+```bash
+python3 tools/import-plates.py [source-dir]
+python3 tools/scan-plates.py
+```
+
+Sources are 1365×768 and are centre-fitted and resampled to 2560×1440. That is
+a 1.9× upscale, which is why the camera now overscans only as far as each
+shot's own move needs instead of a flat 14% on every shot.
+
+17 near-identical variants were delivered for compositions that only need one
+frame. Those go to `public/plates/alt/<shot-id>--<n>.png` rather than being
+thrown away, so changing which take is used is a rename.
+
+**13 shots have no illustration yet** and render a procedural stand-in in the
+house palette, labelled with the shot id and its `MOVE:` line:
+
+> S01b · S02b · S03b · S07 · S07b · S08 · S08b · S19 · S20 · S23 · S24b ·
+> S24c · S25b
+
+Note that S08b is the first correction and S23 is the peak's payoff, so those
+two are the ones worth generating first.
+
+### Plate tone
+
+`scan-plates.py` also measures the mean luminance of the band each caption
+occupies. The delivered art runs from bare parchment (44 plates) to a full
+indigo night wash (7), and cream type dies on the first while ink type dies on
+the second. Rather than hand-tag 64 shots, the type layer reads that number and
+picks ink-on-paper or cream-on-night per shot — which is also the only way to
+keep the black scrim out of a film whose style sheet forbids black paint.
 
 ## The motion layer
 
@@ -132,6 +164,6 @@ illustrations.
 npm install
 npm run beats      # re-derive the cut from the VO
 npm run studio     # scrub it
-npm run preview    # 1280x720 proof of the root-device beats
+npm run preview    # 1280x720 proof of the last third
 npm run render     # full 2560x1440
 ```
