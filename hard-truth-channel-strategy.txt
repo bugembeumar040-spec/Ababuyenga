@@ -1,0 +1,1142 @@
+================================================================================
+THE HARD TRUTH — NICHE AUDIT, TOPIC SLATE, SCENE PACKS, FLAGSHIP SCRIPT
+Channel: youtube.com/@thehardtruth-05  ·  UCd6TWdPATURxuuPkYp8d9DA
+Researched 15 Aug 2026 · vidIQ channel/outlier data + independent RPM sources
+================================================================================
+
+READ THE AUDIT FIRST. It contains one finding that changes what this channel
+should be, and one correction to the obvious version of the plan.
+
+
+================================================================================
+PART 0 — AUDIT OF THESE FINDINGS
+================================================================================
+
+WHAT I VERIFIED DIRECTLY
+
+  A1. THE CHANNEL IS NOT WHAT THIS REPO ASSUMES.
+      @thehardtruth-05 is a personal-development channel — "Personal Development
+      / Islamic Guidance / Mental Wellness", 5 subscribers, 902 lifetime views,
+      4 videos, all Shorts. Created 28 Jan 2026. Last upload 3 Apr 2026 —
+      dormant 4.5 months. Confirmed twice: vidIQ index and a live YouTube
+      search restricted to the channel returned the same 4 videos.
+
+      Its videos, best to worst:
+        646 views  Stop calling your fear of hard work "self-care."
+        178 views  Why outgrowing friends is actually a sign of success.
+         65 views  50:50 ; an illusion
+         13 views  Burnout is real. But 90% of the time...
+
+  A2. IT IS NOT THE CHANNEL THE PACKS IN THIS REPO WERE WRITTEN FOR.
+      The credit-card and Klarna packs belong to "Finance % Decoded"
+      (UCVOoFJkRiOdJsWnewt8HJkw) — 195 subs, 9,246 views, 29 videos, AE,
+      Islamic finance. That is the channel authorised to the connected vidIQ
+      account. The "198 views, bottom-quartile" credit-card video referenced in
+      credit-card-prompt-pack.txt is that channel's, at 197 views today.
+
+      CONSEQUENCE: the continuity rules in the existing packs (burned topics,
+      CTA inheritance, the AMIR character lock) are Finance % Decoded's
+      continuity. They do not bind The Hard Truth. Nothing here is burned.
+
+  A3. THE HARD TRUTH HAS NO EQUITY TO PROTECT.
+      5 subscribers, 4 videos, dormant. A full reposition costs nothing. This
+      is the single most useful fact in the audit — it means you should choose
+      the best available position, not the one nearest the current one.
+
+  A4. THE FORMAT GAP IS REAL AND IT IS THE WHOLE GAME. (see PART 1)
+      Computed from vidIQ's own 30-day view counts and earnings estimates
+      across 15 channels. Corroborated independently by two RPM data sources.
+      Direction and magnitude agree across all three.
+
+WHAT I COULD NOT VERIFY — TREAT AS SOFTER
+
+  B1. I cannot confirm you own @thehardtruth-05. It is not in the connected
+      vidIQ account's authorised list (that account is naigawa25@gmail.com and
+      holds only Finance % Decoded). I have proceeded on the basis that you do,
+      because you asked me to build it. If you do not, stop and say so.
+
+  B2. Earnings figures are vidIQ ESTIMATES, not your or anyone's actual
+      AdSense. I used them for RATIOS between channels, which is what they are
+      good for, not as absolute revenue predictions.
+
+  B3. vidIQ credits ran out mid-research. I could not run the earnings
+      calculator, could not pull "Life Of Islam" in depth, and could not do a
+      final keyword pass on the topic slate. The topic slate below is built
+      from format patterns I did verify, not from per-title search volume.
+      Validate the slate's titles against keyword volume before you commit a
+      quarter's production to it.
+
+  B4. Small samples. The long-form RPM figures are 7 channels; the Shorts
+      figures are 8. Consistent direction, wide error bars on any single number.
+
+WHERE THE OBVIOUS PLAN IS WRONG — THE CORRECTION
+
+  C1. "GO FACELESS-TRENDING" IS A TRAP.
+      I pulled the highest-growth faceless breakout channels on the platform
+      (>20k subs, >15% 30-day sub growth, active). The list is Roblox clips,
+      cat compilations, movie recaps, football edits, lyric videos and prank
+      remakes. Several show 400–495% 30-day subscriber growth, which is
+      engagement-farm behaviour, not a niche you can enter. Raw trend-chasing
+      points you at exactly the content that does not pay.
+
+  C2. "GO ISLAMIC REMINDERS" IS ALSO A TRAP, AND THIS ONE IS SEDUCTIVE.
+      The Islamic faceless space is enormous and it is almost entirely Shorts.
+      The numbers are brutal once you divide:
+        Towards Serenitty  163k subs  140.7M views   est. $249/mo
+        islamic Ai         139k subs  151.2M views   est. $474/mo
+        IHSAN Ullah TV      65k subs   40.4M views   est.  $52/mo
+        Echoes of Faith     81k subs   25.7M views   est.  $67/mo
+      One hundred and fifty million views for under five hundred dollars a
+      month. This is the single most over-supplied, worst-paying corner of the
+      platform, and it is the corner your current channel is standing nearest.
+
+  C3. FAITH IS NOT A HIGH-RPM NICHE. I initially read the Christian long-form
+      data as "religion pays". It does not. Independent RPM sources put the
+      top band as insurance ($12–18 RPM), personal finance ($8–15), B2B
+      software, real estate — religion does not appear in the top tier at all.
+      What made the Christian channel below earn was FORMAT and AUDIENCE GEO,
+      not subject. Carry the format across, not the subject.
+
+
+================================================================================
+PART 1 — THE FINDING: FORMAT IS WORTH 20–400x. SUBJECT IS WORTH ~3x.
+================================================================================
+
+RPM computed as (vidIQ monthly earnings estimate) / (vidIQ 30-day views / 1000).
+Only channels where vidIQ published both figures are included.
+
+  ENGLISH LONG-FORM                          30d views      est/mo     RPM
+  ----------------------------------------------------------------------------
+  RelentX               194k subs              470,084    $2,369.05   $5.04
+  Stoic Lens             57k subs              394,731    $1,802.10   $4.57
+  BHATT                  39k subs              284,727      $959.27   $3.37
+  Be Invictus           222k subs            1,453,867    $3,688.86   $2.54
+  Better Together (mix)  26k subs               67,660       $51.46   $0.76
+
+  SHORTS-DOMINANT                            30d views      est/mo     RPM
+  ----------------------------------------------------------------------------
+  Philosophical Calm     39k subs              109,564       $16.99   $0.155
+  Wonderful Life        199k subs              178,048       $19.95   $0.112
+  Hustle With Avvy       15k subs              128,754        $7.72   $0.060
+  IHSAN Ullah TV         65k subs            1,497,775       $51.76   $0.035
+  CiLMi Raadis           32k subs              131,107        $3.22   $0.025
+  Future Millionaire     66k subs            4,764,529       $72.63   $0.015
+  Islamic Insights       11k subs               21,774        $0.27   $0.012
+
+  NON-ENGLISH LONG-FORM — included to show geo is a real second variable
+  ----------------------------------------------------------------------------
+  Zikrullah TV (ar/en)  4.5M subs           26,860,767   $42,240.16   $1.57
+  Sundor Surah (bn)     322k subs            3,820,488    $1,228.54   $0.32
+  Sundor Tilawat (bn)   157k subs            1,573,153      $513.93   $0.33
+
+INDEPENDENT CORROBORATION. Two RPM data sources put Shorts at $0.03–$0.08 RPM
+against a long-form median of $2.50 — a 20–30x gap, and state Shorts RPM runs
+at 3–14% of long-form in almost every niche. My computed spread ($0.012–$0.155
+vs $2.54–$5.04) sits inside that. Three independent methods agree.
+
+THE ARITHMETIC THAT SHOULD DECIDE THIS FOR YOU
+
+  Future Millionaire Code has 91,278,343 lifetime views and an estimated
+  $72.63 a month.
+  Discernment Made Clear has 1,537,915 lifetime views and an estimated
+  $5,574.10 a month.
+
+  Fifty-nine times fewer views. Seventy-seven times more money.
+
+THE TEMPLATE CHANNEL — study this one properly
+
+  Discernment Made Clear (@discernmentmadeclear), created 9 June 2026.
+  In roughly nine weeks: 29,200 subs, 58 videos, 1.54M views.
+  Faceless. Long-form only — every video 19 to 37 minutes. Near-daily upload.
+  Christian scripture explainers.
+
+  Its view distribution is bimodal — a floor of 700–2,500 view videos and a
+  ceiling of 100k–208k breakouts. That shape is characteristic of genuine
+  algorithmic discovery on a young channel rather than purchased views, which
+  is why I am willing to treat it as a real template.
+
+  Recent ceiling: 208,777 · 162,920 · 139,218 · 116,770 · 95,953 · 84,281.
+
+  ITS TITLE FORMULA IS THE ASSET, AND IT IS PORTABLE:
+      take one CONCRETE PHYSICAL DETAIL everyone has already seen,
+      claim a HIDDEN MECHANISM behind it,
+      close with a PARENTHETICAL that says you were never told.
+
+      "Why a ROOSTER? The HIDDEN Meaning of Peter's Denial (Most Christians
+       Missed This)"
+      "Why God HAD to Bury Moses Himself (No One Told You THIS)"
+      "THIS IS WHY Mary USED HER HAIR to Anoint Jesus (John 12 Mystery)"
+
+  Nobody is running this formula against money and everyday systems. That is
+  the opening.
+
+
+================================================================================
+PART 2 — THE RECOMMENDATION
+================================================================================
+
+  THE HARD TRUTH becomes a long-form faceless channel about the ENGINEERING
+  OF ORDINARY LIFE — the deliberate design decisions inside the bills,
+  contracts, shops, screens and defaults that everyone passes through and
+  nobody reads.
+
+  Not motivation. Not reminders. Not "mindset". Mechanism.
+
+WHY THIS POSITION AND NOT ANOTHER
+
+  1. It sits in the highest-RPM band on the platform. Consumer finance,
+     insurance, contracts and pricing carry $8–18 RPM against religion and
+     personal-development's low single digits. Same production cost, several
+     times the yield per view.
+  2. It is long-form, which is the 20–30x lever from PART 1.
+  3. The name already fits. "The Hard Truth" is a promise of unwelcome
+     mechanism. It has been mis-assigned to motivational content, which is the
+     one genre that never delivers on it.
+  4. Its one hit already proves the audience. 646 views on "Stop calling your
+     fear of hard work self-care" — 3.6x the channel's next best — was a
+     CONTRARIAN REFRAME OF A THING PEOPLE SAY. That is the same muscle. Point
+     it at systems instead of feelings and it stops being a hot take and starts
+     being reporting.
+  5. You have already built the craft. Finance % Decoded's Klarna and mortgage
+     material is exactly this voice. Its best videos — 1,236 on halal mortgage,
+     1,209 on "Why You're Born Into Debt" — are 6x the channel average, and
+     both are mechanism videos.
+  6. It does not cannibalise Finance % Decoded. That channel is Shorts, 2–3
+     minutes, explicitly Muslim-addressed, riba-framed. This one is 16–22
+     minutes, secular-framed, general audience, with the moral spine load-
+     bearing but never the marketing hook. Two different funnels; the Shorts
+     channel can feed this one.
+
+WHAT CHANGES MECHANICALLY
+
+  ASPECT       9:16 becomes 16:9. This is not cosmetic — every prompt, every
+               caption position and every framing rule in your existing packs
+               assumes vertical. All of PART 4 is written 16:9.
+  LENGTH       16–22 minutes. Below 16 you lose the mid-roll economics; above
+               25 you lose completion on a young channel.
+  CADENCE      2 per week, sustainable, forever. Do not attempt daily. The
+               template channel does near-daily with what is clearly a team.
+  VOICE        Unchanged. Flat, certain, unhurried, no hype, no guru. The
+               existing VO spec carries over exactly.
+  THE RULE     Every episode must contain one number the viewer can check and
+               one document, product or practice they have personally held.
+
+
+================================================================================
+PART 3 — TOPIC SLATE
+================================================================================
+
+Four series. Ten episodes each is a year at two a week; twenty here to start.
+Every title is built on the template formula: concrete detail, hidden
+mechanism, parenthetical.
+
+VALIDATE THESE AGAINST KEYWORD VOLUME BEFORE COMMITTING — see audit B3.
+
+  SERIES A — "THE PRICE YOU DIDN'T AGREE TO"
+  Pricing mechanisms that operate on you without disclosure.
+
+   A1  They Made It Illegal in One Industry. It Just Moved.
+       (the loyalty penalty — FLAGSHIP, full script in PART 5)
+   A2  Why the Renewal Letter Arrives Before You Can Compare
+   A3  The Reason Every Subscription Is Now Annual (You Cancelled Too Late)
+   A4  Why Two People on the Same Flight Paid £340 Apart
+   A5  The Smallest Font on Your Energy Bill Is the Only Line That Matters
+
+  SERIES B — "BUILT TO BE MISREAD"
+  Design decisions that produce predictable mistakes.
+
+   B1  Why the Cancel Button Moved (And Who Decided Where It Goes)
+   B2  The Default Nobody Chooses Is the One That Pays
+   B3  Why Your Payslip Hides the Second Number
+   B4  The Reason Terms Changed and You "Agreed" by Doing Nothing
+   B5  Why Free Trials Ask for the Card First
+
+  SERIES C — "THE SHOP IS A MACHINE"
+  Retail environments as engineered systems.
+
+   C1  Why the Bread Is at the Back (And What Else Was Moved)
+   C2  The Tip Screen Appeared Everywhere at Once. Nobody Voted.
+       [verify the timeline before shooting — see accuracy note]
+   C3  Why Nothing Is Priced Per Unit Where You Can See It
+   C4  The Reason Sale Prices Need a Before Price to Exist
+   C5  Why the Trolley Got Bigger [VERIFY — treat as unconfirmed until sourced]
+
+  SERIES D — "TIME IS THE INGREDIENT"
+  The one series that carries the moral spine openly. Run it sparingly —
+  roughly one in five — so it lands as conviction, not as a pitch.
+
+   D1  A Real Sale Takes Its Profit Once
+   D2  Why Debt Is the Only Product That Grows While You Sleep
+   D3  The Difference Between Being Paid for Risk and Being Paid for Waiting
+   D4  Who Pays When Everyone Pays Later
+   D5  The Oldest Rule Nobody Can Explain Anymore
+
+SEQUENCING FOR THE FIRST SIX WEEKS
+  A1, B1, A2, C1, B2, A3, C3, B3, D1, A4, B4, C4.
+  Front-load Series A and B — those are the highest-RPM adjacencies and the
+  most checkable. Hold D1 to slot nine, once there is a returning audience to
+  hear it.
+
+
+================================================================================
+PART 4 — SCENE PACKS
+================================================================================
+
+THE ECONOMICS PROBLEM, AND THE ONLY ANSWER TO IT
+
+An 18-minute episode needs 60–90 visual beats. Generating those bespoke every
+week is unaffordable and it is why most faceless long-form channels degrade
+into a stock-footage slurry by episode ten.
+
+So you do not build episodes. You build a BANK once, and you recombine it.
+PACK 1 is ~20 clips that appear in every episode forever. PACK 2 is the 10–12
+clips unique to one episode. The ratio you are aiming for in a finished cut is
+roughly 70% bank, 30% episode-specific. At two episodes a week that is about
+ten new generations a week, which is sustainable.
+
+HOUSE STYLE — CARRIED OVER FROM THE KLARNA AND CREDIT CARD PACKS, UNCHANGED
+  Stylised low-poly 3D. Matte clay shading, near-photorealistic surface texture
+  on paper, card, fabric and wood. All human figures have COMPLETELY BLANK
+  featureless heads — no eyes, nose or mouth, smooth matte tan block.
+  Palette: deep navy #1E3A5F · terracotta #E85F42 · cream #F5F0E6 ·
+  near-black #0A0C10. Cool neutral grade, one warm amber accent per frame.
+  Single hard key, one long real shadow, deep falloff. Slow camera or none.
+  There is no fast movement anywhere in this house style.
+
+WHAT CHANGES FOR LONG-FORM
+  16:9 HORIZONTAL, 1920x1080. Subject sits in the left or right third with the
+  opposing two-thirds open and dark — that open space is where burned-in
+  numbers and document scans land. This is the inverse of your Shorts framing
+  and it is the most common thing to get wrong on the first shoot.
+  Generate at 10s where the model allows and trim; bank clips get reused at
+  many different lengths, so longer masters are worth the cost once.
+
+NEGATIVE PROMPT — paste once, applies to every clip in both packs
+  facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, text,
+  lettering, numbers, logos, brand names, watermark, signature, cartoon
+  outlines, cel shading, flat vector, anime, 2D illustration, distorted hands,
+  extra fingers, extra limbs, morphing objects, warping architecture, camera
+  shake, whip pans, zoom bursts, blurry, low resolution, oversaturated, HDR
+  glow, plastic sheen, uncanny, stock-photo smiles, clutter, busy background
+
+
+--------------------------------------------------------------------------------
+                    PACK 1 — THE CORE BANK (generate once)
+--------------------------------------------------------------------------------
+
+GROUP 1 · THE ARRIVAL — how every episode opens
+Something enters the viewer's life uninvited. Reuse across all four series.
+
+  K01 · THE LETTERBOX
+  Interior hallway at dawn, seen low and level from floor height. A brass
+  letterbox in a deep navy #1E3A5F door opens inward and a single cream
+  envelope, completely blank with no printing, drops and lands face-up on a
+  dark matte floorboard. The flap falls shut. Nothing else moves. Stylised
+  low-poly 3D, matte clay shading, near-photorealistic paper and grain in the
+  wood. Camera locked off, no movement. Single hard key raking from the door's
+  edge, one long shadow thrown back into the hall, deep near-black falloff,
+  one warm amber edge on the envelope. Shallow depth of field. 16:9, envelope
+  low-left, two-thirds of frame dark and open to the right.
+
+  K02 · THE UNOPENED STACK
+  Overhead flat-lay on a dark brushed-charcoal table. Four blank cream
+  envelopes lie in a loose overlapping stack, all completely unprinted, edges
+  slightly misaligned. One at the top is nudged a short distance clear of the
+  others by an unseen force and stops. Stylised low-poly matte clay, fine paper
+  grain and deckled edges, real hard shadows falling one way. Camera lifts 6%
+  and holds. Single hard overhead key slightly off-axis. Cool neutral grade,
+  one warm amber accent. 16:9, stack in the left third, open dark space right.
+
+  K03 · THE SCREEN THAT LIGHTS ITSELF
+  Medium-close on a phone lying face-up on a dark matte surface beside a cold
+  cup. The screen is a clean blank pale grey panel with no text or icons. It
+  brightens once, softly, on its own, and stays lit. Nothing else in frame
+  moves. Stylised low-poly 3D, matte clay, near-photorealistic glass reflection
+  and ceramic glaze. Camera pushes in 5%, locked and steady. Deep near-black
+  surround, single hard key from camera-left, one warm amber glint on the cup
+  rim. Very shallow depth of field. 16:9, phone right of centre, dark left.
+
+  K04 · THE DOOR AT THE END
+  Long corridor in a quiet institutional building, receding to a single closed
+  door lit from above. Empty. Cream walls, dark floor, deep navy #1E3A5F
+  skirting. No people. Camera drifts forward 8% very slowly and does not reach
+  the door. Stylised low-poly 3D, matte clay surfaces, near-photorealistic
+  scuffing along the skirting. Hard overhead pools of light with deep unlit
+  gaps between them. Cool neutral grade, one warm amber wash under the far
+  door. 16:9, door dead centre, symmetrical.
+
+GROUP 2 · THE MECHANISM — the abstract middle of every episode
+This group does the explaining. It is the most-reused group in the bank.
+
+  K05 · TWO PATHS, ONE DIVERGES
+  Top-down on a dark matte surface. Two identical cream paper strips lie
+  parallel, running left to right. The upper strip stays perfectly straight;
+  the lower one bends gradually upward away from it as it travels right, so the
+  gap between them widens across the frame. Slow, continuous, no snap. Stylised
+  low-poly matte clay, near-photorealistic paper fibre. Camera locked off.
+  Single hard key from the left so both strips throw identical shadows. Deep
+  near-black, one warm amber accent where the strips separate. 16:9, strips
+  centred, generous dark margin above and below for annotation.
+
+  K06 · THE DIAL THAT TURNS ALONE
+  Extreme macro of a single brass dial set into a matte charcoal panel, no
+  markings, no numbers, no lettering anywhere on it. It rotates slowly
+  clockwise about 30 degrees and stops. No hand touches it. Stylised low-poly
+  3D, matte clay panel, near-photorealistic brushed metal on the dial with fine
+  machining marks. Camera pushes in 6%. Deep near-black, single hard raking
+  light from camera-right throwing a long shadow left, one warm amber highlight
+  along the dial's edge. Very shallow depth of field. 16:9, dial in the right
+  third.
+
+  K07 · THE SCALES, WEIGHTED
+  Small brass balance scale on a dark matte desk, both pans empty and level. A
+  single unmarked cream weight descends into the left pan and settles; the beam
+  tips and holds at its new angle. Stylised low-poly 3D, matte clay base,
+  near-photorealistic brass with patina. Camera orbits 10 degrees left, slow.
+  Single hard key from above and behind, long shadow forward, deep near-black
+  surround, warm amber on the brass. 16:9, scales left of centre.
+
+  K08 · THE LEDGER RULED IN TWO
+  Overhead macro of an open ledger on dark wood, pages completely blank — no
+  writing, no printing, no numbers anywhere. A single vertical rule runs down
+  the centre of the spread. The page lifts slightly at one corner and settles.
+  Stylised low-poly matte clay, near-photorealistic laid paper with visible
+  chain lines. Camera lifts 5% and tilts back 8 degrees. Hard overhead key,
+  deep falloff at the page edges, one warm amber accent. 16:9, ledger centred,
+  dark wood filling the margins.
+
+  K09 · THE STACK THAT GROWS ITSELF
+  Medium-macro on a dark matte surface. A short stack of blank cream cards sits
+  centre-frame. One card at a time slides onto the top of the stack from
+  outside the frame, four times, each settling before the next arrives. No hand
+  is visible. Stylised low-poly 3D, matte clay, near-photorealistic card stock.
+  Camera pulls back 10% across the shot to keep the growing stack framed.
+  Single hard key camera-left, lengthening shadow right, deep near-black.
+  16:9, stack in the left third, dark open right.
+
+  K10 · THE CLOCK WITH NO FACE
+  Wall clock in a bare cream room, its face a completely blank matte disc — no
+  numerals, no hands, no markings of any kind. Light from an unseen window
+  moves slowly across it, shifting the shadow it casts on the wall from left to
+  right. The disc itself does not move. Stylised low-poly 3D, matte clay wall
+  with fine plaster texture. Camera locked off. Hard low side light, long
+  travelling shadow, deep near-black in the corners, warm amber in the light
+  itself. 16:9, clock in the right third.
+
+GROUP 3 · THE INSTITUTION — who is on the other side
+Never a villain. Always indifferent, procedural and empty.
+
+  K11 · THE COUNTER, STAFFED
+  Wide-medium of a service counter from the customer's side. Behind it stands a
+  clerk with a COMPLETELY BLANK featureless head — no eyes, no nose, no mouth,
+  a smooth matte tan block — in a deep navy #1E3A5F apron over a cream shirt,
+  both forearms resting on the counter, entirely still. A short stack of blank
+  cream forms sits between them. Camera orbits slowly 12 degrees left. Stylised
+  low-poly 3D, near-photorealistic counter laminate and glass behind in soft
+  focus, warm overhead light. Shallow depth of field. 16:9, clerk right of
+  centre, counter running out of frame left.
+
+  K12 · THE COUNTER, EMPTY
+  Same counter, same angle, no one behind it. The stack of blank cream forms is
+  still there. A single overhead light is on above it; the rest of the space
+  falls to near-black. Nothing moves at all. Stylised low-poly 3D, matte clay,
+  near-photorealistic laminate with fine wear along the front edge. Camera
+  holds absolutely still. Hard overhead pool, deep surrounding dark, one warm
+  amber glint on the glass behind. 16:9, composed identically to K11 so the two
+  cut together as a match.
+
+  K13 · THE TOWER FROM BELOW
+  Low upward angle on a plain glass office tower against an overcast sky, seen
+  from street level. No signage, no logos, no lettering anywhere on the
+  building. Cloud reflections drift slowly across the glass. Stylised low-poly
+  3D architecture, matte clay concrete at the base, near-photorealistic glass
+  with real reflection. Camera tilts up 10 degrees very slowly. Flat cool
+  overcast light, deep shadow in the recesses, one warm amber sodium glow at
+  street level. 16:9, tower filling the right two-thirds, open sky left.
+
+  K14 · THE SERVER ROOM
+  Long aisle between two racks of dark equipment, every panel blank — no
+  lights, no labels, no lettering. Cold and empty. A single warm amber lamp at
+  the far end is the only colour in frame. Camera drifts forward 6% and does
+  not reach the end. Stylised low-poly 3D, matte clay housings,
+  near-photorealistic perforated metal and cable texture. Deep near-black
+  between the racks, hard cool key from above. 16:9, symmetrical, vanishing
+  point centred.
+
+GROUP 4 · THE CONSEQUENCE — the person it lands on
+AMIR is the recurring figure. Lock a reference frame from K15 and reuse it on
+every clip in this group forever.
+
+  K15 · AMIR AT THE TABLE          ** GENERATE FIRST — THIS IS THE LOCK **
+  Medium shot of AMIR seated at a small table in a quiet flat at night, low
+  three-quarter angle. He has a COMPLETELY BLANK featureless head — no eyes,
+  no nose, no mouth, a smooth matte tan block. Terracotta #E85F42 t-shirt,
+  cream beanie. A single blank cream sheet lies on the table in front of him
+  and he is looking down at it, both simplified geometric hands flat on the
+  table either side. He does not move. Stylised low-poly 3D, simplified
+  geometric anatomy, matte clay shading, soft subsurface material, real cast
+  shadows. Camera pushes in 5%. Single warm practical lamp off-frame left, deep
+  near-black behind him, cool neutral grade elsewhere. Shallow depth of field.
+  16:9, AMIR in the left third, dark open space right.
+
+  Regenerate this until the head is completely blank and the terracotta reads
+  clean. Save the frame. Feed it as the reference image on K16, K17, K18 and
+  every episode clip that contains a person. Character drift between clips is
+  the thing that kills this format.
+
+  K16 · THE HANDS THAT STOP
+  Close on a pair of simplified geometric hands resting on a dark matte table,
+  a blank cream document between them. The right hand lifts, moves toward the
+  page as if to turn it, hesitates a beat and settles back down. Stylised
+  low-poly 3D, matte clay skin, near-photorealistic paper. Camera locked off.
+  Single hard key from camera-left, long shadows thrown right, deep near-black.
+  Very shallow depth of field. 16:9, hands centred low, dark above.
+
+  K17 · THE EMPTY CHAIR
+  Wide of the same flat, same lamp, AMIR absent. His chair is pushed back from
+  the table at an angle. The blank cream sheet is still on the table where he
+  left it. Nothing moves. Stylised low-poly 3D, matte clay, near-photorealistic
+  fabric on the chair. Camera holds still. Same warm practical lamp off-frame
+  left, deep near-black. 16:9, framed to match K15 exactly so the two cut as a
+  match on absence.
+
+  K18 · THE WALK AWAY
+  Wide from behind as AMIR walks slowly away from camera down a dim residential
+  street at dusk, terracotta #E85F42 t-shirt and cream beanie reading clearly
+  against the dark. Blank featureless head, seen from the back. He does not
+  turn. Stylised low-poly 3D, near-photorealistic tarmac and brick.
+  Camera locked off, he recedes. Deep near-black, one warm amber streetlamp
+  ahead of him throwing a long shadow back toward camera. 16:9, AMIR centred
+  and small in frame.
+
+GROUP 5 · THE PLATES — clean surfaces built for burned-in typography
+Generate these blank. Never generate a number. Numbers are burned in the edit,
+always, without exception — the same rule as your Shorts packs.
+
+  K19 · THE DARK PLATE
+  Empty dark brushed-charcoal surface filling the frame, raked by a single hard
+  light from camera-left so a broad soft gradient runs across it. Fine dust and
+  micro-scratches catch the light. Absolutely nothing else in frame — no
+  objects, no text, no markings. Camera drifts right 4% very slowly. Stylised
+  matte clay with near-photorealistic surface grain. Deep near-black at the
+  right edge, one warm amber highlight along the top. 16:9, entirely empty and
+  built to carry large type.
+
+  K20 · THE PAPER PLATE
+  Overhead flat-lay of a single blank cream sheet on dark matte charcoal,
+  perfectly square to camera, completely unprinted, one hard shadow beneath it.
+  Camera pushes in 4%. Stylised low-poly matte clay, near-photorealistic laid
+  paper with visible fibre and a deckled edge. Single hard overhead key
+  slightly off-axis. Cool neutral grade, one warm amber accent along the top
+  edge. 16:9, sheet centred with dark margin on all four sides.
+
+HOW TO ASSEMBLE THE BANK INTO AN EPISODE
+
+  Cold open        K01 or K03, then straight to K19 for the title card
+  The claim        K20 with the number burned in, held longer than feels right
+  The setup        K02, K11 — establish that this is routine and staffed
+  The mechanism    K05, K06, K08, K09 — this is where the explanation lives,
+                   and it is where you will spend most of your runtime
+  The turn         K12 or K14 — the moment the viewer realises nobody is there
+  The consequence  K15, K16 — hold on AMIR longer than the VO needs
+  The close        K17 or K18, then K19 for the CTA
+
+  ROTATION RULE. No bank clip twice in one episode, and no bank clip in the
+  same functional slot two episodes running. The bank is 20 clips because 20
+  is enough to avoid visible repetition at two episodes a week for about three
+  months. Add four clips a month from month two and the problem never arrives.
+
+
+--------------------------------------------------------------------------------
+        PACK 2 — EPISODE-SPECIFIC: "THEY MADE IT ILLEGAL IN ONE INDUSTRY"
+--------------------------------------------------------------------------------
+
+Twelve clips unique to the flagship in PART 5. Everything else in that cut
+comes from PACK 1.
+
+  E01 · THE TWO QUOTES
+  Overhead on dark matte charcoal. Two identical blank cream documents lie side
+  by side, both completely unprinted, identical in every visible respect. Both
+  are lit identically. A slow push in reveals nothing that distinguishes them.
+  Stylised low-poly matte clay, near-photorealistic paper grain. Camera pushes
+  in 8%. Hard overhead key, twin identical shadows. Deep near-black margins,
+  one warm amber accent. 16:9, documents centred with dark space above for the
+  two prices to be burned in.
+  BURN: the two prices, one over each document, revealed one beat apart.
+
+  E02 · THE SAME PRODUCT, TWICE
+  Two identical plain cream boxes on a dark shelf, no printing or markings of
+  any kind, lit by one hard raking light so both throw the same shadow. Camera
+  tracks slowly left to right past both. Stylised low-poly 3D, matte clay,
+  near-photorealistic card texture. Deep near-black behind, warm amber edge on
+  each box. 16:9, boxes in the lower half.
+
+  E03 · THE REGULATOR'S BUILDING
+  Low angle on a plain stone institutional facade with tall narrow windows, no
+  signage or lettering anywhere. Flat overcast light. Camera tilts up 8 degrees
+  slowly. Stylised low-poly architecture, matte clay stone with
+  near-photorealistic weathering. Deep shadow in the window recesses, one warm
+  amber glow behind a single upper window. 16:9, facade filling the left
+  two-thirds.
+
+  E04 · THE RULE COMES DOWN
+  Overhead macro of a heavy blank cream document landing squarely on a dark
+  matte desk with weight, settling, and going still. Completely unprinted. A
+  simplified geometric hand in a deep navy #1E3A5F sleeve withdraws from frame
+  as it lands. Stylised low-poly matte clay, near-photorealistic heavy stock
+  with a visible deckle. Camera locked off. Hard overhead key, one crisp
+  shadow. Deep near-black. 16:9, document centred low.
+
+  E05 · THE LINE THAT STOPS
+  Top-down on dark matte surface. A single cream paper strip runs left to right
+  and rises steadily as it travels — then meets a matte terracotta #E85F42
+  block and stops dead against it, flattening out. Stylised low-poly matte
+  clay, near-photorealistic paper fibre. Camera locked off. Hard key from the
+  left, long shadow. Deep near-black, the terracotta the only saturated thing
+  in frame. 16:9, strip centred.
+
+  E06 · THE OTHER DOORS
+  Wide of a long cream corridor with five identical closed doors along its
+  right-hand wall, no numbers or lettering on any of them. The nearest door is
+  shut and sealed with a single matte terracotta #E85F42 band across it. The
+  other four stand very slightly ajar, dark inside. Camera drifts forward 6%.
+  Stylised low-poly 3D, matte clay walls, near-photorealistic scuffing at floor
+  level. Hard overhead pools with unlit gaps. 16:9, doors receding right.
+
+  E07 · THE BROADBAND ROUTER
+  Close on a plain matte housing on a shelf, completely unbranded with no
+  lettering or logos, a single warm amber indicator lamp on its front face
+  pulsing slowly. Domestic clutter around it in deep shadow and soft focus.
+  Camera pushes in 6%. Stylised low-poly 3D, matte clay, near-photorealistic
+  moulded plastic with fine texture. Deep near-black, the amber lamp the only
+  light source in frame. 16:9, housing left of centre.
+
+  E08 · THE PHONE CONTRACT
+  Macro of a blank cream folded leaflet on a dark matte surface, completely
+  unprinted, opening by itself one fold at a time until it lies flat and much
+  larger than it first appeared. Stylised low-poly matte clay,
+  near-photorealistic paper with visible fold creases. Camera pulls back 12% to
+  keep it framed as it grows. Hard key camera-right, shadow left. Deep
+  near-black. 16:9, leaflet centred.
+
+  E09 · THE GYM DOOR
+  Wide of a glass door to a dark unlit interior at night, no signage or
+  lettering. A single warm amber security light above it. Nothing moves, no
+  people. Camera holds still. Stylised low-poly 3D, matte clay frame,
+  near-photorealistic glass with street reflection. Deep near-black inside,
+  cool blue night outside, the amber light the only warmth. 16:9, door in the
+  right third.
+
+  E10 · THE CALENDAR PAGE
+  Overhead on dark wood. A single blank cream calendar page, completely
+  unprinted with no dates or numbers, lifts at one corner and turns over,
+  revealing another identical blank page beneath. Repeats once. Stylised
+  low-poly matte clay, near-photorealistic paper. Camera locked off. Hard
+  overhead key, crisp shadow. Deep near-black margins. 16:9, page centred.
+  BURN: the renewal dates, one per turn.
+
+  E11 · THE CANCELLED LINE
+  Extreme macro of a blank cream document on dark matte surface. A single matte
+  terracotta #E85F42 line is drawn steadily across it, left to right, by an
+  unseen hand — no pen visible, just the line arriving. It completes and holds.
+  Stylised low-poly matte clay, near-photorealistic paper fibre catching the
+  raking light. Camera pushes in 5%. Hard key camera-left, deep near-black.
+  16:9, document filling the lower two-thirds.
+
+  E12 · THE CLEARED TABLE
+  Wide of the same flat as K15. The table is completely bare — no papers, no
+  cup, nothing. The chair is square to it. The lamp is still on. Calm, resolved,
+  unhurried. Camera holds absolutely still. Stylised low-poly 3D, matte clay,
+  near-photorealistic wood grain on the bare table. Same warm practical lamp
+  off-frame left, deep near-black. 16:9, framed to match K15 and K17 exactly.
+  This is the last shot of the film.
+
+
+================================================================================
+PART 5 — FLAGSHIP SCRIPT
+"THEY MADE IT ILLEGAL IN ONE INDUSTRY. IT JUST MOVED."
+Target ~17:00 · 16:9 · 2,101 VO words @ ~135wpm + 10 pause beats + held plates
+================================================================================
+
+WHY THIS ONE IS THE OPENER
+
+It is checkable. A named regulator, a dated rule, a published figure. On a
+channel with 5 subscribers the first job is not to be liked, it is to be
+verifiable — the comment section is the only distribution you have and this
+script hands it a citation instead of an opinion.
+
+It is not burned. Finance % Decoded spent merchant fees, minimum payments,
+mortgages and Klarna. This touches none of them.
+
+It has no fiqh exposure. The moral argument is carried entirely by a UK
+regulator's own reasoning. You never issue a ruling. This is the same posture
+the credit card pack holds, and it is the right one for a general audience.
+
+And it is the channel's thesis in one artefact: a thing you have held, a
+mechanism you were not told about, and a truth that is worse than the version
+you already suspected.
+
+--------------------------------------------------------------------------------
+SCENE MAP
+--------------------------------------------------------------------------------
+
+ ACT  | IN     | OUT    | BEAT                        | SHOTS
+------|--------|--------|-----------------------------|------------------------
+  1   | 0:00   | 2:30   | the artefact                | K01 K19 E01 E02 K20
+  2   | 2:30   | 5:30   | the name                    | K05 K06 K09 K11 E10
+  3   | 5:30   | 9:00   | the ban                     | E03 E04 E05 K08 K13
+  4   | 9:00   | 14:00  | the move                    | E06 E07 E08 E09 K12 K14
+  5   | 14:00  | 17:00  | the lesson and the fix      | K15 K16 E11 K17 E12
+
+ COLD OPEN is Act 1's first 40 seconds and runs BEFORE any title card. Do not
+ open on branding. The template channel never does.
+
+--------------------------------------------------------------------------------
+NUMBERS — burn these in during the edit, never generate them
+--------------------------------------------------------------------------------
+  E01   the two quotes, revealed one beat apart, identical documents beneath
+  K09   the five-year walk: 420 / 453 / 489 / 529 / 571 / 617, one per card
+  K19   YOU: £617    A STRANGER: £420    (the collision, held in silence)
+  K20   1 JANUARY 2022
+  E05   PRICE WALKING            (set against the terracotta block)
+  K08   EQUIVALENT NEW BUSINESS PRICE
+  K13   £4.2 BILLION  /  10 YEARS
+  E10   the renewal dates, one per page turn
+  E06   HOME. MOTOR.             (on the sealed door, small)
+  K19   the four remaining sectors, one line at a time
+  E11   (none — the line lands alone)
+
+Act 3's £4.2bn is your two-numbers-in-collision beat. Set £4.2 BILLION large
+and 10 YEARS small beneath it, then hold the frame in silence for a full beat
+before the VO returns. That collision is the emotional centre of the film.
+
+--------------------------------------------------------------------------------
+VOICEOVER
+media/loyaltypenalty-vo.mp3 · ElevenLabs v3 · stability 45–55 · similarity 75
+speed 1.0 · tags sparse, full stops doing the pacing. Same spec as Klarna.
+--------------------------------------------------------------------------------
+
+[ ACT 1 — THE ARTEFACT ]
+
+[serious] Every year a letter arrives telling you what you will pay to carry on
+having something you already have.
+
+You have had it for years. Nothing about it has changed. You have not moved
+house, you have not crashed the car, you have not made a claim.
+
+And the number has gone up.
+
+Most people have an explanation ready for this. Inflation. Costs. The economy.
+Everything is going up.
+
+That explanation is comfortable and it is usually wrong. Because if you had
+phoned the same company that same afternoon, and asked for the same product as
+a stranger, you would very often have been quoted less than the letter in your
+hand.
+
+Same company. Same product. Same person. Two prices.
+
+[pause]
+
+The difference between those two numbers is not a cost. It is not risk, it is
+not admin, it is not inflation.
+
+It is a charge for staying.
+
+[serious] And for a long time, in this country, nobody had a name for it that
+you were ever going to hear.
+
+  — TITLE CARD lands here, on K19. Not before. —
+
+[ ACT 2 — THE NAME ]
+
+The industry had a name for it. Of course it did. You do not build a system
+this precise without vocabulary.
+
+They called it price walking. Sometimes dual pricing. The regulator, when it
+finally arrived, used a blunter phrase — the loyalty penalty.
+
+Here is how it works, and it is worth being exact, because the vagueness is
+where it survives.
+
+A company sells you something on a contract that renews. Insurance. Broadband.
+Energy. A phone. A gym.
+
+To get you in the door, they quote you a price that is deliberately low.
+Sometimes it is below what serving you actually costs them. That is not a
+mistake. That is acquisition, and it is a budget line.
+
+Then the contract renews. And this time the price is not set by what it costs
+to serve you. It is set by a different question entirely.
+
+The question is: how likely is this person to leave?
+
+[serious] Read that again, because everything in this film sits on it. The
+renewal price is not a measure of your risk. It is a measure of your inertia.
+
+If you are the kind of customer who checks — who compares, who phones, who
+threatens to cancel — the system learns that, and it holds your price down. Not
+as a reward. As a defence.
+
+And if you are the kind of customer who does not check. Who is busy. Who has a
+newborn, or two jobs, or a parent who is ill, or simply too much going on to
+audit a direct debit — then the system learns that too.
+
+And it walks your price up. A little. Every year. Never enough in one step to
+make you act.
+
+[pause]
+
+That is the craft of it. The increase is calibrated to sit just underneath the
+threshold at which you would do something about it.
+
+[serious] Your attention has a price. And they know it more precisely than you
+do.
+
+Let me put numbers on it, because the vagueness is doing a lot of work here and
+numbers take it away.
+
+Say a policy starts at four hundred and twenty pounds. Say the walk is eight
+per cent a year — modest, well inside what this practice was found to do.
+
+Year one you pay four hundred and fifty three. Year two, four hundred and
+eighty nine. Year three, five hundred and twenty nine. Year four, five hundred
+and seventy one. Year five, six hundred and seventeen.
+
+Meanwhile the price a stranger is quoted for the identical product has not
+moved. It is still four hundred and twenty.
+
+[pause]
+
+Across those five renewals you have paid five hundred and sixty one pounds more
+than the person who phoned up for the first time.
+
+But look at the step sizes, because this is the actual engineering. The biggest
+single jump in that whole sequence is forty five pounds. Spread across a year,
+that is under four pounds a month.
+
+[serious] Nobody cancels over four pounds a month. That is the design
+specification. Every individual increase is calibrated to be smaller than the
+effort of leaving, and the sum of them is not.
+
+
+There is a version of this you have probably already told yourself — that this
+is just how markets work, that the shopper gets the deal and the lazy pay more,
+and that on some level that is fair.
+
+Hold that thought. Because a regulator looked at exactly that argument, took it
+seriously, and rejected it.
+
+[ ACT 3 — THE BAN ]
+
+In 2021, the Financial Conduct Authority — the body that regulates financial
+services in the United Kingdom — finished a long piece of work on how home and
+motor insurance was actually priced.
+
+What it found was not a market that happened to produce this outcome. It was a
+market where this outcome was the strategy. Systematic. Modelled. Deliberate.
+
+So it did something regulators do not often do. It did not ask for clearer
+disclosure. It did not require a warning on the letter. It did not tell firms
+to be fairer in general terms.
+
+It banned the practice outright.
+
+[serious] From the first of January, 2022, an insurer offering you a renewal on
+your home or motor policy has to offer it at a price no higher than it would
+quote you, that day, as a brand new customer of the same risk profile buying
+the same product.
+
+They gave it a name in the rules — the equivalent new business price. And the
+principle underneath it is very simple, and much larger than insurance.
+
+Your loyalty may not be priced.
+
+[pause]
+
+They closed the side doors too, because they had watched this happen before.
+Auto-renewal was tightened. Cash incentives to bring new customers in cannot
+be dangled at strangers unless they are offered to the people who already
+stayed.
+
+And the FCA published what it expected the ban to be worth to the people who
+had been paying it.
+
+Four point two billion pounds. Over ten years.
+
+[pause]
+
+Sit with that number, because it is the answer to the question you did not
+quite ask earlier.
+
+That is not a market inefficiency. Four point two billion pounds is not
+friction, or admin, or the ordinary cost of people being busy.
+
+That is the measured value of a mechanism. That is what your inattention was
+worth, in one country, in two product lines, to one industry.
+
+[serious] And a regulator looked at it, and did not call it competition. It
+called it a penalty.
+
+[ ACT 4 — THE MOVE ]
+
+So that is the good news, and it is real. If you insure your home or your car
+in the UK, this specific thing is not being done to you anymore.
+
+Now here is the hard truth this film is actually about.
+
+[pause]
+
+The practice did not stop. It moved.
+
+Because of how the ban was written. Read it carefully and you find it is not a
+ban on charging people for staying. It is a ban on charging people for staying
+IN HOME AND MOTOR INSURANCE.
+
+The rule is bounded by the FCA's jurisdiction, and the FCA regulates financial
+services. It does not regulate your broadband provider. It does not regulate
+your mobile network, or your gym, or your streaming subscriptions, or the
+software you renew every year without looking.
+
+The mechanism was never specific to insurance. It only needs three things, and
+they are everywhere.
+
+One. A contract that renews by default.
+Two. A price the seller can change at renewal.
+Three. A customer who probably will not check.
+
+[serious] Wherever those three conditions sit together, the mechanism is
+available. And it is sitting in most of the direct debits leaving your account
+this month.
+
+The introductory rate that quietly ends. The contract that rolls onto a
+standard tariff nobody would ever have chosen deliberately. The membership that
+is easy to start on a phone and requires something considerably more effortful
+to stop. The annual renewal that bills on a date you have long since forgotten
+you agreed to.
+
+None of that is fraud. Every one of those is disclosed somewhere. You signed.
+
+And that is exactly the point.
+
+Because look at what the two options actually cost you in effort.
+
+Staying costs nothing. It requires no decision, no phone call, no password you
+have forgotten, no thirty minutes on hold, no form. Staying happens by itself
+while you are asleep. It is the default, and defaults are free.
+
+Leaving costs an afternoon. Find the account. Find the renewal date. Find what
+a stranger pays. Phone the number that is harder to find than the sign-up
+button was. Wait. Explain yourself to someone whose job is to keep you. Be
+offered a slightly better price to stay, which is itself the admission that
+the price was never fixed.
+
+[pause]
+
+That gap — free to stay, expensive to leave — is not an accident of how
+companies happen to be organised. It is the product. Every hour of friction
+between you and the exit is an hour of margin, and it is designed with the
+same care as anything else they sell you.
+
+[serious] They are not charging you for the service. They are charging you for
+the door being heavy.
+
+
+[pause]
+
+The defence of this practice has always been that the information is available.
+That anyone can compare, that switching is free, that the diligent customer is
+rewarded and the rest have only themselves to blame.
+
+But the FCA had that argument in front of it, backed by an industry with far
+better lawyers than you have, and it still concluded that a system which
+prices human limitation is not a system that has earned its money.
+
+[serious] Because that is what is actually being sold here. Not a service.
+Not a product. The predictable gap between what a person intends to do and
+what a tired person actually gets round to doing.
+
+[ ACT 5 — THE LESSON AND THE FIX ]
+
+There is a reading of this film that stops at "check your renewals", and that
+reading is not wrong. It is just small.
+
+So do the small thing first, because it works.
+
+Once a year, take an hour. Get the list of everything that renews — your bank
+statement will give it to you faster than your memory will. For each one, find
+what a new customer pays today. Not what you paid. What a stranger is quoted.
+
+Where there is a gap, phone and ask for the new-customer price. You will get it
+more often than you expect, because keeping you is cheaper than replacing you,
+and their model already knows that.
+
+And cancel the thing you have not used since the spring.
+
+That hour is worth more per hour than almost anything else you will do this
+year. But it is not the lesson.
+
+[pause]
+
+The lesson is this.
+
+The loyalty penalty was not made illegal because it was wrong. Nothing about it
+became wrong in January 2022 that was not wrong in December 2021.
+
+It was made illegal in one place, because in that one place, somebody had the
+authority and finally used it.
+
+Everywhere else, the same mechanism, doing the same thing to the same people,
+is simply carrying on. Not because anyone decided it was acceptable there.
+Because nobody with the power to stop it has looked yet.
+
+[serious] That is worth understanding properly, because it changes what you
+think you are looking at. When something extractive is legal, you have learned
+almost nothing about whether it is right. You have only learned where the
+jurisdiction ends.
+
+[pause]
+
+And there is one more thing, underneath all of it.
+
+Look at what is actually being charged for. Not a good. Not a service. Not
+labour, not risk, not anything anyone made.
+
+Time. And your failure to spend enough of it watching.
+
+[calm] A real sale takes its profit once. At the moment of exchange. Both sides
+know the number, both sides agree, and then it is finished — it does not grow
+afterwards while you sleep.
+
+This does. It compounds quietly on the assumption that you are tired. It is
+priced in your distraction and collected in your absence.
+
+[serious] Which means the defence is not vigilance. You cannot out-attend a
+system that is designed around the certainty that your attention runs out.
+
+The defence is fewer doors. Fewer things that renew. Fewer automatic
+relationships with companies that are modelling how long you will not notice.
+
+[warmly] Be harder to price.
+
+Every one of these has a mechanism, and every mechanism has a name once you go
+looking. Subscribe — I go through one of them properly, every week.
+
+--------------------------------------------------------------------------------
+PACING NOTES
+--------------------------------------------------------------------------------
+
+"Four point two billion pounds. Over ten years." is the whole film. Full beat
+of silence either side, and let the K13 plate hold in silence after the VO
+stops. Do not let Act 4 ride in on it. If v3 rushes the line, generate Act 3 as
+its own pass with it isolated and cut it in — the same fix as "Deadbeats".
+
+"The practice did not stop. It moved." carries the turn. Silence before it,
+silence after, and cut to E06 on "moved", not before.
+
+Act 5 must not accelerate. The instinct at the end of a long script is to lift
+the pace for the CTA. Resist it — the authority of this voice is entirely in
+its refusal to sell.
+
+RUNTIME. If the cut lands under 16:00, extend Act 2 with a second worked
+example rather than padding Act 5. Act 5 is the right length already.
+
+--------------------------------------------------------------------------------
+PACKAGING
+--------------------------------------------------------------------------------
+
+TITLE       They Made It Illegal in One Industry. It Just Moved.
+            alt 1: The Price of Staying (Why Loyalty Costs You Money)
+            alt 2: Why Your Renewal Costs More Than a Stranger's Quote
+            Note your own precedent — you retitled the Klarna upload from
+            "Is Klarna Halal?" to "You've Already Paid Klarna." at publish,
+            and the declarative won. This slate follows that.
+
+THUMBNAIL   Two identical blank cream documents from E01, side by side on
+            near-black, with two prices burned in above them and nothing else
+            in frame. No face, no arrow, no circle. The whole idea is legible
+            in a quarter second and the format is repeatable for every episode
+            in Series A, which is what you actually want from episode one.
+
+LENGTH      17:00. Do not ship under 16:00 — mid-roll economics is most of the
+            reason this channel exists.
+
+DESCRIPTION 600+ characters minimum, and put the FCA policy statement link in
+            it. On a 5-subscriber channel the citation is the credibility.
+
+CHAPTERS    Yes. Five, named for the acts. Long-form retention on a new channel
+            depends on the viewer believing the video is going somewhere.
+
+TAGS        Under 500 characters total — hard YouTube limit, silently rejects
+            past it. Same rule as your existing slates.
+
+SERIES      Close the description with "Series A, episode 1 — The Price You
+            Didn't Agree To." You have no series framing across 33 uploads
+            between two channels, and it remains the cheapest retention
+            available to you.
+
+--------------------------------------------------------------------------------
+ACCURACY — what must survive a comment section
+--------------------------------------------------------------------------------
+
+VERIFIED, SAFE TO STATE AS THE SCRIPT STATES THEM
+
+  The FCA's General Insurance Pricing Practices rules took effect 1 January
+  2022, with a transitional provision to 17 January and benefits backdated to
+  the 1st. Firms must set renewal prices no higher than the equivalent new
+  business price for a customer of the same risk profile buying the same
+  product. Auto-renewal and new-customer cash incentive rules were tightened
+  alongside. The FCA's own published expectation was around £4.2 billion of
+  consumer savings over ten years. Scope is home and motor insurance.
+
+  The script says "home and motor" every single time it describes the ban's
+  reach. Keep that. The most likely correction in your comments is somebody
+  pointing out the ban is narrower than a viewer assumed, and the script has
+  already said so — twice, on purpose.
+
+NOT YET VERIFIED — SOURCE THESE BEFORE YOU RECORD
+  THE ACT 2 WORKED EXAMPLE IS AN ILLUSTRATION, NOT A PRODUCT.
+  The arithmetic is exact and checkable — £420 compounding at 8% gives 453.60,
+  489.89, 529.08, 571.41, 617.12; cumulative overpayment against a flat £420 is
+  £561.09; the largest single step is £45.71, which is £3.81 a month. Run those
+  yourself before you record.
+
+  But the eight per cent is a chosen illustrative rate, not a measured industry
+  figure, and the script says so — "say the walk is eight per cent". Keep that
+  framing exactly. Do not let it drift into "the average walk is eight per
+  cent" in the edit or the description, because that is a claim I have not
+  sourced and it is the easiest thing in this film to be corrected on.
+
+
+  Act 4 asserts that the same mechanism operates in broadband, mobile, energy,
+  gyms and software subscriptions. This is widely reported and Ofcom has done
+  its own work on end-of-contract notifications and out-of-contract pricing,
+  but I did not verify any of it to citation standard in this pass and you
+  should not put it in a voiceover on my say-so.
+
+  Do one of two things before recording. Either pull a current Ofcom or Citizens
+  Advice source for at least broadband and mobile and name it on screen — which
+  is much stronger — or soften the Act 4 lines from assertion to condition:
+  "wherever those three things sit together, the mechanism is available." That
+  conditional form is already in the script and is defensible without a source,
+  so if you cannot source it, cut the specific sector list and keep the
+  condition.
+
+  Do not name a specific company anywhere. Not in the VO, not on screen, not in
+  the description. The argument is about a mechanism and naming a firm converts
+  a structural claim into an allegation about that firm.
+
+THE ONE JUDGEMENT CALL
+
+  "A real sale takes its profit once" is carried over from the credit card
+  pack and it is doing quiet religious work in a script that is otherwise
+  entirely secular. That is deliberate and it is the right amount — it reads to
+  a general audience as an argument about fairness and to the audience who
+  recognises it as exactly what it is.
+
+  Do not extend it. The moment the VO explains where that principle comes from,
+  the video stops being for everyone, and this particular video's whole
+  strategic job is to be the one that reaches past the audience you already
+  have.
+
+================================================================================
