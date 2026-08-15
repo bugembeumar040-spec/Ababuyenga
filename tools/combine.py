@@ -45,6 +45,17 @@ PLAN = [
     ('TDM_Mall_Washroom_Details_2026.xlsx', 'Washroom Assets Summery', 'TDM Washroom Summery', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx',
      dict(keep=[3, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20],
           retotal={9: ('B', 'G', 'SUM({c}3:{c}8)'), 16: ('B', 'B', 'SUM({c}13:{c}15)')})),
+    # ── Fountain Views register ─────────────────────────────────────────────
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Washroom (Detailed)', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Handicap (Detailed)', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Baby Room (Detailed)', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Prayer Room', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Common Area Bins', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Seating Area New', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Seating Area Old', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Assets', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Planter Pots', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
+    ('FV_Source_Assets_Details_2026.xlsx', 'FV Photo Reference', None, 'Fountain Views register', 'FVWashroom / FV_Common_area_bins / FVSeating_area / Fountain_Views_Assets'),
     # ── bins ────────────────────────────────────────────────────────────────
     ('TDM_Common_Area_Bins_Details_2026.xlsx', 'Common Area Bins Details', None, 'Bins', 'Common_area__Bin.xlsx'),
     ('TDM_Steel_Bins_Details_2026.xlsx', 'Steel Bins Details 2025', None, 'Bins', 'Steel_Bins.xlsx'),

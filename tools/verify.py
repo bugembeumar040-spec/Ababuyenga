@@ -44,6 +44,8 @@ def evaluate_sheet(ws):
             if coord in vals:
                 continue
             e = f[1:]
+            # SUBTOTAL(9, range) is a plain SUM for our purposes
+            e = re.sub(r'SUBTOTAL\(\s*9\s*,', 'SUM(', e, flags=re.I)
             counta = e.upper().startswith('COUNTA')
             if counta:
                 inner = e[e.index('(') + 1:e.rindex(')')]

@@ -295,6 +295,36 @@ range — a necessary consequence of the removal, not a silent correction.
 The ten per-source batch workbooks still contain FAE: they are faithful reformats of
 their sources and serve as the audit trail.
 
+## 6e. Fountain Views detailed registers
+
+Five files arrived; `Fountain_Views_Assets.xlsx` and `..._2.xlsx` are byte-identical,
+so four were built into `FV_Source_Assets_Details_2026.xlsx` (10 tabs, 67 photos) and
+merged into the FV register (now 15 tabs) and the grouped workbook.
+
+| Source | Tabs produced |
+|---|---|
+| `FVWashroom.xlsx` | FV Washroom (Detailed), FV Handicap (Detailed), FV Baby Room (Detailed), FV Prayer Room |
+| `FV_Common_area_bins.xlsx` | FV Common Area Bins |
+| `FVSeating_area.xlsx` | FV Seating Area New, FV Seating Area Old |
+| `Fountain_Views_Assets.xlsx` | FV Assets, FV Planter Pots |
+
+Handling notes:
+
+- The four `FVWashroom` sheets already use the master's shape — header row, a photo
+  row, then data — so row 3 becomes the row-2 photo strip. Genuine notes in that row
+  (`Photo Pls`) are kept; **`#VALUE!` cells are dropped**, being broken-image artefacts
+  rather than asset data. The same applies to `#VALUE!` in the Photo columns of
+  `FV Assets` and `FV Planter Pots`.
+- `FV_Common_area_bins` column A is empty in every row and its header names another
+  property; the column is dropped, which loses no data.
+- The `Assets` sheet holds two side-by-side blocks with identical headers — one list
+  split for printing. They are stacked into a single table.
+- `FVSeating_area` totals use `SUBTOTAL(9, …)`; these are carried over unchanged.
+- Images that fall outside a tab's photo strip go to `FV Photo Reference` so none are lost.
+- The `Handicap Washroom` sheet's title names a different property (a copy-paste
+  leftover in the source). Titles are dropped under this format, so it does not
+  propagate — the FAE audit stays clean.
+
 ## 7. Consolidation checklist
 
 - [ ] Same four-tab structure, same tab names and order.

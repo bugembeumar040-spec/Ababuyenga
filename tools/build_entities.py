@@ -151,6 +151,17 @@ build('FV_Assets_Details_2026.xlsx', [
     ('Store Inventory', 'FV Store Inventory', [5, 6], 2),
     ('Washroom Assets Summery', 'FV Assets Summery',
      rows_where('Washroom Assets Summery', 1, 'FV '), 2),
+    # detailed registers from the Fountain Views source files
+    ('FV Washroom (Detailed)', 'FV Washroom (Detailed)'),
+    ('FV Handicap (Detailed)', 'FV Handicap (Detailed)'),
+    ('FV Baby Room (Detailed)', 'FV Baby Room (Detailed)'),
+    ('FV Prayer Room', 'FV Prayer Room'),
+    ('FV Common Area Bins', 'FV Common Area Bins'),
+    ('FV Seating Area New', 'FV Seating Area New'),
+    ('FV Seating Area Old', 'FV Seating Area Old'),
+    ('FV Assets', 'FV Assets'),
+    ('FV Planter Pots', 'FV Planter Pots'),
+    ('FV Photo Reference', 'FV Photo Reference'),
 ])
 
 # ───────────────────────────── China Town ─────────────────────────
