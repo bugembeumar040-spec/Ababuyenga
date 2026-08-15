@@ -34,8 +34,8 @@ public/plates/*.png ──────> tools/scan-plates.py ─> src/jinn/plate
 ### The voiceover
 
 The six recorded groups were loudness-matched to −16 LUFS, joined in order with
-a 0.45s beat between groups, and written to `media/vo.mp3` (also
-`public/jinn-vo.mp3`, which is what the film plays).
+a 0.45s beat between groups, and written to `public/jinn-vo.mp3` — that file is
+the master and it is what the film plays.
 
 | group | duration |
 |---|---|
@@ -67,7 +67,7 @@ npm run beats        # pass the new duration as the first arg if it changed
 To regenerate the silence map after a recut:
 
 ```bash
-ffmpeg -i media/vo.wav -af "silencedetect=noise=-38dB:d=0.30" -f null - 2>&1 \
+ffmpeg -i public/jinn-vo.mp3 -af "silencedetect=noise=-38dB:d=0.30" -f null - 2>&1 \
   | grep -E "silence_(start|end)" | awk '{print $4,$5,$6,$7,$8}' > media/sil.txt
 ```
 

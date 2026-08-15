@@ -186,7 +186,8 @@ const Cite: React.FC<{ text: string; p: number }> = ({ text, p }) => {
         letterSpacing: "0.34em",
         color: PALETTE.gold,
         textTransform: "uppercase",
-        textShadow: "0 2px 18px rgba(20,16,12,0.85)",
+        textShadow:
+          "0 2px 18px rgba(20,16,12,0.95), 0 0 10px rgba(20,16,12,0.9), 0 1px 2px rgba(20,16,12,1)",
       }}
     >
       <div style={{ position: "relative", paddingBottom: 16 }}>
@@ -225,6 +226,9 @@ const Chip: React.FC<{ text: string; p: number }> = ({ text, p }) => {
         letterSpacing: "0.4em",
         color: EMPHASIS,
         border: `2px solid ${EMPHASIS}`,
+        // Ember on cream parchment is unreadable, and half the plates are
+        // cream. The chip carries its own ground so it reads on any of them.
+        backgroundColor: "rgba(22,20,16,0.88)",
         padding: "14px 26px 14px 32px",
         textTransform: "uppercase",
       }}

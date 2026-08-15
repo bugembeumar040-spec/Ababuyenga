@@ -116,9 +116,9 @@ const ProceduralPlate: React.FC<{ shot: Shot }> = ({ shot }) => {
         {/* loose contour — the subject, unresolved */}
         <rect
           x={780}
-          y={620}
+          y={300}
           width={1000}
-          height={520}
+          height={330}
           rx={18}
           fill="none"
           stroke={PALETTE.ink}
@@ -127,37 +127,38 @@ const ProceduralPlate: React.FC<{ shot: Shot }> = ({ shot }) => {
           strokeDasharray="180 26 90 18"
         />
 
+        {/* Slate sits high in the frame, clear of the caption band. */}
         <text
           x={1280}
-          y={870}
+          y={430}
           textAnchor="middle"
           fill={PALETTE.ink}
           fillOpacity={0.5}
-          fontSize={132}
+          fontSize={118}
           fontFamily="serif"
-          letterSpacing={22}
+          letterSpacing={20}
         >
           {s}
         </text>
         <text
           x={1280}
-          y={946}
+          y={500}
           textAnchor="middle"
           fill={PALETTE.ink}
           fillOpacity={0.34}
-          fontSize={38}
+          fontSize={34}
           fontFamily="serif"
-          letterSpacing={7}
+          letterSpacing={6}
         >
           PLATE PENDING · public/plates/{s}.png
         </text>
         <text
           x={1280}
-          y={1030}
+          y={556}
           textAnchor="middle"
           fill={PALETTE.ink}
           fillOpacity={0.3}
-          fontSize={31}
+          fontSize={29}
           fontFamily="serif"
         >
           {shot.move}
