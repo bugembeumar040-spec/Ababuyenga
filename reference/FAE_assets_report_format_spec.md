@@ -264,6 +264,37 @@ describe a Fashion Parking location: the `Fashion Lobby` bin row (qty 24) and th
 `L3 FP Valet office` washroom row. TDM keeps its source tables whole; FP surfaces
 them as its own data.
 
+## 6d. Mall side register, and removal of FAE from grouped output
+
+`Mall_side__Assets_Details_2026.xlsx` arrived already built on this master's own
+template — same 64-column washroom layout, same prayer-room columns, same
+photo-strip idea. It became `Mall_Side_Assets_Details_2026.xlsx` (3 tabs) and was
+merged into the TDM register and the grouped workbook. All of its locations are
+mall floors (LG / GF / FF / SF), so none of it belongs to Zabeel, FV, CT or FP.
+
+- The washroom and prayer-room tabs are direct re-renders; column B holds the
+  location *name* here rather than a number, which is how the source uses it.
+- The source's **common-area sheet stacks four per-floor blocks** (LG / GF / FF / SF),
+  each with its own header, photo strip and total. These were merged into one
+  master-shape table: `Level | Location | 37 union asset columns | Remarks`, with a
+  single photo strip and each block's own total row preserved and remapped. Where a
+  block repeated a header (`Sofa` six times in GF), later occurrences are numbered
+  `Sofa (2)`…`Sofa (6)` so nothing collapses.
+- Four Remarks-column `SUM()` formulas from the source were dropped: the master puts
+  no total in its Remarks column, and all four evaluated to 0 over text cells.
+- `Prayer Room` keeps its cross-sheet total `='Mall Side Washroom Deatils'!D69`,
+  retargeted to the new tab name.
+
+**FAE is excluded from the grouped output**, per instruction. The combined workbook is
+now `Malls_Assets_Details_2026_Combined.xlsx` (the old name carried "FAE"). Removed:
+the three FAE tabs; the FAE baby-room block; the `FAE`, `FAE Staff + Driver` and
+`FAE Handicap` summary lines; the FAE pedal-bin line; and the
+`Malls,FAE,ZB.FV & CT baby room` line, which mixed FAE into one figure that could not
+be split. Totals whose ranges spanned a removed row were rewritten over the retained
+range — a necessary consequence of the removal, not a silent correction.
+The ten per-source batch workbooks still contain FAE: they are faithful reformats of
+their sources and serve as the audit trail.
+
 ## 7. Consolidation checklist
 
 - [ ] Same four-tab structure, same tab names and order.

@@ -11,7 +11,7 @@ from openpyxl.drawing.image import Image as XLImage
 from fmt import remap, finalize
 
 R = '/home/user/Ababuyenga/reports/'
-SRC = R + 'FAE_TDM_Assets_Details_2026_Combined.xlsx'
+SRC = R + 'Malls_Assets_Details_2026_Combined.xlsx'
 EMU = 9525
 comb = openpyxl.load_workbook(SRC)
 
@@ -103,6 +103,21 @@ def subset_sheet(src, tgt, keep, header_rows=2):
     _copy_images(src, tgt, rowmap)
 
 
+
+def rows_where(sheet, col, *values):
+    """Row numbers in `sheet` whose `col` matches any of `values` (exact)."""
+    ws = comb[sheet]
+    return [r for r in range(3, ws.max_row + 1)
+            if ws.cell(row=r, column=col).value in values]
+
+
+def baby_block(prop):
+    """Row span of one property's baby-room block, totals included."""
+    ws = comb['Baby Room Details']
+    rs = [r for r in range(3, ws.max_row + 1) if ws.cell(row=r, column=1).value == prop]
+    return list(range(min(rs), max(rs) + 1))
+
+
 def build(filename, sheets):
     wb = openpyxl.Workbook()
     wb.remove(wb.active)
@@ -123,25 +138,28 @@ def build(filename, sheets):
 build('Zabeel_Assets_Details_2026.xlsx', [
     ('Zabeel Washroom Details', 'Zabeel Washroom Details'),
     ('Zabeel Handicap Washroom', 'Zabeel Handicap Washroom'),
-    ('Baby Room Details', 'Zabeel Baby Room', list(range(45, 49)), 2),
-    ('Washroom Assets Summery', 'Zabeel Assets Summery', [5, 10], 2),
+    ('Baby Room Details', 'Zabeel Baby Room', baby_block('Zabeel'), 2),
+    ('Washroom Assets Summery', 'Zabeel Assets Summery',
+     rows_where('Washroom Assets Summery', 1, 'Zabeel ', 'Zabeel Handicap'), 2),
 ])
 
 # ─────────────────────────── Fountain Views ───────────────────────
 build('FV_Assets_Details_2026.xlsx', [
     ('FV Washroom Details', 'FV Washroom Details'),
     ('FV Handicap Washroom', 'FV Handicap Washroom'),
-    ('Baby Room Details', 'FV Baby Room', list(range(56, 79)), 2),
+    ('Baby Room Details', 'FV Baby Room', baby_block('FV'), 2),
     ('Store Inventory', 'FV Store Inventory', [5, 6], 2),
-    ('Washroom Assets Summery', 'FV Assets Summery', [12], 2),
+    ('Washroom Assets Summery', 'FV Assets Summery',
+     rows_where('Washroom Assets Summery', 1, 'FV '), 2),
 ])
 
 # ───────────────────────────── China Town ─────────────────────────
 build('China_Town_Assets_Details_2026.xlsx', [
     ('CT Washroom Details', 'CT Washroom Details'),
     ('CT Handicap Washroom', 'CT Handicap Washroom'),
-    ('Baby Room Details', 'CT Baby Room', list(range(49, 56)), 2),
-    ('Washroom Assets Summery', 'CT Assets Summery', [13], 2),
+    ('Baby Room Details', 'CT Baby Room', baby_block('CT'), 2),
+    ('Washroom Assets Summery', 'CT Assets Summery',
+     rows_where('Washroom Assets Summery', 1, 'CT'), 2),
 ])
 
 # ────────────────────────── Fashion Parking ───────────────────────
@@ -156,13 +174,19 @@ build('FP_Assets_Details_2026.xlsx', [
 
 # ───────────────────────────── TDM ────────────────────────────────
 build('TDM_Assets_Details_2026.xlsx', [
+    # mall side register (the master's own template)
+    ('Mall Side Washroom Deatils', 'Mall Side Washroom Deatils'),
+    ('Mall Side Prayer Room', 'Mall Side Prayer Room'),
+    ('Mall Side Common Area', 'Mall Side Common Area'),
     # washrooms
     ('Mall Washroom Deatils', 'Mall Washroom Deatils'),
     ('Staff Washroom Deatils', 'Staff Washroom Deatils'),
     ('External Staff Washroom', 'External Staff Washroom'),
     ('Mall Handicap Washroom', 'Mall Handicap Washroom'),
-    ('Baby Room Details', 'Mall Baby Room', list(range(3, 26)), 2),
-    ('Washroom Assets Summery', 'TDM Assets Summery', [3, 6, 9, 11], 2),
+    ('Baby Room Details', 'Mall Baby Room', baby_block('Malls'), 2),
+    ('Washroom Assets Summery', 'TDM Assets Summery',
+     rows_where('Washroom Assets Summery', 1, 'Malls', 'Malls Staff ',
+                'Malls Handicap', 'External Driver '), 2),
     # TDM detailed register
     ('TDM Washroom (Detailed)', 'TDM Washroom (Detailed)'),
     ('TDM Staff Washroom (Detail)', 'TDM Staff Washroom (Detail)'),

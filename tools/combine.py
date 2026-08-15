@@ -8,22 +8,23 @@ import openpyxl
 from openpyxl.drawing.image import Image as XLImage
 from openpyxl.styles import Font, Alignment
 from openpyxl.worksheet.hyperlink import Hyperlink
-from openpyxl.utils import get_column_letter
+from openpyxl.utils import get_column_letter, column_index_from_string
 from fmt import HDR_FILL, TOT_FILL, finalize
 
 R = '/home/user/Ababuyenga/reports/'
-OUT = R + 'FAE_TDM_Assets_Details_2026_Combined.xlsx'
+OUT = R + 'Malls_Assets_Details_2026_Combined.xlsx'
 EMU = 9525
 
 # (workbook, source sheet, sheet name in the combined file, section, original source file)
 PLAN = [
+    # ── Mall side register, built on the master's own template ──
+    ('Mall_Side_Assets_Details_2026.xlsx', 'Mall Side Washroom Deatils', None, 'Mall side register', 'Mall_side__Assets_Details_2026.xlsx'),
+    ('Mall_Side_Assets_Details_2026.xlsx', 'Mall Side Prayer Room', None, 'Mall side register', 'Mall_side__Assets_Details_2026.xlsx'),
+    ('Mall_Side_Assets_Details_2026.xlsx', 'Mall Side Common Area', None, 'Mall side register', 'Mall_side__Assets_Details_2026.xlsx'),
     # ── washrooms, cross-property ───────────────────────────────────────────
     ('Washroom_Summary_Details_2026.xlsx', 'Mall Washroom Deatils', None, 'Washrooms', 'Washroom_Summery.xlsx'),
     ('Washroom_Summary_Details_2026.xlsx', 'Staff Washroom Deatils', None, 'Washrooms', 'Washroom_Summery.xlsx'),
     ('Washroom_Summary_Details_2026.xlsx', 'External Staff Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
-    ('Washroom_Summary_Details_2026.xlsx', 'FAE Washroom Details', None, 'Washrooms', 'Washroom_Summery.xlsx'),
-    ('Washroom_Summary_Details_2026.xlsx', 'FAE Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
-    ('Washroom_Summary_Details_2026.xlsx', 'FAE Staff Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
     ('Washroom_Summary_Details_2026.xlsx', 'Mall Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
     ('Washroom_Summary_Details_2026.xlsx', 'Zabeel Washroom Details', None, 'Washrooms', 'Washroom_Summery.xlsx'),
     ('Washroom_Summary_Details_2026.xlsx', 'Zabeel Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
@@ -31,14 +32,19 @@ PLAN = [
     ('Washroom_Summary_Details_2026.xlsx', 'CT Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
     ('Washroom_Summary_Details_2026.xlsx', 'FV Washroom Details', None, 'Washrooms', 'Washroom_Summery.xlsx'),
     ('Washroom_Summary_Details_2026.xlsx', 'FV Handicap Washroom', None, 'Washrooms', 'Washroom_Summery.xlsx'),
-    ('Washroom_Summary_Details_2026.xlsx', 'Baby Room Details', None, 'Washrooms', 'Washroom_Summery.xlsx'),
-    ('Washroom_Summary_Details_2026.xlsx', 'Washroom Assets Summery', None, 'Washrooms', 'Washroom_Summery.xlsx'),
+    ('Washroom_Summary_Details_2026.xlsx', 'Baby Room Details', None, 'Washrooms', 'Washroom_Summery.xlsx',
+     dict(keep=list(range(3, 26)) + list(range(45, 79)))),
+    ('Washroom_Summary_Details_2026.xlsx', 'Washroom Assets Summery', None, 'Washrooms', 'Washroom_Summery.xlsx',
+     dict(keep=[3, 5, 6, 9, 10, 11, 12, 13, 15],
+          retotal={11: ('B', 'G', 'SUM({c}3:{c}10)')})),
     # ── washrooms, TDM detailed register (renamed: names clash with the above)
     ('TDM_Mall_Washroom_Details_2026.xlsx', 'Mall Washroom Deatils', 'TDM Washroom (Detailed)', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
     ('TDM_Mall_Washroom_Details_2026.xlsx', 'Staff Washroom Deatils', 'TDM Staff Washroom (Detail)', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
     ('TDM_Mall_Washroom_Details_2026.xlsx', 'Baby Room Details', 'TDM Baby Room (Detailed)', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
     ('TDM_Mall_Washroom_Details_2026.xlsx', 'Handicap Washroom Details', 'TDM Handicap Washroom', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
-    ('TDM_Mall_Washroom_Details_2026.xlsx', 'Washroom Assets Summery', 'TDM Washroom Summery', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx'),
+    ('TDM_Mall_Washroom_Details_2026.xlsx', 'Washroom Assets Summery', 'TDM Washroom Summery', 'Washrooms - TDM detail', 'Mall_Washroom.xlsx',
+     dict(keep=[3, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20],
+          retotal={9: ('B', 'G', 'SUM({c}3:{c}8)'), 16: ('B', 'B', 'SUM({c}13:{c}15)')})),
     # ── bins ────────────────────────────────────────────────────────────────
     ('TDM_Common_Area_Bins_Details_2026.xlsx', 'Common Area Bins Details', None, 'Bins', 'Common_area__Bin.xlsx'),
     ('TDM_Steel_Bins_Details_2026.xlsx', 'Steel Bins Details 2025', None, 'Bins', 'Steel_Bins.xlsx'),
@@ -111,15 +117,70 @@ wb = openpyxl.Workbook()
 wb.remove(wb.active)
 index = wb.create_sheet('Index')
 
+
+
+def subset_sheet(src, tgt, keep, retotal=None):
+    """Copy the two header rows plus only `keep` source rows, renumbering them
+    from row 3 down and remapping formulas. Used to drop FAE rows from tabs that
+    mix several properties; any total whose range spanned a dropped row is
+    rewritten over the retained range via `retotal`."""
+    from fmt import remap
+    for k, d in src.column_dimensions.items():
+        tgt.column_dimensions[k].width = d.width
+    rowmap = {1: 1, 2: 2}
+    for i, r in enumerate(keep):
+        rowmap[r] = 3 + i
+    for r in (1, 2):
+        tgt.row_dimensions[r].height = src.row_dimensions[r].height
+        for c in src[r]:
+            n = tgt.cell(row=r, column=c.column)
+            n.value = c.value
+            if c.has_style:
+                n.font, n.fill = copy(c.font), copy(c.fill)
+                n.border, n.alignment = copy(c.border), copy(c.alignment)
+                n.number_format = c.number_format
+    for i, r in enumerate(keep):
+        nr = 3 + i
+        tgt.row_dimensions[nr].height = src.row_dimensions[r].height
+        for c in src[r]:
+            n = tgt.cell(row=nr, column=c.column)
+            n.value = remap(c.value, {}, rowmap)
+            if c.has_style:
+                n.font, n.fill = copy(c.font), copy(c.fill)
+                n.border, n.alignment = copy(c.border), copy(c.alignment)
+                n.number_format = c.number_format
+    for rng in src.merged_cells.ranges:
+        rr = list(range(rng.min_row, rng.max_row + 1))
+        if all(x in rowmap for x in rr):
+            new = [rowmap[x] for x in rr]
+            if new == list(range(min(new), max(new) + 1)):
+                tgt.merge_cells(start_row=min(new), start_column=rng.min_col,
+                                end_row=max(new), end_column=rng.max_col)
+    for nr, (c1, c2, tpl) in (retotal or {}).items():
+        for ci in range(column_index_from_string(c1), column_index_from_string(c2) + 1):
+            col = get_column_letter(ci)
+            tgt.cell(row=nr, column=ci).value = '=' + tpl.format(c=col)
+    tgt.freeze_panes = src.freeze_panes
+    tgt.sheet_view.zoomScale = src.sheet_view.zoomScale
+
+
 cache, rows = {}, []
-for f, sheet, rename, section, origin in PLAN:
+for entry in PLAN:
+    f, sheet, rename, section, origin = entry[:5]
+    opts = entry[5] if len(entry) > 5 else None
     if f not in cache:
         cache[f] = openpyxl.load_workbook(R + f)
     src = cache[f][sheet]
     name = rename or sheet
     tgt = wb.create_sheet(name)
-    copy_sheet(src, tgt)
-    rows.append((section, name, origin, src.max_row - 2, src.max_column, len(src._images)))
+    if opts:
+        subset_sheet(src, tgt, opts['keep'], opts.get('retotal'))
+        note = 'Filtered - out-of-scope property rows removed'
+    else:
+        copy_sheet(src, tgt)
+        note = None
+    rows.append((section, name, origin, tgt.max_row - 2, tgt.max_column,
+                 len(tgt._images), note))
 
 # ───────────────────────── Index tab ─────────────────────────
 heads = ['#', 'Section', 'Tab', 'Original source file', 'Data rows', 'Columns', 'Photos',
@@ -135,10 +196,10 @@ index.row_dimensions[1].height = 37.4
 index.freeze_panes = 'A2'
 
 prev = None
-for n, (section, name, origin, nrows, ncols, nimg) in enumerate(rows, start=1):
+for n, (section, name, origin, nrows, ncols, nimg, note) in enumerate(rows, start=1):
     r = n + 1
     index.row_dimensions[r].height = 22.0
-    vals = [n, section if section != prev else '', name, origin, nrows, ncols, nimg or '', None]
+    vals = [n, section if section != prev else '', name, origin, nrows, ncols, nimg or '', note]
     prev = section
     for i, v in enumerate(vals, start=1):
         c = index.cell(row=r, column=i, value=v)
