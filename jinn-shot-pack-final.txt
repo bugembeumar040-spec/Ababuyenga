@@ -1,0 +1,2783 @@
+================================================================================
+JINN — FINAL SHOT PACK  ·  64 SHOTS  ·  PASTE-READY
+Ink & watercolour on parchment · script v3 · 16:9 2560x1440 · 11:11
+Every block is self-contained: VO · MOVE · prompt · style · negative
+================================================================================
+
+This supersedes the 30-shot pack. Density raised from 22.4s per image to 10.5s,
+twelve repeated compositions broken up, faceless figures promoted to standard,
+and two shots rewritten that contradicted their own narration. The reasoning is
+in jinn-scene-pack-v3-audit.txt; this file is the working sheet.
+
+VO lines are verbatim from jinnscriptCOPYPASTE.txt v3. The line marked > is the
+one the image lands on. Timings are weighted per shot and derived from the v3
+word count at 135 wpm — re-cut them against the recorded VO before you generate
+anything.
+
+ORDER. Generate S02 first and lock the seed; it sets paper tone, ink weight,
+wash temperature and light angle for all 63 others. Then S20 and S28b, which are
+the two thumbnail candidates. Then work in order.
+
+FIGURES. Faceless throughout, no exceptions: seen from behind, cropped at wrist
+or shoulder, or laid as a flat silhouette wash with one contour line. No face is
+drawn anywhere in this film. Sulayman, the jinn and the Prophet are never
+depicted, and none of the figures below is ever any of them. Arabic is never
+generated — all of it is burned in during the edit from a verified mushaf.
+
+CUTS. CUT 1 drops S07, S07b, S07c, S16, S16b. CUT 2 drops S14, S14b, S15, S15b.
+
+
+================================================================================
+BEAT 01 OPEN / THE STAKE
+================================================================================
+
+--------------------------------------------------------------------------------
+S01 · 0:00–0:09
+MOVE: push in 6%, centred where the hands meet.
+--------------------------------------------------------------------------------
+VO> [serious] Somebody watching this has paid money to have a jinn removed.
+
+PROMPT
+Hand-drawn ink and watercolour illustration on textured aged parchment. A folded
+stack of worn banknotes being pushed across a plain dark wooden table by one
+hand, toward a second open hand waiting to receive it. Both figures cropped at
+the wrist — no arms, no bodies, no faces anywhere in frame. A switched-off
+mobile phone lies face down beside the notes. Loose confident pen contour, warm
+sepia and tan washes with visible wet edges, paper tooth through the tabletop.
+One implied low sun from the left, long flat grey-blue shadow washes thrown
+right. The giving hand tense and the receiving hand relaxed. 16:9, hands and
+notes filling the lower two-thirds, open parchment above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S01b · 0:09–0:15
+MOVE: hold still.
+--------------------------------------------------------------------------------
+VO  Maybe not you. Someone you know. A cousin. A friend's mother.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a knotted cloth
+amulet on a worn cord lying alone on a dark wooden tabletop, its fabric grubby
+and much-handled, the knot tight and unopenable. Nothing else in frame, nobody
+present. Fine pen contour on the weave, muted tan and grey-brown washes,
+granulation in the folds, dry-brush on the frayed cord ends. One long grey-blue
+shadow wash to the right. Ordinary, cheap, and sad. 16:9, object centred low.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S02 · 0:15–0:23
+MOVE: hold dead still. Line-reveal permitted.   ** GENERATE FIRST — reference
+plate **
+--------------------------------------------------------------------------------
+VO> A healer with a phone number, who said he could see what you couldn't.
+
+PROMPT
+Frontal ink and watercolour architectural illustration on textured aged
+parchment of a carved wooden mashrabiya lattice screen filling the frame. The
+geometric interlace is drawn in confident ruled pen lines and filled with a deep
+sepia-brown wash; the space behind it is left as bare unpainted paper, so the
+light reads as the parchment itself. Hard geometric light shapes fall forward
+onto a bare stone floor as clean-edged wedges of raw paper. Nothing visible
+through the lattice — no detail, no depth, no shapes, only bare paper. Visible
+granulation settling in the wood wash, dry-brush along the turned spindles, a
+thin muted-gold line where light catches the carved edge. Perfectly square-on
+and symmetrical. 16:9.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S02b · 0:23–0:30
+MOVE: drift down 20px.
+--------------------------------------------------------------------------------
+VO> Then named a price.
+VO  I want to show you four verses. By the end you'll know exactly why that
+      man couldn't have done what he promised.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment, seen from above, of
+a hand-thrown clay bowl on a low table with a few coins and a folded note
+dropped into it, the bowl positioned as though it has been pushed forward for
+payment. Nobody in frame. Warm tan wash on the clay, muted gold on the coins,
+one flat grey-blue shadow inside the bowl's curve. Paper tooth throughout. 16:9,
+bowl centred, dark table around it.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S03 · 0:30–0:37
+MOVE: pull back 8%, the wash opening out around the shaft.
+--------------------------------------------------------------------------------
+VO> The Quran shuts that door completely. Not with a warning — with a story
+      so humiliating it's hard to hear.
+
+PROMPT
+Wide interior ink and watercolour illustration on textured aged parchment. An
+empty stone chamber laid in a thin deep indigo-slate wash with the paper tooth
+reading through it, and a single narrow shaft of hard daylight entering high
+from the left, drawn as a clean-edged wedge of bare unpainted parchment striking
+the floor. Flecks of raw paper left in the beam for suspended dust. Nothing else
+in the room — no furniture, no objects, no figures. Dressed stone blocks in
+loose pen contour, granulation pooling in the joints, dry-brush across the
+pitted surfaces. One muted-gold warmth inside the shaft only, grey-blue shadow
+elsewhere. Vast, quiet, empty. 16:9, the beam entering upper-left and landing
+lower-right.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S03b · 0:37–0:44
+MOVE: push in 5%, very slow.
+--------------------------------------------------------------------------------
+VO  But we start somewhere else. With a word you've said a thousand times
+      and never once looked at.
+VO> Jinn.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a single figure
+seen from directly behind, small in the frame, standing alone at the threshold
+of a vast empty stone chamber and looking into it. Featureless — a flat cool
+grey-blue silhouette wash with one contour line, no face, no detail of any kind.
+A narrow shaft of daylight falls across the floor ahead of them as bare
+unpainted paper. Dressed stone in loose pen contour. Small human, enormous room.
+16:9, figure low and left, the chamber opening away.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 02 THE ROOT
+================================================================================
+
+--------------------------------------------------------------------------------
+S04 · 0:44–0:57
+MOVE: push in 5%, very slow.
+--------------------------------------------------------------------------------
+VO  It isn't a name. It's a description.
+VO> The root is three letters. Jeem, noon, noon. They mean: to conceal. To
+      cover something so it can't be seen.
+
+PROMPT
+Three-quarter ink and watercolour architectural illustration on textured aged
+parchment of a carved wooden mashrabiya screen seen at an angle from inside a
+dark room, warm daylight pressing through the geometric openings and falling
+across a bare stone floor in sharp repeating shapes of unpainted paper. The room
+in front of the screen is empty, laid in a soft grey-blue wash. Aged hardwood in
+loose pen contour with visible turning marks, granulation in the deep sepia
+wash, dust motes left as tiny flecks of raw paper in the light. Nothing
+discernible beyond the screen — bare paper only, no shapes, no depth. Single
+implied warm key from behind the lattice. 16:9, screen occupying the right two-
+thirds, open parchment left.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S05 · 0:57–1:07
+MOVE: drift right 40px, revealing more depth in the foliage.
+--------------------------------------------------------------------------------
+VO> Janna. Paradise, the garden. Growth so thick the ground disappears under
+      it.
+
+PROMPT
+Close ink and watercolour botanical illustration on textured aged parchment of
+dense dark garden foliage — layered broad leaves painted wet-on-wet in deep
+garden green with soft bleeding edges, so thick the ground beneath is completely
+hidden and unreadable. Fine pen venation drawn over the dried wash on the
+foremost leaves only. One narrow shaft of low sun penetrates the canopy and
+lands on a single leaf, rendered as unpainted paper with a thin gold rim. Water
+droplets left as tiny reserved paper dots. Deeper green pooling and granulating
+at the frame edges, paper tooth breaking through the mass. No sky, no horizon,
+no path, nothing man-made anywhere. 16:9, dense and enclosing.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S05b · 1:07–1:17
+MOVE: push in 7%, slow.
+--------------------------------------------------------------------------------
+VO> Janeen. An unborn child. Hidden in the womb where nobody can look.
+
+PROMPT
+Ink and watercolour botanical illustration on textured aged parchment of a
+single seed pod split open just enough to show one pale curled seed held inside
+the husk, everything else about it closed. Fine pen contour on the pod's ribs,
+soft tan and olive washes with wet edges, the seed itself left as bare unpainted
+paper. Deep shadow inside the opening. Nothing else in frame. Protective and
+enclosed. 16:9, pod centred, generous parchment around it.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S05c · 1:17–1:26
+MOVE: push in 6%.
+--------------------------------------------------------------------------------
+VO> Majnoon. We translate it madman. It means a mind covered over.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a lit oil lamp
+with a thick cloth thrown over it, the flame still burning underneath and its
+light escaping only as a dull unreadable glow through the fabric. Nobody in
+frame. Heavy grey-brown wash on the cloth with granulation in the folds, one
+muted-gold bloom bleeding through the weave, no clean light anywhere. Loose pen
+contour. Muffled and wrong. 16:9, lamp centred low.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S06 · 1:26–1:36
+MOVE: push in 6%, settling on the boss of the shield.
+--------------------------------------------------------------------------------
+VO> And junna. A shield. The thing you get behind so you can't be reached.
+
+PROMPT
+Ink and watercolour still life on textured aged parchment of a plain round
+hammered brass shield resting upright against a dark stone wall, its face
+completely unadorned with no emblem, no decoration and no markings. Drawn in a
+single confident pen contour, filled with a muted-gold wash that grades to bare
+paper across the curvature where the light strikes. Hammer planishing suggested
+with small dry-brush stipples, warm aged patina granulating in the lower half.
+Nothing else in frame. One implied low sun from the left, a single flat grey-
+blue shadow wash thrown long to the right. Solid and settled. 16:9, shield
+centred, open parchment around it.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S06b · 1:36–1:47
+MOVE: hold dead still — WASH BLOOM, and the cognate text reveals over it one at
+a time.
+--------------------------------------------------------------------------------
+VO  Same three letters, every time.
+VO> That's the whole category. Not evil. Concealed.
+VO  And that's where it goes wrong at the start — because you were handed a
+      category and told it was a character.
+
+PROMPT
+Flat overhead ink and watercolour illustration on textured aged parchment of
+five objects laid in a neat row on a plain surface, evenly spaced and equally
+lit: a sprig of dense dark foliage, a closed seed pod, a cloth-covered lamp, a
+small round brass shield, and a carved fragment of wooden lattice. Nothing else
+in frame, nobody present. Identical pen contour and identical short grey-blue
+shadow under each, so the row reads as one family. Muted earthy washes
+throughout. 16:9, row running across the centre, generous open parchment above
+and below for text.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 03 MADE OF  ** all drop with CUT 1 **
+================================================================================
+
+--------------------------------------------------------------------------------
+S07 · 1:47–1:57
+MOVE: push in 8%, slow, into the distortion.
+--------------------------------------------------------------------------------
+VO> Marij min nar.
+VO  Not a log burning. Not smoke. The clear moving part of a flame — the
+      part your eye goes straight through.
+
+PROMPT
+Close ink and watercolour illustration on textured aged parchment of the air
+directly above a single small flame — a rising column of heated air drawn as
+fine wavering pen ripple lines over a soft ember-orange wash bleeding wet-on-wet
+upward into bare paper. No smoke, no visible fuel source. The flame body itself
+sits at the very bottom edge, almost entirely out of frame, its base the most
+saturated ember in the film. Granulation settling where the wash pools, dry-
+brush breaks as it thins. Nothing else in frame at all. Ember only against warm
+parchment — no red, no glow effect. 16:9, the distortion filling the centre.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S07b · 1:57–2:04
+MOVE: push in 6%.
+--------------------------------------------------------------------------------
+VO> [serious] Ar-Rahman, fifteen. He made man from clay.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a slab of wet
+river clay with a single open handprint pressed deep into its surface, the clay
+still damp and holding the impression sharply. No hand present in frame, only
+the print it left. Loose pen contour around the slab, heavy grey-brown wash with
+granulation pooling in the impression, dry-brush at the drying edges. One long
+grey-blue shadow to the right. 16:9, slab filling the lower half.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S07c · 2:04–2:12
+MOVE: pull back 8%.
+--------------------------------------------------------------------------------
+VO  Al-Hijr adds one word everyone reads past. Before.
+VO> They were here before Adam.
+
+PROMPT
+Wide ink and watercolour illustration on textured aged parchment of an empty
+plain at first light with a single small fire already burning on it, no
+structures, no footprints, no marks of any kind on the ground anywhere. Ember
+orange wash at the fire bleeding into bare paper, everything else in thin cool
+grey-blue with dry-brush ground texture. Bare parchment sky. Nothing has
+happened here yet except this. 16:9, fire small and low, vast empty ground
+around it.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 04 IBLIS  ** correction 1 of 4 **
+================================================================================
+
+--------------------------------------------------------------------------------
+S08 · 2:12–2:24
+MOVE: push in 5% and drift down 20px.
+--------------------------------------------------------------------------------
+VO  Which brings us to the one everybody gets wrong.
+VO> You know the scene. Allah tells the angels to bow to Adam. They bow. One
+      doesn't.
+
+PROMPT
+Ink and watercolour architectural illustration on textured aged parchment. A
+long row of identical empty stone alcoves set into a wall, receding evenly
+across the frame in ruled pen perspective, every one of them empty — except that
+one alcove near the centre is left as bare unpainted parchment while all the
+others carry a warm sepia wash. No objects in any alcove. No figures anywhere.
+Dressed stone in loose contour, granulation pooling along the arch lines, dry-
+brush across the pitted faces. Grey-blue shadow washes beneath each opening,
+identical in weight. Rigidly symmetrical, broken only by that one reserved
+alcove. 16:9.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S08b · 2:24–2:35
+MOVE: drift right 30px.
+--------------------------------------------------------------------------------
+VO> And every version you've ever been told calls him a fallen angel.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a long even row
+of tall reeds all bent low in the same direction by a wind, drawn with fluid pen
+strokes — except one single reed near the centre standing perfectly straight and
+unbent. Nothing else in frame, nobody present. Soft olive and tan washes, the
+upright reed left palest, one long grey-blue shadow field beneath the row. 16:9,
+row running across the frame, the upright reed slightly off-centre.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S09 · 2:35–2:52
+MOVE: none. Absolutely locked off.   ** SILENCE 1 of 3 — the image holds alone
+**
+--------------------------------------------------------------------------------
+VO  Al-Kahf. Verse fifty. Same scene. Same refusal. Then three words.
+VO> Kana min al-jinn.   <- spliced silence, ~2s room tone either side
+VO  He was of the jinn. Not an angel. He never was one.
+
+PROMPT
+Locked-off ink and watercolour still life on textured aged parchment. A single
+blank card lying alone and square on dark matte stone, the card left as bare
+unpainted paper with a soft deckled edge, completely unprinted with no writing
+or markings anywhere on it. The stone around it laid in a deep sepia-grey wash
+with heavy granulation and visible paper tooth. One implied light from the upper
+left throwing a single long flat grey-blue shadow to the right. A slight cockle
+drawn into the card's surface with two light pen strokes. Absolute stillness,
+nothing else in frame. 16:9, card centred low with generous open parchment above
+for the verse card.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S10 · 2:52–3:06
+MOVE: pull back 6%, isolating the upright stone.
+--------------------------------------------------------------------------------
+VO> And I'll be honest — I believed the fallen angel version most of my
+      life.
+
+PROMPT
+Flat overhead ink and watercolour illustration on textured aged parchment,
+looking straight down. A tight even grid of identical smooth pale stones on dark
+matte sand, laid in neat rows, all of them lying flat — except one single stone
+standing upright on its edge, breaking the pattern. Each stone a simple pen oval
+with a pale tan wash; every flat one casts an identical short grey-blue shadow
+wash, while the upright one throws a long anomalous shadow across its
+neighbours. Sand as a dry-brush sepia field with paper tooth reading through. No
+warmth anywhere, muted and cool. 16:9, grid centred with generous parchment
+margin.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S10b · 3:06–3:18
+MOVE: push in 5%.
+--------------------------------------------------------------------------------
+VO> Nobody corrected me. It's in the paintings. It's in the way people talk
+      in the masjid car park.
+VO  It isn't a small thing to have wrong. It's the entire point of the
+      story.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of two empty plastic
+chairs set out against a plain rendered wall at dusk, a pair of used tea glasses
+left on the ground beside them, a scatter of shoes at the edge of frame. Nobody
+present. Ordinary, contemporary, unremarkable. Loose pen contour, muted tan and
+grey washes, warm lamplight from off-frame right pooling on the wall as bare
+paper. 16:9, chairs low in frame, wall filling the upper half.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S11 · 3:18–3:31
+MOVE: push in 7%, decisive.
+--------------------------------------------------------------------------------
+VO  But he wasn't. He was jinn. Which means he had the one thing angels
+      don't.
+VO> A choice. The same thing sitting in your chest right now.
+
+PROMPT
+Ink and watercolour still life on textured aged parchment of a single set of old
+brass balance scales on a dark matte surface, both pans completely empty and the
+beam perfectly level and at rest. Nothing in either pan. Drawn in fine confident
+pen line with the beam ruled dead horizontal, filled with a muted-gold wash
+grading to bare paper along the upper edge, patina granulating in the recesses.
+A firm grey-blue contact shadow anchoring the base, one long shadow wash thrown
+right from an implied upper-left sun. Nothing else in frame. Poised, undecided,
+waiting. 16:9, scales centred low, open parchment above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S11b · 3:31–3:42
+MOVE: pull back 6%.
+--------------------------------------------------------------------------------
+VO> He wasn't a perfect thing that broke. He was a thing that decided.
+VO  That's why the story is pointed at you. It only works as a warning if he
+      could have done otherwise. That's one.
+
+PROMPT
+Flat overhead ink and watercolour illustration on textured aged parchment of a
+single set of footprints in fine sand walking toward a fork where the ground
+divides in two — and stopping dead at the junction, with no prints continuing
+down either path. Nobody in frame. Fine dry-brush sand texture, soft grey-blue
+inside each print, bare parchment on the lit ground. 16:9, fork centred, prints
+entering from the lower edge.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 05 NOT ALL EVIL  ** correction 2 of 4 **
+================================================================================
+
+--------------------------------------------------------------------------------
+S12 · 3:42–3:55
+MOVE: drift left 30px, slow. Line-reveal permitted.
+--------------------------------------------------------------------------------
+VO  [serious] Second thing. They're not all evil.
+VO  Al-Jinn, verse eleven. And notice who's speaking. This is the jinn,
+      talking about themselves.
+VO> Among us are the righteous. And among us are others below that.
+
+PROMPT
+Wide ink and watercolour illustration on textured aged parchment, composed as a
+split-frame contrast: a desert at pre-dawn where the ground divides into two
+distinct paths running away from the viewer in different directions, separated
+by a low ridge of stone that reads as a clean vertical division down the centre.
+The left path is laid in warm ochre and pale gold wash catching early light; the
+right path sits in a cool grey-blue shadow wash. Same pen weight and same
+rendering on both halves — only the colour separates them. No figures, no
+footprints, no structures anywhere. Wind-rippled sand as dry-brush strokes, bare
+parchment sky with one warm band at the horizon. Vast and quiet. 16:9, the fork
+low in frame.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S12b · 3:55–4:06
+MOVE: push in 6%.
+--------------------------------------------------------------------------------
+VO> We follow different paths.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment, split-frame: two
+figures seen from behind walking away from the viewer down two diverging desert
+paths, one on each side of a low stone ridge, already far apart. Both
+featureless — flat silhouette washes with one contour line, no faces, no detail.
+The left figure walks in warm ochre light, the right in cool grey-blue shadow.
+Identical pen weight on both. 16:9, figures small and low, the fork opening
+between them.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S13 · 4:06–4:18
+MOVE: push in 6% on the lit half of the line.
+--------------------------------------------------------------------------------
+VO> They have believers. They have disbelievers. The ones who get it right
+      and the ones who don't.
+
+PROMPT
+Close ink and watercolour illustration on textured aged parchment of a single
+line of small identical pale stones running across dark matte ground from lower-
+left to upper-right, half of them falling inside a hard shaft of warm light and
+half sitting in deep shadow, the light's edge cutting the line cleanly in the
+middle as a hard diagonal boundary between bare unpainted paper and a grey-blue
+wash. Identical pen contour on every stone, only the wash beneath them changing.
+Drifted dust as dry-brush flecks. Muted gold in the lit half, cool throughout
+the shadowed half. 16:9, line running diagonally, generous open parchment above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S13b · 4:18–4:30
+MOVE: drift left 40px along the doors.
+--------------------------------------------------------------------------------
+VO> Exactly like the street you live on.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a row of
+identical doorways along an ordinary residential street wall at dusk, seen
+straight on — some with a lamp burning above them drawn as bare unpainted paper,
+some dark. Every door the same size, the same shape, the same pen weight.
+Completely empty, nobody in the street. Muted tan wall wash, grey-blue in the
+unlit bays, muted gold at the lit ones. Utterly ordinary. 16:9, doors running
+the full width.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S13c · 4:30–4:40
+MOVE: push in 5%, settling. WASH BLOOM as the lamps take light.
+--------------------------------------------------------------------------------
+VO> Two verses later: when we heard the guidance, we believed in it.
+VO  So jinn was never another word for shaytan. Hold onto that. It comes
+      back at the end. That's two.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a loose group of
+small clay oil lamps set on a stone floor, most of them unlit and one or two
+newly burning. Nobody in frame. Warm tan clay wash, the lit flames left as bare
+unpainted paper with a thin muted-gold rim, the unlit lamps cool and grey.
+Granulation in the clay, dry-brush on the stone. Quiet and hopeful. 16:9, lamps
+grouped low and centre.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 06 THE NIGHT  ** all drop with CUT 2 **
+================================================================================
+
+--------------------------------------------------------------------------------
+S14 · 4:40–4:50
+MOVE: push in 5%, very slow, toward the opening.
+--------------------------------------------------------------------------------
+VO  And here's the part nobody tells you about.
+VO> There was a night. An ordinary night. A group of them were passing
+      through.
+
+PROMPT
+Exterior night ink and watercolour illustration on textured aged parchment. A
+low doorway in an ancient stone wall seen from outside, the whole scene laid in
+a thin deep indigo-slate wash with the paper tooth reading straight through it.
+Warm lamplight spills out from within across the threshold and onto the sand,
+drawn as a reserved pool of bare parchment with a muted-gold edge; the interior
+beyond is not visible. Nobody in the doorway. Nothing standing in the light.
+Rough dressed stone in loose pen contour, wind-scoured, drifted sand at the base
+in dry-brush. No moon and no stars. Still and listening. 16:9, doorway centred.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S14b · 4:50–5:00
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+VO> The Prophet, peace be upon him, was reciting — and he didn't know they
+      were there.
+VO  Al-Ahqaf tells it from their side. One of them said to the others:
+      quiet. Listen.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a small group of
+travelling figures halted in the dark outside a low stone wall, seen from behind
+and slightly above, all of them turned toward warm lamplight spilling from a
+doorway ahead. Featureless — flat cool silhouette washes with single contour
+lines, no faces, no detail, nobody identifiable. Thin indigo-slate night wash
+over the whole scene with paper tooth reading through. The light itself is bare
+unpainted paper. Still, arrested, listening. 16:9, figures low and small.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S15 · 5:00–5:10
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+VO> When it finished they went home to their own people and said: we have
+      heard an amazing Quran.
+VO  Nobody summoned them. No ritual. No circle on the ground.
+
+PROMPT
+Close ink and watercolour illustration on textured aged parchment of an open
+manuscript resting on a low carved wooden stand, its pages completely blank and
+unprinted with no writing anywhere, left as bare unpainted paper with a soft
+deckled edge and a slight drawn cockle. Lit by a single oil lamp just out of
+frame, so a warm muted-gold wash gathers at the outer edges of the pages and
+falls to a deep sepia wash beyond the stand. The blind-ruled lines of an
+unwritten page suggested with two or three faint dry pen strokes. Carved wood in
+confident contour with granulation in the recesses. Reverent and quiet. 16:9,
+manuscript low-centre, open parchment above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S15b · 5:10–5:20
+MOVE: pull back 8%.
+--------------------------------------------------------------------------------
+VO> They walked past. They heard it. And it moved them.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of the same small
+group of travelling figures now walking away across open ground at first light,
+seen from behind and further off, spread out and unhurried. Featureless flat
+silhouette washes, one contour line each, no faces. The night wash gone — warm
+tan ground, bare parchment sky, long soft grey-blue shadows stretching back
+toward the viewer. Changed and quiet. 16:9, figures small on the lower third.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 07 PURPOSE  ** all drop with CUT 1 **
+================================================================================
+
+--------------------------------------------------------------------------------
+S16 · 5:20–5:28
+MOVE: hold still — short beat, no room for a move.
+--------------------------------------------------------------------------------
+VO  Adh-Dhariyat, fifty-six. I did not create the jinn and mankind except to
+      worship Me.
+VO> One sentence. Both of us inside it.
+
+PROMPT
+Locked-off ink and watercolour still life on textured aged parchment of two
+identical rough clay vessels standing side by side on dark matte stone, the same
+height and the same form, both completely plain and unglazed with no markings.
+Identical pen contour and identical tan wash on each, throwing two identical
+long flat grey-blue shadows to the right from an implied low sun at the left.
+Fine throwing rings drawn as light concentric pen strokes, mineral grit as dry-
+brush stipple in the lower third. One faint muted-gold reserve on the near rims.
+Balanced and equal — neither vessel favoured in any way. 16:9, vessels centred
+low, generous open parchment above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S16b · 5:28–5:36
+MOVE: push in 5%.
+--------------------------------------------------------------------------------
+VO> You've spent your whole life reading a book that was never addressed to
+      you alone.
+
+PROMPT
+Flat overhead ink and watercolour illustration on textured aged parchment of the
+same two identical clay vessels seen from directly above, standing side by side
+inside one single hand-drawn circle that encloses them both, the circle ruled in
+one continuous slightly uneven pen stroke. Nothing else inside the circle,
+nothing outside it. Identical tan washes on both vessels, identical shadows.
+16:9, circle centred, generous parchment around it.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 08 WHAT THEY CAN DO
+================================================================================
+
+--------------------------------------------------------------------------------
+S17 · 5:36–5:47
+MOVE: pull back 8%, revealing the scale of the hall.
+--------------------------------------------------------------------------------
+VO  [serious] So what can they actually do?
+VO  Sulayman, peace be upon him, had them under his command. Not summoned.
+      Given, by Allah.
+VO> An-Naml describes his court. His soldiers of the jinn, and men, and
+      birds.
+
+PROMPT
+Wide ink and watercolour architectural illustration on textured aged parchment
+of a vast unfinished stone hall at night — massive dressed blocks stacked into
+half-built columns, rough timber scaffolding drawn in ruled pen line, cut stone
+waiting on the floor. Completely deserted. No figures, no tools in motion. The
+whole scene laid in a thin indigo-slate night wash with the paper reading
+through, cold moonlight from high right reserved as bare parchment on the upper
+block faces and throwing long flat architectural shadow washes across the floor.
+Chisel marks as short dry-brush ticks, stone dust as dry-brush underfoot. One
+small muted-gold pool from a distant unseen lamp. Monumental and empty. 16:9.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S17b · 5:47–5:57
+MOVE: push in 6% up the steps.
+--------------------------------------------------------------------------------
+VO> He needed a throne brought from another kingdom. An ifrit said he'd have
+      it there before Sulayman could stand up.
+
+PROMPT
+Ink and watercolour architectural illustration on textured aged parchment of a
+broad empty stone dais at the top of a short flight of steps, with a clean
+rectangular patch of undisturbed floor at its centre where dust has not settled
+— the exact footprint of something that stood there and is gone. Nothing on the
+dais. Nobody in frame. Ruled pen perspective, cool grey stone washes, the clean
+patch left as bare unpainted paper. 16:9, dais centred, steps running toward the
+viewer.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S18 · 5:57–6:07
+MOVE: push in 7% on the vessel.
+--------------------------------------------------------------------------------
+VO> Surah Sad describes the rest in four words. Every builder and diver.
+
+PROMPT
+Ink and watercolour still life on textured aged parchment of a single enormous
+cast bronze basin standing alone on a dark stone floor, drawn far too large to
+have been lifted by any ordinary means, its surface hammered and deeply
+patinated. Confident pen contour, a deep bronze wash grading to bare paper along
+the lit left curvature, verdigris granulating in the recesses, hammer marks
+picked out as small dry-brush stipples. Nothing else in frame. One long flat
+grey-blue shadow wash thrown right from an implied low sun at the left. Muted
+gold on the rim, cool everywhere else. 16:9, basin centred low, open parchment
+above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S18b · 6:07–6:17
+MOVE: drift up 30px through the levels.
+--------------------------------------------------------------------------------
+VO> Saba lists what they made. Elevated chambers. Basins the size of
+      reservoirs. Cauldrons too heavy to move.
+VO  So this isn't nothing. Strength. Speed. Real, physical power.
+
+PROMPT
+Ink and watercolour architectural cutaway drawing on textured aged parchment
+showing a tall building sectioned open to reveal four stacked elevated chambers
+one above the other, drawn as a measured elevation in fine ruled pen line with
+light tan and grey wash fills. Every chamber completely empty. No figures, no
+scale bar, no annotations, no numbers, no text of any kind. Paper tooth through
+the washes. Technical and cool. 16:9, section filling the frame.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S19 · 6:17–6:27
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+VO  But look at the conditions. Under a prophet. By Allah's permission.
+      Once, in all of recorded history.
+VO> Never for sale. Never for you.
+
+PROMPT
+Locked-off ink and watercolour still life on textured aged parchment of a heavy
+iron chain lying coiled on dark matte stone, its links thick and pitted with
+age, the coil pressing into fine dust beneath it. Both ends of the chain visible
+and free, attached to nothing. Each link drawn in firm pen contour with a cool
+grey-brown wash, flaking scale suggested by dry-brush breaks and heavy
+granulation settling in the pitting. One single long unbroken grey-blue shadow
+wash to the right from an implied upper-left sun. No warmth anywhere in frame.
+Settled and final. 16:9, chain centred low, open parchment above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 09 THE DEATH  ** PEAK · correction 3 of 4 **
+================================================================================
+
+--------------------------------------------------------------------------------
+S20 · 6:27–6:38
+MOVE: push in 4%, barely perceptible. Line-reveal permitted.
+--------------------------------------------------------------------------------
+VO  And then Sulayman died.
+VO> He died standing up. Leaning on his staff.
+
+PROMPT
+Ink and watercolour still life on textured aged parchment. A single tall wooden
+staff standing perfectly upright and alone on a dark polished stone floor,
+nothing holding it, nothing leaning against it, no figure anywhere in frame.
+Drawn as one confident vertical pen stroke with a warm sepia wash and dry-brush
+grain, worn smooth and paler at the grip. An implied low sun from the left
+throws one extremely long flat grey-blue shadow wash across the floor to the
+right, running nearly to the frame edge. Floor as a thin wash fading to bare
+parchment at the margins. One faint ember warmth low on the shaft, the only
+colour in the frame. Absolutely still. 16:9, staff centred and vertical, vast
+open parchment either side.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S20b · 6:38–6:49
+MOVE: pull back 10%, the room opening around the staff.
+--------------------------------------------------------------------------------
+VO> And nobody noticed.
+
+PROMPT
+Wide ink and watercolour illustration on textured aged parchment of a vast half-
+built stone hall at night with a single tall wooden staff standing upright and
+alone in the middle distance, nothing holding it — and all around it, labouring
+figures bent to their work, cutting and lifting and carrying, none of them
+looking toward the staff. All figures featureless flat silhouette washes with
+single contour lines, seen from behind or in featureless outline, no faces
+anywhere. Thin indigo-slate night wash, cold light reserved as bare paper on the
+block faces. The staff is the only vertical thing not moving. 16:9.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S21 · 6:49–6:59
+MOVE: drift right 40px across the work.
+--------------------------------------------------------------------------------
+VO> The jinn kept working. Cutting. Lifting. Carrying.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of stone-cutting
+work in progress at night — dressed blocks part-stacked into a rising wall, a
+block mid-lift on ropes, stone dust hanging in the air, chisels in use.
+Labouring figures throughout, all featureless flat silhouette washes with single
+contour lines, no faces anywhere, caught mid-action rather than posed. Thin
+indigo-slate night wash, cold light on the upper block faces as bare paper, long
+shadow washes across the ground. Busy, rhythmic, ongoing. 16:9.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S21b · 6:59–7:07
+MOVE: push in 8%.
+--------------------------------------------------------------------------------
+VO> Building the thing he'd told them to build. For a man who was already
+      dead.
+VO  The Quran doesn't say how long. Days. Weeks. Long enough that it
+      mattered.
+
+PROMPT
+Close-crop ink and watercolour illustration on textured aged parchment of a
+chisel struck into dressed stone mid-cut, a burst of pale stone chips and dust
+thrown off the edge and hanging in the air, the mallet blurred out of frame. The
+holding hand cropped at the wrist, no arm, no body, no face. Dense pen hatching
+in the stone face, warm sepia on the tool handle, chips left as bare unpainted
+paper. 16:9, point of contact slightly off-centre.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S22 · 7:07–7:17
+MOVE: push in 10%. The most decisive move in the film.   ** PEAK **
+--------------------------------------------------------------------------------
+VO> Until a small creature of the earth ate through the wood of that staff.
+
+PROMPT
+Tight close-crop ink and watercolour illustration on textured aged parchment of
+the base of an aged wooden staff where it meets dark polished stone, a small
+clean bored hole eaten through the grain near the bottom, fine pale wood dust
+fallen in a ring around the base. No insect visible anywhere. Deep grain drawn
+as dense parallel pen hatching following the curve of the shaft, warm sepia wash
+over it, the bored hole a hard dark pen-filled void with granulation at its rim.
+The dust ring left as bare unpainted paper. One flat grey-blue shadow wash to
+the right, the stone floor thinning to raw parchment within a hand's width of
+the staff. 16:9, hole slightly off-centre.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S22b · 7:17–7:26
+MOVE: push in 9%, following the line down.
+--------------------------------------------------------------------------------
+VO> And he fell. Saba, verse fourteen.
+VO  When he fell, it became clear to the jinn — that if they had known the
+      unseen, they would never have stayed in that humiliating labour.
+
+PROMPT
+Extreme close-crop ink and watercolour illustration on textured aged parchment
+of a fine trail of pale wood dust running down the grain of an aged wooden staff
+from a point higher up, gathering in a small drift at the base. No insect
+visible anywhere. Dense parallel pen hatching following the shaft's curve, warm
+sepia wash, the dust trail left as bare unpainted paper. Extremely tight. 16:9,
+the trail running vertically slightly off-centre.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S23 · 7:26–7:39
+MOVE: hold dead still four seconds, then push in 4%.   ** SILENCE 2 of 3 — the
+image holds alone **
+--------------------------------------------------------------------------------
+VO> They could not see a dead man standing in front of them.   <- spliced
+      silence, ~2s room tone either side
+VO  Of every example Allah could have chosen, He chose that one. Not a rule.
+      Not a lecture.
+
+PROMPT
+Ink and watercolour still life on textured aged parchment of a tall wooden staff
+now lying flat and fallen across a dark polished stone floor, a small ring of
+pale wood dust beside it left as bare paper, its shadow now flat and broken
+across the floor instead of running long. Nothing else in frame, no figure
+anywhere. The same pen weight and the same warm sepia wash as the upright staff,
+so it reads as the identical object — only the orientation has changed. A faint
+reflection suggested with one horizontal dry-brush drag beneath it. Cool and
+muted, no ember left anywhere. Final and quiet. 16:9, staff running diagonally
+across the lower third, vast open parchment above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S23b · 7:39–7:49
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+VO> A room full of them, working for a corpse, because they couldn't see
+      what was standing six feet away.
+
+PROMPT
+Wide ink and watercolour illustration on textured aged parchment of a half-built
+stone hall where every labouring figure has stopped mid-task and turned toward a
+fallen wooden staff lying on the floor, tools still in their hands, a dropped
+block resting where it landed. All figures featureless flat silhouette washes
+with single contour lines, no faces anywhere. Thin indigo-slate night wash,
+everything arrested. The stillest crowded frame in the film. 16:9, staff low and
+central, figures ringed around it at a distance.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 10 THE FRAUD + CTA
+================================================================================
+
+--------------------------------------------------------------------------------
+S24 · 7:49–7:57
+MOVE: push in 8% onto the notes.
+--------------------------------------------------------------------------------
+VO  That's three. And it's the one that costs people money.
+VO  Because if they can't see a dead king in the room — they cannot see your
+      future.
+VO> So the man who told you he'd consulted one, then named his price...
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of the same plain
+dark wooden table and the same folded stack of worn banknotes from the opening
+shot, framed slightly tighter, the switched-off phone still lying face down
+beside them. Both chairs empty. Nobody in frame. Identical pen contour and
+identical tabletop grain to the opening, but the light has changed — colder now,
+raking lower from the left, the shadow washes longer and greyer than before and
+the warm tan almost drained out of the wood. The muted-gold highlight on the
+phone is nearly gone. Paper tooth reading through everywhere. 16:9, table in the
+lower two-thirds, open parchment above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S24b · 7:57–8:05
+MOVE: push in 10%. Hard — the hardest move in the film after S22.
+--------------------------------------------------------------------------------
+VO> ...was selling you something the Quran took apart fourteen hundred years
+      ago.
+
+PROMPT
+Close-crop ink and watercolour illustration on textured aged parchment of a bare
+patch of dark wooden tabletop where a stack of banknotes was lying — the notes
+gone, only a faint clean rectangle in the dust and one ring mark left behind.
+Nobody in frame, nothing else on the table. Warm sepia grain in loose pen
+contour, the clean rectangle left as bare unpainted paper, granulation in the
+surrounding dust. 16:9, the empty patch centred.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S24c · 8:05–8:12
+MOVE: hold still.
+--------------------------------------------------------------------------------
+VO> [warmly] If that's useful to someone you know, send it to them. And
+      subscribe, because there's one more — and it's the one that changes
+      what you do tonight.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a small lit clay
+oil lamp being passed from one hand to another, both hands cropped at the wrist
+— no arms, no bodies, no faces. The flame left as bare unpainted paper with a
+thin muted-gold rim, warm light spilling across both hands. Loose pen contour,
+muted tan washes, soft grey-blue beyond the light. Warm and direct. 16:9, hands
+and lamp centred, generous parchment around them for the subscribe graphic.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 11 THE TRAVELLER  ** correction 4 of 4 **
+================================================================================
+
+--------------------------------------------------------------------------------
+S25 · 8:12–8:24
+MOVE: pull back 10%, the valley opening around the objects.
+--------------------------------------------------------------------------------
+VO  Number four. Picture it, because people really did this.
+VO> You're travelling. Night comes down in a valley you don't know.
+
+PROMPT
+Wide ink and watercolour illustration on textured aged parchment of a narrow
+desert valley at last light, steep dark rock walls either side drawn in loose
+angular pen contour with a deep grey-blue wash, and a flat sand floor between
+them, entirely deserted. A rough woollen travelling cloak and a plain clay water
+jar are set down together on the sand in the middle distance, as though left
+there deliberately. Nobody present. Coarse wool suggested by dry-brush texture,
+unglazed clay in a warm tan wash. Wind-rippled sand as fine dry-brush strokes.
+One last band of muted gold reserved at the horizon, long shadow washes thrown
+left. Exposed and faintly uneasy. 16:9, objects low in frame, rock walls rising
+either side.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S25b · 8:24–8:36
+MOVE: pull back 10%.
+--------------------------------------------------------------------------------
+VO> You're sleeping out in the open.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a lone travelling
+figure seen from directly behind, small in the frame, standing at the mouth of a
+narrow desert valley at last light with a woollen cloak over the shoulders and a
+clay jar set down at the feet. Featureless — a flat cool grey-blue silhouette
+wash with one contour line, no face, no detail of any kind. Steep dark rock
+walls rising either side in loose angular pen contour, one band of muted gold
+reserved at the horizon. 16:9, figure low and small, valley towering.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S25c · 8:36–8:47
+MOVE: push in 6%.
+--------------------------------------------------------------------------------
+VO> And before you lie down you say it out loud: I seek refuge with the
+      master of this place. Keep me safe tonight.
+VO  That was ordinary. That was normal practice.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a pair of open
+hands raised in supplication — turned not upward to the sky but outward toward a
+dark rock wall directly in front of them. Cropped at the wrists, no arms, no
+body, no face. Coarse dry-brush texture on the rock, cool grey-blue wash, the
+palms left as the palest paper in frame. The gesture is right and the direction
+is wrong. 16:9, hands low and centre, rock filling the upper frame.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S26 · 8:47–9:00
+MOVE: pull back 12%, the weight becoming visible as the frame widens.
+--------------------------------------------------------------------------------
+VO  Al-Jinn, verse six. And there were men from mankind who sought refuge in
+      men from the jinn — so they only increased them in burden.
+VO  One word carries the verdict. Rahaqa.
+VO> They asked for protection. What they got was weight.
+
+PROMPT
+Close ink and watercolour illustration on textured aged parchment of a single
+large rough stone resting on top of a folded woollen cloak on dark sand,
+pressing the fabric down and visibly deforming it under the load. Nothing else
+in frame, nobody present. The cloak's compressed folds drawn as tight crowded
+pen lines bunching beneath the stone and relaxing at the edges, coarse weave as
+dry-brush across the surface. The stone in a heavy cool grey wash with
+granulation pooling along its underside. One long flat grey-blue shadow wash
+thrown right from an implied upper-left sun. No warmth anywhere. Heavy and
+oppressive. 16:9, subject centred low, open parchment above.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S26b · 9:00–9:11
+MOVE: drift right 40px, following.
+--------------------------------------------------------------------------------
+VO> Seeking safety from something hidden doesn't make you safe. It makes you
+      owned.
+VO  That's four.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of the same lone
+travelling figure seen from behind, now walking on with shoulders stooped and
+back visibly bent under a large rough stone strapped across it, gait uneven.
+Featureless flat grey-blue silhouette wash with one contour line, no face, no
+detail. Flat sand ground in dry-brush, one long shadow wash dragging behind
+them. No warmth anywhere. 16:9, figure centred and small, empty ground all
+around.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 12 THE WHISPERER
+================================================================================
+
+--------------------------------------------------------------------------------
+S27 · 9:11–9:23
+MOVE: drift right 40px, past the openings.
+--------------------------------------------------------------------------------
+VO  [serious] Which brings us back to the word I told you to hold. Shaytan.
+VO> Al-An'am, verse one hundred and twelve. Shayateen of mankind and jinn.
+
+PROMPT
+Interior ink and watercolour illustration on textured aged parchment of a long
+stone corridor lined on one side with carved wooden mashrabiya screens, warm
+light pressing through each one in turn and throwing repeating geometric shapes
+across the floor as clean-edged wedges of bare unpainted paper. The corridor is
+completely empty end to end. Ruled pen perspective running to a vanishing point,
+lattice geometry in deep sepia wash, corridor walls in a cool grey-blue wash,
+dust left as tiny flecks of raw paper in each shaft. Same lattice pattern and
+same ink weight as the opening screen. Receding, rhythmic, nobody there. 16:9,
+corridor running to a soft dark vanishing point.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S27b · 9:23–9:34
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+VO> Devils from among the jinn. And devils from among people.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of a long empty
+stone corridor lined with carved wooden mashrabiya screens, with two shadows
+falling across the floor: one cast by the lattice as a sharp repeating geometric
+pattern, and one the plain shadow of a standing person cast from off-frame —
+with nobody in the corridor to cast it. No figure visible anywhere, only the
+shadow. Ruled pen perspective, deep sepia lattice wash, cool grey-blue corridor.
+16:9, both shadows crossing the same floor.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S28 · 9:34–9:51
+MOVE: push in 9%, ending on the empty chair opposite. Line-reveal permitted.
+** THE THESIS SHOT · SILENCE 3 of 3 **
+--------------------------------------------------------------------------------
+VO  Then the very last surah in the Quran. An-Nas. Min al-jinnati wan-nas.
+VO  Some of it has a face. And a name. And a phone number.
+VO> Some of it is sitting across the table from you, asking for cash.   <-
+      spliced silence, ~2s room tone either side
+
+PROMPT
+Interior ink and watercolour illustration on textured aged parchment of the same
+plain dark wooden table seen from one side, two empty wooden chairs facing each
+other across it, the folded banknotes still lying on the surface. Behind and to
+one side stands a carved wooden mashrabiya screen, and hard geometric light from
+it falls across the tabletop and over the far chair in sharp repeating shapes of
+bare unpainted paper. Nobody in either chair. Nobody in the room. The two motifs
+of the film meeting for the only time — lattice geometry and table, one ink
+weight across both. Coarse wool seat pads in dry-brush, table grain in warm
+sepia, everything else in a cool grey-blue wash. Intimate and wrong. 16:9, table
+centred, the far chair carrying the lattice light.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S28b · 9:51–10:05
+MOVE: push in 9%, ending on the empty chair.
+--------------------------------------------------------------------------------
+VO> You've spent your life afraid of the hidden one.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment seen from the
+viewer's own seat at a plain dark wooden table — the near edge of the table and
+the viewer's own two hands resting on it, cropped at the wrists, with a folded
+stack of banknotes between them. Across the table, one empty wooden chair,
+pulled out and facing the viewer with nobody in it. Hard geometric lattice light
+falls across the tabletop and over the empty chair as bare unpainted paper. No
+face anywhere. 16:9, the empty chair centred beyond the hands.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S28c · 10:05–10:15
+MOVE: hold dead still.
+--------------------------------------------------------------------------------
+VO> The Book closes by pointing at the visible one.
+
+PROMPT
+Extreme close-crop ink and watercolour illustration on textured aged parchment
+of the sharp geometric shadow of a carved lattice falling directly across a
+folded stack of worn banknotes on a dark wooden tabletop, the pattern breaking
+over the edges of the paper. Nothing else in frame, nobody present. Fine pen
+contour on the note edges, warm sepia and grey-blue washes, the lit strips left
+as bare paper. 16:9, notes filling the lower half.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+BEAT 13 THE CLOSE
+================================================================================
+
+--------------------------------------------------------------------------------
+S29 · 10:15–10:26
+MOVE: push in 5%, settling.
+--------------------------------------------------------------------------------
+VO  Notice what the Quran never does. It never hands you a technique for the
+      unseen. No formula. Nobody to pay.
+VO> It hands you a junna.
+
+PROMPT
+Ink and watercolour still life on textured aged parchment of the same plain
+hammered brass shield from earlier, now standing upright and square to the
+viewer on a dark stone floor rather than leaning, its face completely unadorned
+with no emblem or markings. The same pen contour and the same muted-gold wash as
+before, but broader and warmer now, grading to bare paper across more of the
+curvature. Planishing marks as soft dry-brush stipple, warm patina granulating
+at the base. Nothing else in frame. The shadow wash shorter and lighter than in
+the earlier shield shot, the light broader and from the left. Resolved and
+protective. 16:9, shield centred, open parchment around it.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S29b · 10:26–10:37
+MOVE: drift right 30px along the row. WASH BLOOM as the lamp is uncovered.
+--------------------------------------------------------------------------------
+VO> [calm] So bring it back to those three letters. Jinn. The concealed.
+      Janeen. Janna. Majnoon. And junna. The shield.
+
+PROMPT
+Flat overhead ink and watercolour illustration on textured aged parchment of the
+same five objects from earlier laid in a row — foliage, seed pod, cloth-covered
+lamp, brass shield, carved lattice fragment — but now the cloth has been lifted
+off the lamp and it burns clean, and the shield sits forward of the line,
+closest to the viewer. Identical pen contour and shadow weight across all five.
+Warmer washes than the first time. 16:9, row across the centre, open parchment
+for text.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S29c · 10:37–10:48
+MOVE: push in 5%.
+--------------------------------------------------------------------------------
+VO> Al-Fatiha. Ayat al-Kursi. The last two surahs. The words in the morning
+      and the words at night.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of an open
+manuscript resting on a low wooden stand at dawn, its pages completely blank and
+unprinted with no writing anywhere, left as bare unpainted paper. A plain round
+brass shield rests against the stand's base, its shadow falling protectively
+across the foot of the pages. Nobody in frame. Warm tan and muted-gold washes,
+soft grey-blue beyond. Settled. 16:9, manuscript centred, generous parchment
+above for the verse card.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S30 · 10:48–11:01
+MOVE: pull back 12% — the widest move in the film, saved for last.   ** CLOSING
+FRAME **
+--------------------------------------------------------------------------------
+VO  Protection that never once asks you to negotiate with anything hidden —
+      because it comes from the One who made the hidden thing in the first
+      place.
+VO> [warmly] Only One sees both.
+
+PROMPT
+Wide ink and watercolour illustration on textured aged parchment of the same
+empty stone chamber from the opening, now at dawn — the indigo night wash gone,
+the single shaft of light broadened and warmed into a wide reserve of bare
+unpainted parchment falling across the bare floor and filling the room where
+before it was washed dark. Still no furniture, no objects, no figures anywhere.
+Dust left as flecks of raw paper suspended throughout the beam. Dressed stone in
+the same loose pen contour as the opening chamber, granulation in the joints,
+one thin muted-gold wash along the lit wall. Soft grey-blue holding only at the
+extreme edges. Resolved, open, quiet. 16:9, the beam entering upper-left,
+generous clean parchment for the closing card.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+--------------------------------------------------------------------------------
+S30b · 11:01–11:11
+MOVE: hold dead still, then cut to S30.
+--------------------------------------------------------------------------------
+VO> They were made from fire. You were made from clay.
+VO  Neither of you was ever built to see the other.
+
+PROMPT
+Ink and watercolour illustration on textured aged parchment of two things side
+by side on a plain surface at dawn: the clay slab with its pressed handprint,
+and beside it a small patch of scorched ground where a fire has burnt out, the
+ember gone cold. Nothing else in frame, nobody present. Equal weight and equal
+size, identical pen contour on both, one shared grey-blue shadow direction. Warm
+tan on the clay, faded ember-grey on the scorch. 16:9, both centred, wide
+parchment around them.
+
+STYLE — Hand-drawn ink and watercolour illustration on textured aged parchment.
+Loose confident pen contour with uneven pressure. Translucent washes with
+visible wet edges, granulation settling in the hollows, dry-brush breaks where
+the brush skipped. Paper tooth reading through every wash. The brightest value
+in frame is bare unpainted paper — never white paint, never a glow effect. One
+implied low sun from the left; shadows are single flat translucent grey-blue
+washes with a clean edge. Night is a thin indigo-slate wash, never black paint.
+Palette: parchment #E8DCC8, raw paper #F4EBD9, sepia ink #3A2E24, shadow wash
+#6E7A80, night wash #2B3440, muted gold #C9A227. Ember #E8873C and garden green
+#123B36 are reserved — use them only if this shot's description calls for them.
+Muted and earthy throughout, no saturation anywhere. No faces. No text. 16:9,
+2560x1440.
+
+NEGATIVE — photograph, photorealistic, photoreal, realistic rendering, 3D
+render, CGI, octane, unreal engine, DSLR, lens, bokeh, shallow depth of field,
+lens flare, film grain, cinematic still, anime, manga, cel shading, thick
+uniform black outlines, comic book inking, flat vector, gradient mesh, airbrush,
+digital smoothness, oil impasto, thick acrylic paint, neon, glow effect, HDR,
+oversaturation, blown highlights, face, facial features, eyes, portrait,
+likeness, crowd, prophet, angel, wings, halo, creature, demon, monster, spirit,
+ghost, apparition, skull, horror, jump scare, blood red, green glow, fog
+machine, smoke machine, text, lettering, Arabic script, calligraphy, writing,
+numbers, logos, watermark, signature, decorative border, ornamental frame,
+clutter, busy background, tilted horizon, low resolution
+
+================================================================================
+END · 64 shots. Texture plates T1-T6 and the optional four-panel plate P1
+are in jinn-scene-pack.txt. Thumbnail spec is in jinn-scene-pack-v3-audit.txt.
+================================================================================
