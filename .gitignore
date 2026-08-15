@@ -1,2 +1,4 @@
-out/
-*.mp4
+out/seg/
+out/cap/
+out/segs.txt
+ffmpeg2pass*
