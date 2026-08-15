@@ -1140,3 +1140,182 @@ THE ONE JUDGEMENT CALL
   have.
 
 ================================================================================
+
+================================================================================
+PART 6 — SECOND AUDIT: THE NEXLEV RUBRIC
+Added 15 Aug 2026, after the strategy above was written
+================================================================================
+
+WHAT I COULD AND COULD NOT DO
+
+  I have no NexLev tooling in this environment — only vidIQ. NexLev's niche
+  database and RPM predictor sit behind a paid product with, by its reviewers'
+  accounts, no free trial, so I could not query it and did not.
+
+  What IS public is its methodology. So this audit applies NexLev's own
+  niche-selection rubric to the dataset I had already pulled, and reports what
+  it says about the recommendation in PART 2 — including where it disagrees.
+
+NEXLEV'S PUBLISHED SCREEN
+
+  Their Niche Finder guide is explicit about what a promising faceless niche
+  looks like:
+
+    · faceless
+    · subscribers UNDER 50,000        — newer channels with room
+    · channel age UNDER 180 DAYS      — "fresh channels that have launched
+                                        recently"
+    · average views per video HIGH    — "only seeing successful ones"
+    · then check RPM before committing
+
+  Their stated headline signal: "high views in a short period of time, as this
+  indicates a rapidly growing niche." The three metrics they say matter most
+  are monthly views, average views per video, and how recently the channel
+  started.
+
+RESULT 1 — THE SCREEN INDEPENDENTLY PICKS MY TEMPLATE CHANNEL
+
+  Discernment Made Clear passes every NexLev criterion, and passes it well:
+  29,200 subs (under 50k), 67 days old (under 180), 26,516 average views per
+  video, publishing near-daily. On NexLev's own headline signal — high views in
+  a short period — it is close to a textbook result.
+
+  I selected it in PART 1 by a completely different route, working backwards
+  from RPM. Two unrelated methods converge on the same channel. That is the
+  strongest single thing in this document.
+
+RESULT 2 — THE SCREEN ISOLATES THE FORMAT VARIABLE, AND THE GAP WIDENS
+
+  This is the finding that justifies the second audit.
+
+  Eleven channels in my dataset pass the NexLev screen. They are all faceless,
+  all under 50k subs, all under 180 days old, all active, all growing fast.
+  NexLev's rubric has, in effect, CONTROLLED FOR growth and novelty.
+
+  Which leaves format as the only free variable. Monthly views derived as
+  lifetime views / age x 30.
+
+    channel                   age    subs    mo.views   est $/mo    RPM  format
+    ---------------------------------------------------------------------------
+    Discernment Made Clear     67  29,200     688,619      5,574   8.09  LONG 25m
+    Movieoteca24.7             80  24,800   4,407,878      7,946   1.80  LONG 96m
+    Silicon Valley Hustle      74  26,800      79,114        103   1.31  LONG 4m
+    ChocoSonic Bites          115  27,400  11,208,217     10,342   0.92  MIXED
+    Funny Cats Fiasco         100  36,300   9,690,119      2,247   0.23  SHORTS
+    Football Entertainment     66  21,400   2,341,810        357   0.15  SHORTS
+    DISCIPLINE = SUCCESS      136   9,750   2,039,950        234   0.11  SHORTS
+    Petpack                    51  23,500  12,346,084        546   0.04  SHORTS
+    alfa mind                 103   7,510   9,928,476        409   0.04  SHORTS
+    Ahsan islamic9.1           93   6,540   2,591,430         93   0.04  SHORTS
+    Knox Boy                   51  18,000   1,204,444         25   0.02  SHORTS
+
+    LONG   mean RPM  $3.73   (n=3)
+    SHORTS mean RPM  $0.09   (n=7)
+    RATIO            41x
+
+  Look at Petpack and alfa mind. Twelve million and ten million monthly views
+  respectively, both growing fast, both passing every growth screen there is —
+  and both earning under $550 a month. Then look at Discernment Made Clear
+  earning ten times that on a twentieth of the traffic.
+
+  My PART 1 table could still have been explained away as selection: perhaps
+  long-form channels are simply better-run channels. This one cannot. Every
+  channel here cleared the same growth bar. Format is what separates $8.09 from
+  $0.02.
+
+RESULT 3 — WHERE NEXLEV'S METHOD DISAGREES WITH ME. READ THIS ONE.
+
+  NexLev's screen would never have produced the recommendation in PART 2.
+
+  Its rubric is demand validation. It finds niches where new channels are
+  ALREADY winning, and that is a genuine strength — it is very hard to fool.
+  But it means the tool is structurally incapable of surfacing an unoccupied
+  position, because to that screen an OPEN niche and a DEAD niche look
+  identical. Both show no new channels succeeding.
+
+  PART 2 is a gap play. NexLev would not have found it and would not endorse
+  it on its own evidence. You should know that before you commit a quarter.
+
+  THE MITIGATION, AND WHY THE RISK IS SMALLER THAN IT LOOKS.
+  Be precise about what is actually unproven here, because I was loose about
+  it in my first pass.
+
+    PROVEN, not a gap:  long-form faceless explainers. Consumer finance as a
+                        high-RPM subject — the independent RPM sources put it
+                        at $8–15, the top band on the platform.
+    THE ACTUAL GAP:     running the Discernment title formula — concrete
+                        physical detail, hidden mechanism, parenthetical —
+                        against everyday consumer systems.
+
+  So the bet is not "does anyone want money explainers". That is answered. The
+  bet is narrower: does a proven packaging formula transfer from scripture to
+  consumer systems. That is a much smaller thing to be wrong about, and it is
+  testable in six weeks rather than six months.
+
+RESULT 4 — BOTH TOOLS HAVE THE SAME WEAKNESS, AND I USED THE RIGHT DEFENCE
+
+  NexLev labels its monetisation figures estimates. Its reviewers are blunter:
+  the numbers are "sometimes stale or wrong" and should not drive real revenue
+  decisions "without a second source". That is exactly the caveat I put on
+  vidIQ's estimates in the first audit at B2.
+
+  Two independent estimate engines with the same known weakness now agree on
+  direction and rough magnitude, and I have used them only for RATIOS between
+  channels rather than as absolute revenue forecasts. That is the correct
+  defence and it is the reason I am willing to stand behind the 20–41x finding
+  while still refusing to tell you what this channel will earn.
+
+  ONE HONEST CAVEAT ON MY OWN TABLE. Monthly views above are lifetime views
+  divided by age. For a fast-growing channel that understates the current run
+  rate, which means it OVERSTATES RPM. It does so uniformly across all eleven,
+  so the ratio holds — but treat the absolute RPM figures as ceilings, not
+  forecasts.
+
+--------------------------------------------------------------------------------
+WHAT CHANGES IN THE PLAN AS A RESULT
+--------------------------------------------------------------------------------
+
+  Nothing structural. The reposition, the slate, the scene packs and the
+  flagship script all stand, and RESULT 2 strengthens the case for them.
+
+  But add a kill-criterion, because RESULT 3 says you are entering on a gap
+  rather than on demonstrated demand, and gap plays deserve an exit rule
+  written down before you are emotionally invested.
+
+  THE SIX-WEEK VALIDATION
+
+    Ship A1, B1, A2, C1, B2, A3 — six episodes, three weeks at two a week,
+    then three weeks to let them mature. Change nothing about format or
+    packaging during the test.
+
+    READ AT WEEK SIX, in this order of importance:
+      1. Does ANY episode exceed 5,000 views? One breakout matters far more
+         than six flat results. The bimodal shape in Discernment Made Clear's
+         numbers — a floor of 700–2,500 and a ceiling of 100k+ — is what a
+         working formula looks like early. You are hunting the ceiling, not
+         the average.
+      2. Average view duration above 40%. If people arrive and leave, the
+         formula did not transfer and no amount of better titling fixes it.
+      3. Impressions CTR above 4% on the Series A thumbnails. Below that, the
+         two-documents thumbnail idea is not legible and that is a cheap fix,
+         not a kill signal.
+
+    IF (1) FAILS AND (2) IS BELOW 30% — the formula did not transfer. Do not
+    iterate on it for another quarter. Fall back to the position NexLev's
+    rubric WOULD endorse: long-form in a niche where new faceless channels are
+    already visibly winning, using the same bank, the same voice and the same
+    craft. Movieoteca24.7 at 96-minute recaps and Discernment at 25-minute
+    explainers are both live proof that the long-form lane is open to new
+    entrants right now.
+
+    IF (1) HITS — you have the gap to yourself, which is the entire reason it
+    was worth the risk.
+
+  DO THIS BEFORE YOU SHIP EPISODE ONE. When vidIQ credits are back, run the
+  NexLev screen properly — faceless, subs under 50,000, created after
+  15 Feb 2026, average views 15,000+, active in the last 30 days — against
+  consumer-finance and consumer-systems queries. I could not: credits ran out
+  mid-research. If that screen returns channels I did not find, the gap is
+  narrower than I have claimed and you should study them before writing
+  anything. If it returns nothing, RESULT 3 stands exactly as written.
+================================================================================
