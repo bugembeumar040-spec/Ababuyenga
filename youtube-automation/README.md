@@ -1,5 +1,9 @@
 # YouTube Automation for @clarityinthequran
 
+> **Start here instead:** `youtube_easy_mode.ipynb` is form-driven — you
+> fill in boxes and tap Run, never touching code. This document is the
+> engineer's version, kept for reference and troubleshooting.
+
 Upload, read comments, reply, and back up a YouTube channel — entirely
 from an iPhone, using Google Colab + Google Drive. No terminal, no local
 Python, no local OAuth web server.

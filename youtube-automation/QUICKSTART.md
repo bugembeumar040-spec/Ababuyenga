@@ -1,5 +1,9 @@
 # Quickstart — ~12 minutes, phone only
 
+> **Start here instead:** `youtube_easy_mode.ipynb` is form-driven — you
+> fill in boxes and tap Run, never touching code. This document is the
+> engineer's version, kept for reference and troubleshooting.
+
 Full detail lives in `README.md`. This is the shortest path to a
 working upload.
 
