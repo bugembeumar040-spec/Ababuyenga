@@ -73,12 +73,18 @@ def probe(path: Path) -> dict:
 
 
 def count_frames(path: Path) -> int:
-    """Decode the whole file. Slower than reading a header, and the point:
-    a header can describe frames the file does not actually contain."""
+    """Decode the whole file and count what comes out.
+
+    Deliberately not `-c copy`, and deliberately not the header. A header can
+    describe frames a truncated file does not contain, and stream-copying to
+    the null muxer reports no frame count at all — which is how this check
+    first failed against a render that was in fact complete.
+    """
     out = subprocess.run(
-        [FFMPEG, "-i", str(path), "-map", "0:v:0", "-c", "copy", "-f", "null", "-"],
+        [FFMPEG, "-nostdin", "-i", str(path), "-map", "0:v:0",
+         "-f", "null", "-"],
         capture_output=True, text=True,
-    ).stderr
+    ).stderr.replace("\r", "\n")
     hits = re.findall(r"frame=\s*(\d+)", out)
     return int(hits[-1]) if hits else -1
 

@@ -204,6 +204,29 @@ from a verified mushaf, so citations run as Latin transliteration slugs
 (`AL-KAHF · 18:50`) and any Arabic plate goes in `public/plates/` like the
 illustrations.
 
+## Auditing a render
+
+`tools/audit-render.py` gates delivery on the file rather than on assumption.
+It exists because a render was twice reported finished when it was not, and
+because a cut was delivered whose captions did not sit on the voiceover.
+
+```bash
+python3 tools/audit-render.py out/jinn-2560x1440.mp4
+```
+
+| check | what it catches |
+|---|---|
+| `FRESH` | output older than any input that determines its content — a stale render |
+| `COMPLETE` | decodes the whole file and counts frames against `beats.ts`; a truncated or still-being-written file fails here |
+| `STREAMS` | dimensions and duration match the composition |
+| `AUDIO` | the track exists *and* is not silent, measured in dB |
+| `SYNC` | every shot's spoken line falls inside that shot's frame range |
+
+Non-zero exit if anything fails. `COMPLETE` deliberately decodes rather than
+reading the header: a header can describe frames a truncated file does not
+contain. It takes about 90 seconds on the full master, which is the price of
+the check being worth anything.
+
 ## Commands
 
 ```bash
@@ -212,4 +235,5 @@ npm run beats      # re-derive the cut from the VO
 npm run studio     # scrub it
 npm run preview    # 1280x720 proof of the last third
 npm run render     # full 2560x1440
+npm run audit      # verify the render before sending it anywhere
 ```
