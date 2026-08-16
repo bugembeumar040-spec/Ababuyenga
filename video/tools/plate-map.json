@@ -56,7 +56,14 @@
     "S07": "IMG_7316.png",
     "S07b": "IMG_7317.png",
     "S08b": "IMG_7321.png",
-    "S23": "IMG_7315.png"
+    "S23": "IMG_7315.png",
+    "S02b": "IMG_7323.png",
+    "S03b": "IMG_7324.png",
+    "S08": "IMG_7325.png",
+    "S20": "IMG_7326.png",
+    "S24b": "IMG_7327.png",
+    "S24c": "IMG_7328.png",
+    "S25b": "IMG_7330.png"
   },
   "alt": {
     "S13c": [
@@ -114,16 +121,17 @@
     ],
     "S07c": [
       "20260814.jpg"
+    ],
+    "S25b": [
+      "IMG_7331.png",
+      "IMG_7329.png"
     ]
   },
   "missing": [
-    "S02b",
-    "S03b",
-    "S08",
-    "S19",
-    "S20",
-    "S24b",
-    "S24c",
-    "S25b"
-  ]
+    "S19"
+  ],
+  "_calls": {
+    "S24b": "Prompt asks for a close-crop of bare tabletop where the notes were. The delivered frame is the same table from the payer's seat, now bare, with the empty chair opposite — same beat, wider. Swap with S28b's take if the close-crop is wanted.",
+    "S25b": "Prompt asks for the traveller STANDING at the valley mouth. Taken seated instead: the VO line is 'you're sleeping out in the open', and S25 already carries the standing-in-the-valley frame, so the standing take would repeat it. IMG_7331 in alt/ is the prompt-faithful version."
+  }
 }

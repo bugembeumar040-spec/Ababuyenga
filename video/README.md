@@ -78,7 +78,7 @@ ffmpeg -i public/jinn-vo.mp3 -af "silencedetect=noise=-38dB:d=0.30" -f null - 2>
 
 ### The plates
 
-51 of the 64 illustrations have landed. They arrived with generator filenames
+63 of the 64 illustrations have landed. They arrived with generator filenames
 (`IMG_7284.png`, `Clay_oil_lamps_...jpeg`) carrying no shot information, so
 `tools/plate-map.json` holds the pairing — each one matched by subject against
 that shot's `PROMPT` block — and `tools/import-plates.py` applies it:
@@ -89,27 +89,33 @@ python3 tools/scan-plates.py
 ```
 
 Sources are 1365×768 and are centre-fitted and resampled to 2560×1440. That is
-a 1.9× upscale, which is why the camera now overscans only as far as each
-shot's own move needs instead of a flat 14% on every shot.
+a 1.9× upscale, which is why the camera overscans only as far as each shot's
+own move needs instead of a flat 14% on every shot.
 
-17 near-identical variants were delivered for compositions that only need one
-frame. Those go to `public/plates/alt/<shot-id>--<n>.png` rather than being
-thrown away, so changing which take is used is a rename.
+24 variants were delivered for compositions that need one frame. Those go to
+`public/plates/alt/<shot-id>--<n>.png` rather than being thrown away, so
+changing which take is used is a rename.
 
-**13 shots have no illustration yet** and render a procedural stand-in in the
-house palette, labelled with the shot id and its `MOVE:` line:
+**One shot has no illustration:** `S19` — a heavy iron chain coiled on dark
+stone, under "never for sale. never for you." It renders the procedural
+stand-in until a plate lands.
 
-> S01b · S02b · S03b · S07 · S07b · S08 · S08b · S19 · S20 · S23 · S24b ·
-> S24c · S25b
+Two picks in `plate-map.json` depart from the letter of the prompt and are
+recorded under `_calls` there:
 
-Note that S08b is the first correction and S23 is the peak's payoff, so those
-two are the ones worth generating first.
+- **S24b** wants a close-crop of the bare tabletop where the notes were. The
+  delivered frame is the same table from the payer's seat, now bare, with the
+  empty chair opposite — the same beat, played wider.
+- **S25b** wants the traveller *standing* at the valley mouth. The pick is a
+  seated figure instead: the VO line is "you're sleeping out in the open", and
+  S25 already carries the standing-in-the-valley frame, so the faithful version
+  would have repeated the shot before it. It is in `alt/` if you disagree.
 
 ### Plate tone
 
 `scan-plates.py` also measures the mean luminance of the band each caption
-occupies. The delivered art runs from bare parchment (44 plates) to a full
-indigo night wash (7), and cream type dies on the first while ink type dies on
+occupies. The delivered art runs from bare parchment (52 plates) to a full
+indigo night wash (11), and cream type dies on the first while ink type dies on
 the second. Rather than hand-tag 64 shots, the type layer reads that number and
 picks ink-on-paper or cream-on-night per shot — which is also the only way to
 keep the black scrim out of a film whose style sheet forbids black paint.
