@@ -1,0 +1,22 @@
+# Credentials — this repo is public. Never commit these.
+client_secrets.json
+token.json
+*.token.json
+.env
+.env.*
+
+# Media
+*.mp4
+*.mov
+*.mp3
+*.wav
+media/
+renders/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/

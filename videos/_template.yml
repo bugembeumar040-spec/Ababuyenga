@@ -1,0 +1,19 @@
+# Sidecar template. Copy per video:  cp videos/_template.yml videos/myvideo.yml
+# Paths are relative to this file.
+
+video_file: ../renders/myvideo.mp4
+thumbnail:                          # .jpg or .png, under 2 MB
+
+title: ""                           # max 100 chars, no < or >
+description: |                      # max 5000 chars; slate calls for 600+
+  
+
+tags: []                            # 500 chars total across all tags
+
+category_id: "27"                   # 27 Education · 22 People & Blogs · 24 Entertainment
+language: en
+privacy: private                    # private until the API project is audited
+publish_at:                         # RFC3339, e.g. 2026-08-20T18:00:00Z — needs privacy: private
+made_for_kids: false                # YouTube requires an explicit declaration
+playlist_id:                        # e.g. PLxxxxxxxx
+recording_date:                     # RFC3339

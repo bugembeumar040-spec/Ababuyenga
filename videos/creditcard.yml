@@ -1,0 +1,51 @@
+# "They Call You a Deadbeat for Paying in Full"
+# Packaging block from credit-card-prompt-pack.txt.
+# Title follows the Klarna precedent: the declarative won over the question.
+
+video_file: ../renders/creditcard.mp4
+thumbnail: ../renders/creditcard-thumb.jpg
+
+title: They Call You a Deadbeat for Paying in Full
+
+description: |
+  The card industry really does have a word for customers who pay in full every
+  month, and it isn't a compliment. This is what that tells you about who a
+  credit card is actually built for.
+
+  If you never carry a balance, you were never the customer. The profitable
+  cardholder has a name too: a revolver. Someone who never quite clears it.
+  That single split explains the rest of the product — why the limit rises
+  without you asking, why one percent cashback sits next to a twenty-four
+  percent APR, and why the smallest number on the statement gets its own box.
+
+  A sale takes its profit once, at the moment of sale. It never grows again.
+  This grows while you sleep. Time is the ingredient, and that is the whole
+  difference.
+
+  A note on the terms: "deadbeat" and "revolver" are US card-industry slang.
+  UK regulators describe the same split in their own vocabulary — the FCA's
+  credit card market work uses "transactors" and "revolvers" for exactly this
+  divide. The 1% cashback against a ~24.9% representative APR is an
+  illustration of the shape of the model, not one specific product.
+
+  Part 2 of the series. Part 1: You've Already Paid Klarna.
+
+tags:
+  - credit cards
+  - credit card debt
+  - islamic finance
+  - halal money
+  - personal finance uk
+  - money explained
+  - debt free
+  - revolver
+  - credit card interest
+  - financial literacy
+
+category_id: "27"
+language: en
+privacy: private
+publish_at:
+made_for_kids: false
+playlist_id:
+recording_date:
