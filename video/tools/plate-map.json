@@ -1,16 +1,16 @@
 {
   "_note": "Shot id -> delivered illustration. Matched by subject against the PROMPT block of each shot in jinn-shot-pack-final.txt. 'alt' lists near-identical variants delivered for the same composition; they are kept in public/plates/alt/ rather than discarded, so swapping a pick is a rename. Shots in 'missing' have no illustration yet and render the procedural stand-in.",
   "map": {
-    "S01": "S01.jpg",
+    "S01": "IMG_7313.png",
     "S02": "Wooden_mashrabiya_lattice_screen__202608141021.jpeg",
-    "S03": "Empty_stone_chamber_in_light_202608141024.jpeg",
+    "S03": "IMG_7314.png",
     "S04": "Light_shining_through_mashrabiya__202608141027.jpeg",
     "S05": "Garden_foliage_botanical_illustr__202608141034.jpeg",
     "S05b": "IMG_7299.png",
     "S05c": "IMG_7298.png",
     "S06": "Brass_shield_on_stone_floor_202608150914.jpeg",
     "S06b": "Five_objects_arranged_in_row_202608150915.jpeg",
-    "S07c": "20260814.jpg",
+    "S07c": "IMG_7318.png",
     "S09": "20260814_13.jpg",
     "S10": "20260814_14.jpg",
     "S10b": "20260814_15.jpg",
@@ -32,7 +32,7 @@
     "S18": "IMG_7292.png",
     "S18b": "IMG_7291.png",
     "S20b": "IMG_7290.png",
-    "S21": "IMG_7288.png",
+    "S21": "IMG_7320.png",
     "S21b": "IMG_7287.png",
     "S22": "IMG_7286.png",
     "S22b": "IMG_7284.png",
@@ -51,22 +51,79 @@
     "S29b": "IMG_7272.png",
     "S29c": "IMG_7271.png",
     "S30": "Light_illuminating_empty_stone_c__202608150917.jpeg",
-    "S30b": "Clay_slab_and_burnt_ground_202608150918.jpeg"
+    "S30b": "Clay_slab_and_burnt_ground_202608150918.jpeg",
+    "S01b": "IMG_7319.png",
+    "S07": "IMG_7316.png",
+    "S07b": "IMG_7317.png",
+    "S08b": "IMG_7321.png",
+    "S23": "IMG_7315.png"
   },
   "alt": {
-    "S13c": ["Clay_oil_lamps_burning_on_202608150844.jpeg"],
-    "S14": ["Lamplight_spills_from_stone_doorway_202608150845.jpeg"],
-    "S16b": ["Two_clay_vessels_in_circle_202608150852.jpeg", "IMG_7294.png"],
-    "S18": ["Bronze_basin_on_stone_floor_202608150855.jpeg"],
-    "S18b": ["Architectural_cutaway_drawing_of__202608150856.jpeg"],
-    "S21": ["IMG_7289.png"],
-    "S22b": ["IMG_7285.png"],
-    "S23b": ["IMG_7282.png", "IMG_7283.png"],
-    "S26": ["Stone_resting_on_woollen_cloak_202608150909.jpeg", "IMG_7278.png"],
-    "S26b": ["Figure_walking_with_stone_backpack_202608150909.jpeg"],
-    "S27": ["Shadow_falling_across_empty_corr__202608150911.jpeg"],
-    "S28b": ["Hands_resting_near_banknotes_table_202608150913.jpeg"],
-    "S28c": ["IMG_7274.png", "Shadow_on_banknotes_on_table_202608150914.jpeg"]
+    "S13c": [
+      "Clay_oil_lamps_burning_on_202608150844.jpeg"
+    ],
+    "S14": [
+      "Lamplight_spills_from_stone_doorway_202608150845.jpeg"
+    ],
+    "S16b": [
+      "Two_clay_vessels_in_circle_202608150852.jpeg",
+      "IMG_7294.png"
+    ],
+    "S18": [
+      "Bronze_basin_on_stone_floor_202608150855.jpeg"
+    ],
+    "S18b": [
+      "Architectural_cutaway_drawing_of__202608150856.jpeg"
+    ],
+    "S21": [
+      "IMG_7288.png",
+      "IMG_7289.png"
+    ],
+    "S22b": [
+      "IMG_7285.png"
+    ],
+    "S23b": [
+      "IMG_7282.png",
+      "IMG_7283.png"
+    ],
+    "S26": [
+      "Stone_resting_on_woollen_cloak_202608150909.jpeg",
+      "IMG_7278.png"
+    ],
+    "S26b": [
+      "Figure_walking_with_stone_backpack_202608150909.jpeg"
+    ],
+    "S27": [
+      "Shadow_falling_across_empty_corr__202608150911.jpeg"
+    ],
+    "S28b": [
+      "Hands_resting_near_banknotes_table_202608150913.jpeg"
+    ],
+    "S28c": [
+      "IMG_7274.png",
+      "Shadow_on_banknotes_on_table_202608150914.jpeg"
+    ],
+    "S01b": [
+      "IMG_7322.png"
+    ],
+    "S01": [
+      "S01.jpg"
+    ],
+    "S03": [
+      "Empty_stone_chamber_in_light_202608141024.jpeg"
+    ],
+    "S07c": [
+      "20260814.jpg"
+    ]
   },
-  "missing": ["S01b", "S02b", "S03b", "S07", "S07b", "S08", "S08b", "S19", "S20", "S23", "S24b", "S24c", "S25b"]
+  "missing": [
+    "S02b",
+    "S03b",
+    "S08",
+    "S19",
+    "S20",
+    "S24b",
+    "S24c",
+    "S25b"
+  ]
 }
