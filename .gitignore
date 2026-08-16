@@ -1,0 +1,6 @@
+# Secrets — never commit these
+.env
+.env.local
+*.token.json
+
+node_modules/

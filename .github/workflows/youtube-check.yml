@@ -1,0 +1,22 @@
+name: YouTube connection check
+
+# Manual only — this exists to prove the repository secrets still work.
+# A refresh token from an app left in "Testing" dies after 7 days, so this is
+# the quickest way to find out before you rely on it.
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Read channel stats
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: node scripts/yt.mjs stats
