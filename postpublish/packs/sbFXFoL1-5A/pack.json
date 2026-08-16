@@ -1,0 +1,54 @@
+{
+  "video_id": "sbFXFoL1-5A",
+  "notes": "Authored WITHOUT read access to the live video (see SOURCING.md). Title and channel are confirmed via YouTube's public oembed endpoint. Everything else is authored from the title's argument, which is Qur'an 34:14 (Saba'). Chapters and playlists are deliberately EMPTY -- both need the real runtime and the channel's playlist IDs, and inventing either would push a broken description to a live video. Run `init --force` once you have API read access to seed the real description, then re-validate.",
+  "title": {
+    "current": "The Jinn Couldn't See a Dead King. So How Did He See Yours?",
+    "variants": [
+      "Sulayman Died Standing. The Jinn Kept Working for Months.",
+      "The Verse Every Fortune Teller Hopes You Never Read",
+      "If Jinn Knew the Unseen, Qur'an 34:14 Would Not Exist"
+    ],
+    "_help": "variants[0] is the challenger for a Test & Compare run. Keep the hook inside the first 70 chars."
+  },
+  "description": {
+    "hook": "Sulayman stood dead against his staff and the jinn under his command kept working. They only found out when a creature of the earth ate through it.",
+    "body": "That is Qur'an 34:14, in Surah Saba'. The detail the verse stops to make is not the death, it is the ignorance: the jinn were standing in front of a dead king and could not tell. The verse says it plainly -- had they known the unseen, they would not have stayed in that humiliating labour.\n\nThis video takes that verse where it actually leads. If jinn could not perceive a death happening in front of them, the claim that a jinn is the reason a soothsayer knows your future, your marriage or your dead relative does not survive its own source text. The Qur'an closes the door from the inside.\n\nWhat the video covers:\n- the scene in Saba' 34:14 and why the staff detail is the point\n- what 'al-ghayb' means and who the Qur'an restricts it to\n- why 'the jinn told me' fails on the Qur'an's own terms\n- what the jinn in Surah al-Jinn admit about their own limits\n\nIf this was useful, the fastest way to help is to send it to the one person you know who has been to a fortune teller.",
+    "chapters": [],
+    "links": [],
+    "hashtags": [
+      "Quran",
+      "Jinn",
+      "Tafsir"
+    ],
+    "_help": "hook is the above-the-fold line (<=150 chars). chapters are [seconds, label] and must start at 0."
+  },
+  "tags": [
+    "quran",
+    "jinn",
+    "surah saba",
+    "quran 34:14",
+    "prophet sulayman",
+    "solomon in islam",
+    "al-ghayb",
+    "the unseen",
+    "fortune tellers islam",
+    "soothsayers",
+    "islamic reminder",
+    "tafsir",
+    "clarity in the quran"
+  ],
+  "pinned_comment": "The verse is Saba' 34:14. The part almost nobody quotes is the reason it is there at all: the jinn were beside a dead king and could not tell he had died. The Qur'an then says it outright -- had they known the unseen, they would never have stayed in that labour.\n\nSo the honest question for anyone who has been to a fortune teller, or knows someone who has: what were you actually told, and did it happen the way it was told to you? I read every reply.",
+  "playlists": [],
+  "community_post": "One line from Surah Saba' that changes how you hear every 'a jinn told me' story:\n\nSulayman had already died. The jinn kept working. They found out when a creature of the earth ate through his staff.\n\nNew video is up -- the verse is 34:14, and it does more damage to fortune telling than any argument from outside the text. Watch it and tell me if you have heard this one before.",
+  "shorts_derivative": {
+    "in": null,
+    "out": null,
+    "hook": "The jinn were standing next to a dead king and could not tell.",
+    "caption": "Qur'an 34:14. Sulayman died standing against his staff, and the jinn under his command kept working until a creature of the earth ate through it. The verse says it plainly: had they known the unseen, they would not have stayed. So where exactly is the fortune teller getting it from? Full video on the channel. #Quran #Jinn #Tafsir"
+  },
+  "cross_platform": {
+    "x": "Sulayman died standing against his staff. The jinn under his command kept working for months and never noticed.\n\nQur'an 34:14 stops to make one point with that: they did not know. Which is a problem for every 'a jinn told me your future' claim.",
+    "instagram": "Saba' 34:14 -- the jinn were beside a dead king and could not tell he had died. The verse says it directly: had they known the unseen, they would not have remained in that labour. Full breakdown on YouTube. #Quran #Jinn #Tafsir #Islam",
+    "tiktok": "The jinn couldn't tell a dead king was dead. So how did one tell a fortune teller about your future? Qur'an 34:14."
+  }
+}
