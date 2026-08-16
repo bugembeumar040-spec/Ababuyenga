@@ -86,7 +86,8 @@ def main() -> None:
 
     print(f"\n{len(spec['map']) - len(missing_src)} plates imported")
     print(f"{sum(len(v) for v in spec['alt'].values())} variants in plates/alt/")
-    print(f"{len(spec['missing'])} shots still on the stand-in: {', '.join(spec['missing'])}")
+    print("run tools/scan-plates.py for what is still pending — it derives that")
+    print("from the cut rather than from any list kept in this file")
     for shot, name in missing_src:
         print(f"  !! {shot}: source not found — {name}")
 

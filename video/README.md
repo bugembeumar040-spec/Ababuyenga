@@ -78,7 +78,7 @@ ffmpeg -i public/jinn-vo.mp3 -af "silencedetect=noise=-38dB:d=0.30" -f null - 2>
 
 ### The plates
 
-63 of the 64 illustrations have landed. They arrived with generator filenames
+All 64 illustrations have landed. They arrived with generator filenames
 (`IMG_7284.png`, `Clay_oil_lamps_...jpeg`) carrying no shot information, so
 `tools/plate-map.json` holds the pairing — each one matched by subject against
 that shot's `PROMPT` block — and `tools/import-plates.py` applies it:
@@ -96,9 +96,9 @@ own move needs instead of a flat 14% on every shot.
 `public/plates/alt/<shot-id>--<n>.png` rather than being thrown away, so
 changing which take is used is a rename.
 
-**One shot has no illustration:** `S19` — a heavy iron chain coiled on dark
-stone, under "never for sale. never for you." It renders the procedural
-stand-in until a plate lands.
+All 64 shots have art. The procedural stand-in stays in the codebase because it
+is what lets the film cut and render before the illustrations exist, and it
+comes back automatically for any shot whose plate is removed.
 
 That count is derived, not tracked. `scan-plates.py` reads every shot id out of
 the generated cut, compares it to what is actually in `public/plates/`, and
@@ -108,8 +108,8 @@ about any plate whose filename matches no shot in the cut. It prints on every
 run:
 
 ```
-63/64 plates: 52 light, 11 dark
-pending (1): S19
+64/64 plates: 52 light, 12 dark
+pending (0): none
 ```
 
 Two picks in `plate-map.json` depart from the letter of the prompt and are
@@ -127,7 +127,7 @@ recorded under `_calls` there:
 
 `scan-plates.py` also measures the mean luminance of the band each caption
 occupies. The delivered art runs from bare parchment (52 plates) to a full
-indigo night wash (11), and cream type dies on the first while ink type dies on
+indigo night wash (12), and cream type dies on the first while ink type dies on
 the second. Rather than hand-tag 64 shots, the type layer reads that number and
 picks ink-on-paper or cream-on-night per shot — which is also the only way to
 keep the black scrim out of a film whose style sheet forbids black paint.

@@ -41,6 +41,7 @@ export const PLATES: string[] = [
   "S17b",
   "S18",
   "S18b",
+  "S19",
   "S20",
   "S20b",
   "S21",
@@ -107,6 +108,7 @@ export const PLATE_TONE: Record<string, number> = {
   "S17b": 0.74,
   "S18": 0.609,
   "S18b": 0.862,
+  "S19": 0.423,
   "S20": 0.711,
   "S20b": 0.545,
   "S21": 0.58,
@@ -137,7 +139,6 @@ export const PLATE_TONE: Record<string, number> = {
 
 /** Shots with no illustration yet — derived, not hand-maintained. */
 export const PENDING: string[] = [
-  "S19",
 ];
 
 /** True when the caption band is light enough to want ink type.
