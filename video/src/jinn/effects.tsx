@@ -1,5 +1,12 @@
 import React from "react";
-import { AbsoluteFill, interpolate, random, useCurrentFrame } from "remotion";
+import {
+  AbsoluteFill,
+  Img,
+  interpolate,
+  random,
+  staticFile,
+  useCurrentFrame,
+} from "remotion";
 import { PALETTE } from "./theme";
 
 /**
@@ -8,11 +15,26 @@ import { PALETTE } from "./theme";
  * The plates cut beneath it but this layer never does, so the tooth, the
  * deckle and the cockle stay put across every cut. It is the single cheapest
  * thing that stops 64 generated images reading as 64 separate images.
+ *
+ * Because it never changes, it is baked. The SVG below is the source of truth
+ * and lives in its own `GrainPlate` composition; the film loads the rendered
+ * PNG. Evaluating two full-canvas feTurbulence filters 18,417 times to get the
+ * same pixels every time was over half the render.
  */
 export const PaperGrain: React.FC<{ opacity?: number }> = ({
   opacity = 0.38,
 }) => (
   <AbsoluteFill style={{ pointerEvents: "none", mixBlendMode: "multiply", opacity }}>
+    <Img
+      src={staticFile("paper-grain.png")}
+      style={{ width: "100%", height: "100%" }}
+    />
+  </AbsoluteFill>
+);
+
+/** The grain, drawn live. Rendered once to public/paper-grain.png — see Root. */
+export const GrainPlate: React.FC = () => (
+  <AbsoluteFill style={{ pointerEvents: "none" }}>
     <svg width="100%" height="100%" viewBox="0 0 2560 1440" preserveAspectRatio="none">
       <filter id="tooth" x="0" y="0" width="100%" height="100%">
         <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves={4} seed={7} />
@@ -35,7 +57,15 @@ export const PaperGrain: React.FC<{ opacity?: number }> = ({
   </AbsoluteFill>
 );
 
-/** Parchment falloff at the edges. No black — the sheet just runs out of light. */
+/**
+ * Parchment falloff at the edges. No black — the sheet just runs out of light.
+ *
+ * Deliberately NOT baked like the grain. Baking it measured a max channel
+ * difference of 2/255 — an 8-bit rounding artefact of round-tripping a smooth
+ * gradient through PNG — and bought almost no time, because rasterising one
+ * radial gradient is cheap. The grain was worth baking because feTurbulence is
+ * not. Don't "optimise" this one.
+ */
 export const Vignette: React.FC = () => (
   <AbsoluteFill style={{ pointerEvents: "none" }}>
     <svg width="100%" height="100%" viewBox="0 0 2560 1440" preserveAspectRatio="none">
