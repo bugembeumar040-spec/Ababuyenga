@@ -39,6 +39,12 @@ export type Caption = {
   bloomAt?: [number, number];
 };
 
+// Caption wording follows the RECORDING, not the pack. The VO was read from a
+// softened script in places — "a lifeless man" not "a dead man", "a fallen
+// king" not "a corpse", "your future" not "your marriage", "owned" not
+// "heavier". A viewer hearing one word and reading another on the same frame
+// is the most damaging thing this film can do to its own credibility.
+//
 // Entries for S07, S07b, S07c, S14, S14b, S15, S15b and S16 are kept even
 // though the recorded VO does not contain those lines. beats.ts drops the
 // shots, so these never render — and they come straight back if a fuller VO is
@@ -133,15 +139,15 @@ export const CAPTIONS: Record<string, Caption> = {
   S22: { text: "a small creature of the earth", sub: "ate through the wood of the staff", mode: "hard", em: ["small creature"] },
   S22b: { text: "and he fell", cite: "Saba · 34:14", mode: "hard" },
   S23: {
-    text: "THEY COULD NOT SEE A DEAD MAN",
+    text: "THEY COULD NOT SEE A LIFELESS MAN",
     sub: "standing in front of them",
     chip: "CORRECTION 3 OF 4",
     mode: "hold",
     em: ["COULD NOT SEE"],
   },
-  S23b: { text: "a room full of them, working for a corpse", em: ["corpse"] },
+  S23b: { text: "a room full of them, working for a fallen king", em: ["fallen king"] },
 
-  S24: { text: "if they can't see a dead king in the room", sub: "they cannot see your marriage" },
+  S24: { text: "if they can't see a dead king in the room", sub: "they cannot see your future" },
   S24b: { text: "he was selling you something", sub: "the Quran took apart fourteen centuries ago", mode: "hard", em: ["selling"] },
   S24c: { text: "send this to someone who needs it", mode: "hold" },
 
@@ -157,8 +163,8 @@ export const CAPTIONS: Record<string, Caption> = {
   },
   S26b: {
     text: "safety from something hidden",
-    sub: "doesn't make you safe. it makes you heavier.",
-    em: ["heavier"],
+    sub: "doesn't make you safe. it makes you owned.",
+    em: ["owned"],
     chip: "CORRECTION 4 OF 4",
   },
 
@@ -175,7 +181,7 @@ export const CAPTIONS: Record<string, Caption> = {
   S28c: { text: "the Book closes by pointing at the visible one", em: ["visible"], mode: "hard" },
 
   S29: { root: "JUNNA", gloss: "it never hands you a technique. it hands you a shield.", mode: "root" },
-  S29b: { text: "jinn — the concealed", sub: "and the shield was never a secret", bloomAt: [54, 50] },
+  S29b: { text: "jinn — the concealed", sub: "janna. janeen. majnoon. junna.", bloomAt: [54, 50] },
   S29c: { text: "al-Fatiha. Ayat al-Kursi.", sub: "the last two surahs. the words in the morning." },
   // The recording ends on "only One sees both", after the fire/clay line —
   // the reverse of the pack's order. These two captions follow the recording,
