@@ -1,5 +1,5 @@
 {
-  "_note": "Shot id -> delivered illustration. Matched by subject against the PROMPT block of each shot in jinn-shot-pack-final.txt. 'alt' lists near-identical variants delivered for the same composition; they are kept in public/plates/alt/ rather than discarded, so swapping a pick is a rename. Shots in 'missing' have no illustration yet and render the procedural stand-in.",
+  "_note": "Shot id -> delivered illustration. Matched by subject against the PROMPT block of each shot in jinn-shot-pack-final.txt. 'alt' lists near-identical variants delivered for the same composition; they are kept in public/plates/alt/ rather than discarded, so swapping a pick is a rename. Which shots still lack art is NOT recorded here — tools/scan-plates.py derives it from the cut against what is on disk, and writes it to src/jinn/plates.ts as PENDING. Do not reintroduce a hand-maintained list.",
   "map": {
     "S01": "IMG_7313.png",
     "S02": "Wooden_mashrabiya_lattice_screen__202608141021.jpeg",
@@ -127,9 +127,6 @@
       "IMG_7329.png"
     ]
   },
-  "missing": [
-    "S19"
-  ],
   "_calls": {
     "S24b": "Prompt asks for a close-crop of bare tabletop where the notes were. The delivered frame is the same table from the payer's seat, now bare, with the empty chair opposite — same beat, wider. Swap with S28b's take if the close-crop is wanted.",
     "S25b": "Prompt asks for the traveller STANDING at the valley mouth. Taken seated instead: the VO line is 'you're sleeping out in the open', and S25 already carries the standing-in-the-valley frame, so the standing take would repeat it. IMG_7331 in alt/ is the prompt-faithful version."

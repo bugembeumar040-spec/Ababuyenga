@@ -135,6 +135,11 @@ export const PLATE_TONE: Record<string, number> = {
   "S30b": 0.822,
 };
 
+/** Shots with no illustration yet — derived, not hand-maintained. */
+export const PENDING: string[] = [
+  "S19",
+];
+
 /** True when the caption band is light enough to want ink type.
  *  An unmeasured id is on the procedural stand-in, which is parchment. */
 export const isLight = (id: string): boolean => (PLATE_TONE[id] ?? 1) > 0.52;

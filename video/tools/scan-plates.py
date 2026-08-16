@@ -10,12 +10,14 @@ lets the type layer pick ink-on-paper or cream-on-night per shot.
 Drop a real <shot-id>.png in public/plates/ and re-run. Shots without a plate
 render the procedural stand-in.
 """
+import re
 from pathlib import Path
 
 from PIL import Image, ImageStat
 
 ROOT = Path(__file__).resolve().parents[1]
 PLATE_DIR = ROOT / "public" / "plates"
+BEATS = ROOT / "src" / "jinn" / "beats.ts"
 
 plates, tone = [], {}
 for p in sorted(PLATE_DIR.glob("*")):
@@ -25,6 +27,14 @@ for p in sorted(PLATE_DIR.glob("*")):
     im = Image.open(p).convert("L")
     band = im.crop((0, int(im.height * 0.62), im.width, im.height))
     tone[p.stem] = round(ImageStat.Stat(band).mean[0] / 255, 3)
+
+# Which shots still lack art is derived here, from the generated cut against
+# what is actually on disk — never hand-maintained. A list someone edits by
+# hand drifts from the truth the moment an import is re-run, and "which shots
+# are still missing" is the one number this project gets asked for most.
+shots = re.findall(r'"id": "(S\d+[a-z]?)"', BEATS.read_text())
+pending = [s for s in shots if s not in set(plates)]
+orphans = sorted(set(plates) - set(shots))
 
 body = ",\n".join(f'  "{k}": {v}' for k, v in sorted(tone.items()))
 (ROOT / "src" / "jinn" / "plates.ts").write_text(
@@ -38,10 +48,17 @@ body = ",\n".join(f'  "{k}": {v}' for k, v in sorted(tone.items()))
     "export const PLATE_TONE: Record<string, number> = {\n"
     + body
     + ",\n};\n\n"
+    "/** Shots with no illustration yet — derived, not hand-maintained. */\n"
+    "export const PENDING: string[] = [\n"
+    + "".join(f'  "{s}",\n' for s in pending)
+    + "];\n\n"
     "/** True when the caption band is light enough to want ink type.\n"
     " *  An unmeasured id is on the procedural stand-in, which is parchment. */\n"
     "export const isLight = (id: string): boolean => (PLATE_TONE[id] ?? 1) > 0.52;\n",
     encoding="utf-8",
 )
 light = sum(1 for v in tone.values() if v > 0.52)
-print(f"{len(plates)} plate(s): {light} light, {len(plates)-light} dark")
+print(f"{len(plates)}/{len(shots)} plates: {light} light, {len(plates) - light} dark")
+print(f"pending ({len(pending)}): {', '.join(pending) if pending else 'none'}")
+if orphans:
+    print(f"!! plates matching no shot in the cut: {', '.join(orphans)}")

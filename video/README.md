@@ -100,6 +100,18 @@ changing which take is used is a rename.
 stone, under "never for sale. never for you." It renders the procedural
 stand-in until a plate lands.
 
+That count is derived, not tracked. `scan-plates.py` reads every shot id out of
+the generated cut, compares it to what is actually in `public/plates/`, and
+writes the answer to `src/jinn/plates.ts` as `PENDING` — so "what is still
+missing" is always computed from the two things that can't lie, and it warns
+about any plate whose filename matches no shot in the cut. It prints on every
+run:
+
+```
+63/64 plates: 52 light, 11 dark
+pending (1): S19
+```
+
 Two picks in `plate-map.json` depart from the letter of the prompt and are
 recorded under `_calls` there:
 
