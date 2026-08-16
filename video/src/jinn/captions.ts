@@ -39,6 +39,10 @@ export type Caption = {
   bloomAt?: [number, number];
 };
 
+// Entries for S07, S07b, S07c, S14, S14b, S15, S15b and S16 are kept even
+// though the recorded VO does not contain those lines. beats.ts drops the
+// shots, so these never render — and they come straight back if a fuller VO is
+// recorded, without anyone having to rewrite the type edit.
 export const CAPTIONS: Record<string, Caption> = {
   S01: { text: "somebody watching this has paid", sub: "to have a jinn removed", em: ["paid"] },
   S02: { text: "he said he could see", sub: "what you couldn't", em: ["see"], mode: "hold" },
@@ -173,10 +177,19 @@ export const CAPTIONS: Record<string, Caption> = {
   S29: { root: "JUNNA", gloss: "it never hands you a technique. it hands you a shield.", mode: "root" },
   S29b: { text: "jinn — the concealed", sub: "and the shield was never a secret", bloomAt: [54, 50] },
   S29c: { text: "al-Fatiha. Ayat al-Kursi.", sub: "the last two surahs. the words in the morning." },
-  S30: { text: "only One sees both", mode: "hold", em: ["One"] },
+  // The recording ends on "only One sees both", after the fire/clay line —
+  // the reverse of the pack's order. These two captions follow the recording,
+  // so the film's last words are also its last caption.
+  S30: {
+    text: "protection that never asks you to negotiate",
+    sub: "with anything hidden",
+    em: ["negotiate"],
+    mode: "hold",
+  },
   S30b: {
     text: "made from fire. made from clay.",
-    sub: "neither of you was ever built to see the other",
+    sub: "only One sees both",
+    em: ["One"],
     mode: "hold",
   },
 };

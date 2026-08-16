@@ -24,9 +24,13 @@ again the next time the voiceover changes.
 ## Pipeline
 
 ```
-jinn-shot-pack-final.txt ─┐
-                          ├─> tools/build-beats.py ─> src/jinn/beats.ts
-media/sil.txt ────────────┘                           (frame-accurate cut)
+public/jinn-vo.mp3 ─> tools/align-vo.py ─> media/vo-align.json
+                     (word-level ASR,              │
+                      matched to the script)       │
+jinn-shot-pack-final.txt ──────────────────────────┤
+                     (MOVE specs, flags)           v
+                                    tools/build-beats.py ─> src/jinn/beats.ts
+                                                            (the cut + DROPPED)
 
 delivered art ─┐
                ├─> tools/import-plates.py ─> public/plates/<shot-id>.png
@@ -55,26 +59,50 @@ the master and it is what the film plays.
 The pack targeted 11:11. The recording came in 57s shorter, which is why the
 printed timings could not be used as-is.
 
-### The cut
+### The cut — force-aligned to the words
 
-`build-beats.py` scales the planned spine onto the real 613.91s, then walks
-each of the 63 internal boundaries onto the nearest actual pause in the
-recording, within ±2.6s. **59 of 63 cuts land on a real pause**; the other four
-had no pause in reach and hold at their scaled position. Cuts land 40% into the
-gap, so the incoming plate is up before the next line starts.
-
-Re-run after any VO change:
+`tools/align-vo.py` transcribes the VO with word timestamps and matches that
+transcript against the shot pack's own VO lines, so every shot is placed under
+the line it is captioned with. `tools/build-beats.py` then turns that into
+`beats.ts`, cutting 40% into the gap between one line ending and the next
+starting.
 
 ```bash
-npm run beats        # pass the new duration as the first arg if it changed
+python3 tools/align-vo.py        # --asr to re-transcribe after a VO change
+python3 tools/build-beats.py 613.91
 ```
 
-To regenerate the silence map after a recut:
+`build-beats.py` asserts that every shot fully contains its own spoken line and
+prints the count. It is currently **56/56**.
 
-```bash
-ffmpeg -i public/jinn-vo.mp3 -af "silencedetect=noise=-38dB:d=0.30" -f null - 2>&1 \
-  | grep -E "silence_(start|end)" | awk '{print $4,$5,$6,$7,$8}' > media/sil.txt
-```
+**This replaced a worse method, and the difference matters.** The first cut
+scaled the pack's planned timings onto the real duration by a single ratio and
+snapped each boundary to the nearest pause. That produced captions that drifted
+off the voiceover, because it was wrong in three independent ways:
+
+1. **The recording did not compress evenly.** Group 1 came in at 107.00s
+   against a planned 107s — a ratio of 1.0 — while the film overall came in 9%
+   short. Every shot in that stretch was pulled early against audio that had not
+   compressed at all.
+2. **Eight shots are not in the recording at all.** The VO was read from a
+   shorter script — the pack's own CUT 1 and CUT 2, applied at record time, with
+   S16b kept. Placing shots for lines that are never spoken displaces every shot
+   after them.
+3. **S29 and S29b are spoken in the opposite order to the pack**, as are the two
+   closing lines.
+
+A silence map cannot see any of that. A pause tells you someone stopped talking,
+not which line they stopped in the middle of. The words can, so the words are
+what the cut is built from now, and the cut order is the recording's order.
+
+### Shots not in the voiceover
+
+> S07 · S07b · S07c · S14 · S14b · S15 · S15b · S16
+
+`beats.ts` exports these as `DROPPED` and the film does not place them. Their
+plates stay in `public/plates/` and their entries stay in `captions.ts`, so if a
+fuller VO is ever recorded they return by re-running the two tools — no art and
+no type edit is lost.
 
 ### The plates
 

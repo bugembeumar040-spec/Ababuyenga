@@ -32,9 +32,13 @@ for p in sorted(PLATE_DIR.glob("*")):
 # what is actually on disk — never hand-maintained. A list someone edits by
 # hand drifts from the truth the moment an import is re-run, and "which shots
 # are still missing" is the one number this project gets asked for most.
-shots = re.findall(r'"id": "(S\d+[a-z]?)"', BEATS.read_text())
+beats_src = BEATS.read_text()
+shots = re.findall(r'"id": "(S\d+[a-z]?)"', beats_src)
+# Shots the recording does not contain still have plates on disk, and they are
+# not orphans — they return the moment a fuller VO lands.
+dropped = re.findall(r'"(S\d+[a-z]?)"', beats_src.split("export const DROPPED")[-1])
 pending = [s for s in shots if s not in set(plates)]
-orphans = sorted(set(plates) - set(shots))
+orphans = sorted(set(plates) - set(shots) - set(dropped))
 
 body = ",\n".join(f'  "{k}": {v}' for k, v in sorted(tone.items()))
 (ROOT / "src" / "jinn" / "plates.ts").write_text(
@@ -58,7 +62,11 @@ body = ",\n".join(f'  "{k}": {v}' for k, v in sorted(tone.items()))
     encoding="utf-8",
 )
 light = sum(1 for v in tone.values() if v > 0.52)
-print(f"{len(plates)}/{len(shots)} plates: {light} light, {len(plates) - light} dark")
+in_cut = len([s for s in shots if s in set(plates)])
+print(f"{in_cut}/{len(shots)} shots in the cut have a plate "
+      f"({light} light, {len(plates) - light} dark across all {len(plates)})")
 print(f"pending ({len(pending)}): {', '.join(pending) if pending else 'none'}")
+if dropped:
+    print(f"parked — not in the VO ({len(dropped)}): {', '.join(dropped)}")
 if orphans:
     print(f"!! plates matching no shot in the cut: {', '.join(orphans)}")

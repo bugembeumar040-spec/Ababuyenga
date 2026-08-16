@@ -1,14 +1,24 @@
 #!/usr/bin/env python3
 """
-Derive the real cut from the recorded VO.
+Build the cut from the recorded VO.
 
-Reads jinn-shot-pack-final.txt for the planned spine (64 shots, MOVE specs, VO
-lines) and media/sil.txt for the silence map of the merged voiceover, then
-re-times every shot boundary onto a real pause in the recording.
+Reads jinn-shot-pack-final.txt for each shot's MOVE spec and flags, and
+media/vo-align.json for where every line is actually spoken. Each shot is placed
+under its own line; the cut order is the recording's order.
 
-The shot pack's own instruction: "Timings are weighted per shot and derived from
-the v3 word count at 135 wpm -- re-cut them against the recorded VO before you
-generate anything." This is that re-cut, done arithmetically rather than by eye.
+This replaced an earlier version that scaled the pack's planned timings onto the
+real duration and snapped boundaries to pauses. That was wrong in three ways at
+once, and the captions drifted off the voiceover as a result:
+
+  * the recording did not compress evenly -- group 1 came in at 107.00s against
+    a planned 107s while the film overall came in 9% short;
+  * eight shots are not in the recording at all (the pack's CUT 1 and CUT 2,
+    applied at record time), so everything after them was displaced;
+  * S29 and S29b are spoken in the opposite order to the pack.
+
+None of that is recoverable from a silence map. A pause tells you someone
+stopped talking, not which line they stopped in the middle of. Run
+tools/align-vo.py first; this consumes its output.
 
 Emits src/jinn/beats.ts.
 """
@@ -19,14 +29,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 PACK = ROOT / "jinn-shot-pack-final.txt"
-SIL = ROOT / "video" / "media" / "sil.txt"
+ALIGN = ROOT / "video" / "media" / "vo-align.json"
 OUT = ROOT / "video" / "src" / "jinn" / "beats.ts"
 
 VO_DURATION = float(sys.argv[1]) if len(sys.argv) > 1 else 613.91
 FPS = 30
-# Boundaries may travel this far from their scaled position to find a real pause.
-SNAP_WINDOW = 2.6
-MIN_SHOT = 1.8
+MIN_SHOT = 1.5
+# Where the cut lands inside the gap between two lines. Early enough that the
+# incoming plate is up before the next line starts, late enough that it does not
+# steal the tail of the one before.
+CUT_AT = 0.4
 
 SHOT_RE = re.compile(r"^(S\d+[a-z]?) · (\d+):(\d+)[–-](\d+):(\d+)\s*$")
 VO_RE = re.compile(r"^VO(>|\s) ?(.*)$")
@@ -90,47 +102,39 @@ def parse_pack():
     return shots
 
 
-def parse_silences():
-    """Return [(start, end)] pauses in the merged VO."""
-    gaps, start = [], None
-    for line in SIL.read_text().splitlines():
-        if "silence_start" in line:
-            start = float(line.split(":")[1].split()[0])
-        elif "silence_end" in line and start is not None:
-            end = float(line.split(":")[1].split("|")[0].strip())
-            gaps.append((start, end))
-            start = None
-    return gaps
+def solve(shots):
+    """Place every shot under its own line, in the order the VO says them."""
+    align = json.loads(ALIGN.read_text())
+    spoken, dropped = align["spoken"], set(align["dropped"])
 
+    by_id = {s["id"]: s for s in shots}
+    for missing in dropped - by_id.keys():
+        raise SystemExit(f"align names a shot the pack does not: {missing}")
 
-def solve(shots, gaps):
-    """Scale the planned spine onto the real VO, then snap cuts onto pauses."""
-    plan_total = shots[-1]["planOut"]
-    scale = VO_DURATION / plan_total
-    # Cut on the pause, not on the word: a cut lands 40% into the gap so the
-    # incoming plate is already up when the next line starts.
-    centres = [g[0] + (g[1] - g[0]) * 0.4 for g in gaps]
+    # The recording's order, not the pack's.
+    order = [sid for sid in spoken if sid in by_id]
 
     cuts = [0.0]
-    for s in shots[:-1]:
-        target = s["planOut"] * scale
-        near = [c for c in centres if abs(c - target) <= SNAP_WINDOW]
-        chosen = min(near, key=lambda c: abs(c - target)) if near else target
-        cuts.append(max(chosen, cuts[-1] + MIN_SHOT))
+    for a, b in zip(order, order[1:]):
+        gap_start, gap_end = spoken[a]["end"], spoken[b]["start"]
+        if gap_end <= gap_start:  # lines abut or overlap; cut on the boundary
+            cut = gap_end
+        else:
+            cut = gap_start + (gap_end - gap_start) * CUT_AT
+        cuts.append(max(cut, cuts[-1] + MIN_SHOT))
     cuts.append(VO_DURATION)
 
     out = []
-    for idx, s in enumerate(shots):
+    for idx, sid in enumerate(order):
+        s = dict(by_id[sid])
         t_in, t_out = cuts[idx], cuts[idx + 1]
-        s = dict(s)
-        s["tIn"] = round(t_in, 3)
-        s["tOut"] = round(t_out, 3)
+        s["tIn"], s["tOut"] = round(t_in, 3), round(t_out, 3)
         s["frameIn"] = round(t_in * FPS)
         s["frames"] = max(round(t_out * FPS) - round(t_in * FPS), 1)
-        s["snapped"] = any(abs(t_in - c) < 0.001 for c in centres)
-        s["drift"] = round(t_in - s["planIn"] * scale, 2)
+        s["line"] = [spoken[sid]["start"], spoken[sid]["end"]]
+        s["hit"] = spoken[sid]["hit"]
         out.append(s)
-    return out
+    return out, sorted(dropped)
 
 
 MOVE_RE = re.compile(
@@ -159,7 +163,7 @@ def parse_move(move):
     return {"zoom": round(zoom, 4), "dx": dx, "dy": dy}
 
 
-def emit(shots):
+def emit(shots, dropped):
     for s in shots:
         s["camera"] = parse_move(s["move"])
     body = json.dumps(
@@ -180,6 +184,7 @@ def emit(shots):
                 "lineReveal": s["lineReveal"],
                 "peak": s["peak"],
                 "locked": s["locked"],
+                "line": s["line"],
                 "plate": f"plates/{s['id']}.png",
             }
             for s in shots
@@ -188,8 +193,9 @@ def emit(shots):
     )
     OUT.write_text(
         "// GENERATED by video/tools/build-beats.py — do not hand-edit.\n"
-        "// Cuts are snapped onto real pauses in media/jinn-vo.mp3, not the\n"
-        "// shot pack's 135wpm estimates. Re-run the tool if the VO is recut.\n\n"
+        "// Every shot is placed under its own line, force-aligned against\n"
+        "// public/jinn-vo.mp3 by tools/align-vo.py. Order is the recording's,\n"
+        "// not the pack's. Re-run both tools if the VO is recut.\n\n"
         "export type Camera = { zoom: number; dx: number; dy: number };\n\n"
         "export type Shot = {\n"
         "  id: string;\n"
@@ -207,25 +213,31 @@ def emit(shots):
         "  lineReveal: boolean;\n"
         "  peak: boolean;\n"
         "  locked: boolean;\n"
+        "  /** [start, end] of this shot's spoken line, seconds into the VO. */\n"
+        "  line: [number, number];\n"
         "  plate: string;\n"
         "};\n\n"
         f"export const FPS = {FPS};\n"
         f"export const VO_DURATION = {VO_DURATION};\n"
         f"export const DURATION_IN_FRAMES = {round(VO_DURATION * FPS)};\n"
         "export const WIDTH = 2560;\nexport const HEIGHT = 1440;\n\n"
-        f"export const SHOTS: Shot[] = {body};\n",
+        f"export const SHOTS: Shot[] = {body};\n\n"
+        "// Shots the recording does not contain — the pack's CUT 1 and CUT 2,\n"
+        "// applied when the VO was recorded. Their plates are still in\n"
+        "// public/plates/ and they return automatically if a fuller VO lands.\n"
+        f"export const DROPPED: string[] = {json.dumps(dropped)};\n",
         encoding="utf-8",
     )
 
 
 if __name__ == "__main__":
-    shots = parse_pack()
-    gaps = parse_silences()
-    timed = solve(shots, gaps)
-    emit(timed)
-    snapped = sum(1 for s in timed if s["snapped"])
-    print(f"{len(timed)} shots, {len(gaps)} pauses, {snapped}/{len(timed)-1} cuts on a pause")
-    print(f"worst drift from scaled plan: {max(abs(s['drift']) for s in timed):.2f}s")
-    for s in timed:
-        flag = "" if s["snapped"] else "  (no pause — held at scaled position)"
-        print(f"  {s['id']:6} {s['tIn']:7.2f}->{s['tOut']:7.2f} {s['tOut']-s['tIn']:5.2f}s{flag}")
+    timed, dropped = solve(parse_pack())
+    emit(timed, dropped)
+    print(f"{len(timed)} shots in the cut, {len(dropped)} dropped: {', '.join(dropped)}")
+    # Every shot must contain the line it is captioned with. This is the check
+    # the previous version had no way to make.
+    bad = [s for s in timed if not (s["tIn"] <= s["line"][0] and s["line"][1] <= s["tOut"] + 0.35)]
+    print(f"lines fully inside their own shot: {len(timed) - len(bad)}/{len(timed)}")
+    for s in bad:
+        print(f"  !! {s['id']:6} shot {s['tIn']:.2f}-{s['tOut']:.2f} "
+              f"line {s['line'][0]:.2f}-{s['line'][1]:.2f}")

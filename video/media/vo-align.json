@@ -1,0 +1,304 @@
+{
+  "_note": "Where each shot's line is actually spoken in public/jinn-vo.mp3, in seconds, force-aligned from a word-timestamped transcript against the shot pack's VO lines. 'dropped' are shots the recording does not contain at all \u2014 the VO was recorded from a shorter script than the pack (see the pack's CUT 1 / CUT 2). build-beats.py builds the cut from this file and never from the pack's planned timings.",
+  "coverage": "56/64 shots spoken",
+  "order": "cut order is the order of this file \u2014 the recording's order, not the pack's",
+  "reordered_vs_pack": [
+    "S29",
+    "S29b"
+  ],
+  "asr_words": 1342,
+  "matched_words": 1039,
+  "dropped": [
+    "S07",
+    "S07b",
+    "S07c",
+    "S14",
+    "S14b",
+    "S15",
+    "S15b",
+    "S16"
+  ],
+  "spoken": {
+    "S01": {
+      "start": 0.0,
+      "end": 2.94,
+      "hit": 0.82
+    },
+    "S01b": {
+      "start": 4.34,
+      "end": 8.68,
+      "hit": 1.0
+    },
+    "S02": {
+      "start": 9.22,
+      "end": 13.42,
+      "hit": 1.0
+    },
+    "S02b": {
+      "start": 13.64,
+      "end": 23.06,
+      "hit": 1.0
+    },
+    "S03": {
+      "start": 23.84,
+      "end": 31.84,
+      "hit": 1.0
+    },
+    "S03b": {
+      "start": 32.34,
+      "end": 38.98,
+      "hit": 0.95
+    },
+    "S04": {
+      "start": 40.56,
+      "end": 52.32,
+      "hit": 0.89
+    },
+    "S05": {
+      "start": 58.84,
+      "end": 64.78,
+      "hit": 0.92
+    },
+    "S05b": {
+      "start": 66.14,
+      "end": 70.48,
+      "hit": 0.92
+    },
+    "S05c": {
+      "start": 72.08,
+      "end": 76.84,
+      "hit": 0.91
+    },
+    "S06": {
+      "start": 77.62,
+      "end": 82.78,
+      "hit": 1.0
+    },
+    "S06b": {
+      "start": 83.36,
+      "end": 106.26,
+      "hit": 1.0
+    },
+    "S08": {
+      "start": 107.26,
+      "end": 117.5,
+      "hit": 1.0
+    },
+    "S08b": {
+      "start": 117.82,
+      "end": 122.3,
+      "hit": 1.0
+    },
+    "S09": {
+      "start": 125.68,
+      "end": 137.58,
+      "hit": 0.67
+    },
+    "S10": {
+      "start": 137.58,
+      "end": 142.32,
+      "hit": 1.0
+    },
+    "S10b": {
+      "start": 142.84,
+      "end": 153.74,
+      "hit": 0.97
+    },
+    "S11": {
+      "start": 168.66,
+      "end": 179.72,
+      "hit": 0.96
+    },
+    "S11b": {
+      "start": 180.32,
+      "end": 193.24,
+      "hit": 1.0
+    },
+    "S12": {
+      "start": 194.06,
+      "end": 218.88,
+      "hit": 0.85
+    },
+    "S12b": {
+      "start": 219.34,
+      "end": 220.64,
+      "hit": 1.0
+    },
+    "S13": {
+      "start": 221.36,
+      "end": 227.82,
+      "hit": 1.0
+    },
+    "S13b": {
+      "start": 228.24,
+      "end": 230.98,
+      "hit": 1.0
+    },
+    "S13c": {
+      "start": 231.46,
+      "end": 247.92,
+      "hit": 0.81
+    },
+    "S16b": {
+      "start": 252.34,
+      "end": 257.62,
+      "hit": 1.0
+    },
+    "S17": {
+      "start": 258.52,
+      "end": 273.94,
+      "hit": 0.89
+    },
+    "S17b": {
+      "start": 274.78,
+      "end": 281.44,
+      "hit": 0.85
+    },
+    "S18": {
+      "start": 282.86,
+      "end": 287.98,
+      "hit": 0.83
+    },
+    "S18b": {
+      "start": 289.82,
+      "end": 300.92,
+      "hit": 0.81
+    },
+    "S19": {
+      "start": 305.02,
+      "end": 317.62,
+      "hit": 1.0
+    },
+    "S20": {
+      "start": 321.58,
+      "end": 324.46,
+      "hit": 0.5
+    },
+    "S20b": {
+      "start": 325.24,
+      "end": 326.46,
+      "hit": 1.0
+    },
+    "S21": {
+      "start": 327.86,
+      "end": 331.66,
+      "hit": 0.71
+    },
+    "S21b": {
+      "start": 332.4,
+      "end": 344.36,
+      "hit": 0.82
+    },
+    "S22": {
+      "start": 345.2,
+      "end": 350.12,
+      "hit": 1.0
+    },
+    "S22b": {
+      "start": 351.02,
+      "end": 362.74,
+      "hit": 0.84
+    },
+    "S23": {
+      "start": 364.3,
+      "end": 376.14,
+      "hit": 0.97
+    },
+    "S23b": {
+      "start": 376.84,
+      "end": 384.12,
+      "hit": 0.95
+    },
+    "S24": {
+      "start": 384.94,
+      "end": 406.72,
+      "hit": 0.97
+    },
+    "S24b": {
+      "start": 407.24,
+      "end": 409.7,
+      "hit": 0.67
+    },
+    "S24c": {
+      "start": 413.04,
+      "end": 422.72,
+      "hit": 1.0
+    },
+    "S25": {
+      "start": 423.7,
+      "end": 432.6,
+      "hit": 0.95
+    },
+    "S25b": {
+      "start": 433.1,
+      "end": 434.84,
+      "hit": 1.0
+    },
+    "S25c": {
+      "start": 435.7,
+      "end": 448.68,
+      "hit": 1.0
+    },
+    "S26": {
+      "start": 454.08,
+      "end": 477.3,
+      "hit": 0.85
+    },
+    "S26b": {
+      "start": 481.5,
+      "end": 489.52,
+      "hit": 1.0
+    },
+    "S27": {
+      "start": 490.7,
+      "end": 501.26,
+      "hit": 0.6
+    },
+    "S27b": {
+      "start": 502.42,
+      "end": 506.52,
+      "hit": 0.9
+    },
+    "S28": {
+      "start": 507.3,
+      "end": 549.7,
+      "hit": 0.8
+    },
+    "S28b": {
+      "start": 550.76,
+      "end": 553.8,
+      "hit": 1.0
+    },
+    "S28c": {
+      "start": 554.48,
+      "end": 558.12,
+      "hit": 1.0
+    },
+    "S29b": {
+      "start": 558.86,
+      "end": 573.82,
+      "hit": 0.67
+    },
+    "S29": {
+      "start": 574.78,
+      "end": 587.18,
+      "hit": 1.0
+    },
+    "S29c": {
+      "start": 588.06,
+      "end": 594.88,
+      "hit": 0.95
+    },
+    "S30": {
+      "start": 595.36,
+      "end": 604.45,
+      "hit": 1.0,
+      "clamped": true
+    },
+    "S30b": {
+      "start": 604.5,
+      "end": 611.06,
+      "hit": 1.0
+    }
+  }
+}

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "beats": "python3 tools/build-beats.py 613.91",
+    "align": "python3 tools/align-vo.py",
+    "beats": "python3 tools/align-vo.py && python3 tools/build-beats.py 613.91 && python3 tools/scan-plates.py",
     "studio": "remotion studio src/index.ts",
     "render": "remotion render src/index.ts Jinn out/jinn.mp4 --concurrency=2",
     "preview": "remotion render src/index.ts JinnPreview out/preview.mp4 --concurrency=2",
