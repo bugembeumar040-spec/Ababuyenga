@@ -929,3 +929,104 @@ holds it on cards. The people who will argue in the comments are arguing about
 a ruling you never made, and the script's best defence is that it genuinely
 never made one.
 ================================================================================
+
+
+================================================================================
+CUT SHEET — VO-ALIGNED. THIS SUPERSEDES THE HOLDS PRINTED ON EACH STILL.
+================================================================================
+
+The per-still holds above were block-averaged. These land on VO line boundaries
+instead, which is what you actually cut to. Four frames return under a second
+line, and one new angle is needed (S22b). 29 generated stills, 33 cuts.
+
+ IN      OUT     LEN    STILL       VO LINE IT SITS UNDER
+-------- ------- ------ ----------- ------------------------------------------
+ 0:00.0  0:04.0   4.0s  S01         Somebody told you it was a look.
+ 0:04.0  0:08.0   4.0s  S02         A cousin at a wedding.
+ 0:08.0  0:15.0   7.0s  S01·RETURN  An aunt who leaned over the pram... /
+                                    And then everything went wrong at once.
+ 0:15.0  0:23.5   8.5s  S03         And then somebody offered — for a price...
+ 0:23.5  0:31.6   8.1s  S04         The Quran mentions the envier. Once... /
+                                    And it never once tells you to find him.
+ 0:31.6  0:45.0  13.4s  S05         This is not a video that tells you... /
+                                    It is real. The Prophet ﷺ said so...
+ 0:45.0  0:52.0   7.0s  S06         Al-'aynu haqq. The eye is true. /
+                                    So we are not arguing about whether.
+ 0:52.0  1:01.8   9.8s  S05·RETURN  ...at what it refuses to do.
+ 1:01.8  1:11.7   9.9s  S07         The word is hasad. Three letters...
+ 1:11.7  1:29.0  17.3s  S08         Wanting the like of it — ghibta... /
+                                    Hasad is wanting it GONE from them. /
+                                    Not up for you. Down for them.
+ 1:29.0  1:37.3   8.3s  S09         Which means hasad is a condition of a heart.
+ 1:37.3  1:48.5  11.2s  S10         In Al-Qalam... almost make you slip.
+ 1:48.5  1:56.3   7.8s  S11         So here is where the Quran hands you something.
+ 1:56.3  2:07.2  10.9s  S12         Four things named. Four refuges.
+ 2:07.2  2:22.5  15.3s  S13  HERO   WHEN he envies. Idha hasad.
+ 2:22.5  2:33.8  11.3s  S14  THUMB  You cannot build a suspect list...
+ 2:33.8  2:46.5  12.7s  S15         There is a man in the Quran who feared this...
+ 2:46.5  2:57.0  10.5s  S16         ...not to enter by a single gate.
+ 2:57.0  3:04.5   7.5s  S17         So he took a precaution. Real. Practical.
+ 3:04.5  3:19.4  14.9s  S18         He hands the outcome straight back.
+ 3:19.4  3:28.5   9.1s  S19         ...look for the part where he names who. /
+                                    It is not there.
+ 3:28.5  3:34.0   5.5s  S20         No neighbour. No cousin. No aunt at the pram.
+ 3:34.0  3:50.5  16.5s  S21         Cover the blessing. Take the precaution.
+ 3:50.5  4:05.5  15.0s  S22         Now hold that against what happens when
+                                    somebody tells you they can see who did it.
+ 4:05.5  4:14.6   9.1s  S22b  NEW   The Quran took that apart for the jinn.
+ 4:14.6  4:17.2   2.6s  S23         Because the naming is the product.
+ 4:17.2  4:23.3   6.1s  S24         ...the protection is free, already in your hands.
+ 4:23.3  4:25.9   2.6s  S23·RETURN  The NAME is what costs money.
+ 4:25.9  4:41.2  15.3s  S24·RETURN  Eleven verses between them. No fee.
+ 4:41.2  4:53.8  12.6s  S25         Go through the Quran counting.
+ 4:53.8  5:16.3  22.5s  S26  BEST   ...a second edge, pointed the other way.
+ 5:16.3  5:31.5  15.2s  S27         ...somewhere to put this that is not your
+                                    own hands.
+ 5:31.5  5:46.5  15.0s  S28         Say the surah. Cover what you love. Ask Him.
+
+FOUR THINGS THIS CUT DOES THAT THE BLOCK-AVERAGED ONE DIDN'T
+
+  S01 RETURNS at 0:08. The empty cot now lands on "and then everything went
+  wrong at once" rather than sitting under the setup line. Same asset, tighter
+  crop, second push. This is the strongest edit in the opening and it is free.
+
+  S22 ARRIVES EARLY, at 3:50.5, under the last line of Block 07 — "somebody
+  tells you they can see who did it." The image gets there before the words do,
+  which is how a reveal is supposed to work. Do not wait for the block break.
+
+  BLOCK 08 CUTS FAST — four cuts in 26 seconds against a film averaging 13.
+  That is deliberate. It is the only section with an antagonist in it, and the
+  A-B-A-B between the money (S23) and the open palms (S24) is the argument
+  staged as an edit. Everything either side of it stays slow.
+
+  S26 HOLDS 22.5 SECONDS, the longest in the film. The mirror does not cut
+  until the VO has finished turning the question around. If you get nervous and
+  cut away here you lose the payoff you spent five minutes setting up.
+
+TWO HOLDS TO WATCH
+
+  S08 at 17.3s is the longest hold before the payoff and carries three separate
+  VO lines. If it drags in the edit, generate a second tighter angle of the same
+  scale — macro on the pressed pan — and cut to it on "Not up for you. Down for
+  them." Do not cut away to something else.
+
+  S20 at 5.5s is the shortest hold in the film. Drop its move to 25px or it will
+  read as a whip. Optional: cut back to S01 for the 1.5s of "No aunt at the pram"
+  instead. It is a good callback and it is very tight — try it, keep it only if
+  it doesn't feel like a flinch.
+
+--------------------------------------------------------------------------------
+S22b · 4:05.5–4:14.6 · THE TOOLS        ** NEW — second angle on the S22 setup **
+MOVE: drift left 30px across the objects, no scale.
+--------------------------------------------------------------------------------
+Tight tabletop macro, 85mm, f/2.8, shot down at a low table draped in dark cloth
+— the same cloth and lamp as S22. A scatter of blue glass beads, a shallow brass
+bowl holding still water, and a length of cord tied with several tight knots lie
+arranged across it. No hands, no figure, no face anywhere in frame. Stylised
+low-poly matte clay cloth, near-photorealistic glass with real refraction and
+internal bubbles, brass with fine patina, twisted cord fibre. A single warm amber
+oil lamp off-frame left throws hard raking light across the objects, each one
+casting a long defined shadow to the right, deep near-black filling the rest of
+the frame. Very shallow focus, the knots sharp, the beads dissolving. Ritual,
+worn, for sale. 16:9 horizontal, objects in the lower left, dark space right.
+================================================================================
