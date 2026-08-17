@@ -1,0 +1,931 @@
+================================================================================
+"THE QURAN NEVER NAMES HIM" — EVIL EYE / HASAD — PROMPT PACK
+Consolidated: VO blocks + stills, in cut order. 16:9 · 1920x1080 · 28 stills
+Runtime ~5:47. Follows credit-card-prompt-pack.txt house style.
+================================================================================
+
+WHAT THIS FILE IS
+
+One file, in cut order. Each block carries its final v3 narration and the stills
+that sit under it, so you can work top to bottom without cross-referencing a
+scene map. The VO here is the pacing-corrected version — paste each block into
+v3 as its own generation.
+
+STILLS ONLY, on purpose. The credit-card pack offered a video track because it
+was 55 seconds. This is 5:47. Twenty-eight generated clips is four times the spend
+and four times the drift, on a film whose entire register is stillness. Generate
+stills, move them slowly in the edit. Six clips are worth shooting as video and
+they are listed at the bottom under WORTH GENERATING AS VIDEO — motion that
+carries meaning, nothing else.
+
+TIMINGS ARE TARGETS, NOT THE CUT. Derived at 138wpm plus two seconds of dead air
+per block, which is roughly what the retimed tags will produce. Record the VO
+first, then re-derive the real IN/OUT points before you commit to holds.
+Generating to estimated timings is how you end up trimming good frames.
+
+
+================================================================================
+THE ANICONIC RULE — READ THIS BEFORE ANYTHING ELSE
+================================================================================
+
+Three hard constraints. Every prompt below is already written to respect them.
+If you rewrite a prompt, keep them.
+
+  1. NO PROPHET IS DEPICTED. Block 6 is about Yaqub, peace be upon him, and
+     there is no figure in it. Gates, footprints, hands, dust — the beat is
+     carried entirely by what he did, never by him. Do not "just add a
+     silhouette." A silhouette is a depiction. This is not a style preference
+     and it is not negotiable in the edit.
+
+  2. NO FACES ANYWHERE. The house blank-head build carries over from the Klarna
+     and credit-card packs unchanged — smooth matte tan block, no eyes, no nose,
+     no mouth. It was a style choice there. Here it is doing real work, and it
+     is the reason this pack can show a fortune-teller and a client at all.
+
+  3. NO GENERATED ARABIC. Ever. Image models produce Arabic-shaped gibberish,
+     and on Quranic text that is not a quality problem, it is a different kind
+     of problem entirely. Every Arabic frame below is a blank plate. You burn
+     real typeset text in during the edit, the same rule the credit-card pack
+     applies to numbers.
+
+Palette carries over intact: deep navy #1E3A5F, terracotta #E85F42, cream
+#E8DCC8, near-black surround, one warm amber accent, cool neutral grade. Keep
+it. The channel reads as one thing when the palette doesn't move, and this
+subject does not need a new colour language — it needs the one you already own.
+
+
+================================================================================
+TEXT & ARABIC — burn these in during the edit, never generate them
+================================================================================
+
+Every prompt that needs text asks for a blank plate on purpose.
+
+  S04  AL-FALAQ 113:5  (Arabic, then the English under it)
+  S06  al-'aynu haqq  ·  "The eye is true."
+  S07  ح  س  د        (set one letter per block face, large)
+  S12  the four refuges, set as four short English lines
+  S13  إِذَا حَسَدَ  ·  "when he envies"
+  S23  (a name-shaped blank — burn in nothing, that is the joke)
+  S24  AL-FALAQ · AN-NAS  ·  11 VERSES  ·  NO FEE
+  S28  the closing four lines
+
+Set Arabic from a real typeset source — a clean mushaf render or a proper
+Uthmani font — never from an image model, never from a screenshot you cannot
+verify. Have a second pair of eyes read every Arabic frame before publish. A
+transposed letter in a Quranic frame is the one error this audience will not
+let go, and correcting it after publish means a reupload, not an edit.
+
+S13 is your typographic hero. Give إِذَا حَسَدَ the most weight in the film —
+it is the whole thesis in two words.
+
+
+================================================================================
+SCENE MAP
+================================================================================
+
+ BLOCK | IN     | OUT    | LEN    | SECTION              | STILLS
+-------|--------|--------|--------|----------------------|-------------
+  01   | 0:00.0 | 0:31.6 | 31.6s  | cold open            | S01–S04
+  02   | 0:31.6 | 1:01.8 | 30.2s  | the frame            | S05–S06
+  03   | 1:01.8 | 1:37.3 | 35.5s  | the word             | S07–S09
+  04   | 1:37.3 | 1:56.3 | 19.0s  | the look that lands  | S10–S11
+  05   | 1:56.3 | 2:46.5 | 50.2s  | al-falaq             | S12–S15
+  06   | 2:46.5 | 3:19.4 | 32.9s  | yaqub                | S16–S18
+  07   | 3:19.4 | 3:59.7 | 40.3s  | the name that isn't  | S19–S21
+  08   | 3:59.7 | 4:41.2 | 41.5s  | the product          | S22–S24
+  09   | 4:41.2 | 5:16.3 | 35.1s  | the turn             | S25–S26
+  10   | 5:16.3 | 5:46.5 | 30.2s  | the close            | S27–S28
+
+Average hold is 13 seconds. That is long, and it is correct — the whole point of
+the retimed VO is that this film breathes. If a hold drags in the edit, split it
+with a second angle of the same subject rather than cutting away. Cutting away
+is what made the first pass feel fast.
+
+
+================================================================================
+NEGATIVE PROMPT — paste once, applies to all 28 stills
+================================================================================
+
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, human
+likeness, text, lettering, arabic script, calligraphy, numbers, logos, brand
+names, watermark, signature, religious iconography, halos, cartoon, anime, 2D
+illustration, flat vector, cel shading, distorted hands, extra fingers, extra
+limbs, stock-photo smiles, HDR glow, oversaturation, blown highlights, tilted
+horizon, clutter, busy background, composite look, plastic sheen, uncanny,
+low resolution
+
+
+================================================================================
+================================  THE PACK  ====================================
+                    VO BLOCKS IN CUT ORDER, STILLS APPENDED
+================================================================================
+
+SETTINGS: 16:9 · 1920x1080 (generate at 2560x1440 and downscale — you want the
+headroom for the pushes) · one image per still · moves are total travel across
+the hold, eased out, never linear.
+
+
+================================================================================
+BLOCK 01 · 0:00.0–0:31.6 · COLD OPEN
+================================================================================
+
+[somber] Somebody told you it was a look.
+
+[slowly] A cousin at a wedding. An aunt who leaned over the pram... and said what a beautiful baby.
+
+[deliberate] And then everything went wrong at once.
+
+[whispers] And then somebody offered — for a price — to tell you which one of them it was.
+
+[measured] The Quran mentions the envier. Once... plainly... by the act itself.
+
+[long pause] And it never once tells you to find him.
+
+--------------------------------------------------------------------------------
+S01 · 0:00.0–0:07.0 · THE PRAM        ** THUMBNAIL FRAME — generate first **
+MOVE: push in 6%, centred on the empty bedding.
+--------------------------------------------------------------------------------
+Still life, 50mm, f/2. An empty wooden cot stands in a dark, plainly furnished
+room, the cream #E8DCC8 blanket inside turned back and holding the shallow
+impression of a child who is not there. No child, no toys, no people anywhere in
+frame. A single hard shaft of late daylight enters from a window off camera-left
+and falls across the bedding at a low raking angle, one long defined shadow
+thrown right, everything beyond it dropping into deep near-black. Stylised
+low-poly matte clay forms, near-photorealistic cotton weave, worn wood grain and
+fine airborne dust caught in the light. Cool neutral grade with one warm amber
+edge along the cot rail. Shallow cinematic depth of field. Quiet, still, wrong.
+16:9 horizontal, cot in the right two-thirds, dark negative space filling the
+left for typography.
+
+--------------------------------------------------------------------------------
+S02 · 0:07.0–0:15.0 · THE WEDDING, AFTER
+MOVE: drift left 40px, no scale — lateral, walking the empty row.
+--------------------------------------------------------------------------------
+Wide still life, 35mm, f/2.8, of a wedding hall after everyone has gone. A long
+row of cream banquet chairs stands against a dark wall, one chair pulled out and
+turned slightly away from the line. Tables cleared, cloths creased, a single
+brass tea glass left behind. Absolutely no people in frame. Warm amber practical
+light from a fixture off-frame right, cool blue ambient falling in from high
+windows, deep near-black in the corners. Stylised low-poly matte clay furniture,
+near-photorealistic linen texture, brass with fine patina, real contact shadows
+under every chair leg. Shallow depth of field, the near chair sharp, the row
+softening into the dark. 16:9 horizontal, the row running left to right through
+the lower two-thirds.
+
+--------------------------------------------------------------------------------
+S03 · 0:15.0–0:24.0 · THE OFFER
+MOVE: push in 8% onto the money. Decisive — this is the beat the film is about.
+--------------------------------------------------------------------------------
+Tight two-hand tabletop shot, 85mm, f/2, across a low dark table in a dim room.
+A simplified geometric hand in a deep navy #1E3A5F sleeve slides a small folded
+stack of plain unmarked banknotes across the table toward a second waiting hand,
+palm up, at the far edge of frame. No faces, no heads, no bodies visible — the
+frame is cut at the wrists. The notes are completely blank, no printing or
+denominations anywhere. Stylised low-poly matte clay anatomy, near-photorealistic
+paper and worn table surface. Single hard key from camera-left at a low raking
+angle throwing two long shadows right, deep near-black surround, one warm amber
+accent on the near hand. Very shallow focus, the notes sharp, both hands
+softening. Furtive, transactional, intimate. 16:9 horizontal, hands centred low,
+dark space above.
+
+--------------------------------------------------------------------------------
+S04 · 0:24.0–0:31.6 · VERSE PLATE — AL-FALAQ 113:5
+MOVE: push in 3%, barely perceptible. Let the type do the work.
+--------------------------------------------------------------------------------
+Empty typographic plate. A dark near-black textured surface — hand-laid plaster
+with fine tooth and shallow surface irregularity, lit by a single soft raking
+light from the upper left so a gentle luminance gradient runs top-left to
+bottom-right. Absolutely no text, no lettering, no script, no ornament, no
+objects anywhere in frame. Deep charcoal base with the faintest warm amber cast
+in the lit corner, falling to true black at the lower right. Fine natural grain,
+no vignette ring, no glow. 16:9 horizontal, completely clear centre.
+[BURN IN: Al-Falaq 113:5, Arabic set large, English translation beneath.]
+
+
+================================================================================
+BLOCK 02 · 0:31.6–1:01.8 · THE FRAME
+================================================================================
+
+[firmly] This is not a video that tells you the evil eye is not real.
+
+[emphatic] It is real. The Prophet ﷺ said so... and the words are as short as words get.
+
+[slowly] Al-'aynu haqq. The eye is true.
+
+[thoughtful] So we are not arguing about whether.
+
+[curious] We are going to look at what the Quran does with it — and, more usefully... at what it refuses to do.
+
+--------------------------------------------------------------------------------
+S05 · 0:31.6–0:47.0 · THE SHAFT
+MOVE: none. Hold it dead still. The light is the subject and it does not move.
+--------------------------------------------------------------------------------
+Architectural still life, 24mm, f/5.6. A single hard shaft of white daylight
+enters a dark bare room through a high narrow opening and lands as a clean
+geometric parallelogram on a worn stone floor. The room is otherwise entirely
+empty — no furniture, no figures, no objects. Airborne dust drifts visibly
+through the beam. Stylised low-poly architecture, near-photorealistic stone with
+real wear, chipping and fine grain underfoot. Extreme contrast: the lit floor
+bright and detailed, everything outside the beam dropping to deep near-black.
+Cool neutral grade in the light, one warm amber cast where it strikes the stone.
+Deep focus, edge to edge sharp. Severe, quiet, undeniable. 16:9 horizontal, the
+beam landing in the right half, dark wall filling the left.
+
+--------------------------------------------------------------------------------
+S06 · 0:47.0–1:01.8 · PLATE — AL-'AYNU HAQQ
+MOVE: push in 4%.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/4, of a small blank brass plaque lying flat on dark
+matte charcoal, its face completely smooth and unengraved — no text, no
+lettering, no marks of any kind. Heavy, hand-finished, with fine patina, faint
+tool marks around the bevelled edge and a real weight to the way it sits.
+Stylised low-poly matte clay surround, near-photorealistic brass with sharp
+specular hits. One hard key from camera-left at a very low raking angle, a
+single long unbroken shadow to the right, deep near-black falloff. Cool neutral
+grade with a warm amber bloom on the lit bevel. Extremely shallow focus, the
+plaque face sharp, the surface dissolving within centimetres. 16:9 horizontal,
+plaque low and left, clean dark space to the right.
+[BURN IN: al-'aynu haqq — "The eye is true." Set small. It should feel engraved.]
+
+
+================================================================================
+BLOCK 03 · 1:01.8–1:37.3 · THE WORD
+================================================================================
+
+[measured] The word is hasad. Three letters... ha... seen... dal.
+
+[deliberate] And it does not mean wanting what someone has.
+
+[thoughtful] Wanting the like of it is a different word — ghibta — and it is not blamed.
+
+[firmly] Hasad is wanting it GONE from them.
+
+[slowly] Not up for you. Down for them.
+
+[deliberate] That is the whole distinction... and almost nobody makes it.
+
+[thoughtful] Which means hasad is a condition of a heart.
+Not a beam.
+Not a transaction.
+A state someone is in.
+
+--------------------------------------------------------------------------------
+S07 · 1:01.8–1:14.0 · THREE LETTERS
+MOVE: drift right 30px across the three blocks, no scale.
+--------------------------------------------------------------------------------
+Locked-off tabletop still life, 60mm, f/5.6, on dark walnut with visible grain.
+Three identical square wooden letterpress blocks stand upright in a row, evenly
+spaced, each face completely blank and unmarked — no letters, no glyphs, no
+script, no printing anywhere. Aged hardwood with real end-grain, chipped
+corners, ink-darkened edges from long use. Stylised low-poly matte clay forms,
+near-photorealistic wood texture. One hard key from camera-left, three identical
+long shadows thrown right in parallel, deep near-black surround, one warm amber
+rim along the top edges. Shallow focus, the centre block sharp, the outer two
+softening slightly. Square-on, deliberate, evidential. 16:9 horizontal, blocks
+centred low, generous dark margin above.
+[BURN IN: ح · س · د — one letter per block face, large, aligned to the faces.]
+
+--------------------------------------------------------------------------------
+S08 · 1:14.0–1:26.0 · DOWN FOR THEM
+MOVE: push in 7% onto the descending pan.
+--------------------------------------------------------------------------------
+Tabletop still life, 60mm, f/4, dark matte surface. A small brass balance scale
+sits square to frame with both pans loaded identically — the same small cream
+stones in each. A single simplified geometric fingertip in a deep navy #1E3A5F
+sleeve presses down on the rim of the left pan, forcing it low; the right pan
+has risen only because the left was pushed, not because anything was added to
+it. No face, no head, no body — the frame is cut at the wrist. Stylised low-poly
+matte clay, near-photorealistic brass with real specular hits and fine patina,
+firm contact shadows. Hard key from camera-left, one long unbroken shadow right,
+deep near-black surround, cool grade with a warm amber accent on the brass.
+16:9 horizontal, scale centred, hand entering from the left.
+
+--------------------------------------------------------------------------------
+S09 · 1:26.0–1:37.3 · A CONDITION, NOT A BEAM
+MOVE: push in 5%, very slow. Let it smoulder.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, of a single dull ember resting in a shallow unglazed
+clay bowl on a dark matte surface. No flame, no sparks, no beam or ray of light
+leaving the ember — it is simply hot, deep red under a crust of grey ash, giving
+off only the faintest local glow. A thin thread of smoke rises straight and
+undisturbed. Stylised low-poly matte clay bowl, near-photorealistic charcoal
+texture, cracked ash surface, fine grain. Almost the only light in frame is the
+ember itself, with one weak cool fill from camera-left to shape the bowl rim.
+Deep near-black everywhere else. Extremely shallow focus, the ember sharp, the
+bowl edge dissolving. Contained, internal, unspectacular. 16:9 horizontal, bowl
+low-centre, darkness filling the upper half.
+
+
+================================================================================
+BLOCK 04 · 1:37.3–1:56.3 · THE LOOK THAT LANDS
+================================================================================
+
+[measured] The Quran does describe a look that lands.
+
+[slowly] In Al-Qalam, of those who disbelieved — that they would almost make you slip with their eyes.
+
+[quietly] So here is where the Quran hands you something.
+
+[deliberate] And notice what shape it is.
+
+--------------------------------------------------------------------------------
+S10 · 1:37.3–1:48.0 · ALMOST SLIP
+MOVE: push in 9% onto the edge of the step.
+--------------------------------------------------------------------------------
+Low-angle macro, 85mm, f/2.8, of the worn front edge of a single stone step, shot
+so the drop beyond it falls away into deep near-black. A simplified geometric bare
+foot rests at the very lip, half its weight already past the edge, toes gripping.
+No face, no head, no body — the frame is cut at the ankle. The stone is polished
+hollow at the centre from long use, with fine grit catching the light. Stylised
+low-poly matte clay anatomy, near-photorealistic stone wear and dust. One hard
+raking key from camera-left picking out the step's edge as a bright line, deep
+near-black below and behind, one warm amber accent on the ankle. Extremely shallow
+focus, the lip sharp, everything past it gone. Precarious, held, not yet fallen.
+16:9 horizontal, foot and edge in the lower left, dark space right.
+
+--------------------------------------------------------------------------------
+S11 · 1:48.0–1:56.3 · WHAT SHAPE IT IS
+MOVE: none. Dead still — the reveal is in the next block, not here.
+--------------------------------------------------------------------------------
+Still life, 50mm, f/4. A pair of simplified geometric open hands, palms up and
+cupped together, held empty in near-darkness, lit only by a soft warm amber light
+falling from directly above so the palms are illuminated and everything else
+recedes. Nothing is in the hands. No face, no head, no body — the frame is cut at
+the forearms. Stylised low-poly matte clay anatomy with soft subsurface material,
+near-photorealistic skin grain in the lit areas. Deep near-black surround, one
+cool fill from the far left just separating the wrists from the background. Very
+shallow depth of field. Receptive, waiting, unhurried. 16:9 horizontal, hands
+centred low, dark space filling the upper half.
+
+
+================================================================================
+BLOCK 05 · 1:56.3–2:46.5 · AL-FALAQ
+================================================================================
+
+[serious] Four things named. Four refuges.
+
+[slowly] And the last of them... wa min sharri hasidin idha hasad. From the evil of an envier, when he envies.
+
+[deliberate] WHEN he envies. Idha hasad.
+
+[measured] The Quran does not say "from the envier." It says from the evil of an envier at the moment he is envying.
+
+[long pause] It is naming a condition. Not a person.
+
+[firmly] You cannot build a suspect list out of a condition. And the Quran does not hand you one.
+
+[warmly] There is a man in the Quran who feared this exact thing for his sons... and what he did about it is the most useful passage on the subject in the whole Book.
+
+--------------------------------------------------------------------------------
+S12 · 1:56.3–2:09.0 · FOUR REFUGES
+MOVE: drift right 40px along the arches, no scale.
+--------------------------------------------------------------------------------
+Architectural still life, 35mm, f/5.6, shot square-on. Four identical shallow
+arched alcoves are set into a plain dark plaster wall in an even row, evenly
+spaced and identically proportioned, each one empty. No ornament, no pattern, no
+inscription, no objects inside them. Stylised low-poly geometry, near-photorealistic
+hand-laid plaster with fine tooth, subtle trowel marks and softly worn arch edges.
+A single hard key from camera-left rakes across the wall so each arch throws an
+identical crescent of shadow into its own recess, the four shadows falling the same
+way. Deep near-black at the frame edges, cool neutral grade, one warm amber cast on
+the lit plaster. Deep focus. Ordered, plain, architectural. 16:9 horizontal, the row
+running full width through the centre.
+[BURN IN: the four refuges as four short English lines, one under each arch.]
+
+--------------------------------------------------------------------------------
+S13 · 2:09.0–2:24.0 · IDHA HASAD        ** HERO FRAME **
+MOVE: push in 10%. The strongest move in the film — this is the thesis.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/2.8, of a single wooden match at the exact instant it
+catches — the head a small hard ball of white-hot flame no bigger than the match
+head itself, the wood not yet burnt, a struck powder trail still hanging in the air
+behind it. Deep near-black everywhere else; the flame is the only light source in
+frame and it throws a tight warm amber falloff over perhaps two centimetres of the
+striking surface. No hand, no matchbox, no other objects. Stylised low-poly matte
+clay striking surface, near-photorealistic wood grain on the match stem, real
+smoke particulate. Extremely shallow focus, the flaring head sharp, the stem gone
+within a centimetre. Instantaneous, brief, already ending. 16:9 horizontal, match
+low-left, vast darkness to the right for typography.
+[BURN IN: إِذَا حَسَدَ large in the dark right side, "when he envies" small beneath.]
+
+--------------------------------------------------------------------------------
+S14 · 2:24.0–2:38.0 · THE SUSPECT LIST      ** SECOND THUMBNAIL CANDIDATE **
+MOVE: pull back 9%, revealing that every card is blank.
+--------------------------------------------------------------------------------
+Straight-on still life, 35mm, f/4, of a dark cork investigation board mounted on a
+near-black wall. Nine cream index cards are pinned across it in a rough grid,
+connected by taut red thread running pin to pin — and every single card is
+completely blank, no writing, no photographs, no marks of any kind. No portraits or
+images pinned anywhere. Stylised low-poly matte clay cards, near-photorealistic cork
+texture, real thread fibre, brass pin heads with sharp specular hits, each card
+throwing a small hard shadow. One hard key from camera-left, deep near-black
+falloff at the frame edges, cool neutral grade with one warm amber accent on the
+thread. Shallow focus, the centre cards sharp, the outer ones softening. 16:9
+horizontal, board filling the frame, slightly off-centre right.
+
+--------------------------------------------------------------------------------
+S15 · 2:38.0–2:46.5 · THE MAN WHO FEARED IT
+MOVE: push in 5% toward the doorway.
+--------------------------------------------------------------------------------
+Architectural still life, 35mm, f/2.8. A single low arched doorway in a plain
+mud-brick wall, standing open onto warm light, seen from a few paces back in the
+cool shade. The threshold is worn hollow at the centre from long use. Absolutely no
+figures anywhere in frame. Stylised low-poly architecture, near-photorealistic
+mud-brick with straw fleck, sun-bleached render, fine dust on the sill. Strong warm
+amber daylight beyond the doorway blowing gently toward white, cool blue shade on
+the near side of the wall, deep near-black in the upper corners. Shallow depth of
+field, threshold sharp, the light beyond soft. Expectant, domestic, old. 16:9
+horizontal, doorway in the left third, dark wall filling the right.
+
+
+================================================================================
+BLOCK 06 · 2:46.5–3:19.4 · YAQUB
+================================================================================
+
+** NO FIGURE IN ANY OF THESE THREE STILLS. See THE ANICONIC RULE. **
+
+[gently] Yaqub — peace be upon him — tells his sons not to enter by a single gate... but to enter by separate ones.
+
+[measured] So he took a precaution. Real. Practical. Physical.
+
+He did not pretend the danger was nothing.
+
+[warmly] And then — in the same breath, in the same verse — he says the decision belongs to Allah alone... and that upon Him he relies.
+
+[slowly] He takes the precaution...
+
+[deliberate] He hands the outcome straight back.
+
+--------------------------------------------------------------------------------
+S16 · 2:46.5–2:58.0 · SEPARATE GATES
+MOVE: drift right 50px along the wall, no scale.
+--------------------------------------------------------------------------------
+Wide architectural still life, 28mm, f/8, of an ancient city wall at first light,
+with four separate arched gateways set along its length at irregular intervals,
+all of them standing open. Absolutely no people, no animals, no carts, no figures
+of any kind anywhere in frame. Stylised low-poly architecture, near-photorealistic
+sandstone with real weathering, wind-scour at the base, fine drifted dust across
+the ground. Low warm amber dawn light raking hard from camera-left so each gateway
+throws a long shadow across the sand and the wall face is strongly modelled, deep
+cool blue shade on the unlit planes, near-black in the gateway mouths. Deep focus,
+edge to edge. Vast, quiet, empty. 16:9 horizontal, wall running full width through
+the lower two-thirds, pale sky above for typography.
+
+--------------------------------------------------------------------------------
+S17 · 2:58.0–3:09.0 · THE PRECAUTION
+MOVE: push in 8% onto the point where the tracks separate.
+--------------------------------------------------------------------------------
+High-angle macro, 50mm, f/4, looking down at fine dry sand. A single line of
+footprints arrives from the bottom of frame and then divides — four separate
+tracks diverging outward toward the top of frame, each heading a different way,
+the sand between them undisturbed. No feet, no figures, no shadows of people
+anywhere — only the prints they left. Stylised low-poly ground forms,
+near-photorealistic sand grain, crisp print edges with fine collapse at the rims,
+a few small stones. One hard low key from camera-left so every print holds a sharp
+crescent of shadow and the surface texture reads. Deep near-black at the frame
+corners, cool neutral grade with one warm amber cast across the lit sand. Deep
+focus. Deliberate, recent, unpeopled. 16:9 horizontal, divergence point centred low.
+
+--------------------------------------------------------------------------------
+S18 · 3:09.0–3:19.4 · HANDS IT BACK
+MOVE: push in 4%, the gentlest in the film so far.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/2. Two simplified geometric hands, palms upturned and open,
+resting loosely apart in near-darkness — not gripping, not cupped tight, simply
+open and holding nothing. No face, no head, no body — the frame is cut at the
+forearms. A soft warm amber light falls from high above onto the palms alone.
+Stylised low-poly matte clay anatomy, soft subsurface material,
+near-photorealistic skin grain and fine creases in the lit areas. Deep near-black
+surround, one weak cool fill from the far left separating the wrists from the
+background. Very shallow depth of field, the palms sharp, the wrists softening.
+Released, unclenched, at rest. 16:9 horizontal, hands centred low, dark above.
+
+
+================================================================================
+BLOCK 07 · 3:19.4–3:59.7 · THE NAME THAT ISN'T THERE
+================================================================================
+
+[quietly] Read the passage again... and look for the part where he names who he is afraid of.
+
+[whispers] It is not there.
+
+[softly] No neighbour. No cousin. No aunt at the pram. Not one name.
+
+[measured] Earlier in the same surah he had told Yusuf not to relate his dream to his brothers. Concealment. Not confrontation.
+
+[deliberate] That is the Quran's posture in one line.
+Cover the blessing.
+Take the precaution.
+Ask Allah.
+Accuse no one.
+
+[serious] Now hold that against what happens when somebody tells you they can see who did it.
+
+--------------------------------------------------------------------------------
+S19 · 3:19.4–3:33.0 · THE GAP
+MOVE: push in 11% onto the empty ruled line.
+--------------------------------------------------------------------------------
+Tight macro, 100mm, f/2.8, of a heavy cream ledger page on a dark walnut desk. The
+page carries a column of ruled horizontal lines and nothing else — completely
+unprinted, no handwriting, no letters, no marks on any line. One line near the
+centre is slightly more strongly ruled than the rest, and it is as empty as the
+others. Heavy stock with visible fibre, one soft fold crease running across, a
+faint foxing stain at the corner. Hard low raking key from camera-left throwing a
+long angular shadow across the paper and picking the ruling out in relief. Deep
+near-black surround, warm amber rim along the page's near edge. Extremely shallow
+focus, the centre line sharp, the far edge of the page dissolving. 16:9 horizontal,
+page filling the lower two-thirds.
+
+--------------------------------------------------------------------------------
+S20 · 3:33.0–3:47.0 · NOT ONE NAME
+MOVE: drift right 40px past the doorways.
+--------------------------------------------------------------------------------
+Wide still life, 35mm, f/4, of a narrow residential street at night, three plain
+house doorways set along one side at even intervals, every one of them closed. No
+people, no figures, no faces, no lit windows with occupants — the street is
+entirely empty. Stylised low-poly architecture, near-photorealistic rendered walls
+with fine surface pitting, worn timber doors, cobbles with real wear and damp
+sheen. A single warm amber street lamp off-frame right throws long overlapping
+shadows toward camera, cool blue moonlight fills the upper walls, deep near-black
+in the recesses. Shallow depth of field, the nearest door sharp, the street
+softening away. Still, closed, accusing nobody. 16:9 horizontal, doorways running
+left to right through the centre band.
+
+--------------------------------------------------------------------------------
+S21 · 3:47.0–3:59.7 · COVER THE BLESSING
+MOVE: push in 6% onto the covered shape.
+--------------------------------------------------------------------------------
+Tabletop still life, 60mm, f/4, on dark walnut. A soft cream #E8DCC8 linen cloth
+has been drawn over a small unseen object, settling into its shape — the form
+beneath is clearly present and completely unidentifiable. A simplified geometric
+hand in a deep navy #1E3A5F sleeve rests at the cloth's edge, having just laid it
+down. No face, no head, no body — the frame is cut at the wrist. Stylised low-poly
+matte clay, near-photorealistic linen weave with real drape, fine wrinkles and a
+frayed selvedge. One hard key from camera-left modelling every fold, a single long
+shadow thrown right, deep near-black surround, one warm amber accent on the raised
+crest of the cloth. Shallow focus. Protective, deliberate, final. 16:9 horizontal,
+covered form centred low, dark space above.
+
+
+================================================================================
+BLOCK 08 · 3:59.7–4:41.2 · THE PRODUCT
+================================================================================
+
+[measured] If you watched the last video on this channel, you already know the shape of this. A man who says he can perceive what you cannot — and then names a price.
+
+[deliberate] The Quran took that apart for the jinn. It takes it apart here the same way... and for the same reason.
+
+[firmly] Because the naming is the product.
+
+[slowly] Not the protection — the protection is free, and it is already in your hands.
+
+[emphatic] The NAME is what costs money.
+
+[softly] Al-Falaq and An-Nas. Eleven verses between them. No intermediary. No appointment. No fee.
+
+--------------------------------------------------------------------------------
+S22 · 3:59.7–4:15.0 · THE MAN WHO SAYS HE CAN SEE
+MOVE: push in 7%, closing the distance across the table.
+--------------------------------------------------------------------------------
+Environmental shot, 35mm, f/2, of a dim low-ceilinged room. A seated figure with a
+COMPLETELY BLANK featureless head — no eyes, no nose, no mouth, a smooth matte tan
+block — sits cross-legged behind a low table draped in dark cloth, wearing a deep
+navy #1E3A5F robe, one simplified geometric hand extended palm-up across the table
+toward camera. Spread on the cloth in front of him are a scatter of blue glass
+beads, a shallow brass bowl of water and a knotted length of cord. Stylised
+low-poly geometric anatomy, matte clay-like shading with soft subsurface scatter,
+near-photorealistic glass, brass and worn cloth. A single warm amber oil lamp
+off-frame left is the only practical, throwing hard theatrical shadows up the wall
+behind him, deep near-black filling the corners, one cool fill from a shuttered
+window right. Shallow depth of field, the extended hand sharp, the figure
+softening. Staged, intimate, transactional. 16:9 horizontal, figure right of
+centre, dark space left.
+
+--------------------------------------------------------------------------------
+S23 · 4:15.0–4:29.0 · THE NAME IS THE PRODUCT
+MOVE: push in 9% onto the folded paper.
+--------------------------------------------------------------------------------
+Tight tabletop macro, 85mm, f/2.8, on dark cloth. A single small folded slip of
+cream paper lies beside a neat stack of plain unmarked banknotes, the slip creased
+once and completely blank — no writing, no letters, no marks anywhere on it. The
+money is clearly the larger object. Stylised low-poly matte clay, near-photorealistic
+paper fibre with a soft fold crease, worn note edges. One hard key from
+camera-left at a low raking angle, two long shadows thrown right, deep near-black
+surround, cool neutral grade with a single warm amber accent along the fold. Very
+shallow focus, the crease sharp, the notes softening. 16:9 horizontal, objects low
+and left, dark space right for typography.
+[BURN IN: nothing on the paper. Set the price beside it instead — that is the point.]
+
+--------------------------------------------------------------------------------
+S24 · 4:29.0–4:41.2 · ELEVEN VERSES, NO FEE
+MOVE: push in 4%.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/2.8. A pair of simplified geometric open hands, palms up and
+held close together, empty, in near-darkness — the same build and lighting as S11
+and S18 so the three read as one recurring image. Nothing is being held. No face,
+no head, no body — the frame is cut at the forearms. A clean warm amber light falls
+from directly above onto the palms, noticeably brighter and warmer than in S11.
+Stylised low-poly matte clay anatomy, soft subsurface material,
+near-photorealistic skin grain in the lit areas. Deep near-black surround, no other
+light source. Shallow depth of field. Open, sufficient, free. 16:9 horizontal,
+hands low-centre, dark space above for typography.
+[BURN IN: AL-FALAQ · AN-NAS — 11 VERSES · NO INTERMEDIARY · NO FEE]
+
+
+================================================================================
+BLOCK 09 · 4:41.2–5:16.3 · THE TURN
+================================================================================
+
+[thoughtful] And there is one more thing... and it is the part nobody expects.
+
+[measured] Go through the Quran counting. It speaks to the envied far less than it speaks about the envier.
+
+[slowly] The question it keeps putting is not "who did this to you."
+
+[deliberate] It is — do THEY envy people for what Allah gave them?
+
+[quietly] Which means the verse you were reaching for as a shield has a second edge... and it is pointed the other way.
+
+--------------------------------------------------------------------------------
+S25 · 4:41.2–4:58.0 · COUNTING
+MOVE: drift up 30px, no scale.
+--------------------------------------------------------------------------------
+Extreme macro, 100mm, f/4, of the fore-edge of a thick closed book resting on dark
+walnut, shot almost edge-on so only the compressed block of page edges fills the
+frame — hundreds of fine cream lines stacked in perfect parallel. No cover
+detailing, no title, no lettering, no script visible anywhere. Gilded edge worn
+thin in places, a single dark ribbon marker emerging near the centre. Stylised
+low-poly matte clay board, near-photorealistic paper edge grain and fine gilding.
+One hard raking key from camera-left running along the stack so every individual
+page edge catches light and throws its own micro-shadow, deep near-black above and
+below, one warm amber bloom where the gilding is intact. Extremely shallow focus, a
+narrow band of pages sharp, the rest dissolving both ways. 16:9 horizontal, page
+block running full width through the lower centre.
+
+--------------------------------------------------------------------------------
+S26 · 4:58.0–5:16.3 · THE SECOND EDGE       ** THE BEST FRAME IN THE FILM **
+MOVE: push in 6%, slow and unrelenting, straight into the glass.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/2.8, of a small round hand mirror in a plain brass frame lying
+face-up on dark walnut, angled so its glass fills most of the frame. The mirror
+reflects only an empty dark ceiling and a single warm amber light source — no face,
+no figure, no reflection of any person whatsoever. A simplified geometric hand in a
+deep navy #1E3A5F sleeve rests beside it, having just turned it over; the frame is
+cut at the wrist. Stylised low-poly matte clay, near-photorealistic aged glass with
+faint desilvering at the rim, brass with fine patina, real specular hits. One hard
+key from camera-left, a long shadow thrown right, deep near-black surround. Shallow
+focus, the mirror rim sharp, the reflection soft. Quiet, turned, unavoidable. 16:9
+horizontal, mirror centred low, dark space above.
+
+
+================================================================================
+BLOCK 10 · 5:16.3–5:46.5 · THE CLOSE
+================================================================================
+
+[measured] The eye is real. The envier is real.
+
+[slowly] And the Quran left the name out on purpose... because the moment you have a name, you have somewhere to put this that is not your own hands.
+
+[gently] Say the surah. Cover what you love. Ask Him.
+
+[softly] And if the question "who did this" will not leave you alone —
+
+[whispers] that question is worth asking about yourself first.
+
+--------------------------------------------------------------------------------
+S27 · 5:16.3–5:31.0 · YOUR OWN HANDS
+MOVE: none. Hold it dead still.
+--------------------------------------------------------------------------------
+Still life, 85mm, f/2, of two simplified geometric hands held loosely open in
+near-darkness, palms up and slightly cupped, empty — the S11 / S18 / S24 build
+returning one last time. No face, no head, no body — the frame is cut at the
+forearms. A single soft warm amber light from high camera-left models the palms and
+the fine creases across them; everything beyond the wrists falls to deep near-black.
+Stylised low-poly matte clay anatomy, soft subsurface material,
+near-photorealistic skin grain. No other objects in frame. Very shallow depth of
+field. Settled, accountable, still. 16:9 horizontal, hands low-centre, wide dark
+margin above.
+
+--------------------------------------------------------------------------------
+S28 · 5:31.0–5:46.5 · FIRST LIGHT           ** END CARD PLATE **
+MOVE: push in 3%. Let it come to rest.
+--------------------------------------------------------------------------------
+Wide architectural still life, 28mm, f/8. A plain arched window opening in a bare
+dark wall, seen from inside a shadowed room, looking out onto a pale empty sky at
+first light. Absolutely nothing else in frame — no furniture, no figures, no
+objects, no ornament. Stylised low-poly architecture, near-photorealistic plaster
+with fine tooth and a softly worn sill carrying a little drifted dust. Cool blue
+shade filling the interior, a clean warm amber dawn beyond the opening rising
+gently toward white, deep near-black in the upper corners. Deep focus. Open,
+resolved, unhurried. 16:9 horizontal, window in the left third, wide dark wall
+filling the right for the end card.
+[BURN IN: the closing four lines — Say the surah / Cover what you love / Ask Him /
+Ask it about yourself first. Then the subscribe card.]
+
+
+================================================================================
+WORTH GENERATING AS VIDEO — six clips, everything else stays a still
+================================================================================
+
+Motion earns its cost only where the motion IS the meaning. These six:
+
+  S13  the match catching        — the whole thesis is that it is instantaneous
+  S17  wind moving loose sand across the divided tracks
+  S21  the cloth settling over the shape
+  S09  the thread of smoke rising off the ember
+  S26  the mirror being turned face-up
+  S28  the dawn coming up a stop over the hold
+
+Generate at 5s, trim, and cut them in among the stills. Keep every move slow.
+This house style has no fast camera anywhere in it, and this film least of all.
+
+
+================================================================================
+AUDIT — is this viral-worthy, and where it isn't
+================================================================================
+
+Honest read, strongest first.
+
+WHAT IS GENUINELY STRONG
+
+  THE ANGLE. Evil-eye content splits two ways: debunking, or selling ruqyah.
+  This is neither, and "look at what the Quran refuses to do" is an argument
+  almost nobody in the niche is making. That is the whole asset.
+
+  THE GHIBTA / HASAD SPLIT. Block 03 is the shareable unit — a real "I have
+  been using that word wrong" payload, delivered in forty words. If one clip
+  travels off this video, it is that one.
+
+  THE TURN. Block 09 is the best thirty-five seconds you have written. The
+  shield-has-a-second-edge reversal is what makes this repostable rather than
+  merely agreeable.
+
+  S14, THE EMPTY BOARD. The single most clickable frame in the pack. It reads
+  as a conspiracy board for about half a second, then reads as empty. That is a
+  pattern interrupt doing an argument's work, and it is the thumbnail.
+
+FOUR PROBLEMS, IN ORDER OF COST
+
+  1. IT CANNOT BE A SHORT — decide this deliberately, not by accident.
+     5:47 is over the three-minute Shorts ceiling, and your existing pack is a
+     55-second 9:16 Short. This is a different slate on a channel that has not
+     published one. Long-form is the right call for this argument — it needs
+     the room — but long-form does not get discovery on a small channel.
+     So ship both: the 5:47 as the destination, and the cut-down below as the
+     thing that actually finds people. Do not try to compress this to 2:59; the
+     pacing fix you just paid for is the first thing that would die.
+
+  2. THE HOOK IS THE FOURTH LINE, NOT THE FIRST.
+     "Somebody told you it was a look" is a statement. "Somebody offered — for
+     a price — to tell you which one of them it was" is a stake, and it is
+     sitting at 0:15. Optional reorder, VO unchanged apart from sequence:
+
+         [whispers] Somebody offered — for a price — to tell you which one of
+         them it was.
+         [somber] Somebody had told you it was a look.
+         [slowly] A cousin at a wedding. An aunt who leaned over the pram...
+         and said what a beautiful baby.
+         [deliberate] And then everything went wrong at once.
+         [measured] The Quran mentions the envier...
+
+     Costs one word ("had"). Moves your strongest three seconds to zero. Cut
+     S03 first if you take it, and open on the money.
+
+  3. THE PAYLOAD LANDS AT 81%.
+     Block 09 arrives at 4:41. Most of the people who would have shared it are
+     gone by then. Seed it early — one line at the end of Block 02, right after
+     "at what it refuses to do":
+
+         [quietly] And by the end of this, the verse you reach for as a shield
+         is going to turn around and face you.
+
+     That is a promise made at 1:00 and paid at 4:41, which is exactly the
+     structure long-form retention runs on. You currently make no promise at
+     all in the first minute.
+
+  4. A RETENTION LEAK AT 4:00.
+     "If you watched the last video on this channel, you already know the shape
+     of this" does two bad things at the 69% mark: it invites a click away, and
+     it tells everyone else they are behind. Reword, same information:
+
+         [measured] This channel took the same thing apart for the jinn. A man
+         who says he can perceive what you cannot — and then names a price.
+
+     Put the actual pointer to the previous video on the end card, where a
+     click is a win instead of a loss.
+
+ON THE STILLS THEMSELVES
+
+  LOAD-BEARING: S13, S14, S26, S01, S22. These five carry the film. Generate
+  them first, approve them, lock the seed, and build the rest to match.
+
+  WEAKEST: S05 and S25. Both are mood rather than information — a shaft of
+  light and a book edge are what this genre defaults to, and defaults do not
+  hold a fourteen-second cut. S25 in particular sits under your best VO and
+  contributes nothing to it. If you only have budget to replace one frame,
+  replace S25.
+
+  THE HANDS MOTIF IS A RISK. S11, S18, S24 and S27 are all upturned open palms.
+  That is deliberate — it is the film's rhyme, and the close only lands because
+  the shape has been established. But it works ONLY if all four are visibly the
+  same build with the same light. Four slightly different pairs of hands read as
+  repetition; four identical pairs read as a motif. Lock one and reuse the seed.
+  If you want it tighter, cut S11 — the rhyme is stronger starting at S18.
+
+  YOU HAVE NO PEOPLE IN THIS FILM except S22, the fortune-teller. That is a
+  defensible reading of the aniconic rule and it makes S22 hit hard. It also
+  means the only human presence in six minutes is the man you are arguing
+  against, which is a slightly colder film than the closing lines want. The
+  hands are carrying all the warmth. Light them warm.
+
+THE SHORT — cut this from the same assets, publish it first
+
+  9:16, ~52s, no new generations. Reframe S03, S13, S14 and S22 to vertical.
+
+    0:00  S03   [whispers] Somebody offered — for a price — to tell you which
+                one of them it was.
+    0:09  S13   [measured] The Quran mentions the envier. Once... plainly...
+                by the act itself. [long pause] And it never once tells you to
+                find him.
+    0:20  S13   [deliberate] It says from the evil of an envier — when he
+                envies. WHEN. It is naming a condition. Not a person.
+    0:33  S14   [firmly] You cannot build a suspect list out of a condition.
+                And the Quran does not hand you one.
+    0:43  S22   [softly] So ask what the man selling you a name is actually
+                selling.
+    0:48        [quietly] Full breakdown on the channel.
+
+  Ends on the question, not the answer. The long-form is the answer.
+
+
+================================================================================
+PACKAGING
+================================================================================
+TITLE        The Quran Never Tells You Who Did It
+             alt 1: The Evil Eye Is Real. The Quran Still Won't Name Him.
+             alt 2: Nobody Told You What Hasad Actually Means
+             Declarative, per the Klarna retitle. Alt 2 is the highest-CTR
+             option and the least honest to the film — it promises the Block 03
+             payload and delivers a six-minute argument. Use it only if you
+             move Block 03 earlier.
+THUMBNAIL    S14, the empty board, red thread, cropped tight. No face, no text
+             over the cards. If you set type, set it in the dark right side —
+             three words maximum. S01 is the emotional alternative and will
+             underperform it; empty-board asks a question, empty-cot answers one.
+LENGTH       5:47 long-form + the 52s Short above. Not a Short on its own.
+SEARCH       People search "who gave me the evil eye", "how to know who gave
+             you nazar", "signs of evil eye". That is the intent this video
+             subverts, so meet it in the description and the first spoken line,
+             not only in the title.
+KEYWORDS     Tags under 500 characters total — hard YouTube limit, silently
+             rejects past it. Same rule as the credit-card slate.
+DESCRIPTION  600+ characters. Cite the four references by name and number:
+             Al-Falaq 113, Al-Qalam 68:51, Yusuf 12:67, Yusuf 12:5. This
+             audience checks, and citations in the description pre-empt the
+             comment that otherwise sets the tone of the thread.
+END CARD     The previous jinn / fortune-teller video. This is where the
+             cross-link belongs, not at 4:00.
+
+
+================================================================================
+ACCURACY — the claims that need to survive a comment section
+================================================================================
+
+"THE QURAN MENTIONS THE ENVIER. ONCE." — this is the line that will draw the
+top comment, and as written it is loose. The root ḥ-s-d occurs in several
+places, among them 2:109, 4:54, 48:15 and 113:5. What is singular is the
+refuge: Al-Falaq 113:5 is where the envier appears as a thing to seek refuge
+FROM. Tighten the line to say that and the objection disappears:
+
+    [measured] The Quran names the envier once as something to seek refuge
+    from. Once... plainly... by the act itself.
+
+Costs you four words and closes the only real hole in the script.
+
+"FOUR THINGS NAMED. FOUR REFUGES." — correct. Al-Falaq seeks refuge from the
+evil of what He created, of darkness when it settles, of the blowers on knots,
+and of an envier when he envies. Four.
+
+"ELEVEN VERSES BETWEEN THEM" — correct. Al-Falaq is five, An-Nas is six.
+
+"AL-'AYNU HAQQ" — the hadith is in both Bukhari and Muslim. Solid ground. The
+script attributes it plainly and claims nothing further, which is the right
+posture.
+
+AL-QALAM 68:51 and YUSUF 12:67 / 12:5 — all three are paraphrased in the VO
+rather than quoted, which is correct for a script and avoids setting an English
+rendering as though it were the text. Keep the paraphrase in the VO and put the
+citation in the description.
+
+"IT SPEAKS TO THE ENVIED FAR LESS THAN IT SPEAKS ABOUT THE ENVIER." — this is
+framing, not a statistic. Never put a number on screen next to it, and do not
+let it drift into "the Quran says X times" in the description. As a shape it is
+defensible; as a count it is a fight you have no reason to pick.
+
+NO RULING IS ISSUED ANYWHERE IN THIS SCRIPT, and that is deliberate. The video
+describes what the Quran does and does not do; it never declares a verdict on
+ruqyah practitioners as a class. Hold that line exactly as the credit-card pack
+holds it on cards. The people who will argue in the comments are arguing about
+a ruling you never made, and the script's best defence is that it genuinely
+never made one.
+================================================================================
