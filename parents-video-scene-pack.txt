@@ -1,0 +1,1018 @@
+================================================================================
+CLARITY IN THE QURAN — "THE ONE SOUND THE QURAN FORBIDS YOU TO MAKE"
+SCENE PACK — 121 SHOTS · 101 GENERATED STILLS · 16:9 · 29:45
+Companion to parents-video-reverse-engineer.txt (script lives there, section 05)
+================================================================================
+
+WHAT THIS FILE IS
+
+The visual build. Every shot in the video, timecoded to the script, with the
+image prompt for each.
+
+This is a STILLS format, not a video format. The source channel does not
+generate motion — it generates illustrations and moves the camera across them in
+the edit. That is why their 30-minute videos are economically possible and why
+they hold up: an illustration does not drift, warp, or grow a sixth finger
+halfway through a shot. Do not put this on a video model. You will pay ten times
+as much for a worse film.
+
+  101 generated stills → 121 shot events. The gap is re-framing: a wide held for
+  16 seconds, then a push into a detail of the same image, is two shots off one
+  generation. Re-frames are marked [RF] and name their parent image.
+
+
+================================================================================
+01 — HOUSE STYLE (calibrated off the source channel's own frames)
+================================================================================
+
+The look, from their thumbnails and frames:
+
+  MEDIUM      Ink line and watercolour wash. Visible pen contour, loose washes
+              that break the line, dry-brush texture, paper tooth showing
+              through. Hand-made, not rendered.
+  GROUND      Warm cream parchment, #F4EFE2. The illustration sits in a band
+              with torn deckled edges against it.
+  PALETTE     Deep indigo-navy #22375C — all linework and shadow masses
+              Warm ochre #D08A28 — every light source, lamp, sun, fire
+              Muted terracotta #B5623F — accents, textiles
+              Sage/olive #7C8560 — vegetation, some garments
+              Bone #E8DFC8 — cloth, walls in light
+              No other colours. This restraint IS the channel's signature.
+  LIGHT       One warm source, always. Lamp, doorway, window, low sun. Deep
+              navy everywhere it does not reach. Never flat daylight.
+  FIGURES     Loose and gestural, never portrait-detailed.
+  EDGE        Torn paper edge on the panel, ragged, never a clean rectangle.
+
+PASTE THIS AS THE STYLE SUFFIX ON EVERY PROMPT BELOW:
+
+  +STYLE = "Ink and watercolour illustration, visible pen linework in deep
+  indigo-navy, loose translucent washes bleeding past the contour lines,
+  dry-brush texture, warm cream parchment paper showing through. Restricted
+  palette: deep indigo-navy, warm ochre, muted terracotta, olive-sage, bone
+  white. One warm light source, deep navy shadow everywhere else. Hand-painted
+  storybook plate, torn deckled paper edge. 16:9. No text, no lettering, no
+  calligraphy in the image."
+
+NEGATIVE PROMPT — paste once, applies to all 101:
+
+  faces, facial features, eyes, mouth, nose, eyebrows, portrait, likeness,
+  photorealistic, 3D render, CGI, digital painting gloss, airbrush, anime,
+  manga, cel shading, flat vector, clip art, cartoon mascot, text, lettering,
+  calligraphy, arabic script, latin script, numbers, watermark, signature,
+  logo, crucifix, cross, church, icon, statue, idol, saturated colours, neon,
+  teal and orange grade, lens flare, bokeh balls, extra fingers, extra limbs,
+  distorted hands, modern clothing in ancient scenes, wristwatch
+
+
+================================================================================
+02 — THE FACE RULE — READ THIS BEFORE YOU GENERATE ANYTHING
+================================================================================
+
+NO FACE APPEARS ANYWHERE IN THIS VIDEO. Not one, not in the background, not
+small, not blurred.
+
+This is not a limitation imposed on the format. It is already IN the format —
+look at the source video's own thumbnail: the seated family around the table are
+rendered as blank navy shapes with no features at all, and it reads as
+deliberate style, not as absence. We take their background convention and make
+it the whole convention.
+
+How to write it, every time a person appears:
+
+  · From behind, or from the side beyond three-quarters
+  · Cropped at the shoulder, or at the chest
+  · Hands, forearms, feet, the back of a covered head
+  · At enough distance that features were never going to resolve
+  · Where a figure must face camera: features simply not rendered — the head a
+    smooth unmarked shape, exactly as their own thumbnail does it
+
+HARD PROHIBITIONS — no exceptions, no workarounds, no "silhouette version",
+no "light where the face would be", no "from behind is fine for him":
+
+  ✗ THE PROPHET ﷺ. He does not appear in this video in any form whatsoever —
+    not a figure, not a shape, not a light, not a hand, not an empty space
+    labelled as him. In chapter 11, where the script places him at his mother's
+    grave, THE FRAME CONTAINS NO PERSON AT ALL. It is a road and a horizon.
+    That shot is S111 and it is written that way on purpose. Do not "improve" it.
+  ✗ ANY PROPHET. Same rule.
+  ✗ NAMED COMPANIONS. Sa'd, Asma, Mu'awiya ibn Jahima, Abu Bakr — none of them
+    are depicted as persons. Their scenes are carried by objects, hands, and
+    rooms. Mu'awiya ibn Jahima is S62 and S67; Sa'd is S86 and S90; Asma is
+    S94 and S95. Not one of those five frames contains a person.
+  ✗ THE KA'BA WITH A CROWD, or any frame that could read as a devotional image.
+  ✗ ANGELS, JINN, ANY REPRESENTATION OF THE DIVINE, light-from-the-sky
+    theophany imagery. The source channel uses that device constantly. We never
+    do. It is the single biggest visual difference between their video and ours
+    and it is not negotiable.
+
+JURAYJ (chapter 07) is a man from a past nation in a narration — not a prophet,
+not a companion. He is still faceless, still from behind, still at distance,
+and the chapter is deliberately carried by his mother's approach and the ruin
+of the building rather than by him.
+
+TRACK B — THE FIGURE-FREE CUT. Some of your audience holds that no complete
+human figure should be depicted at all. That is a real position and you should
+decide where the channel stands BEFORE you spend money on generations. Every
+shot below marked [B-OK] already contains no complete human figure and needs no
+change. Every shot marked [B-ALT] has a figure-free alternative written into it
+on the second line. Running Track B costs you 18 alternate prompts and nothing
+else — the film survives it, because this topic is unusually rich in objects:
+the empty chair, the cooling tea, the doorway, the walking stick, the folded
+blanket, the water jug, the unworn spectacles.
+
+  Track A = 101 stills as written.  Track B = 83 as written + 18 alternates.
+
+
+================================================================================
+03 — ARABIC WORD CARDS (typeset in the edit — NEVER generated)
+================================================================================
+
+Image models cannot render Arabic. Every one of these is set as a title card in
+your editor over the cream ground. A model asked for Arabic will produce
+convincing-looking nonsense and that error, on a channel called Clarity in the
+Quran, is the one you never come back from.
+
+Nine cards. Format is identical each time: Arabic large and centred in a proper
+naskh face, transliteration beneath in small caps letterspaced, meaning beneath
+that in navy sentence case. Hold 4 seconds. No animation beyond a 3% push.
+
+  CARD  TIME     ARABIC              TRANSLIT       MEANING LINE
+  ----  -------  ------------------  -------------  --------------------------
+  C1    1:38     وَقَضَىٰ رَبُّكَ         WA-QADA RABBUKA  "And your Lord has decreed"
+  C2    5:05     وَبِالْوَالِدَيْنِ إِحْسَانًا  WA BIL-WALIDAYNI  "and to parents, good
+                                     IHSANA         treatment"
+  C3    6:35     وَهْنًا عَلَىٰ وَهْنٍ       WAHNAN 'ALA WAHN  "weakness upon weakness"
+  C4    7:05     وَلِوَالِدَيْكَ          WA LI-WALIDAYKA  "...and to your parents"
+  C5    7:52     أُفٍّ                UFF            a breath of irritation
+  C6    10:30    قَوْلًا كَرِيمًا         QAWLAN KARIMA  "a noble word"
+  C7    11:30    بِرّ  /  عُقُوق        BIRR / 'UQUQ   expansive goodness / the cut
+  C8    20:35    وَصَاحِبْهُمَا مَعْرُوفًا    WA SAHIBHUMA   "and keep company with them
+                                     MA'RUFA        with kindness"
+  C9    26:20    رَبِّ ارْحَمْهُمَا      RABBI-RHAMHUMA  "My Lord, have mercy on them"
+                 كَمَا رَبَّيَانِي صَغِيرًا   KAMA RABBAYANI   "as they raised me when I
+                                     SAGHIRA        was small"
+
+  C5 is the centrepiece of the film. Give it the full 4:3-ratio hold, ochre on
+  cream, and let the narration land on silence after it.
+  C7 is the only split card — birr left, 'uquq right, a hairline rule between.
+  C9 is the closing card and it also becomes your pinned comment.
+
+  PROOFING. Every one of these must be checked by an Arabic-literate person
+  against a mushaf before publish — vowel marks included. I have set them from
+  the standard text of 17:23-24, 31:14-15 and 2:83, but a diacritic dropped in
+  a font substitution is invisible to me and glaring to your audience. This is
+  the single highest-risk item in the whole production.
+
+
+================================================================================
+04 — SHOT LIST
+================================================================================
+
+Format:  ID · IN–OUT · duration · [track B status] · prompt (+STYLE suffix)
+         [RF] = re-frame of an earlier still, no new generation needed
+         [B-ALT] second line is the figure-free alternative for Track B
+
+--------------------------------------------------------------------------------
+CH.01 · 0:00–2:35 · THE COMMAND THAT NEVER TRAVELS ALONE
+--------------------------------------------------------------------------------
+
+S01 · 0:00–0:16 · 16s · [B-OK]
+An open handwritten manuscript resting on a low wooden stand in a dark room, its
+two facing pages catching the light of a single oil lamp just outside the frame.
+The written lines are suggested only as soft horizontal strokes of ink, never
+legible. Deep navy shadow fills the room behind. Slight curl to the parchment.
++STYLE
+
+S02 · 0:16–0:30 · 14s · [B-OK]
+The same manuscript closed, seen from above, with five thin ribbon markers of
+faded terracotta and bone laid between its pages, their ends fanned across the
+cover. Warm ochre lamplight rakes from the left, throwing five long shadows.
+Everything else in deep navy. +STYLE
+
+S03 · 0:30–0:44 · 14s · [B-OK]
+Two mature olive trees growing from a single joined trunk at ground level,
+their canopies separate above, seen against a pale cream sky at low sun. Dry
+stony earth. The join at the base is the focal point, lit warm ochre; the
+canopies fall away into navy. +STYLE
+
+S04 · 0:44–0:58 · 14s · [B-OK]
+A plain arched doorway in a thick mudbrick wall, seen straight on from a dark
+interior, warm ochre daylight flooding through it and falling in a long
+rectangle across a swept earth floor. The doorway is empty. Deep navy walls on
+both sides. +STYLE
+
+S05 · 0:58–1:12 · 14s · [B-OK]
+Extreme close on a carved stone lintel: two shallow grooves running side by
+side along the stone, which merge into a single groove at the centre of the
+frame. Low raking ochre light picks out the carving; the surrounding stone falls
+to navy. Weathered, chipped, ancient. +STYLE
+
+S06 · 1:12–1:26 · 14s · [B-OK]
+A single page of a manuscript lifting and turning, caught mid-movement, seen
+edge-on against a dark ground with warm light passing through the parchment so
+the page glows translucent ochre at its thinnest. Ink strokes visible as shadow
+through the sheet, never legible. +STYLE
+
+S07 · 1:26–1:38 · 12s · [B-OK]
+A heavy bronze seal pressed into a disc of dark red wax on a wooden table, the
+seal still resting in place, wax squeezed out in a ragged ring around it. The
+seal's face is a plain geometric device with no letters. Single warm ochre light
+from the upper left, deep navy surround. +STYLE
+
+  C1 · 1:38–1:42 · Arabic card  وَقَضَىٰ رَبُّكَ
+
+S08 · 1:42–1:56 · 14s · [B-ALT]
+A low wooden table seen from directly above. Two hands rest on it, not touching:
+one old, thin-skinned, with prominent knuckles and raised veins; one younger and
+broader. Both cropped at the wrist by the frame edge. Bare scrubbed wood, one
+warm ochre pool of lamplight, navy elsewhere. +STYLE
+  [B-ALT] The same table, empty, with two drinking bowls set a hand's width
+  apart — one chipped and old, one new. Nothing else. +STYLE
+
+S09 · 1:56–2:10 · 14s · [B-OK]
+Two pairs of worn leather sandals set side by side on a stone step beside a
+doorway: one pair large and deeply creased, one pair small. Warm ochre light
+from the open door falls across them. Dust on the leather. Deep navy in the
+recesses. +STYLE
+
+S10 · 2:10–2:24 · 14s · [B-OK]
+A simple interior seen from a doorway: two floor cushions set on a woven rug
+either side of a low table. One cushion is compressed and shaped by long use,
+the other flat and undisturbed. A lamp burns on the table. Deep navy corners,
+warm ochre centre. +STYLE
+
+S11 · 2:24–2:35 · 11s · [B-OK] [RF of S10]
+Push to a tight framing on the lamp flame alone, the rest of the room falling
+out of focus into navy.
+
+--------------------------------------------------------------------------------
+CH.02 · 2:35–4:50 · WHO THE VERSE IS ACTUALLY WATCHING
+--------------------------------------------------------------------------------
+
+S12 · 2:35–2:50 · 15s · [B-ALT]
+An elderly figure seen from behind, seated low on a floor cushion in the corner
+of a plain room, shoulders rounded under a bone-white shawl, the back of the
+covered head toward camera. No face is visible or implied. Warm ochre light from
+a high small window falls across the shawl. Deep navy room. +STYLE
+  [B-ALT] The same corner, the cushion empty, the bone-white shawl folded and
+  left on it, holding the shape of the shoulders that wore it. +STYLE
+
+S13 · 2:50–3:05 · 15s · [B-OK]
+A worn wooden walking stick propped against a mudbrick wall beside a low
+doorway, its handle darkened and polished by decades of hands. Warm ochre light
+from the doorway; the wall above falls into deep navy. Fine cracks in the
+plaster. +STYLE
+
+S14 · 3:05–3:20 · 15s · [B-OK]
+A single clay cup of tea on a windowsill, no steam rising from it, the surface
+of the liquid perfectly still. Beyond the window, a courtyard in flat late
+light. The cup is warm ochre; everything beyond the sill is cool navy. +STYLE
+
+S15 · 3:20–3:35 · 15s · [B-ALT]
+A pair of thin hands cropped at the forearm, resting palm-up and open in a lap
+of undyed cloth, fingers slightly curled, entirely still. Warm ochre light from
+one side, deep navy fabric shadow. Skin rendered with dry-brush texture, loose
+and papery. +STYLE
+  [B-ALT] A pair of worn spectacles folded on a stack of undyed folded cloth,
+  one lens catching the ochre light. +STYLE
+
+S16 · 3:35–3:50 · 15s · [B-OK]
+Two sleeping mats laid out on a floor, one rolled and tied, one still unrolled
+and lived-in. Warm ochre lamplight from floor level throws long shadows across
+the woven texture. Deep navy beyond. +STYLE
+
+S17 · 3:50–4:05 · 15s · [B-OK]
+A window shutter half-open onto a dark courtyard at dusk, one lamp lit in a
+facing room across the yard, very small and warm in a field of deep navy. Rain
+has darkened the stone sill. +STYLE
+
+S18 · 4:05–4:20 · 15s · [B-ALT]
+A younger figure seen from behind in a doorway, shoulders and back only,
+stopped on the threshold and looking into a lit room beyond. Cropped at the neck
+by the frame — no head in shot. Warm ochre spill from the room, deep navy on the
+figure and the doorframe. +STYLE
+  [B-ALT] The threshold itself, seen from the dark side: a worn stone step, warm
+  ochre light from the room beyond falling across it, a single sandal left at
+  the edge. +STYLE
+
+S19 · 4:20–4:35 · 15s · [B-OK]
+A clay water jug and a shallow bowl on a low shelf, the jug's shoulder catching
+warm ochre light, water beaded on its side. Behind, a rough plastered wall in
+deep navy. Utterly domestic, utterly still. +STYLE
+
+S20 · 4:35–4:50 · 15s · [B-OK] [RF of S19]
+Push in to the beaded water on the jug's shoulder, a single drop about to run.
+
+--------------------------------------------------------------------------------
+CH.03 · 4:50–7:40 · FIVE VERSES, FIVE ADDITIONS
+--------------------------------------------------------------------------------
+
+S21 · 4:50–5:05 · 15s · [B-OK]
+Five manuscript pages laid out in a row on a dark wooden table, overlapping
+slightly, each with a single line of ink suggested near its top edge — strokes
+only, never legible. Warm ochre light from directly above; the table falls to
+navy at the edges of frame. +STYLE
+
+  C2 · 5:05–5:09 · Arabic card  وَبِالْوَالِدَيْنِ إِحْسَانًا
+
+S22 · 5:09–5:22 · 13s · [B-OK]
+A chain of five small bronze links laid in a curve on cream parchment, the
+first link noticeably larger and heavier than the four that follow. Raking ochre
+light throws a long shadow from each link. +STYLE
+
+S23 · 5:22–5:35 · 13s · [B-OK]
+A concentric arrangement seen from directly above: a small woven mat at the
+centre, a larger ring of swept earth around it, a courtyard wall around that,
+and a track leading away into open country. Warm ochre at the centre falling to
+deep navy at the outer edge. +STYLE
+
+S24 · 5:35–5:48 · 13s · [B-OK]
+A doorway at night with a small oil lamp set on the step outside it, lighting
+the ground for whoever might pass. A traveller's bundle and staff rest against
+the far side of the doorway. No person present. Deep navy street beyond. +STYLE
+
+S25 · 5:48–6:01 · 13s · [B-OK]
+An old date palm and a very young palm shoot growing from the same patch of
+ground, seen against a pale cream sky. The old trunk is scarred and fibrous, the
+shoot bright and soft. Low warm sun from the right. +STYLE
+
+S26 · 6:01–6:14 · 13s · [B-OK]
+A stone hand-mill on a floor, its upper stone worn into a shallow bowl by years
+of turning, a scatter of grain around its base. Warm ochre light from one side,
+deep navy floor. +STYLE
+
+S27 · 6:14–6:27 · 13s · [B-ALT]
+A figure seen from behind and at distance, carrying a heavy bundle on the back
+while climbing a stony path, the body bent forward under the load. Small in
+frame, no detail resolvable. Pale cream sky, navy rock, one warm ochre patch of
+sunlight on the path ahead. +STYLE
+  [B-ALT] The stony path alone, steep, with a heavy bundle set down at the side
+  of it and a set of footprints continuing upward. +STYLE
+
+S28 · 6:27–6:35 · 8s · [B-OK]
+A set of brass scales at rest, both pans empty and perfectly level, on a dark
+surface. Warm ochre rim light along the beam, deep navy behind. +STYLE
+
+  C3 · 6:35–6:39 · Arabic card  وَهْنًا عَلَىٰ وَهْنٍ
+
+S29 · 6:39–6:52 · 13s · [B-OK]
+A thin cotton thread stretched taut between two fixed points, with many small
+weights hung along its length, the thread bowing deeply in the middle under the
+accumulated load. Plain cream ground, one warm light from the left, navy
+shadows. +STYLE
+
+S30 · 6:52–7:05 · 13s · [B-OK]
+A woven cradle of palm fibre suspended by two ropes from a dark ceiling beam,
+empty, still swinging very slightly. Warm ochre light catches one side of the
+weave. Deep navy above and behind. +STYLE
+
+  C4 · 7:05–7:09 · Arabic card  وَلِوَالِدَيْكَ
+
+S31 · 7:09–7:24 · 15s · [B-OK]
+Two clay bowls on a table, one large and one small, the small one set inside the
+large one. Warm ochre light from above, the rims catching the light, the
+interiors falling to deep navy. +STYLE
+
+S32 · 7:24–7:40 · 16s · [B-OK]
+A closed manuscript on a stand in a darkening room, the lamp beside it burning
+low, the flame small. Most of the frame is deep navy. The last warm light sits
+on the book's fore-edge. +STYLE
+
+--------------------------------------------------------------------------------
+CH.04 · 7:40–11:20 · THE THRESHOLD: WHAT "UFF" ACTUALLY IS   ★ THE KEYSTONE ★
+--------------------------------------------------------------------------------
+Spend your budget here. This is the retention spine and the most shareable
+sixty seconds in the film. Generate S33–S47 first, and if any of them come back
+weak, regenerate rather than settle.
+
+S33 · 7:40–7:52 · 12s · [B-OK]
+A single lamp flame, very close, seen against total deep navy darkness — the
+flame leaning sharply to one side as though a breath has just crossed it, but
+not extinguished. Warm ochre core, thin bright edge. Nothing else in frame.
++STYLE
+
+  C5 · 7:52–7:56 · Arabic card  أُفٍّ   ★ THE CENTREPIECE CARD ★
+
+S34 · 7:56–8:10 · 14s · [B-OK] [RF of S33]
+Hold on the flame as it returns to vertical and steadies.
+
+S35 · 8:10–8:24 · 14s · [B-OK]
+A fine drift of dust or chaff caught in a shaft of warm ochre light crossing a
+dark room, the particles disturbed and swirling as if something has just moved
+through them. Deep navy everywhere the shaft does not reach. +STYLE
+
+S36 · 8:24–8:38 · 14s · [B-OK]
+Extreme close on the surface of water in a clay bowl, one set of fine
+concentric ripples crossing it from the near edge, as though disturbed by breath
+rather than by touch. Warm ochre reflection broken by the ripples. +STYLE
+
+S37 · 8:38–8:52 · 14s · [B-OK]
+A doorway threshold stone photographed low and close, deeply worn into a dip at
+its centre by generations of feet. Warm ochre light from the far side, deep navy
+on the near side. +STYLE
+
+S38 · 8:52–9:06 · 14s · [B-OK]
+A tall stack of flat stones balanced one on another, the topmost stone very
+small — a pebble — sitting at the summit. Plain cream ground, single warm ochre
+light from the left, long navy shadow. +STYLE
+
+S39 · 9:06–9:20 · 14s · [B-OK]
+A set of brass scales in which one pan holds a single grain and the other is
+empty, and the pan with the single grain has nonetheless sunk all the way down.
+Warm ochre rim light, deep navy ground. +STYLE
+
+S40 · 9:20–9:34 · 14s · [B-ALT]
+A hand cropped at the wrist, resting on a closed door, the fingers spread and
+still — the gesture of someone who has stopped just short of pushing it open.
+Warm ochre light down the doorframe edge, deep navy across the door's face.
++STYLE
+  [B-ALT] The closed door alone, the same warm ochre light down its frame edge,
+  a shadow across its lower half suggesting someone standing outside it. +STYLE
+
+S41 · 9:34–9:48 · 14s · [B-OK]
+A cooking pot on low embers with its lid slightly ajar, one thin line of steam
+escaping from the gap. Warm ochre from the embers below, deep navy kitchen
+around. The escape is the subject. +STYLE
+
+S42 · 9:48–10:02 · 14s · [B-ALT]
+Two figures seen at a distance across a courtyard at dusk, both from behind,
+one seated and one standing a few paces away with the body angled slightly
+toward the door rather than toward the seated figure. Very small in frame.
+Warm ochre lamp in the seated figure's alcove, deep navy courtyard. +STYLE
+  [B-ALT] A courtyard at dusk with two floor cushions set at an angle to each
+  other rather than facing, one lamp burning beside the further cushion. +STYLE
+
+S43 · 10:02–10:16 · 14s · [B-OK]
+A hairline crack running across the glaze of an otherwise perfect clay vessel,
+seen extremely close. The vessel is unbroken and entirely functional. Warm ochre
+raking light makes the crack read as a thin navy line. +STYLE
+
+S44 · 10:16–10:30 · 14s · [B-OK]
+A woven mat with a single thread pulled loose and standing proud of the
+surface, disturbing the pattern for a hand's width around it. Close and low.
+Warm ochre light, navy shadow in the weave. +STYLE
+
+  C6 · 10:30–10:34 · Arabic card  قَوْلًا كَرِيمًا
+
+S45 · 10:34–10:50 · 16s · [B-OK]
+A length of fine bone-white cloth being lifted and offered on two open palms —
+hands cropped at the wrist by the frame. The cloth is unmarked and of obvious
+quality. Warm ochre light falls fully on it. Deep navy behind. +STYLE
+
+S46 · 10:50–11:05 · 15s · [B-OK]
+A cup of water set down on a low table beside a seated cushion, placed carefully
+and squarely, with a folded cloth beneath it. Nobody present. Warm ochre pool of
+lamplight around the cup, deep navy beyond its edge. +STYLE
+
+S47 · 11:05–11:20 · 15s · [B-OK]
+A doorway seen from inside a dark room, its curtain drawn fully back and hooked
+open, warm ochre light flooding in unobstructed. The gesture of the frame is
+welcome. +STYLE
+
+--------------------------------------------------------------------------------
+CH.05 · 11:20–14:05 · BIRR AND ITS OPPOSITE: EXPANSE AND THE CUT
+--------------------------------------------------------------------------------
+
+S48 · 11:20–11:30 · 10s · [B-OK]
+An immense flat open plain seen from a low vantage at dawn, running unbroken to
+a distant horizon, with no wall, fence or boundary anywhere in the frame. Pale
+cream sky, warm ochre light along the horizon line, navy foreground earth.
++STYLE
+
+  C7 · 11:30–11:34 · Arabic card  بِرّ / عُقُوق   [split card]
+
+S49 · 11:34–11:49 · 15s · [B-OK] [RF of S48]
+Slow lateral pan across the open plain, holding the horizon.
+
+S50 · 11:49–12:04 · 15s · [B-OK]
+A wide shallow bowl being filled with grain from above, the grain overflowing
+the rim and spilling down the sides onto the table in a widening heap. Warm
+ochre light from the left, deep navy behind. Abundance past the point of
+containment. +STYLE
+
+S51 · 12:04–12:19 · 15s · [B-OK]
+A root system exposed in a cutaway of dry earth, spreading wide and fine and
+far beyond the width of the small tree above it. Warm ochre in the upper soil,
+deep navy in the depths. +STYLE
+
+S52 · 12:19–12:34 · 15s · [B-OK]
+A thick rope of woven fibre lying on a dark surface, cleanly severed at the
+centre of frame, the two cut ends splayed and fraying, a hand's width of empty
+dark ground between them. Hard ochre raking light across the fibres. +STYLE
+
+S53 · 12:34–12:49 · 15s · [B-OK] [RF of S52]
+Push in tight on the gap between the two cut ends.
+
+S54 · 12:49–13:04 · 15s · [B-OK]
+A dry riverbed cracked into plates, the fissures running deep and dark between
+them, seen from above. Pale cream and ochre earth, deep navy in the cracks.
++STYLE
+
+S55 · 13:04–13:19 · 15s · [B-OK]
+A single fired clay tile broken cleanly in two, the halves set slightly apart on
+a dark table so the break line reads as a navy channel. Warm ochre light. The
+break is fresh and sharp. +STYLE
+
+S56 · 13:19–13:34 · 15s · [B-ALT]
+A seated figure seen from behind and slightly above, on a floor cushion, in the
+act of straightening up from a reclining posture — shoulders lifting, back
+becoming vertical. Cropped at the neck, no head in frame. Warm ochre lamp to one
+side. Deep navy room. +STYLE
+  [B-ALT] A floor cushion and a bolster, the bolster pushed aside and the
+  cushion's compression showing someone has just risen from it. Lamp beside.
+  +STYLE
+
+S57 · 13:34–13:49 · 15s · [B-OK]
+A short list of objects arranged in a descending vertical line on cream
+parchment — a small stone at the top, then progressively smaller stones beneath
+it. No text anywhere. Warm ochre light from the upper left, each stone throwing
+a navy shadow. +STYLE
+
+S58 · 13:49–14:05 · 16s · [B-OK] [RF of S57]
+Push to the top stone alone, the rest falling out of frame below.
+
+--------------------------------------------------------------------------------
+CH.06 · 14:05–16:25 · [SUBSCRIBE ASK] THE HADITH EVERYBODY QUOTES WRONG
+--------------------------------------------------------------------------------
+
+S59 · 14:05–14:30 · 25s · [B-OK]
+A lamp being refilled with oil from a small jug, the vessel steady on a table,
+the flame still burning as the oil goes in. Warm ochre light from the flame
+itself, deep navy room. Held long under the subscribe ask. +STYLE
+
+S60 · 14:30–14:44 · 14s · [B-OK]
+A phrase's worth of decorative tilework on a wall, one tile of which has been
+replaced at some point with a tile of a slightly different pattern — visible
+only on close inspection. Warm ochre raking light. Deep navy grout lines. +STYLE
+
+S61 · 14:44–14:58 · 14s · [B-OK]
+A worn stone floor, seen from standing height, at the point where a doorway's
+threshold meets it. Two bare footprints' worth of wear are visible in the stone
+just inside the door. No feet present. Warm ochre light from the doorway. +STYLE
+
+S62 · 14:58–15:12 · 14s · [B-ALT]
+A saddled travelling camel standing at a gate at dawn, loaded and ready, its
+lead rope hanging loose and untied. Seen at distance and side-on. Pale cream
+sky, warm ochre light along the animal's back, deep navy gate. +STYLE
+  [B-ALT] A gate at dawn with a full travelling pack, a water skin and a
+  bedroll set on the ground beside it, the lead rope coiled on top. +STYLE
+
+S63 · 15:12–15:26 · 14s · [B-OK]
+A doorway seen from the road outside, with a lamp burning within, and the road
+itself running away from it into deep navy country. The lit doorway is small in
+frame and the road is large. +STYLE
+
+S64 · 15:26–15:40 · 14s · [B-OK] [RF of S63]
+Reverse the move — push in toward the lit doorway until it fills the frame.
+
+S65 · 15:40–15:54 · 14s · [B-OK]
+A pair of worn slippers set neatly at the foot of a floor cushion, close and
+low, warm ochre lamplight raking across the leather. Deep navy floor beyond.
++STYLE
+
+S66 · 15:54–16:08 · 14s · [B-OK]
+Two manuscript pages side by side on a table, one noticeably more worn,
+foxed and repaired at the corners than the other. Warm ochre light from above.
+No legible writing on either — ink strokes only. +STYLE
+
+S67 · 16:08–16:25 · 17s · [B-OK]
+A weapon — a sheathed sword — laid down flat on a stone step outside a lit
+doorway, deliberately set aside rather than dropped. Warm ochre light from the
+doorway falls across the scabbard. Deep navy street. +STYLE
+
+--------------------------------------------------------------------------------
+CH.07 · 16:25–19:10 · JURAYJ: WHEN WORSHIP BECOMES THE EXCUSE
+--------------------------------------------------------------------------------
+Jurayj is never shown clearly. The chapter is carried by his mother's approach
+and by the destruction of the building. That is not squeamishness — it is the
+better edit. A face here would make him a character to judge; the empty room
+makes him the viewer.
+
+S68 · 16:25–16:39 · 14s · [B-OK]
+A small square stone cell standing alone on a bare hillside at first light, a
+single low doorway, no windows. Pale cream sky, warm ochre light on one wall,
+the other faces in deep navy. Isolated and deliberate. +STYLE
+
+S69 · 16:39–16:53 · 14s · [B-OK]
+The interior of the cell: a woven prayer mat laid square on a swept stone
+floor, a shallow niche in the far wall, a small lamp burning in it. Nobody
+present. Warm ochre from the niche, deep navy corners. +STYLE
+
+S70 · 16:53–17:07 · 14s · [B-OK] [RF of S69]
+Slow push toward the lit niche until it fills the upper frame.
+
+S71 · 17:07–17:21 · 14s · [B-OK]
+A doorway seen from inside a dark room, with the long shadow of a standing
+figure cast across the threshold from outside — the figure itself entirely
+outside the frame. Warm ochre daylight beyond, deep navy interior. Only the
+shadow. +STYLE
+
+S72 · 17:21–17:35 · 14s · [B-OK]
+The outside of the cell's low doorway, close, with a single old hand cropped at
+the wrist resting flat against the doorframe — waiting rather than knocking.
+Warm ochre light across the weathered wood, deep navy inside the opening. +STYLE
+
+S73 · 17:35–17:49 · 14s · [B-OK]
+A prayer mat seen from directly above, its nap worn bare in two places where
+feet have stood, and in one place where a forehead has rested. Warm ochre raking
+light shows the wear. Deep navy floor around the edge. +STYLE
+
+S74 · 17:49–18:03 · 14s · [B-OK]
+Three short vertical scratches cut into a plastered wall beside a doorway, close
+and low, the plaster crumbled a little at each mark. Warm ochre raking light
+throws each scratch into navy relief. +STYLE
+
+S75 · 18:03–18:17 · 14s · [B-OK] [RF of S74]
+Push to the third scratch alone, isolated in frame.
+
+S76 · 18:17–18:31 · 14s · [B-ALT]
+Two open hands raised and cupped in supplication, cropped at the forearms by the
+frame edge, held against a field of deep navy, one warm ochre light catching the
+palms. Old hands, thin skinned. Nothing else in frame. +STYLE
+  [B-ALT] An empty prayer mat with a single lamp set at its head, the room
+  entirely dark beyond, one warm ochre pool of light. +STYLE
+
+S77 · 18:31–18:45 · 14s · [B-OK]
+The stone cell pulled apart: its walls reduced to a low scatter of blocks on
+the hillside, the doorway lintel lying flat among them, the prayer mat visible
+half-buried under stone. Pale cream sky, deep navy rubble, one warm ochre shaft
+of low sun across the wreckage. +STYLE
+
+S78 · 18:45–18:58 · 13s · [B-OK]
+Dust settling in a low warm shaft of light over broken stone, close to the
+ground, the air thick with it. Deep navy beyond the shaft. +STYLE
+
+S79 · 18:58–19:10 · 12s · [B-OK]
+A wooden peg rail on a wall with every single peg occupied by a hanging garment
+or bag, and one further garment lying on the floor beneath it with nowhere left
+to go. Warm ochre light from the left, deep navy wall. +STYLE
+
+--------------------------------------------------------------------------------
+CH.08 · 19:10–22:05 · THE LIMIT — AND WHAT SURVIVES IT
+--------------------------------------------------------------------------------
+
+S80 · 19:10–19:24 · 14s · [B-OK]
+A single upright boundary stone standing in open ground, weathered and plain,
+with country running away unbroken on both sides of it. Pale cream sky, warm
+ochre on the stone's lit face, deep navy on its shadow side. +STYLE
+
+S81 · 19:24–19:38 · 14s · [B-OK] [RF of S80]
+Widen out to show how much open ground lies on either side of the stone.
+
+S82 · 19:38–19:52 · 14s · [B-OK]
+A single clean line drawn in fine sand, close and low, sharp-edged and
+unmistakable, running the full width of frame. Warm ochre light from one side
+throws a thin navy shadow along the line's edge. +STYLE
+
+S83 · 19:52–20:06 · 14s · [B-ALT]
+An open palm held up flat, cropped at the wrist, facing camera in the universal
+gesture of refusal, against deep navy. One warm ochre light from the left rakes
+across it. Nothing else in frame. +STYLE
+  [B-ALT] A closed gate with a lamp still burning brightly on the near side of
+  it — shut, and not dark. +STYLE
+
+S84 · 20:06–20:20 · 14s · [B-OK]
+Two tracks in dry ground that diverge at a low rise, but which continue to run
+within sight of one another for as far as the frame extends. Pale cream sky,
+warm ochre earth, navy in the wheel ruts. +STYLE
+
+S85 · 20:20–20:35 · 15s · [B-OK]
+A rope bridge spanning a narrow ravine, entirely intact, its planks worn with
+use, seen side-on. Nobody on it. Warm ochre light along the ropes, deep navy in
+the gorge below. +STYLE
+
+  C8 · 20:35–20:39 · Arabic card  وَصَاحِبْهُمَا مَعْرُوفًا
+
+S86 · 20:39–20:53 · 14s · [B-OK]
+A tray of food set on the floor beside a cushion, completely untouched — bread
+unbroken, dates unmoved, the cup full to the brim. Warm ochre lamplight from
+one side, deep navy floor beyond. +STYLE
+
+S87 · 20:53–21:07 · 14s · [B-OK] [RF of S86]
+Push in on the unbroken bread.
+
+S88 · 21:07–21:21 · 14s · [B-OK]
+A lamp burning steadily in an otherwise empty room, seen from the far corner,
+its light reaching only a small distance into deep navy. The room is not
+abandoned — a cushion, a folded cloth, a cup all remain in place. +STYLE
+
+S89 · 21:21–21:35 · 14s · [B-OK]
+A second cup of water set down beside the untouched tray, close and low, placed
+squarely and with care. Warm ochre pool of light. Deep navy beyond. +STYLE
+
+S90 · 21:35–21:49 · 14s · [B-OK]
+The same tray, now with the bread broken and a portion taken, the cup half
+empty. Warm ochre lamplight from the same side as before. +STYLE
+
+S91 · 21:49–22:05 · 16s · [B-OK] [RF of S90]
+Pull back slowly from the tray to include the cushion beside it.
+
+--------------------------------------------------------------------------------
+CH.09 · 22:05–24:55 · WHEN THE PARENT WAS THE DANGER   ★ RETENTION KEYSTONE ★
+--------------------------------------------------------------------------------
+The most-replied comment on the source video is about abusive parents. This
+chapter is why viewers will send your video to someone. Every image here must
+hold two ideas at once: a door that is shut, and a light that is still on.
+Never shoot this chapter as bleak. It is the most hopeful part of the film.
+
+S92 · 22:05–22:21 · 16s · [B-OK]
+A heavy wooden door bolted shut from the inside, seen from the interior, with
+warm ochre lamplight full on the near face of the door and the bolt drawn
+firmly across. The room behind camera is lit and lived in. Deep navy at the
+door's edges. +STYLE
+
+S93 · 22:21–22:37 · 16s · [B-OK] [RF of S92]
+Push in on the drawn bolt.
+
+S94 · 22:37–22:53 · 16s · [B-OK]
+A high courtyard wall with a closed gate set into it, and a small shuttered
+window in the gate standing open. Warm ochre light comes through the small open
+window; the gate itself stays shut. Deep navy wall. +STYLE
+
+S95 · 22:53–23:08 · 15s · [B-OK]
+A folded cloth bundle left on a stone doorstep at dawn, tied with cord, placed
+squarely against the door. Nobody present, and no footprints. Pale cream light,
+warm ochre on the cloth, deep navy in the doorway recess. +STYLE
+
+S96 · 23:08–23:23 · 15s · [B-OK]
+A small heap of coins wrapped in an open square of cloth on a plain table, the
+cloth being folded closed over them. Hands are not in frame. Warm ochre light
+from above, deep navy table edge. +STYLE
+
+S97 · 23:23–23:38 · 15s · [B-OK] [RF of S96]
+Push in until the wrapped bundle fills the frame.
+
+S98 · 23:38–23:53 · 15s · [B-OK]
+A house on the far side of a wide dark valley at night, with a single lit window,
+seen from a great distance. Most of the frame is deep navy country. The lit
+window is very small and very warm. +STYLE
+
+S99 · 23:53–24:08 · 15s · [B-ALT]
+Two open hands cupped together in supplication, cropped at the forearms, held
+low against deep navy, one warm ochre light falling into the cupped palms.
+Nothing else in frame. +STYLE
+  [B-ALT] An empty prayer mat, a lamp at its head, seen from above in an
+  otherwise dark room. +STYLE
+
+S100 · 24:08–24:23 · 15s · [B-OK]
+A stone footbridge over a stream, entirely intact and well kept, nobody
+crossing it. Warm ochre low sun along the parapet, deep navy water beneath.
++STYLE
+
+S101 · 24:23–24:39 · 16s · [B-OK]
+Two oil lamps burning on opposite sides of a wide dark interior, a considerable
+distance apart, both alight, the space between them entirely deep navy. +STYLE
+
+S102 · 24:39–24:55 · 16s · [B-OK] [RF of S101]
+Slow lateral drift from one lamp across the dark span toward the other.
+
+--------------------------------------------------------------------------------
+CH.10 · 24:55–26:55 · LOWER THE WING
+--------------------------------------------------------------------------------
+
+S103 · 24:55–25:10 · 15s · [B-ALT]
+A single large bird's wing, fully raised and extended upward, seen close against
+a pale cream sky — the wing only, the body of the bird outside the frame.
+Individual feathers rendered in loose ink line, warm ochre light through the
+translucent flight feathers, deep navy along the leading edge. +STYLE
+  [B-ALT] A length of heavy cloth held up high and taut like an awning against a
+  pale cream sky, its underside in navy shadow. +STYLE
+
+S104 · 25:10–25:25 · 15s · [B-ALT] [RF of S103]
+The same wing, now lowered and curved downward, its tip near the ground.
+  [B-ALT] The same cloth, now lowered until it forms a low shelter.
+
+S105 · 25:25–25:40 · 15s · [B-ALT]
+The lowered wing seen from the side, curved down and forward so that it fully
+covers a small woven nest on the ground beneath it, the nest almost entirely
+hidden in warm navy shadow. Pale cream sky above. +STYLE
+  [B-ALT] The lowered cloth forming a shelter over a sleeping mat and a folded
+  blanket on the ground beneath. +STYLE
+
+S106 · 25:40–25:55 · 15s · [B-OK]
+A woven awning being let down over a doorway from above, half lowered, warm
+ochre light narrowing on the step beneath it as it descends. Deep navy wall.
++STYLE
+
+S107 · 25:55–26:10 · 15s · [B-ALT]
+A hand cropped at the wrist, cupped and held around a lamp flame to shield it
+from a draught — close to the flame but not touching it. Warm ochre light
+through the translucent edges of the fingers. Deep navy beyond. +STYLE
+  [B-ALT] A glass chimney being lowered over a bare lamp flame, the flame
+  steadying as it descends. +STYLE
+
+S108 · 26:10–26:20 · 10s · [B-OK]
+A blanket laid carefully over a sleeping form on a floor mat — the form entirely
+covered, no head, face, or limb visible, only the shape beneath the cloth. Warm
+ochre lamplight from low left, deep navy room. +STYLE
+
+  C9 · 26:20–26:24 · Arabic card  رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا
+
+S109 · 26:24–26:40 · 16s · [B-ALT]
+Two open hands raised together in supplication, cropped at the forearms, held
+against deep navy with one warm ochre light from above falling directly into the
+open palms. +STYLE
+  [B-ALT] A single lamp burning at the head of an empty prayer mat, seen low and
+  close, the flame steady. +STYLE
+
+S110 · 26:40–26:55 · 15s · [B-OK] [RF of S109]
+Hold and push in very slowly until the lit palms — or the flame — fill frame.
+
+--------------------------------------------------------------------------------
+CH.11 · 26:55–29:45 · IT DOESN'T END AT THE GRAVE
+--------------------------------------------------------------------------------
+★ S111 CONTAINS NO PERSON. ★ The script places the Prophet ﷺ at his mother's
+grave here. He is not depicted, not implied, not suggested by a shape, a
+shadow, a light or an empty silhouette. The frame is a road and a horizon and
+nothing else. If a generation returns any figure at all, discard it and
+regenerate. This is the one shot in the film with no acceptable second version.
+
+S111 · 26:55–27:12 · 17s · [B-OK]
+An empty stony road running through open country, with a low unmarked mound of
+earth and stones at its verge, and a wide horizon beyond. Completely
+unpopulated — no people, no animals, no structures, no figures of any kind.
+Pale cream sky, warm ochre low light along the ground, deep navy in the stones.
+Still and plain. +STYLE
+
+S112 · 27:12–27:27 · 15s · [B-OK] [RF of S111]
+Very slow push toward the horizon, the mound leaving frame at the lower edge.
+
+S113 · 27:27–27:42 · 15s · [B-OK]
+Dry roadside grass bending in a light wind, close and low against a pale cream
+sky, the seed heads catching warm ochre light. Deep navy at the base of the
+stems. +STYLE
+
+S114 · 27:42–27:57 · 15s · [B-OK]
+The first rain falling on dry cracked earth, close, the drops darkening the
+surface in scattered spots. Warm ochre light from a low sun catching the falling
+drops. Deep navy in the cracks. +STYLE
+
+S115 · 27:57–28:12 · 15s · [B-OK]
+A single lit window in a wall at night seen from outside, warm ochre light
+falling from it onto the ground below, everything else deep navy. +STYLE
+
+S116 · 28:12–28:27 · 15s · [B-OK]
+An open manuscript on a stand with a lamp beside it, the pages fully lit and the
+room dark around. Ink strokes suggested, never legible. Warm ochre across the
+open spread. +STYLE
+
+S117 · 28:27–28:42 · 15s · [B-OK] [RF of S116]
+Push in on the lit page until the paper texture fills the frame.
+
+S118 · 28:42–28:57 · 15s · [B-OK]
+A low table set for a meal with three places laid and one place left empty, the
+empty setting kept and clean. Warm ochre lamplight from above, deep navy at the
+edges of the room. +STYLE
+
+S119 · 28:57–29:12 · 15s · [B-ALT]
+Two open hands raised in supplication, cropped at the forearms, warm ochre light
+from above, deep navy behind. Held plainly, without drama. +STYLE
+  [B-ALT] The empty prayer mat and its lamp, seen straight on, the flame steady.
+  +STYLE
+
+S120 · 29:12–29:28 · 16s · [B-OK]
+A lamp still burning at dawn, its flame gone pale and thin against the growing
+cream daylight coming through a window behind it. Deep navy retreating from the
+room. +STYLE
+
+S121 · 29:28–29:45 · 17s · [B-OK] [RF of S48 — CLOSING CALLBACK]
+Return to the wide open plain from chapter 05, now at full sunrise, the horizon
+warm and the foreground clear. Hold to the end card.
+
+  This is deliberate. The film opens the birr chapter on that plain and closes
+  the film on it. The audience will not consciously register the rhyme; they
+  will register that the ending feels like an ending.
+
+
+================================================================================
+05 — THUMBNAIL
+================================================================================
+
+Their composition, exactly: title in the upper third on bare cream, illustration
+band below with torn deckled edges, line 1 navy, line 2 ochre, heavy condensed
+grotesque all caps.
+
+IMAGE PROMPT (generate at 16:9, then crop to the lower band):
+
+  An elderly figure seated alone at a low table in a plain mudbrick room, seen
+  from directly in front, hands resting flat on the table either side of a plain
+  clay bowl and a cup. THE HEAD AND FACE ARE NOT RENDERED — the head is a
+  smooth unmarked shape with no eyes, nose or mouth of any kind, exactly as an
+  unfinished figure. A bone-white shawl over the shoulders and head. Behind, an
+  arched doorway with warm ochre lamplight beyond, and two further seated
+  figures at the edges of frame rendered as flat navy shapes with no features at
+  all. Ink and watercolour illustration, visible pen linework in deep
+  indigo-navy, loose washes, warm cream parchment showing through. Palette:
+  deep indigo-navy, warm ochre, muted terracotta, bone. One warm light source.
+  Torn deckled paper edge. No text or lettering anywhere. 16:9.
+
+TYPE:
+  LINE 1   THE ONE SOUND        navy #22375C
+  LINE 2   YOU'RE FORBIDDEN TO MAKE   ochre #D08A28
+  Heavy condensed grotesque, all caps, tight tracking, line 2 at ~70% the cap
+  height of line 1. Sit both on bare cream — never over the illustration.
+
+NO arrows, no circles, no shocked face, no red outline. Their authority read
+comes entirely from restraint and it is the reason this format works on a
+50-plus audience. The one device they permit themselves is a single curved
+ochre-red arrow, and we do not need it here.
+
+ALTERNATE (test at 48h if CTR is under 4%): swap the illustration for a single
+lamp flame leaning under a breath, very close, on black — and set the Arabic
+أُفٍّ in ochre where line 2 would go, with THE ONE SOUND above it. Higher risk,
+much higher ceiling on a Muslim-majority impression pool.
+
+
+================================================================================
+06 — GENERATION ORDER AND BUDGET
+================================================================================
+
+Do not generate S01 first. Generate in this order:
+
+  BATCH 1 — STYLE LOCK (4 images).  S01, S48, S69, S92. These four cover every
+  lighting condition and every environment type in the film: interior lamp,
+  wide landscape, architectural interior, and close object. Get all four
+  agreeing before you spend anything else. If your model drifts between them,
+  fix it here — a seed, a style reference image, whatever your tool offers —
+  because a style break at minute 19 is far more visible than a weak image.
+
+  BATCH 2 — THE KEYSTONE (15).  S33–S47. Chapter 04 is the video. If the uff
+  sequence is not excellent, nothing later rescues it.
+
+  BATCH 3 — THE OTHER KEYSTONE (11).  S92–S102. Chapter 09 is what gets shared.
+
+  BATCH 4 — S111 ALONE.  Generate it by itself and check it with fresh eyes
+  against the rule above. No figures. None.
+
+  BATCH 5 — everything remaining, chapter by chapter in order.
+
+RE-FRAMES ARE FREE. 20 of the 121 shot events are re-frames of an image you
+already have. Do not generate them. Set them in the edit as a second move on the
+same still — a push, a widen, a lateral drift. Slow. Nothing in this film moves
+faster than about 4% of frame width per second.
+
+COUNT
+  121 shot events
+  – 20 re-frames
+  = 101 stills to generate  (+1 thumbnail = 102)
+  Track B swaps 18 of those 101 for figure-free alternates. It does not change
+  the count.
+
+MUSIC AND SOUND
+  No nasheed bed. No reverb-drenched pad. The source's authority comes from an
+  absence of urgency, and Islamic content defaults to a devotional bed that
+  signals "reminder" rather than "study" — and study is the entire positioning
+  of this channel. Room tone, and silence under the Arabic cards. If you must
+  have something, a single sustained low drone at very low level, and drop it
+  out completely for the whole of chapter 09.
+
+
+================================================================================
+07 — AUDIT RECORD
+================================================================================
+
+Checked mechanically, not by eye. Re-run these if you edit the shot list.
+
+  PASS  Shot IDs sequential S01–S121, no gaps, no duplicates
+  PASS  Timeline continuous — every shot's IN equals the previous shot's OUT,
+        no gaps and no overlaps across all 130 events (121 shots + 9 cards)
+  PASS  Total runtime resolves to exactly 29:45, matching the script
+  PASS  Every stated shot duration equals its own IN/OUT difference
+  PASS  All 11 chapter titles and start times identical across both files
+  PASS  Arabic cards C1–C9 sequential, each landing inside its chapter
+  PASS  Face-rule scan — no prompt requests a face, eyes, portrait, likeness or
+        expression. Every "face" in the file is either a rule statement or a
+        surface ("the door's face", "the stone's lit face", "naskh face")
+  PASS  S111 contains no person and no figure of any kind
+  PASS  No named prophet or companion is depicted as a person anywhere
+
+FIVE ERRORS FOUND AND FIXED IN THIS PASS — all of them were mine, all were in
+the counts and cross-references rather than the prompts:
+
+  1. Header claimed 88 generated stills. True figure is 101 (121 shot events
+     minus 20 re-frames). Corrected in four places.
+  2. Re-frame count stated as 21. True count is 20.
+  3. Track B alternates stated as 31. True count is 18, after fix 4 below.
+  4. S24 was tagged [B-ALT] but its prompt already contains no figure — it
+     needed no alternate. Retagged [B-OK] and the redundant alternate line
+     removed.
+  5. The face rule pointed at the wrong shots twice: it named S82 as the
+     no-person grave shot (it is S111), and cited S66/S71/S72 for the named
+     companions (correct shots are S62 and S67 for Mu'awiya ibn Jahima, S86 and
+     S90 for Sa'd, S94 and S95 for Asma). Both references now correct — this
+     one mattered, because the face rule is the section someone will check
+     under pressure.
+
+STILL OUTSTANDING — NOT FIXABLE FROM HERE, YOU MUST DO THESE:
+
+  ✗ THE NINE ARABIC CARDS NEED A HUMAN PROOF. I set them from the standard text
+    of 17:23-24, 31:14-15 and 2:83 and I am confident in the consonantal text,
+    but a diacritic lost to a font substitution is invisible to me and glaring
+    to your audience. Get an Arabic-literate person to check all nine against a
+    mushaf. This is the highest-risk item in the production.
+  ✗ THE BIRR ETYMOLOGY. Flagged in the script doc's accuracy ledger and worth
+    repeating: the script deliberately claims only "expansive goodness" and
+    does NOT claim the b-r-r / open-land connection, because I could not confirm
+    it in a citable source. Do not add it on camera.
+  ✗ TRACK A OR TRACK B. A channel-level decision about depicting figures at
+    all. Make it before you spend money on generations, not after.
