@@ -1,0 +1,639 @@
+================================================================================
+"THE ONE SOUND THE QURAN FORBIDS YOU TO MAKE"
+NARRATION SCRIPT — ELEVENLABS V3 TAGGED · 13 BLOCKS · 4,377 WORDS · 29:45
+Clarity in the Quran
+================================================================================
+
+HOW TO RUN THIS
+
+  MODEL      Eleven v3 (audio tags are a v3 feature — v2 will read the brackets
+             aloud or ignore them).
+  VOICE      A mature, low, unhurried documentary voice. Test tag response
+             before you commit: v3 tag adherence varies a lot by voice, and some
+             voices ignore emotional tags almost entirely. Generate BLOCK 04
+             first as your audition piece — if the [pause] and [quietly] tags do
+             nothing there, change voice before generating anything else.
+  STABILITY  Natural. Not Creative — Creative drifts in pitch across a 30-minute
+             read and you will hear the seams between blocks. Robust is the
+             fallback if Natural still wanders, at the cost of flatter tags.
+  CHUNKING   Generate one BLOCK at a time. Blocks are 1,600–2,650 characters,
+             which is inside v3's reliable tag-adherence window. Do not paste
+             the whole script — tag adherence collapses on long inputs and you
+             will lose the delivery exactly where the video needs it.
+  ASSEMBLY   Block boundaries are written to fall on chapter breaks, so a small
+             seam between blocks is invisible. Leave 700ms of silence between
+             blocks in the edit. Leave 1.5s before and after every Arabic card.
+
+THE RESTRAINT RULE — READ BEFORE YOU ADD ANY MORE TAGS
+
+  This genre's authority comes from an absence of urgency. The tags below are
+  deliberately sparse: roughly one every three or four sentences, and almost
+  all of them are quiet. That is not under-cooking it. A 30-minute Quranic study
+  read with excited, dramatic delivery reads as a hype reel, and the channel's
+  whole positioning is study rather than reminder.
+  Where this script wants impact it uses [pause] and silence, not volume.
+  Resist adding [excited], [dramatic] or [shouting] anywhere. If you want more
+  energy, take it from the WRITING, never from the read.
+
+TAG LEGEND — every tag used in this file
+
+  [thoughtful]  the default register for exposition
+  [quietly]     drop in volume, lean in — used at reveals
+  [pause]       a full beat of silence. The single most valuable tag here.
+  [slowly]      stretch the line. Used on Arabic terms and on definitions.
+  [serious]     weight without volume
+  [gently]      the entire chapter 09, and the closing du'a
+  [warmly]      the CTA and the final lines
+  [firmly]      used exactly four times, on the four hard rulings
+  [sighs]       used exactly twice. Both are earned. Do not add a third.
+  [exhales]     used ONCE, on the word "uff" itself. This is the centrepiece
+                of the whole film — the sound the verse forbids, performed.
+
+  Ellipses (…) slow the read on their own in v3. Both are used together at the
+  biggest turns.
+
+
+================================================================================
+BLOCK 01 · 0:00–2:35 · THE COMMAND THAT NEVER TRAVELS ALONE
+================================================================================
+
+[thoughtful] There is an instruction in the Quran that refuses to appear by
+itself.
+
+Go looking for it and you will find it in five separate places, in five
+different surahs, revealed across years. And in all five, it is bolted to the
+same sentence. [slowly] Worship none but Him. And to parents — good treatment.
+
+[quietly] Not near it. Not in the following verse. Attached. Same breath.
+
+[thoughtful] Think about how strange that is. The first half of that sentence is
+the foundation of everything — the one claim Islam will not negotiate, the thing
+every prophet was sent with. And the second half is about two specific human
+beings whose plates you used to clear.
+
+[serious] Nothing else gets that position. Not prayer. Not fasting. Not charity,
+not pilgrimage, not truthfulness, not courage. [pause] You can search the whole
+book. The command to worship God alone stands next to exactly one obligation
+toward created people, over and over, as if the two were a single idea that had
+been written down as two.
+
+[thoughtful] And the fifth time it appears, in Surah al-Isra, it opens with a
+verb that should stop you. [slowly] Your Lord has decreed. Qada. [pause] Not
+suggested, not encouraged, not recommended for the righteous. Decreed — and the
+early commentators were careful here, because that verb can mean the decree that
+simply happens to you, the kind you cannot resist. They read it the other way.
+Ibn Abbas is reported to have said it means commanded. Ordered. Settled.
+
+[quietly] So: settled that you worship Him alone. And settled, in the same line,
+what you owe the two people in the next room.
+
+[thoughtful] Most of us were taught this verse as children, which is precisely
+the problem, because the verse itself is not describing a child. Read the next
+clause and it tells you exactly who it is watching. [pause] And once you see it,
+you cannot unsee it.
+
+
+================================================================================
+BLOCK 02 · 2:35–4:50 · WHO THE VERSE IS ACTUALLY WATCHING
+================================================================================
+
+[thoughtful] Here is the condition the verse sets, in its own words: [slowly] if
+one of them, or both of them, reach old age with you.
+
+[quietly] With you. Indaka. In your presence, in your house, under your roof, on
+your watch.
+
+[thoughtful] That single word tells you where the camera is standing. This is
+not a verse about a seven-year-old being told to tidy their room. It is a verse
+about a grown adult, with a household of their own, and an ageing parent inside
+it. [serious] The scenario the Quran chose to legislate is the hardest one — not
+the parent at their strongest, but the parent at their weakest. Not the year
+they were providing for you. [pause] The year they cannot.
+
+[thoughtful] And notice the phrasing. One of them, or both. The Quran
+anticipates that one of your parents will die first, and that the survivor will
+be the harder one. The widowed father who has stopped speaking. The mother who
+has outlived everyone she grew up with and now telephones you four times about
+the same thing. [quietly] That is who the verse is built around.
+
+[thoughtful] Then the second signal. What comes immediately after that condition
+is not a list of duties. It is a prohibition on a sound. [pause] Which is a very
+peculiar way to legislate, and we will spend a long time on it, because that one
+syllable is the most precisely engineered instruction about family in the entire
+Quran.
+
+But hold that thought, because the command does not only appear here. It appears
+five times, and each appearance adds something the others leave out. Line them
+up and you get the full shape of the obligation.
+
+
+================================================================================
+BLOCK 03 · 4:50–7:40 · FIVE VERSES, FIVE ADDITIONS
+================================================================================
+
+[thoughtful] Surah al-Baqarah, verse 83. The covenant taken from the Children of
+Israel: worship none but God, and good treatment of parents — and then it keeps
+going, outward, to relatives, orphans, the poor. Parents named first in the
+chain, and everyone vulnerable named after them. [quietly] The addition here is
+order. Parents are where the obligation to the weak begins.
+
+[thoughtful] Surah an-Nisa, verse 36. Worship God, associate nothing with Him,
+and to parents, good treatment — then near neighbours, distant neighbours, the
+companion at your side, the traveller. [quietly] The addition here is range. The
+same verse that reaches the stranger passing through your town starts with your
+mother.
+
+[thoughtful] Surah al-An'am, verse 151. Here it appears inside a list that reads
+like a recitation of the commandments themselves — do not associate anything
+with Him, and to parents, good treatment, and do not kill your children out of
+fear of poverty. [quietly] The addition is context: the obligation upward and
+the obligation downward, sitting in one verse. Do not discard the old. Do not
+discard the young. Same instruction, both directions.
+
+[thoughtful] Surah Luqman, verse 14. And this one is different in kind. [slowly]
+We enjoined upon the human being, concerning his parents — his mother carried
+him, weakness upon weakness, and his weaning was in two years — be grateful to
+Me, and to your parents.
+
+[pause] [quietly] Read that last clause again, slowly. [slowly] Be grateful to
+Me… and to your parents.
+
+[serious] In a book whose entire argument is that gratitude belongs to God,
+whose central accusation against humanity is that we take from Him and thank
+someone else — in that book, gratitude to two human beings is placed in the same
+sentence as gratitude to God. [pause] Joined by a single letter. The addition
+here is weight, and it is the heaviest thing in the set.
+
+[thoughtful] And notice what Luqman's verse does before it asks for anything. It
+does not say "your mother is owed." It says: [slowly] she carried you, weakness
+upon weakness. Wahnan ala wahn. [thoughtful] Not one weakness — a weakness that
+kept compounding, month over month, as the thing making her weaker grew.
+[quietly] It puts the evidence in front of you before it puts the claim.
+
+[thoughtful] Then the fifth, al-Isra, verse 23 — [pause] which contains the
+sound.
+
+
+================================================================================
+BLOCK 04A · 7:40–9:35 · THE THRESHOLD (1 of 2)   ★ AUDITION ★
+  NOTE — do not paste this box. Generate 04A first as your voice audition. If
+  [pause], [quietly] and [exhales] do nothing here, change voice before you
+  generate anything else.
+================================================================================
+
+[serious] Do not say to them: [exhales] uff.
+
+[pause] [thoughtful] That is the instruction. And almost every translation you
+have read has quietly softened it, because it is difficult to render. You will
+see "do not say to them a word of disrespect." "Do not say to them so much as
+ugh." "Do not show them contempt."
+
+[quietly] Those are all reaching for something the Arabic does not need to
+explain, because uff is not a word. [pause] It is a noise.
+
+[thoughtful] It is the sound air makes leaving your mouth when you are irritated
+and have decided not to say what you are thinking. Every language has one. In
+English it is a sharp exhale through the nose, or "tch," or the sound you make
+when the question is repeated for the third time and you keep your face still
+but let the breath out anyway. [quietly] It carries no meaning. You could not
+define it in a dictionary. It is pure leakage — the exact quantity of contempt
+that escapes a person who believes they are being patient.
+
+[pause] [serious] And that is what the Quran chose to prohibit.
+
+[thoughtful] Understand what kind of law this is. It does not set a floor. A
+floor would say: speak to them respectfully. Provide for them. Do not raise your
+voice. Those are all commands you could satisfy, tick off, and be finished with.
+
+[firmly] This sets a ceiling. [thoughtful] And then it puts the ceiling at the
+lowest possible point. It does not prohibit shouting at your parents, because
+prohibiting shouting would imply everything under shouting is available to you.
+It prohibits the smallest audible unit of annoyance in the human repertoire —
+and by doing so it takes everything above that off the table without listing any
+of it. [quietly] The classical commentators made exactly this point: had there
+been a lesser thing than uff, it would have been the thing forbidden.
+
+[pause] [quietly] This is why the verse does not need to spell out that you may
+not insult your mother. It has already forbidden the breath.
+
+
+================================================================================
+BLOCK 04B · 9:35–11:20 · THE THRESHOLD (2 of 2)
+================================================================================
+
+[thoughtful] Now sit with how that lands on an ordinary evening. Nobody watching
+this is planning to abuse their father. That is not the temptation. [slowly] The
+temptation is the sigh. [pause] The half-second pause before you answer. The
+tone that arrives when she asks how to do the thing you have shown her four
+times. The look you give your spouse across the room while he is still talking.
+[quietly] None of that is shouting. All of it is uff, and all of it is
+legislated against by name, in a verse most of us memorised as children [pause]
+and have been breaking weekly ever since.
+
+[thoughtful] And the verse does not stop at the prohibition. It replaces it. Do
+not say uff to them, and do not rebuke them — and speak to them a noble word.
+[slowly] Qawlan karima. [thoughtful] Karim is the word used for generosity, for
+nobility, for a thing of high birth. Not merely polite. Not civil. The register
+you would use for someone you considered above you.
+
+[quietly] That is the standard: the tone you would take with a person you were
+slightly in awe of. [pause] Aimed at the two people who have seen you at your
+worst, and are now, in their weakness, the easiest people in your life to be
+short with.
+
+
+================================================================================
+BLOCK 05 · 11:20–14:05 · BIRR AND ITS OPPOSITE: EXPANSE AND THE CUT
+================================================================================
+
+[thoughtful] The tradition has a name for this whole obligation. [slowly] Birr
+al-walidayn.
+
+[thoughtful] Birr is a difficult word to translate and every attempt undersells
+it. "Kindness" is far too small. "Dutifulness" makes it sound like paperwork.
+"Righteousness" is closer but too abstract. [quietly] Birr is expansive goodness
+— the kind that has no ceiling, that cannot be discharged by completing a task,
+that keeps opening outward the more of it you do. It is the word the Quran uses
+when it says you will not attain birr until you spend from what you love. It is
+a word about generosity that costs.
+
+[thoughtful] Which tells you the obligation is not a checklist. [pause] There is
+no state of having finished being good to your parents. You do not reach
+compliance.
+
+And now the other side, because the tradition names the opposite too, and the
+opposite is not "being unkind."
+
+[pause] [serious] The opposite is uquq.
+
+[thoughtful] That word comes from a root that means to split, to tear, to cut
+through. It is the vocabulary of severance — of a thing that was joined being
+made into two things. [quietly] Uquq al-walidayn is not rudeness toward parents.
+It is the cutting of parents. The reduction of a living tie to a dead one.
+
+[thoughtful] Put those two side by side and you have the whole ethic in two
+words. On one side, a goodness that keeps widening. On the other, a cut.
+[serious] There is no neutral middle where you are simply not very close to your
+mother and that is everybody's business but yours. The tradition does not offer
+that room. [firmly] You are either widening, or you are cutting.
+
+[thoughtful] And the ranking is what should stop you. The Prophet, peace be upon
+him, asked his companions whether he should tell them the gravest of the major
+sins. He had been reclining. He named associating partners with God — [pause]
+and then he named uquq al-walidayn, [quietly] and he sat up to say it.
+
+[pause] [serious] Second. Not second in a long list of things to avoid. Second
+after shirk, which is the one sin the entire religion exists to remove. Before
+killing. Before theft. Before adultery.
+
+[quietly] Sit with the ordering. The gravest thing a human being can do is deny
+God. [pause] And the next thing, in the Prophet's own arrangement, is to cut off
+the two people God used to put you here.
+
+
+================================================================================
+BLOCK 06 · 14:05–16:25 · [CTA] THE HADITH EVERYBODY QUOTES WRONG
+================================================================================
+
+[warmly] Quick word before the next part. If this is the kind of study you want
+more of, subscribing is what keeps it in front of you, and it costs you nothing.
+The research and writing behind these takes real hours, and support here is what
+keeps every one of them free. [warmly] To everyone already doing that — thank
+you sincerely.
+
+[thoughtful] Now. There is a sentence about mothers that you have heard a
+hundred times, and it is on posters, and it is in Eid cards, and there is a good
+chance you have said it yourself.
+
+[slowly] Paradise lies beneath the feet of your mother.
+
+[pause] [thoughtful] Here is what is actually narrated. A man came to the
+Prophet, peace be upon him — his name was Mu'awiya ibn Jahima — and he said he
+wanted to go out and fight, and had come for advice. The Prophet asked him: do
+you have a mother? He said yes. [quietly] And the answer was — stay with her,
+because Paradise is at her feet.
+
+[thoughtful] Notice what that changes. It is not a decorative proverb about
+motherhood in general. It is a specific ruling delivered to a specific man who
+wanted to leave for the most celebrated act of devotion available to him, and
+was told: [firmly] no. [quietly] The thing you are looking for is not out there.
+It is in this house, with her.
+
+[thoughtful] And on the chain of that narration, honesty requires the whole
+picture. Al-Hakim graded it authentic and adh-Dhahabi agreed with him. Ibn Hajar
+considered it muddled in its chains — mudtarib — and others followed him in
+that. [serious] So the scholars genuinely differ, and you should know that when
+you quote it. [thoughtful] What is not in dispute is the ruling it carries,
+because the same instruction survives in narrations nobody contests, in Bukhari
+and in Muslim: a man came asking permission to go out and fight, and the Prophet
+asked whether his parents were living. They were. [quietly] Then, he said — go
+back to them, and let your struggle be with them.
+
+[pause] [slowly] Let your struggle be with them.
+
+[thoughtful] The exertion you were going to spend on the battlefield: spend it
+here. On the two of them. [quietly] That is the version with no asterisk on it,
+and it says the same thing.
+
+[thoughtful] Which sets up the question this whole video has been circling.
+[pause] What happens when your religion itself becomes the reason you neglect
+them?
+
+
+================================================================================
+BLOCK 07 · 16:25–19:10 · JURAYJ: WHEN WORSHIP BECOMES THE EXCUSE
+================================================================================
+
+[thoughtful] There is a story the Prophet, peace be upon him, told about a man
+before us. It is in Bukhari and in Muslim, and it is one of the most
+uncomfortable things in the entire tradition.
+
+[thoughtful] His name was Jurayj. He was a worshipper — a man who had built
+himself a small place to pray and had given his life to it. Not a hypocrite. Not
+a fraud. [quietly] By every measure available, one of the most devoted men of
+his time.
+
+[pause] [thoughtful] His mother came to him while he was praying. She called
+him.
+
+And he stood there in his prayer and thought: my Lord… my mother… and my prayer.
+[pause] [quietly] And he chose the prayer. He did not answer her.
+
+[thoughtful] She came again the next day. Same thing. She called, he was
+praying, he weighed it, he continued.
+
+[pause] She came a third time. [quietly] And when he did not answer her the
+third time, she made a supplication against him — that God would not let him die
+until he had looked into the faces of prostitutes.
+
+[pause] [serious] And God answered his mother's prayer.
+
+[thoughtful] What followed was the destruction of everything he had: a woman
+falsely accused him of fathering her child, the people came and tore down his
+prayer-place with their hands, and this man's reputation — the only thing he
+owned — was gone. God vindicated him afterwards, through a miracle. [quietly]
+But He did not spare him the ruin first.
+
+[thoughtful] Now understand what is being said here, because it is easy to miss.
+Jurayj was not committing a sin when his mother called. [serious] He was
+praying. He was doing the single most virtuous thing a person can be doing. And
+the tradition's verdict is that he was wrong — that he should have broken it, or
+answered her, and that his devotion did not shelter him from what he did to his
+mother inside it.
+
+[pause] [firmly] That is the sharpest edge in the whole subject. [thoughtful]
+Every one of us understands that you cannot neglect your parents because you are
+lazy. What this story establishes is that you cannot neglect them because you
+are busy with God.
+
+[thoughtful] And there is a modern version of Jurayj's prayer-mat, and almost
+nobody notices it, because it does not look like a sin. [quietly] It looks like
+a schedule. The halaqa, the fundraiser, the volunteering, the work that feeds the
+family, the studies — all genuinely good, all genuinely needed, and all of it
+consuming precisely the hours in which somebody could have driven over. [pause]
+The obligation does not evaporate because the thing that replaced it was
+righteous. [quietly] That is the entire point of the story. Jurayj's replacement
+was righteous too.
+
+
+================================================================================
+BLOCK 08 · 19:10–22:05 · THE LIMIT — AND WHAT SURVIVES IT
+================================================================================
+
+[thoughtful] So does this mean a parent can ask you for anything?
+
+[firmly] No. [thoughtful] And the Quran does not leave that to inference — it
+answers it directly, in the verse immediately after the one about gratitude, and
+the answer is the most surgically precise sentence on this subject in any
+scripture I know of.
+
+[thoughtful] Surah Luqman, verse 15. [slowly] If they strive to make you
+associate with Me that of which you have no knowledge — do not obey them.
+
+[pause] [serious] There it is. The ceiling on obedience, stated in the same
+passage that just placed gratitude to them beside gratitude to God. If the
+instruction is shirk — the one thing this entire religion exists to prevent —
+the answer is no. Flatly. No softening, no negotiation, no waiting for a better
+moment.
+
+[thoughtful] And then the verse does something almost nobody expects. [pause] It
+does not stop there.
+
+[slowly] The same sentence continues: and keep company with them in this world
+with ma'ruf. [thoughtful] With kindness. With what is recognised as good.
+
+[quietly] Read that as one instruction, because it is one. Refuse them — and
+stay. Deny them the thing they are demanding, and go on being their child in
+every other respect. [thoughtful] The Quran anticipated the exact situation in
+which a parent is asking for something you cannot give, and it did not resolve
+the tension by choosing a side. [pause] It held both. Disobedience in the thing
+itself. Beautiful company in everything else.
+
+[thoughtful] This was not theoretical. It has an occasion. Sa'd ibn Abi Waqqas
+accepted Islam, and his mother — who did not — refused food and drink, and told
+him she would go on refusing until he abandoned it. [quietly] She was, in
+effect, staking her life on his faith. He went to her and said, plainly, that if
+she had a hundred souls and they left her one by one, he would not leave his
+religion. [pause] She ate.
+
+[quietly] He did not yield an inch on the thing itself. [pause] And he remained
+her son.
+
+[thoughtful] So there is a limit, and it is exactly one line wide: they cannot
+direct you into disobedience to God. A parent cannot instruct you into sin, and
+there is no obligation to obey them in it. [serious] But notice what the limit
+does not license. Nothing in that verse permits contempt. Nothing in it permits
+the cut. [firmly] You do not get to file a parent under "misguided" and close
+the drawer. [quietly] The refusal is narrow. The companionship is broad.
+
+
+================================================================================
+BLOCK 09A · 22:05–23:35 · WHEN THE PARENT WAS THE DANGER (1 of 2)
+  NOTE — do not paste this box. The gentlest block in the film. Nothing here is
+  emphatic. If your voice pushes, regenerate — this is the chapter that gets the
+  video shared, and it only works delivered quietly.
+================================================================================
+
+[gently] And now the part it would be dishonest to walk around.
+
+[pause] [gently] Some of you did not have a father who was difficult. You had
+one who was dangerous. Some of you had a mother who should never have been
+trusted with a child, and everything said so far has been landing on a bruise.
+[quietly] If that is you, the next three minutes are the reason this video
+exists.
+
+[gently] Start here. [firmly] Nothing in this religion requires you to place
+yourself back inside harm. [gently] The general principle in the sharia is that
+harm is to be removed, not absorbed, and it does not carry an exception for harm
+delivered by family. A parent's claim on you is real. [quietly] It is not a
+licence over your body, your children, or your mind.
+
+[gently] And obedience, as we have just established, was never unlimited to
+begin with. If a parent instructs you into what God forbade, you do not comply.
+That principle does not somehow reverse when the instruction is enforced with
+violence.
+
+[pause] [gently] So what is left, when presence is not safe?
+
+[quietly] Birr is left. [gently] And this is where that word earns its size —
+because birr was never defined as proximity. It is expansive goodness, and
+expansive goodness can be delivered from a distance when the distance is what
+makes it survivable. It can be money sent without a visit. It can be a doctor
+arranged, a bill paid, a sibling supported who is closer to the situation than
+you can be. It can be — and for some of you it is the entire content of it — a
+refusal to turn your parent into a story you tell at gatherings. [quietly]
+Guarding a person's dignity when they are not in the room is birr, and it is
+available to you no matter how far away you have had to move.
+
+[gently] And it can be du'a. [pause] Which is not the consolation prize here. It
+is the one form of goodness that reaches a person you cannot safely stand next
+to.
+
+
+================================================================================
+BLOCK 09B · 23:35–24:55 · WHEN THE PARENT WAS THE DANGER (2 of 2)
+================================================================================
+
+[thoughtful] There is a precedent for keeping the door open across a genuine
+divide. Asma, the daughter of Abu Bakr, had a mother who had not accepted Islam
+and who came to her seeking something. Asma asked the Prophet, peace be upon
+him, whether she should maintain the tie. [quietly] He told her to keep it.
+
+[thoughtful] Understand what that ruling settles. The difference there was not a
+small one — it was the deepest divide that existed in that society. And the
+instruction was still: keep the tie. [quietly] Which means the bar for severance
+is very high indeed, and "we disagree," "she is difficult," "he never understood
+me" are all a long way beneath it.
+
+[gently] But the ruling that a tie should be kept is not a ruling that you must
+be within arm's reach of someone who hurts you. Those are two different
+questions, and this religion has answers for both. [slowly] Keep the tie.
+Protect yourself. [gently] Where those two pull against each other, that is
+precisely the situation to bring to a scholar who knows your circumstances — not
+to a comment section, and not to a video. [quietly] Including this one.
+
+
+================================================================================
+BLOCK 10 · 24:55–26:55 · LOWER THE WING
+================================================================================
+
+[thoughtful] Go back to al-Isra, because there is one more image in it, and it
+is the strangest instruction about family in the Quran.
+
+[slowly] Lower to them the wing of humility, out of mercy.
+
+[pause] [quietly] A wing. The verse hands you a bird.
+
+[thoughtful] The commentators read that image in two directions and both are
+worth having. The first: a wing raised is the posture of a creature making
+itself large — the display, the threat, the assertion of size. To lower the wing
+is to refuse that posture in front of your parents. [quietly] No matter what you
+have become. No matter that you now earn more than your father ever did,
+understand the world better than he does, and are demonstrably right about the
+thing you are arguing over. [slowly] Lower it.
+
+[thoughtful] The second reading is the one that undoes people. [pause] A bird
+lowers its wing to bring something under it. That is the shelter posture — the
+wing coming down over the young, the covering of a thing too weak to cover
+itself. [quietly] It is the exact gesture your mother made over you.
+
+[pause] [serious] So the verse is telling an adult child to assume their own
+parent's posture, and put the parent underneath it. [quietly] The care reverses.
+The wing that was over you goes over them.
+
+[thoughtful] And then, having asked for that, the verse does something no other
+passage about family does. It does not leave you to find the words. [pause] It
+gives them to you:
+
+[gently] [slowly] My Lord, have mercy on them, as they raised me when I was
+small.
+
+[pause] [thoughtful] Read what that sentence actually concedes. You are not
+asking to repay them — the du'a does not claim you can. You are asking God to do
+it, because the debt is past your capacity. [quietly] Ibn Umar is reported to
+have watched a man carrying his mother on his back around the Ka'ba, who asked
+whether he had repaid her. [pause] The answer was no. [quietly] Not even for one
+of her groans in childbirth.
+
+[gently] That is why the verse ends in supplication rather than instruction.
+Because the only adequate response to what a parent did is to hand the account
+to God.
+
+
+================================================================================
+BLOCK 11 · 26:55–29:45 · IT DOESN'T END AT THE GRAVE
+================================================================================
+
+[gently] The Prophet, peace be upon him, visited his mother's grave. [pause] And
+he wept. And everyone around him wept with him. [quietly] He had been a child
+when she died, on a road, far from home.
+
+[pause] [gently] Which tells you the last thing worth knowing about this: it
+does not close when they do.
+
+[thoughtful] A man from the Ansar asked him directly whether any birr toward his
+parents remained after their death. And the answer was a list. [slowly] You pray
+for them. You ask forgiveness for them. You fulfil what they promised. You keep
+the ties that only existed through them. And you honour their friends.
+
+[quietly] Every one of those is available to you tonight, whoever you have lost.
+
+[pause] [thoughtful] So — what does this look like tomorrow? Not the grand
+version. [quietly] The Tuesday version.
+
+[thoughtful] It looks like watching for uff. [slowly] Not shouting; the sigh.
+The tone. The face you make when the same question comes round again.
+[quietly] That is the thing the verse names, and it is the thing almost every
+one of us is guilty of.
+
+[thoughtful] It looks like guarding their name when they are not in the room.
+
+It looks like the money and the hours — the drive over on the afternoon you
+wanted for yourself, the paperwork nobody else will touch, the fourth telling of
+the same story received as though it were the first.
+
+[pause] [gently] And it looks like eleven words you can say before you sleep
+tonight, that Allah put in the Quran because He knew you would need them handed
+to you.
+
+[pause] [gently] [slowly] My Lord, have mercy on them, as they raised me when I
+was small.
+
+[pause] [warmly] If this study was worth your time, subscribe so the next one
+finds you, and leave a comment — even one word does more than you would think to
+put this in front of someone else. [warmly] And if you know someone caring for a
+parent right now, send it to them. [gently] They may need it more than anybody.
+
+[END]
+
+
+================================================================================
+TAG COUNT — verified by count, not by memory
+================================================================================
+
+  [thoughtful]  62   the default. Carries exposition.
+  [quietly]     50   the workhorse. Every reveal sits on it.
+  [pause]       49   silence is doing the emphasis in this read, not volume.
+  [slowly]      20   Arabic terms, definitions, and the du'a.
+  [gently]      17   almost all of them inside block 09 and the close.
+  [serious]     14
+  [firmly]       7   the hard rulings only.
+  [warmly]       4   the two CTAs.
+  [exhales]      1   on the word "uff" itself, the opening line of block 04A.
+                     Once in the whole film. Do not add a second — the tag only
+                     lands because nothing else in 29 minutes does it.
+  [sighs]        0   deliberately none. The word "sigh" appears in the script
+                     twice as a NOUN, and performing one beside it reads as
+                     parody. Do not add it back.
+  ------------------
+  224 tags across 4,377 words — roughly one every 3.4 sentences. If you find
+  yourself adding more, the problem is almost certainly pacing in the edit,
+  not the read.
+
+ALL-CAPS EMPHASIS HAS BEEN REMOVED throughout. The strategy document's script
+uses capitals for emphasis in six places (ORDER, RANGE, CONTEXT, WEIGHT,
+CEILING, CUTTING); every one is lowercase here and carries a tag instead.
+TTS models tend to spell out or shout capitalised words. This is the only
+intentional wording difference between the two files — the prose is otherwise
+identical, verified at 99.5% token match with the remainder being pacing
+ellipses and two commas.
