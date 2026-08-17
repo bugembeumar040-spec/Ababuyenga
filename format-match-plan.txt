@@ -1,0 +1,186 @@
+================================================================================
+FORMAT MATCH PLAN — align the evil-eye pack to what actually broke through
+Channel: Finance % Decoded (UCVOoFJkRiOdJsWnewt8HJkw) · 195 subs · 9,258 views
+Pulled 2026-08-17
+================================================================================
+
+THE FINDING: THERE IS NO BREAKTHROUGH LONG VIDEO
+
+All four long-form uploads, by views:
+
+  17:56  Your Savings Account Is Costing You $359,000        10 views
+   3:47  Is Your Student Loan Halal?                          9 views
+  10:18  How to Buy a House Without Ever Paying Interest      2 views
+   5:17  Your Money Only Exists Because Someone Else Is...    2 views
+
+Long-form on this channel has produced 23 views total across 37 minutes of
+video. Every one of the 9,258 channel views came from Shorts.
+
+WHAT DID BREAK THROUGH — all 9:16, all 2:13–3:00
+
+  3:00  Halal Mortgage Explained          1,236 views   64 likes   5.2%
+  2:24  Sukuk Explained                   1,053 views   62 likes   5.9%
+  2:13  Why Everything Costs More         1,042 views   58 likes   5.6%
+  2:20  Banks Trap Your Savings             973 views   40 likes   4.1%
+  2:26  Protect Savings From Inflation      928 views   40 likes   4.3%
+  2:31  Buy a Car Without Interest          719 views   30 likes   4.2%
+
+Every upload in the 2:13–3:00 band cleared 700 views with a 4–6% like rate.
+That is the channel's format, and it is unambiguous.
+
+THE ONE OUTLIER, AND WHY IT DOESN'T COUNT
+
+  0:46  Why You're Born Into Debt         1,209 views   11 likes   0.9%
+
+Views without engagement — a 0.9% like rate against 4–6% everywhere else.
+Distribution event, not a repeatable format. Do not build on it.
+
+SUB-60s IS FAILING, AND IT IS RECENT
+
+  0:17  £1,461 a month...                   257 views
+  0:58  The Bank Doesn't Want You Debt-Free   39 views
+  0:25  10 years of payments...               35 views
+  0:51  3 Questions Decide If Your Card...    30 views
+  0:28  How to Tell If Your Mortgage Is Fake  25 views
+
+Six sub-60s clips published 2–7 August. Median 35 views. The channel already
+ran this experiment and it failed.
+
+
+================================================================================
+THE HARDER FINDING — CHECK THIS BEFORE BUILDING ANOTHER PACK
+================================================================================
+
+Two videos published five days apart, both ~2.5 minutes, both 9:16:
+
+  Aug 05   You've Already Paid Klarna.      2:58    25 views in 12 days
+  Aug 10   Is Your Pension Halal?           2:16   308 views in  7 days
+                                                   breakout score 10.17
+                                                   — highest on the channel
+
+The Klarna upload is the one the credit-card prompt pack was built from and
+inherits its house style. The pension upload follows the July pattern the
+1,000-view videos used. Same length band, same aspect, adjacent publish dates,
+12x apart on views with the losing one having had more time to run.
+
+TWO THINGS THIS COMPLICATES
+
+  1. THE HOUSE STYLE ITSELF. Low-poly matte clay + blank featureless heads is
+     the August redesign. Its published output is 25–40 views. The July videos
+     that cleared 700–1,236 predate it. That is correlation on a sample of a
+     few uploads, and cadence, topic saturation and algorithm all confound it —
+     but the pattern is stark enough that it should be tested before another
+     pack is generated to that spec.
+
+  2. THE DECLARATIVE TITLE RULE. The credit-card pack states: "you retitled the
+     Klarna upload from 'Is Klarna Halal?' to 'You've Already Paid Klarna.' at
+     publish — the declarative won." The data says the reverse. The declarative
+     got 25 views. The "Is Your X Halal? (parenthetical)" pattern holds the
+     channel's top result (1,236) and its best current breakout (10.17). That
+     rule is carried into the evil-eye packaging section and should be dropped.
+
+CHEAPEST TEST: republish one July-format explainer in the new house style, or
+one new topic in the old July style. One upload settles it. Do not spend 29
+image generations on the open question.
+
+
+================================================================================
+THE PLAN — 16:9 / 5:47 becomes 9:16 / 2:50
+================================================================================
+
+What I built is 16:9 horizontal at 5:47. That is precisely the format that has
+returned 2–10 views four times running. Matching the breakthrough means
+reverting to the spec the credit-card pack already carried — 9:16, subject in
+the lower two-thirds, headroom above for captions — which I departed from only
+to accommodate the 5:47 runtime.
+
+STEP 1 — CUT THE VO FROM 753 WORDS TO ~390
+
+  Target 2:50, inside the 3:00 Shorts ceiling, matching the 1,236-view upload
+  exactly. Keep: the offer (hook), the ghibta/hasad split, idha hasad, the
+  suspect list, the turn, the close. Yaqub compresses from a full block to one
+  line. Blocks 02, 04 and 07 go entirely.
+
+  The retimed v3 tags survive the cut unchanged — the pacing fix is per-line,
+  not per-block, so nothing is re-tagged.
+
+STEP 2 — 29 STILLS BECOME 13
+
+   0:00  S03  the offer                 hook, opens on the money
+   0:08  S01  the cot
+   0:16  S04  verse plate               Al-Falaq 113:5
+   0:24  S07  three letters             ح س د
+   0:36  S08  the scale, pressed down
+   0:52  S09  the ember
+   1:04  S12  four refuges              ** needs re-conception **
+   1:14  S13  the match                 HERO
+   1:30  S14  the empty board           THUMBNAIL
+   1:45  S16  the gates                 ** needs re-conception **
+   1:52  S18  open palms                Yaqub, compressed
+   2:05  S22  the man who says he can see
+   2:20  S26  the mirror                the turn
+   2:40  S28  first light               end card
+
+  Cut: S02, S05, S06, S10, S11, S15, S17, S19, S20, S21, S22b, S23, S24, S25,
+  and all four RETURN cuts. Sixteen generations saved.
+
+STEP 3 — WHAT ROTATES FREE AND WHAT DOESN'T
+
+  ROTATES CLEANLY (11 of 13). Every macro and tabletop frame — S01, S03, S04,
+  S07, S08, S09, S13, S14, S18, S22, S26, S28. Change one line per prompt:
+
+      "16:9 horizontal, [subject] in the right two-thirds, dark negative
+       space filling the left"
+    →
+      "9:16 vertical, [subject] in the lower two-thirds, clean headroom
+       above for captions"
+
+  Generate 1440x2560 and downscale.
+
+  NEEDS RE-CONCEPTION (2 of 13). Both are horizontal rows that become
+  unreadable stacked:
+
+      S12  four arches in a row across the frame
+      S16  a city wall with four gateways along its length
+
+  Fix for both: shoot the repetition receding INTO the frame instead of across
+  it — one arch near, three falling away behind it in perspective. Same
+  argument, same count, vertical-native. New prompts needed for these two only.
+
+STEP 4 — SHORTS SAFE ZONES
+
+  The bottom ~15% carries title, channel and description; the right ~12%
+  carries the like/comment/share rail. The credit-card pack's "subject in the
+  lower two-thirds" was written before that mattered and will put subjects
+  under the UI. Move subjects to the CENTRE band, keep burn-in typography in
+  the upper third, and keep the right edge clear of anything load-bearing.
+
+  This affects the burn-in plates most: S04, S07, S13 and S28 all currently
+  place type in the dark right side. Move all four to the upper third.
+
+STEP 5 — PACKAGING, CORRECTED AGAINST THE DATA
+
+  TITLE      Is the Evil Eye Real? (What the Quran Won't Tell You)
+             Matches the pattern holding the channel's top result and its best
+             breakout, not the declarative the pack currently recommends.
+  LENGTH     2:50. Never 3:01.
+  HASHTAGS   Three, in the title, as every 700+ upload does: #evileye #hasad
+             #islamicreminder
+  THUMBNAIL  S14 still — it survives the crop and it is the frame that asks a
+             question.
+
+WHAT THIS COSTS
+
+  Sixteen fewer generations, two new prompts, one line changed in eleven
+  prompts, and roughly half the script. The argument survives: hook, the word,
+  the thesis, the turn, the close. Yaqub is the real loss — it is the best
+  passage in the script and it becomes one line.
+
+IF YOU WANT YAQUB BACK
+
+  Ship two 2:50 verticals instead of one. Part 1 ends on the empty board
+  ("the Quran does not hand you a suspect list"). Part 2 opens on the gates
+  and carries Yaqub, the naming, and the turn. The channel has no series
+  framing across 29 uploads, and this is the cheapest retention available.
+  Recommended if the first one clears 500 views. Not before.
+================================================================================
