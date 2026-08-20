@@ -59,3 +59,19 @@ does contain speech, add it to `transcript.md` and re-run with
 | `shotlist.csv` | the cut: 116 rows, in/out/duration/section/frame |
 | `SHOTLIST.md` | same, grouped by section, for reading |
 | `cards.csv` | the 43 overlay marks and the frame each lands on |
+
+## Preview
+
+`preview.py` builds a silent picture lock — the frames cut to the shot list with
+the cards composited on top — so the timing can be watched before the audio is
+assembled:
+
+```
+python3 tumaninah/timing/preview.py                  # picture + cards
+python3 tumaninah/timing/preview.py --picture-only   # frames only, much faster
+```
+
+Output lands in `tumaninah/preview/` at 1280×720. Note that the card WebMs carry
+alpha, and ffmpeg will silently drop it unless the input is decoded with
+`-c:v libvpx-vp9` — the script does this, but it is easy to forget when
+compositing by hand.

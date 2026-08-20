@@ -15,6 +15,7 @@ const OCHRE = '#C89A4A';
 const OCHRE_LIGHT = '#E8C98A';
 const SLATE = '#6B7280';
 const SIENNA = '#A65A3A';
+const CREAM = '242, 237, 226';
 
 // Long āyah fragments need to give back the room a single word can afford.
 // Measured on base letters: harakāt are stacked marks and take no extra width,
@@ -57,6 +58,23 @@ export const Card: React.FC<CardProps> = ({ch, ar, head, sub, bg}) => {
 
 	return (
 		<AbsoluteFill style={{backgroundColor: bg, opacity: out}}>
+			{/* The art behind these cards runs from bare paper to near-black storm, so
+			    indigo type alone is not readable everywhere. A feathered cream wash
+			    rising off the bottom edge restores contrast without reading as a box —
+			    it carries in the alpha, so the WebM is legible over any frame. */}
+			<AbsoluteFill
+				style={{
+					opacity: interpolate(frame, [0, 18], [0, 1], {
+						extrapolateLeft: 'clamp',
+						extrapolateRight: 'clamp',
+					}),
+					background:
+						`linear-gradient(to top, rgba(${CREAM},0.80) 0%, rgba(${CREAM},0.66) 30%,` +
+						` rgba(${CREAM},0.32) 60%, rgba(${CREAM},0) 100%)`,
+					top: 'auto',
+					height: 430,
+				}}
+			/>
 			<AbsoluteFill
 				style={{
 					justifyContent: 'flex-end',
