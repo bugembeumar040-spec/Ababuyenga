@@ -55,6 +55,16 @@ CAVE_MOUTH = "The view from deep inside a cave looking out toward its mouth"
 WINDOW_WOMAN = ("A woman in a soft grey-blue hijab and long charcoal coat standing at a window seen "
                 "from behind, one hand flat against the glass")
 
+# creative_generate_image accepts no negative prompt, so the bans that matter most
+# have to ride inside the prompt text or they never reach the model at all.
+GUARD = (
+    " Absolutely no text, lettering, calligraphy, Arabic script, handwriting, inscriptions, "
+    "numerals, runes, logos or watermarks anywhere in the frame; every surface is completely "
+    "blank and unmarked. No occult symbols, sigils, zodiac wheels, amulets, eyes or talismans. "
+    "Not 3D, not CGI, not a photograph; no glossy or plastic surfaces, no glow, no neon, no lens "
+    "flare, no oversaturation."
+)
+
 CHAPTERS = [
     (1,  "THE DISTURBANCE",                        "0:00",  "1:53"),
     (2,  "ṬUMAʾNĪNAH",                             "1:53",  "3:18"),
@@ -356,6 +366,7 @@ def build():
                 "model": "z_image",
                 "aspect_ratio": "16:9",
                 "prompt": STYLE + subject,
+                "el_prompt": STYLE + subject + GUARD,
             },
             "negative_prompt": NEGATIVE,
         })
