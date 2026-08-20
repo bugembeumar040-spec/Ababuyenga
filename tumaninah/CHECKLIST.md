@@ -174,60 +174,64 @@ makes the directory sort in cut order, so the edit bin needs no manual reorderin
 55 marks across 27:17. Each row is the card's in-point and the scene it lands over,
 so a card is never cut against a scene change it would fight.
 
-| card | in | over scene | chapter |
-|---|---|---|---|
-| 01 | 0:00 | 01 | 1 · THE DISTURBANCE |
-| 02 | 0:30 | 02 | 1 · THE DISTURBANCE |
-| 03 | 1:00 | 04 | 1 · THE DISTURBANCE |
-| 04 | 1:30 | 06 | 1 · THE DISTURBANCE |
-| 05 | 2:00 | 08 | 2 · ṬUMAʾNĪNAH |
-| 06 | 2:30 | 10 | 2 · ṬUMAʾNĪNAH |
-| 07 | 3:00 | 11 | 2 · ṬUMAʾNĪNAH |
-| 08 | 3:30 | 13 | 3 · WHAT WE ARE WALKING TOWARD |
-| 09 | 4:00 | 15 | 3 · WHAT WE ARE WALKING TOWARD |
-| 10 | 4:30 | 16 | 4 · IT IS A REQUIREMENT BEFORE IT IS A FEELING |
-| 11 | 5:00 | 18 | 4 · IT IS A REQUIREMENT BEFORE IT IS A FEELING |
-| 12 | 5:30 | 20 | 4 · IT IS A REQUIREMENT BEFORE IT IS A FEELING |
-| 13 | 6:00 | 22 | 5 · THE SENTENCE NOBODY QUOTES |
-| 14 | 6:30 | 24 | 5 · THE SENTENCE NOBODY QUOTES |
-| 15 | 7:00 | 25 | 5 · THE SENTENCE NOBODY QUOTES |
-| 16 | 7:30 | 27 | 5 · THE SENTENCE NOBODY QUOTES |
-| 17 | 8:00 | 29 | 5 · THE SENTENCE NOBODY QUOTES |
-| 18 | 8:30 | 30 | 5 · THE SENTENCE NOBODY QUOTES |
-| 19 | 9:00 | 32 | 6 · THE ROOT ACROSS THE QURAN |
-| 20 | 9:30 | 34 | 6 · THE ROOT ACROSS THE QURAN |
-| 21 | 10:00 | 35 | 6 · THE ROOT ACROSS THE QURAN |
-| 22 | 10:30 | 37 | 6 · THE ROOT ACROSS THE QURAN |
-| 23 | 11:00 | 39 | 6 · THE ROOT ACROSS THE QURAN |
-| 24 | 11:30 | 41 | 7 · WHO THIS IS ACTUALLY ABOUT |
-| 25 | 12:00 | 42 | 7 · WHO THIS IS ACTUALLY ABOUT |
-| 26 | 12:30 | 44 | 8 · IT IS SENT DOWN |
-| 27 | 13:00 | 46 | 8 · IT IS SENT DOWN |
-| 28 | 13:30 | 48 | 9 · DHIKR |
-| 29 | 14:00 | 49 | 9 · DHIKR |
-| 30 | 14:30 | 51 | 9 · DHIKR |
-| 31 | 15:00 | 53 | 9 · DHIKR |
-| 32 | 15:30 | 54 | 10 · THE NAME AT THE END |
-| 33 | 16:00 | 56 | 10 · THE NAME AT THE END |
-| 34 | 16:30 | 58 | 10 · THE NAME AT THE END |
-| 35 | 17:00 | 60 | 10 · THE NAME AT THE END |
-| 36 | 17:30 | 62 | 11 · SETTLED IS NOT NUMB |
-| 37 | 18:00 | 63 | 11 · SETTLED IS NOT NUMB |
-| 38 | 18:30 | 65 | 11 · SETTLED IS NOT NUMB |
-| 39 | 19:00 | 67 | 11 · SETTLED IS NOT NUMB |
-| 40 | 19:30 | 69 | 12 · THE SILT |
-| 41 | 20:00 | 71 | 12 · THE SILT |
-| 42 | 20:30 | 72 | 12 · THE SILT |
-| 43 | 21:00 | 74 | 13 · THE CAVE |
-| 44 | 21:30 | 76 | 13 · THE CAVE |
-| 45 | 22:00 | 78 | 13 · THE CAVE |
-| 46 | 22:30 | 80 | 13 · THE CAVE |
-| 47 | 23:00 | 81 | 13 · THE CAVE |
-| 48 | 23:30 | 83 | 14 · ON A TUESDAY |
-| 49 | 24:00 | 85 | 14 · ON A TUESDAY |
-| 50 | 24:30 | 86 | 14 · ON A TUESDAY |
-| 51 | 25:00 | 88 | 14 · ON A TUESDAY |
-| 52 | 25:30 | 90 | 14 · ON A TUESDAY |
-| 53 | 26:00 | 92 | 15 · CLOSE |
-| 54 | 26:30 | 93 | 15 · CLOSE |
-| 55 | 27:00 | 95 | 15 · CLOSE |
+Rendered files live in `overlays/` — `webm/` carries alpha and drops straight on
+the timeline; `mp4/` is the same card on white for editors that need Multiply.
+Each card runs 6s with its fade-out baked in. See `overlays/README.md`.
+
+| card | in | over scene | chapter | file |
+|---|---|---|---|---|
+| 01 | 0:00 | 01 | 1 · THE DISTURBANCE | `card-01_0000_named-after-thunder` |
+| 02 | 0:30 | 02 | 1 · THE DISTURBANCE | `card-02_0030_ar-ra-d-surah-13` |
+| 03 | 1:00 | 04 | 1 · THE DISTURBANCE | `card-03_0100_heavy-with-rain` |
+| 04 | 1:30 | 06 | 1 · THE DISTURBANCE | `card-04_0130_that-is-the-room` |
+| 05 | 2:00 | 08 | 2 · ṬUMAʾNĪNAH | `card-05_0200_tuma-ninah` |
+| 06 | 2:30 | 10 | 2 · ṬUMAʾNĪNAH | `card-06_0230_low-and-level` |
+| 07 | 3:00 | 11 | 2 · ṬUMAʾNĪNAH | `card-07_0300_disturbed-then-at-rest` |
+| 08 | 3:30 | 13 | 3 · WHAT WE ARE WALKING TOWARD | `card-08_0330_one-shift` |
+| 09 | 4:00 | 15 | 3 · WHAT WE ARE WALKING TOWARD | `card-09_0400_a-name-not-a-mood` |
+| 10 | 4:30 | 16 | 4 · IT IS A REQUIREMENT BEFORE IT IS A FEELING | `card-10_0430_a-legal-requirement` |
+| 11 | 5:00 | 18 | 4 · IT IS A REQUIREMENT BEFORE IT IS A FEELING | `card-11_0500_three-times-over` |
+| 12 | 5:30 | 20 | 4 · IT IS A REQUIREMENT BEFORE IT IS A FEELING | `card-12_0530_the-half-second` |
+| 13 | 6:00 | 22 | 5 · THE SENTENCE NOBODY QUOTES | `card-13_0600_why-no-sign` |
+| 14 | 6:30 | 24 | 5 · THE SENTENCE NOBODY QUOTES | `card-14_0630_not-a-miracle` |
+| 15 | 7:00 | 25 | 5 · THE SENTENCE NOBODY QUOTES | `card-15_0700_the-sentence-continues` |
+| 16 | 7:30 | 27 | 5 · THE SENTENCE NOBODY QUOTES | `card-16_0730_from-the-outside` |
+| 17 | 8:00 | 29 | 5 · THE SENTENCE NOBODY QUOTES | `card-17_0800_one-more-line` |
+| 18 | 8:30 | 30 | 5 · THE SENTENCE NOBODY QUOTES | `card-18_0830_the-middle-not-the-end` |
+| 19 | 9:00 | 32 | 6 · THE ROOT ACROSS THE QURAN | `card-19_0900_ibrahim-asks` |
+| 20 | 9:30 | 34 | 6 · THE ROOT ACROSS THE QURAN | `card-20_0930_not-rebuked` |
+| 21 | 10:00 | 35 | 6 · THE ROOT ACROSS THE QURAN | `card-21_1000_badr` |
+| 22 | 10:30 | 37 | 6 · THE ROOT ACROSS THE QURAN | `card-22_1030_the-return-to-normal` |
+| 23 | 11:00 | 39 | 6 · THE ROOT ACROSS THE QURAN | `card-23_1100_morally-neutral` |
+| 24 | 11:30 | 41 | 7 · WHO THIS IS ACTUALLY ABOUT | `card-24_1130_two-readings` |
+| 25 | 12:00 | 42 | 7 · WHO THIS IS ACTUALLY ABOUT | `card-25_1200_both-land-here` |
+| 26 | 12:30 | 44 | 8 · IT IS SENT DOWN | `card-26_1230_sakinah` |
+| 27 | 13:00 | 46 | 8 · IT IS SENT DOWN | `card-27_1300_the-verb-for-rain` |
+| 28 | 13:30 | 48 | 9 · DHIKR | `card-28_1330_dhikr` |
+| 29 | 14:00 | 49 | 9 · DHIKR | `card-29_1400_mention-and-remember` |
+| 30 | 14:30 | 51 | 9 · DHIKR | `card-30_1430_al-dhikr` |
+| 31 | 15:00 | 53 | 9 · DHIKR | `card-31_1500_ma-ishatan-danka` |
+| 32 | 15:30 | 54 | 10 · THE NAME AT THE END | `card-32_1530_one-more-place` |
+| 33 | 16:00 | 56 | 10 · THE NAME AT THE END | `card-33_1600_pounded-flat` |
+| 34 | 16:30 | 58 | 10 · THE NAME AT THE END | `card-34_1630_al-mutma-innah` |
+| 35 | 17:00 | 60 | 10 · THE NAME AT THE END | `card-35_1700_settled-soul-return` |
+| 36 | 17:30 | 62 | 11 · SETTLED IS NOT NUMB | `card-36_1730_not-numb` |
+| 37 | 18:00 | 63 | 11 · SETTLED IS NOT NUMB | `card-37_1800_ya-qub-grieves` |
+| 38 | 18:30 | 65 | 11 · SETTLED IS NOT NUMB | `card-38_1830_the-eye-sheds-tears` |
+| 39 | 19:00 | 67 | 11 · SETTLED IS NOT NUMB | `card-39_1900_move-on-purpose` |
+| 40 | 19:30 | 69 | 12 · THE SILT | `card-40_1930_nothing-was-added` |
+| 41 | 20:00 | 71 | 12 · THE SILT | `card-41_2000_set-it-down` |
+| 42 | 20:30 | 72 | 12 · THE SILT | `card-42_2030_the-silt-stays` |
+| 43 | 21:00 | 74 | 13 · THE CAVE | `card-43_2100_mount-thawr` |
+| 44 | 21:30 | 76 | 13 · THE CAVE | `card-44_2130_no-exit` |
+| 45 | 22:00 | 78 | 13 · THE CAVE | `card-45_2200_sent-down` |
+| 46 | 22:30 | 80 | 13 · THE CAVE | `card-46_2230_do-not-grieve` |
+| 47 | 23:00 | 81 | 13 · THE CAVE | `card-47_2300_not-a-correction` |
+| 48 | 23:30 | 83 | 14 · ON A TUESDAY | `card-48_2330_not-on-demand` |
+| 49 | 24:00 | 85 | 14 · ON A TUESDAY | `card-49_2400_reaching-into-the-glass` |
+| 50 | 24:30 | 86 | 14 · ON A TUESDAY | `card-50_2430_five-times-a-day` |
+| 51 | 25:00 | 88 | 14 · ON A TUESDAY | `card-51_2500_stop-rushing` |
+| 52 | 25:30 | 90 | 14 · ON A TUESDAY | `card-52_2530_say-less` |
+| 53 | 26:00 | 92 | 15 · CLOSE | `card-53_2600_how-a-heart-is-built` |
+| 54 | 26:30 | 93 | 15 · CLOSE | `card-54_2630_see-through-the-water` |
+| 55 | 27:00 | 95 | 15 · CLOSE | `card-55_2700_al-mutma-innah` |
