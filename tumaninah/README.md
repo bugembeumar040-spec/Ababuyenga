@@ -1,6 +1,7 @@
 # Ṭumaʾnīnah — Ar-Raʿd 28
 
-Image pack for the 27:17 study. 16:9, 95 scenes plus 21 B-splits = 116 frames.
+Image pack for the study. 16:9, 95 scenes plus 21 B-splits = 116 frames, cut to
+a 21:04 voiceover.
 
 ## What is here
 
@@ -9,19 +10,23 @@ Image pack for the 27:17 study. 16:9, 95 scenes plus 21 B-splits = 116 frames.
 | `build_pack.py` | source of truth — holds the shared style prefix, the pack's negative prompt and the in-prompt guard once, and composes every prompt from its subject sentence |
 | `tumaninah-prompt-pack.txt` | the 116 prompts expanded, chaptered, in scene order |
 | `manifest.json` | per image: scene id, chapter, IN/OUT, VO line, filename, and both `prompt` and `el_prompt` |
-| `CHECKLIST.md` | the 116 filenames in cut order, plus the 55-mark overlay card grid |
+| `CHECKLIST.md` | delivery status, and where the generated lists live |
+| `transcript.md` | the assembled voiceover transcript — the timing source of truth |
+| `timing/` | shot list and overlay grid, generated from the transcript |
+| `cards-src/` | Remotion project for the overlay cards |
+| `overlays/` | the 43 rendered cards — alpha WebM, MP4 on white, stills |
 | `done.txt` | scenes already covered, so a batch is never paid for twice |
 | `next.py` | prints the next pending scenes and what they would cost |
-| `images/` | 95 generated frames, 1376x768, named by cut position |
+| `images/` | all 116 frames, 1376x768, named by cut position |
 
 Regenerate the pack and manifest with `python3 tumaninah/build_pack.py`.
 
-## The 21 frames not in images/
+## Timing
 
-Scenes 01–16 with splits 10B, 13B and 16B, plus 35 and 36, were generated
-outside this repo and are not on disk. `CHECKLIST.md` names the slot each one
-belongs in; drop them into `images/` under those names and the directory sorts
-into cut order on its own.
+Frames are placed against the recorded voiceover, not the pack's original
+chapter estimates — the script was resequenced and the runtime came in at 21:04
+rather than 27:17. `timing/README.md` explains the method and why the
+transcript's own AUDIO boundaries could not be used directly.
 
 ## Why the prompts carry their own negation
 
@@ -41,7 +46,7 @@ cartouches, the banners, the open manuscripts, the torn sheet, the envelopes.
 `gemini-3.1-flash-lite-image` via the ElevenLabs creative flow, one generation
 per scene. 206 credits (~$0.037) an image against 251 for the 2.5-flash
 default; the tool's default `generations_count` of 4 would have quadrupled the
-bill, so it is pinned to 1. Total for the 95: ~$3.56.
+bill, so it is pinned to 1. Total across all 116: ~$4.35.
 
 Each call is a fresh text-to-image node with nothing wired into `connect_from`.
 That matters — feeding a previous output back in as a reference is what starts

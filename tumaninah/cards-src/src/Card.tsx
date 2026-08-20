@@ -17,8 +17,10 @@ const SLATE = '#6B7280';
 const SIENNA = '#A65A3A';
 
 // Long āyah fragments need to give back the room a single word can afford.
+// Measured on base letters: harakāt are stacked marks and take no extra width,
+// so counting them would shrink a short fully-vocalised word for no reason.
 const arabicSize = (ar: string) => {
-	const n = ar.length;
+	const n = ar.replace(/[\u064B-\u0652\u0670\u06D6-\u06ED]/g, '').length;
 	if (n <= 10) return 116;
 	if (n <= 18) return 92;
 	if (n <= 30) return 72;
@@ -101,7 +103,11 @@ export const Card: React.FC<CardProps> = ({ch, ar, head, sub, bg}) => {
 									fontSize: arabicSize(ar),
 									lineHeight: 1.7,
 									color: INDIGO,
-									maxWidth: 1500,
+									// arabicSize already keeps the longest fragment inside the frame,
+									// so hold each āyah on one line — a wrapped RTL line breaks left
+									// and reads as though it were a separate phrase.
+									whiteSpace: 'nowrap',
+									textAlign: 'right',
 								}}
 							>
 								{ar}
