@@ -7,7 +7,7 @@ same thing, which is most of these collisions.
 """
 import json, sys
 
-MAX, MIN = 6.0, 3.0
+MAX, MIN = 6.0, 3.5      # below this a card is a flash, not something you read
 TAIL = 1.5      # a line this close to a plate's end belongs to what follows it
 
 cards = json.load(open('tumaninah/cards-src/cards.json'))
@@ -48,9 +48,13 @@ for c in cards:
             dropped.append(c)
             continue
         t = p[1]                      # wait for the plate to finish
-    # Crossing a picture cut is fine; running into a plate is not.
+    # Crossing a picture cut is fine; running into a plate is not. The length
+    # comes from align_cards — it is how long the phrase takes to say — so this
+    # only ever shortens it.
     np_ = next_plate_in(t)
-    dur = min(MAX, (np_ - t) if np_ is not None else MAX)
+    dur = c.get('dur_s', MAX)
+    if np_ is not None:
+        dur = min(dur, np_ - t)
     if dur < MIN:
         c['drop'] = 'only %.1fs before the next plate takes the frame' % dur
         dropped.append(c)

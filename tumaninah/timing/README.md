@@ -46,6 +46,26 @@ past the end of the audio — a run of blank cartouches at the tail. They are no
 held out: `placed.json` is the 79 frames that have a spoken line, and
 `held.json` lists the rest with the line each one was written for.
 
+## Card timing
+
+`align_cards.py` places every card. The headline is matched as an ordered
+sequence against the transcript — tolerant of how the recogniser mangles
+transliteration, so "Arad" still finds Ar-Raʿd and "Tumanina" finds ṭumaʾnīnah —
+and the card rises 0.7s before the phrase's first word and holds 2.2s past its
+last. Length therefore comes from how long the phrase takes to say, not from a
+fixed six seconds.
+
+That replaces a bag-of-words overlap scored over a sliding window, which returned
+where the *window* started rather than where the phrase was spoken. Combined with
+a flat duration, it left cards reading early or late all through the cut — the
+title card, for instance, ran 0.0-6.0 while "Ar-Raʿd" is spoken at 7.00.
+
+Thirty of thirty-one cards now contain their phrase end to end. A card whose
+headline has no literal counterpart in the speech takes an explicit `anchor_s`.
+
+Run it, then `fit.py`, which only ever shortens a card — against a plate, never
+against a picture cut.
+
 ## Sound
 
 `sfx.py` synthesises the ambience beds and mixes them under the voice. Nothing is
