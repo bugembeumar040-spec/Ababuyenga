@@ -440,18 +440,19 @@
 },
 {
 "n": "30",
-"t": "15:38",
+"t": "15:42",
 "scene": "86",
 "ch": "13 · ON A TUESDAY",
 "ar": "سُجُود",
 "head": "ṬUMAʾNĪNAH IN SUJŪD",
 "sub": "The one moment in twenty-four hours you are required to stop moving",
-"t_s": 938.97,
+"t_s": 942.45,
 "line_at": 943.15,
 "dur_s": 4.5,
-"phrase_s": 939.67,
-"phrase_e": 940.39,
-"match": 1.0
+"phrase_s": 943.15,
+"phrase_e": 943.15,
+"match": 1.0,
+"anchor_s": 943.15
 },
 {
 "n": "31",
