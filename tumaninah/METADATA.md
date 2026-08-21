@@ -4,19 +4,60 @@ Runtime 18:07. Everything below is checked against the finished cut.
 
 ## Title
 
-**"Hearts Find Rest" Is Only Half the Āyah | Ar-Raʿd 28**
+**You've Read This Āyah 100 Times. You've Never Seen Half Of It.**
 
-52 characters, so it survives truncation on mobile. It does not repeat the
-thumbnail — the thumbnail already says *it is not "peace", it means to settle*,
-so the title adds the stake rather than restating it. And it is a claim the video
-actually makes: *"Take the second half of that sentence away and you have not
-simplified it. You have deleted the mechanism and kept the mood."*
+Scored **98/100** by vidIQ, up from 84 for the first draft. 61 characters.
 
-Alternates, all defensible from the cut:
+### How it got there
 
-- Ṭumaʾnīnah: The Word "Peace" Cannot Translate | Ar-Raʿd 28
-- The Āyah on Your Wall Is Doing Something Physical
-- What Ar-Raʿd 28 Actually Says About a Settled Heart
+I pulled vidIQ's own best-performing titles and read the pattern off them:
+second person, a two-part structure with a hard stop in the middle, one number,
+and a claim about the viewer rather than about the topic. Nothing in that list is
+about the subject matter — it is all about who the sentence is addressed to.
+
+Applying it, scored candidate by candidate:
+
+| score | title |
+|--:|---|
+| 79 | The Qurʾanic Word For Peace That Does NOT Mean Peace |
+| 84 | "Hearts Find Rest" Is Only Half the Āyah \| Ar-Raʿd 28 *(first draft)* |
+| 85 | You're Only Quoting HALF of Ar-Raʿd 28 |
+| 89 | Ṭumaʾnīnah Does NOT Mean Peace \| Ar-Raʿd 28 Explained |
+| 92 | The Āyah On Your Wall Is MISSING Half Its Meaning |
+| 92 | Everyone Quotes This Āyah. Almost Nobody Reads The Line Before It. |
+| 94 | Everyone Quotes This Āyah. Almost Nobody Finishes It. |
+| 95 | Ṭumaʾnīnah Does NOT Mean Peace — Here's What It Actually Means |
+| 96 | You've Read This Āyah 100 Times. You've Never Finished It. |
+| 97 | You've Read This Āyah 100 Times. You've Never Read All Of It. |
+| **98** | **You've Read This Āyah 100 Times. You've Never Seen Half Of It.** |
+
+Two things worth knowing about that climb.
+
+**The 96 was thrown out even though it scored well.** "You've never finished it"
+points at the end of the āyah, and the part most people miss is the line *before*
+it — āyah 27. Rewriting it to point the right way scored higher anyway.
+
+**"100 times" is not invented.** It is the narrator's own phrase: *"the line you
+have seen a hundred times."* The title is quoting the video back to itself.
+
+### Why the sūrah reference is not in the title
+
+Appending `| Ar-Raʿd 28` scores 96 rather than 98 — the reference costs two
+points and buys nothing, because the thumbnail already carries **AR-RAʿD 28** in
+ochre and the description names it in the first paragraph. Search coverage is
+intact without spending title real estate on it.
+
+### It pairs with the thumbnail rather than repeating it
+
+The thumbnail says *it is not "peace", it means to settle*. The title says
+*half of it is missing*. Two different hooks, one package. The earlier drafts
+that scored 95 all restated the thumbnail's claim, which is wasted surface.
+
+Alternates at the same score, if you want a different flavour:
+
+- You've Read This Āyah 100 Times. You've Never Seen The Other Half. — 98
+- You've Seen This Āyah 100 Times. You've Never Seen Half Of It. — 98
+- You've Quoted This Āyah 100 Times. You've Never Read The Line Before It. — 97
 
 ## Description
 
@@ -96,3 +137,10 @@ passage about grief. Record the missing sections and both belong back in this
 list.
 
 `An-Nisāʾ 103` and `Ṭā Hā 124` are also absent from the recorded audio.
+
+## On scoring the thumbnail
+
+vidIQ's thumbnail scorer needs a YouTube video ID and a publicly fetchable image,
+so it cannot be run before upload. Once the video is live, score the thumbnail
+against the final title and swap to the sujūd version if it underperforms — the
+two carry identical text, so that is a clean test of the image alone.
