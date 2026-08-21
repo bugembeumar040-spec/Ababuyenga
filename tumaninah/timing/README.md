@@ -39,6 +39,20 @@ literally they imply 452 wpm in one segment and 39 in another. They are ignored.
 Every in-point is now a measured word timestamp from `asr_all.json`. 79 of 116
 frames resolve that way.
 
+## Frames held out of the cut
+
+Squeezing the unrecorded frames in gave 37 of them a 1.5s flash each, stacked
+past the end of the audio — a run of blank cartouches at the tail. They are now
+held out: `placed.json` is the 79 frames that have a spoken line, and
+`held.json` lists the rest with the line each one was written for.
+
+## Trims
+
+`cuts.json` lists stretches removed from the assembled audio, in timeline
+seconds. Words inside a cut are dropped and everything after shifts back, so a
+trim re-times the whole cut. One is in place: the slated section heading
+"13. On a Tuesday. Real life." at 14:34, read aloud off the script.
+
 ## The three unrecorded stretches
 
 About 3:50 of script has no audio, which is why the cut is 18:12 rather than the

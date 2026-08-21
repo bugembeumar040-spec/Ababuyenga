@@ -1,9 +1,9 @@
 # Ṭumaʾnīnah — image timing
 
-116 frames against the recorded voiceover. Runtime **18:12** from 14 takes.
+116 frames against the recorded voiceover. Runtime **18:07** from 14 takes.
 
 `in` is a measured word timestamp for the 79 frames whose line is in the audio.
-The 37 marked **GAP** sit in stretches of script that were never recorded — they
+The 0 marked **GAP** sit in stretches of script that were never recorded — they
 are spaced between their neighbours and will re-time once that audio exists.
 
 | # | in | out | dur | scene | timed from | frame | line |
@@ -71,56 +71,19 @@ are spaced between their neighbours and will re-time once that audio exists.
 | 61 | `13:24.72` | `13:44.03` | 19.3s | 76 | word | `092_scene-76_the-view-from-deep-inside.jpg` | No weapon, no exit, no plan that anyone can see. |
 | 62 | `13:44.03` | `13:45.53` | 1.5s | 78 | word | `094_scene-78_the-view-from-deep-inside.jpg` | So Allah sent down His sakīnah upon him. |
 | 63 | `13:45.53` | `13:47.03` | 1.5s | 78B | word | `095_scene-78b_detail-of-the-rough-cave.jpg` | So Allah sent down His sakīnah upon him. |
-| 64 | `13:47.03` | `14:31.69` | 44.7s | 79 | word | `096_scene-79_the-view-from-deep-inside.jpg` | Sent down. In a cave. While the pursuers were still standing outside it. |
-| 65 | `14:31.69` | `14:43.07` | 11.4s | 82 | word | `100_scene-82_an-ordinary-kitchen-table-at.jpg` | So what does this actually look like on an ordinary bad day. |
-| 66 | `14:43.07` | `15:00.69` | 17.6s | 83 | word | `101_scene-83_two-hands-pressed-hard-against.jpg` | It does not mean you can produce calm on demand by wanting it badly enough. |
-| 67 | `15:00.69` | `15:25.13` | 24.4s | 84 | word | `102_scene-84_a-dark-bedroom-seen-from.jpg` | Dhikr has a tongue in it. When your chest is tight at two in the morning — say s |
-| 68 | `15:25.13` | `15:32.09` | 7.0s | 85 | word | `103_scene-85_a-plain-glass-of-river.jpg` | Thinking harder about the thing that is stirring you is more stirring. It is rea |
-| 69 | `15:32.09` | `15:48.35` | 16.3s | 86 | word | `104_scene-86_a-plain-reed-prayer-mat.jpg` | You already have the training built into your day, five times, and most of us ru |
-| 70 | `15:48.35` | `15:49.85` | 1.5s | 87 | word | `105_scene-87_a-close-low-study-of.jpg` | The one moment in twenty-four hours where you are required to stop moving. |
-| 71 | `15:49.85` | `15:58.75` | 8.9s | 87B | word | `106_scene-87b_slightly-wider-framing-of-the.jpg` | The one moment in twenty-four hours where you are required to stop moving. |
-| 72 | `15:58.75` | `16:33.47` | 34.7s | 88 | word | `107_scene-88_a-wide-shallow-clay-bowl.jpg` | The man in the ḥadīth was not told to feel more. He was told to stop rushing. |
-| 73 | `16:33.47` | `16:53.23` | 19.8s | 90 | word | `109_scene-90_two-people-sitting-side-by.jpg` | Sit with them. Say less than you want to say. |
-| 74 | `16:53.23` | `17:03.97` | 10.7s | 91 | word | `110_scene-91_a-vast-bank-of-storm.jpg` | So keep the line where you can see it. Just let it be the size it actually is. |
-| 75 | `17:03.97` | `17:24.21` | 20.2s | 92 | word | `111_scene-92_a-wide-empty-rectangular-illuminated.jpg` | It is a description of how a heart is built — spoken inside a sūrah named after  |
-| 76 | `17:24.21` | `17:25.71` | 1.5s | 93 | word | `112_scene-93_a-woman-in-a-soft.jpg` | The heavy thing does not have to leave the glass for you to see through the wate |
-| 77 | `17:25.71` | `18:05.33` | 39.6s | 93B | word | `113_scene-93b_close-up-on-the-window.jpg` | The heavy thing does not have to leave the glass for you to see through the wate |
-| 78 | `18:05.33` | `18:06.83` | 1.5s | 95 | word | `115_scene-95_a-bare-horizon-at-sunrise.jpg` | …May Allah make yours one of the settled ones. |
-| 79 | `18:06.83` | `18:08.33` | 1.5s | 95B | word | `116_scene-95b_final-wide-closing-frame-of.jpg` | …May Allah make yours one of the settled ones. |
-| 80 | `18:08.33` | `18:09.83` | 1.5s | 02 | **gap** | `002_scene-02_a-single-fork-of-lightning.jpg` | Ar-Raʿd. The Thunder. |
-| 81 | `18:09.83` | `18:11.33` | 1.5s | 07 | **gap** | `007_scene-07_a-framed-print-hanging-on.jpg` | …the line you have seen a hundred times. Usually in a soft font. Usually over a  |
-| 82 | `18:11.33` | `18:12.83` | 1.5s | 16 | **gap** | `018_scene-16_a-plain-reed-prayer-mat.jpg` | Ṭumaʾnīnah is a legal requirement inside your ṣalāh. |
-| 83 | `18:12.83` | `18:14.33` | 1.5s | 16B | **gap** | `019_scene-16b_macro-texture-view-of-the.jpg` | Ṭumaʾnīnah is a legal requirement inside your ṣalāh. |
-| 84 | `18:14.33` | `18:15.83` | 1.5s | 21 | **gap** | `025_scene-21_a-wide-empty-rectangular-illuminated.jpg` | Sūrah Ar-Raʿd, āyah twenty-seven. The one immediately before. |
-| 85 | `18:15.83` | `18:17.33` | 1.5s | 29 | **gap** | `034_scene-29_a-wide-empty-rectangular-illuminated.jpg` | Then read one more line, because the passage does not stop there either. |
-| 86 | `18:17.33` | `18:18.83` | 1.5s | 30 | **gap** | `035_scene-30_a-broad-tree-in-full.jpg` | The settling is not the end of the sentence. It is the middle of a journey that  |
-| 87 | `18:18.83` | `18:20.33` | 1.5s | 30B | **gap** | `036_scene-30b_macro-detail-of-thick-verdigris.jpg` | The settling is not the end of the sentence. It is the middle of a journey that  |
-| 88 | `18:20.33` | `18:21.83` | 1.5s | 31 | **gap** | `037_scene-31_an-open-manuscript-page-completely.jpg` | The word does not only appear here. Follow it, and the picture sharpens fast. |
-| 89 | `18:21.83` | `18:23.33` | 1.5s | 32 | **gap** | `038_scene-32_four-birds-in-flight-well.jpg` | Ibrāhīm ؑ asks Allah to show him how the dead are given life. |
-| 90 | `18:23.33` | `18:24.83` | 1.5s | 33 | **gap** | `039_scene-33_a-long-horizontal-empty-illuminated.jpg` | Yes — but so that my heart may settle. |
-| 91 | `18:24.83` | `18:26.33` | 1.5s | 34 | **gap** | `040_scene-34_four-birds-settling-down-onto.jpg` | He is not rebuked for asking. He is shown. |
-| 92 | `18:26.33` | `18:27.83` | 1.5s | 34B | **gap** | `041_scene-34b_macro-focus-on-the-semi.jpg` | He is not rebuked for asking. He is shown. |
-| 93 | `18:27.83` | `18:29.33` | 1.5s | 35 | **gap** | `042_scene-35_a-wide-dry-valley-at.jpg` | Badr. The angels sent to a badly outnumbered army. |
-| 94 | `18:29.33` | `18:30.83` | 1.5s | 36 | **gap** | `043_scene-36_a-single-pair-of-open.jpg` | Not to win the battle. The angels were for the settling. |
-| 95 | `18:30.83` | `18:32.33` | 1.5s | 37 | **gap** | `044_scene-37_a-spear-and-a-shield.jpg` | In the āyah about shortening prayer in danger, the return to normal is marked by |
-| 96 | `18:32.33` | `18:33.83` | 1.5s | 48 | **gap** | `057_scene-48_a-long-horizontal-empty-illuminated.jpg` | Dhikr. Dhāl, kāf, rāʾ. |
-| 97 | `18:33.83` | `18:35.33` | 1.5s | 51 | **gap** | `060_scene-51_an-open-hand-bound-manuscript.jpg` | The Qurʾān uses al-Dhikr as a name for itself. |
-| 98 | `18:35.33` | `18:36.83` | 1.5s | 53 | **gap** | `062_scene-53_a-very-narrow-stone-passage.jpg` | Whoever turns away from My dhikr — a constricted life. Maʿīshatan ḍankā. |
-| 99 | `18:36.83` | `18:38.33` | 1.5s | 53B | **gap** | `063_scene-53b_detail-of-the-rough-stone.jpg` | Whoever turns away from My dhikr — a constricted life. Maʿīshatan ḍankā. |
-| 100 | `18:38.33` | `18:39.83` | 1.5s | 54 | **gap** | `064_scene-54_a-single-unsealed-envelope-of.jpg` | There is one more place this root appears, and it changes the tone of everything |
-| 101 | `18:39.83` | `18:41.33` | 1.5s | 55 | **gap** | `065_scene-55_a-bare-horizon-before-sunrise.jpg` | Sūrah Al-Fajr. Near the very end of the Qurʾān. |
-| 102 | `18:41.33` | `18:42.83` | 1.5s | 55B | **gap** | `066_scene-55b_detail-shot-focusing-on-the.jpg` | Sūrah Al-Fajr. Near the very end of the Qurʾān. |
-| 103 | `18:42.83` | `18:44.33` | 1.5s | 56 | **gap** | `067_scene-56_a-wide-field-of-broken.jpg` | Nations destroyed, wealth loved with a fierce love, the earth pounded flat, leve |
-| 104 | `18:44.33` | `18:45.83` | 1.5s | 57 | **gap** | `068_scene-57_a-wide-empty-rectangular-illuminated.jpg` | And then a voice turns and addresses a single soul directly. |
-| 105 | `18:45.83` | `18:47.33` | 1.5s | 57B | **gap** | `069_scene-57b_macro-focus-on-the-expansive.jpg` | And then a voice turns and addresses a single soul directly. |
-| 106 | `18:47.33` | `18:48.83` | 1.5s | 58 | **gap** | `070_scene-58_a-long-horizontal-empty-illuminated.jpg` | Al-muṭmaʾinnah. Same root. Ṭāʾ, mīm, hamza, nūn. |
-| 107 | `18:48.83` | `18:50.33` | 1.5s | 59 | **gap** | `071_scene-59_two-empty-illuminated-cartouches-side.jpg` | In Ar-Raʿd, settling is something a heart does. In Al-Fajr, it is what Allah cal |
-| 108 | `18:50.33` | `18:51.83` | 1.5s | 60 | **gap** | `072_scene-60_a-single-open-doorway-in.jpg` | He does not say become settled, then return. He says: settled soul — return. |
-| 109 | `18:51.83` | `18:53.33` | 1.5s | 61 | **gap** | `073_scene-61_a-wide-shallow-salt-flat.jpg` | Your heart can settle because He is what is underneath it. |
-| 110 | `18:53.33` | `18:54.83` | 1.5s | 61B | **gap** | `074_scene-61b_ultra-wide-panoramic-view-of.jpg` | Your heart can settle because He is what is underneath it. |
-| 111 | `18:54.83` | `18:56.33` | 1.5s | 77 | **gap** | `093_scene-77_a-wide-empty-rectangular-illuminated.jpg` | Lā taḥzan — inna Allāha maʿanā. Do not grieve. Allah is with us. |
-| 112 | `18:56.33` | `18:57.83` | 1.5s | 80 | **gap** | `097_scene-80_two-sets-of-footprints-in.jpg` | You only say do not grieve to somebody who is already grieving. |
-| 113 | `18:57.83` | `18:59.33` | 1.5s | 81 | **gap** | `098_scene-81_a-broad-flat-slab-of.jpg` | What arrived was not a correction. It was a floor. |
-| 114 | `18:59.33` | `19:00.83` | 1.5s | 81B | **gap** | `099_scene-81b_wider-view-of-the-inner.jpg` | What arrived was not a correction. It was a floor. |
-| 115 | `19:00.83` | `19:02.33` | 1.5s | 89 | **gap** | `108_scene-89_a-phone-lying-face-up.jpg` | Do not hand somebody āyah twenty-eight as a stop sign. |
-| 116 | `19:02.33` | `19:03.83` | 1.5s | 94 | **gap** | `114_scene-94_a-long-horizontal-empty-illuminated.jpg` | Yā ayyatuhā an-nafs al-muṭmaʾinnah. O settled soul. |
+| 64 | `13:47.03` | `14:29.67` | 42.6s | 79 | word | `096_scene-79_the-view-from-deep-inside.jpg` | Sent down. In a cave. While the pursuers were still standing outside it. |
+| 65 | `14:29.67` | `14:37.87` | 8.2s | 82 | word | `100_scene-82_an-ordinary-kitchen-table-at.jpg` | So what does this actually look like on an ordinary bad day. |
+| 66 | `14:37.87` | `14:55.49` | 17.6s | 83 | word | `101_scene-83_two-hands-pressed-hard-against.jpg` | It does not mean you can produce calm on demand by wanting it badly enough. |
+| 67 | `14:55.49` | `15:19.93` | 24.4s | 84 | word | `102_scene-84_a-dark-bedroom-seen-from.jpg` | Dhikr has a tongue in it. When your chest is tight at two in the morning — say s |
+| 68 | `15:19.93` | `15:26.89` | 7.0s | 85 | word | `103_scene-85_a-plain-glass-of-river.jpg` | Thinking harder about the thing that is stirring you is more stirring. It is rea |
+| 69 | `15:26.89` | `15:43.15` | 16.3s | 86 | word | `104_scene-86_a-plain-reed-prayer-mat.jpg` | You already have the training built into your day, five times, and most of us ru |
+| 70 | `15:43.15` | `15:44.65` | 1.5s | 87 | word | `105_scene-87_a-close-low-study-of.jpg` | The one moment in twenty-four hours where you are required to stop moving. |
+| 71 | `15:44.65` | `15:53.55` | 8.9s | 87B | word | `106_scene-87b_slightly-wider-framing-of-the.jpg` | The one moment in twenty-four hours where you are required to stop moving. |
+| 72 | `15:53.55` | `16:28.27` | 34.7s | 88 | word | `107_scene-88_a-wide-shallow-clay-bowl.jpg` | The man in the ḥadīth was not told to feel more. He was told to stop rushing. |
+| 73 | `16:28.27` | `16:48.03` | 19.8s | 90 | word | `109_scene-90_two-people-sitting-side-by.jpg` | Sit with them. Say less than you want to say. |
+| 74 | `16:48.03` | `16:58.77` | 10.7s | 91 | word | `110_scene-91_a-vast-bank-of-storm.jpg` | So keep the line where you can see it. Just let it be the size it actually is. |
+| 75 | `16:58.77` | `17:19.01` | 20.2s | 92 | word | `111_scene-92_a-wide-empty-rectangular-illuminated.jpg` | It is a description of how a heart is built — spoken inside a sūrah named after  |
+| 76 | `17:19.01` | `17:20.51` | 1.5s | 93 | word | `112_scene-93_a-woman-in-a-soft.jpg` | The heavy thing does not have to leave the glass for you to see through the wate |
+| 77 | `17:20.51` | `18:00.13` | 39.6s | 93B | word | `113_scene-93b_close-up-on-the-window.jpg` | The heavy thing does not have to leave the glass for you to see through the wate |
+| 78 | `18:00.13` | `18:01.63` | 1.5s | 95 | word | `115_scene-95_a-bare-horizon-at-sunrise.jpg` | …May Allah make yours one of the settled ones. |
+| 79 | `18:01.63` | `18:07.26` | 5.6s | 95B | word | `116_scene-95b_final-wide-closing-frame-of.jpg` | …May Allah make yours one of the settled ones. |

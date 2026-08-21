@@ -1,7 +1,12 @@
 # Overlay cards — Ṭumaʾnīnah (Ar-Raʿd 28)
 
-37 motion-graphics cards, one every 30 seconds across the 18:12 cut
-(0:00, 0:30, 1:00 … 18:00). Rendered with Remotion from `../cards-src`.
+37 motion-graphics cards across the 18:07 cut, plus 10 āyah plates. Rendered
+with Remotion from `../cards-src`.
+
+Cards sit at roughly 30-second intervals but are anchored to the line each one
+glosses, not to the clock — on a fixed grid they drifted up to 18s from the words
+they name. Each is pre-rolled one second so its animation finishes as the line
+lands, clamped so it never fades up over the previous frame.
 
 Each card's content is drawn from what is actually being said at that mark — read
 off the transcribed audio, not the written script, so the wording matches the
@@ -18,6 +23,19 @@ carried by card 36 in the close rather than by a section of its own.
 | `webm/` | VP9, 1920×1080, 30fps, **alpha** | drop straight on the timeline above the art — no blend mode, no keying |
 | `mp4/` | H.264, 1920×1080, 30fps, white ground | for editors that will not take alpha WebM — set the clip to **Multiply** |
 | `still/` | PNG, frame 90 over white | quick review / contact sheet, not for the cut |
+| `plates/` | VP9 alpha + PNG | āyah plates for the empty cartouche frames |
+
+## Plates
+
+Ten frames in the pack are empty illuminated cartouches and banners. They are
+blank on purpose: a generated image cannot be trusted to render Qur'ānic script,
+which is what produced the malformed Arabic in the early batches. The interior
+was left bare so the text could be set here instead.
+
+Each plate carries the āyah actually being spoken over that frame, centred inside
+the cartouche, and holds for the length of the shot. Where a card at the same
+moment carried the same āyah, the card's Arabic was dropped — the plate states it
+full size and the card glosses it.
 
 Filenames are `card-NN_MMSS_<headline-slug>` so they sort in cut order and
 the in-point is readable without opening anything.

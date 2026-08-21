@@ -24,7 +24,7 @@
 "t": "1:04",
 "scene": "06",
 "ch": "2 · ṬUMAʾNĪNAH",
-"ar": "طُمَأْنِينَة",
+"ar": "",
 "head": "ṬUMAʾNĪNAH",
 "sub": "ṭāʾ · mīm · hamza · nūn — the word the English cannot carry",
 "t_s": 64.73
@@ -174,7 +174,7 @@
 "t": "8:13",
 "scene": "46",
 "ch": "7 · IT IS SENT DOWN",
-"ar": "أَنزَلَ السَّكِينَةَ فِي قُلُوبِ الْمُؤْمِنِينَ",
+"ar": "",
 "head": "IT IS SENT DOWN",
 "sub": "Al-Fatḥ 4 — the verb used for rain, and for revelation",
 "t_s": 493.52
@@ -214,7 +214,7 @@
 "t": "10:20",
 "scene": "64",
 "ch": "10 · SETTLED IS NOT NUMB",
-"ar": "إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ",
+"ar": "",
 "head": "TAKEN TO THE RIGHT ADDRESS",
 "sub": "Yūsuf 86 — grief to the right address is not a failure of settling",
 "t_s": 620.07
@@ -291,82 +291,82 @@
 },
 {
 "n": "30",
-"t": "14:29",
+"t": "14:27",
 "scene": "79",
 "ch": "13 · ON A TUESDAY",
 "ar": "",
 "head": "ON AN ORDINARY BAD DAY",
 "sub": "What this actually looks like when you are in it",
-"t_s": 869.77
+"t_s": 867.63
 },
 {
 "n": "31",
-"t": "15:12",
+"t": "15:07",
 "scene": "83",
 "ch": "13 · ON A TUESDAY",
 "ar": "",
 "head": "SAY SOMETHING",
 "sub": "Not: think about Allah harder. Out loud, under your breath, whatever you can manage",
-"t_s": 912.29
+"t_s": 907.09
 },
 {
 "n": "32",
-"t": "15:48",
+"t": "15:43",
 "scene": "85",
 "ch": "13 · ON A TUESDAY",
 "ar": "سُجُود",
 "head": "ṬUMAʾNĪNAH IN SUJŪD",
 "sub": "The one moment in twenty-four hours you are required to stop moving",
-"t_s": 948.35
+"t_s": 943.15
 },
 {
 "n": "33",
-"t": "16:01",
+"t": "15:56",
 "scene": "88",
 "ch": "13 · ON A TUESDAY",
 "ar": "",
 "head": "TOLD TO STOP RUSHING",
 "sub": "Not told to feel more — and it was not prayer until he did",
-"t_s": 961.99
+"t_s": 956.79
 },
 {
 "n": "34",
-"t": "16:30",
+"t": "16:25",
 "scene": "88",
 "ch": "13 · ON A TUESDAY",
 "ar": "",
 "head": "NOT A STOP SIGN",
 "sub": "Sit with them. Say less than you want to say",
-"t_s": 990.63
+"t_s": 985.43
 },
 {
 "n": "35",
-"t": "17:00",
+"t": "16:54",
 "scene": "91",
 "ch": "14 · CLOSE",
 "ar": "",
 "head": "LET IT BE ITS ACTUAL SIZE",
 "sub": "A description of how a heart is built, not a promise that you will feel peaceful",
-"t_s": 1020.13
+"t_s": 1014.93
 },
 {
 "n": "36",
-"t": "17:32",
+"t": "17:27",
 "scene": "93B",
 "ch": "14 · CLOSE",
 "ar": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ",
 "head": "IT IS WHAT HE CALLS YOU",
 "sub": "Al-Fajr 27 — not something your heart is doing any more",
-"t_s": 1052.87
+"t_s": 1047.67
 },
 {
 "n": "37",
-"t": "18:01",
+"t": "17:56",
 "scene": "93B",
 "ch": "SŪRAH AR-RAʿD · ṬUMAʾNĪNAH",
 "ar": "",
 "head": "MAY ALLAH MAKE YOURS ONE OF THE SETTLED ONES",
 "sub": "Thank you for spending this time in Sūrah Ar-Raʿd",
-"t_s": 1081.63
+"t_s": 1076.43
 }
 ]

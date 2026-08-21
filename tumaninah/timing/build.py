@@ -1,12 +1,17 @@
-"""Build the real cut: audio from the takes that belong to this script, and
-image timing taken from where the words are actually spoken.
+"""Build the cut: audio from the takes that belong to this script, image timing
+taken from where the words are actually spoken.
 
-Supersedes the earlier estimate-based path. That one assumed the uploads were all
-one script and that the transcript's AUDIO table described them; both were wrong.
-Here the takes are the ones ASR says belong to this study, ordered by where they
-sit in the script, and every in-point is a measured word timestamp.
+Three things this handles that an estimate cannot:
+
+- The uploads hold two scripts. Only the takes classify.py scores as this one are
+  used, ordered by where they sit in the script.
+- Roughly 3:50 of script was never recorded. Frames whose line falls in those
+  stretches are held OUT of the cut rather than squeezed in — squeezing gave 37
+  frames a 1.5s flash each, piled past the end of the audio.
+- Slated section headings read aloud are trimmed, and every downstream timestamp
+  shifts with them.
 """
-import bisect, json, os, re, subprocess, sys, unicodedata
+import json, os, re, subprocess, sys, unicodedata
 
 UPLOADS = '/root/.claude/uploads/b6b8a957-a047-5e7c-b664-115ea9a25bf7'
 MIN_SHOT = 1.5
@@ -17,29 +22,40 @@ def norm(s):
     return [t for t in re.split(r"[^a-z0-9']+", s.lower().replace('’', "'")) if t]
 
 allasr = json.load(open('tumaninah/timing/asr_all.json'))
-spans = json.load(open('tumaninah/timing/coverage.json'))['spans']
-spans.sort(key=lambda s: s['lo'])
+spans = sorted(json.load(open('tumaninah/timing/coverage.json'))['spans'], key=lambda s: s['lo'])
+cuts = json.load(open('tumaninah/timing/cuts.json'))
 
 # One word stream for the assembled audio, each take at its true offset.
-stream, offset, order = [], 0.0, []
+raw, offset, order = [], 0.0, []
 for s in spans:
     for w in allasr[s['file']]['words']:
-        stream.append({'t': round(offset + w['t'], 2), 'w': w['w']})
-    order.append({'file': s['file'], 'offset': round(offset, 2), 'dur': s['dur'],
-                  'script_from': s['lo']})
+        raw.append({'t': round(offset + w['t'], 2), 'w': w['w']})
+    order.append({'file': s['file'], 'offset': round(offset, 2), 'dur': s['dur']})
     offset += s['dur']
-TOTAL = offset
+
+# Apply the trims: drop what falls inside a cut, pull everything after it back.
+def shift(t):
+    d = 0.0
+    for c in cuts:
+        if t >= c['to']:
+            d += c['to'] - c['from']
+    return round(t - d, 2)
+
+inside = lambda t: any(c['from'] <= t < c['to'] for c in cuts)
+stream = [{'t': shift(w['t']), 'w': w['w']} for w in raw if not inside(w['t'])]
+TOTAL = offset - sum(c['to'] - c['from'] for c in cuts)
+
 A = [norm(w['w'])[0] if norm(w['w']) else '' for w in stream]
 T = [w['t'] for w in stream]
-json.dump({'total': TOTAL, 'order': order, 'words': stream},
+json.dump({'total': TOTAL, 'order': order, 'cuts': cuts, 'words': stream},
           open('tumaninah/timing/timeline.json', 'w'), ensure_ascii=False)
 
 STOP = set("the a an and of to in it is are was that this be by for on as not you your".split())
 
-def find(want, lo):
+def find(want):
     w = [t for t in want if t not in STOP] or want
     bs, bp = 0.0, None
-    for p in range(lo, len(A)):
+    for p in range(len(A)):
         win = set(A[p:p + max(len(want) + 8, 14)])
         sc = sum(1 for t in w if t in win) / len(w)
         if sc > bs:
@@ -51,63 +67,48 @@ def find(want, lo):
 scenes = json.load(open('tumaninah/manifest.json'))['requests']
 on_disk = {int(f.split('_')[0]): f for f in os.listdir('tumaninah/images')}
 
-# Matched freely, not monotonically: the script was resequenced after the pack
-# was written, so forcing the pack's order pins later frames behind earlier text.
-rows = []
-for order_i, s in enumerate(scenes):
-    sc, p = find(norm(s['vo']), 0)
-    ok = p is not None and sc >= 0.55
-    rows.append({'pack_order': order_i, 'scene': s['scene'], 'index': s['index'],
-                 'file': on_disk.get(s['index'], s['file']),
-                 'chapter': s['chapter'], 'chapter_title': s['chapter_title'],
-                 'vo': s['vo'], 'score': round(sc, 2),
-                 'in_s': T[p] if ok else None, 'has_audio': ok})
+cut, held = [], []
+for i, s in enumerate(scenes):
+    sc, p = find(norm(s['vo']))
+    rec = {'pack_order': i, 'scene': s['scene'], 'index': s['index'],
+           'file': on_disk.get(s['index'], s['file']),
+           'chapter': s['chapter'], 'chapter_title': s['chapter_title'],
+           'vo': s['vo'], 'score': round(sc, 2), 'has_audio': sc >= 0.55}
+    if rec['has_audio']:
+        rec['in_s'] = T[p]
+        cut.append(rec)
+    else:
+        held.append(rec)
 
-# B-splits share their parent's line, so they match the same word; hold the split
-# just after its parent instead of tying.
-by = {r['scene']: r for r in rows}
-for r in rows:
+# B-splits share their parent's line, so they match the same word.
+by = {r['scene']: r for r in cut}
+for r in cut:
     if r['scene'].endswith('B'):
         par = by.get(r['scene'][:-1])
-        if par and par['in_s'] is not None and r['in_s'] == par['in_s']:
+        if par and r['in_s'] == par['in_s']:
             r['in_s'] = par['in_s'] + 0.01
-rows.sort(key=lambda r: (r['in_s'] if r['in_s'] is not None else 1e9, r['pack_order']))
 
-# A line with no audio sits in one of the unrecorded gaps. Hold it between its
-# neighbours rather than dropping it, so the frame stays in the bin.
-known = [i for i, r in enumerate(rows) if r['in_s'] is not None]
-for i, r in enumerate(rows):
-    if r['in_s'] is not None:
-        continue
-    prev = max([k for k in known if k < i], default=None)
-    nxt = min([k for k in known if k > i], default=None)
-    a = rows[prev]['in_s'] if prev is not None else 0.0
-    b = rows[nxt]['in_s'] if nxt is not None else TOTAL
-    lo = prev if prev is not None else -1
-    hi = nxt if nxt is not None else len(rows)
-    r['in_s'] = a + (b - a) * (i - lo) / (hi - lo)
-
-run = 0.0
-for r in rows:
-    run = max(run, r['in_s']); r['in_s'] = run
-for i in range(len(rows) - 1):
-    if rows[i + 1]['in_s'] - rows[i]['in_s'] < MIN_SHOT:
-        rows[i + 1]['in_s'] = rows[i]['in_s'] + MIN_SHOT
-for i, r in enumerate(rows):
+# Sorted by where the words land, not by the pack: the script was resequenced.
+cut.sort(key=lambda r: (r['in_s'], r['pack_order']))
+for i in range(len(cut) - 1):
+    if cut[i + 1]['in_s'] - cut[i]['in_s'] < MIN_SHOT:
+        cut[i + 1]['in_s'] = cut[i]['in_s'] + MIN_SHOT
+for i, r in enumerate(cut):
     r['cut_order'] = i + 1
-for i, r in enumerate(rows):
-    r['out_s'] = rows[i + 1]['in_s'] if i + 1 < len(rows) else max(TOTAL, r['in_s'] + MIN_SHOT)
+    r['out_s'] = cut[i + 1]['in_s'] if i + 1 < len(cut) else TOTAL
     r['in_s'], r['out_s'] = round(r['in_s'], 2), round(r['out_s'], 2)
     r['dur_s'] = round(r['out_s'] - r['in_s'], 2)
-json.dump(rows, open('tumaninah/timing/placed.json', 'w'), ensure_ascii=False, indent=1)
 
-nog = [r for r in rows if not r['has_audio']]
-d = [r['dur_s'] for r in rows]
-print('audio %.1fs = %d:%02d from %d takes' % (TOTAL, TOTAL // 60, TOTAL % 60, len(order)))
-print('frames %d | timed to spoken words %d | in unrecorded gaps %d'
-      % (len(rows), len(rows) - len(nog), len(nog)))
-print('shot len min %.1f median %.1f max %.1f' % (min(d), sorted(d)[len(d)//2], max(d)))
-print('30s marks needed: %d (0:00 .. %d:%02d)' % (int(TOTAL // 30) + 1,
+json.dump(cut, open('tumaninah/timing/placed.json', 'w'), ensure_ascii=False, indent=1)
+json.dump(held, open('tumaninah/timing/held.json', 'w'), ensure_ascii=False, indent=1)
+
+d = [r['dur_s'] for r in cut]
+print('audio %.1fs = %d:%02d from %d takes, %d trim(s) removing %.1fs'
+      % (TOTAL, TOTAL // 60, TOTAL % 60, len(order), len(cuts),
+         sum(c['to'] - c['from'] for c in cuts)))
+print('in the cut %d frames | held out (no recorded line) %d' % (len(cut), len(held)))
+print('shot len min %.1f median %.1f max %.1f' % (min(d), sorted(d)[len(d) // 2], max(d)))
+print('30s marks: %d (0:00 .. %d:%02d)' % (int(TOTAL // 30) + 1,
       (int(TOTAL // 30) * 30) // 60, (int(TOTAL // 30) * 30) % 60))
 
 if '--audio' in sys.argv:
@@ -116,6 +117,9 @@ if '--audio' in sys.argv:
     os.makedirs('tumaninah/preview', exist_ok=True)
     lst = 'tumaninah/preview/audio.txt'
     open(lst, 'w').write('\n'.join("file '%s'" % os.path.join(UPLOADS, o['file']) for o in order))
+    keep = 'aselect=' + '*'.join("'not(between(t,%.3f,%.3f))'" % (c['from'], c['to']) for c in cuts) \
+        + ',asetpts=N/SR/TB' if cuts else 'anull'
     subprocess.run([FF, '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', lst,
-                    '-c:a', 'aac', '-b:a', '160k', 'tumaninah/preview/voiceover.m4a'], check=True)
-    print('built tumaninah/preview/voiceover.m4a')
+                    '-af', keep, '-c:a', 'aac', '-b:a', '160k',
+                    'tumaninah/preview/voiceover.m4a'], check=True)
+    print('built voiceover.m4a')
