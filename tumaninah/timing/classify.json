@@ -1,0 +1,308 @@
+[
+ {
+  "file": "caf76c47-ES_Voice_Benjamin20260819T160352Z.mp3",
+  "dur": 57.39,
+  "cov": 0.9722222222222222,
+  "hits": 140,
+  "start": 704,
+  "median": 772,
+  "sec": "4 · THE SENTENCE NOBODY QUOTES"
+ },
+ {
+  "file": "25a665d0-ES_Voice_Benjamin20260819T163440Z.mp3",
+  "dur": 116.35,
+  "cov": 0.955719557195572,
+  "hits": 259,
+  "start": 2248,
+  "median": 2365,
+  "sec": "11 · THE SILT"
+ },
+ {
+  "file": "6fc604ad-ES_Voice_Benjamin20260819T155259Z.mp3",
+  "dur": 22.05,
+  "cov": 0.9245283018867925,
+  "hits": 49,
+  "start": 157,
+  "median": 183,
+  "sec": "1 · THE SŪRAH IS NAMED AFTER THUNDER"
+ },
+ {
+  "file": "c01e74f0-ES_Voice_Benjamin20260819T160036Z.mp3",
+  "dur": 94.51,
+  "cov": 0.8941798941798942,
+  "hits": 169,
+  "start": 512,
+  "median": 607,
+  "sec": "4 · THE SENTENCE NOBODY QUOTES"
+ },
+ {
+  "file": "3bb04861-ES_Voice_Benjamin20260819T164835Z.mp3",
+  "dur": 79.23,
+  "cov": 0.8916256157635468,
+  "hits": 181,
+  "start": 818,
+  "median": 3066,
+  "sec": "14 · CLOSE"
+ },
+ {
+  "file": "94f0791e-ES_Voice_Benjamin20260819T155721Z.mp3",
+  "dur": 73.56,
+  "cov": 0.8726114649681529,
+  "hits": 137,
+  "start": 351,
+  "median": 427,
+  "sec": "2 · ṬUMAʾNĪNAH"
+ },
+ {
+  "file": "5a27e6e1-ES_Voice_Benjamin20260819T163949Z.mp3",
+  "dur": 127.48,
+  "cov": 0.8597122302158273,
+  "hits": 239,
+  "start": 2528,
+  "median": 2649,
+  "sec": "13 · ON A TUESDAY"
+ },
+ {
+  "file": "b2048b91-ES_Voice_Benjamin20260819T161011Z.mp3",
+  "dur": 116.69,
+  "cov": 0.8487084870848709,
+  "hits": 230,
+  "start": 1058,
+  "median": 1185,
+  "sec": "5 · THE ROOT ACROSS THE QURAN"
+ },
+ {
+  "file": "32bb1f5a-ES_Voice_Benjamin20260819T161428Z.mp3",
+  "dur": 64.84,
+  "cov": 0.8435374149659864,
+  "hits": 124,
+  "start": 1326,
+  "median": 1400,
+  "sec": "7 · IT IS SENT DOWN"
+ },
+ {
+  "file": "cfcd8875-ES_Voice_Benjamin20260819T164504Z.mp3",
+  "dur": 68.68,
+  "cov": 0.8247422680412371,
+  "hits": 160,
+  "start": 2793,
+  "median": 2871,
+  "sec": "13 · ON A TUESDAY"
+ },
+ {
+  "file": "3cc72449-ES_Voice_Benjamin20260819T154926Z.mp3",
+  "dur": 44.93,
+  "cov": 0.8080808080808081,
+  "hits": 80,
+  "start": 4,
+  "median": 54,
+  "sec": "1 · THE SŪRAH IS NAMED AFTER THUNDER"
+ },
+ {
+  "file": "6aa1d6f8-ES_Voice_Benjamin20260819T155508Z.mp3",
+  "dur": 60.03,
+  "cov": 0.8016528925619835,
+  "hits": 97,
+  "start": 215,
+  "median": 281,
+  "sec": "2 · ṬUMAʾNĪNAH"
+ },
+ {
+  "file": "12922ee0-ES_Voice_Benjamin20260819T162909Z.mp3",
+  "dur": 109.17,
+  "cov": 0.7983539094650206,
+  "hits": 194,
+  "start": 1998,
+  "median": 2106,
+  "sec": "10 · SETTLED IS NOT NUMB"
+ },
+ {
+  "file": "61c3f40f-ES_Voice_Benjamin20260819T161630Z.mp3",
+  "dur": 57.55,
+  "cov": 0.7642857142857142,
+  "hits": 107,
+  "start": 1484,
+  "median": 1545,
+  "sec": "7 · IT IS SENT DOWN"
+ },
+ {
+  "file": "332e0131-ES_Voice_Benjamin20260819T030817Z_2.mp3",
+  "dur": 56.76,
+  "cov": 0.032,
+  "hits": 4,
+  "start": 1529,
+  "median": 2644,
+  "sec": "13 · ON A TUESDAY"
+ },
+ {
+  "file": "6d7303a0-ES_Voice_Benjamin20260819T031722Z.mp3",
+  "dur": 109.64,
+  "cov": 0.015873015873015872,
+  "hits": 4,
+  "start": 784,
+  "median": 1903,
+  "sec": "9 · THE NAME AT THE END"
+ },
+ {
+  "file": "1743538a-ES_Voice_Benjamin20260819T033915Z.mp3",
+  "dur": 120.29,
+  "cov": 0.009345794392523364,
+  "hits": 3,
+  "start": 784,
+  "median": 2218,
+  "sec": "10 · SETTLED IS NOT NUMB"
+ },
+ {
+  "file": "e0ff3198-ES_Voice_Benjamin20260819T034041Z_2.mp3",
+  "dur": 121.99,
+  "cov": 0.009316770186335404,
+  "hits": 3,
+  "start": 784,
+  "median": 2218,
+  "sec": "10 · SETTLED IS NOT NUMB"
+ },
+ {
+  "file": "cf93d5b5-ES_Voice_Benjamin20260819T033251Z.mp3",
+  "dur": 102.27,
+  "cov": 0.007633587786259542,
+  "hits": 2,
+  "start": 1469,
+  "median": 2630,
+  "sec": "13 · ON A TUESDAY"
+ },
+ {
+  "file": "fe485c41-ES_Voice_Benjamin20260819T024817Z_2.mp3",
+  "dur": 108.12,
+  "cov": 0.007380073800738007,
+  "hits": 2,
+  "start": 853,
+  "median": 854,
+  "sec": "5 · THE ROOT ACROSS THE QURAN"
+ },
+ {
+  "file": "1443918f-ES_Voice_Benjamin20260819T025123Z_2.mp3",
+  "dur": 147.15,
+  "cov": 0.0070921985815602835,
+  "hits": 2,
+  "start": 784,
+  "median": 2862,
+  "sec": "13 · ON A TUESDAY"
+ },
+ {
+  "file": "fea7e07e-ES_Voice_Benjamin20260819T024548Z_2.mp3",
+  "dur": 144.04,
+  "cov": 0.006514657980456026,
+  "hits": 2,
+  "start": 474,
+  "median": 1296,
+  "sec": "5 · THE ROOT ACROSS THE QURAN"
+ },
+ {
+  "file": "a379a463-ES_Voice_Benjamin20260819T031427Z_2.mp3",
+  "dur": 57.89,
+  "cov": 0.006493506493506494,
+  "hits": 1,
+  "start": 2792,
+  "median": 2792,
+  "sec": "13 · ON A TUESDAY"
+ },
+ {
+  "file": "18fab888-ES_Voice_Benjamin20260819T025939Z_2.mp3",
+  "dur": 155.48,
+  "cov": 0.00625,
+  "hits": 2,
+  "start": 300,
+  "median": 301,
+  "sec": "2 · ṬUMAʾNĪNAH"
+ },
+ {
+  "file": "3c5ebbf0-ES_Voice_Benjamin20260819T031331Z_2.mp3",
+  "dur": 69.96,
+  "cov": 0.005747126436781609,
+  "hits": 1,
+  "start": 312,
+  "median": 312,
+  "sec": "2 · ṬUMAʾNĪNAH"
+ },
+ {
+  "file": "301ec19b-ES_Voice_Benjamin20260819T030640Z_2.mp3",
+  "dur": 114.36,
+  "cov": 0.0033003300330033004,
+  "hits": 1,
+  "start": 1332,
+  "median": 1332,
+  "sec": "7 · IT IS SENT DOWN"
+ },
+ {
+  "file": "177ccc99-ES_Voice_Benjamin20260819T025503Z_2.mp3",
+  "dur": 135.08,
+  "cov": 0.003076923076923077,
+  "hits": 1,
+  "start": 313,
+  "median": 313,
+  "sec": "2 · ṬUMAʾNĪNAH"
+ },
+ {
+  "file": "5fbffa3e-ES_Voice_Benjamin20260819T025321Z_2.mp3",
+  "dur": 33.88,
+  "cov": 0.0,
+  "hits": 0,
+  "start": null,
+  "median": null,
+  "sec": null
+ },
+ {
+  "file": "537bc72f-ES_Voice_Benjamin20260819T030121Z_2.mp3",
+  "dur": 28.03,
+  "cov": 0.0,
+  "hits": 0,
+  "start": null,
+  "median": null,
+  "sec": null
+ },
+ {
+  "file": "da5d74cc-ES_Voice_Benjamin20260819T030440Z_2.mp3",
+  "dur": 72.2,
+  "cov": 0.0,
+  "hits": 0,
+  "start": null,
+  "median": null,
+  "sec": null
+ },
+ {
+  "file": "01b5e236-ES_Voice_Benjamin20260819T031030Z_2.mp3",
+  "dur": 102.03,
+  "cov": 0.0,
+  "hits": 0,
+  "start": null,
+  "median": null,
+  "sec": null
+ },
+ {
+  "file": "25363653-ES_Voice_Benjamin20260819T031205Z_2.mp3",
+  "dur": 72.2,
+  "cov": 0.0,
+  "hits": 0,
+  "start": null,
+  "median": null,
+  "sec": null
+ },
+ {
+  "file": "c26d087d-ES_Voice_Benjamin20260819T031545Z_2.mp3",
+  "dur": 73.17,
+  "cov": 0.0,
+  "hits": 0,
+  "start": null,
+  "median": null,
+  "sec": null
+ },
+ {
+  "file": "51ed9202-ES_Voice_Benjamin20260819T031852Z_2.mp3",
+  "dur": 41.64,
+  "cov": 0.0,
+  "hits": 0,
+  "start": null,
+  "median": null,
+  "sec": null
+ }
+]
