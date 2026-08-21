@@ -2,6 +2,7 @@ import React from 'react';
 import {Composition} from 'remotion';
 import {Card} from './Card';
 import {Plate} from './Plate';
+import {Thumb} from './Thumb';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -33,6 +34,21 @@ export const RemotionRoot: React.FC = () => {
 				gloss: 'And the thunder exalts Him with praise',
 				ref: 'AR-RAʿD 13',
 				bg: 'transparent',
+			}}
+		/>
+		<Composition
+			id="Thumb"
+			component={Thumb}
+			durationInFrames={1}
+			fps={1}
+			width={1920}
+			height={1080}
+			defaultProps={{
+				src: 'thumb/glass.jpg',
+				ar: 'طُمَأْنِينَة',
+				line1: 'IT DOES NOT',
+				line2: 'MEAN “PEACE”',
+				ref: 'AR-RAʿD 28',
 			}}
 		/>
 		</>
