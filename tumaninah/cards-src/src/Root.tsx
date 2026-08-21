@@ -1,9 +1,11 @@
 import React from 'react';
 import {Composition} from 'remotion';
 import {Card} from './Card';
+import {Plate} from './Plate';
 
 export const RemotionRoot: React.FC = () => {
 	return (
+		<>
 		<Composition
 			id="Card"
 			component={Card}
@@ -19,5 +21,20 @@ export const RemotionRoot: React.FC = () => {
 				bg: 'transparent',
 			}}
 		/>
+		<Composition
+			id="Plate"
+			component={Plate}
+			durationInFrames={180}
+			fps={30}
+			width={1920}
+			height={1080}
+			defaultProps={{
+				ar: 'وَيُسَبِّحُ الرَّعْدُ بِحَمْدِهِ',
+				gloss: 'And the thunder exalts Him with praise',
+				ref: 'AR-RAʿD 13',
+				bg: 'transparent',
+			}}
+		/>
+		</>
 	);
 };

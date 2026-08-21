@@ -49,8 +49,21 @@ for m in marks:
     fc.append('[%s][c%d]overlay=0:0:eof_action=pass:repeatlast=0[v%d]' % (prev, n, n))
     prev = 'v%d' % n
 
+# Ayah plates sit on the empty cartouche frames for the length of that shot.
+plates = json.load(open('tumaninah/cards-src/plates.json'))
+by_scene = {r['scene']: r for r in rows}
+for pl in plates:
+    f = 'tumaninah/overlays/plates/plate-scene-%s.webm' % pl['scene']
+    if not os.path.exists(f):
+        continue
+    n += 1
+    args += ['-itsoffset', str(by_scene[pl['scene']]['in_s']), '-c:v', 'libvpx-vp9', '-i', f]
+    fc.append('[%d:v]scale=%d:%d[c%d]' % (n, W, H, n))
+    fc.append('[%s][c%d]overlay=0:0:eof_action=pass:repeatlast=0[v%d]' % (prev, n, n))
+    prev = 'v%d' % n
+
 final = os.path.join(OUT, 'picture-lock.mp4')
 args += ['-filter_complex', ';'.join(fc), '-map', '[%s]' % prev,
          '-c:v', 'libx264', '-crf', '23', '-preset', 'veryfast', '-pix_fmt', 'yuv420p', final]
 subprocess.run(args, check=True)
-print('picture lock (%d cards) ->' % n, final)
+print('picture lock (%d overlays) ->' % n, final)
