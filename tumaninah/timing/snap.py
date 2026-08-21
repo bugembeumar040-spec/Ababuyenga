@@ -34,7 +34,10 @@ for c in cards:
         sc = sum(1 for t in want if t in win) / max(len(want), 1)
         if sc > best:
             best, bp = sc, p
-    c['line_at'] = T[bp] if bp is not None and best >= 0.3 else None
+    # Where the card exists to show an Arabic phrase, the phrase being recited is
+    # the anchor — the English copy around it can run seconds early or late.
+    c['line_at'] = c['anchor_s'] if 'anchor_s' in c else (
+        T[bp] if bp is not None and best >= 0.3 else None)
     c['score'] = round(best, 2)
 
 # Cards whose line could not be located keep their spacing between neighbours.

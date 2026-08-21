@@ -7,6 +7,7 @@ export type PlateProps = {ar: string; gloss: string; ref: string; bg: string};
 const INDIGO = '#2E3A56';
 const OCHRE = '#C89A4A';
 const SLATE = '#6B7280';
+const SIENNA = '#A65A3A';
 
 // The frames these sit on are empty illuminated cartouches — the pack left the
 // interior blank so the āyah could be set here rather than generated into the
@@ -75,7 +76,9 @@ export const Plate: React.FC<PlateProps> = ({ar, gloss, ref, bg}) => {
 							fontFamily: 'Inter',
 							fontWeight: 400,
 							fontSize: 38,
-							color: SLATE,
+							// These sit on banners as well as cream cartouches, and slate on a
+							// warm banner is too close in value to read. Indigo holds on both.
+							color: INDIGO,
 							maxWidth: 1300,
 							textAlign: 'center',
 						}}
@@ -89,7 +92,7 @@ export const Plate: React.FC<PlateProps> = ({ar, gloss, ref, bg}) => {
 							fontWeight: 700,
 							fontSize: 21,
 							letterSpacing: 3,
-							color: OCHRE,
+							color: SIENNA,
 						}}
 					>
 						{ref}
