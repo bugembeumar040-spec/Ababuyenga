@@ -76,6 +76,12 @@ gaps = [kept[i+1]['t_s'] - kept[i]['t_s'] for i in range(len(kept)-1)]
 print('\ncadence min %.0fs median %.0fs max %.0fs' % (min(gaps), sorted(gaps)[len(gaps)//2], max(gaps)))
 
 if '--write' in sys.argv:
+    kept.sort(key=lambda c: c['t_s'])
+    shots = json.load(open('tumaninah/timing/placed.json'))
+    for i, c in enumerate(kept, 1):
+        c['n'] = '%02d' % i
+        under = [r for r in shots if r['in_s'] <= c['t_s'] < r['out_s']]
+        c['scene'] = under[0]['scene'] if under else ''
     json.dump(kept, open('tumaninah/cards-src/cards.json', 'w'), ensure_ascii=False, indent=0)
     json.dump(dropped, open('tumaninah/timing/cards_dropped.json', 'w'), ensure_ascii=False, indent=1)
     print('written')

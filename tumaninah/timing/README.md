@@ -63,8 +63,15 @@ title card, for instance, ran 0.0-6.0 while "Ar-Raʿd" is spoken at 7.00.
 Thirty of thirty-one cards now contain their phrase end to end. A card whose
 headline has no literal counterpart in the speech takes an explicit `anchor_s`.
 
-Run it, then `fit.py`, which only ever shortens a card — against a plate, never
-against a picture cut.
+Run it, then `fit.py`, which resolves cards against plates, renumbers in time
+order and refreshes each card's frame. It only ever shortens a card — against a
+plate, never against a picture cut.
+
+`audit.py` checks the finished cut end to end: every card contains its phrase,
+matched confidently, finishes inside the runtime, is long enough to read, never
+shares the screen with a plate, is numbered in order, is rendered at the length
+it specifies, and leaves no stale files behind. It replaced two earlier audits
+that had drifted onto fields nothing writes any more.
 
 ## Sound
 

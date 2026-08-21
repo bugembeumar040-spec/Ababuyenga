@@ -18,7 +18,7 @@
 {
 "n": "02",
 "t": "0:34",
-"scene": "05",
+"scene": "06",
 "ch": "1 · NAMED AFTER THUNDER",
 "ar": "",
 "head": "THAT IS THE ROOM",
@@ -31,9 +31,9 @@
 "match": 1.0
 },
 {
-"n": "04",
+"n": "03",
 "t": "1:40",
-"scene": "09",
+"scene": "10B",
 "ch": "2 · ṬUMAʾNĪNAH",
 "ar": "مُطْمَئِنّ مِنَ الأَرْض",
 "head": "GROUND THAT HAS SETTLED",
@@ -46,7 +46,7 @@
 "match": 1.0
 },
 {
-"n": "05",
+"n": "04",
 "t": "2:00",
 "scene": "11",
 "ch": "2 · ṬUMAʾNĪNAH",
@@ -61,7 +61,7 @@
 "match": 1.0
 },
 {
-"n": "07",
+"n": "05",
 "t": "3:03",
 "scene": "20B",
 "ch": "2 · ṬUMAʾNĪNAH",
@@ -77,9 +77,9 @@
 "match": 1.0
 },
 {
-"n": "08",
+"n": "06",
 "t": "3:25",
-"scene": "14",
+"scene": "13B",
 "ch": "3 · WHAT WE ARE WALKING TOWARD",
 "ar": "",
 "head": "WHERE WE ARE GOING",
@@ -93,9 +93,23 @@
 "match": 1.0
 },
 {
-"n": "10",
+"n": "07",
+"t": "3:52",
+"scene": "15",
+"ch": "3 · WHAT WE ARE WALKING TOWARD",
+"ar": "",
+"head": "IT TURNS THE ĀYAH INSIDE OUT",
+"sub": "A place near the end of the Qurʾān where the same root comes back",
+"t_s": 232.73,
+"dur_s": 5.4,
+"phrase_s": 233.43,
+"phrase_e": 235.93,
+"match": 1.0
+},
+{
+"n": "08",
 "t": "4:41",
-"scene": "24",
+"scene": "25",
 "ch": "4 · THE SENTENCE NOBODY QUOTES",
 "ar": "مَنْ أَنَابَ",
 "head": "WHOEVER TURNS BACK",
@@ -108,7 +122,7 @@
 "match": 1.0
 },
 {
-"n": "11",
+"n": "09",
 "t": "4:59",
 "scene": "25B",
 "ch": "4 · THE SENTENCE NOBODY QUOTES",
@@ -124,7 +138,7 @@
 "match": 1.0
 },
 {
-"n": "12",
+"n": "10",
 "t": "5:29",
 "scene": "28",
 "ch": "4 · THE SENTENCE NOBODY QUOTES",
@@ -140,24 +154,9 @@
 "match": 1.0
 },
 {
-"n": "13",
-"t": "5:52",
-"scene": "38",
-"ch": "5 · THE ROOT ACROSS THE QURʾĀN",
-"ar": "",
-"head": "SETTLED ON THE WRONG THING",
-"sub": "Yūnus 7 — the same word, said of people heading for the fire",
-"t_s": 352.33,
-"line_at": 346.88,
-"dur_s": 3.76,
-"phrase_s": 353.03,
-"phrase_e": 357.05,
-"match": 0.62
-},
-{
-"n": "14",
+"n": "11",
 "t": "6:14",
-"scene": "39B",
+"scene": "39",
 "ch": "5 · THE ROOT ACROSS THE QURʾĀN",
 "ar": "",
 "head": "MORALLY NEUTRAL",
@@ -170,9 +169,37 @@
 "match": 1.0
 },
 {
-"n": "15",
+"n": "12",
+"t": "6:26",
+"scene": "39",
+"ch": "5 · THE ROOT ACROSS THE QURʾĀN",
+"ar": "",
+"head": "NOT A PROMISE THAT YOU WILL FEEL CALM",
+"sub": "It says where the settling is available — in the same breath as a warning",
+"t_s": 386.93,
+"dur_s": 4.5,
+"phrase_s": 387.63,
+"phrase_e": 388.89,
+"match": 1.0
+},
+{
+"n": "13",
+"t": "6:45",
+"scene": "40",
+"ch": "5 · THE ROOT ACROSS THE QURʾĀN",
+"ar": "",
+"head": "A REAL DISAGREEMENT",
+"sub": "Worth hearing rather than having it smoothed over",
+"t_s": 405.27,
+"dur_s": 4.5,
+"phrase_s": 405.97,
+"phrase_e": 406.23,
+"match": 1.0
+},
+{
+"n": "14",
 "t": "7:18",
-"scene": "41",
+"scene": "42",
 "ch": "5 · THE ROOT ACROSS THE QURʾĀN",
 "ar": "",
 "head": "BOTH READINGS LAND HERE",
@@ -185,9 +212,9 @@
 "match": 0.75
 },
 {
-"n": "16",
+"n": "15",
 "t": "7:42",
-"scene": "42",
+"scene": "43",
 "ch": "5 · THE ROOT ACROSS THE QURʾĀN",
 "ar": "بِذِكْرِ اللَّهِ",
 "head": "THE MECHANISM, NOT THE MOOD",
@@ -200,7 +227,7 @@
 "match": 1.0
 },
 {
-"n": "19",
+"n": "16",
 "t": "8:53",
 "scene": "47B",
 "ch": "7 · IT IS SENT DOWN",
@@ -216,7 +243,7 @@
 "match": 1.0
 },
 {
-"n": "20",
+"n": "17",
 "t": "9:23",
 "scene": "50",
 "ch": "7 · IT IS SENT DOWN",
@@ -232,7 +259,7 @@
 "match": 1.0
 },
 {
-"n": "21",
+"n": "18",
 "t": "9:57",
 "scene": "62",
 "ch": "10 · SETTLED IS NOT NUMB",
@@ -247,7 +274,7 @@
 "match": 1.0
 },
 {
-"n": "23",
+"n": "19",
 "t": "11:04",
 "scene": "66",
 "ch": "10 · SETTLED IS NOT NUMB",
@@ -262,9 +289,9 @@
 "match": 1.0
 },
 {
-"n": "24",
+"n": "20",
 "t": "11:31",
-"scene": "66",
+"scene": "67",
 "ch": "10 · SETTLED IS NOT NUMB",
 "ar": "",
 "head": "SETTLING IS NOT STOPPING",
@@ -277,7 +304,7 @@
 "match": 1.0
 },
 {
-"n": "25",
+"n": "21",
 "t": "12:07",
 "scene": "70",
 "ch": "11 · THE SILT",
@@ -292,9 +319,9 @@
 "match": 1.0
 },
 {
-"n": "26",
+"n": "22",
 "t": "12:31",
-"scene": "72B",
+"scene": "72",
 "ch": "11 · THE SILT",
 "ar": "",
 "head": "THE SILT DOES NOT LEAVE",
@@ -307,7 +334,7 @@
 "match": 1.0
 },
 {
-"n": "27",
+"n": "23",
 "t": "12:50",
 "scene": "72B",
 "ch": "11 · THE SILT",
@@ -322,7 +349,21 @@
 "match": 1.0
 },
 {
-"n": "28",
+"n": "24",
+"t": "13:08",
+"scene": "73",
+"ch": "11 · THE SILT",
+"ar": "",
+"head": "YOU CAN SEE THROUGH THE WATER AGAIN",
+"sub": "Your grief is not removed from the glass — that was never the offer",
+"t_s": 788.86,
+"dur_s": 4.5,
+"phrase_s": 789.56,
+"phrase_e": 790.86,
+"match": 1.0
+},
+{
+"n": "25",
 "t": "13:36",
 "scene": "76",
 "ch": "12 · THE CAVE",
@@ -338,7 +379,7 @@
 "match": 1.0
 },
 {
-"n": "29",
+"n": "26",
 "t": "13:48",
 "scene": "79",
 "ch": "12 · THE CAVE",
@@ -354,9 +395,23 @@
 "match": 1.0
 },
 {
-"n": "30",
-"t": "14:36",
+"n": "27",
+"t": "14:14",
 "scene": "79",
+"ch": "12 · THE CAVE",
+"ar": "",
+"head": "SENT DOWN INTO THE SITUATION",
+"sub": "Not applied to it from outside — the settling arrived before the rescue",
+"t_s": 854.45,
+"dur_s": 5.12,
+"phrase_s": 855.15,
+"phrase_e": 857.37,
+"match": 1.0
+},
+{
+"n": "28",
+"t": "14:36",
+"scene": "82",
 "ch": "13 · ON A TUESDAY",
 "ar": "",
 "head": "ON AN ORDINARY BAD DAY",
@@ -369,9 +424,9 @@
 "match": 1.0
 },
 {
-"n": "31",
+"n": "29",
 "t": "15:12",
-"scene": "83",
+"scene": "84",
 "ch": "13 · ON A TUESDAY",
 "ar": "",
 "head": "SAY SOMETHING",
@@ -384,9 +439,9 @@
 "match": 1.0
 },
 {
-"n": "32",
+"n": "30",
 "t": "15:38",
-"scene": "85",
+"scene": "86",
 "ch": "13 · ON A TUESDAY",
 "ar": "سُجُود",
 "head": "ṬUMAʾNĪNAH IN SUJŪD",
@@ -399,7 +454,7 @@
 "match": 1.0
 },
 {
-"n": "33",
+"n": "31",
 "t": "15:57",
 "scene": "88",
 "ch": "13 · ON A TUESDAY",
@@ -414,7 +469,7 @@
 "match": 1.0
 },
 {
-"n": "34",
+"n": "32",
 "t": "16:08",
 "scene": "88",
 "ch": "13 · ON A TUESDAY",
@@ -430,22 +485,36 @@
 "match": 1.0
 },
 {
-"n": "35",
+"n": "33",
+"t": "16:27",
+"scene": "88",
+"ch": "13 · ON A TUESDAY",
+"ar": "",
+"head": "USED AGAINST THEM",
+"sub": "An āyah used to shorten somebody's grief — that is not what it says",
+"t_s": 987.57,
+"dur_s": 6.72,
+"phrase_s": 988.27,
+"phrase_e": 992.09,
+"match": 1.0
+},
+{
+"n": "34",
 "t": "16:54",
 "scene": "91",
 "ch": "14 · CLOSE",
 "ar": "",
-"head": "LET IT BE ITS ACTUAL SIZE",
+"head": "LET IT BE THE SIZE IT ACTUALLY IS",
 "sub": "A description of how a heart is built, not a promise that you will feel peaceful",
 "t_s": 1014.49,
 "line_at": 1015.93,
 "dur_s": 4.28,
 "phrase_s": 1015.19,
-"phrase_e": 1015.93,
-"match": 0.67
+"phrase_e": 1016.77,
+"match": 1.0
 },
 {
-"n": "36",
+"n": "35",
 "t": "17:40",
 "scene": "93B",
 "ch": "14 · CLOSE",
@@ -461,16 +530,16 @@
 "match": 1.0
 },
 {
-"n": "37",
+"n": "36",
 "t": "18:03",
-"scene": "93B",
+"scene": "95",
 "ch": "SŪRAH AR-RAʿD · ṬUMAʾNĪNAH",
 "ar": "",
 "head": "MAY ALLAH MAKE YOURS ONE OF THE SETTLED ONES",
 "sub": "Thank you for spending this time in Sūrah Ar-Raʿd",
 "t_s": 1083.11,
 "line_at": 1077.43,
-"dur_s": 5.64,
+"dur_s": 4.15,
 "phrase_s": 1083.81,
 "phrase_e": 1086.55,
 "match": 1.0

@@ -107,6 +107,7 @@ for c in cards:
     c['match'] = round(sc, 2)
     t = max(0.0, t0 - LEAD)
     dur = min(MAX_DUR, max(MIN_DUR, (t1 - t) + HOLD))
+    dur = min(dur, TOTAL - t)      # never run past the end of the cut
     c['t_s'] = round(t, 2)
     c['t'] = '%d:%02d' % (int(t) // 60, int(t) % 60)
     c['dur_s'] = round(dur, 2)
