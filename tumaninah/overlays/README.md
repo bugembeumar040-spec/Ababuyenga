@@ -1,6 +1,7 @@
 # Overlay cards — Ṭumaʾnīnah (Ar-Raʿd 28)
 
-37 motion-graphics cards across the 18:07 cut, plus 10 āyah plates. Rendered
+32 motion-graphics cards across the 18:07 cut, plus 10 āyah plates — 42 overlays,
+never two at once. Rendered
 with Remotion from `../cards-src`.
 
 Cards sit at roughly 30-second intervals but are anchored to the line each one
@@ -24,6 +25,15 @@ carried by card 36 in the close rather than by a section of its own.
 | `mp4/` | H.264, 1920×1080, 30fps, white ground | for editors that will not take alpha WebM — set the clip to **Multiply** |
 | `still/` | PNG, frame 90 over white | quick review / contact sheet, not for the cut |
 | `plates/` | VP9 alpha + PNG | āyah plates for the empty cartouche frames |
+
+## Fitting
+
+`../timing/fit.py` resolves cards against plates. A card carrying across a picture
+cut is ordinary editing and is left alone; a card competing with a full-frame
+āyah is not. Five cards were dropped where the plate states the same beat, and
+cards whose line lands within 1.5s of a plate's end are held back to start as the
+plate clears — their line then arrives a moment before the card, which is the
+trade. `../timing/cards_dropped.json` records what went and why.
 
 ## Plates
 

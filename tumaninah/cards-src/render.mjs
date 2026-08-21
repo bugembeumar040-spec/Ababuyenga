@@ -63,6 +63,11 @@ for (const c of list) {
 		inputProps: props,
 		browserExecutable: CHROME,
 	});
+	// Cards are trimmed where a plate is about to take the frame, so the length
+	// comes from the fit pass rather than being fixed at six seconds.
+	if (c.dur_s) {
+		comp.durationInFrames = Math.round(c.dur_s * 30);
+	}
 	await renderFrames({
 		serveUrl,
 		composition: comp,

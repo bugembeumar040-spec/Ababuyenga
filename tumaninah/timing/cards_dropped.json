@@ -1,0 +1,62 @@
+[
+ {
+  "n": "03",
+  "t": "1:04",
+  "scene": "06",
+  "ch": "2 · ṬUMAʾNĪNAH",
+  "ar": "",
+  "head": "ṬUMAʾNĪNAH",
+  "sub": "ṭāʾ · mīm · hamza · nūn — the word the English cannot carry",
+  "t_s": 64.73,
+  "line_at": 65.73,
+  "drop": "plate on scene 08 states this beat full frame"
+ },
+ {
+  "n": "06",
+  "t": "2:28",
+  "scene": "18",
+  "ch": "2 · ṬUMAʾNĪNAH",
+  "ar": "حَتَّىٰ تَطْمَئِنَّ رَاكِعًا",
+  "head": "UNTIL YOU ARE SETTLED",
+  "sub": "Bukhārī & Muslim — bow, rise, prostrate, each one until settled",
+  "t_s": 148.73,
+  "line_at": 149.73,
+  "drop": "only 2.3s before the next plate takes the frame"
+ },
+ {
+  "n": "17",
+  "t": "7:48",
+  "scene": "44",
+  "ch": "7 · IT IS SENT DOWN",
+  "ar": "السَّكِينَة",
+  "head": "SAKĪNAH",
+  "sub": "sīn · kāf · nūn — a different root, and a different verb attached",
+  "t_s": 468.5,
+  "line_at": 469.5,
+  "drop": "only 1.5s before the next plate takes the frame"
+ },
+ {
+  "n": "18",
+  "t": "8:13",
+  "scene": "46",
+  "ch": "7 · IT IS SENT DOWN",
+  "ar": "",
+  "head": "IT IS SENT DOWN",
+  "sub": "Al-Fatḥ 4 — the verb used for rain, and for revelation",
+  "t_s": 493.52,
+  "line_at": 494.52,
+  "drop": "plate on scene 45 states this beat full frame"
+ },
+ {
+  "n": "22",
+  "t": "10:20",
+  "scene": "64",
+  "ch": "10 · SETTLED IS NOT NUMB",
+  "ar": "",
+  "head": "TAKEN TO THE RIGHT ADDRESS",
+  "sub": "Yūsuf 86 — grief to the right address is not a failure of settling",
+  "t_s": 620.07,
+  "line_at": 621.07,
+  "drop": "plate on scene 64 states this beat full frame"
+ }
+]

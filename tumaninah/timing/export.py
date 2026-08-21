@@ -35,7 +35,7 @@ with open('tumaninah/timing/cards.csv', 'w', newline='') as f:
     w = csv.writer(f)
     w.writerow(['card', 'in', 'in_s', 'section', 'frame_under', 'scene', 'head', 'arabic', 'sub'])
     for c in cards:
-        t = secs(c['t'])
+        t = c.get('t_s', secs(c['t']))
         u = [r for r in rows if r['in_s'] <= t < r['out_s']]
         w.writerow([c['n'], c['t'], t, c['ch'], u[0]['file'] if u else '', c['scene'],
                     c['head'], c['ar'], c['sub']])

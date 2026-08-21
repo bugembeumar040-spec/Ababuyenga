@@ -75,7 +75,8 @@ print('\nmoved >3s: %d of %d | cadence min %.0fs median %.0fs max %.0fs'
 
 if '--write' in sys.argv:
     for c in cards:
-        for k in ('mark', 'line_at', 'score'):
+        c['line_at'] = round(c['line_at'], 2)
+        for k in ('mark', 'score'):
             c.pop(k, None)
     json.dump(cards, open('tumaninah/cards-src/cards.json', 'w'), ensure_ascii=False, indent=0)
     print('written')

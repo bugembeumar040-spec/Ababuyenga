@@ -7,7 +7,9 @@
 "ar": "الرَّعْد",
 "head": "AR-RAʿD · THE THUNDER",
 "sub": "Sūrah 13 — named after the loudest thing in the sky",
-"t_s": 0.0
+"t_s": 0.0,
+"line_at": 0.0,
+"dur_s": 6.0
 },
 {
 "n": "02",
@@ -17,17 +19,9 @@
 "ar": "",
 "head": "THAT IS THE ROOM",
 "sub": "Weather, voltage, noise — a sky nobody on the ground controls",
-"t_s": 32.04
-},
-{
-"n": "03",
-"t": "1:04",
-"scene": "06",
-"ch": "2 · ṬUMAʾNĪNAH",
-"ar": "",
-"head": "ṬUMAʾNĪNAH",
-"sub": "ṭāʾ · mīm · hamza · nūn — the word the English cannot carry",
-"t_s": 64.73
+"t_s": 32.04,
+"line_at": 32.04,
+"dur_s": 6.0
 },
 {
 "n": "04",
@@ -37,7 +31,9 @@
 "ar": "مُطْمَئِنّ مِنَ الأَرْض",
 "head": "GROUND THAT HAS SETTLED",
 "sub": "Land that lies low and level — ground that has finished moving",
-"t_s": 96.94
+"t_s": 96.94,
+"line_at": 97.94,
+"dur_s": 6.0
 },
 {
 "n": "05",
@@ -47,27 +43,21 @@
 "ar": "",
 "head": "SEDIMENT GOING DOWN",
 "sub": "Something disturbed coming to rest — not something never disturbed",
-"t_s": 112.22
-},
-{
-"n": "06",
-"t": "2:28",
-"scene": "18",
-"ch": "2 · ṬUMAʾNĪNAH",
-"ar": "حَتَّىٰ تَطْمَئِنَّ رَاكِعًا",
-"head": "UNTIL YOU ARE SETTLED",
-"sub": "Bukhārī & Muslim — bow, rise, prostrate, each one until settled",
-"t_s": 148.73
+"t_s": 112.22,
+"line_at": 113.22,
+"dur_s": 6.0
 },
 {
 "n": "07",
-"t": "2:50",
+"t": "2:52",
 "scene": "20B",
 "ch": "2 · ṬUMAʾNĪNAH",
 "ar": "سُجُود",
 "head": "WHAT THE SPINE DOES",
 "sub": "Not a feeling — the half-second where every joint stops moving",
-"t_s": 170.15
+"t_s": 172.15,
+"line_at": 171.15,
+"dur_s": 6.0
 },
 {
 "n": "08",
@@ -77,7 +67,9 @@
 "ar": "",
 "head": "WHERE WE ARE GOING",
 "sub": "Where the āyah sits · who it describes · what dhikr means · the name at the end",
-"t_s": 200.49
+"t_s": 200.49,
+"line_at": 201.49,
+"dur_s": 6.0
 },
 {
 "n": "09",
@@ -87,7 +79,9 @@
 "ar": "لَوْلَا أُنزِلَ عَلَيْهِ آيَةٌ مِّن رَّبِّهِ",
 "head": "WHY HAS NO SIGN BEEN SENT DOWN?",
 "sub": "Ar-Raʿd 27 — the taunt the famous āyah is answering",
-"t_s": 240.27
+"t_s": 240.27,
+"line_at": 241.27,
+"dur_s": 6.0
 },
 {
 "n": "10",
@@ -97,7 +91,9 @@
 "ar": "مَنْ أَنَابَ",
 "head": "WHOEVER TURNS BACK",
 "sub": "The sentence does not begin at āyah 28",
-"t_s": 285.39
+"t_s": 285.39,
+"line_at": 286.39,
+"dur_s": 6.0
 },
 {
 "n": "11",
@@ -107,7 +103,9 @@
 "ar": "",
 "head": "NOT A STANDALONE PROMISE",
 "sub": "The back half of a description — answering a taunt about signs",
-"t_s": 308.64
+"t_s": 308.64,
+"line_at": 309.64,
+"dur_s": 6.0
 },
 {
 "n": "12",
@@ -117,7 +115,9 @@
 "ar": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
 "head": "HEARTS SETTLE",
 "sub": "Ar-Raʿd 28 — not: hearts will feel nice",
-"t_s": 324.72
+"t_s": 324.72,
+"line_at": 325.72,
+"dur_s": 6.0
 },
 {
 "n": "13",
@@ -127,17 +127,21 @@
 "ar": "وَاطْمَأَنُّوا بِهَا",
 "head": "SETTLED ON THE WRONG THING",
 "sub": "Yūnus 7 — the same word, said of people heading for the fire",
-"t_s": 345.88
+"t_s": 345.88,
+"line_at": 346.88,
+"dur_s": 6.0
 },
 {
 "n": "14",
-"t": "6:10",
+"t": "6:11",
 "scene": "39B",
 "ch": "5 · THE ROOT ACROSS THE QURʾĀN",
 "ar": "",
 "head": "MORALLY NEUTRAL",
 "sub": "A heart coming to rest — the whole question is what it rests on",
-"t_s": 370.55
+"t_s": 371.73,
+"line_at": 371.55,
+"dur_s": 6.0
 },
 {
 "n": "15",
@@ -147,7 +151,9 @@
 "ar": "",
 "head": "BOTH READINGS LAND HERE",
 "sub": "On either reading, the settling is attached to something",
-"t_s": 436.15
+"t_s": 436.15,
+"line_at": 437.15,
+"dur_s": 6.0
 },
 {
 "n": "16",
@@ -157,27 +163,9 @@
 "ar": "بِذِكْرِ اللَّهِ",
 "head": "THE MECHANISM, NOT THE MOOD",
 "sub": "Take the second half away and you keep the mood, lose the mechanism",
-"t_s": 457.41
-},
-{
-"n": "17",
-"t": "7:48",
-"scene": "44",
-"ch": "7 · IT IS SENT DOWN",
-"ar": "السَّكِينَة",
-"head": "SAKĪNAH",
-"sub": "sīn · kāf · nūn — a different root, and a different verb attached",
-"t_s": 468.5
-},
-{
-"n": "18",
-"t": "8:13",
-"scene": "46",
-"ch": "7 · IT IS SENT DOWN",
-"ar": "",
-"head": "IT IS SENT DOWN",
-"sub": "Al-Fatḥ 4 — the verb used for rain, and for revelation",
-"t_s": 493.52
+"t_s": 457.41,
+"line_at": 457.71,
+"dur_s": 6.0
 },
 {
 "n": "19",
@@ -187,7 +175,9 @@
 "ar": "ذِكْر",
 "head": "DHIKR HAS A TONGUE IN IT",
 "sub": "dhāl · kāf · rāʾ — mentioning, not only remembering",
-"t_s": 533.87
+"t_s": 533.87,
+"line_at": 534.87,
+"dur_s": 6.0
 },
 {
 "n": "20",
@@ -197,7 +187,9 @@
 "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ",
 "head": "AL-DHIKR",
 "sub": "Al-Ḥijr 9 — hearts settle by the thing you can open and read",
-"t_s": 574.22
+"t_s": 574.22,
+"line_at": 575.22,
+"dur_s": 6.0
 },
 {
 "n": "21",
@@ -207,17 +199,9 @@
 "ar": "",
 "head": "SETTLED IS NOT NUMB",
 "sub": "Ṭumaʾnīnah is not forced numbness, and the Qurʾān proves it",
-"t_s": 594.77
-},
-{
-"n": "22",
-"t": "10:20",
-"scene": "64",
-"ch": "10 · SETTLED IS NOT NUMB",
-"ar": "",
-"head": "TAKEN TO THE RIGHT ADDRESS",
-"sub": "Yūsuf 86 — grief to the right address is not a failure of settling",
-"t_s": 620.07
+"t_s": 594.77,
+"line_at": 594.87,
+"dur_s": 6.0
 },
 {
 "n": "23",
@@ -227,7 +211,9 @@
 "ar": "رَبَطْنَا عَلَىٰ قَلْبِهَا",
 "head": "BOUND, NOT FROZEN",
 "sub": "Al-Qaṣaṣ 10 — Mūsā's mother still felt every bit of it",
-"t_s": 654.59
+"t_s": 654.59,
+"line_at": 655.59,
+"dur_s": 6.0
 },
 {
 "n": "24",
@@ -237,7 +223,9 @@
 "ar": "",
 "head": "SETTLING IS NOT STOPPING",
 "sub": "It is what lets you move on purpose instead of being moved",
-"t_s": 689.37
+"t_s": 689.37,
+"line_at": 690.37,
+"dur_s": 6.0
 },
 {
 "n": "25",
@@ -247,7 +235,9 @@
 "ar": "",
 "head": "REACHING INTO THE GLASS",
 "sub": "Every intervention you can make is another disturbance",
-"t_s": 722.2
+"t_s": 722.2,
+"line_at": 723.2,
+"dur_s": 6.0
 },
 {
 "n": "26",
@@ -257,7 +247,9 @@
 "ar": "",
 "head": "THE SILT DOES NOT LEAVE",
 "sub": "Nothing has been removed and nothing has been fixed — it settled",
-"t_s": 751.36
+"t_s": 751.36,
+"line_at": 752.36,
+"dur_s": 6.0
 },
 {
 "n": "27",
@@ -267,7 +259,9 @@
 "ar": "طُمَأْنِينَة",
 "head": "YOU CAN SEE THROUGH THE WATER",
 "sub": "Not the absence of the heavy thing — the heavy thing at rest",
-"t_s": 769.76
+"t_s": 769.76,
+"line_at": 770.76,
+"dur_s": 6.0
 },
 {
 "n": "28",
@@ -277,7 +271,9 @@
 "ar": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
 "head": "DO NOT GRIEVE",
 "sub": "At-Tawbah 40 — Mount Thawr, pursuers at the entrance",
-"t_s": 791.5
+"t_s": 791.5,
+"line_at": 792.5,
+"dur_s": 6.0
 },
 {
 "n": "29",
@@ -287,7 +283,9 @@
 "ar": "فَأَنزَلَ اللَّهُ سَكِينَتَهُ عَلَيْهِ",
 "head": "THE SETTLING CAME FIRST",
 "sub": "Nothing outside the cave improved. It arrived before the rescue did",
-"t_s": 839.83
+"t_s": 839.83,
+"line_at": 840.83,
+"dur_s": 6.0
 },
 {
 "n": "30",
@@ -297,7 +295,9 @@
 "ar": "",
 "head": "ON AN ORDINARY BAD DAY",
 "sub": "What this actually looks like when you are in it",
-"t_s": 867.63
+"t_s": 867.63,
+"line_at": 868.63,
+"dur_s": 6.0
 },
 {
 "n": "31",
@@ -307,7 +307,9 @@
 "ar": "",
 "head": "SAY SOMETHING",
 "sub": "Not: think about Allah harder. Out loud, under your breath, whatever you can manage",
-"t_s": 907.09
+"t_s": 907.09,
+"line_at": 908.09,
+"dur_s": 6.0
 },
 {
 "n": "32",
@@ -317,7 +319,9 @@
 "ar": "سُجُود",
 "head": "ṬUMAʾNĪNAH IN SUJŪD",
 "sub": "The one moment in twenty-four hours you are required to stop moving",
-"t_s": 943.15
+"t_s": 943.15,
+"line_at": 943.15,
+"dur_s": 6.0
 },
 {
 "n": "33",
@@ -327,7 +331,9 @@
 "ar": "",
 "head": "TOLD TO STOP RUSHING",
 "sub": "Not told to feel more — and it was not prayer until he did",
-"t_s": 956.79
+"t_s": 956.79,
+"line_at": 957.79,
+"dur_s": 6.0
 },
 {
 "n": "34",
@@ -337,7 +343,9 @@
 "ar": "",
 "head": "NOT A STOP SIGN",
 "sub": "Sit with them. Say less than you want to say",
-"t_s": 985.43
+"t_s": 985.43,
+"line_at": 986.43,
+"dur_s": 6.0
 },
 {
 "n": "35",
@@ -347,7 +355,9 @@
 "ar": "",
 "head": "LET IT BE ITS ACTUAL SIZE",
 "sub": "A description of how a heart is built, not a promise that you will feel peaceful",
-"t_s": 1014.93
+"t_s": 1014.93,
+"line_at": 1015.93,
+"dur_s": 3.84
 },
 {
 "n": "36",
@@ -357,7 +367,9 @@
 "ar": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ",
 "head": "IT IS WHAT HE CALLS YOU",
 "sub": "Al-Fajr 27 — not something your heart is doing any more",
-"t_s": 1047.67
+"t_s": 1047.67,
+"line_at": 1048.67,
+"dur_s": 6.0
 },
 {
 "n": "37",
@@ -367,6 +379,8 @@
 "ar": "",
 "head": "MAY ALLAH MAKE YOURS ONE OF THE SETTLED ONES",
 "sub": "Thank you for spending this time in Sūrah Ar-Raʿd",
-"t_s": 1076.43
+"t_s": 1076.43,
+"line_at": 1077.43,
+"dur_s": 6.0
 }
 ]

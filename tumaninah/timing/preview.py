@@ -34,6 +34,7 @@ if '--picture-only' in sys.argv:
 # Cards on top. They never overlap, so one chained overlay per card is enough;
 # itsoffset puts each on the timeline without keying its enable window by hand.
 marks = list(csv.DictReader(open('tumaninah/timing/cards.csv')))
+# cards.csv carries the fitted in-point; the webm carries its own trimmed length.
 webm = {f.split('_')[0].split('-')[1]: f for f in os.listdir('tumaninah/overlays/webm')}
 args = [FFMPEG, '-y', '-loglevel', 'error', '-i', base]
 fc, prev = [], '0:v'

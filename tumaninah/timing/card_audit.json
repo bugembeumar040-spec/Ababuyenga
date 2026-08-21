@@ -1,0 +1,335 @@
+[
+ {
+  "n": "01",
+  "t": 0,
+  "hit": 0.36,
+  "head": "AR-RAʿD · THE THUNDER",
+  "scene_planned": "01",
+  "scene_actual": "01",
+  "file": "001_scene-01_a-vast-bank-of-storm.jpg"
+ },
+ {
+  "n": "02",
+  "t": 32,
+  "hit": 0.5,
+  "head": "THAT IS THE ROOM",
+  "scene_planned": "05",
+  "scene_actual": "05",
+  "file": "005_scene-05_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "n": "03",
+  "t": 64,
+  "hit": 0.3,
+  "head": "ṬUMAʾNĪNAH",
+  "scene_planned": "06",
+  "scene_actual": "08",
+  "file": "008_scene-08_a-long-horizontal-empty-illuminated.jpg"
+ },
+ {
+  "n": "04",
+  "t": 96,
+  "hit": 0.55,
+  "head": "GROUND THAT HAS SETTLED",
+  "scene_planned": "09",
+  "scene_actual": "10",
+  "file": "010_scene-10_a-wide-shallow-salt-flat.jpg"
+ },
+ {
+  "n": "05",
+  "t": 112,
+  "hit": 0.6,
+  "head": "SEDIMENT GOING DOWN",
+  "scene_planned": "11",
+  "scene_actual": "11",
+  "file": "012_scene-11_a-plain-glass-of-cloudy.jpg"
+ },
+ {
+  "n": "06",
+  "t": 148,
+  "hit": 0.27,
+  "head": "UNTIL YOU ARE SETTLED",
+  "scene_planned": "18",
+  "scene_actual": "18",
+  "file": "021_scene-18_a-bare-limestone-doorway-in.jpg"
+ },
+ {
+  "n": "07",
+  "t": 170,
+  "hit": 0.09,
+  "head": "WHAT THE SPINE DOES",
+  "scene_planned": "20B",
+  "scene_actual": "19",
+  "file": "022_scene-19_a-long-horizontal-empty-illuminated.jpg"
+ },
+ {
+  "n": "08",
+  "t": 200,
+  "hit": 0.21,
+  "head": "WHERE WE ARE GOING",
+  "scene_planned": "14",
+  "scene_actual": "13",
+  "file": "014_scene-13_an-open-hand-bound-manuscript.jpg"
+ },
+ {
+  "n": "09",
+  "t": 240,
+  "hit": 0.14,
+  "head": "WHY HAS NO SIGN BEEN SENT DOWN?",
+  "scene_planned": "15",
+  "scene_actual": "15",
+  "file": "017_scene-15_a-single-sealed-envelope-of.jpg"
+ },
+ {
+  "n": "10",
+  "t": 285,
+  "hit": 0.33,
+  "head": "WHOEVER TURNS BACK",
+  "scene_planned": "24",
+  "scene_actual": "25",
+  "file": "029_scene-25_an-open-hand-bound-manuscript.jpg"
+ },
+ {
+  "n": "11",
+  "t": 308,
+  "hit": 0.33,
+  "head": "NOT A STANDALONE PROMISE",
+  "scene_planned": "25B",
+  "scene_actual": "26",
+  "file": "031_scene-26_a-length-of-cream-paper.jpg"
+ },
+ {
+  "n": "12",
+  "t": 324,
+  "hit": 0.0,
+  "head": "HEARTS SETTLE",
+  "scene_planned": "28",
+  "scene_actual": "27",
+  "file": "032_scene-27_a-still-reflecting-pool-of.jpg"
+ },
+ {
+  "n": "13",
+  "t": 345,
+  "hit": 0.18,
+  "head": "SETTLED ON THE WRONG THING",
+  "scene_planned": "38",
+  "scene_actual": "28",
+  "file": "033_scene-28_a-cross-section-view-of.jpg"
+ },
+ {
+  "n": "14",
+  "t": 370,
+  "hit": 0.22,
+  "head": "MORALLY NEUTRAL",
+  "scene_planned": "39B",
+  "scene_actual": "38",
+  "file": "045_scene-38_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "n": "15",
+  "t": 436,
+  "hit": 0.33,
+  "head": "BOTH READINGS LAND HERE",
+  "scene_planned": "41",
+  "scene_actual": "42",
+  "file": "050_scene-42_two-separate-footpaths-crossing-a.jpg"
+ },
+ {
+  "n": "16",
+  "t": 457,
+  "hit": 0.4,
+  "head": "THE MECHANISM, NOT THE MOOD",
+  "scene_planned": "42",
+  "scene_actual": "42",
+  "file": "050_scene-42_two-separate-footpaths-crossing-a.jpg"
+ },
+ {
+  "n": "17",
+  "t": 468,
+  "hit": 0.0,
+  "head": "SAKĪNAH",
+  "scene_planned": "44",
+  "scene_actual": "43",
+  "file": "051_scene-43_a-simple-mechanical-balance-or.jpg"
+ },
+ {
+  "n": "18",
+  "t": 493,
+  "hit": 0.22,
+  "head": "IT IS SENT DOWN",
+  "scene_planned": "46",
+  "scene_actual": "45",
+  "file": "053_scene-45_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "n": "19",
+  "t": 533,
+  "hit": 0.0,
+  "head": "DHIKR HAS A TONGUE IN IT",
+  "scene_planned": "47B",
+  "scene_actual": "47B",
+  "file": "056_scene-47b_close-up-macro-inside-the.jpg"
+ },
+ {
+  "n": "20",
+  "t": 574,
+  "hit": 0.0,
+  "head": "AL-DHIKR",
+  "scene_planned": "50",
+  "scene_actual": "50",
+  "file": "059_scene-50_concentric-rings-spreading-outward-across.jpg"
+ },
+ {
+  "n": "21",
+  "t": 594,
+  "hit": 0.12,
+  "head": "SETTLED IS NOT NUMB",
+  "scene_planned": "62",
+  "scene_actual": "52",
+  "file": "061_scene-52_two-hands-opening-a-hand.jpg"
+ },
+ {
+  "n": "22",
+  "t": 620,
+  "hit": 0.1,
+  "head": "TAKEN TO THE RIGHT ADDRESS",
+  "scene_planned": "64",
+  "scene_actual": "64",
+  "file": "077_scene-64_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "n": "23",
+  "t": 654,
+  "hit": 0.09,
+  "head": "BOUND, NOT FROZEN",
+  "scene_planned": "66",
+  "scene_actual": "66",
+  "file": "080_scene-66_a-small-boat-moored-to.jpg"
+ },
+ {
+  "n": "24",
+  "t": 689,
+  "hit": 0.22,
+  "head": "SETTLING IS NOT STOPPING",
+  "scene_planned": "66",
+  "scene_actual": "66",
+  "file": "080_scene-66_a-small-boat-moored-to.jpg"
+ },
+ {
+  "n": "25",
+  "t": 722,
+  "hit": 0.0,
+  "head": "REACHING INTO THE GLASS",
+  "scene_planned": "70",
+  "scene_actual": "70",
+  "file": "084_scene-70_a-plain-glass-of-river.jpg"
+ },
+ {
+  "n": "26",
+  "t": 751,
+  "hit": 0.42,
+  "head": "THE SILT DOES NOT LEAVE",
+  "scene_planned": "72B",
+  "scene_actual": "72",
+  "file": "087_scene-72_a-plain-glass-of-river.jpg"
+ },
+ {
+  "n": "27",
+  "t": 769,
+  "hit": 0.18,
+  "head": "YOU CAN SEE THROUGH THE WATER",
+  "scene_planned": "72B",
+  "scene_actual": "72B",
+  "file": "088_scene-72b_close-macro-view-focusing-strictly.jpg"
+ },
+ {
+  "n": "28",
+  "t": 791,
+  "hit": 0.0,
+  "head": "DO NOT GRIEVE",
+  "scene_planned": "76",
+  "scene_actual": "73",
+  "file": "089_scene-73_a-plain-glass-of-clear.jpg"
+ },
+ {
+  "n": "29",
+  "t": 839,
+  "hit": 0.36,
+  "head": "THE SETTLING CAME FIRST",
+  "scene_planned": "79",
+  "scene_actual": "79",
+  "file": "096_scene-79_the-view-from-deep-inside.jpg"
+ },
+ {
+  "n": "30",
+  "t": 867,
+  "hit": 0.0,
+  "head": "ON AN ORDINARY BAD DAY",
+  "scene_planned": "79",
+  "scene_actual": "79",
+  "file": "096_scene-79_the-view-from-deep-inside.jpg"
+ },
+ {
+  "n": "31",
+  "t": 907,
+  "hit": 0.31,
+  "head": "SAY SOMETHING",
+  "scene_planned": "83",
+  "scene_actual": "84",
+  "file": "102_scene-84_a-dark-bedroom-seen-from.jpg"
+ },
+ {
+  "n": "32",
+  "t": 943,
+  "hit": 0.36,
+  "head": "ṬUMAʾNĪNAH IN SUJŪD",
+  "scene_planned": "85",
+  "scene_actual": "86",
+  "file": "104_scene-86_a-plain-reed-prayer-mat.jpg"
+ },
+ {
+  "n": "33",
+  "t": 956,
+  "hit": 0.7,
+  "head": "TOLD TO STOP RUSHING",
+  "scene_planned": "88",
+  "scene_actual": "88",
+  "file": "107_scene-88_a-wide-shallow-clay-bowl.jpg"
+ },
+ {
+  "n": "34",
+  "t": 985,
+  "hit": 0.0,
+  "head": "NOT A STOP SIGN",
+  "scene_planned": "88",
+  "scene_actual": "88",
+  "file": "107_scene-88_a-wide-shallow-clay-bowl.jpg"
+ },
+ {
+  "n": "35",
+  "t": 1014,
+  "hit": 0.42,
+  "head": "LET IT BE ITS ACTUAL SIZE",
+  "scene_planned": "91",
+  "scene_actual": "91",
+  "file": "110_scene-91_a-vast-bank-of-storm.jpg"
+ },
+ {
+  "n": "36",
+  "t": 1047,
+  "hit": 0.09,
+  "head": "IT IS WHAT HE CALLS YOU",
+  "scene_planned": "93B",
+  "scene_actual": "93",
+  "file": "112_scene-93_a-woman-in-a-soft.jpg"
+ },
+ {
+  "n": "37",
+  "t": 1076,
+  "hit": 0.36,
+  "head": "MAY ALLAH MAKE YOURS ONE OF THE SETTLED ONES",
+  "scene_planned": "93B",
+  "scene_actual": "93B",
+  "file": "113_scene-93b_close-up-on-the-window.jpg"
+ }
+]
