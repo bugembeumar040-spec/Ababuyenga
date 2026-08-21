@@ -22,18 +22,22 @@ const INK = '#141A2A';
 // On a Qurʾānic word study it would read as clickbait and misrepresent the film.
 export const Thumb: React.FC<{
 	src: string; ar: string; struck: string; payoff: string; ref: string; refBig: string;
-}> = ({src, ar, struck, payoff, ref, refBig}) => {
+	shiftX?: string; zoom?: string; wash?: number;
+}> = ({src, ar, struck, payoff, ref, refBig, shiftX = '34%', zoom = '104%', wash = 0.14}) => {
 	useFonts();
 	return (
 		<AbsoluteFill style={{backgroundColor: INK}}>
 			<Img
 				src={staticFile(src)}
-				style={{position: 'absolute', width: '104%', height: '104%',
-					left: '34%', top: '-2%', objectFit: 'cover'}}
+				// A Flow image generated to this brief already has its subject right and
+				// its left side dark, so it needs no shift. The pack frames were shot
+				// centre and do.
+				style={{position: 'absolute', width: zoom, height: zoom,
+					left: shiftX, top: '-2%', objectFit: 'cover'}}
 			/>
 			{/* Deepen the whole frame, then black out the type side. The pack art is
 			    pale by design; at 210px wide that pallor is what kills it. */}
-			<AbsoluteFill style={{backgroundColor: INK, opacity: 0.14}} />
+			<AbsoluteFill style={{backgroundColor: INK, opacity: wash}} />
 			<AbsoluteFill
 				style={{
 					background: `linear-gradient(to right, ${INK} 0%, ${INK} 40%,` +
