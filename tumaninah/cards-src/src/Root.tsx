@@ -46,9 +46,10 @@ export const RemotionRoot: React.FC = () => {
 			defaultProps={{
 				src: 'thumb/glass.jpg',
 				ar: 'طُمَأْنِينَة',
-				line1: 'IT DOES NOT',
-				line2: 'MEAN “PEACE”',
-				ref: 'AR-RAʿD 28',
+				struck: 'IT IS NOT “PEACE”',
+				payoff: 'IT MEANS\nTO SETTLE',
+				ref: 'AR-RAʿD',
+				refBig: '28',
 			}}
 		/>
 		</>

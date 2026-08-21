@@ -2,52 +2,68 @@ import React from 'react';
 import {AbsoluteFill, Img, staticFile} from 'remotion';
 import {useFonts} from './fonts';
 
-const INDIGO = '#2E3A56';
-const OCHRE = '#C89A4A';
-const SIENNA = '#A65A3A';
-const CREAM = '242, 237, 226';
+const CREAM = '#F2EDE2';
+const OCHRE = '#E0A94F';
+const SIENNA = '#C4633B';
+const SLATE = '#8A8F9A';
+const INK = '#141A2A';
 
-// A thumbnail is read at about 210px wide in the sidebar, so everything here is
-// sized for that: one Arabic word, one short line, and a single focal object.
-export const Thumb: React.FC<{src: string; ar: string; line1: string; line2: string; ref: string}> =
-({src, ar, line1, line2, ref}) => {
+// Reverse-engineered from what vidIQ's own thumbnails do, then rebuilt in this
+// pack's palette. Four rules carry over: two elements and no more, type in one
+// zone at roughly half the frame, a two-colour hierarchy where the payoff word
+// is the largest thing, and a dark ground so both the type and the subject pop.
+//
+// One device carries over almost unchanged, because here it happens to be true:
+// vidIQ strikes through the bad advice. The whole argument of this video is that
+// "peace" is the wrong word for ṭumaʾnīnah — so the strike-through is not a
+// borrowed gimmick, it is the thesis.
+//
+// What deliberately does not carry over is the neon-and-highlighter register.
+// On a Qurʾānic word study it would read as clickbait and misrepresent the film.
+export const Thumb: React.FC<{
+	src: string; ar: string; struck: string; payoff: string; ref: string; refBig: string;
+}> = ({src, ar, struck, payoff, ref, refBig}) => {
 	useFonts();
 	return (
-		<AbsoluteFill style={{backgroundColor: '#F2EDE2'}}>
-			{/* The glass sits centre in the source; push it right so the type has a side */}
+		<AbsoluteFill style={{backgroundColor: INK}}>
 			<Img
 				src={staticFile(src)}
-				style={{
-					position: 'absolute',
-					width: '104%',
-					height: '104%',
-					left: '38%',
-					top: '-2%',
-					objectFit: 'cover',
-				}}
+				style={{position: 'absolute', width: '104%', height: '104%',
+					left: '34%', top: '-2%', objectFit: 'cover'}}
 			/>
+			{/* Deepen the whole frame, then black out the type side. The pack art is
+			    pale by design; at 210px wide that pallor is what kills it. */}
+			<AbsoluteFill style={{backgroundColor: INK, opacity: 0.14}} />
 			<AbsoluteFill
 				style={{
-					background:
-						`linear-gradient(to right, rgba(${CREAM},0.98) 0%, rgba(${CREAM},0.96) 48%,` +
-						` rgba(${CREAM},0.72) 64%, rgba(${CREAM},0) 84%)`,
+					background: `linear-gradient(to right, ${INK} 0%, ${INK} 40%,` +
+						` rgba(20,26,42,0.86) 55%, rgba(20,26,42,0) 80%)`,
 				}}
 			/>
-			<AbsoluteFill style={{justifyContent: 'center', padding: "0 0 0 114px"}}>
-				<div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10, maxWidth: 930}}>
+			<AbsoluteFill style={{justifyContent: 'center', padding: '0 0 0 72px'}}>
+				<div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
 					<div dir="rtl" lang="ar" style={{
-						fontFamily: 'Amiri', fontWeight: 700, fontSize: 156, lineHeight: 1.2,
-						color: INDIGO, whiteSpace: 'nowrap',
+						fontFamily: 'Amiri', fontWeight: 700, fontSize: 96, lineHeight: 1.15,
+						color: CREAM, whiteSpace: 'nowrap', marginBottom: 62,
 					}}>{ar}</div>
-					<div style={{width: 252, height: 10, backgroundColor: OCHRE, borderRadius: 4, margin: "33px 0 21px"}} />
-					<div style={{fontFamily: 'Inter', fontWeight: 700, fontSize: 117, lineHeight: 1.04, color: INDIGO, letterSpacing: -1}}>
-						{line1}
+
+					{/* the verdict, in one glance */}
+					<div style={{position: 'relative', display: 'inline-block', marginBottom: 4}}>
+						<div style={{fontFamily: 'Inter', fontWeight: 700, fontSize: 76,
+							lineHeight: 1.0, color: SLATE, letterSpacing: -1}}>{struck}</div>
+						<div style={{position: 'absolute', left: -10, right: -10, top: '52%',
+							height: 11, backgroundColor: SIENNA, borderRadius: 6,
+							transform: 'rotate(-2.5deg)'}} />
 					</div>
-					<div style={{fontFamily: 'Inter', fontWeight: 700, fontSize: 117, lineHeight: 1.04, color: SIENNA, letterSpacing: -1}}>
-						{line2}
-					</div>
-					<div style={{fontFamily: 'Inter', fontWeight: 700, fontSize: 45, letterSpacing: 6, color: OCHRE, marginTop: 20}}>
-						{ref}
+
+					<div style={{fontFamily: 'Inter', fontWeight: 700, fontSize: 122,
+						lineHeight: 1.0, color: OCHRE, letterSpacing: -2, marginTop: 10}}>{payoff}</div>
+
+					<div style={{display: 'flex', alignItems: 'baseline', gap: 12, marginTop: 30}}>
+						<span style={{fontFamily: 'Inter', fontWeight: 700, fontSize: 30,
+							letterSpacing: 4, color: CREAM, opacity: 0.72}}>{ref}</span>
+						<span style={{fontFamily: 'Inter', fontWeight: 700, fontSize: 54,
+							color: OCHRE, letterSpacing: -1}}>{refBig}</span>
 					</div>
 				</div>
 			</AbsoluteFill>
