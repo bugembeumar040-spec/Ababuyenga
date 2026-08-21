@@ -1,15 +1,16 @@
 [
 {
 "n": "01",
-"t": "0:00",
+"t": "0:06",
 "scene": "01",
 "ch": "1 · NAMED AFTER THUNDER",
 "ar": "الرَّعْد",
 "head": "AR-RAʿD · THE THUNDER",
 "sub": "Sūrah 13 — named after the loudest thing in the sky",
-"t_s": 0.0,
-"line_at": 0.0,
-"dur_s": 6.0
+"t_s": 6.0,
+"line_at": 7.0,
+"anchor_s": 7.0,
+"dur_s": 3.88
 },
 {
 "n": "02",
@@ -49,14 +50,15 @@
 },
 {
 "n": "07",
-"t": "2:52",
+"t": "3:02",
 "scene": "20B",
 "ch": "2 · ṬUMAʾNĪNAH",
 "ar": "",
 "head": "WHAT THE SPINE DOES",
 "sub": "Not a feeling — the half-second where every joint stops moving",
-"t_s": 172.15,
-"line_at": 171.15,
+"t_s": 182.8,
+"line_at": 183.8,
+"anchor_s": 183.8,
 "dur_s": 6.0
 },
 {
@@ -97,14 +99,15 @@
 },
 {
 "n": "11",
-"t": "5:08",
+"t": "4:59",
 "scene": "25B",
 "ch": "4 · THE SENTENCE NOBODY QUOTES",
 "ar": "",
 "head": "NOT A STANDALONE PROMISE",
 "sub": "The back half of a description — answering a taunt about signs",
-"t_s": 308.64,
-"line_at": 309.64,
+"t_s": 299.5,
+"line_at": 300.5,
+"anchor_s": 300.5,
 "dur_s": 6.0
 },
 {
@@ -169,14 +172,15 @@
 },
 {
 "n": "19",
-"t": "8:48",
+"t": "8:53",
 "scene": "47B",
 "ch": "7 · IT IS SENT DOWN",
 "ar": "ذِكْر",
-"head": "DHIKR HAS A TONGUE IN IT",
+"head": "DHIKR",
 "sub": "dhāl · kāf · rāʾ — mentioning, not only remembering",
-"t_s": 528.59,
-"line_at": 529.59,
+"t_s": 533.0,
+"line_at": 534.0,
+"anchor_s": 534.0,
 "dur_s": 6.0
 },
 {
@@ -254,14 +258,14 @@
 },
 {
 "n": "27",
-"t": "12:49",
+"t": "12:47",
 "scene": "72B",
 "ch": "11 · THE SILT",
 "ar": "طُمَأْنِينَة",
-"head": "YOU CAN SEE THROUGH THE WATER",
+"head": "ṬUMAʾNĪNAH, PRECISELY",
 "sub": "Not the absence of the heavy thing — the heavy thing at rest",
-"t_s": 769.76,
-"line_at": 770.76,
+"t_s": 767.22,
+"line_at": 768.22,
 "dur_s": 6.0
 },
 {
@@ -340,14 +344,15 @@
 },
 {
 "n": "34",
-"t": "16:25",
+"t": "16:08",
 "scene": "88",
 "ch": "13 · ON A TUESDAY",
 "ar": "",
 "head": "NOT A STOP SIGN",
 "sub": "Sit with them. Say less than you want to say",
-"t_s": 985.43,
-"line_at": 986.43,
+"t_s": 968.55,
+"line_at": 969.55,
+"anchor_s": 969.55,
 "dur_s": 6.0
 },
 {
@@ -368,7 +373,7 @@
 "scene": "93B",
 "ch": "14 · CLOSE",
 "ar": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ",
-"head": "IT IS WHAT HE CALLS YOU",
+"head": "O SETTLED SOUL",
 "sub": "Al-Fajr 27 — not something your heart is doing any more",
 "t_s": 1059.73,
 "line_at": 1060.73,
