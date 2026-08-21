@@ -405,5 +405,18 @@
   "vo": "Yā ayyatuhā an-nafs al-muṭmaʾinnah. O settled soul.",
   "score": 0.22,
   "has_audio": false
+ },
+ {
+  "pack_order": 94,
+  "scene": "78B",
+  "index": 95,
+  "file": "095_scene-78b_detail-of-the-rough-cave.jpg",
+  "chapter": 13,
+  "chapter_title": "THE CAVE",
+  "vo": "So Allah sent down His sakīnah upon him.",
+  "score": 0.88,
+  "has_audio": true,
+  "in_s": 825.53,
+  "dropped": "split too short to read at this pace"
  }
 ]

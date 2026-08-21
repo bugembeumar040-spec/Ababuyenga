@@ -90,9 +90,41 @@ for r in cut:
 
 # Sorted by where the words land, not by the pack: the script was resequenced.
 cut.sort(key=lambda r: (r['in_s'], r['pack_order']))
+
+# Several frames often anchor to one line — a B-split shares its parent's, and
+# consecutive scenes gloss a single sentence. Pushing each to the minimum shot
+# length leaves the later ones sitting after their line has already passed, so a
+# cluster is spread evenly across the room before the next distinct anchor.
+i = 0
+while i < len(cut):
+    j = i
+    while j + 1 < len(cut) and cut[j + 1]['in_s'] - cut[j]['in_s'] < MIN_SHOT:
+        j += 1
+    if j > i:
+        start = cut[i]['in_s']
+        end = cut[j + 1]['in_s'] if j + 1 < len(cut) else TOTAL
+        n = j - i + 1
+        step = max(MIN_SHOT, (end - start) / n)
+        for k in range(n):
+            cut[i + k]['in_s'] = start + step * k
+    i = j + 1
 for i in range(len(cut) - 1):
     if cut[i + 1]['in_s'] - cut[i]['in_s'] < MIN_SHOT:
         cut[i + 1]['in_s'] = cut[i]['in_s'] + MIN_SHOT
+# A B-split is a second angle on its parent's line. Where the narration moves too
+# fast to give it real screen time it becomes a flash frame, so it is dropped back
+# to held and its parent keeps the whole beat.
+MIN_SPLIT = 2.5
+keep = []
+for i, r in enumerate(cut):
+    nxt = cut[i + 1]['in_s'] if i + 1 < len(cut) else TOTAL
+    if r['scene'].endswith('B') and nxt - r['in_s'] < MIN_SPLIT:
+        r['dropped'] = 'split too short to read at this pace'
+        held.append(r)
+    else:
+        keep.append(r)
+cut = keep
+
 for i, r in enumerate(cut):
     r['cut_order'] = i + 1
     r['out_s'] = cut[i + 1]['in_s'] if i + 1 < len(cut) else TOTAL

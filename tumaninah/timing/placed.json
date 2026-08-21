@@ -116,8 +116,8 @@
   "has_audio": true,
   "in_s": 91.58,
   "cut_order": 8,
-  "out_s": 93.08,
-  "dur_s": 1.5
+  "out_s": 100.37,
+  "dur_s": 8.79
  },
  {
   "pack_order": 10,
@@ -129,10 +129,10 @@
   "vo": "The classical lexicons use it for ground. Land that lies low and level.",
   "score": 1.0,
   "has_audio": true,
-  "in_s": 93.08,
+  "in_s": 100.37,
   "cut_order": 9,
   "out_s": 109.16,
-  "dur_s": 16.08
+  "dur_s": 8.79
  },
  {
   "pack_order": 11,
@@ -206,8 +206,8 @@
   "has_audio": true,
   "in_s": 172.15,
   "cut_order": 14,
-  "out_s": 173.65,
-  "dur_s": 1.5
+  "out_s": 180.65,
+  "dur_s": 8.5
  },
  {
   "pack_order": 23,
@@ -219,10 +219,10 @@
   "vo": "It is the half-second where every joint stops moving before you go on.",
   "score": 1.0,
   "has_audio": true,
-  "in_s": 173.65,
+  "in_s": 180.65,
   "cut_order": 15,
   "out_s": 189.15,
-  "dur_s": 15.5
+  "dur_s": 8.5
  },
  {
   "pack_order": 12,
@@ -251,8 +251,8 @@
   "has_audio": true,
   "in_s": 196.39,
   "cut_order": 17,
-  "out_s": 197.89,
-  "dur_s": 1.5
+  "out_s": 201.86,
+  "dur_s": 5.47
  },
  {
   "pack_order": 14,
@@ -264,10 +264,10 @@
   "vo": "Everything in this study grows out of that one shift.",
   "score": 1.0,
   "has_audio": true,
-  "in_s": 197.89,
+  "in_s": 201.86,
   "cut_order": 18,
   "out_s": 207.33,
-  "dur_s": 9.44
+  "dur_s": 5.47
  },
  {
   "pack_order": 15,
@@ -356,8 +356,8 @@
   "has_audio": true,
   "in_s": 281.25,
   "cut_order": 24,
-  "out_s": 282.75,
-  "dur_s": 1.5
+  "out_s": 290.89,
+  "dur_s": 9.64
  },
  {
   "pack_order": 29,
@@ -369,10 +369,10 @@
   "vo": "And then — without starting a new sentence — āyah twenty-eight continues.",
   "score": 0.78,
   "has_audio": true,
-  "in_s": 282.75,
+  "in_s": 290.89,
   "cut_order": 25,
   "out_s": 300.54,
-  "dur_s": 17.79
+  "dur_s": 9.65
  },
  {
   "pack_order": 30,
@@ -446,8 +446,8 @@
   "has_audio": true,
   "in_s": 371.73,
   "cut_order": 30,
-  "out_s": 373.23,
-  "dur_s": 1.5
+  "out_s": 387.59,
+  "dur_s": 15.86
  },
  {
   "pack_order": 46,
@@ -459,10 +459,10 @@
   "vo": "Ṭumaʾnīnah is morally neutral. The entire question is what it comes to rest on.",
   "score": 0.78,
   "has_audio": true,
-  "in_s": 373.23,
+  "in_s": 387.59,
   "cut_order": 31,
   "out_s": 403.45,
-  "dur_s": 30.22
+  "dur_s": 15.86
  },
  {
   "pack_order": 47,
@@ -581,8 +581,8 @@
   "has_audio": true,
   "in_s": 516.38,
   "cut_order": 39,
-  "out_s": 517.88,
-  "dur_s": 1.5
+  "out_s": 528.45,
+  "dur_s": 12.07
  },
  {
   "pack_order": 55,
@@ -594,10 +594,10 @@
   "vo": "You are not asked to manufacture calm. You are asked to be somewhere it lands.",
   "score": 1.0,
   "has_audio": true,
-  "in_s": 517.88,
+  "in_s": 528.45,
   "cut_order": 40,
   "out_s": 540.52,
-  "dur_s": 22.64
+  "dur_s": 12.07
  },
  {
   "pack_order": 57,
@@ -701,8 +701,8 @@
   "has_audio": true,
   "in_s": 637.03,
   "cut_order": 47,
-  "out_s": 638.53,
-  "dur_s": 1.5
+  "out_s": 644.81,
+  "dur_s": 7.78
  },
  {
   "pack_order": 78,
@@ -714,10 +714,10 @@
   "vo": "The Prophet ﷺ wept when his son Ibrāhīm died… the eye sheds tears and the heart grieves.",
   "score": 0.67,
   "has_audio": true,
-  "in_s": 638.53,
+  "in_s": 644.81,
   "cut_order": 48,
   "out_s": 652.59,
-  "dur_s": 14.06
+  "dur_s": 7.78
  },
  {
   "pack_order": 79,
@@ -806,8 +806,8 @@
   "has_audio": true,
   "in_s": 733.84,
   "cut_order": 54,
-  "out_s": 735.34,
-  "dur_s": 1.5
+  "out_s": 741.17,
+  "dur_s": 7.33
  },
  {
   "pack_order": 85,
@@ -819,10 +819,10 @@
   "vo": "There is exactly one thing that clears that glass. You set it down. And you leave it.",
   "score": 1.0,
   "has_audio": true,
-  "in_s": 735.34,
+  "in_s": 741.17,
   "cut_order": 55,
   "out_s": 748.5,
-  "dur_s": 13.16
+  "dur_s": 7.33
  },
  {
   "pack_order": 86,
@@ -836,8 +836,8 @@
   "has_audio": true,
   "in_s": 748.5,
   "cut_order": 56,
-  "out_s": 750.0,
-  "dur_s": 1.5
+  "out_s": 766.38,
+  "dur_s": 17.88
  },
  {
   "pack_order": 87,
@@ -849,10 +849,10 @@
   "vo": "The silt does not leave. It is still in the glass.",
   "score": 1.0,
   "has_audio": true,
-  "in_s": 750.0,
+  "in_s": 766.38,
   "cut_order": 57,
   "out_s": 784.26,
-  "dur_s": 34.26
+  "dur_s": 17.88
  },
  {
   "pack_order": 88,
@@ -926,23 +926,8 @@
   "has_audio": true,
   "in_s": 824.03,
   "cut_order": 62,
-  "out_s": 825.53,
-  "dur_s": 1.5
- },
- {
-  "pack_order": 94,
-  "scene": "78B",
-  "index": 95,
-  "file": "095_scene-78b_detail-of-the-rough-cave.jpg",
-  "chapter": 13,
-  "chapter_title": "THE CAVE",
-  "vo": "So Allah sent down His sakīnah upon him.",
-  "score": 0.88,
-  "has_audio": true,
-  "in_s": 825.53,
-  "cut_order": 63,
   "out_s": 827.03,
-  "dur_s": 1.5
+  "dur_s": 3.0
  },
  {
   "pack_order": 95,
@@ -955,7 +940,7 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 827.03,
-  "cut_order": 64,
+  "cut_order": 63,
   "out_s": 869.67,
   "dur_s": 42.64
  },
@@ -970,7 +955,7 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 869.67,
-  "cut_order": 65,
+  "cut_order": 64,
   "out_s": 877.87,
   "dur_s": 8.2
  },
@@ -985,7 +970,7 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 877.87,
-  "cut_order": 66,
+  "cut_order": 65,
   "out_s": 895.49,
   "dur_s": 17.62
  },
@@ -1000,7 +985,7 @@
   "score": 0.73,
   "has_audio": true,
   "in_s": 895.49,
-  "cut_order": 67,
+  "cut_order": 66,
   "out_s": 919.93,
   "dur_s": 24.44
  },
@@ -1015,7 +1000,7 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 919.93,
-  "cut_order": 68,
+  "cut_order": 67,
   "out_s": 926.89,
   "dur_s": 6.96
  },
@@ -1030,7 +1015,7 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 926.89,
-  "cut_order": 69,
+  "cut_order": 68,
   "out_s": 943.15,
   "dur_s": 16.26
  },
@@ -1045,9 +1030,9 @@
   "score": 0.78,
   "has_audio": true,
   "in_s": 943.15,
-  "cut_order": 70,
-  "out_s": 944.65,
-  "dur_s": 1.5
+  "cut_order": 69,
+  "out_s": 948.35,
+  "dur_s": 5.2
  },
  {
   "pack_order": 105,
@@ -1059,10 +1044,10 @@
   "vo": "The one moment in twenty-four hours where you are required to stop moving.",
   "score": 0.78,
   "has_audio": true,
-  "in_s": 944.65,
-  "cut_order": 71,
+  "in_s": 948.35,
+  "cut_order": 70,
   "out_s": 953.55,
-  "dur_s": 8.9
+  "dur_s": 5.2
  },
  {
   "pack_order": 106,
@@ -1075,7 +1060,7 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 953.55,
-  "cut_order": 72,
+  "cut_order": 71,
   "out_s": 988.27,
   "dur_s": 34.72
  },
@@ -1090,7 +1075,7 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 988.27,
-  "cut_order": 73,
+  "cut_order": 72,
   "out_s": 1008.03,
   "dur_s": 19.76
  },
@@ -1105,7 +1090,7 @@
   "score": 0.9,
   "has_audio": true,
   "in_s": 1008.03,
-  "cut_order": 74,
+  "cut_order": 73,
   "out_s": 1018.77,
   "dur_s": 10.74
  },
@@ -1120,7 +1105,7 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 1018.77,
-  "cut_order": 75,
+  "cut_order": 74,
   "out_s": 1039.01,
   "dur_s": 20.24
  },
@@ -1135,9 +1120,9 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 1039.01,
-  "cut_order": 76,
-  "out_s": 1040.51,
-  "dur_s": 1.5
+  "cut_order": 75,
+  "out_s": 1059.57,
+  "dur_s": 20.56
  },
  {
   "pack_order": 112,
@@ -1149,10 +1134,10 @@
   "vo": "The heavy thing does not have to leave the glass for you to see through the water.",
   "score": 1.0,
   "has_audio": true,
-  "in_s": 1040.51,
-  "cut_order": 77,
+  "in_s": 1059.57,
+  "cut_order": 76,
   "out_s": 1080.13,
-  "dur_s": 39.62
+  "dur_s": 20.56
  },
  {
   "pack_order": 114,
@@ -1165,9 +1150,9 @@
   "score": 1.0,
   "has_audio": true,
   "in_s": 1080.13,
-  "cut_order": 78,
-  "out_s": 1081.63,
-  "dur_s": 1.5
+  "cut_order": 77,
+  "out_s": 1083.7,
+  "dur_s": 3.57
  },
  {
   "pack_order": 115,
@@ -1179,9 +1164,9 @@
   "vo": "…May Allah make yours one of the settled ones.",
   "score": 1.0,
   "has_audio": true,
-  "in_s": 1081.63,
-  "cut_order": 79,
+  "in_s": 1083.7,
+  "cut_order": 78,
   "out_s": 1087.26,
-  "dur_s": 5.63
+  "dur_s": 3.56
  }
 ]

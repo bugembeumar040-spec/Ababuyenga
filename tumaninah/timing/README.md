@@ -46,6 +46,27 @@ past the end of the audio — a run of blank cartouches at the tail. They are no
 held out: `placed.json` is the 79 frames that have a spoken line, and
 `held.json` lists the rest with the line each one was written for.
 
+## Sound
+
+`sfx.py` synthesises the ambience beds and mixes them under the voice. Nothing is
+sampled or sourced — it is all generated from shaped noise with a fixed seed, so
+the stem rebuilds identically and `preview/ambience.wav` never needs committing.
+
+No instruments. This is a Qurʾānic study and music is contested for a good part
+of the audience, so the palette is weather, stone and water — which is also the
+sūrah's own imagery.
+
+| from | bed | why |
+|---|---|---|
+| 0:00 | rain, low rumble, two thunder hits | the sūrah is named after thunder and the narration is describing the weather |
+| 11:41 | quiet room tone | the glass on the table |
+| 13:12 | cave tone with sparse drips | Mount Thawr |
+| 16:48 | rumble and rain returning, very low | the close names the thunder again |
+
+The voice is high-passed at 70 Hz and levelled to −16 LUFS; beds sit around
+−41 dB mean, roughly 25 dB under it. Run `python3 tumaninah/timing/sfx.py` to
+rebuild `ambience.wav` and `mix.m4a`.
+
 ## Trims
 
 `cuts.json` lists stretches removed from the assembled audio, in timeline

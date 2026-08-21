@@ -1,0 +1,704 @@
+[
+ {
+  "scene": "01",
+  "in": 0.0,
+  "out": 9.88,
+  "dur": 9.88,
+  "on_screen_hit": 0.92,
+  "vo": "The āyah people put on their wall lives inside a sūrah named after the loudest thing in the sky.",
+  "file": "001_scene-01_a-vast-bank-of-storm.jpg"
+ },
+ {
+  "scene": "03",
+  "in": 9.88,
+  "out": 15.88,
+  "dur": 6.0,
+  "on_screen_hit": 0.5,
+  "vo": "Lightning that makes you afraid and makes you hope at the same time.",
+  "file": "003_scene-03_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "scene": "04",
+  "in": 15.88,
+  "out": 22.14,
+  "dur": 6.26,
+  "on_screen_hit": 0.86,
+  "vo": "Clouds dragged across the sky heavy with rain.",
+  "file": "004_scene-04_low-rain-heavy-cloud-being.jpg"
+ },
+ {
+  "scene": "05",
+  "in": 22.14,
+  "out": 32.04,
+  "dur": 9.9,
+  "on_screen_hit": 0.64,
+  "vo": "Thunder itself — which the sūrah says is exalting Allah with praise while it does it.",
+  "file": "005_scene-05_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "scene": "06",
+  "in": 32.04,
+  "out": 63.91,
+  "dur": 31.87,
+  "on_screen_hit": 0.6,
+  "vo": "So that is the room. Weather, voltage, noise… air that has gone heavy and metallic.",
+  "file": "006_scene-06_a-woman-in-a-soft.jpg"
+ },
+ {
+  "scene": "08",
+  "in": 63.91,
+  "out": 77.34,
+  "dur": 13.43,
+  "on_screen_hit": 1.0,
+  "vo": "Start with the thing the English cannot carry.",
+  "file": "008_scene-08_a-long-horizontal-empty-illuminated.jpg"
+ },
+ {
+  "scene": "09",
+  "in": 77.34,
+  "out": 91.58,
+  "dur": 14.24,
+  "on_screen_hit": 1.0,
+  "vo": "Its root sense is not peace. It is not calm. It is to settle.",
+  "file": "009_scene-09_four-smooth-river-stones-laid.jpg"
+ },
+ {
+  "scene": "10",
+  "in": 91.58,
+  "out": 100.37,
+  "dur": 8.79,
+  "on_screen_hit": 0.88,
+  "vo": "The classical lexicons use it for ground. Land that lies low and level.",
+  "file": "010_scene-10_a-wide-shallow-salt-flat.jpg"
+ },
+ {
+  "scene": "10B",
+  "in": 100.37,
+  "out": 109.16,
+  "dur": 8.79,
+  "on_screen_hit": 0.25,
+  "vo": "The classical lexicons use it for ground. Land that lies low and level.",
+  "file": "011_scene-10b_low-angle-close-study-of.jpg"
+ },
+ {
+  "scene": "11",
+  "in": 109.16,
+  "out": 134.47,
+  "dur": 25.31,
+  "on_screen_hit": 1.0,
+  "vo": "A word about something that was disturbed coming to rest. Not something never disturbed.",
+  "file": "012_scene-11_a-plain-glass-of-cloudy.jpg"
+ },
+ {
+  "scene": "17",
+  "in": 134.47,
+  "out": 142.25,
+  "dur": 7.78,
+  "on_screen_hit": 0.75,
+  "vo": "A man prays, comes over, and gives salām. And the Prophet ﷺ tells him: go back and pray.",
+  "file": "020_scene-17_a-bare-limestone-doorway-in.jpg"
+ },
+ {
+  "scene": "18",
+  "in": 142.25,
+  "out": 151.01,
+  "dur": 8.76,
+  "on_screen_hit": 0.88,
+  "vo": "He does it again. Same answer. Three times over.",
+  "file": "021_scene-18_a-bare-limestone-doorway-in.jpg"
+ },
+ {
+  "scene": "19",
+  "in": 151.01,
+  "out": 172.15,
+  "dur": 21.14,
+  "on_screen_hit": 1.0,
+  "vo": "Bow — until you are settled. Then rise. Then prostrate.",
+  "file": "022_scene-19_a-long-horizontal-empty-illuminated.jpg"
+ },
+ {
+  "scene": "20",
+  "in": 172.15,
+  "out": 180.65,
+  "dur": 8.5,
+  "on_screen_hit": 0.89,
+  "vo": "It is the half-second where every joint stops moving before you go on.",
+  "file": "023_scene-20_a-close-low-study-of.jpg"
+ },
+ {
+  "scene": "20B",
+  "in": 180.65,
+  "out": 189.15,
+  "dur": 8.5,
+  "on_screen_hit": 0.11,
+  "vo": "It is the half-second where every joint stops moving before you go on.",
+  "file": "024_scene-20b_extreme-close-up-detail-of.jpg"
+ },
+ {
+  "scene": "12",
+  "in": 189.15,
+  "out": 196.39,
+  "dur": 7.24,
+  "on_screen_hit": 0.7,
+  "vo": "The English tells you the heart feels better. The Arabic tells you the heart stops moving.",
+  "file": "013_scene-12_a-plain-glass-of-cloudy.jpg"
+ },
+ {
+  "scene": "13",
+  "in": 196.39,
+  "out": 201.86,
+  "dur": 5.47,
+  "on_screen_hit": 0.5,
+  "vo": "Everything in this study grows out of that one shift.",
+  "file": "014_scene-13_an-open-hand-bound-manuscript.jpg"
+ },
+ {
+  "scene": "13B",
+  "in": 201.86,
+  "out": 207.33,
+  "dur": 5.47,
+  "on_screen_hit": 0.5,
+  "vo": "Everything in this study grows out of that one shift.",
+  "file": "015_scene-13b_close-up-on-the-intricate.jpg"
+ },
+ {
+  "scene": "14",
+  "in": 207.33,
+  "out": 222.45,
+  "dur": 15.12,
+  "on_screen_hit": 1.0,
+  "vo": "Who it is describing — because it is not describing everybody.",
+  "file": "016_scene-14_a-narrow-stone-path-forking.jpg"
+ },
+ {
+  "scene": "15",
+  "in": 222.45,
+  "out": 247.07,
+  "dur": 24.62,
+  "on_screen_hit": 1.0,
+  "vo": "…not as something a heart does, but as a name Allah calls somebody by.",
+  "file": "017_scene-15_a-single-sealed-envelope-of.jpg"
+ },
+ {
+  "scene": "22",
+  "in": 247.07,
+  "out": 254.05,
+  "dur": 6.98,
+  "on_screen_hit": 0.73,
+  "vo": "Why has no sign been sent down to him from his Lord?",
+  "file": "026_scene-22_a-group-of-robed-figures.jpg"
+ },
+ {
+  "scene": "23",
+  "in": 254.05,
+  "out": 266.01,
+  "dur": 11.96,
+  "on_screen_hit": 0.67,
+  "vo": "Not a garden. Not a quiet morning. A man being told publicly that the absence of a miracle proves he is a fraud.",
+  "file": "027_scene-23_an-empty-flat-expanse-of.jpg"
+ },
+ {
+  "scene": "24",
+  "in": 266.01,
+  "out": 281.25,
+  "dur": 15.24,
+  "on_screen_hit": 1.0,
+  "vo": "The answer is not a miracle. It is a description of who actually receives guidance.",
+  "file": "028_scene-24_a-single-set-of-footprints.jpg"
+ },
+ {
+  "scene": "25",
+  "in": 281.25,
+  "out": 290.89,
+  "dur": 9.64,
+  "on_screen_hit": 0.33,
+  "vo": "And then — without starting a new sentence — āyah twenty-eight continues.",
+  "file": "029_scene-25_an-open-hand-bound-manuscript.jpg"
+ },
+ {
+  "scene": "25B",
+  "in": 290.89,
+  "out": 300.54,
+  "dur": 9.65,
+  "on_screen_hit": 0.44,
+  "vo": "And then — without starting a new sentence — āyah twenty-eight continues.",
+  "file": "030_scene-25b_close-crop-focusing-strictly-on.jpg"
+ },
+ {
+  "scene": "26",
+  "in": 300.54,
+  "out": 314.4,
+  "dur": 13.86,
+  "on_screen_hit": 1.0,
+  "vo": "The most-quoted half of this āyah is not a standalone promise.",
+  "file": "031_scene-26_a-length-of-cream-paper.jpg"
+ },
+ {
+  "scene": "27",
+  "in": 314.4,
+  "out": 328.64,
+  "dur": 14.24,
+  "on_screen_hit": 1.0,
+  "vo": "It is telling you what the person who turned back looks like from the outside.",
+  "file": "032_scene-27_a-still-reflecting-pool-of.jpg"
+ },
+ {
+  "scene": "28",
+  "in": 328.64,
+  "out": 356.09,
+  "dur": 27.45,
+  "on_screen_hit": 1.0,
+  "vo": "Not: hearts will feel nice. Hearts settle.",
+  "file": "033_scene-28_a-cross-section-view-of.jpg"
+ },
+ {
+  "scene": "38",
+  "in": 356.09,
+  "out": 371.73,
+  "dur": 15.64,
+  "on_screen_hit": 0.69,
+  "vo": "Sūrah Yūnus, āyah seven. Those content with the life of this world, and who have settled into it.",
+  "file": "045_scene-38_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "scene": "39",
+  "in": 371.73,
+  "out": 387.59,
+  "dur": 15.86,
+  "on_screen_hit": 0.78,
+  "vo": "Ṭumaʾnīnah is morally neutral. The entire question is what it comes to rest on.",
+  "file": "046_scene-39_two-identical-smooth-stones-side.jpg"
+ },
+ {
+  "scene": "39B",
+  "in": 387.59,
+  "out": 403.45,
+  "dur": 15.86,
+  "on_screen_hit": 0.0,
+  "vo": "Ṭumaʾnīnah is morally neutral. The entire question is what it comes to rest on.",
+  "file": "047_scene-39b_extreme-close-up-on-the.jpg"
+ },
+ {
+  "scene": "40",
+  "in": 403.45,
+  "out": 414.85,
+  "dur": 11.4,
+  "on_screen_hit": 1.0,
+  "vo": "There is a real disagreement here and you should hear it rather than have it smoothed over.",
+  "file": "048_scene-40_two-open-manuscripts-lying-side.jpg"
+ },
+ {
+  "scene": "41",
+  "in": 414.85,
+  "out": 431.17,
+  "dur": 16.32,
+  "on_screen_hit": 0.79,
+  "vo": "Some read it as continuous with twenty-seven. Others read the famous half as standing on its own feet.",
+  "file": "049_scene-41_a-single-length-of-rope.jpg"
+ },
+ {
+  "scene": "42",
+  "in": 431.17,
+  "out": 457.41,
+  "dur": 26.24,
+  "on_screen_hit": 1.0,
+  "vo": "Honestly, that argument is not settled among careful readers. And both readings land in the same place.",
+  "file": "050_scene-42_two-separate-footpaths-crossing-a.jpg"
+ },
+ {
+  "scene": "43",
+  "in": 457.41,
+  "out": 469.98,
+  "dur": 12.57,
+  "on_screen_hit": 1.0,
+  "vo": "Take the second half away and you have deleted the mechanism and kept the mood.",
+  "file": "051_scene-43_a-simple-mechanical-balance-or.jpg"
+ },
+ {
+  "scene": "44",
+  "in": 469.98,
+  "out": 483.22,
+  "dur": 13.24,
+  "on_screen_hit": 0.86,
+  "vo": "There is a second word in this territory — sakīnah. Different root.",
+  "file": "052_scene-44_a-long-horizontal-empty-illuminated.jpg"
+ },
+ {
+  "scene": "45",
+  "in": 483.22,
+  "out": 497.86,
+  "dur": 14.64,
+  "on_screen_hit": 1.0,
+  "vo": "But look at the verb attached to it every time. Anzala. Sent down.",
+  "file": "053_scene-45_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "scene": "46",
+  "in": 497.86,
+  "out": 516.38,
+  "dur": 18.52,
+  "on_screen_hit": 1.0,
+  "vo": "It is the same verb used for rain. The same verb used for revelation.",
+  "file": "054_scene-46_heavy-rain-falling-straight-down.jpg"
+ },
+ {
+  "scene": "47",
+  "in": 516.38,
+  "out": 528.45,
+  "dur": 12.07,
+  "on_screen_hit": 1.0,
+  "vo": "You are not asked to manufacture calm. You are asked to be somewhere it lands.",
+  "file": "055_scene-47_a-wide-shallow-clay-bowl.jpg"
+ },
+ {
+  "scene": "47B",
+  "in": 528.45,
+  "out": 540.52,
+  "dur": 12.07,
+  "on_screen_hit": 0.0,
+  "vo": "You are not asked to manufacture calm. You are asked to be somewhere it lands.",
+  "file": "056_scene-47b_close-up-macro-inside-the.jpg"
+ },
+ {
+  "scene": "49",
+  "in": 540.52,
+  "out": 545.96,
+  "dur": 5.44,
+  "on_screen_hit": 0.44,
+  "vo": "The root covers mentioning as well as remembering. Saying a thing out loud.",
+  "file": "058_scene-49_a-close-study-of-a.jpg"
+ },
+ {
+  "scene": "50",
+  "in": 545.96,
+  "out": 577.28,
+  "dur": 31.32,
+  "on_screen_hit": 0.88,
+  "vo": "So dhikr is not primarily an event inside your skull. It has a tongue in it.",
+  "file": "059_scene-50_concentric-rings-spreading-outward-across.jpg"
+ },
+ {
+  "scene": "52",
+  "in": 577.28,
+  "out": 594.77,
+  "dur": 17.49,
+  "on_screen_hit": 1.0,
+  "vo": "Hearts settle by the thing you can open and read.",
+  "file": "061_scene-52_two-hands-opening-a-hand.jpg"
+ },
+ {
+  "scene": "62",
+  "in": 594.77,
+  "out": 603.73,
+  "dur": 8.96,
+  "on_screen_hit": 1.0,
+  "vo": "A settled heart is not a numb heart.",
+  "file": "075_scene-62_a-lit-oil-lamp-burning.jpg"
+ },
+ {
+  "scene": "63",
+  "in": 603.73,
+  "out": 616.75,
+  "dur": 13.02,
+  "on_screen_hit": 0.82,
+  "vo": "Yaʿqūb ؑ grieves for his son until his eyes go white from it.",
+  "file": "076_scene-63_an-empty-wooden-chair-beside.jpg"
+ },
+ {
+  "scene": "64",
+  "in": 616.75,
+  "out": 637.03,
+  "dur": 20.28,
+  "on_screen_hit": 1.0,
+  "vo": "I complain of my anguish and my grief only to Allah.",
+  "file": "077_scene-64_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "scene": "65",
+  "in": 637.03,
+  "out": 644.81,
+  "dur": 7.78,
+  "on_screen_hit": 0.58,
+  "vo": "The Prophet ﷺ wept when his son Ibrāhīm died… the eye sheds tears and the heart grieves.",
+  "file": "078_scene-65_a-very-small-square-of.jpg"
+ },
+ {
+  "scene": "65B",
+  "in": 644.81,
+  "out": 652.59,
+  "dur": 7.78,
+  "on_screen_hit": 0.33,
+  "vo": "The Prophet ﷺ wept when his son Ibrāhīm died… the eye sheds tears and the heart grieves.",
+  "file": "079_scene-65b_close-up-on-the-texture.jpg"
+ },
+ {
+  "scene": "66",
+  "in": 652.59,
+  "out": 690.97,
+  "dur": 38.38,
+  "on_screen_hit": 0.91,
+  "vo": "Mūsā's mother — Allah bound her heart. Rabaṭnā ʿalā qalbihā. Tied it down.",
+  "file": "080_scene-66_a-small-boat-moored-to.jpg"
+ },
+ {
+  "scene": "67",
+  "in": 690.97,
+  "out": 701.32,
+  "dur": 10.35,
+  "on_screen_hit": 0.88,
+  "vo": "Settling is what lets you move on purpose instead of being moved.",
+  "file": "081_scene-67_a-person-in-a-charcoal.jpg"
+ },
+ {
+  "scene": "68",
+  "in": 701.32,
+  "out": 707.94,
+  "dur": 6.62,
+  "on_screen_hit": 1.0,
+  "vo": "Take a glass of river water and stir it.",
+  "file": "082_scene-68_a-plain-glass-of-river.jpg"
+ },
+ {
+  "scene": "69",
+  "in": 707.94,
+  "out": 719.78,
+  "dur": 11.84,
+  "on_screen_hit": 1.0,
+  "vo": "You cannot see through it — not because anything was added, but because everything in it is suspended.",
+  "file": "083_scene-69_a-plain-glass-of-cloudy.jpg"
+ },
+ {
+  "scene": "70",
+  "in": 719.78,
+  "out": 733.84,
+  "dur": 14.06,
+  "on_screen_hit": 1.0,
+  "vo": "Stir it faster — worse. Reach in to push the silt down — worse again.",
+  "file": "084_scene-70_a-plain-glass-of-river.jpg"
+ },
+ {
+  "scene": "71",
+  "in": 733.84,
+  "out": 741.17,
+  "dur": 7.33,
+  "on_screen_hit": 0.67,
+  "vo": "There is exactly one thing that clears that glass. You set it down. And you leave it.",
+  "file": "085_scene-71_a-plain-glass-of-cloudy.jpg"
+ },
+ {
+  "scene": "71B",
+  "in": 741.17,
+  "out": 748.5,
+  "dur": 7.33,
+  "on_screen_hit": 0.33,
+  "vo": "There is exactly one thing that clears that glass. You set it down. And you leave it.",
+  "file": "086_scene-71b_macro-shot-of-the-glass.jpg"
+ },
+ {
+  "scene": "72",
+  "in": 748.5,
+  "out": 766.38,
+  "dur": 17.88,
+  "on_screen_hit": 1.0,
+  "vo": "The silt does not leave. It is still in the glass.",
+  "file": "087_scene-72_a-plain-glass-of-river.jpg"
+ },
+ {
+  "scene": "72B",
+  "in": 766.38,
+  "out": 784.26,
+  "dur": 17.88,
+  "on_screen_hit": 0.0,
+  "vo": "The silt does not leave. It is still in the glass.",
+  "file": "088_scene-72b_close-macro-view-focusing-strictly.jpg"
+ },
+ {
+  "scene": "73",
+  "in": 784.26,
+  "out": 792.7,
+  "dur": 8.44,
+  "on_screen_hit": 1.0,
+  "vo": "The offer is that you can see through the water again.",
+  "file": "089_scene-73_a-plain-glass-of-clear.jpg"
+ },
+ {
+  "scene": "74",
+  "in": 792.7,
+  "out": 797.86,
+  "dur": 5.16,
+  "on_screen_hit": 0.4,
+  "vo": "Two men in a cave on Mount Thawr.",
+  "file": "090_scene-74_a-dark-rocky-mountainside-at.jpg"
+ },
+ {
+  "scene": "75",
+  "in": 797.86,
+  "out": 804.72,
+  "dur": 6.86,
+  "on_screen_hit": 0.5,
+  "vo": "Pursuers at the entrance — close enough that looking down at their own feet would have given them away.",
+  "file": "091_scene-75_the-view-from-deep-inside.jpg"
+ },
+ {
+  "scene": "76",
+  "in": 804.72,
+  "out": 824.03,
+  "dur": 19.31,
+  "on_screen_hit": 1.0,
+  "vo": "No weapon, no exit, no plan that anyone can see.",
+  "file": "092_scene-76_the-view-from-deep-inside.jpg"
+ },
+ {
+  "scene": "78",
+  "in": 824.03,
+  "out": 827.03,
+  "dur": 3.0,
+  "on_screen_hit": 0.0,
+  "vo": "So Allah sent down His sakīnah upon him.",
+  "file": "094_scene-78_the-view-from-deep-inside.jpg"
+ },
+ {
+  "scene": "79",
+  "in": 827.03,
+  "out": 869.67,
+  "dur": 42.64,
+  "on_screen_hit": 1.0,
+  "vo": "Sent down. In a cave. While the pursuers were still standing outside it.",
+  "file": "096_scene-79_the-view-from-deep-inside.jpg"
+ },
+ {
+  "scene": "82",
+  "in": 869.67,
+  "out": 877.87,
+  "dur": 8.2,
+  "on_screen_hit": 0.89,
+  "vo": "So what does this actually look like on an ordinary bad day.",
+  "file": "100_scene-82_an-ordinary-kitchen-table-at.jpg"
+ },
+ {
+  "scene": "83",
+  "in": 877.87,
+  "out": 895.49,
+  "dur": 17.62,
+  "on_screen_hit": 1.0,
+  "vo": "It does not mean you can produce calm on demand by wanting it badly enough.",
+  "file": "101_scene-83_two-hands-pressed-hard-against.jpg"
+ },
+ {
+  "scene": "84",
+  "in": 895.49,
+  "out": 919.93,
+  "dur": 24.44,
+  "on_screen_hit": 0.91,
+  "vo": "Dhikr has a tongue in it. When your chest is tight at two in the morning — say something.",
+  "file": "102_scene-84_a-dark-bedroom-seen-from.jpg"
+ },
+ {
+  "scene": "85",
+  "in": 919.93,
+  "out": 926.89,
+  "dur": 6.96,
+  "on_screen_hit": 0.5,
+  "vo": "Thinking harder about the thing that is stirring you is more stirring. It is reaching into the glass.",
+  "file": "103_scene-85_a-plain-glass-of-river.jpg"
+ },
+ {
+  "scene": "86",
+  "in": 926.89,
+  "out": 943.15,
+  "dur": 16.26,
+  "on_screen_hit": 1.0,
+  "vo": "You already have the training built into your day, five times, and most of us rush past it.",
+  "file": "104_scene-86_a-plain-reed-prayer-mat.jpg"
+ },
+ {
+  "scene": "87",
+  "in": 943.15,
+  "out": 948.35,
+  "dur": 5.2,
+  "on_screen_hit": 0.56,
+  "vo": "The one moment in twenty-four hours where you are required to stop moving.",
+  "file": "105_scene-87_a-close-low-study-of.jpg"
+ },
+ {
+  "scene": "87B",
+  "in": 948.35,
+  "out": 953.55,
+  "dur": 5.2,
+  "on_screen_hit": 0.22,
+  "vo": "The one moment in twenty-four hours where you are required to stop moving.",
+  "file": "106_scene-87b_slightly-wider-framing-of-the.jpg"
+ },
+ {
+  "scene": "88",
+  "in": 953.55,
+  "out": 988.27,
+  "dur": 34.72,
+  "on_screen_hit": 1.0,
+  "vo": "The man in the ḥadīth was not told to feel more. He was told to stop rushing.",
+  "file": "107_scene-88_a-wide-shallow-clay-bowl.jpg"
+ },
+ {
+  "scene": "90",
+  "in": 988.27,
+  "out": 1008.03,
+  "dur": 19.76,
+  "on_screen_hit": 1.0,
+  "vo": "Sit with them. Say less than you want to say.",
+  "file": "109_scene-90_two-people-sitting-side-by.jpg"
+ },
+ {
+  "scene": "91",
+  "in": 1008.03,
+  "out": 1018.77,
+  "dur": 10.74,
+  "on_screen_hit": 1.0,
+  "vo": "So keep the line where you can see it. Just let it be the size it actually is.",
+  "file": "110_scene-91_a-vast-bank-of-storm.jpg"
+ },
+ {
+  "scene": "92",
+  "in": 1018.77,
+  "out": 1039.01,
+  "dur": 20.24,
+  "on_screen_hit": 1.0,
+  "vo": "It is a description of how a heart is built — spoken inside a sūrah named after thunder.",
+  "file": "111_scene-92_a-wide-empty-rectangular-illuminated.jpg"
+ },
+ {
+  "scene": "93",
+  "in": 1039.01,
+  "out": 1059.57,
+  "dur": 20.56,
+  "on_screen_hit": 1.0,
+  "vo": "The heavy thing does not have to leave the glass for you to see through the water.",
+  "file": "112_scene-93_a-woman-in-a-soft.jpg"
+ },
+ {
+  "scene": "93B",
+  "in": 1059.57,
+  "out": 1080.13,
+  "dur": 20.56,
+  "on_screen_hit": 0.0,
+  "vo": "The heavy thing does not have to leave the glass for you to see through the water.",
+  "file": "113_scene-93b_close-up-on-the-window.jpg"
+ },
+ {
+  "scene": "95",
+  "in": 1080.13,
+  "out": 1083.7,
+  "dur": 3.57,
+  "on_screen_hit": 0.0,
+  "vo": "…May Allah make yours one of the settled ones.",
+  "file": "115_scene-95_a-bare-horizon-at-sunrise.jpg"
+ },
+ {
+  "scene": "95B",
+  "in": 1083.7,
+  "out": 1087.26,
+  "dur": 3.56,
+  "on_screen_hit": 1.0,
+  "vo": "…May Allah make yours one of the settled ones.",
+  "file": "116_scene-95b_final-wide-closing-frame-of.jpg"
+ }
+]
