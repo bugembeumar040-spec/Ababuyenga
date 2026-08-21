@@ -11,6 +11,51 @@ python3 tumaninah/timing/export.py           # -> shotlist.csv, SHOTLIST.md
 
 Defaults are `TOTAL=1264` (21:04) and `CONTENT_END=1185` (19:45).
 
+## How the cut is built
+
+```
+python3 tumaninah/timing/transcribe_all.py   # every upload -> asr_all.json
+python3 tumaninah/timing/classify.py         # which script each upload belongs to
+python3 tumaninah/timing/coverage.py         # where each take sits, and what is missing
+python3 tumaninah/timing/build.py --audio    # timeline + placed.json + voiceover.m4a
+python3 tumaninah/timing/export.py           # shotlist.csv, SHOTLIST.md, cards.csv
+python3 tumaninah/timing/preview.py          # watchable picture lock
+```
+
+## Why none of this is estimated any more
+
+The first pass estimated everything, and two of its assumptions were false.
+
+**The uploads are two different scripts.** Twenty of the 34 files are an earlier
+"honour your parents" video; only 14 are this study. Duration-fitting cannot tell
+them apart, so the first take selection was mostly the wrong video. `classify.py`
+separates them by content — 14 files score 76-97% against this script, 20 score
+3% or less, and nothing sits in between. The 14 then lay out in strict script
+order with no overlap or repeat, which is what confirms the set.
+
+**The transcript's AUDIO boundaries never described this script.** Taken
+literally they imply 452 wpm in one segment and 39 in another. They are ignored.
+
+Every in-point is now a measured word timestamp from `asr_all.json`. 79 of 116
+frames resolve that way.
+
+## The three unrecorded stretches
+
+About 3:50 of script has no audio, which is why the cut is 18:12 rather than the
+21:04 the table suggested:
+
+| script words | section | what is missing |
+|---|---|---|
+| 103-155 | end of 1 | "the line you have seen a hundred times" |
+| 852-1053 | opening of 5 | Ibrāhīm and 2:260 |
+| 1626-1989 | **all of 9** | THE NAME AT THE END — the Al-Fajr inversion |
+
+The 37 frames whose lines fall in those gaps are spaced between their neighbours
+and marked GAP in the shot list. Record the audio, re-run the pipeline, and they
+snap to real timestamps like the rest.
+
+## Old notes
+
 ## Why position is not taken from the AUDIO boundaries
 
 The transcript labels 13 audio boundaries. Taken literally they do not survive a

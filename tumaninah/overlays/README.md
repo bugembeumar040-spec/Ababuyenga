@@ -1,10 +1,15 @@
 # Overlay cards — Ṭumaʾnīnah (Ar-Raʿd 28)
 
-43 motion-graphics cards, one every 30 seconds across the 21:04 cut
-(0:00, 0:30, 1:00 … 21:00). Rendered with Remotion from `../cards-src`.
+37 motion-graphics cards, one every 30 seconds across the 18:12 cut
+(0:00, 0:30, 1:00 … 18:00). Rendered with Remotion from `../cards-src`.
 
-Each card's content is drawn from what is actually being said at that mark —
-see `../timing/cards.csv`, which also names the frame each card lands on top of.
+Each card's content is drawn from what is actually being said at that mark — read
+off the transcribed audio, not the written script, so the wording matches the
+delivery (the recording says "not forced numbness" where the script said
+"not sedation"). `../timing/cards.csv` has the grid and the frame under each card.
+
+Section 9, THE NAME AT THE END, was never recorded, so the Al-Fajr address is
+carried by card 36 in the close rather than by a section of its own.
 
 ## What is here
 
@@ -44,7 +49,7 @@ over any frame.
 
 ## Arabic
 
-29 of the 43 cards carry Arabic: Qurʾānic quotations, the root vocabulary the
+23 of the 37 cards carry Arabic: Qurʾānic quotations, the root vocabulary the
 study turns on (`طُمَأْنِينَة`, `السَّكِينَة`, `ذِكْر`, `سُجُود`), and one ḥadīth phrase —
 `حَتَّىٰ تَطْمَئِنَّ رَاكِعًا` on card 06, which is the evidence the whole word study rests
 on and would be odd to leave in transliteration.
@@ -62,6 +67,6 @@ rather than editing any file in this folder.
 ```
 cd ../cards-src
 npm install
-node render.mjs            # all 43
+node render.mjs            # all 37
 node render.mjs --only 17  # one card, by number
 ```

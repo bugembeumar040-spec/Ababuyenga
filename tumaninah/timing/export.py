@@ -27,3 +27,16 @@ with open('tumaninah/timing/SHOTLIST.md', 'w') as f:
             r['cut_order'], ts(r['in_s']), ts(r['out_s']), r['dur_s'], r['scene'],
             'word' if r['has_audio'] else '**gap**', r['file'], r['vo'].replace('|', '\\|')[:80]))
 print('exported', len(rows), 'shots')
+
+# The overlay grid, and the frame each card lands on.
+cards = json.load(open('tumaninah/cards-src/cards.json'))
+secs = lambda t: int(t.split(':')[0]) * 60 + int(t.split(':')[1])
+with open('tumaninah/timing/cards.csv', 'w', newline='') as f:
+    w = csv.writer(f)
+    w.writerow(['card', 'in', 'in_s', 'section', 'frame_under', 'scene', 'head', 'arabic', 'sub'])
+    for c in cards:
+        t = secs(c['t'])
+        u = [r for r in rows if r['in_s'] <= t < r['out_s']]
+        w.writerow([c['n'], c['t'], t, c['ch'], u[0]['file'] if u else '', c['scene'],
+                    c['head'], c['ar'], c['sub']])
+print('cards.csv: %d marks over %d:%02d' % (len(cards), tl['total'] // 60, tl['total'] % 60))
