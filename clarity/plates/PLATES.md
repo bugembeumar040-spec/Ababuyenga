@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 20
-images across 4 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 25
+images across 5 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -13,9 +13,9 @@ images across 4 batches, stored under `inbox/`.
 | S099 | 29:58 | two wash takes (b01-4, b02-4) | no — no line pass |
 | S013 | 2:08 | three wash takes (b03-2, b03-3, b03-5) | no — no line pass |
 | S014 | 2:27 | two wash takes on different seeds (b03-1, b03-4) | no — no line pass |
-| S010 | 1:24 | one wash take (b04-5) | no — no line pass |
-| S011 | 1:36 | two wash takes on different seeds (b04-1, b04-2) | no — no line pass |
-| S012 *or* S118 | 1:50 / 36:56 | two wash takes (b04-3, b04-4) | no — and which scene is unresolved |
+| S010 | 1:24 | three wash takes (b04-5, b05-3, b05-5) | no — no line pass |
+| S011 | 1:36 | four wash takes (b04-1, b04-2, b05-1, b05-4) | no — no line pass |
+| S012 *or* S118 | 1:50 / 36:56 | three wash takes (b04-3, b04-4, b05-2) | no — and which scene is unresolved |
 | unidentified | — | b01-3, b01-5 (hands over a block of leaves — S020 or S095) | cannot assign |
 | unidentified | — | b02-3, b02-5 (open book) | cannot assign |
 
@@ -38,7 +38,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` (line art, no colour, no wash) + `-wash` | **wash only, 20 of 20** |
+| passes | `-line` (line art, no colour, no wash) + `-wash` | **wash only, 25 of 25** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -82,3 +82,15 @@ for the two scenes in batch 3, to generate against and compare.
 
 One plate in batch 4 arrived at 2752x1536 rather than 1376x768, so output size
 is settable — it is just not set to what the pack asks for.
+
+## The seed is now demonstrably under control
+
+b05-img1 and b05-img4 correlate at **0.999** — different files, same image. That
+is the first proof in 25 plates that a seed can be held fixed across two runs.
+
+It isolates what is left. The pipeline can already hold a seed; it is simply
+running the same `-wash` prompt on it twice. Holding that seed and swapping in
+the `-line` block is the whole remaining step.
+
+`platecheck.py` compares every captured plate against every other and reports
+line passes, near-duplicates, and registering pairs.
