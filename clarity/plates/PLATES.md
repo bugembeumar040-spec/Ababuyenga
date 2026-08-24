@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 35
-images across 7 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 36
+images across 8 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -13,7 +13,7 @@ images across 7 batches, stored under `inbox/`.
 | S099 | 29:58 | two wash takes (b01-4, b02-4) | no — no line pass |
 | S013 | 2:08 | three wash takes (b03-2, b03-3, b03-5) | no — no line pass |
 | S014 | 2:27 | two wash takes on different seeds (b03-1, b03-4) | no — no line pass |
-| S002 *or* S034 | 0:02 / 9:15 | one wash take (b07-2) | no — and which scene is unresolved |
+| S002 *or* S034 | 0:02 / 9:15 | two wash takes on different seeds (b07-2, b08-1) | no — and which scene is unresolved |
 | S003 | 0:11 | one wash take (b07-5) | no — no line pass |
 | S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
@@ -41,7 +41,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` (line art, no colour, no wash) + `-wash` | **wash only, 35 of 35** |
+| passes | `-line` (line art, no colour, no wash) + `-wash` | **wash only, 36 of 36** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -52,7 +52,7 @@ passes, because the parchment ground is a warm tone and scores as saturated even
 under pure line art. What does separate them is **chroma spread across the
 non-ink area** — a wash lays down blobs of differing hue, flat paper does not.
 
-Across all 30 plates that figure runs 0.0367 to 0.0996 in an unbroken continuum.
+Across all 36 plates that figure runs 0.0367 to 0.0996 in an unbroken continuum.
 There are not two classes. The least-washed plate, b06-img4, is the most
 line-forward yet, but it still carries wash and does not register with its
 counterpart (0.286).
