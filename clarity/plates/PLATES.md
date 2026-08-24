@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 56
-images across 12 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 61
+images across 13 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -23,7 +23,8 @@ images across 12 batches, stored under `inbox/`.
 | S033 | 9:00 | two takes (b11-3, b11-4) on different seeds, 0.231 | no |
 | **S002 *or* S034** | 0:02 / 9:15 | **b11-1 + b12-2 — SECOND PAIR, 0.818, across two batches** | **yes on structure; which scene is still unresolved** |
 | S036 | 9:40 | two wash takes (b12-1, b12-5) | no |
-| S037 | 9:56 | one wash take (b12-4) | no |
+| S037 | 9:56 | two wash takes (b12-4, b13-4) on different seeds | no |
+| S040 | 11:00 | one wash take (b13-5) | no |
 | S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
 | S011 | 1:36 | four wash takes (b04-1, b04-2, b05-1, b05-4) | no — no line pass |
@@ -45,6 +46,18 @@ Note that the abstract ink marks in b09-img1, img2 and img4 are **compliant**.
 S025 asks for *"annotation reduced to abstract"* and S027 for *"columned pages
 of abstract ink marks"*. That is not the batch-2 violation, where a vellum
 scrap carried script no prompt had asked for.
+
+## Hard reject — batch 13
+
+**b13-img2 and b13-img3** are photographs on the same measure as the batch 11
+pair: border luminance 0.394 and 0.384, with 67% of the frame edge below 0.45,
+against 0.520–0.993 for every illustrated plate.
+
+Both attempt the same warm-above / cool-below subject that was rejected in batch
+11, so that subject has now produced four photographic plates and no usable one.
+Whatever prompt is being used for it is pulling the generator toward
+photography; it needs the style block re-pasted from the pack rather than
+another attempt.
 
 ## Hard reject — batch 11
 
@@ -77,7 +90,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` + `-wash` | **2 registering pairs in 56 plates** |
+| passes | `-line` + `-wash` | **2 registering pairs in 61 plates** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -205,3 +218,10 @@ Only b09-img4, pure ink on white, is unambiguous by measurement.
 and leaves the call to the eye. **Correlation needs no classification** — it
 directly answers whether two plates register, which is the question that
 actually gates the edit.
+
+## Checked, not a fault
+
+b13-img5 renders S040 with a single bird in an otherwise empty sky. That is
+correct: the prompt asks for *"a wash gradient from pale at the horizon to
+deeper above, and a single tiny bird high up."* It reads as an exception to the
+pack's emptiness rule and is not one.
