@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 46
-images across 10 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 51
+images across 11 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -20,6 +20,8 @@ images across 10 batches, stored under `inbox/`.
 | **S027** | 6:34 | line pass (b09-4) + a wash (b10-3) | **no — the two are on different seeds, 0.499** |
 | **S028** | 6:56 | **b10-1 + b10-4 — THE FIRST REGISTERING PAIR, 0.798** | **yes on structure, no on content — see below** |
 | S029 | 7:16 | b10-2 + b10-5, correct line/wash split but different seeds (0.121) | no |
+| S033 | 9:00 | two takes (b11-3, b11-4) on different seeds, 0.231 | no |
+| S002/S034 | 0:02 / 9:15 | a clean line plate (b11-1) joins the three washes | no — no shared seed |
 | S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
 | S011 | 1:36 | four wash takes (b04-1, b04-2, b05-1, b05-4) | no — no line pass |
@@ -42,6 +44,20 @@ S025 asks for *"annotation reduced to abstract"* and S027 for *"columned pages
 of abstract ink marks"*. That is not the batch-2 violation, where a vellum
 scrap carried script no prompt had asked for.
 
+## Hard reject — batch 11
+
+**b11-img2 and b11-img5** are photographs, not illustrations: a sheet of paper
+lying on a dark wooden table, with real grain, directional light and
+photographic depth of field. They are duplicates of each other (0.991).
+
+This is measurable rather than a matter of taste. Their border luminance is
+0.32, with roughly 78% of the frame edge darker than 0.45. Across the 46 plates
+captured before them, border luminance runs 0.520–0.993 and the largest
+dark-border fraction is 32%. Every illustrated plate is paper edge to edge;
+these two are paper photographed on something else.
+
+The pack's hard rule is *"No photoreal anything — ink and watercolour only."*
+
 ## Hard reject
 
 **b02-img2 (S018, second take)** carries generated writing: twelve-plus rows of
@@ -59,7 +75,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` + `-wash` | **1 registering pair in 46 plates** |
+| passes | `-line` + `-wash` | **1 registering pair in 51 plates** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
