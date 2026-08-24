@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 30
-images across 6 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 35
+images across 7 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -13,6 +13,9 @@ images across 6 batches, stored under `inbox/`.
 | S099 | 29:58 | two wash takes (b01-4, b02-4) | no — no line pass |
 | S013 | 2:08 | three wash takes (b03-2, b03-3, b03-5) | no — no line pass |
 | S014 | 2:27 | two wash takes on different seeds (b03-1, b03-4) | no — no line pass |
+| S002 *or* S034 | 0:02 / 9:15 | one wash take (b07-2) | no — and which scene is unresolved |
+| S003 | 0:11 | one wash take (b07-5) | no — no line pass |
+| S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
 | S011 | 1:36 | four wash takes (b04-1, b04-2, b05-1, b05-4) | no — no line pass |
 | S012 *or* S118 | 1:50 / 36:56 | three wash takes (b04-3, b04-4, b05-2) | no — and which scene is unresolved |
@@ -38,7 +41,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` (line art, no colour, no wash) + `-wash` | **wash only, 30 of 30** |
+| passes | `-line` (line art, no colour, no wash) + `-wash` | **wash only, 35 of 35** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -69,7 +72,15 @@ open book. Sending plates under their `SAVE AS` names makes this mechanical.
 - **S012 / S118 cannot be told apart by design.** The pack defines S118 as
   *"Return to S012's aerial"* — deliberately the same composition 35 minutes
   later. Only the `SAVE AS` name can separate these two.
-- **S099** (both takes) has the arrows but not the subject. The prompt asks for
+- **S099** (both takes) has the arrows but not the subject.
+- **S002 / S034 cannot be told apart by design**, for the same reason as
+  S012 / S118: the pack defines S034 as *"Return to S002's composition, closer
+  now."* Only the `SAVE AS` name separates them.
+
+Batch 7 is the strongest yet on fidelity. b07-5 reads S003 exactly, down to the
+cloak *"still holding the shape of a body that has gone"*, and both S004 takes
+keep the centre of the frame empty as the prompt asks. The art direction is
+landing; only the two-pass structure is missing. The prompt asks for
   *a bare hillcrest with a low stone position on it*, and says *"The empty
   position is the subject."* Neither take has a hillcrest or a stone position.
 
