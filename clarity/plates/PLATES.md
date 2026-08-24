@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 36
-images across 8 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 41
+images across 9 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -15,6 +15,9 @@ images across 8 batches, stored under `inbox/`.
 | S014 | 2:27 | two wash takes on different seeds (b03-1, b03-4) | no — no line pass |
 | S002 *or* S034 | 0:02 / 9:15 | two wash takes on different seeds (b07-2, b08-1) | no — and which scene is unresolved |
 | S003 | 0:11 | one wash take (b07-5) | no — no line pass |
+| S023 | 5:05 | two wash takes (b09-3, b09-5), correlating 0.552 | no — closest pair yet, still short |
+| S025 | 5:44 | two near-identical wash takes (b09-1, b09-2) | no — and see the photoreal question |
+| **S027** | 6:34 | **the line pass** (b09-4) | **no — needs its wash on the same seed** |
 | S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
 | S011 | 1:36 | four wash takes (b04-1, b04-2, b05-1, b05-4) | no — no line pass |
@@ -23,6 +26,19 @@ images across 8 batches, stored under `inbox/`.
 | unidentified | — | b02-3, b02-5 (open book) | cannot assign |
 
 **0 of 90 scenes are complete.**
+
+## One judgement call for the user
+
+b09-img1 and b09-img2 (S025) read as photoreal — real paper fibre, shallow depth
+of field, a photographic book gutter — against the pack's hard rule, *"No
+photoreal anything — ink and watercolour only."* Not rejected here, because
+unlike the batch-2 case this is a question of render style rather than a clear
+breach.
+
+Note that the abstract ink marks in b09-img1, img2 and img4 are **compliant**.
+S025 asks for *"annotation reduced to abstract"* and S027 for *"columned pages
+of abstract ink marks"*. That is not the batch-2 violation, where a vellum
+scrap carried script no prompt had asked for.
 
 ## Hard reject
 
@@ -41,7 +57,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` (line art, no colour, no wash) + `-wash` | **wash only, 36 of 36** |
+| passes | `-line` + `-wash` | **1 line pass, 40 wash, 41 total** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -52,10 +68,17 @@ passes, because the parchment ground is a warm tone and scores as saturated even
 under pure line art. What does separate them is **chroma spread across the
 non-ink area** — a wash lays down blobs of differing hue, flat paper does not.
 
-Across all 36 plates that figure runs 0.0367 to 0.0996 in an unbroken continuum.
-There are not two classes. The least-washed plate, b06-img4, is the most
-line-forward yet, but it still carries wash and does not register with its
-counterpart (0.286).
+Batch 9 settled it. **b09-img4 is a genuine line pass: 0.0023**, against
+0.0367–0.0996 for all forty wash plates. That is an order of magnitude apart —
+a separate class, not a lighter wash. Every earlier candidate, including
+b06-img4 at 0.0367, was a wash after all.
+
+It is `S027-line`, and it reads the prompt exactly, down to *"the columns
+visibly not aligning with each other."*
+
+**This proves the two-pass design works.** The generator produces line art when
+given the `-line` block. What is still missing is a pair: S027-line has no wash
+counterpart on its seed, so it composites with nothing.
 
 ## Identification
 

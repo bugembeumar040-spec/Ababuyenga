@@ -41,11 +41,16 @@ def main():
         elif r > 0.75: pair.append((a, b, r))
     n = lambda p: "/".join(p.split("/")[-1].split("-")[:2])
     print(f"{len(files)} plates captured")
-    lo = sorted(files, key=lambda f: s[f])[:3]
-    print("least-washed plates: " + ", ".join(f"{n(f)} {s[f]:.4f}" for f in lo))
-    print(f"chroma spread ranges {min(s.values()):.4f}-{max(s.values()):.4f} "
-          f"across {len(files)} plates -- a continuum, not two classes, so no plate "
-          f"is a line pass")
+    # A line pass sits an order of magnitude below the wash band: S027-line
+    # measures 0.0023 where every wash plate is 0.037 or above.
+    LINE = 0.020
+    lines = [f for f in files if s[f] < LINE]
+    washes = [f for f in files if s[f] >= LINE]
+    print(f"line passes (chroma spread < {LINE}): "
+          + (", ".join(f"{n(f)} {s[f]:.4f}" for f in lines) if lines else "NONE"))
+    if washes:
+        print(f"wash plates: {len(washes)}, chroma spread "
+              f"{min(s[f] for f in washes):.4f}-{max(s[f] for f in washes):.4f}")
     print(f"near-duplicates (>0.95): {[(n(a), n(b), round(r,3)) for a,b,r in dup] or 'none'}")
     print(f"registering pairs (0.75-0.95): {[(n(a), n(b), round(r,3)) for a,b,r in pair] or 'NONE'}")
 main()
