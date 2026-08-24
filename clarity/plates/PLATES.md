@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 15
-images across 3 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 20
+images across 4 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -13,6 +13,9 @@ images across 3 batches, stored under `inbox/`.
 | S099 | 29:58 | two wash takes (b01-4, b02-4) | no — no line pass |
 | S013 | 2:08 | three wash takes (b03-2, b03-3, b03-5) | no — no line pass |
 | S014 | 2:27 | two wash takes on different seeds (b03-1, b03-4) | no — no line pass |
+| S010 | 1:24 | one wash take (b04-5) | no — no line pass |
+| S011 | 1:36 | two wash takes on different seeds (b04-1, b04-2) | no — no line pass |
+| S012 *or* S118 | 1:50 / 36:56 | two wash takes (b04-3, b04-4) | no — and which scene is unresolved |
 | unidentified | — | b01-3, b01-5 (hands over a block of leaves — S020 or S095) | cannot assign |
 | unidentified | — | b02-3, b02-5 (open book) | cannot assign |
 
@@ -35,10 +38,10 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` (line art, no colour, no wash) + `-wash` | **wash only, 15 of 15** |
+| passes | `-line` (line art, no colour, no wash) + `-wash` | **wash only, 20 of 20** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
-| size | 1920x1080 | **1376x768** |
+| size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
 | ratio | 16:9 (1.778) | **1.792** |
 
 Saturation across batch 1 ran 93–99% of pixels above 0.15; batch 2 ran 48–98%.
@@ -53,6 +56,12 @@ open book. Sending plates under their `SAVE AS` names makes this mechanical.
 
 ## Prompt misses
 
+- **b04-5 (S010)** adds a bound volume with a gold clasp to the table. The
+  prompt asks only for loose leaves sorted into descending stacks. The stacks
+  themselves are right, and blank, as required.
+- **S012 / S118 cannot be told apart by design.** The pack defines S118 as
+  *"Return to S012's aerial"* — deliberately the same composition 35 minutes
+  later. Only the `SAVE AS` name can separate these two.
 - **S099** (both takes) has the arrows but not the subject. The prompt asks for
   *a bare hillcrest with a low stone position on it*, and says *"The empty
   position is the subject."* Neither take has a hillcrest or a stone position.
@@ -70,3 +79,6 @@ twice, on two different seeds — which also explains why no pair registers.
 
 `S013-line-PROMPT.txt` and `S014-line-PROMPT.txt` hold the exact line prompts
 for the two scenes in batch 3, to generate against and compare.
+
+One plate in batch 4 arrived at 2752x1536 rather than 1376x768, so output size
+is settable — it is just not set to what the pack asks for.
