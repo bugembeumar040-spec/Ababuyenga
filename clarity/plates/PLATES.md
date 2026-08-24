@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 66
-images across 14 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 67
+images across 15 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -27,7 +27,7 @@ images across 14 batches, stored under `inbox/`.
 | S040 | 11:00 | one wash take (b13-5) | no |
 | S041 | 11:22 | two takes (b14-3, b14-5) | no |
 | S043 | 12:12 | two takes (b14-2, b14-4) on different seeds | no |
-| S044 | 12:34 | one wash take (b14-1) | no |
+| S044 | 12:34 | two wash takes (b14-1, b15-1) on different seeds, 0.499 | no — b15-1 is the stronger plate |
 | S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
 | S011 | 1:36 | four wash takes (b04-1, b04-2, b05-1, b05-4) | no — no line pass |
@@ -93,7 +93,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` + `-wash` | **2 registering pairs in 66 plates** |
+| passes | `-line` + `-wash` | **2 registering pairs in 67 plates** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
