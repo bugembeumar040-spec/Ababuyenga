@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 41
-images across 9 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 46
+images across 10 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -17,7 +17,9 @@ images across 9 batches, stored under `inbox/`.
 | S003 | 0:11 | one wash take (b07-5) | no — no line pass |
 | S023 | 5:05 | two wash takes (b09-3, b09-5), correlating 0.552 | no — closest pair yet, still short |
 | S025 | 5:44 | two near-identical wash takes (b09-1, b09-2) | no — and see the photoreal question |
-| **S027** | 6:34 | **the line pass** (b09-4) | **no — needs its wash on the same seed** |
+| **S027** | 6:34 | line pass (b09-4) + a wash (b10-3) | **no — the two are on different seeds, 0.499** |
+| **S028** | 6:56 | **b10-1 + b10-4 — THE FIRST REGISTERING PAIR, 0.798** | **yes on structure, no on content — see below** |
+| S029 | 7:16 | b10-2 + b10-5, correct line/wash split but different seeds (0.121) | no |
 | S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
 | S011 | 1:36 | four wash takes (b04-1, b04-2, b05-1, b05-4) | no — no line pass |
@@ -57,7 +59,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` + `-wash` | **1 line pass, 40 wash, 41 total** |
+| passes | `-line` + `-wash` | **1 registering pair in 46 plates** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -135,3 +137,39 @@ the `-line` block is the whole remaining step.
 
 `platecheck.py` compares every captured plate against every other and reports
 line passes, near-duplicates, and registering pairs.
+
+## The first registering pair — and a content problem
+
+**b10-img1 + b10-img4 correlate at 0.798.** Same seed, same composition, one
+carrying the colour and one carrying the linework. Structurally this is the
+first compositable scene in 46 plates, and it proves the pipeline can do it.
+
+But the art is off-prompt. By position — b10-3 is S027 at 6:34, and this pair
+sits next in sequence — the pair is **S028**, whose prompt reads:
+
+> A single printed page corner, the heading area empty (text typeset in edit),
+> crisp early-20th-century print texture on cream stock. Slight foxing at edge.
+
+S028 illustrates *"The Cairo edition of nineteen twenty-four"* — a modern
+printed artefact, deliberately plain. What arrived is a medieval-style
+illuminated border with foliate ornament and gilding. Right technique, wrong
+century, and the plainness is the point of the shot.
+
+## On classifying line versus wash
+
+Three attempts to separate the passes by a single colour statistic have failed,
+and each failure looked convincing until checked:
+
+1. **Plain saturation** counts the warm parchment ground, so pure line art on
+   parchment scores as heavily saturated.
+2. **Chroma spread** counts the paper's foxing and stains, so it scored b06-img4
+   as the least-washed plate when it is a wash.
+3. **Indigo presence** passes any wash that happens to use a warm-only palette —
+   it labelled 15 of 46 plates line passes, most of them plainly washes.
+
+Only b09-img4, pure ink on white, is unambiguous by measurement.
+
+`platecheck.py` now reports indigo percentage and mark saturation as evidence
+and leaves the call to the eye. **Correlation needs no classification** — it
+directly answers whether two plates register, which is the question that
+actually gates the edit.
