@@ -24,3 +24,12 @@ treating a score as a defect.
 
 Status is in `ALIGNMENT.md`; the two batches that diverge from the script are
 written up in `DIVERGENCES.md`.
+
+## Scene alignment
+
+    python3 clarity/tools/cuesheet.py      # locate each scene's VO anchor in the master
+    python3 clarity/tools/cuesheet_md.py   # render CUESHEET.md
+
+`cuesheet.py` searches forward only, because several anchor lines recur verbatim
+across the film. It allows a short backward reach so scenes cued in the opposite
+order to their sentence are found and flagged rather than lost.

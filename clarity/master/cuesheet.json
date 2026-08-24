@@ -1,0 +1,1263 @@
+[
+ {
+  "scene": "S002",
+  "pack_cue": 2,
+  "real_cue": 0.0,
+  "score": 0.778,
+  "vo": "Hira. A cave on a mountain outside Mecca",
+  "plates": {
+   "line": "S002-line.png",
+   "wash": "S002-wash.png"
+  },
+  "drift": -2.0,
+  "out_of_order": false,
+  "recall": 0.8
+ },
+ {
+  "scene": "S003",
+  "pack_cue": 11,
+  "real_cue": 2.36,
+  "score": 0.875,
+  "vo": "a man of forty who cannot read",
+  "plates": {
+   "line": "S003-line.png",
+   "wash": "S003-wash.png"
+  },
+  "drift": -8.64,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S004",
+  "pack_cue": 19,
+  "real_cue": 6.22,
+  "score": 0.857,
+  "vo": "He has no pen, no scroll",
+  "plates": {
+   "line": "S004-line.png",
+   "wash": "S004-wash.png"
+  },
+  "drift": -12.78,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S006",
+  "pack_cue": 48,
+  "real_cue": 22.16,
+  "score": 0.6,
+  "vo": "One hundred and fourteen surahs. Twenty-three years.",
+  "plates": {
+   "line": "S006-line.png",
+   "wash": "S006-wash.png"
+  },
+  "drift": -25.84,
+  "out_of_order": false,
+  "recall": 0.75
+ },
+ {
+  "scene": "S008",
+  "pack_cue": 64,
+  "real_cue": 42.88,
+  "score": 0.636,
+  "vo": "Your mushaf runs from the longest surah to the shortest",
+  "plates": {
+   "line": "S008-line.png",
+   "wash": "S008-wash.png"
+  },
+  "drift": -21.12,
+  "out_of_order": false,
+  "recall": 0.714
+ },
+ {
+  "scene": "S010",
+  "pack_cue": 84,
+  "real_cue": 67.23,
+  "score": 0.923,
+  "vo": "It is like arranging someone's letters by how long each one is",
+  "plates": {
+   "line": "S010-line.png",
+   "wash": "S010-wash.png"
+  },
+  "drift": -16.77,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S011",
+  "pack_cue": 96,
+  "real_cue": 85.77000000000001,
+  "score": 0.889,
+  "vo": "people being beaten in the streets of Mecca",
+  "plates": {
+   "line": "S011-line.png",
+   "wash": "S011-wash.png"
+  },
+  "drift": -10.23,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S012",
+  "pack_cue": 110,
+  "real_cue": 106.67,
+  "score": 0.778,
+  "vo": "a plain called Arafat, with a hundred thousand people",
+  "plates": {
+   "line": "S012-line.png",
+   "wash": "S012-wash.png"
+  },
+  "drift": -3.33,
+  "out_of_order": false,
+  "recall": 0.8
+ },
+ {
+  "scene": "S013",
+  "pack_cue": 128,
+  "real_cue": 132.59,
+  "score": 0.923,
+  "vo": "one thing at the end that you will be able to use",
+  "plates": {
+   "line": "S013-line.png",
+   "wash": "S013-wash.png"
+  },
+  "drift": 4.59,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S014",
+  "pack_cue": 147,
+  "real_cue": 145.95999999999998,
+  "score": 0.5,
+  "vo": "Open a mushaf",
+  "plates": {
+   "line": "S014-line.png",
+   "wash": "S014-wash.png"
+  },
+  "drift": -1.04,
+  "out_of_order": false,
+  "recall": 0.5
+ },
+ {
+  "scene": "S016",
+  "pack_cue": 178,
+  "real_cue": 170.54,
+  "score": 0.75,
+  "vo": "By the nineties they are under twenty",
+  "plates": {
+   "line": "S016-line.png",
+   "wash": "S016-wash.png"
+  },
+  "drift": -7.46,
+  "out_of_order": false,
+  "recall": 0.8
+ },
+ {
+  "scene": "S018",
+  "pack_cue": 206,
+  "real_cue": 247.47,
+  "score": 0.857,
+  "vo": "preserved in memory and in writing",
+  "plates": {
+   "line": "S018-line.png",
+   "wash": "S018-wash.png"
+  },
+  "drift": 41.47,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S019",
+  "pack_cue": 232,
+  "real_cue": 263.29,
+  "score": 0.8,
+  "vo": "a battle at Yamama",
+  "plates": {
+   "line": "S019-line.png",
+   "wash": "S019-wash.png"
+  },
+  "drift": 31.29,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S020",
+  "pack_cue": 248,
+  "real_cue": 259.59,
+  "score": 0.833,
+  "vo": "collected into one written volume",
+  "plates": {
+   "line": "S020-line.png",
+   "wash": "S020-wash.png"
+  },
+  "drift": 11.59,
+  "out_of_order": true,
+  "recall": 1.0
+ },
+ {
+  "scene": "S021",
+  "pack_cue": 262,
+  "real_cue": 273.35,
+  "score": 0.889,
+  "vo": "copies were sent out to the major centres",
+  "plates": {
+   "line": "S021-line.png",
+   "wash": "S021-wash.png"
+  },
+  "drift": 11.35,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S023",
+  "pack_cue": 305,
+  "real_cue": 313.18,
+  "score": 0.727,
+  "vo": "Reading it in the order revealed is not a correction",
+  "plates": {
+   "line": "S023-line.png",
+   "wash": "S023-wash.png"
+  },
+  "drift": 8.18,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S025",
+  "pack_cue": 344,
+  "real_cue": 362.4,
+  "score": 0.875,
+  "vo": "asbab al-nuzul, the occasions of revelation",
+  "plates": {
+   "line": "S025-line.png",
+   "wash": "S025-wash.png"
+  },
+  "drift": 18.4,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S027",
+  "pack_cue": 394,
+  "real_cue": 386.79,
+  "score": 0.889,
+  "vo": "al-Suyuti records more than one such list",
+  "plates": {
+   "line": "S027-line.png",
+   "wash": "S027-wash.png"
+  },
+  "drift": -7.21,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S028",
+  "pack_cue": 416,
+  "real_cue": 394.87,
+  "score": 0.833,
+  "vo": "The Cairo edition of nineteen twenty-four",
+  "plates": {
+   "line": "S028-line.png",
+   "wash": "S028-wash.png"
+  },
+  "drift": -21.13,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S029",
+  "pack_cue": 436,
+  "real_cue": 419.55,
+  "score": 0.7,
+  "vo": "N\u00f6ldeke divided the Meccan period into three phases",
+  "plates": {
+   "line": "S029-line.png",
+   "wash": "S029-wash.png"
+  },
+  "drift": -16.45,
+  "out_of_order": false,
+  "recall": 0.75
+ },
+ {
+  "scene": "S032",
+  "pack_cue": 524,
+  "real_cue": 544.5799999999999,
+  "score": 0.6,
+  "vo": "Many surahs are mixed",
+  "plates": {
+   "line": "S032-line.png",
+   "wash": "S032-wash.png"
+  },
+  "drift": 20.58,
+  "out_of_order": false,
+  "recall": 0.75
+ },
+ {
+  "scene": "S033",
+  "pack_cue": 540,
+  "real_cue": 563.48,
+  "score": 0.75,
+  "vo": "Hold it loosely",
+  "plates": {
+   "line": "S033-line.png",
+   "wash": "S033-wash.png"
+  },
+  "drift": 23.48,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S034",
+  "pack_cue": 555,
+  "real_cue": 565.88,
+  "score": 0.8,
+  "vo": "Back to the cave",
+  "plates": {
+   "line": "S034-line.png",
+   "wash": "S034-wash.png"
+  },
+  "drift": 10.88,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S036",
+  "pack_cue": 580,
+  "real_cue": 584.19,
+  "score": 0.857,
+  "vo": "Created man from a clinging clot",
+  "plates": {
+   "line": "S036-line.png",
+   "wash": "S036-wash.png"
+  },
+  "drift": 4.19,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S037",
+  "pack_cue": 596,
+  "real_cue": 591.01,
+  "score": 0.833,
+  "vo": "Who taught by the pen",
+  "plates": {
+   "line": "S037-line.png",
+   "wash": "S037-wash.png"
+  },
+  "drift": -4.99,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S039",
+  "pack_cue": 638,
+  "real_cue": 632.97,
+  "score": 0.667,
+  "vo": "the rest of Al-Alaq is generally taken to be later",
+  "plates": {
+   "line": "S039-line.png",
+   "wash": "S039-wash.png"
+  },
+  "drift": -5.03,
+  "out_of_order": false,
+  "recall": 0.5
+ },
+ {
+  "scene": "S040",
+  "pack_cue": 660,
+  "real_cue": 652.59,
+  "score": 0.857,
+  "vo": "Then, according to most accounts, nothing.",
+  "plates": {
+   "line": "S040-line.png",
+   "wash": "S040-wash.png"
+  },
+  "drift": -7.41,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S041",
+  "pack_cue": 682,
+  "real_cue": 675.16,
+  "score": 0.917,
+  "vo": "he came down the mountain shaking and asked to be covered",
+  "plates": {
+   "line": "S041-line.png",
+   "wash": "S041-wash.png"
+  },
+  "drift": -6.84,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S043",
+  "pack_cue": 732,
+  "real_cue": 687.62,
+  "score": 0.75,
+  "vo": "arise, and warn",
+  "plates": {
+   "line": "S043-line.png",
+   "wash": "S043-wash.png"
+  },
+  "drift": -44.38,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S044",
+  "pack_cue": 754,
+  "real_cue": 706.76,
+  "score": 0.875,
+  "vo": "stand at night, but not all night",
+  "plates": {
+   "line": "S044-line.png",
+   "wash": "S044-wash.png"
+  },
+  "drift": -47.24,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S047",
+  "pack_cue": 798,
+  "real_cue": 771.6500000000001,
+  "score": 0.857,
+  "vo": "verses of three, four, six words",
+  "plates": {
+   "line": "S047-line.png",
+   "wash": "S047-wash.png"
+  },
+  "drift": -26.35,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S048",
+  "pack_cue": 814,
+  "real_cue": 788.49,
+  "score": 0.929,
+  "vo": "carried by memory through a city that does not want to hear it",
+  "plates": {
+   "line": "S048-line.png",
+   "wash": "S048-wash.png"
+  },
+  "drift": -25.51,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S049",
+  "pack_cue": 836,
+  "real_cue": 797.3100000000001,
+  "score": 0.857,
+  "vo": "when the sun is folded up",
+  "plates": {
+   "line": "S049-line.png",
+   "wash": "S049-wash.png"
+  },
+  "drift": -38.69,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S050",
+  "pack_cue": 856,
+  "real_cue": 800.75,
+  "score": 0.9,
+  "vo": "a man who spent his life counting his wealth",
+  "plates": {
+   "line": "S050-line.png",
+   "wash": "S050-wash.png"
+  },
+  "drift": -55.25,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S051",
+  "pack_cue": 876,
+  "real_cue": 806.0300000000001,
+  "score": 0.833,
+  "vo": "The orphan you pushed away",
+  "plates": {
+   "line": "S051-line.png",
+   "wash": "S051-wash.png"
+  },
+  "drift": -69.97,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S052",
+  "pack_cue": 892,
+  "real_cue": 811.23,
+  "score": 0.857,
+  "vo": "two roads and a steep one",
+  "plates": {
+   "line": "S052-line.png",
+   "wash": "S052-wash.png"
+  },
+  "drift": -80.77,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S053",
+  "pack_cue": 916,
+  "real_cue": 858.42,
+  "score": 0.778,
+  "vo": "Al-Masad. It is about one specific man.",
+  "plates": {
+   "line": "S053-line.png",
+   "wash": "S053-wash.png"
+  },
+  "drift": -57.58,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S054",
+  "pack_cue": 938,
+  "real_cue": 885.22,
+  "score": 0.571,
+  "vo": "his sons had died in infancy",
+  "plates": {
+   "line": "S054-line.png",
+   "wash": "S054-wash.png"
+  },
+  "drift": -52.78,
+  "out_of_order": false,
+  "recall": 0.8
+ },
+ {
+  "scene": "S057",
+  "pack_cue": 986,
+  "real_cue": 965.79,
+  "score": 0.875,
+  "vo": "the hot stones of the valley floor",
+  "plates": {
+   "line": "S057-line.png",
+   "wash": "S057-wash.png"
+  },
+  "drift": -20.21,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S058",
+  "pack_cue": 1012,
+  "real_cue": 978.31,
+  "score": 0.875,
+  "vo": "the first person to die for this",
+  "plates": {
+   "line": "S058-line.png",
+   "wash": "S058-wash.png"
+  },
+  "drift": -33.69,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S059",
+  "pack_cue": 1032,
+  "real_cue": 989.53,
+  "score": 0.875,
+  "vo": "the mountains will be like carded wool",
+  "plates": {
+   "line": "S059-line.png",
+   "wash": "S059-wash.png"
+  },
+  "drift": -42.47,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S062",
+  "pack_cue": 1078,
+  "real_cue": 1055.16,
+  "score": 0.833,
+  "vo": "sustained narrative. Stories, with scenes.",
+  "plates": {
+   "line": "S062-line.png",
+   "wash": "S062-wash.png"
+  },
+  "drift": -22.84,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S064",
+  "pack_cue": 1106,
+  "real_cue": 1063.5,
+  "score": 0.833,
+  "vo": "Musa in front of Pharaoh",
+  "plates": {
+   "line": "S064-line.png",
+   "wash": "S064-wash.png"
+  },
+  "drift": -42.5,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S065",
+  "pack_cue": 1124,
+  "real_cue": 1065.98,
+  "score": 0.833,
+  "vo": "Ibrahim asking his father why he is worshipping something he carved",
+  "plates": {
+   "line": "S065-line.png",
+   "wash": "S065-wash.png"
+  },
+  "drift": -58.02,
+  "out_of_order": false,
+  "recall": 0.9
+ },
+ {
+  "scene": "S066",
+  "pack_cue": 1142,
+  "real_cue": 1070.74,
+  "score": 0.875,
+  "vo": "Nuh building in the middle of nowhere",
+  "plates": {
+   "line": "S066-line.png",
+   "wash": "S066-wash.png"
+  },
+  "drift": -71.26,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S067",
+  "pack_cue": 1160,
+  "real_cue": 1086.14,
+  "score": 0.8,
+  "vo": "the best of narrations",
+  "plates": {
+   "line": "S067-line.png",
+   "wash": "S067-wash.png"
+  },
+  "drift": -73.86,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S069",
+  "pack_cue": 1202,
+  "real_cue": 1150.71,
+  "score": 0.875,
+  "vo": "cross the Red Sea to seek refuge",
+  "plates": {
+   "line": "S069-line.png",
+   "wash": "S069-wash.png"
+  },
+  "drift": -51.29,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S070",
+  "pack_cue": 1222,
+  "real_cue": 1159.37,
+  "score": 0.9,
+  "vo": "the case is argued in front of the throne",
+  "plates": {
+   "line": "S070-line.png",
+   "wash": "S070-wash.png"
+  },
+  "drift": -62.63,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S071",
+  "pack_cue": 1244,
+  "real_cue": 1182.27,
+  "score": 0.727,
+  "vo": "four hundred miles away, in the one week it is needed",
+  "plates": {
+   "line": "S071-line.png",
+   "wash": "S071-wash.png"
+  },
+  "drift": -61.73,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S072",
+  "pack_cue": 1266,
+  "real_cue": 1193.37,
+  "score": 0.875,
+  "vo": "on his way to kill the Prophet",
+  "plates": {
+   "line": "S072-line.png",
+   "wash": "S072-wash.png"
+  },
+  "drift": -72.63,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S073",
+  "pack_cue": 1282,
+  "real_cue": 1198.03,
+  "score": 0.75,
+  "vo": "finds her reciting",
+  "plates": {
+   "line": "S073-line.png",
+   "wash": "S073-wash.png"
+  },
+  "drift": -83.97,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S074",
+  "pack_cue": 1304,
+  "real_cue": 1219.98,
+  "score": 0.5,
+  "vo": "a slow squeeze",
+  "plates": {
+   "line": "S074-line.png",
+   "wash": "S074-wash.png"
+  },
+  "drift": -84.02,
+  "out_of_order": false,
+  "recall": 0.5
+ },
+ {
+  "scene": "S075",
+  "pack_cue": 1322,
+  "real_cue": 1236.02,
+  "score": 0.571,
+  "vo": "The reports describe people eating leaves",
+  "plates": {
+   "line": "S075-line.png",
+   "wash": "S075-wash.png"
+  },
+  "drift": -85.98,
+  "out_of_order": false,
+  "recall": 0.6
+ },
+ {
+  "scene": "S076",
+  "pack_cue": 1336,
+  "real_cue": 1247.84,
+  "score": 0.333,
+  "vo": "Khadija dies",
+  "plates": {
+   "line": "S076-line.png",
+   "wash": "S076-wash.png"
+  },
+  "drift": -88.16,
+  "out_of_order": false,
+  "recall": 0.5
+ },
+ {
+  "scene": "S077",
+  "pack_cue": 1360,
+  "real_cue": 1278.86,
+  "score": 0.615,
+  "vo": "Abu Talib's protection stood in the way, and now it does not",
+  "plates": {
+   "line": "S077-line.png",
+   "wash": "S077-wash.png"
+  },
+  "drift": -81.14,
+  "out_of_order": false,
+  "recall": 0.571
+ },
+ {
+  "scene": "S079",
+  "pack_cue": 1392,
+  "real_cue": 1298.65,
+  "score": 0.3,
+  "vo": "driven out of it by a crowd throwing stones",
+  "plates": {
+   "line": "S079-line.png",
+   "wash": "S079-wash.png"
+  },
+  "drift": -93.35,
+  "out_of_order": false,
+  "recall": 0.0,
+  "interpolated": true
+ },
+ {
+  "scene": "S080",
+  "pack_cue": 1414,
+  "real_cue": 1312.25,
+  "score": 0.8,
+  "vo": "a journey by night",
+  "plates": {
+   "line": "S080-line.png",
+   "wash": "S080-wash.png"
+  },
+  "drift": -101.75,
+  "out_of_order": true,
+  "recall": 1.0
+ },
+ {
+  "scene": "S082",
+  "pack_cue": 1458,
+  "real_cue": 1349.15,
+  "score": 0.8,
+  "vo": "the five daily prayers",
+  "plates": {
+   "line": "S082-line.png",
+   "wash": "S082-wash.png"
+  },
+  "drift": -108.85,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S085",
+  "pack_cue": 1520,
+  "real_cue": 1461.16,
+  "score": 0.833,
+  "vo": "a dated, checkable, falsifiable prediction",
+  "plates": {
+   "line": "S085-line.png",
+   "wash": "S085-wash.png"
+  },
+  "drift": -58.84,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S086",
+  "pack_cue": 1542,
+  "real_cue": 1478.16,
+  "score": 0.375,
+  "vo": "delegations from Yathrib meet him at Aqaba",
+  "plates": {
+   "line": "S086-line.png",
+   "wash": "S086-wash.png"
+  },
+  "drift": -63.84,
+  "out_of_order": false,
+  "recall": 0.5
+ },
+ {
+  "scene": "S088",
+  "pack_cue": 1571,
+  "real_cue": 1519.94,
+  "score": 0.5,
+  "vo": "Six hundred and twenty-two. The Hijra.",
+  "plates": {
+   "line": "S088-line.png",
+   "wash": "S088-wash.png"
+  },
+  "drift": -51.06,
+  "out_of_order": false,
+  "recall": 0.5
+ },
+ {
+  "scene": "S091",
+  "pack_cue": 1624,
+  "real_cue": 1528.71,
+  "score": 0.889,
+  "vo": "verses that ran four words now run forty",
+  "plates": {
+   "line": "S091-line.png",
+   "wash": "S091-wash.png"
+  },
+  "drift": -95.29,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S092",
+  "pack_cue": 1646,
+  "real_cue": 1607.53,
+  "score": 0.875,
+  "vo": "turn your face toward the Sacred Mosque",
+  "plates": {
+   "line": "S092-line.png",
+   "wash": "S092-wash.png"
+  },
+  "drift": -38.47,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S093",
+  "pack_cue": 1668,
+  "real_cue": 1610.8300000000002,
+  "score": 0.833,
+  "vo": "Fasting in Ramadan is prescribed",
+  "plates": {
+   "line": "S093-line.png",
+   "wash": "S093-wash.png"
+  },
+  "drift": -57.17,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S094",
+  "pack_cue": 1688,
+  "real_cue": 1619.5900000000001,
+  "score": 0.8,
+  "vo": "A prohibition of riba",
+  "plates": {
+   "line": "S094-line.png",
+   "wash": "S094-wash.png"
+  },
+  "drift": -68.41,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S095",
+  "pack_cue": 1708,
+  "real_cue": 1633.43,
+  "score": 0.625,
+  "vo": "It is about writing down a loan",
+  "plates": {
+   "line": "S095-line.png",
+   "wash": "S095-wash.png"
+  },
+  "drift": -74.57,
+  "out_of_order": false,
+  "recall": 0.75
+ },
+ {
+  "scene": "S097",
+  "pack_cue": 1754,
+  "real_cue": 1659.6,
+  "score": 0.917,
+  "vo": "the folding of the sun and the scattering of the stars",
+  "plates": {
+   "line": "S097-line.png",
+   "wash": "S097-wash.png"
+  },
+  "drift": -94.4,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S098",
+  "pack_cue": 1776,
+  "real_cue": 1702.76,
+  "score": 0.714,
+  "vo": "Badr. Roughly three hundred against a thousand.",
+  "plates": {
+   "line": "S098-line.png",
+   "wash": "S098-wash.png"
+  },
+  "drift": -73.24,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S099",
+  "pack_cue": 1798,
+  "real_cue": 1718.8799999999999,
+  "score": 0.923,
+  "vo": "a group of archers leave a position they were told to hold",
+  "plates": {
+   "line": "S099-line.png",
+   "wash": "S099-wash.png"
+  },
+  "drift": -79.12,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S101",
+  "pack_cue": 1842,
+  "real_cue": 1759.25,
+  "score": 0.833,
+  "vo": "inheritance shares given as fractions",
+  "plates": {
+   "line": "S101-line.png",
+   "wash": "S101-wash.png"
+  },
+  "drift": -82.75,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S103",
+  "pack_cue": 1881,
+  "real_cue": 1841.34,
+  "score": 0.833,
+  "vo": "The defenders dig a trench",
+  "plates": {
+   "line": "S103-line.png",
+   "wash": "S103-wash.png"
+  },
+  "drift": -39.66,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S104",
+  "pack_cue": 1904,
+  "real_cue": 1841.0,
+  "score": 0.333,
+  "vo": "ten thousand men",
+  "plates": {
+   "line": "S104-line.png",
+   "wash": "S104-wash.png"
+  },
+  "drift": -63.0,
+  "out_of_order": true,
+  "recall": 0.5
+ },
+ {
+  "scene": "S105",
+  "pack_cue": 1926,
+  "real_cue": 1863.06,
+  "score": 0.8,
+  "vo": "hearts reached their throats",
+  "plates": {
+   "line": "S105-line.png",
+   "wash": "S105-wash.png"
+  },
+  "drift": -62.94,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S106",
+  "pack_cue": 1948,
+  "real_cue": 1875.72,
+  "score": 0.9,
+  "vo": "the accusation runs through Medina for roughly a month",
+  "plates": {
+   "line": "S106-line.png",
+   "wash": "S106-wash.png"
+  },
+  "drift": -72.28,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S108",
+  "pack_cue": 2000,
+  "real_cue": 1920.79,
+  "score": 0.8,
+  "vo": "They travel toward Mecca, unarmed, and are stopped short",
+  "plates": {
+   "line": "S108-line.png",
+   "wash": "S108-wash.png"
+  },
+  "drift": -79.21,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S109",
+  "pack_cue": 2024,
+  "real_cue": 1951.45,
+  "score": 0.5,
+  "vo": "the phrase is struck out",
+  "plates": {
+   "line": "S109-line.png",
+   "wash": "S109-wash.png"
+  },
+  "drift": -72.55,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S111",
+  "pack_cue": 2068,
+  "real_cue": 1972.65,
+  "score": 0.875,
+  "vo": "The truce ends the state of siege",
+  "plates": {
+   "line": "S111-line.png",
+   "wash": "S111-wash.png"
+  },
+  "drift": -95.35,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S112",
+  "pack_cue": 2092,
+  "real_cue": 2015.68,
+  "score": 0.889,
+  "vo": "Do not let a group mock another group",
+  "plates": {
+   "line": "S112-line.png",
+   "wash": "S112-wash.png"
+  },
+  "drift": -76.32,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S113",
+  "pack_cue": 2114,
+  "real_cue": 2033.34,
+  "score": 0.929,
+  "vo": "would any of you like to eat the flesh of his dead brother?",
+  "plates": {
+   "line": "S113-line.png",
+   "wash": "S113-wash.png"
+  },
+  "drift": -80.66,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S115",
+  "pack_cue": 2148,
+  "real_cue": 2044.52,
+  "score": 0.909,
+  "vo": "peoples and tribes so that you may know one another",
+  "plates": {
+   "line": "S115-line.png",
+   "wash": "S115-wash.png"
+  },
+  "drift": -103.48,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S117",
+  "pack_cue": 2194,
+  "real_cue": 2077.1,
+  "score": 0.727,
+  "vo": "the only surah that does not begin with the Bismillah",
+  "plates": {
+   "line": "S117-line.png",
+   "wash": "S117-wash.png"
+  },
+  "drift": -116.9,
+  "out_of_order": false,
+  "recall": 0.8
+ },
+ {
+  "scene": "S118",
+  "pack_cue": 2216,
+  "real_cue": 2098.32,
+  "score": 0.833,
+  "vo": "on the plain of Arafat",
+  "plates": {
+   "line": "S118-line.png",
+   "wash": "S118-wash.png"
+  },
+  "drift": -117.68,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S120",
+  "pack_cue": 2260,
+  "real_cue": 2134.75,
+  "score": 0.9,
+  "vo": "nothing is completed except that it begins to decline",
+  "plates": {
+   "line": "S120-line.png",
+   "wash": "S120-wash.png"
+  },
+  "drift": -125.25,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S124",
+  "pack_cue": 2334,
+  "real_cue": 2245.9700000000003,
+  "score": 0.833,
+  "vo": "abrogation stops looking like contradiction",
+  "plates": {
+   "line": "S124-line.png",
+   "wash": "S124-wash.png"
+  },
+  "drift": -88.03,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S127",
+  "pack_cue": 2410,
+  "real_cue": 2322.9900000000002,
+  "score": 0.857,
+  "vo": "Al-Fatiha's position is a decision",
+  "plates": {
+   "line": "S127-line.png",
+   "wash": "S127-wash.png"
+  },
+  "drift": -87.01,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S129",
+  "pack_cue": 2462,
+  "real_cue": 2385.5,
+  "score": 0.889,
+  "vo": "you will not be able to unsee it",
+  "plates": {
+   "line": "S129-line.png",
+   "wash": "S129-wash.png"
+  },
+  "drift": -76.5,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S131",
+  "pack_cue": 2506,
+  "real_cue": 2429.82,
+  "score": 0.833,
+  "vo": "it arrived in year sixteen",
+  "plates": {
+   "line": "S131-line.png",
+   "wash": "S131-wash.png"
+  },
+  "drift": -76.18,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S132",
+  "pack_cue": 2522,
+  "real_cue": 2445.99,
+  "score": 0.857,
+  "vo": "the work of people who counted",
+  "plates": {
+   "line": "S132-line.png",
+   "wash": "S132-wash.png"
+  },
+  "drift": -76.01,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S133",
+  "pack_cue": 2548,
+  "real_cue": 2457.91,
+  "score": 0.889,
+  "vo": "preserved the disagreement instead of quietly deleting it",
+  "plates": {
+   "line": "S133-line.png",
+   "wash": "S133-wash.png"
+  },
+  "drift": -90.09,
+  "out_of_order": false,
+  "recall": 1.0
+ },
+ {
+  "scene": "S135",
+  "pack_cue": 2582,
+  "real_cue": 2503.5499999999997,
+  "score": 0.9,
+  "vo": "Read, in the name of your Lord who created",
+  "plates": {
+   "line": "S135-line.png",
+   "wash": "S135-wash.png"
+  },
+  "drift": -78.45,
+  "out_of_order": false,
+  "recall": 1.0
+ }
+]
