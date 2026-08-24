@@ -86,6 +86,35 @@ def main():
         rows.append(dict(scene=s["scene"], pack_cue=s["cue"], real_cue=t,
                          score=round(score, 3), vo=s["vo"], plates=s["plates"],
                          drift=None if t is None else round(t - s["cue"], 2)))
+    # Placement confidence: what share of an anchor's distinctive words actually
+    # appear around the matched time. Sequence ratio alone punishes short anchors
+    # ("Open a mushaf") that are correctly placed, so recall is what decides
+    # whether a scene is placeable at all.
+    STOP = set("a an the and or of to in is was be it that this for on at as with "
+               "by not no".split())
+    for r in rows:
+        t = r["real_cue"]
+        if t is None:
+            r["recall"] = 0.0
+            continue
+        ctx = {w for tt, w in words if t - 4 <= tt <= t + 10}
+        a = [x for x in norm(r["vo"]) if x not in STOP]
+        r["recall"] = round(sum(1 for x in a if x in ctx) / len(a), 3) if a else 0.0
+
+    # A scene whose anchor line is absent from the recording has no measurable
+    # cue. Interpolate one from its neighbours so the plate still has somewhere
+    # to sit, and mark it so it is never mistaken for a measurement.
+    UNPLACEABLE = 0.20
+    for i, r in enumerate(rows):
+        if r["recall"] >= UNPLACEABLE: continue
+        prev = next((x for x in reversed(rows[:i]) if x["recall"] >= UNPLACEABLE), None)
+        nxt = next((x for x in rows[i + 1:] if x["recall"] >= UNPLACEABLE), None)
+        if prev and nxt and nxt["pack_cue"] != prev["pack_cue"]:
+            f = (r["pack_cue"] - prev["pack_cue"]) / (nxt["pack_cue"] - prev["pack_cue"])
+            r["real_cue"] = round(prev["real_cue"] + f * (nxt["real_cue"] - prev["real_cue"]), 2)
+            r["drift"] = round(r["real_cue"] - r["pack_cue"], 2)
+            r["interpolated"] = True
+
     # A scene cued before another it actually follows in the audio is an
     # ordering fault in the pack, not a matching failure -- flag it from the
     # final sequence rather than mid-search.

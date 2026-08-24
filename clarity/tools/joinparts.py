@@ -3,20 +3,23 @@
 
 A batch too large for the generator's policy check as a whole can be recorded in
 parts and rejoined here. The seam sits at a paragraph boundary, so it is padded
-to the natural paragraph pause measured across the other batches (1.00s median),
-not the 350ms used between batches -- a 350ms gap mid-batch reads as a clipped
-edit.
+to the paragraph-scale pause measured from the waveforms (0.43s median; the
+overall median silence inside a batch is 0.28s). An earlier 1.00s figure here
+was derived from whisper word gaps and was inflated by roughly 0.3s at each end
+by its timestamp error.
 """
 import argparse, glob, json, os, re, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from transcribe import run
+from sil import bounds as speech      # waveform, not ASR -- see sil.py
 
 FF, MARGIN = "ffmpeg", 0.08
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("batch", type=int)
-    ap.add_argument("--gap", type=float, default=1.00, help="seam gap, seconds")
+    ap.add_argument("--gap", type=float, default=0.43,
+                    help="seam gap; 0.43s is the median paragraph-scale silence "
+                         "measured from the waveforms")
     ap.add_argument("--parts", default="clarity/vo/parts")
     a = ap.parse_args()
 
@@ -26,12 +29,10 @@ def main():
 
     cut = []
     for f in files:
-        r = run(f, outdir=f"{a.parts}/transcripts")
-        tr = json.load(open(f"{a.parts}/transcripts/{r['name']}.json"))
-        ws = [w for s in tr["segs"] for w in s["w"]]
-        st, en = max(0.0, ws[0][0] - MARGIN), min(tr["dur"], ws[-1][1] + MARGIN)
-        cut.append(dict(f=f, st=st, en=en, lead=ws[0][0] - st, trail=en - ws[-1][1]))
-        print(f"  {os.path.basename(f)}  {tr['dur']:.2f}s  speech {ws[0][0]:.2f}-{ws[-1][1]:.2f}")
+        sin, sout, dur = speech(f)
+        st, en = max(0.0, sin - MARGIN), min(dur, sout + MARGIN)
+        cut.append(dict(f=f, st=st, en=en, lead=sin - st, trail=en - sout))
+        print(f"  {os.path.basename(f)}  {dur:.2f}s  speech {sin:.2f}-{sout:.2f}")
 
     for i, c in enumerate(cut):
         c["pad"] = 0.0 if i == len(cut) - 1 else \

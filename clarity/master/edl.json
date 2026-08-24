@@ -1,396 +1,396 @@
 {
  "gap": 0.35,
  "margin": 0.08,
- "total": 2515.59,
+ "total": 2524.87,
  "batches": [
   {
    "batch": 1,
    "file": "batch-01.mp3",
    "start": 0.0,
-   "end": 64.54,
-   "speech_in": 0.0,
-   "speech_out": 64.46,
+   "end": 65.149,
+   "speech_in": 0.06,
+   "speech_out": 65.12,
    "src_trim": [
     0.0,
-    64.54
+    65.149
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.301,
    "join_gap": 0.35
   },
   {
    "batch": 2,
    "file": "batch-02.mp3",
-   "start": 64.81,
-   "end": 141.05,
-   "speech_in": 64.81,
-   "speech_out": 140.97,
+   "start": 65.45,
+   "end": 141.884,
+   "speech_in": 65.47,
+   "speech_out": 141.85,
    "src_trim": [
     0.0,
-    76.24
+    76.434
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.296,
    "join_gap": 0.35
   },
   {
    "batch": 3,
    "file": "batch-03.mp3",
-   "start": 141.32,
-   "end": 231.98,
-   "speech_in": 141.32,
-   "speech_out": 231.9,
+   "start": 142.18,
+   "end": 233.086,
+   "speech_in": 142.2,
+   "speech_out": 233.08,
    "src_trim": [
     0.0,
-    90.66
+    90.906
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.264,
    "join_gap": 0.35
   },
   {
    "batch": 4,
    "file": "batch-04.mp3",
-   "start": 232.25,
-   "end": 305.55,
-   "speech_in": 232.25,
-   "speech_out": 305.47,
+   "start": 233.35,
+   "end": 306.754,
+   "speech_in": 233.43,
+   "speech_out": 306.73,
    "src_trim": [
     0.0,
-    73.3
+    73.404
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.306,
    "join_gap": 0.35
   },
   {
    "batch": 5,
    "file": "batch-05.mp3",
-   "start": 305.82,
-   "end": 372.16,
-   "speech_in": 305.82,
-   "speech_out": 372.08,
+   "start": 307.06,
+   "end": 373.72,
+   "speech_in": 307.08,
+   "speech_out": 373.64,
    "src_trim": [
     0.0,
-    66.34
+    66.66
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.21,
    "join_gap": 0.35
   },
   {
    "batch": 6,
    "file": "batch-06.mp3",
-   "start": 372.43,
-   "end": 461.25,
-   "speech_in": 372.43,
-   "speech_out": 461.17,
+   "start": 373.93,
+   "end": 462.929,
+   "speech_in": 373.99,
+   "speech_out": 462.91,
    "src_trim": [
     0.0,
-    88.82
+    88.999
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.251,
    "join_gap": 0.35
   },
   {
    "batch": 7,
    "file": "batch-07.mp3",
-   "start": 461.52,
-   "end": 566.56,
-   "speech_in": 461.52,
-   "speech_out": 566.48,
+   "start": 463.18,
+   "end": 568.506,
+   "speech_in": 463.26,
+   "speech_out": 568.5,
    "src_trim": [
     0.0,
-    105.04
+    105.326
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.324,
    "join_gap": 0.35
   },
   {
    "batch": 8,
    "file": "batch-08.mp3",
-   "start": 566.83,
-   "end": 653.27,
-   "speech_in": 566.83,
-   "speech_out": 653.19,
+   "start": 568.83,
+   "end": 655.504,
+   "speech_in": 568.85,
+   "speech_out": 655.47,
    "src_trim": [
     0.0,
-    86.44
+    86.674
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.296,
    "join_gap": 0.35
   },
   {
    "batch": 9,
    "file": "batch-09.mp3",
-   "start": 653.54,
-   "end": 745.06,
-   "speech_in": 653.54,
-   "speech_out": 744.98,
+   "start": 655.8,
+   "end": 747.516,
+   "speech_in": 655.82,
+   "speech_out": 747.5,
    "src_trim": [
     0.0,
-    91.52
+    91.716
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.294,
    "join_gap": 0.35
   },
   {
    "batch": 10,
    "file": "batch-10.mp3",
-   "start": 745.33,
-   "end": 849.846,
-   "speech_in": 745.33,
-   "speech_out": 849.81,
+   "start": 747.81,
+   "end": 852.326,
+   "speech_in": 747.85,
+   "speech_out": 852.31,
    "src_trim": [
     0.0,
     104.516
    ],
-   "pad_after": 0.314,
+   "pad_after": 0.254,
    "join_gap": 0.35
   },
   {
    "batch": 11,
    "file": "batch-11.mp3",
-   "start": 850.16,
-   "end": 933.38,
-   "speech_in": 850.16,
-   "speech_out": 933.3,
+   "start": 852.58,
+   "end": 936.067,
+   "speech_in": 852.66,
+   "speech_out": 936.04,
    "src_trim": [
     0.0,
-    83.22
+    83.487
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.243,
    "join_gap": 0.35
   },
   {
    "batch": 12,
    "file": "batch-12.mp3",
-   "start": 933.65,
-   "end": 1037.15,
-   "speech_in": 933.65,
-   "speech_out": 1037.07,
+   "start": 936.31,
+   "end": 1039.859,
+   "speech_in": 936.39,
+   "speech_out": 1039.85,
    "src_trim": [
     0.0,
-    103.5
+    103.549
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.261,
    "join_gap": 0.35
   },
   {
    "batch": 13,
    "file": "batch-13.mp3",
-   "start": 1037.42,
-   "end": 1141.28,
-   "speech_in": 1037.42,
-   "speech_out": 1141.2,
+   "start": 1040.12,
+   "end": 1144.146,
+   "speech_in": 1040.2,
+   "speech_out": 1144.1,
    "src_trim": [
-    0.0,
-    103.86
+    0.02,
+    104.046
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.264,
    "join_gap": 0.35
   },
   {
    "batch": 14,
    "file": "batch-14.mp3",
-   "start": 1141.55,
-   "end": 1207.75,
-   "speech_in": 1141.55,
-   "speech_out": 1207.67,
+   "start": 1144.41,
+   "end": 1210.683,
+   "speech_in": 1144.45,
+   "speech_out": 1210.67,
    "src_trim": [
     0.0,
-    66.2
+    66.273
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.257,
    "join_gap": 0.35
   },
   {
    "batch": 15,
    "file": "batch-15.mp3",
-   "start": 1208.02,
-   "end": 1309.66,
-   "speech_in": 1208.02,
-   "speech_out": 1309.58,
+   "start": 1210.94,
+   "end": 1312.76,
+   "speech_in": 1211.02,
+   "speech_out": 1312.68,
    "src_trim": [
     0.0,
-    101.64
+    101.82
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.25,
    "join_gap": 0.35
   },
   {
    "batch": 16,
    "file": "batch-16.mp3",
-   "start": 1309.93,
-   "end": 1423.01,
-   "speech_in": 1309.93,
-   "speech_out": 1422.93,
+   "start": 1313.01,
+   "end": 1426.408,
+   "speech_in": 1313.03,
+   "speech_out": 1426.35,
    "src_trim": [
     0.0,
-    113.08
+    113.398
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.252,
    "join_gap": 0.35
   },
   {
    "batch": 17,
    "file": "batch-17.mp3",
-   "start": 1423.28,
-   "end": 1520.98,
-   "speech_in": 1423.28,
-   "speech_out": 1520.9,
+   "start": 1426.66,
+   "end": 1524.698,
+   "speech_in": 1426.7,
+   "speech_out": 1524.68,
    "src_trim": [
     0.0,
-    97.7
+    98.038
    ],
-   "pad_after": 0.19,
+   "pad_after": 0.312,
    "join_gap": 0.35
   },
   {
    "batch": 18,
    "file": "batch-18.mp3",
-   "start": 1521.17,
-   "end": 1647.31,
-   "speech_in": 1521.25,
-   "speech_out": 1647.23,
+   "start": 1525.01,
+   "end": 1652.13,
+   "speech_in": 1525.03,
+   "speech_out": 1652.05,
    "src_trim": [
-    0.74,
-    126.88
+    0.0,
+    127.12
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.23,
    "join_gap": 0.35
   },
   {
    "batch": 19,
    "file": "batch-19.mp3",
-   "start": 1647.58,
-   "end": 1753.34,
-   "speech_in": 1647.58,
-   "speech_out": 1753.26,
+   "start": 1652.36,
+   "end": 1758.234,
+   "speech_in": 1652.4,
+   "speech_out": 1758.22,
    "src_trim": [
     0.0,
-    105.76
+    105.874
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.316,
    "join_gap": 0.35
   },
   {
    "batch": 20,
    "file": "batch-20.mp3",
-   "start": 1753.61,
-   "end": 1835.03,
-   "speech_in": 1753.61,
-   "speech_out": 1834.95,
+   "start": 1758.55,
+   "end": 1840.339,
+   "speech_in": 1758.57,
+   "speech_out": 1840.33,
    "src_trim": [
     0.0,
-    81.42
+    81.789
    ],
-   "pad_after": 0.19,
+   "pad_after": 0.301,
    "join_gap": 0.35
   },
   {
    "batch": 21,
    "file": "batch-21.mp3",
-   "start": 1835.22,
-   "end": 1918.08,
-   "speech_in": 1835.3,
-   "speech_out": 1918.0,
+   "start": 1840.64,
+   "end": 1924.676,
+   "speech_in": 1840.68,
+   "speech_out": 1924.66,
    "src_trim": [
-    0.92,
-    83.78
+    0.0,
+    84.036
    ],
-   "pad_after": 0.19,
+   "pad_after": 0.314,
    "join_gap": 0.35
   },
   {
    "batch": 22,
    "file": "batch-22.mp3",
-   "start": 1918.27,
-   "end": 2007.21,
-   "speech_in": 1918.35,
-   "speech_out": 2007.13,
+   "start": 1924.99,
+   "end": 2015.034,
+   "speech_in": 1925.01,
+   "speech_out": 2015.01,
    "src_trim": [
-    0.8,
-    89.74
+    0.0,
+    90.044
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.266,
    "join_gap": 0.35
   },
   {
    "batch": 23,
    "file": "batch-23.mp3",
-   "start": 2007.48,
-   "end": 2094.58,
-   "speech_in": 2007.48,
-   "speech_out": 2094.5,
+   "start": 2015.3,
+   "end": 2102.549,
+   "speech_in": 2015.36,
+   "speech_out": 2102.5,
    "src_trim": [
     0.0,
-    87.1
+    87.249
    ],
-   "pad_after": 0.19,
+   "pad_after": 0.281,
    "join_gap": 0.35
   },
   {
    "batch": 24,
    "file": "batch-24.mp3",
-   "start": 2094.77,
-   "end": 2176.37,
-   "speech_in": 2094.85,
-   "speech_out": 2176.29,
+   "start": 2102.83,
+   "end": 2185.194,
+   "speech_in": 2102.85,
+   "speech_out": 2185.19,
    "src_trim": [
-    0.6,
-    82.2
+    0.0,
+    82.364
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.306,
    "join_gap": 0.35
   },
   {
    "batch": 25,
    "file": "batch-25.mp3",
-   "start": 2176.64,
-   "end": 2238.367,
-   "speech_in": 2176.64,
-   "speech_out": 2238.34,
+   "start": 2185.5,
+   "end": 2247.227,
+   "speech_in": 2185.54,
+   "speech_out": 2247.22,
    "src_trim": [
     0.0,
     61.727
    ],
-   "pad_after": 0.323,
+   "pad_after": 0.263,
    "join_gap": 0.35
   },
   {
    "batch": 26,
    "file": "batch-26.mp3",
-   "start": 2238.69,
-   "end": 2340.15,
-   "speech_in": 2238.69,
-   "speech_out": 2340.07,
+   "start": 2247.49,
+   "end": 2349.112,
+   "speech_in": 2247.57,
+   "speech_out": 2349.05,
    "src_trim": [
-    0.0,
-    101.46
+    0.02,
+    101.642
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.248,
    "join_gap": 0.35
   },
   {
    "batch": 27,
    "file": "batch-27.mp3",
-   "start": 2340.42,
-   "end": 2440.66,
-   "speech_in": 2340.42,
-   "speech_out": 2440.58,
+   "start": 2349.36,
+   "end": 2449.722,
+   "speech_in": 2349.4,
+   "speech_out": 2449.72,
    "src_trim": [
     0.0,
-    100.24
+    100.362
    ],
-   "pad_after": 0.27,
+   "pad_after": 0.288,
    "join_gap": 0.35
   },
   {
    "batch": 28,
    "file": "batch-28.mp3",
-   "start": 2440.93,
-   "end": 2515.59,
-   "speech_in": 2440.93,
-   "speech_out": 2515.51,
+   "start": 2450.01,
+   "end": 2524.87,
+   "speech_in": 2450.07,
+   "speech_out": 2524.79,
    "src_trim": [
     0.0,
-    74.66
+    74.86
    ],
    "pad_after": 0.0,
    "join_gap": 0.08

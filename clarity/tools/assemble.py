@@ -8,15 +8,23 @@ default 350ms, per rule 3 of the script pack. Files whose own trailing silence
 already exceeds the gap are trimmed back rather than left long, which is what
 keeps the joins even.
 """
-import argparse, json, os, subprocess, glob, re
+import argparse, json, os, subprocess, glob, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from sil import bounds as pcm_bounds
 
 FF = "ffmpeg"
 MARGIN = 0.08          # room tone kept either side of speech, seconds
 
 def bounds(name):
-    tr = json.load(open(f"clarity/transcripts/{name}.json"))
-    ws = [w for s in tr["segs"] for w in s["w"]]
-    return ws[0][0], ws[-1][1], tr["dur"]
+    """Speech bounds from the waveform, not from ASR.
+
+    Whisper's word timestamps are unreliable at both ends: it ends final words
+    up to 0.5s early and misses leading numerals entirely (batch 21 opens on
+    "Six hundred and twenty-seven" at 0.04s; whisper reported the first word at
+    1.00s). Trimming to those timestamps clipped real speech off 26 of 28
+    batches.
+    """
+    return pcm_bounds(f"clarity/vo/{name}.mp3")
 
 def main():
     ap = argparse.ArgumentParser()
