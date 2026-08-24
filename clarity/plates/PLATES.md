@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 72
-images across 16 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 77
+images across 17 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -27,6 +27,9 @@ images across 16 batches, stored under `inbox/`.
 | S040 | 11:00 | one wash take (b13-5) | no |
 | S041 | 11:22 | two takes (b14-3, b14-5) | no |
 | S043 | 12:12 | two takes (b14-2, b14-4) on different seeds | no |
+| S050 | 14:16 | one wash take (b17-1) | no |
+| **S051** | 14:36 | **b17-2 + b17-3 — FOURTH PAIR, 0.821** | **structurally yes; the sandal is modern — see below** |
+| S058 | 16:52 | one wash take (b17-5) | no |
 | S047 | 13:18 | b16-1 + b16-2, correct line/wash split at 0.538 | no — seed slipped |
 | **S048** | 13:34 | **b16-3 + b16-4 — THIRD PAIR, 0.860, the strongest yet** | **yes** |
 | S049 | 13:56 | one wash take (b16-5) | no |
@@ -52,6 +55,17 @@ Note that the abstract ink marks in b09-img1, img2 and img4 are **compliant**.
 S025 asks for *"annotation reduced to abstract"* and S027 for *"columned pages
 of abstract ink marks"*. That is not the batch-2 violation, where a vellum
 scrap carried script no prompt had asked for.
+
+## Regenerate — S051, the fourth pair
+
+b17-img2 and b17-img3 register at 0.821 and are otherwise a clean pair. The
+sandal in them is a **modern children's shoe**: buckled T-bar strap, stitched
+welt, moulded rubber sole. Every plate's negative prompt ends `no modern
+objects`, and a seventh-century child's sandal is a thonged leather sole.
+
+This is the only fully paired scene in the run so far, and it lands on *"The
+orphan you pushed away."* Better to regenerate the pair than to cut with an
+anachronism on that line.
 
 ## Hard reject — batch 13
 
@@ -96,7 +110,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` + `-wash` | **3 registering pairs in 72 plates** |
+| passes | `-line` + `-wash` | **4 registering pairs in 77 plates** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -266,3 +280,9 @@ the shutter is there, and everything else is dark indigo as asked.
 Batch 16 is the best of the run: three scenes, all Act 2, all reading their
 prompts exactly, one registering pair and a second (S047) that misses only on
 seed at 0.538.
+
+## Frame size is drifting too
+
+b17-img5 arrived at 1408x768, ratio 1.833 — a third size after 1376x768 (1.792)
+and one plate at 2752x1536. The pack asks for 1920x1080, ratio 1.778. Three
+different aspect ratios cannot share a timeline without per-plate cropping.
