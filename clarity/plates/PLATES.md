@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 67
-images across 15 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 72
+images across 16 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -27,6 +27,9 @@ images across 15 batches, stored under `inbox/`.
 | S040 | 11:00 | one wash take (b13-5) | no |
 | S041 | 11:22 | two takes (b14-3, b14-5) | no |
 | S043 | 12:12 | two takes (b14-2, b14-4) on different seeds | no |
+| S047 | 13:18 | b16-1 + b16-2, correct line/wash split at 0.538 | no — seed slipped |
+| **S048** | 13:34 | **b16-3 + b16-4 — THIRD PAIR, 0.860, the strongest yet** | **yes** |
+| S049 | 13:56 | one wash take (b16-5) | no |
 | S044 | 12:34 | two wash takes (b14-1, b15-1) on different seeds, 0.499 | no — b15-1 is the stronger plate |
 | S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
@@ -93,7 +96,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` + `-wash` | **2 registering pairs in 67 plates** |
+| passes | `-line` + `-wash` | **3 registering pairs in 72 plates** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -249,3 +252,17 @@ So both plates are **kept and flagged as undecided**. b14-img5 is the more
 doubtful of the two: dark vertical bands at both edges and soft lighting that
 suggests a photographed scroll. Neither claim is supportable from the numbers,
 and the eye has been wrong here before.
+
+## The third pair is the cleanest yet
+
+**b16-img3 + b16-img4 correlate at 0.860** — higher than either earlier pair —
+and the roles separate without argument: b16-3 carries **0.00% cool tone**,
+b16-4 carries **4.14%**, which is the indigo the wash lays in. Whole-frame
+saturation runs 0.232 against 0.274.
+
+It is S048, and the art is on-prompt: the thin line of lamplight escaping under
+the shutter is there, and everything else is dark indigo as asked.
+
+Batch 16 is the best of the run: three scenes, all Act 2, all reading their
+prompts exactly, one registering pair and a second (S047) that misses only on
+seed at 0.538.
