@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 51
-images across 11 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 56
+images across 12 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -21,7 +21,9 @@ images across 11 batches, stored under `inbox/`.
 | **S028** | 6:56 | **b10-1 + b10-4 — THE FIRST REGISTERING PAIR, 0.798** | **yes on structure, no on content — see below** |
 | S029 | 7:16 | b10-2 + b10-5, correct line/wash split but different seeds (0.121) | no |
 | S033 | 9:00 | two takes (b11-3, b11-4) on different seeds, 0.231 | no |
-| S002/S034 | 0:02 / 9:15 | a clean line plate (b11-1) joins the three washes | no — no shared seed |
+| **S002 *or* S034** | 0:02 / 9:15 | **b11-1 + b12-2 — SECOND PAIR, 0.818, across two batches** | **yes on structure; which scene is still unresolved** |
+| S036 | 9:40 | two wash takes (b12-1, b12-5) | no |
+| S037 | 9:56 | one wash take (b12-4) | no |
 | S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
 | S011 | 1:36 | four wash takes (b04-1, b04-2, b05-1, b05-4) | no — no line pass |
@@ -75,7 +77,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` + `-wash` | **1 registering pair in 51 plates** |
+| passes | `-line` + `-wash` | **2 registering pairs in 56 plates** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -153,6 +155,20 @@ the `-line` block is the whole remaining step.
 
 `platecheck.py` compares every captured plate against every other and reports
 line passes, near-duplicates, and registering pairs.
+
+## The second pair proves the seed survives between sessions
+
+**b11-img1 + b12-img2 correlate at 0.818**, and they arrived in different
+batches. Whatever holds the seed is not confined to a single sitting — it
+persisted from one batch to the next.
+
+The roles are clear on the numbers as well as the eye: b11-1 carries no colour
+fill at all (whole-frame saturation 0.188, zero cool tone), b12-2 has the washes
+laid in (0.284). Unlike the S028 pair, the art here is also on-prompt.
+
+The one thing unresolved is which scene it is. The cave interior serves both
+S002 at 0:02 and S034 at 9:15, and the pack defines S034 as a deliberate return
+to S002's composition, so only the `SAVE AS` name can separate them.
 
 ## The first registering pair — and a content problem
 
