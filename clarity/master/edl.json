@@ -1,7 +1,7 @@
 {
  "gap": 0.35,
  "margin": 0.08,
- "total": 231.98,
+ "total": 2515.59,
  "batches": [
   {
    "batch": 1,
@@ -41,6 +41,356 @@
    "src_trim": [
     0.0,
     90.66
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 4,
+   "file": "batch-04.mp3",
+   "start": 232.25,
+   "end": 305.55,
+   "speech_in": 232.25,
+   "speech_out": 305.47,
+   "src_trim": [
+    0.0,
+    73.3
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 5,
+   "file": "batch-05.mp3",
+   "start": 305.82,
+   "end": 372.16,
+   "speech_in": 305.82,
+   "speech_out": 372.08,
+   "src_trim": [
+    0.0,
+    66.34
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 6,
+   "file": "batch-06.mp3",
+   "start": 372.43,
+   "end": 461.25,
+   "speech_in": 372.43,
+   "speech_out": 461.17,
+   "src_trim": [
+    0.0,
+    88.82
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 7,
+   "file": "batch-07.mp3",
+   "start": 461.52,
+   "end": 566.56,
+   "speech_in": 461.52,
+   "speech_out": 566.48,
+   "src_trim": [
+    0.0,
+    105.04
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 8,
+   "file": "batch-08.mp3",
+   "start": 566.83,
+   "end": 653.27,
+   "speech_in": 566.83,
+   "speech_out": 653.19,
+   "src_trim": [
+    0.0,
+    86.44
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 9,
+   "file": "batch-09.mp3",
+   "start": 653.54,
+   "end": 745.06,
+   "speech_in": 653.54,
+   "speech_out": 744.98,
+   "src_trim": [
+    0.0,
+    91.52
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 10,
+   "file": "batch-10.mp3",
+   "start": 745.33,
+   "end": 849.846,
+   "speech_in": 745.33,
+   "speech_out": 849.81,
+   "src_trim": [
+    0.0,
+    104.516
+   ],
+   "pad_after": 0.314,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 11,
+   "file": "batch-11.mp3",
+   "start": 850.16,
+   "end": 933.38,
+   "speech_in": 850.16,
+   "speech_out": 933.3,
+   "src_trim": [
+    0.0,
+    83.22
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 12,
+   "file": "batch-12.mp3",
+   "start": 933.65,
+   "end": 1037.15,
+   "speech_in": 933.65,
+   "speech_out": 1037.07,
+   "src_trim": [
+    0.0,
+    103.5
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 13,
+   "file": "batch-13.mp3",
+   "start": 1037.42,
+   "end": 1141.28,
+   "speech_in": 1037.42,
+   "speech_out": 1141.2,
+   "src_trim": [
+    0.0,
+    103.86
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 14,
+   "file": "batch-14.mp3",
+   "start": 1141.55,
+   "end": 1207.75,
+   "speech_in": 1141.55,
+   "speech_out": 1207.67,
+   "src_trim": [
+    0.0,
+    66.2
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 15,
+   "file": "batch-15.mp3",
+   "start": 1208.02,
+   "end": 1309.66,
+   "speech_in": 1208.02,
+   "speech_out": 1309.58,
+   "src_trim": [
+    0.0,
+    101.64
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 16,
+   "file": "batch-16.mp3",
+   "start": 1309.93,
+   "end": 1423.01,
+   "speech_in": 1309.93,
+   "speech_out": 1422.93,
+   "src_trim": [
+    0.0,
+    113.08
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 17,
+   "file": "batch-17.mp3",
+   "start": 1423.28,
+   "end": 1520.98,
+   "speech_in": 1423.28,
+   "speech_out": 1520.9,
+   "src_trim": [
+    0.0,
+    97.7
+   ],
+   "pad_after": 0.19,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 18,
+   "file": "batch-18.mp3",
+   "start": 1521.17,
+   "end": 1647.31,
+   "speech_in": 1521.25,
+   "speech_out": 1647.23,
+   "src_trim": [
+    0.74,
+    126.88
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 19,
+   "file": "batch-19.mp3",
+   "start": 1647.58,
+   "end": 1753.34,
+   "speech_in": 1647.58,
+   "speech_out": 1753.26,
+   "src_trim": [
+    0.0,
+    105.76
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 20,
+   "file": "batch-20.mp3",
+   "start": 1753.61,
+   "end": 1835.03,
+   "speech_in": 1753.61,
+   "speech_out": 1834.95,
+   "src_trim": [
+    0.0,
+    81.42
+   ],
+   "pad_after": 0.19,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 21,
+   "file": "batch-21.mp3",
+   "start": 1835.22,
+   "end": 1918.08,
+   "speech_in": 1835.3,
+   "speech_out": 1918.0,
+   "src_trim": [
+    0.92,
+    83.78
+   ],
+   "pad_after": 0.19,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 22,
+   "file": "batch-22.mp3",
+   "start": 1918.27,
+   "end": 2007.21,
+   "speech_in": 1918.35,
+   "speech_out": 2007.13,
+   "src_trim": [
+    0.8,
+    89.74
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 23,
+   "file": "batch-23.mp3",
+   "start": 2007.48,
+   "end": 2094.58,
+   "speech_in": 2007.48,
+   "speech_out": 2094.5,
+   "src_trim": [
+    0.0,
+    87.1
+   ],
+   "pad_after": 0.19,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 24,
+   "file": "batch-24.mp3",
+   "start": 2094.77,
+   "end": 2176.37,
+   "speech_in": 2094.85,
+   "speech_out": 2176.29,
+   "src_trim": [
+    0.6,
+    82.2
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 25,
+   "file": "batch-25.mp3",
+   "start": 2176.64,
+   "end": 2238.367,
+   "speech_in": 2176.64,
+   "speech_out": 2238.34,
+   "src_trim": [
+    0.0,
+    61.727
+   ],
+   "pad_after": 0.323,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 26,
+   "file": "batch-26.mp3",
+   "start": 2238.69,
+   "end": 2340.15,
+   "speech_in": 2238.69,
+   "speech_out": 2340.07,
+   "src_trim": [
+    0.0,
+    101.46
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 27,
+   "file": "batch-27.mp3",
+   "start": 2340.42,
+   "end": 2440.66,
+   "speech_in": 2340.42,
+   "speech_out": 2440.58,
+   "src_trim": [
+    0.0,
+    100.24
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 28,
+   "file": "batch-28.mp3",
+   "start": 2440.93,
+   "end": 2515.59,
+   "speech_in": 2440.93,
+   "speech_out": 2515.51,
+   "src_trim": [
+    0.0,
+    74.66
    ],
    "pad_after": 0.0,
    "join_gap": 0.08
