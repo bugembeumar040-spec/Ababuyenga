@@ -1,8 +1,8 @@
 # Plate tracking
 
 180 plates are required: a `-line` and a `-wash` pass per scene, generated on
-the same seed group so the two register when composited. Received so far: 61
-images across 13 batches, stored under `inbox/`.
+the same seed group so the two register when composited. Received so far: 66
+images across 14 batches, stored under `inbox/`.
 
 ## Scenes covered so far
 
@@ -25,6 +25,9 @@ images across 13 batches, stored under `inbox/`.
 | S036 | 9:40 | two wash takes (b12-1, b12-5) | no |
 | S037 | 9:56 | two wash takes (b12-4, b13-4) on different seeds | no |
 | S040 | 11:00 | one wash take (b13-5) | no |
+| S041 | 11:22 | two takes (b14-3, b14-5) | no |
+| S043 | 12:12 | two takes (b14-2, b14-4) on different seeds | no |
+| S044 | 12:34 | one wash take (b14-1) | no |
 | S004 | 0:19 | two wash takes (b07-3, b07-4) | no — no line pass |
 | S010 | 1:24 | five wash takes (b04-5, b05-3, b05-5, b06-4, b06-5) | no — no line pass |
 | S011 | 1:36 | four wash takes (b04-1, b04-2, b05-1, b05-4) | no — no line pass |
@@ -90,7 +93,7 @@ enough to carry a public "AI BE AWARE" comment.
 
 | | pack asks | received |
 |---|---|---|
-| passes | `-line` + `-wash` | **2 registering pairs in 61 plates** |
+| passes | `-line` + `-wash` | **2 registering pairs in 66 plates** |
 | seed | shared across a pass pair | **no two images correlate above 0.37** |
 | format | PNG | **JPEG** |
 | size | 1920x1080 | **1376x768** — except b04-1, which came back 2752x1536 |
@@ -225,3 +228,24 @@ b13-img5 renders S040 with a single bird in an otherwise empty sky. That is
 correct: the prompt asks for *"a wash gradient from pale at the horizon to
 deeper above, and a single tiny bird high up."* It reads as an exception to the
 pack's emptiness rule and is not one.
+
+## Limits of the photoreal test
+
+The border test — is the frame edge paper, or some other material — caught the
+four photographic plates in batches 11 and 13, where a sheet was photographed on
+a wooden table. It is not a general detector, and batch 14 shows why.
+
+It flagged b14-img3 and b14-img5, which are S041: *"a heavy woollen blanket
+bunched on a floor, still shaped by a body, seen from above. **Dim interior
+light.** No figure."* A dark frame edge is what that prompt asks for, so the
+test is invalid for the scene.
+
+A second measure, fine-scale texture in the darkest quarter, did not separate
+them either: the two known photographs score 65 and 173, two known
+illustrations score 315 and 338, and these two land at 118 and 75 — inside the
+photographic range by that measure while reading as ink and wash by eye.
+
+So both plates are **kept and flagged as undecided**. b14-img5 is the more
+doubtful of the two: dark vertical bands at both edges and soft lighting that
+suggests a photographed scroll. Neither claim is supportable from the numbers,
+and the eye has been wrong here before.
