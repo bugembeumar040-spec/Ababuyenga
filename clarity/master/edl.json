@@ -1,0 +1,49 @@
+{
+ "gap": 0.35,
+ "margin": 0.08,
+ "total": 231.98,
+ "batches": [
+  {
+   "batch": 1,
+   "file": "batch-01.mp3",
+   "start": 0.0,
+   "end": 64.54,
+   "speech_in": 0.0,
+   "speech_out": 64.46,
+   "src_trim": [
+    0.0,
+    64.54
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 2,
+   "file": "batch-02.mp3",
+   "start": 64.81,
+   "end": 141.05,
+   "speech_in": 64.81,
+   "speech_out": 140.97,
+   "src_trim": [
+    0.0,
+    76.24
+   ],
+   "pad_after": 0.27,
+   "join_gap": 0.35
+  },
+  {
+   "batch": 3,
+   "file": "batch-03.mp3",
+   "start": 141.32,
+   "end": 231.98,
+   "speech_in": 141.32,
+   "speech_out": 231.9,
+   "src_trim": [
+    0.0,
+    90.66
+   ],
+   "pad_after": 0.0,
+   "join_gap": 0.08
+  }
+ ]
+}
