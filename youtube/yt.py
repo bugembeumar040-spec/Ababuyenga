@@ -13,9 +13,17 @@ def _post(url, fields):
 
 
 def access_token():
-    """Exchange the long-lived refresh token for a 1-hour access token."""
+    """Exchange the long-lived refresh token for a 1-hour access token.
+
+    YT_ACCESS_TOKEN short-circuits this, for a one-off run with a token
+    pasted straight from the OAuth Playground.
+    """
     if "tok" in _cache:
         return _cache["tok"]
+    direct = os.environ.get("YT_ACCESS_TOKEN", "").strip()
+    if direct:
+        _cache["tok"] = direct
+        return direct
     need = ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN")
     miss = [n for n in need if not os.environ.get(n)]
     if miss:
