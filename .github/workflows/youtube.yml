@@ -1,0 +1,76 @@
+name: YouTube channel automation
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: What to run
+        type: choice
+        default: report
+        options: [report, sync-preview, sync-apply, thumbnails-apply]
+  schedule:
+    # Mondays 09:00 UTC - weekly growth snapshot
+    - cron: "0 9 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-automation
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check credentials are present
+        run: |
+          for v in YT_CLIENT_ID YT_CLIENT_SECRET YT_REFRESH_TOKEN; do
+            if [ -z "${!v}" ]; then
+              echo "::error::Missing repo secret $v - see youtube/README.md"
+              exit 1
+            fi
+          done
+
+      - name: Weekly growth snapshot
+        if: github.event_name == 'schedule' || inputs.task == 'report'
+        working-directory: youtube
+        run: python3 report.py
+
+      - name: Preview metadata changes
+        if: inputs.task == 'sync-preview'
+        working-directory: youtube
+        run: python3 sync.py
+
+      - name: Apply metadata changes
+        if: inputs.task == 'sync-apply'
+        working-directory: youtube
+        run: python3 sync.py --apply
+
+      - name: Upload thumbnails
+        if: inputs.task == 'thumbnails-apply'
+        working-directory: youtube
+        run: python3 thumbnails.py --apply
+
+      - name: Commit growth log
+        if: github.event_name == 'schedule' || inputs.task == 'report'
+        run: |
+          if [ -n "$(git status --porcelain youtube/GROWTH.md)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add youtube/GROWTH.md
+            git commit -m "Growth snapshot $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No change to GROWTH.md"
+          fi
