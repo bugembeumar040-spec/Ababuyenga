@@ -35,7 +35,7 @@ def main():
         print(f"  ready   {vid}  ({size / 1024:.0f} KB)  {v.get('thumbnailText', '')}")
         if APPLY:
             api("thumbnails/set", "POST", params={"videoId": vid},
-                raw=img.read_bytes(), ctype="image/jpeg")
+                raw=img.read_bytes(), ctype="image/jpeg", upload=True)
             print("    uploaded")
 
     if not found:
