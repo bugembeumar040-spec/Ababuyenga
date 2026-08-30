@@ -83,6 +83,9 @@ ever writes to your channel without you clicking it.
 | `sync.py` | Pushes metadata. Idempotent — skips unchanged videos. |
 | `thumbnails.py` | Uploads `thumbs/<videoId>.jpg`. Skips missing files. |
 | `report.py` | Appends to `GROWTH.md`. |
+| `make_thumb.py` | Typesets artwork into a finished 1280×720 thumbnail. |
+| `art/` | Source illustrations, pre-text. |
+| `thumbs/` | Finished thumbnails, ready to upload. |
 | `auth.py` | One-time consent. Run locally only. |
 | `yt.py` | Shared auth + API helper. |
 
@@ -94,9 +97,23 @@ what actually differs, so re-running it is always safe.
 
 ### Adding thumbnails
 
-Drop `thumbs/<videoId>.jpg` (1280×720, under 2 MB) and run
-`thumbnails-apply`. The `thumbnailText` field in the JSON records the
-intended text for each one.
+3 of 8 are done and sit in `thumbs/`. To build another, drop the
+artwork in `art/<videoId>.png` and run:
+
+```bash
+python3 make_thumb.py <videoId> art/<videoId>.png --side right --theme cream
+```
+
+`--side` picks which zone the type occupies (`right`, `left`, `top`) —
+choose whichever third of the artwork is emptiest. `--theme` is `cream`
+or `navy` and must match the artwork's ground.
+
+Text is read from `thumbnailText` in the JSON, split on ` / `, and
+auto-sized to fill the zone. The last line is set in gold as the
+payoff. Never hand-set a size: type that is too small at 168px is the
+single biggest packaging failure this channel had.
+
+Then run `thumbnails-apply` to upload everything in `thumbs/`.
 
 ---
 
