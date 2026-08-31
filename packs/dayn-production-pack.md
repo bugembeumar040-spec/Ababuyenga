@@ -13,7 +13,7 @@ Full transcript pulled and mapped beat by beat. **Part 1** is the structural tea
 |---|---|---|
 | Runtime / words | 26:05 / ~3,900 | **150 wpm.** ~25% of runtime is pause. Do not write to 170. |
 | Cold-open branding | **Zero for 47s** | No "assalamu alaikum and welcome back." Pure scene. |
-| Second person ("you") | Absent until 23:00 (88%) | The viewer is never told it's about them until they've decided it is. |
+| Sustained direct address | Absent until 23:00 (88%) | The *word* "you" appears earlier as a hypothetical ("a man comes to your door"). What is withheld to 88% is address about **the viewer's own life**. |
 | Root-word reveals | 9, one per act | Never two in a row. Each gets a physical image. |
 | Verifiable outside facts | 3 | An object, an inscription, a place — things a viewer can go check. |
 | Honesty guardrails | 6 | "genuinely disputed" · "I won't pretend otherwise" · "anyone telling you that is selling something" |
@@ -102,15 +102,15 @@ This is already your channel's signature move — *Sabr Doesn't Mean Patience* i
 
 *(#1 is the strongest cold hook — it's a checkable fact almost nobody knows. #2 is the better title if the channel is already warm, because it's the actual payoff.)*
 
-**Specs:** ~4,300 spoken words · 150 wpm · **~28:40** · faceless
+**Specs:** ~4,420 spoken words · 150 wpm · **~29:30** · faceless
 
-> Section timecodes are planning estimates against the 26-minute source structure; as written this runs ~28:40, so real TCs drift ~2 min late by the back half. Lock them from your actual VO render before cutting picture. To land at 26:00, cut §14 to three items and compress §17 to the Al-'Abbas beat alone. · `[ ]` = delivery direction, do not read · every verse cited by surah:ayah for on-screen burn-in from your verified mushaf.
+> Section timecodes are planning estimates against the 26-minute source structure; as written this runs ~29:30, so real TCs drift ~2 min late by the back half. Lock them from your actual VO render before cutting picture. To land at 26:00, cut §14 to three items and compress §17 to the Al-'Abbas beat alone. · `[ ]` = delivery direction, do not read · every verse cited by surah:ayah for on-screen burn-in from your verified mushaf.
 
 ---
 
 ### 1 · COLD OPEN (0:00)
 
-A plain east of Makkah, in the second week of Dhul-Hijjah. The tenth year after the migration.
+A plain east of Makkah, on the ninth day of Dhul-Hijjah. The tenth year after the migration.
 
 The heat comes up off the gravel as much as it comes down from the sky. There is a mountain at the edge of the plain and there are more people gathered in front of it than have ever gathered in that place — the early sources put it above a hundred thousand, and the ones at the back cannot hear a thing, so men are stationed through the crowd to repeat each sentence outward, and the words move across that valley in waves.
 
@@ -146,7 +146,7 @@ That is the word. The Qur'an did not reach for a commercial term. It reached for
 
 ### 3 · THE CONTRAST (1:50)
 
-Lending at increase was not unusual in the world this arrived into. It was ordinary. Rates on documented loans across the late Roman and Sasanian world ran anywhere from a modest annual percentage to something a farmer could not survive, depending on who you were and how badly you needed it, and there was no moral difficulty attached to it in most of the legal systems of the region.
+Lending at increase was not unusual in the world this arrived into. It was ordinary, and it was regulated rather than condemned. Roman law had capped ordinary interest for centuries at what it called the *centesima usura* — one per cent a month, twelve a year — and the fact that a cap existed tells you the practice underneath it was assumed, legal, and universal. Justinian lowered the ceiling further in the century before the hijrah. Nobody was arguing about whether money should grow. They were arguing about how fast.
 
 What the commentators describe of pre-Islamic Arabia is sharper still. When a loan came due and the debtor could not pay, the creditor's question was not *when can you pay* — it was, in the phrase preserved in the tafsir literature: **"Will you settle, or will you increase?"** *A-taqdi am turbi.* And the debt doubled. Then the term ran again. And it doubled again.
 
@@ -164,7 +164,7 @@ And this channel explains; it issues no ruling. There are live disagreements amo
 
 Now the thing that should genuinely surprise you.
 
-Open a mushaf to Surah Al-Baqarah, verse 282. It is the longest verse in the Qur'an. Longer than any verse about salah. Longer than any verse about hajj. Longer than Ayat al-Kursi, which is the one everybody memorises, and which sits eight lines above it in the same surah.
+Open a mushaf to Surah Al-Baqarah, verse 282. It is the longest verse in the Qur'an. Longer than any verse about salah. Longer than any verse about hajj. Longer than Ayat al-Kursi, which is the one everybody memorises, and which sits twenty-seven verses above it in the same surah.
 
 And what is it about?
 
@@ -200,7 +200,7 @@ Surah Al-Baqarah 2:280.
 
 *"And if he is in hardship, then postponement until ease. And that you remit it as charity is better for you — if you only knew."*
 
-**Fa-naziratun ila maysarah.** *Nazirah* is a waiting, a looking-toward. *Maysarah* is from **ي س ر**, ease — the same root as the ease in *"indeed, with hardship comes ease"* in Surah Ash-Sharh.
+**Fa-naziratun ila maysarah.** *Nazirah* is a waiting, a looking-toward. *Maysarah* is from **ي س ر**, ease. And the word for the man's condition in the same clause — *dhū 'usrah* — is from **ع س ر**, hardship. Both roots, side by side, in one line of contract law. They are the exact two roots of *"indeed, with hardship comes ease"* in Surah Ash-Sharh 94:5.
 
 So the instruction is not *give him thirty days*. It is not a fixed extension. The deadline is moved to a condition: **wait until his circumstances change.**
 
@@ -262,7 +262,7 @@ Which raises the objection, and the tradition raises it before you do.
 
 If postponement is commanded and cancellation is praised and zakat can clear your arrears — what stops a man simply not paying?
 
-Nothing in this system, and it says so plainly. There's a hadith in Bukhari and Muslim of four words in Arabic: **matl al-ghani zulm.** The stalling of a man who *has it* is injustice.
+Nothing in this system, and it says so plainly. There's a hadith in Bukhari and Muslim, three words in Arabic: **matl al-ghani zulm.** The stalling of a man who *has it* is injustice.
 
 Not carelessness. Not poor admin. *Zulm* — the Qur'an's heaviest word for wrongdoing, the same word used for shirk.
 
@@ -328,13 +328,15 @@ Different audiences. Different words. No contradiction.
 
 And one more thing that has no place in this.
 
-Surah Al-Fajr 89:15–16 describes a man reading his own circumstances as a verdict. When he is given ease, he says *"my Lord has honoured me."* When his provision is restricted, he says *"my Lord has humiliated me."*
+Surah Al-Fajr 89:15–17 describes a man reading his own circumstances as a verdict. When he is given ease, he says *"my Lord has honoured me."* When his provision is restricted, he says *"my Lord has humiliated me."*
 
 And the Qur'an's response to both readings is a single syllable.
 
 **Kallā.** No.
 
-Not *sometimes*. Not *be careful with that*. A flat rejection of the entire logic — in both directions. The man reading his wealth as approval is corrected in the same breath as the man reading his hardship as rejection.
+Not *sometimes*. Not *be careful with that*. **No.**
+
+The mufassirun do differ on precisely what that *kallā* is negating — some read it as rejecting both of the man's readings outright, others as rejecting the framing and pivoting straight into the indictment about orphans that follows. But on the reading most commentators take, it lands on both directions at once: the man reading his wealth as approval is corrected in the same breath as the man reading his hardship as rejection.
 
 Your balance is not a report card on your standing with Allah. The Qur'an says so in one word, and it says it in a surah people recite in Fajr without noticing it's there.
 
@@ -356,7 +358,7 @@ Now the part I actually made this video for.
 
 The Arabic word for debt is **dayn**. **د ي ن.**
 
-There is another word from those same three letters. You said it this morning. You will say it again tonight, and if you pray five times you say it at least seventeen times a day, in the fourth line of the surah you cannot pray without.
+There is another word from those same three letters. You said it this morning. You will say it again tonight, and if you pray five times you say it at least seventeen times a day, in the fourth ayah of the surah you cannot pray without.
 
 *Māliki yawmi-d-**dīn**.*
 
@@ -392,7 +394,7 @@ And then Surah Al-Kahf 18:49. The record is laid open, and the response of the p
 
 Small nor large.
 
-Now go back forty-six pages, to the longest verse in the Qur'an, to the instruction about your loan:
+Now go back to the second surah, to the longest verse in the Qur'an, to the instruction about your loan:
 
 *"Do not be weary of writing it — **ṣaghīran aw kabīran**."*
 
@@ -422,7 +424,7 @@ What the Qur'an gives you here is not an exit. It is a different frame: an oblig
 
 There's one physical object I keep coming back to.
 
-The oldest dated document in the Arabic language that we currently have is not a Qur'anic manuscript, and it is not a treaty, and it is not a poem.
+The earliest dated Arabic papyrus we have — and I'm being precise about that, because there are older dated Arabic inscriptions carved in stone — is not a Qur'anic manuscript, and it is not a treaty, and it is not a poem.
 
 It is a receipt.
 
@@ -438,7 +440,7 @@ Not a scholar's commentary on 2:282. The instruction, in the dirt, in someone's 
 
 So. If you're the one carrying the number.
 
-Start with what the verse actually protects. The Qur'an put your situation in a fixed list of obligatory charity destinations, in the same breath as the poor and the stranded traveller. That is not pity. That is a category, in revelation, with your circumstance in it. Whatever you feel about yourself right now, the Book does not treat you as a problem that turned up unexpectedly.
+Start with the eight bowls. Surah At-Tawbah lists eight places obligatory charity is allowed to go, and one of them has your name on it. The Qur'an put your situation in a fixed list of obligatory charity destinations, in the same breath as the poor and the stranded traveller. That is not pity. That is a category, in revelation, with your circumstance in it. Whatever you feel about yourself right now, the Book does not treat you as a problem that turned up unexpectedly.
 
 Second, the paperwork is worship. Honest numbers. The real figure said out loud to the person you owe rather than another month of not opening the envelope. Every mechanism in 2:282 — the dictating, the witnessing, the writing small or large — exists to stop debts from becoming grievances. Clarity is the whole instruction.
 
@@ -491,7 +493,7 @@ He had it written down. He knew you would need the record.
 | 9 | 2:276 | *yamḥaqu-llāhu-r-**ribā** wa **yurbī**-ṣ-ṣadaqāt* |
 | 10 | 9:60 | *wa-l-**ghārimīn*** · 25:65 *kāna **gharāmā*** |
 | 13 | 2:283 | *rihānun maqbūḍah* · *fa-l-yu'addi-lladhī-'tumina **amānatah*** |
-| 16 | 89:15–16 | *kallā* |
+| 16 | 89:15–17 | *kallā* |
 | 18 | 1:4 | *māliki yawmi-d-**dīn*** · 56:86 *ghayra **madīnīn*** |
 | 19 | 82:11 | *kirāman **kātibīn*** · 18:49 *lā yughādiru **ṣaghīratan wa lā kabīrah*** |
 
