@@ -1,3 +1,6 @@
+### SUPERSEDED by pure-profit-images-v3.txt — script overwritten by ~40%,
+### numbers contradictory (scene 05 vs 08). Kept for the Track A prompts only.
+
 ================================================================================
 FOOTBALL % DECODED — "PURE PROFIT" — PROMPT PACK
 Two independent tracks: VIDEO (Higgsfield) and STILLS (any image model)
