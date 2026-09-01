@@ -2,7 +2,7 @@
 
 Two pastes and the Zap builds 33 frames.
 
-`pure-profit-frames.tsv` is tab-separated, so it pastes straight into
+`pure-profit-frames.txt` is tab-separated (a .txt file, tabs intact), so it pastes straight into
 Zapier Tables or Google Sheets — one cell per column, no import dialog,
 no quote mangling. (CSV would need quoting on every row because the
 prompts are full of commas; one bad paste and the whole sheet shifts.)
