@@ -1,0 +1,214 @@
+================================================================================
+FOOTBALL % DECODED — "PURE PROFIT" — VOICEOVER (ELEVENLABS V3)
+33 beats · 300.0s · 5:00 · ~700 words
+Pairs with pure-profit-image-pack.txt (frame numbers match beat numbers)
+================================================================================
+
+HOW TO RENDER
+
+Render ONE ACT PER REQUEST — six generations, not one and not thirty-three.
+
+  · eleven_v3 caps at roughly 3,000 characters. This script is ~4,000.
+    One take is not possible.
+  · Thirty-three separate one-line requests is the other failure. V3 needs
+    context to hold a delivery; on fragments it drifts in tone between
+    beats and burns far more credits.
+  · Acts run 38-94s each. That is the right size: enough context to stay
+    stable, small enough to re-roll a single act when one line lands wrong
+    without paying for the whole film again.
+
+SETTINGS
+  Model      eleven_v3
+  Stability  Natural  — Creative drifts on a read this flat; Robust
+                        ignores the tags
+  Voice      low, unhurried, no radio warmth. A man reading an accounts
+             sheet, not a documentary narrator.
+
+TAGS. Only well-supported tags are used. V3 will occasionally *speak* a
+bracketed tag it doesn't recognise — if you hear one, delete it rather
+than swapping in a synonym. Pacing here is carried by the ellipses and
+em-dashes, not by tags. That is deliberate and more reliable.
+
+TIMING. The map below is the target. If an act reads short, pad the gaps
+between beats — the film is built on holds. Never stretch the audio.
+
+
+================================================================================
+ACT ONE — THE SALE                                        0:00.0-0:48.0 · 48.0s
+================================================================================
+
+[serious] They sold the academy kid.
+
+Not because he wasn't good enough. Not because he asked to leave. They
+sold him because of where his name sat on a spreadsheet.
+
+Ten years at the club. Every age group. Two loans. A season where somebody
+finally decided he was ready.
+
+Forty appearances... and then a fee, an announcement, and a timeline full
+of people asking what the point of an academy is.
+
+There is a point. It just isn't the one printed on the badge.
+
+To understand why he went, you have to understand how a football club
+writes a player down.
+
+--------------------------------------------------------------------------------
+ #  | IN     | OUT    | LEN   | FIRST WORDS
+ 01 | 0:00.0 | 0:12.0 | 12.0s | They sold the academy kid...
+ 02 | 0:12.0 | 0:21.0 |  9.0s | Ten years at the club...
+ 03 | 0:21.0 | 0:30.0 |  9.0s | Forty appearances...
+ 04 | 0:30.0 | 0:38.0 |  8.0s | There is a point...
+ 05 | 0:38.0 | 0:48.0 | 10.0s | To understand why he went...
+
+
+================================================================================
+ACT TWO — HOW A SIGNING IS BOOKED                         0:48.0-2:22.0 · 94.0s
+================================================================================
+
+A club doesn't see a squad. It sees a column of numbers, and every one of
+them shrinks a little each year.
+
+Start with a signing. Fifty million pounds. Five-year contract. That is
+not a fifty million pound cost in the year you buy him.
+
+The fee is spread across the length of the deal. Ten million a year, for
+five years. Accountants call it amortisation.
+
+[curious] It is the most important word in modern football, and almost
+nobody says it out loud.
+
+Year one, ten million comes off. Year two, ten more. What's left is what
+he is still worth on paper. His book value.
+
+Two years in, twenty million written off. Thirty million left on the
+books — and he hasn't played any differently.
+
+Now — spread the same fee over eight years instead of five, and the annual
+cost drops from ten million to six. Clubs noticed.
+
+So the rules changed. Five years is the cap now. That change happened
+because of exactly this.
+
+Now sell him. Forty million pounds. [serious] But the fee is not the
+profit. Only the gap above book value is.
+
+Forty million, minus thirty. Ten million of profit... on a player you sold
+for forty.
+
+--------------------------------------------------------------------------------
+ 06 | 0:48.0 | 0:57.0 |  9.0s | A club doesn't see a squad...
+ 07 | 0:57.0 | 1:08.0 | 11.0s | Start with a signing...
+ 08 | 1:08.0 | 1:18.0 | 10.0s | The fee is spread...
+ 09 | 1:18.0 | 1:26.0 |  8.0s | It is the most important word...
+ 10 | 1:26.0 | 1:37.0 | 11.0s | Year one, ten million comes off...
+ 11 | 1:37.0 | 1:45.0 |  8.0s | Two years in...
+ 12 | 1:45.0 | 1:55.0 | 10.0s | Now — spread the same fee...
+ 13 | 1:55.0 | 2:04.0 |  9.0s | So the rules changed...
+ 14 | 2:04.0 | 2:13.0 |  9.0s | Now sell him...
+ 15 | 2:13.0 | 2:22.0 |  9.0s | Forty million, minus thirty...
+
+
+================================================================================
+ACT THREE — THE ACADEMY                                   2:22.0-3:00.0 · 38.0s
+================================================================================
+
+[curious] Now take the one they raised. Ten years in the building.
+Coached, fed, housed, schooled.
+
+And here is the part that decides his career: no transfer fee was ever
+paid for him.
+
+So there is nothing to write down. Nothing to spread across a contract.
+Nothing sitting on the books at all.
+
+[whispers] His book value is zero. And zero is the entire point of this
+film.
+
+--------------------------------------------------------------------------------
+ 16 | 2:22.0 | 2:31.0 |  9.0s | Now take the one they raised...
+ 17 | 2:31.0 | 2:41.0 | 10.0s | And here is the part...
+ 18 | 2:41.0 | 2:51.0 | 10.0s | So there is nothing to write down...
+ 19 | 2:51.0 | 3:00.0 |  9.0s | His book value is zero...
+
+
+================================================================================
+ACT FOUR — THE COLLISION                                  3:00.0-3:46.0 · 46.0s
+================================================================================
+
+Because if the book value is zero, then every pound of the fee is profit.
+All of it. Immediately.
+
+Forty million for the academy kid is forty million of profit.
+
+Forty million for the signing was ten.
+
+Same fee. Same afternoon at the training ground. Same player — if you only
+ever watch the football. Different line on the sheet.
+
+Four times the profit... for the boy who cost nothing.
+
+[serious] That is not a football decision. It never was.
+
+--------------------------------------------------------------------------------
+ 20 | 3:00.0 | 3:10.0 | 10.0s | Because if the book value is zero...
+ 21 | 3:10.0 | 3:16.0 |  6.0s | Forty million for the academy kid...
+ 22 | 3:16.0 | 3:21.0 |  5.0s | Forty million for the signing...
+      ^ FRAME 21 HOLDS THROUGH THIS BEAT — no cut, second number burns in.
+ 23 | 3:21.0 | 3:31.0 | 10.0s | Same fee...
+ 24 | 3:31.0 | 3:38.0 |  7.0s | Four times the profit...
+ 25 | 3:38.0 | 3:46.0 |  8.0s | That is not a football decision...
+
+
+================================================================================
+ACT FIVE — WHY IT HAPPENS IN JUNE                         3:46.0-4:46.0 · 60.0s
+================================================================================
+
+Now put a deadline on it. Every club files accounts. Profit and
+sustainability rules measure what is in them.
+
+The Premier League lets a club lose one hundred and five million pounds
+across three seasons. Cross it, and the punishment is the table itself.
+
+Two clubs found that out. Points gone, mid-season, over numbers filed a
+year earlier.
+
+So in the last week of June, a club doesn't need a player. [serious] It
+needs a figure.
+
+And when you need a figure fast, you don't sell the thirty million pound
+asset for a ten million gain.
+
+You sell the one whose entire fee lands as profit — on the right side of
+the deadline.
+
+--------------------------------------------------------------------------------
+ 26 | 3:46.0 | 3:56.0 | 10.0s | Now put a deadline on it...
+ 27 | 3:56.0 | 4:06.0 | 10.0s | The Premier League lets a club...
+ 28 | 4:06.0 | 4:15.0 |  9.0s | Two clubs found that out...
+ 29 | 4:15.0 | 4:25.0 | 10.0s | So in the last week of June...
+ 30 | 4:25.0 | 4:36.0 | 11.0s | And when you need a figure fast...
+ 31 | 4:36.0 | 4:46.0 | 10.0s | You sell the one whose entire fee...
+
+
+================================================================================
+ACT SIX — THE CLOSE                                       4:46.0-5:00.0 · 14.0s
+================================================================================
+
+[whispers] He was never a pathway.
+
+He was the cleanest number on the sheet. Ten years... so that one week in
+summer, somebody could balance a column.
+
+--------------------------------------------------------------------------------
+ 32 | 4:46.0 | 4:52.0 |  6.0s | He was never a pathway.
+ 33 | 4:52.0 | 5:00.0 |  8.0s | He was the cleanest number...
+
+
+================================================================================
+RIGHTS NOTE
+================================================================================
+
+Naming clubs, players and fees in this voiceover is commentary and it is
+fine. The ban is visual only — no badge, no kit, no likeness, no footage.
+Say it, never show it. See football/README.md.

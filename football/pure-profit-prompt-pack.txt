@@ -1,0 +1,420 @@
+### SUPERSEDED by pure-profit-images-v3.txt — script overwritten by ~40%,
+### numbers contradictory (scene 05 vs 08). Kept for the Track A prompts only.
+
+================================================================================
+FOOTBALL % DECODED — "PURE PROFIT" — PROMPT PACK
+Two independent tracks: VIDEO (Higgsfield) and STILLS (any image model)
+9:16 · 1080x1920 · 11 scenes · 55.00s
+Follows credit-card-prompt-pack.txt
+================================================================================
+
+WHAT THIS FILE IS
+
+The academy-sale film. Why a club sells the kid it raised and keeps the
+£70m signing it can't get rid of — book value, amortisation, and the sale
+that is one hundred percent profit.
+
+Same architecture as the credit card pack. Two complete, separate ways to
+shoot it. Pick one — do not mix them, the idioms don't cut together.
+
+  TRACK A — VIDEO.  11 generated clips, Higgsfield. Highest production
+                    value, highest cost, most drift risk.
+  TRACK B — STILLS. 11 generated images, moved in the edit. A quarter of
+                    the generations, no temporal artefacts, frames reusable
+                    as thumbnails, as X cards, and as b-roll later.
+
+House style, character treatment and the faceless rule carry over
+unchanged from the finance packs. This one adds a second ban — see RIGHTS.
+
+
+================================================================================
+RIGHTS — the ban that makes this pack postable
+================================================================================
+
+Football is not finance. There is a second rights layer on top of the
+usual one, and it is enforced harder than the footage is.
+
+NOTHING in this film may contain: a club badge or crest, a competition
+logo, a kit sponsor or manufacturer mark, a recognisable real player's
+face or likeness, a nameset, an identifiable stadium exterior, or any
+frame that could be mistaken for broadcast footage.
+
+Every prompt below asks for unbranded kit, blank boots, empty grounds and
+anonymous bodies on purpose. That is not an aesthetic constraint that
+happens to be safe — it is the safety, and it happens to be the aesthetic.
+
+The voiceover is where the specifics live. Naming clubs, players and fees
+in the VO and in burned-in text is commentary and it is fine. Say it,
+never show it.
+
+
+================================================================================
+SCENE MAP — the spine both tracks hang off
+================================================================================
+
+ #  | IN     | OUT    | LEN   | SCENE            | VO LINE
+----|--------|--------|-------|------------------|----------------------------
+ 01 | 0:00.0 | 0:05.0 | 5.00s | hook             | They sold the academy kid...
+ 02 | 0:05.0 | 0:10.2 | 5.20s | the book         | Every player bought goes on...
+ 03 | 0:10.2 | 0:15.0 | 4.80s | the spread       | The fee is spread across...
+ 04 | 0:15.0 | 0:19.0 | 4.00s | book value       | What's left is his book value
+ 05 | 0:19.0 | 0:24.0 | 5.00s | the gap          | Only the gap above it counts
+ 06 | 0:24.0 | 0:29.2 | 5.20s | the kid          | Now the one they raised
+ 07 | 0:29.2 | 0:34.2 | 5.00s | zero             | He cost nothing. Book value: zero
+ 08 | 0:34.2 | 0:38.7 | 4.50s | the collision    | Same fee. Not the same number
+ 09 | 0:38.7 | 0:44.1 | 5.40s | the sheet        | Same player, different line
+ 10 | 0:44.1 | 0:47.1 | 3.00s | the turn         | He was never a pathway
+ 11 | 0:47.1 | 0:55.0 | 7.90s | the close        | He was the cleanest asset...
+
+CLIP LENGTH NOTE (Track A). Scenes 01, 02, 06, 09 and 11 run past 5s — put
+those on a model that outputs 10s and trim to the OUT point. Everything
+else generates at 5s and trims. Never stretch a short clip to cover a long
+scene; the slow-down reads immediately.
+
+
+================================================================================
+VOICEOVER — full script
+================================================================================
+
+ 01  They sold the academy kid. Not because he wasn't good enough.
+ 02  Every player a club buys goes onto the books at a price.
+ 03  And that price gets spread across the length of his contract. A
+     slice each year.
+ 04  Four years in, most of it's been written off. What's left is his
+     book value.
+ 05  Sell him, and only the gap above that book value counts as profit.
+ 06  Now take the one they raised. Ten years in the academy, and no
+     transfer fee ever paid for him.
+ 07  So there's nothing on the books to write off. His book value is
+     zero. And zero is the entire point.
+ 08  Forty million for the academy kid is forty million of profit. Forty
+     million for the signing might be five.
+ 09  Same fee. Same afternoon. Same player, if you only watch the
+     football. Different line on the sheet.
+ 10  He was never a pathway.
+ 11  He was the cleanest asset they had. And on the one weekend the club
+     needed a number, he was the only one that worked. That's why he
+     left.
+
+
+================================================================================
+NUMBERS — burn these in during the edit, never generate them
+================================================================================
+
+Both tracks. Every prompt below asks for blank boards, blank ledgers and
+blank shirts on purpose.
+
+  01  (none — "SOLD" is the caption, and it lands harder alone)
+  02  SIGNED  £42,000,000
+  03  £42M ÷ 5 YEARS  =  £8.4M / YEAR
+  04  BOOK VALUE  £8.4M
+  05  SOLD £40M  −  BOOK £8.4M  =  PROFIT £31.6M
+  06  ACADEMY · 10 YEARS
+  07  COST TO SIGN  £0      BOOK VALUE  £0
+  08  £40M SALE → £5M PROFIT   vs   £40M SALE → £40M PROFIT
+  09  (none)
+  10  (none)
+  11  PURE PROFIT
+
+Scene 08 is your two-numbers-in-collision beat — the same device that
+carried "1% BACK vs 24.9% APR". Set the signing's £5M small and the
+academy £40M large, and hold the frame longer than feels comfortable.
+Give it the most typographic weight in the film.
+
+
+================================================================================
+================================  TRACK A  =====================================
+                        VIDEO — 11 CLIPS (HIGGSFIELD)
+================================================================================
+
+SETTINGS: 9:16 · 1080p · 5s or 10s per the scene map · text-to-video.
+
+CONSISTENCY: this film has no character to hold, which removes the drift
+risk that dominates the finance packs. What must hold instead is the
+GROUND — the same academy pitch, same weather, same hour. Generate CLIP 06
+first, it's the cleanest wide of the pitch. Save that frame and feed it as
+the reference image on clips 01, 06, 10 and 11.
+
+PALETTE: overcast morning, wet grass, low sun behind cloud. Desaturated
+greens, cold greys, one warm floodlight source. No stadium spectacle —
+this is a training ground at 7am, not a matchday.
+
+HIGGSFIELD NOTE: where a prompt names a camera move, set it with the
+platform's motion control rather than relying on prompt text — the presets
+hold far better than described motion. Keep every move slow. This house
+style has no fast camera anywhere in it.
+
+NEGATIVE PROMPT — paste once, applies to all 11 clips:
+
+facial features, eyes, mouth, nose, lips, eyebrows, face, portrait, club
+badge, crest, emblem, sponsor logo, kit manufacturer logo, competition
+logo, nameset, shirt number, recognisable footballer, celebrity likeness,
+identifiable stadium, broadcast overlay, scoreboard graphics, text,
+lettering, numbers, logos, brand names, watermark, signature, cartoon
+outlines, cel shading, flat vector, anime, 2D illustration, distorted
+hands, extra fingers, extra limbs, morphing objects, warping architecture,
+camera shake, whip pans, blurry, low resolution, oversaturated, plastic
+sheen, uncanny, stock-photo smiles, crowd celebration, confetti
+
+--------------------------------------------------------------------------------
+CLIP 01 · 0:00.0–0:05.0 · 5.00s · HOOK
+--------------------------------------------------------------------------------
+A single empty locker in a youth changing room, door hanging open, one
+bare wooden peg inside, a plain unbranded training shirt left folded on
+the bench below it. Cold morning light through a high frosted window. Dust
+in the air. Everything else in the room is in shadow.
+
+MOTION: very slow push in on the open locker. Nothing else moves.
+
+NOTE: the emptiness is the hook. Do not add a person, a bag, or a second
+open locker — one vacancy reads as a decision, several read as a clearout.
+
+--------------------------------------------------------------------------------
+CLIP 02 · 0:05.0–0:10.2 · 5.20s · THE BOOK
+--------------------------------------------------------------------------------
+A heavy ledger open on a desk in a dim office, thick ruled columns, all of
+them completely blank. A fountain pen resting in the gutter of the spine.
+Low warm desk lamp from the left, the rest of the room unlit. Shallow
+depth of field, the far page falling out of focus.
+
+MOTION: slow drift left to right along the ruled columns.
+
+NOTE: blank columns. The £42,000,000 goes on in the edit and it must land
+on empty paper.
+
+--------------------------------------------------------------------------------
+CLIP 03 · 0:10.2–0:15.0 · 4.80s · THE SPREAD
+--------------------------------------------------------------------------------
+Five identical squares of morning light thrown across a dark wooden floor
+by a window frame, evenly spaced, each one slightly weaker than the last
+as they recede into the room. Dust turning slowly in the beams.
+
+MOTION: locked off. Only the dust moves.
+
+NOTE: this is amortisation as an image — one thing cut into equal
+diminishing parts. Five squares, one per contract year. Count them.
+
+--------------------------------------------------------------------------------
+CLIP 04 · 0:15.0–0:19.0 · 4.00s · BOOK VALUE
+--------------------------------------------------------------------------------
+The last and faintest of those squares of light alone on the floorboards,
+almost gone, the rest of the frame in darkness. A single boot lying at the
+edge of it, unbranded, worn, laces loose.
+
+MOTION: extremely slow push in, closing on the boot.
+
+NOTE: continuity with 03 — same floor, same grain, same light direction.
+
+--------------------------------------------------------------------------------
+CLIP 05 · 0:19.0–0:24.0 · 5.00s · THE GAP
+--------------------------------------------------------------------------------
+Two stacks of plain unmarked paper on a dark desk, one tall and one short,
+side by side, lit hard from one side so the height difference throws a
+long shadow. Clean negative space above both stacks.
+
+MOTION: slow rise, camera lifting to hold both stacks and the empty space
+above them.
+
+NOTE: leave the top third of the frame empty. The subtraction sum lives
+there.
+
+--------------------------------------------------------------------------------
+CLIP 06 · 0:24.0–0:29.2 · 5.20s · THE KID
+--------------------------------------------------------------------------------
+Wide of an empty academy training pitch at first light. Grass heavy with
+dew, faint worn tracks along the touchline, small portable goals at the
+far end. Mist sitting low. A line of bare floodlight pylons unlit against
+a flat grey sky. No people, no markings beyond plain white lines.
+
+MOTION: slow lateral track across the pitch, left to right.
+
+NOTE: GENERATE THIS CLIP FIRST. It is the reference frame for the ground —
+save it and feed it into 01, 10 and 11 so the weather and hour hold.
+
+--------------------------------------------------------------------------------
+CLIP 07 · 0:29.2–0:34.2 · 5.00s · ZERO
+--------------------------------------------------------------------------------
+The same ledger from clip 02, now on a blank page — no ruling, no
+columns, nothing written. Just clean paper filling the frame, the pen
+lifted and out of shot. The desk lamp a little colder than before.
+
+MOTION: very slow push in until the paper fills the frame entirely.
+
+NOTE: the shot is deliberately close to nothing. Resist adding texture —
+the emptiness is the argument, and the two zeros land on it in the edit.
+
+--------------------------------------------------------------------------------
+CLIP 08 · 0:34.2–0:38.7 · 4.50s · THE COLLISION
+--------------------------------------------------------------------------------
+Two unbranded football shirts hanging side by side on a plain rail against
+a dark wall, identical in cut and colour, lit evenly and straight on.
+Perfectly symmetrical composition, generous empty wall either side.
+
+MOTION: locked off. Absolutely static.
+
+NOTE: your collision beat. The two shirts are identical on purpose — the
+only difference in the film is the number burned over each one. Hold the
+frame longer than feels comfortable.
+
+--------------------------------------------------------------------------------
+CLIP 09 · 0:38.7–0:44.1 · 5.40s · THE SHEET
+--------------------------------------------------------------------------------
+Overhead top-down of a single sheet of ruled paper on a dark desk,
+one horizontal line drawn across it in ink, the paper otherwise empty.
+Hard raking light from the left throwing the paper's texture into relief.
+
+MOTION: extremely slow rotation, the sheet turning a few degrees.
+
+NOTE: one line. The VO says "different line on the sheet" and the frame
+should be that literal.
+
+--------------------------------------------------------------------------------
+CLIP 10 · 0:44.1–0:47.1 · 3.00s · THE TURN
+--------------------------------------------------------------------------------
+The academy pitch again, now from the mouth of a dark players' tunnel
+looking out — the bright empty grass framed in a hard black rectangle.
+Nobody in the tunnel. Nobody on the pitch.
+
+MOTION: slow push forward toward the light, never reaching it.
+
+NOTE: shortest clip in the film and the only one with a compositional
+frame-within-frame. It should feel like an interruption.
+
+--------------------------------------------------------------------------------
+CLIP 11 · 0:47.1–0:55.0 · 7.90s · THE CLOSE
+--------------------------------------------------------------------------------
+Wide of the same academy pitch as clip 06, later — the mist burned off,
+the light flat and higher, the grass dry. Identical framing to 06. The
+portable goals have gone. Everything else is exactly the same.
+
+MOTION: locked off, holding, then the faintest slow pull back.
+
+NOTE: the film's rhyme. Match clip 06's framing as closely as the model
+will allow — feed 06's saved frame as reference. The only change in the
+shot is the absence, and "PURE PROFIT" burns in over it on the last beat.
+
+
+================================================================================
+================================  TRACK B  =====================================
+                        STILLS — 11 FRAMES (ANY IMAGE MODEL)
+================================================================================
+
+SETTINGS: 9:16 · 1080x1920 · text-to-image.
+
+The cheaper track and the one with no temporal artefacts. Every frame is
+moved in the edit — slow push, slow drift, slow rise — matching the MOTION
+line of the corresponding clip in Track A. A still pushed for five seconds
+is indistinguishable from a locked-off generated clip, and it costs a
+quarter as much.
+
+REUSE: these eleven frames are also your X cards. Frames 04, 07 and 08 in
+particular carry a single number well and can be posted on their own
+through the week between packs — which is the whole reason this track
+exists on a posting schedule.
+
+Same negative prompt as Track A. Same palette. Same rights ban.
+
+--------------------------------------------------------------------------------
+FRAME 01 · HOOK
+--------------------------------------------------------------------------------
+Open empty youth-team locker, bare wooden peg, plain unbranded folded
+training shirt on the bench beneath. Cold frosted window light, deep
+shadow around. Photographic, shallow depth of field.
+EDIT: slow push in.
+
+--------------------------------------------------------------------------------
+FRAME 02 · THE BOOK
+--------------------------------------------------------------------------------
+Open ledger on a dark desk, thick ruled columns entirely blank, fountain
+pen in the spine. Single warm lamp from the left. Photographic.
+EDIT: slow drift left to right.
+
+--------------------------------------------------------------------------------
+FRAME 03 · THE SPREAD
+--------------------------------------------------------------------------------
+Five squares of window light across a dark wooden floor, evenly spaced,
+each fainter than the last. Dust in the beams. Photographic, wide.
+EDIT: locked, or the slowest possible drift.
+
+--------------------------------------------------------------------------------
+FRAME 04 · BOOK VALUE
+--------------------------------------------------------------------------------
+A single worn unbranded boot at the edge of the last faint square of
+light, floorboards, darkness beyond. Photographic, close.
+EDIT: slow push in.   CARD: strongest single-number still in the set.
+
+--------------------------------------------------------------------------------
+FRAME 05 · THE GAP
+--------------------------------------------------------------------------------
+Two stacks of plain unmarked paper on a dark desk, one tall one short,
+hard side light, long shadow, empty space above. Photographic.
+EDIT: slow rise.
+
+--------------------------------------------------------------------------------
+FRAME 06 · THE KID
+--------------------------------------------------------------------------------
+Empty academy training pitch at first light, dew, low mist, small portable
+goals, unlit pylons, flat grey sky, no people. Photographic, very wide.
+EDIT: slow lateral drift.   Generate first — anchors the ground.
+
+--------------------------------------------------------------------------------
+FRAME 07 · ZERO
+--------------------------------------------------------------------------------
+A completely blank sheet of paper filling the frame, faint fibre texture,
+cold light. Photographic, macro.
+EDIT: slow push in.   CARD: carries "BOOK VALUE £0" alone extremely well.
+
+--------------------------------------------------------------------------------
+FRAME 08 · THE COLLISION
+--------------------------------------------------------------------------------
+Two identical unbranded football shirts on a plain rail against a dark
+wall, symmetrical, even frontal light, empty wall either side.
+Photographic.
+EDIT: locked off.   CARD: the account's signature image. Use it often.
+
+--------------------------------------------------------------------------------
+FRAME 09 · THE SHEET
+--------------------------------------------------------------------------------
+Top-down of ruled paper on a dark desk, one inked horizontal line, raking
+light from the left. Photographic.
+EDIT: slow rotation.
+
+--------------------------------------------------------------------------------
+FRAME 10 · THE TURN
+--------------------------------------------------------------------------------
+View from inside a dark players' tunnel onto bright empty grass, hard
+black frame around the light, nobody present. Photographic.
+EDIT: slow push toward the light.
+
+--------------------------------------------------------------------------------
+FRAME 11 · THE CLOSE
+--------------------------------------------------------------------------------
+The academy pitch from FRAME 06, identical framing, later light, mist
+gone, goals gone. Photographic, very wide.
+EDIT: locked, then the faintest pull back.
+NOTE: regenerate from FRAME 06's seed if the model supports it. The rhyme
+only works if the framing matches.
+
+
+================================================================================
+POSTING — what this pack becomes
+================================================================================
+
+One pack is a week of the account, not one post:
+
+  SAT/SUN  The 55s film. Native upload, 9:16, captions burned in — never
+           a link, X suppresses them and the audio-off audience is most
+           of it.
+  MON      Frame 08 as a card, the collision numbers over it.
+  THU      The voiceover as a 7-post thread, one scene per post, frames
+           04 and 07 attached to the beats that carry numbers.
+  ANY DAY  When an academy sale actually happens — and in a window one
+           will — quote it with scene 10's line. That is the post that
+           gets the account found.
+
+HOOK VARIANTS for the thread and the card, if the first doesn't move:
+
+  · Your club didn't sell him because he wasn't good enough.
+  · The academy isn't a pathway. It's a balance sheet.
+  · A £40m academy player and a £40m signing are not the same £40m.
+  · The cheapest player at the club is the most valuable one to sell.

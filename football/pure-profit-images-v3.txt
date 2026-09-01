@@ -1,0 +1,268 @@
+================================================================================
+FOOTBALL % DECODED — "PURE PROFIT" — STILLS PACK + ELEVENLABS V3 VO
+9:16 · 1080x1920 · 11 frames · 55.00s · images only
+SUPERSEDES pure-profit-prompt-pack.txt (both tracks)
+================================================================================
+
+AUDIT OF THE ORIGINAL SCRIPT — three findings, all fixed below
+
+ 1. THE SCRIPT WAS OVERWRITTEN BY ~40%.  This is the structural one. The
+    old VO ran ~180 words across 55.0s. At the deliberate pace this house
+    style uses (~145 wpm) that scene map holds ~130 words. Scene 11 was
+    29 words in 7.9s — 220 wpm, near auctioneer. Every scene was being
+    rushed to fit, which is exactly what kills a slow-camera film.
+    FIXED: rewritten to 128 words. Nothing else about the map changed.
+
+ 2. THE NUMBERS CONTRADICTED THEMSELVES.  Scene 05 burned in PROFIT
+    £31.6M; scene 08 then said the same signing returned "five". Both
+    can't be true, and the collision beat — the most screenshotted frame
+    in the film — was the one carrying the wrong figure.
+    FIXED: rebased on £50m / 5 years / sold after 2. Round, coherent,
+    and the collision lands at a clean 4x. See NUMBERS.
+
+ 3. SCENE 11 BURIED ITS OWN HOOK.  "The one weekend the club needed a
+    number" is the true mechanism but it was vague. Academy sales cluster
+    before the accounting deadline, and saying so is what makes the film
+    argue with people.
+    FIXED: "in the week the accounts were due."
+
+Rights ban, palette and negative prompt carry over unchanged from
+pure-profit-prompt-pack.txt. Say it, never show it.
+
+
+================================================================================
+NUMBERS — burn in during the edit, never generate
+================================================================================
+
+The signing: £50m, 5-year deal, sold after 2 years.
+The academy kid: no fee ever paid.
+
+  01  SOLD
+  02  SIGNED  £50,000,000
+  03  £50M ÷ 5 YEARS  =  £10M / YEAR
+  04  2 YEARS WRITTEN OFF · BOOK VALUE £30M
+  05  SOLD £40M  −  BOOK £30M  =  PROFIT £10M
+  06  ACADEMY · 10 YEARS
+  07  COST TO SIGN £0   ·   BOOK VALUE £0
+  08  £40M → £10M PROFIT      £40M → £40M PROFIT
+  09  (none)
+  10  (none)
+  11  PURE PROFIT
+
+Frame 08 is the collision. Set the signing's £10M small, the academy's
+£40M large, and hold it longer than feels comfortable.
+
+
+================================================================================
+ELEVENLABS V3 — VOICEOVER
+================================================================================
+
+RENDER IT AS ONE TAKE, NOT ELEVEN. V3 gets unstable on short fragments —
+it needs roughly 250+ characters of context to hold delivery, so eleven
+one-line generations will drift in tone and cost far more credits than
+one continuous read. Generate the block below whole, then cut to the
+scene map in the edit. Silence between beats is free and it is the house
+style anyway.
+
+SETTINGS
+  Model      eleven_v3
+  Stability  Natural  — Creative drifts on a read this flat; Robust
+                        ignores the tags entirely
+  Voice      low, unhurried, no radio warmth. This film is a man reading
+             an accounts sheet, not a documentary narrator.
+
+TAG WARNING. Only well-supported tags are used below. V3 occasionally
+*speaks* a bracketed tag it doesn't recognise — if you hear one, delete
+it rather than swapping in a synonym. Pacing here is carried by the
+ellipses and em-dashes, not by tags; that is deliberate and more reliable.
+
+--------------------------------------------------------------------------------
+THE READ — paste this whole block
+--------------------------------------------------------------------------------
+
+[serious] They sold the academy kid. Not because he wasn't good enough.
+
+Every player a club buys goes on the books at a price. That price is
+spread across his contract... a slice a year.
+
+Two years in, twenty million's gone. What's left is book value.
+
+Sell him — and only the gap above that counts as profit.
+
+[curious] Now the one they raised. Ten years. No fee ever paid.
+
+[whispers] Nothing on the books. Book value... zero. And zero is the point.
+
+Forty million for him is forty million profit. For the signing — ten.
+
+Same fee. Same player, if you only watch the football. Different line.
+
+[serious] He was never a pathway.
+
+[whispers] He was the cleanest number they had, in the week the accounts
+were due... That's why he left.
+
+--------------------------------------------------------------------------------
+SCENE MAP — cut the take to these
+--------------------------------------------------------------------------------
+
+ #  | IN     | OUT    | LEN   | FIRST WORDS
+----|--------|--------|-------|--------------------------------------------
+ 01 | 0:00.0 | 0:05.0 | 5.00s | They sold the academy kid...
+ 02 | 0:05.0 | 0:10.2 | 5.20s | Every player a club buys...
+ 03 | 0:10.2 | 0:15.0 | 4.80s | That price is spread...
+ 04 | 0:15.0 | 0:19.0 | 4.00s | Two years in...
+ 05 | 0:19.0 | 0:24.0 | 5.00s | Sell him — and only the gap...
+ 06 | 0:24.0 | 0:29.2 | 5.20s | Now the one they raised...
+ 07 | 0:29.2 | 0:34.2 | 5.00s | Nothing on the books...
+ 08 | 0:34.2 | 0:38.7 | 4.50s | Forty million for him...
+ 09 | 0:38.7 | 0:44.1 | 5.40s | Same fee...
+ 10 | 0:44.1 | 0:47.1 | 3.00s | He was never a pathway.
+ 11 | 0:47.1 | 0:55.0 | 7.90s | He was the cleanest number...
+
+If the read comes in short, pad the gaps — never stretch the audio.
+
+
+================================================================================
+IMAGE PACK — 11 FRAMES
+================================================================================
+
+Stills only. Each frame is moved in the edit; the MOVE line is the whole
+of the animation. A still pushed slowly for five seconds is
+indistinguishable from a generated clip and has no temporal artefacts.
+
+The set rhymes with the VO on one rule: ACCOUNTING OBJECTS FOR THE
+MECHANISM, THE GROUND FOR THE BOY. Ledger, light, paper and stacks carry
+the argument; the pitch, the locker and the tunnel carry the person. They
+alternate, and they meet at frame 08.
+
+PALETTE: overcast morning, wet grass, low sun behind cloud. Desaturated
+greens, cold greys, one warm lamp. Training ground at 7am, never a
+matchday. Photographic throughout, shallow depth of field, no
+illustration.
+
+GENERATE FRAME 06 FIRST — it anchors the ground. Reuse its seed on 01,
+10 and 11 so the weather and hour hold across the film.
+
+--------------------------------------------------------------------------------
+ 01  HOOK · burn: SOLD
+--------------------------------------------------------------------------------
+A single empty locker in a youth changing room, door hanging open, one
+bare wooden peg inside, a plain unbranded training shirt folded on the
+bench below. Cold light through a high frosted window, dust in the air,
+the rest of the room in shadow.
+MOVE: slow push in.
+NOTE: one vacancy reads as a decision. Two read as a clearout.
+
+--------------------------------------------------------------------------------
+ 02  THE BOOK · burn: SIGNED £50,000,000
+--------------------------------------------------------------------------------
+A heavy ledger open on a desk in a dim office, thick ruled columns
+completely blank, a fountain pen resting in the spine. Low warm lamp from
+the left, the rest unlit, the far page falling out of focus.
+MOVE: slow drift left to right along the columns.
+NOTE: blank columns — the fee lands on empty paper.
+
+--------------------------------------------------------------------------------
+ 03  THE SPREAD · burn: £50M ÷ 5 YEARS = £10M / YEAR
+--------------------------------------------------------------------------------
+Five identical squares of morning light thrown across a dark wooden floor
+by a window frame, evenly spaced, each slightly weaker than the last as
+they recede. Dust turning in the beams.
+MOVE: locked off.
+NOTE: amortisation as an image. Five squares, one per contract year.
+
+--------------------------------------------------------------------------------
+ 04  BOOK VALUE · burn: 2 YEARS WRITTEN OFF · BOOK VALUE £30M
+--------------------------------------------------------------------------------
+The same floorboards, the same window light — but the two nearest squares
+have gone dark, leaving three. Same grain, same light direction, same
+lens. A single worn unbranded boot lying at the edge of the nearest
+surviving square.
+MOVE: slow push in, closing on the boot.
+NOTE: three of five squares left is thirty of fifty million. The frame
+does the arithmetic before the text does.
+
+--------------------------------------------------------------------------------
+ 05  THE GAP · burn: SOLD £40M − BOOK £30M = PROFIT £10M
+--------------------------------------------------------------------------------
+Two stacks of plain unmarked paper on a dark desk, one slightly taller
+than the other, side by side, lit hard from one side so the difference
+throws a long shadow. Clean empty space above both.
+MOVE: slow rise.
+NOTE: keep the stacks CLOSE in height — the small gap is the point. Leave
+the top third empty for the sum.
+
+--------------------------------------------------------------------------------
+ 06  THE KID · burn: ACADEMY · 10 YEARS
+--------------------------------------------------------------------------------
+Wide of an empty academy training pitch at first light. Grass heavy with
+dew, faint worn tracks along the touchline, small portable goals at the
+far end, low mist, a line of unlit floodlight pylons against flat grey
+sky. No people. Plain white lines only.
+MOVE: slow lateral drift, left to right.
+NOTE: GENERATE FIRST. This is the reference frame for the whole film.
+
+--------------------------------------------------------------------------------
+ 07  ZERO · burn: COST TO SIGN £0 · BOOK VALUE £0
+--------------------------------------------------------------------------------
+A completely blank sheet of paper filling the frame — no ruling, no
+columns, nothing written. Faint fibre texture, cold light, the lamp
+colder than in frame 02.
+MOVE: slow push in until the paper fills the frame entirely.
+NOTE: resist adding texture. The emptiness is the argument.
+
+--------------------------------------------------------------------------------
+ 08  THE COLLISION · burn: £40M → £10M PROFIT   £40M → £40M PROFIT
+--------------------------------------------------------------------------------
+Two unbranded football shirts hanging side by side on a plain rail against
+a dark wall, identical in cut and colour, lit evenly and straight on.
+Symmetrical, generous empty wall either side.
+MOVE: locked off. Static.
+NOTE: the signature frame of the account. The shirts are identical on
+purpose — the only difference in the entire film is the number over each.
+
+--------------------------------------------------------------------------------
+ 09  THE SHEET · burn: none
+--------------------------------------------------------------------------------
+Overhead top-down of a single sheet of ruled paper on a dark desk, one
+horizontal line drawn across it in ink, otherwise empty. Hard raking light
+from the left throwing the paper's texture into relief.
+MOVE: very slow rotation, a few degrees.
+
+--------------------------------------------------------------------------------
+ 10  THE TURN · burn: none
+--------------------------------------------------------------------------------
+The academy pitch seen from the mouth of a dark players' tunnel — bright
+empty grass framed in a hard black rectangle. Nobody in the tunnel,
+nobody on the pitch.
+MOVE: slow push toward the light, never reaching it.
+NOTE: shortest beat, only frame-within-frame in the set. It should
+interrupt.
+
+--------------------------------------------------------------------------------
+ 11  THE CLOSE · burn: PURE PROFIT
+--------------------------------------------------------------------------------
+The pitch from frame 06, identical framing — mist burned off, light flat
+and higher, grass dry. The portable goals have gone. Everything else
+exactly the same.
+MOVE: locked, then the faintest pull back.
+NOTE: the rhyme. Reuse frame 06's seed. The only change in the shot is
+the absence.
+
+
+================================================================================
+POSTING
+================================================================================
+
+  SAT/SUN  the 55s film, native upload, captions burned in, no link
+  MON      frame 08 as a card, collision numbers over it
+  THU      the VO as a 7-post thread, frames 04 and 07 on the number beats
+  JUNE     hold one pack for the accounting deadline — that is the week
+           this film is news rather than evergreen
+
+HOOK VARIANTS
+  · Your club didn't sell him because he wasn't good enough.
+  · The academy isn't a pathway. It's a balance sheet.
+  · A £40m academy player and a £40m signing are not the same £40m.
+  · The cheapest player at the club is the most valuable one to sell.
