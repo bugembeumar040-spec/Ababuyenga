@@ -23,7 +23,7 @@ greens, cold greys, one warm lamp. A training ground at 7am and an office
 after hours — never a matchday. Photographic throughout, shallow depth of
 field, no illustration anywhere.
 
-ANCHOR. GENERATE FRAME 16 FIRST. Reuse its seed on 01, 31, 32 and 33 so
+ANCHOR. GENERATE FRAME 16 FIRST. Reuse its seed on 03, 32 and 33 so
 the ground, weather and hour hold across five minutes.
 
 RIGHTS. No club badge or crest, no competition logo, no sponsor or
@@ -204,7 +204,7 @@ far end, low mist, a line of unlit floodlight pylons against flat grey
 sky. No people. Plain white lines only.
 MOVE: slow lateral drift, left to right.
 NOTE: GENERATE THIS FIRST. Anchor frame for the whole film — save the seed
-for 01, 31, 32 and 33.
+for 03, 32 and 33.
 
 --------------------------------------------------------------------------------
  17 · 2:31.0 · 10.0s · NO FEE                                 BURN: COST TO SIGN £0
