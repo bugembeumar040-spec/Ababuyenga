@@ -81,7 +81,7 @@ of that group with the seed locked:
 | `LEDGER` | **05** | 06 |
 | `RAIL` | **21** | 22 |
 
-Everything marked `—` is standalone and can run in any order.
+Rows with an empty `seed_group` are standalone and can run in any order.
 
 `ROOM` matters most: 08 → 10 → 11 → 12 is the same floor with the light
 changing, and that sequence is where the film does its arithmetic. `RAIL`
