@@ -81,7 +81,8 @@ nobody says it out loud.
 Year one, ten million comes off. Year two, ten more. What's left is what
 he is still worth on paper. His book value.
 
-Two years in, twenty million written off. Thirty million left on the books.
+Two years in, twenty million written off. Thirty million left on the
+books — and he hasn't played any differently.
 
 Now — spread the same fee over eight years instead of five, and the annual
 cost drops from ten million to six. Clubs noticed.
@@ -143,7 +144,7 @@ Forty million for the academy kid is forty million of profit.
 Forty million for the signing was ten.
 
 Same fee. Same afternoon at the training ground. Same player — if you only
-ever watch the football.
+ever watch the football. Different line on the sheet.
 
 Four times the profit... for the boy who cost nothing.
 
@@ -153,6 +154,7 @@ Four times the profit... for the boy who cost nothing.
  20 | 3:00.0 | 3:10.0 | 10.0s | Because if the book value is zero...
  21 | 3:10.0 | 3:16.0 |  6.0s | Forty million for the academy kid...
  22 | 3:16.0 | 3:21.0 |  5.0s | Forty million for the signing...
+      ^ FRAME 21 HOLDS THROUGH THIS BEAT — no cut, second number burns in.
  23 | 3:21.0 | 3:31.0 | 10.0s | Same fee...
  24 | 3:31.0 | 3:38.0 |  7.0s | Four times the profit...
  25 | 3:38.0 | 3:46.0 |  8.0s | That is not a football decision...
