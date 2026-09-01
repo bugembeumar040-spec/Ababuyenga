@@ -1,6 +1,6 @@
 ================================================================================
 FOOTBALL % DECODED — "PURE PROFIT" — IMAGE PACK
-33 frames · 9:16 · 1080x1920 · stills only · 300.0s film
+33 beats / 32 renders (22 reuses 21) · 9:16 · 1080x1920 · stills only · 300.0s film
 Pairs with pure-profit-VO.txt (frame numbers match beat numbers)
 ================================================================================
 
@@ -74,13 +74,12 @@ NOTE: the team photographs are blank on purpose. This is the frame the
 rights ban gave us and it is better than the real thing.
 
 --------------------------------------------------------------------------------
- 03 · 0:21.0 · 9.0s · FORTY APPEARANCES                       BURN: 40 APPEARANCES
+ 03 · 0:21.0 · 9.0s · THE ANNOUNCEMENT                        BURN: 40 APPEARANCES
 --------------------------------------------------------------------------------
-A stack of training cones and a deflated ball in the corner of a worn
-training pitch, grass thin and patchy from use, white line faded.
-Overcast flat light.
-MOVE: slow drift right.
-
+An empty press conference table with a single microphone, a plain unmarked 
+backdrop board behind it, one empty chair, hard flat lighting, nobody in the 
+room
+MOVE: slow push in.
 --------------------------------------------------------------------------------
  04 · 0:30.0 · 8.0s · THE POINT                               BURN: (none)
 --------------------------------------------------------------------------------
@@ -209,10 +208,10 @@ for 03, 32 and 33.
 --------------------------------------------------------------------------------
  17 · 2:31.0 · 10.0s · NO FEE                                 BURN: COST TO SIGN £0
 --------------------------------------------------------------------------------
-A plain unbranded kit bag on a changing room bench, zipped shut, worn at
-the corners. Cold window light from above, bench and floor in shadow.
+A plain unbranded kit bag on a changing room bench, zipped shut, worn at the 
+corners, a blank paper luggage tag tied to the handle with nothing written on 
+it, cold window light from above, bench and floor in shadow
 MOVE: slow push in.
-
 --------------------------------------------------------------------------------
  18 · 2:41.0 · 10.0s · NOTHING TO WRITE DOWN                  BURN: (none)
 --------------------------------------------------------------------------------
@@ -244,25 +243,20 @@ MOVE: slow rise.
 NOTE: the rhyme with 14 does the work. Nothing to take away.
 
 --------------------------------------------------------------------------------
- 21 · 3:10.0 · 6.0s · THE COLLISION                 BURN: £40M → £10M   £40M → £40M
+ 21 · 3:10.0 · 6.0s · THE COLLISION                           BURN: ACADEMY  £40M -> £40M
 --------------------------------------------------------------------------------
-Two unbranded football shirts hanging side by side on a plain rail against
-a dark wall, identical in cut and colour, lit evenly and straight on.
-Symmetrical, generous empty wall either side.
-MOVE: locked off. Absolutely static.
-NOTE: THE SIGNATURE FRAME OF THE ACCOUNT. The shirts are identical on
-purpose — the only difference in five minutes of film is the number set
-over each one. Set the signing's £10M small and the academy's £40M large.
-This is the still that gets screenshotted; it is also your Monday card.
-
+Two unbranded football shirts hanging side by side on a plain rail against a 
+dark wall, identical in cut and colour, lit evenly and straight on, 
+symmetrical, generous empty wall either side
+MOVE: locked off, holds through beat 22.
+SEED: RAIL ANCHOR.
 --------------------------------------------------------------------------------
- 22 · 3:16.0 · 5.0s · ONE GONE                                BURN: (none)
+ 22 · 3:16.0 · 5.0s · THE COLLISION COMPLETES                 BURN: SIGNING  £40M -> £10M  (21 stays on screen)
 --------------------------------------------------------------------------------
-The same rail, same wall, same light — one shirt now missing, a bare
-hanger swinging very slightly where it was.
+REUSE THE FRAME 21 RENDER - do not generate. Same two shirts held while the 
+second number burns in beneath the first
 MOVE: locked off.
-NOTE: shortest frame in the film. Same seed as 21 or the cut fails.
-
+SEED: RAIL REUSE.
 --------------------------------------------------------------------------------
  23 · 3:21.0 · 10.0s · SAME PLAYER                            BURN: (none)
 --------------------------------------------------------------------------------
@@ -281,11 +275,10 @@ MOVE: slow drift along the four.
 --------------------------------------------------------------------------------
  25 · 3:38.0 · 8.0s · NOT A FOOTBALL DECISION                 BURN: (none)
 --------------------------------------------------------------------------------
-An office chair pushed back from an empty desk, lamp still on, ledger
-open, nobody in the room. Door ajar behind, dark corridor beyond.
+A plain rail against a dark wall with one unbranded football shirt hanging and 
+one bare hanger beside it where a second shirt was, even frontal light
 MOVE: locked off.
-
-
+SEED: RAIL.
 ================================================================================
 ACT FIVE — WHY IT HAPPENS IN JUNE                               frames 26-31
 ================================================================================
@@ -298,13 +291,12 @@ folders, one standing slightly proud of the rest. Cold overhead light.
 MOVE: slow push in on the proud folder.
 
 --------------------------------------------------------------------------------
- 27 · 3:56.0 · 10.0s · THE RULE                               BURN: −£105M / 3 SEASONS
+ 27 · 3:56.0 · 10.0s · THE RULE                               BURN: -£105M OVER 3 SEASONS
 --------------------------------------------------------------------------------
-A wall calendar, grid ruled and completely blank, one square shaded darker
-than the rest near the end of a row. Flat frontal light, plain wall.
-MOVE: very slow push in toward the dark square.
-NOTE: no month, no dates — they burn in. The dark square is 30 June.
-
+Three identical plain folders standing in a row on a dark shelf with a single 
+hard horizontal line marked on the wall just above them, cold overhead light, 
+deep shadow either side
+MOVE: very slow push in.
 --------------------------------------------------------------------------------
  28 · 4:06.0 · 9.0s · POINTS GONE                             BURN: POINTS DEDUCTION
 --------------------------------------------------------------------------------
@@ -313,12 +305,11 @@ wedge of light across the floor. Long perspective, deep shadow.
 MOVE: slow push down the corridor toward the lit door.
 
 --------------------------------------------------------------------------------
- 29 · 4:15.0 · 10.0s · A FIGURE, NOT A PLAYER                 BURN: (none)
+ 29 · 4:15.0 · 10.0s · THE DEADLINE                           BURN: (none)
 --------------------------------------------------------------------------------
-A desk clock in silhouette against a window of late evening light, blinds
-half drawn, the room otherwise unlit. Hands not clearly readable.
-MOVE: slow drift toward the window.
-
+A wall calendar with a ruled and completely blank grid, one square shaded 
+darker than the rest near the end of a row, flat frontal light, plain wall
+MOVE: very slow push in on the dark square.
 --------------------------------------------------------------------------------
  30 · 4:25.0 · 11.0s · WHICH ONE YOU SELL                     BURN: £10M GAIN   vs   £40M PROFIT
 --------------------------------------------------------------------------------
