@@ -15,13 +15,18 @@ So the upload itself is yours. Everything below is ready to paste.
 
 ## Schedule
 
-**Publish 22:00 today, Friday 21 August — UAE time.**
-In the scheduler field that is `2026-08-21T18:00:00Z` UTC.
+**Publish 21:00 tonight, Tuesday 1 September — UAE time.**
+In the scheduler field that is `2026-09-01T17:00:00Z` UTC.
 
-The 21:00 slot is gone — rendering the master and fixing a card that landed on
-the wrong frame took the time. 22:00 is still well inside the Gulf evening
-window and leaves headroom for YouTube to process an eighteen-minute 1080p file
-before it goes live.
+The 21 August slot lapsed while the session was idle, so this is re-set for
+today. A Tuesday is a slightly weaker slot than the Friday it was written for —
+midweek evening rather than the start of the UAE weekend — but 21:00 still sits
+in the Gulf evening window and travels the same way: 18:00 London, 13:00 New
+York, 22:00 Karachi.
+
+If you would rather have the stronger slot, **Friday 4 September at 21:00**
+(`2026-09-04T17:00:00Z`) opens the UAE weekend and is worth the three-day wait
+for a piece with no news hook.
 
 Why that slot:
 
@@ -35,14 +40,33 @@ Why that slot:
 - It travels well: 18:00 London, 13:00 New York, 22:00 Karachi, 20:00 Cairo and
   Istanbul. Gulf evening, UK early evening, US East midday.
 
-If you cannot get it uploaded and processed by 21:30, take **23:00 UAE**
-(`2026-08-21T19:00:00Z`) rather than rushing. Do not schedule a slot the upload
+If you cannot get it uploaded and processed by 20:30, take **22:30 UAE**
+(`2026-09-01T18:30:00Z`) rather than rushing. Do not schedule a slot the upload
 cannot make — a missed schedule publishes late and unannounced.
 
 ## The file
 
-`master/tumaninah-1080p.mp4` — 1920×1080, 18:07, H.264, AAC 48 kHz, −16.4 LUFS,
-89 MB. Committed to the repo so you can pull it.
+`tumaninah-1080p.mp4` — 1920×1080, 18:07, H.264, AAC 48 kHz, −16.4 LUFS, 89 MB.
+
+It is **not** in the repo: the remote's pre-receive hook refuses a file that
+size, and it exceeds the 30 MB I can hand over directly. It was sent to you in
+four parts instead. Put them in one folder and rejoin:
+
+```
+cat tumaninah-1080p.mp4.0*.part > tumaninah-1080p.mp4
+```
+
+Windows PowerShell:
+
+```
+cmd /c copy /b tumaninah-1080p.mp4.00.part+tumaninah-1080p.mp4.01.part+tumaninah-1080p.mp4.02.part+tumaninah-1080p.mp4.03.part tumaninah-1080p.mp4
+```
+
+Then check it rejoined intact — this must match:
+
+```
+72081ec95e7d5a44a5af81210c43b389
+```
 
 It is a 776 kb/s encode of a 1233 kb/s master. The master itself is 164 MB, which
 is over both the 30 MB I can send you directly and GitHub's 100 MB file limit, so
@@ -51,8 +75,9 @@ material — the picture is watercolour stills with no motion, so the bitrate is
 doing almost nothing. If you ever want the higher-rate version, `timing/master.py`
 rebuilds it in about fifteen minutes.
 
-Delete the mp4 from the repo once you have downloaded it; a 89 MB binary in git
-history is a cost you do not need to carry.
+If the checksum matches, the file is byte-identical to what I rendered and
+verified. If it does not, one part did not download fully — re-download that
+part rather than re-joining the same files.
 
 ## Steps
 
