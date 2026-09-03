@@ -687,3 +687,28 @@ RUN 2026-09-03 — 10 passes over taqwa-prompt-pack.txt
   10 PACKAGING    PASS  title 76c, description 889c, 16 tags 292c, thumb 3 lines
 
   ALL TEN PASSES CLEAN
+
+
+================================================================================
+GENERATION RUN — Flow Labs
+================================================================================
+
+Canvas:  https://elevenlabs.io/app/flows/nXUmhgKUqjRffZupGJRU
+Model:   flux-2-pro · 16:9 · 1920x1072 · 2 variations per beat
+Cost:    272.7 credits per image (~$0.027); ~545 per beat at 2 variations.
+
+  F01  DONE — two variations, youtube/art/taqwa/F01a.png, F01b.png
+       F01b is the cleaner plate: larger unbroken cream field on the right,
+       which is where make_thumb.py sets TAQWA / ISN'T / FEAR. F01a has the
+       richer wall and is the better in-film frame. The cloak reads the same
+       in both, so either can lock the cloth for F05, F08 and F14.
+  F02  DONE — one variation, youtube/art/taqwa/F02a.png. Note the model added
+       a faint central boss the prompt excluded; harmless at this scale, but
+       regenerate if it reads as decoration once the plate sits over it.
+  F03–F14  NOT GENERATED. The run stopped on the ElevenLabs free plan's daily
+       image cap (free_tier_image_limit_reached) after three images. The
+       remaining twelve need either the daily reset or a paid plan; prompts
+       are unchanged below and can be run straight through.
+
+RUN ORDER WHEN YOU RESUME. F05 first — it has to match the cloth in F01, and
+F08 and F14 then have to match F05. Everything else is independent.
