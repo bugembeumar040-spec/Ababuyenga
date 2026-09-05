@@ -26,11 +26,10 @@ channel is the creator's own pinned comment with 0 replies.
 
 **Reply:**
 
-> Thank you for stopping to say something. Worth knowing: "Allah" is just the
-> Arabic word for God — Arabic-speaking Christians use it in their prayers too.
-> So when I called out at 3am in that hospital bed, I was calling on the one
-> Creator, same as you would. We may not agree on everything, but you're genuinely
-> welcome here, and I hope life is gentle with you. 🤲
+> Thank you for being here, and for taking the time to say something. That night I
+> was just a frightened person in the dark calling out to my Creator, and I believe
+> He heard me. I'm not here to argue anyone out of what they hold onto — I only hope
+> that whatever you're carrying, you're carried through it too. Peace to you. 🤲
 
 ---
 
